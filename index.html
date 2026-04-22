@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ビルマ語 ＆ LC翻字エディタ</title>
+    <style>
+        :root { --key-bg: #fff; --key-active: #ffcc00; --accent: #007bff; }
+        body { font-family: sans-serif; background: #f0f4f8; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+        
+        .controls { margin-bottom: 15px; background: #fff; padding: 10px 20px; border-radius: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .controls label { cursor: pointer; font-weight: bold; color: var(--accent); display: flex; align-items: center; gap: 8px; }
+        #lc-mode { width: 18px; height: 18px; cursor: pointer; }
+
+        #display {
+            width: 90%; max-width: 850px; height: 140px; font-size: 28px;
+            padding: 15px; margin-bottom: 20px; border: 2px solid var(--accent);
+            border-radius: 10px; font-family: 'Myanmar Text', 'Times New Roman', serif; outline: none;
+        }
+
+        .keyboard-map { background: #cfd4d9; padding: 12px; border-radius: 12px; user-select: none; }
+        .row { display: flex; justify-content: center; margin-bottom: 5px; }
+        .key {
+            width: 50px; height: 52px; background: var(--key-bg); margin: 2px;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            border-radius: 6px; border: 1px solid #bbb; position: relative;
+        }
+        .key.active { background: var(--key-active) !important; transform: translateY(1px); }
+        .mm-char { font-size: 19px; font-weight: bold; }
+        .en-char { font-size: 9px; color: #888; position: absolute; top: 4px; left: 6px; }
+        .special { background: #b0b5ba; font-size: 11px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <label><input type="checkbox" id="lc-mode"> LC形式（翻字）にする</label>
+    </div>
+
+    <textarea id="display" placeholder="ここにタイピング..."></textarea>
+
+    <div class="keyboard-map" id="kb-map"></div>
+
+<script>
+// 標準ビルマ語配列
+const burmeseConfig = {
+    "Digit1": ["၁", "!"], "Digit2": ["၂", "\""], "Digit3": ["၃", "§"], "Digit4": ["၄", "$"],
+    "Digit5": ["၅", "%"], "Digit6": ["၆", "&"], "Digit7": ["၇", "/"], "Digit8": ["၈", "("],
+    "Digit9": ["၉", ")"], "Digit0": ["၀", "`="], "Minus": ["-", "?"], "Equal": ["^", "``"], "IntlYen": ["\\", "|"],
+    "KeyQ": ["အ", "ဦး"], "KeyW": ["ဝ", "ွ"], "KeyE": ["ေ", "ဲ"], "KeyR": ["ရ", "ြ"], "KeyT": ["တ", "ထ"],
+    "KeyY": ["ယ", "ျ"], "KeyU": ["ု", "ူ"], "KeyI": ["ိ", "ီ"], "KeyO": ["ဪ", "ဩ"], "KeyP": ["ပ", "ဖ"],
+    "BracketLeft": ["ဥ", "ဦ"], "BracketRight": ["`+", "*"],
+    "KeyA": ["ာ", "ါ"], "KeyS": ["သ", "ံ"], "KeyD": ["ဒ", "ဓ"], "KeyF": ["်", "္"], "KeyG": ["ဂ", "ဃ"],
+    "KeyH": ["ဟ", "ှ"], "KeyJ": ["ဇ", "ဈ"], "KeyK": ["က", "ခ"], "KeyL": ["လ", "ဠ"],
+    "Semicolon": ["ဣ", "ဤ"], "Quote": ["ဧ", "ဧး"], "Backslash": ["၏", "၎"],
+    "KeyZ": ["င", "ဏ"], "KeyX": ["ဋ", "ဌ"], "KeyC": ["စ", "ဆ"], "KeyV": ["ဍ", "ဎ"], "KeyB": ["ဗ", "ဘ"],
+    "KeyN": ["န", "ည"], "KeyM": ["မ", "ဉ"], "Comma": ["၊", "့"], "Period": ["။", "း"], "Slash": ["၌", "၍"],
+    "IntlRo": ["\\", "_"]
+};
+
+// LC形式の特殊マッピング
+const lcConfig = {
+    "KeyQ": ["ʾ", "ʾ"],
+    "KeyF": ["ʿ", "ʿ"],
+    "Period": ["̇", "ʺ"], // . -> ̇ , Shift+. -> ʺ
+    "Comma": ["̣", "ʹ"],  // , -> ̇ , Shift+, -> ʹ
+    "Quote": ["", "*"],   // Shift+:(Quote) -> *
+    "Minus": ["̄", ""],    // - -> ̄
+    "Equal": ["", "̃"],   // Shift+^(Equal) -> ̃
+};
+
+const layoutRows = [
+    ["Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8", "Digit9", "Digit0", "Minus", "Equal", "IntlYen"],
+    ["KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU", "KeyI", "KeyO", "KeyP", "BracketLeft", "BracketRight"],
+    ["KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "Semicolon", "Quote", "Backslash"],
+    ["KeyZ", "KeyX", "KeyC", "KeyV", "KeyB", "KeyN", "KeyM", "Comma", "Period", "Slash", "IntlRo"]
+];
+
+const display = document.getElementById('display');
+const kbMap = document.getElementById('kb-map');
+const lcMode = document.getElementById('lc-mode');
+let isShift = false;
+
+function render() {
+    kbMap.innerHTML = '';
+    const isLC = lcMode.checked;
+
+    layoutRows.forEach((row, rowIndex) => {
+        const rowDiv = document.createElement('div');
+        rowDiv.className = 'row';
+        row.forEach(code => {
+            const keyDiv = document.createElement('div');
+            keyDiv.className = 'key';
+            keyDiv.id = code;
+            
+            let char = "";
+            if (isLC) {
+                // LCモード時：特殊キーがあればそれを、なければ空欄（または英字）
+                const lcChars = lcConfig[code];
+                char = lcChars ? (isShift ? lcChars[1] : lcChars[0]) : "";
+            } else {
+                // 通常モード
+                const mmChars = burmeseConfig[code];
+                char = mmChars ? (isShift ? mmChars[1] : mmChars[0]) : "";
+            }
+            
+            const label = code.replace('Key','').replace('Digit','').replace('BracketLeft','@').replace('BracketRight','[');
+            keyDiv.innerHTML = `<span class="en-char">${label}</span><span class="mm-char">${char}</span>`;
+            rowDiv.appendChild(keyDiv);
+        });
+        kbMap.appendChild(rowDiv);
+    });
+}
+
+render();
+lcMode.addEventListener('change', render);
+
+window.addEventListener('keydown', (e) => {
+    if (e.key === 'Shift') { isShift = true; render(); return; }
+    
+    const keyEl = document.getElementById(e.code);
+    if (keyEl) keyEl.classList.add('active');
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+
+    const isLC = lcMode.checked;
+    
+    if (isLC) {
+        // LCモード
+        const lcChars = lcConfig[e.code];
+        if (lcChars) {
+            const char = isShift ? lcChars[1] : lcChars[0];
+            if (char !== "") {
+                e.preventDefault();
+                insertText(char);
+            }
+        }
+        // 特殊指定がないキーは e.preventDefault() しないのでそのまま英字が出る
+    } else {
+        // ビルマ語モード
+        const mmChars = burmeseConfig[e.code];
+        if (mmChars) {
+            e.preventDefault();
+            insertText(isShift ? mmChars[1] : mmChars[0]);
+        }
+    }
+});
+
+window.addEventListener('keyup', (e) => {
+    if (e.key === 'Shift') { isShift = false; render(); }
+    const keyEl = document.getElementById(e.code);
+    if (keyEl) keyEl.classList.remove('active');
+});
+
+function insertText(char) {
+    const start = display.selectionStart;
+    const end = display.selectionEnd;
+    display.setRangeText(char, start, end, 'end');
+    display.focus();
+}
+</script>
+
+</body>
+</html>
