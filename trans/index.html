@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burmese to ALA-LC Transliteration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Burmese Romanization</h1>
+        <div class="converter-layout">
+            <div class="input-group">
+                <label for="burmese-input">TEXT (Burmese): </label>
+                <textarea id="burmese-input" placeholder="ここにビルマ文字を入力してください..."></textarea>
+            </div>
+            <div class="actions">
+                <button id="transliterate-btn">Transliterate ▶</button>
+            </div>
+            <div class="input-group">
+                <label for="roman-output">RESULT (ALA-LC): </label>
+                <textarea id="roman-output" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="transliterate.js"></script>
+</body>
+</html>
