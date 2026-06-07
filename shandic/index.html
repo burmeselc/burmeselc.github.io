@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>辞書検索サイト</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #search {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        #status {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .entry {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+        .entry:last-child {
+            border-bottom: none;
+        }
+        .word {
+            font-size: 22px;
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 5px;
+        }
+        .definition {
+            font-size: 16px;
+            line-height: 1.6;
+            white-space: pre-wrap; /* 改行や空白を維持 */
+        }
+        .loading {
+            text-align: center;
+            color: #999;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>辞書検索</h1>
+    <input type="text" id="search" placeholder="言葉や意味で検索..." disabled>
+    <div id="status">データを読み込み中...</div>
+    <div id="results"></div>
+</div>
+
+<script>
+    let dictionaryData = [];
+    const searchInput = document.getElementById('search');
+    const statusDiv = document.getElementById('status');
+    const resultsDiv = document.getElementById('results');
+
+    // 1. CSVファイルの読み込み
+    Papa.parse('dictionary.csv', {
+        download: true,
+        header: false, // 1行目がヘッダー（列名）ではない場合はfalse
+        skipEmptyLines: true,
+        complete: function(results) {
+            dictionaryData = results.data;
+            statusDiv.textContent = `${dictionaryData.length} 件のデータを読み込みました。`;
+            searchInput.disabled = false; // 読み込み完了後に検索窓を有効化
+            searchInput.focus();
+        },
+        error: function(err) {
+            statusDiv.textContent = 'データの読み込みに失敗しました。';
+            console.error(err);
+        }
+    });
+
+    // 2. 検索処理の実装
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        resultsDiv.innerHTML = '';
+
+        if (query === '') {
+            return;
+        }
+
+        // CSVの構造 [0: ID, 1: 見出し語, 2: 意味・解説] に基づいてフィルタリング
+        const filtered = dictionaryData.filter(row => {
+            const word = row[1] ? row[1].toLowerCase() : '';
+            const definition = row[2] ? row[2].toLowerCase() : '';
+            return word.includes(query) || definition.includes(query);
+        });
+
+        // 描画パフォーマンスのため、最大表示件数を100件に制限
+        const maxResults = 100;
+        const displayCount = Math.min(filtered.length, maxResults);
+
+        for (let i = 0; i < displayCount; i++) {
+            const row = filtered[i];
+            
+            const entryDiv = document.createElement('div');
+            entryDiv.className = 'entry';
+
+            const wordDiv = document.createElement('div');
+            wordDiv.className = 'word';
+            wordDiv.textContent = row[1]; // 見出し語
+
+            const defDiv = document.createElement('div');
+            defDiv.className = 'definition';
+            defDiv.textContent = row[2]; // 意味・解説
+
+            entryDiv.appendChild(wordDiv);
+            entryDiv.appendChild(defDiv);
+            resultsDiv.appendChild(entryDiv);
+        }
+
+        if (filtered.length > maxResults) {
+            const moreDiv = document.createElement('div');
+            moreDiv.className = 'loading';
+            moreDiv.textContent = `ほかにも ${filtered.length - maxResults} 件のマッチがあります。条件を絞り込んでください。`;
+            resultsDiv.appendChild(moreDiv);
+        }
+
+        if (filtered.length === 0) {
+            resultsDiv.textContent = '該当する結果が見つかりませんでした。';
+        }
+    });
+</script>
+
+</body>
+</html>
