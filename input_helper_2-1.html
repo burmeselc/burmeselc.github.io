@@ -258,14 +258,14 @@
     'တ': 't', 'ထ': 'th', 'ဒ': 'd', 'ဓ': 'dh', 'န': 'n',
     'ပ': 'p', 'ဖ': 'ph', 'ဗ': 'b', 'ဘ': 'bh', 'မ': 'm',
     'ယ': 'y', 'ရ': 'r', 'လ': 'l', 'ဝ': 'v', 'သ': 's',
-    'ဟ': 'h', 'ဠ': 'ḷ', 'အ': '’'
+    'ဟ': 'h', 'ဠ': 'ḷ', 'အ': 'ʾ'
   };
 
   const medials = { 'ျ': 'y', 'ြ': 'r', 'ွ': 'v', 'ှ': 'h' };
 
   const dependentVowels = {
     'ို': 'ui', 'ို': 'ui',
-    'ေါ်': 'oʻ', 'ော်': 'oʻ',
+    'ေါ်': 'oʿ', 'ော်': 'oʿ',
     'ေါ': 'o', 'ော': 'o',
     'ာ': 'ā', 'ါ': 'ā',
     'ိ': 'i', 'ီ': 'ī',
@@ -275,7 +275,7 @@
 
   const independentVowels = {
     'ဣ': 'i', 'ဤ': 'ī', 'ဥ': 'u', 'ဦ': 'ū',
-    'ဧ': 'e', 'ဩ': 'o', 'ဪ': 'oʻ'
+    'ဧ': 'e', 'ဩ': 'o', 'ဪ': 'oʿ'
   };
 
   const finalMarks = { 'ံ': 'ṃ', '့': 'ʹ', 'း': 'ʺ' };
@@ -392,7 +392,7 @@
         if (!vowel && !baseAsat) s += 'a';
 
         if (finalConsonant) s += finalConsonant;
-        if (baseAsat) s += 'ʻ';
+        if (baseAsat) s += 'ʿ';
 
         while (i < text.length && finalMarks[text[i]] !== undefined) {
           s += finalMarks[text[i]];
