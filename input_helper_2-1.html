@@ -373,10 +373,10 @@
         }
 
         // A consonant + asat immediately following belongs to the same syllable
-        // (e.g. လုပ် = lu + pʻ, not "lu pʻ").
+        // (e.g. လုပ် = lu + pʿ, not "lu pʿ").
         let finalConsonant = '';
         if (isBurmeseConsonant(text[i]) && text[i + 1] === '်') {
-          finalConsonant = consonants[text[i]] + 'ʻ';
+          finalConsonant = consonants[text[i]] + 'ʿ';
           i += 2;
         }
 
