@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bibliography Input Helper + ALA-LC Checker</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    max-width: 1100px;
+    margin: 28px auto;
+    padding: 0 18px 40px;
+    font-family: Arial, "Noto Sans JP", sans-serif;
+    color: #222;
+    background: #fff;
+  }
+  h1 { margin: 0 0 10px; font-size: 26px; }
+  .note { margin: 0 0 18px; font-size: 14px; color: #555; line-height: 1.7; }
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 18px;
+    background: rgba(255,255,255,.96);
+    border-bottom: 1px solid #ddd;
+  }
+  button {
+    padding: 7px 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background: #f7f7f7;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  button:hover { background: #eee; }
+  .char-button {
+    min-width: 54px;
+    font-family: "Padauk", "Times New Roman", serif;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .status { margin-left: auto; font-size: 13px; color: #555; }
+  .panel { margin-bottom: 28px; }
+  .panel h2 { margin: 0 0 8px; font-size: 20px; }
+  textarea {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 170px;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.6;
+    resize: vertical;
+    tab-size: 4;
+  }
+  #padauk { font-family: "Padauk", sans-serif; }
+  #times { font-family: "Times New Roman", serif; }
+  .visualized, .auto-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 88px;
+    margin-top: 7px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f7f7f7;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-size: 20px;
+    line-height: 1.6;
+    tab-size: 4;
+  }
+  #padauk-view { font-family: "Padauk", sans-serif; }
+  #times-view, #auto-diff, #auto-plain { font-family: "Times New Roman", serif; }
+  .marker {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.82em;
+    opacity: 0.7;
+    border-radius: 3px;
+    padding: 0 2px;
+  }
+  .space::before { content: "·"; }
+  .nbsp::before { content: "⍽[NBSP]"; }
+  .tab::before { content: "→"; }
+  .newline::before { content: "↵"; }
+  .zero-width { border: 1px dashed #aaa; background: #fff; }
+  .codepoint-box {
+    margin-top: 8px;
+    padding: 9px 11px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fafafa;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+  }
+  .comparison-head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    align-items: center;
+    margin: 0 0 8px;
+  }
+  .comparison-status {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .counts { font-size: 13px; color: #555; }
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 8px 0;
+    font-size: 13px;
+    color: #444;
+  }
+  .options label { cursor: pointer; }
+  .diff-case {
+    background: #fff1a8;
+    border-radius: 2px;
+  }
+  .diff-space {
+    background: #cfe8ff;
+    border-radius: 2px;
+  }
+  .diff-char {
+    background: #ffc9cf;
+    border-radius: 2px;
+    text-decoration: underline wavy #a40012;
+    text-decoration-thickness: 1px;
+  }
+  .diff-missing {
+    background: #ffc9cf;
+    border-radius: 2px;
+    text-decoration: line-through;
+  }
+  .insert-marker {
+    display: inline-block;
+    min-width: 0.55em;
+    padding: 0 2px;
+    margin: 0 1px;
+    border: 1px solid #a40012;
+    border-radius: 2px;
+    background: #fff0f2;
+    color: #a40012;
+    font-family: Arial, sans-serif;
+    font-size: 0.62em;
+    line-height: 1.3;
+    vertical-align: 0.18em;
+    text-align: center;
+  }
+  .insert-space {
+    border-color: #3978a8;
+    background: #eaf5ff;
+    color: #245d89;
+  }
+  .muted-diff {
+    background: transparent !important;
+    text-decoration: none !important;
+  }
+  .legend {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.7;
+  }
+  .diff-legend span {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 1px 4px;
+    border-radius: 2px;
+  }
+  .footer-note { margin-top: 20px; font-size: 13px; color: #666; line-height: 1.7; }
+  .small-label { margin-top: 9px; margin-bottom: 3px; font-size: 13px; color: #555; }
+</style>
+</head>
+<body>
+<h1>Bibliography Input Helper + ALA-LC Checker</h1>
+<p class="note">
+  ビルマ文字から機械的なALA-LC候補を自動生成し、Times New Roman欄の手入力とリアルタイム比較します。
+  Ctrl+Enterでビルマ文字欄とALA-LC手入力欄を切り替えます。入力内容はこのブラウザ内に自動保存されます。
+</p>
+
+<div class="toolbar">
+  <button type="button" class="char-button" onclick="insertText('ဿ')">ဿ</button>
+  <button type="button" class="char-button" onclick="insertText('၍')">၍</button>
+  <button type="button" class="char-button" onclick="insertText('*')">*</button>
+  <button type="button" onclick="copyAll()">全コピー</button>
+  <button type="button" onclick="clearAll()">全消去</button>
+  <span id="status" class="status">自動保存: ON</span>
+</div>
+
+<section class="panel">
+  <h2>ビルマ文字 / Padauk</h2>
+  <textarea id="padauk" spellcheck="false" autocomplete="off"></textarea>
+  <div id="padauk-view" class="visualized" aria-label="Padauk可視化表示"></div>
+  <div id="padauk-codepoint" class="codepoint-box">カーソル位置の文字: —</div>
+</section>
+
+<section class="panel">
+  <h2>ALA-LC 手入力 / Times New Roman</h2>
+  <textarea id="times" spellcheck="false" autocomplete="off"></textarea>
+  <div id="times-view" class="visualized" aria-label="Times New Roman可視化表示"></div>
+  <div id="times-codepoint" class="codepoint-box">カーソル位置の文字: —</div>
+</section>
+
+<section class="panel">
+  <h2>自動翻字との比較</h2>
+  <div class="comparison-head">
+    <span id="comparison-status" class="comparison-status">—</span>
+    <span id="comparison-counts" class="counts"></span>
+  </div>
+  <div class="options">
+    <label><input type="checkbox" id="nfc-option" checked> NFC正規化して比較</label>
+    <label><input type="checkbox" id="focus-option"> 大文字・空白差を薄くする</label>
+  </div>
+  <div class="small-label">自動ALA-LC（差分はこの側だけに表示）</div>
+  <div id="auto-diff" class="auto-output" aria-label="自動ALA-LC差分表示"></div>
+  <div class="diff-legend legend">
+    <span class="diff-case">大小文字差</span>
+    <span class="diff-space">空白差</span>
+    <span class="diff-char">文字差</span>
+    <span class="diff-missing">手入力側で欠落</span>
+    <span class="insert-marker">＋</span> 手入力側にのみ存在
+  </div>
+  <div class="small-label">自動ALA-LC（プレーン表示）</div>
+  <div id="auto-plain" class="auto-output"></div>
+</section>
+
+<div class="legend">
+  可視化:
+  通常スペース = · /
+  NBSP (U+00A0) = ⍽[NBSP] /
+  Tab = → /
+  改行 = ↵ /
+  ZWSP = [ZWSP] /
+  ZWNJ = [ZWNJ] /
+  ZWJ = [ZWJ]
+</div>
+<p class="footer-note">
+  ※ 自動翻字は入力補助・誤タイプ検出用です。ALA-LCの機械的字素変換を行いますが、語境界、借用語、大文字化などの最終判断は手入力側を優先してください。<br>
+  ※ 「全コピー」はビルマ文字欄 → 改行 → ALA-LC手入力欄の順で、実テキストだけをコピーします。<br>
+  ※ 比較はUnicodeコードポイント単位で整列します。手入力側にだけ文字がある場合、自動翻字側の境界に「＋」を表示します。
+</p>
+
+<script>
+(() => {
+  // ===== ALA-LC transliteration rules (based on the 2011 Burmese ALA-LC table) =====
+  const consonants = {
+    'က': 'k', 'ခ': 'kh', 'ဂ': 'g', 'ဃ': 'gh', 'င': 'ṅ',
+    'စ': 'c', 'ဆ': 'ch', 'ဇ': 'j', 'ဈ': 'jh', 'ည': 'ññ', 'ဉ': 'ñ',
+    'ဋ': 'ṭ', 'ဌ': 'ṭh', 'ဍ': 'ḍ', 'ဎ': 'ḍh', 'ဏ': 'ṇ',
+    'တ': 't', 'ထ': 'th', 'ဒ': 'd', 'ဓ': 'dh', 'န': 'n',
+    'ပ': 'p', 'ဖ': 'ph', 'ဗ': 'b', 'ဘ': 'bh', 'မ': 'm',
+    'ယ': 'y', 'ရ': 'r', 'လ': 'l', 'ဝ': 'v', 'သ': 's',
+    'ဟ': 'h', 'ဠ': 'ḷ', 'အ': '’'
+  };
+
+  const medials = { 'ျ': 'y', 'ြ': 'r', 'ွ': 'v', 'ှ': 'h' };
+
+  const dependentVowels = {
+    'ို': 'ui', 'ို': 'ui',
+    'ေါ်': 'oʻ', 'ော်': 'oʻ',
+    'ေါ': 'o', 'ော': 'o',
+    'ာ': 'ā', 'ါ': 'ā',
+    'ိ': 'i', 'ီ': 'ī',
+    'ု': 'u', 'ူ': 'ū',
+    'ေ': 'e', 'ဲ': 'ai'
+  };
+
+  const independentVowels = {
+    'ဣ': 'i', 'ဤ': 'ī', 'ဥ': 'u', 'ဦ': 'ū',
+    'ဧ': 'e', 'ဩ': 'o', 'ဪ': 'oʻ'
+  };
+
+  const finalMarks = { 'ံ': 'ṃ', '့': 'ʹ', 'း': 'ʺ' };
+  const abbreviations = { '၏': 'e*', '၍': 'r*', '၌': 'n*', '၎': 'l*' };
+  const specialLetters = { 'ဿ': 'ss' };
+  const digits = {
+    '၀': '0', '၁': '1', '၂': '2', '၃': '3', '၄': '4',
+    '၅': '5', '၆': '6', '၇': '7', '၈': '8', '၉': '9'
+  };
+  const punctuation = { '၊': ',', '။': '.' };
+
+  function isBurmeseConsonant(ch) {
+    return Object.prototype.hasOwnProperty.call(consonants, ch);
+  }
+
+  function matchLongestAt(text, index, dict) {
+    const keys = Object.keys(dict).sort((a, b) => Array.from(b).length - Array.from(a).length);
+    for (const key of keys) {
+      if (text.startsWith(key, index)) return key;
+    }
+    return null;
+  }
+
+  function transliterate(text) {
+    let out = '';
+    let i = 0;
+
+    while (i < text.length) {
+      const ch = text[i];
+
+      // Preserve user-entered whitespace; final cleanup below normalizes repeated spaces.
+      if (/\s/u.test(ch)) {
+        out += ch;
+        i++;
+        continue;
+      }
+
+      if (abbreviations[ch] !== undefined) {
+        out += abbreviations[ch] + ' ';
+        i++;
+        continue;
+      }
+      if (digits[ch] !== undefined) {
+        out += digits[ch];
+        i++;
+        continue;
+      }
+      if (punctuation[ch] !== undefined) {
+        out = out.replace(/[ \t]+$/u, '');
+        out += punctuation[ch] + ' ';
+        i++;
+        continue;
+      }
+      if (specialLetters[ch] !== undefined) {
+        out += specialLetters[ch];
+        i++;
+        continue;
+      }
+      if (independentVowels[ch] !== undefined) {
+        let s = independentVowels[ch];
+        i++;
+        while (i < text.length && finalMarks[text[i]] !== undefined) {
+          s += finalMarks[text[i]];
+          i++;
+        }
+        out += s + ' ';
+        continue;
+      }
+
+      if (isBurmeseConsonant(ch)) {
+        let s = consonants[ch];
+        i++;
+
+        // Medials
+        while (i < text.length && medials[text[i]] !== undefined) {
+          s += medials[text[i]];
+          i++;
+        }
+
+        // Virama conjuncts: upper consonant is immediately followed by lower consonant;
+        // do not insert inherent a or a syllable space between them.
+        if (text[i] === '္' && isBurmeseConsonant(text[i + 1])) {
+          i++; // skip virama
+          out += s;
+          continue;
+        }
+
+        // Dependent vowel(s), longest match first.
+        let vowel = '';
+        const vowelKey = matchLongestAt(text, i, dependentVowels);
+        if (vowelKey) {
+          vowel = dependentVowels[vowelKey];
+          s += vowel;
+          i += vowelKey.length;
+        }
+
+        // A consonant + asat immediately following belongs to the same syllable
+        // (e.g. လုပ် = lu + pʻ, not "lu pʻ").
+        let finalConsonant = '';
+        if (isBurmeseConsonant(text[i]) && text[i + 1] === '်') {
+          finalConsonant = consonants[text[i]] + 'ʻ';
+          i += 2;
+        }
+
+        // If the base itself carries asat, there is no inherent vowel.
+        let baseAsat = false;
+        if (text[i] === '်') {
+          baseAsat = true;
+          i++;
+        }
+
+        // ALA-LC inherent a precedes final signs such as anusvara:
+        // ကံ => kaṃ, never kṃa.
+        if (!vowel && !baseAsat) s += 'a';
+
+        if (finalConsonant) s += finalConsonant;
+        if (baseAsat) s += 'ʻ';
+
+        while (i < text.length && finalMarks[text[i]] !== undefined) {
+          s += finalMarks[text[i]];
+          i++;
+        }
+
+        out += s + ' ';
+        continue;
+      }
+
+      // Standalone dependent marks: retain a useful transliteration rather than dropping them.
+      if (finalMarks[ch] !== undefined) {
+        out += finalMarks[ch];
+        i++;
+        continue;
+      }
+
+      // Any unhandled character is preserved so comparison can expose it.
+      out += ch;
+      i++;
+    }
+
+    return out
+      .replace(/[ \t]+([,.])/gu, '$1')
+      .replace(/[ \t]+/gu, ' ')
+      .replace(/ *\n */gu, '\n')
+      .trim();
+  }
+
+  // ===== UI =====
+  const padauk = document.getElementById("padauk");
+  const times = document.getElementById("times");
+  const padaukView = document.getElementById("padauk-view");
+  const timesView = document.getElementById("times-view");
+  const padaukCP = document.getElementById("padauk-codepoint");
+  const timesCP = document.getElementById("times-codepoint");
+  const status = document.getElementById("status");
+  const autoDiff = document.getElementById("auto-diff");
+  const autoPlain = document.getElementById("auto-plain");
+  const comparisonStatus = document.getElementById("comparison-status");
+  const comparisonCounts = document.getElementById("comparison-counts");
+  const nfcOption = document.getElementById("nfc-option");
+  const focusOption = document.getElementById("focus-option");
+
+  const STORAGE_KEYS = {
+    padauk: "biblio-helper-padauk",
+    times: "biblio-helper-times",
+    nfc: "biblio-helper-nfc",
+    focus: "biblio-helper-focus"
+  };
+  let activeTextarea = padauk;
+
+  function escapeHTML(str) {
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function visualize(text) {
+    let out = "";
+    for (const ch of text) {
+      const cp = ch.codePointAt(0);
+      if (ch === " ") out += '<span class="marker space" title="SPACE U+0020"></span>';
+      else if (ch === "\u00A0") out += '<span class="marker nbsp" title="NO-BREAK SPACE U+00A0"></span>';
+      else if (ch === "\t") out += '<span class="marker tab" title="TAB U+0009"></span>\t';
+      else if (ch === "\n") out += '<span class="marker newline" title="LINE FEED U+000A"></span>\n';
+      else if (cp === 0x200B) out += '<span class="marker zero-width" title="ZERO WIDTH SPACE U+200B">[ZWSP]</span>';
+      else if (cp === 0x200C) out += '<span class="marker zero-width" title="ZERO WIDTH NON-JOINER U+200C">[ZWNJ]</span>';
+      else if (cp === 0x200D) out += '<span class="marker zero-width" title="ZERO WIDTH JOINER U+200D">[ZWJ]</span>';
+      else if (ch === "\r") out += '<span class="marker" title="CARRIAGE RETURN U+000D">[CR]</span>';
+      else out += escapeHTML(ch);
+    }
+    return out;
+  }
+
+  function codePointLabel(textarea) {
+    const pos = textarea.selectionStart;
+    if (!textarea.value.length) return "カーソル位置の文字: —";
+    let index = pos;
+    if (index > 0) index--;
+    const code = textarea.value.charCodeAt(index);
+    if (code >= 0xDC00 && code <= 0xDFFF && index > 0) {
+      const prev = textarea.value.charCodeAt(index - 1);
+      if (prev >= 0xD800 && prev <= 0xDBFF) index--;
+    }
+    const cp = textarea.value.codePointAt(index);
+    const ch = String.fromCodePoint(cp);
+    const hex = cp.toString(16).toUpperCase().padStart(4, "0");
+    const names = {
+      0x20: "SPACE", 0xA0: "NO-BREAK SPACE", 0x09: "CHARACTER TABULATION",
+      0x0A: "LINE FEED", 0x0D: "CARRIAGE RETURN", 0x200B: "ZERO WIDTH SPACE",
+      0x200C: "ZERO WIDTH NON-JOINER", 0x200D: "ZERO WIDTH JOINER"
+    };
+    const printable =
+      cp === 0x20 ? "␠" : cp === 0xA0 ? "⍽" : cp === 0x09 ? "⇥" :
+      cp === 0x0A ? "↵" : cp === 0x0D ? "␍" : cp === 0x200B ? "[ZWSP]" :
+      cp === 0x200C ? "[ZWNJ]" : cp === 0x200D ? "[ZWJ]" : ch;
+    return `カーソル位置の文字: ${printable}  U+${hex}${names[cp] ? "  " + names[cp] : ""}`;
+  }
+
+  function isWhitespace(ch) {
+    return /\s/u.test(ch);
+  }
+  function isCaseOnly(a, b) {
+    return a !== b &&
+      !isWhitespace(a) && !isWhitespace(b) &&
+      a.toLocaleLowerCase() === b.toLocaleLowerCase();
+  }
+
+  // Weighted edit-distance alignment.
+  // Cheap case/space operations keep ordinary cataloging decisions from throwing off later alignment.
+  function substitutionCost(a, b) {
+    if (a === b) return 0;
+    if (isCaseOnly(a, b)) return 0.15;
+    if (isWhitespace(a) && isWhitespace(b)) return 0.15;
+    return 1;
+  }
+  function deletionCost(ch) { return isWhitespace(ch) ? 0.2 : 1; }
+  function insertionCost(ch) { return isWhitespace(ch) ? 0.2 : 1; }
+
+  function alignStrings(autoText, manualText) {
+    const A = Array.from(autoText);
+    const B = Array.from(manualText);
+    const n = A.length, m = B.length;
+    const dp = Array.from({length:n+1}, () => new Float64Array(m+1));
+    const op = Array.from({length:n+1}, () => new Uint8Array(m+1));
+    // op: 1 diag, 2 delete from auto, 3 insert into manual-only
+    for (let i=1; i<=n; i++) { dp[i][0] = dp[i-1][0] + deletionCost(A[i-1]); op[i][0] = 2; }
+    for (let j=1; j<=m; j++) { dp[0][j] = dp[0][j-1] + insertionCost(B[j-1]); op[0][j] = 3; }
+
+    for (let i=1; i<=n; i++) {
+      for (let j=1; j<=m; j++) {
+        const diag = dp[i-1][j-1] + substitutionCost(A[i-1], B[j-1]);
+        const del = dp[i-1][j] + deletionCost(A[i-1]);
+        const ins = dp[i][j-1] + insertionCost(B[j-1]);
+        let best = diag, code = 1;
+        // Slight tie preference for diag, then whitespace edits, to stabilize local alignment.
+        if (del < best - 1e-9) { best = del; code = 2; }
+        if (ins < best - 1e-9) { best = ins; code = 3; }
+        dp[i][j] = best; op[i][j] = code;
+      }
+    }
+
+    const steps = [];
+    let i=n, j=m;
+    while (i>0 || j>0) {
+      const code = op[i][j];
+      if (i>0 && j>0 && code === 1) {
+        steps.push({type: A[i-1] === B[j-1] ? "equal" : "sub", a:A[i-1], b:B[j-1]});
+        i--; j--;
+      } else if (i>0 && (code === 2 || j===0)) {
+        steps.push({type:"delete", a:A[i-1], b:""});
+        i--;
+      } else {
+        steps.push({type:"insert", a:"", b:B[j-1]});
+        j--;
+      }
+    }
+    steps.reverse();
+    return steps;
+  }
+
+  function displayChar(ch) {
+    if (ch === " ") return "·";
+    if (ch === "\t") return "→";
+    if (ch === "\n") return "↵\n";
+    if (ch === "\u00A0") return "⍽";
+    return escapeHTML(ch);
+  }
+
+  function renderComparison() {
+    const generatedRaw = transliterate(padauk.value);
+    autoPlain.textContent = generatedRaw || "—";
+
+    let generated = generatedRaw;
+    let manual = times.value;
+    if (nfcOption.checked) {
+      generated = generated.normalize("NFC");
+      manual = manual.normalize("NFC");
+    }
+
+    if (!padauk.value && !manual) {
+      autoDiff.textContent = "—";
+      comparisonStatus.textContent = "—";
+      comparisonCounts.textContent = "";
+      return;
+    }
+
+    const steps = alignStrings(generated, manual);
+    let html = "";
+    let caseCount=0, spaceCount=0, charCount=0, missingCount=0, insertCount=0;
+    const focus = focusOption.checked;
+
+    for (const s of steps) {
+      if (s.type === "equal") {
+        html += displayChar(s.a);
+      } else if (s.type === "sub") {
+        if (isCaseOnly(s.a, s.b)) {
+          caseCount++;
+          html += `<span class="diff-case${focus ? " muted-diff" : ""}" title="大小文字差：手入力 ${escapeHTML(s.b)}">${displayChar(s.a)}</span>`;
+        } else if (isWhitespace(s.a) && isWhitespace(s.b)) {
+          spaceCount++;
+          html += `<span class="diff-space${focus ? " muted-diff" : ""}" title="空白文字の種類が異なります">${displayChar(s.a)}</span>`;
+        } else {
+          charCount++;
+          html += `<span class="diff-char" title="文字差：手入力 ${escapeHTML(s.b)}">${displayChar(s.a)}</span>`;
+        }
+      } else if (s.type === "delete") {
+        // Auto has a character that manual does not.
+        if (isWhitespace(s.a)) {
+          spaceCount++;
+          html += `<span class="diff-space${focus ? " muted-diff" : ""}" title="自動側にのみ空白があります">${displayChar(s.a)}</span>`;
+        } else {
+          missingCount++;
+          html += `<span class="diff-missing" title="手入力側ではこの文字が欠落しています">${displayChar(s.a)}</span>`;
+        }
+      } else if (s.type === "insert") {
+        insertCount++;
+        const space = isWhitespace(s.b);
+        if (space) spaceCount++;
+        else charCount++;
+        const cls = space ? `insert-marker insert-space${focus ? " muted-diff" : ""}` : "insert-marker";
+        const label = space ? "＋" : "＋";
+        html += `<span class="${cls}" title="手入力側にのみ存在：${escapeHTML(s.b === " " ? "SPACE" : s.b)}">${label}</span>`;
+      }
+    }
+    autoDiff.innerHTML = html || "—";
+
+    const substantive = charCount + missingCount;
+    if (generated === manual) {
+      comparisonStatus.textContent = "✓ 完全一致";
+    } else if (substantive === 0) {
+      comparisonStatus.textContent = "✓ 文字列本体は一致（大文字・空白のみ差異）";
+    } else {
+      comparisonStatus.textContent = `⚠ 文字そのものに差異あり`;
+    }
+    comparisonCounts.textContent =
+      `大小文字 ${caseCount} / 空白 ${spaceCount} / 文字差 ${charCount} / 手入力で欠落 ${missingCount}`;
+  }
+
+  function save() {
+    try {
+      localStorage.setItem(STORAGE_KEYS.padauk, padauk.value);
+      localStorage.setItem(STORAGE_KEYS.times, times.value);
+      localStorage.setItem(STORAGE_KEYS.nfc, nfcOption.checked ? "1" : "0");
+      localStorage.setItem(STORAGE_KEYS.focus, focusOption.checked ? "1" : "0");
+      status.textContent = "自動保存: ON";
+    } catch (e) {
+      status.textContent = "自動保存: 利用不可";
+    }
+  }
+
+  function load() {
+    try {
+      padauk.value = localStorage.getItem(STORAGE_KEYS.padauk) || "";
+      times.value = localStorage.getItem(STORAGE_KEYS.times) || "";
+      const nfc = localStorage.getItem(STORAGE_KEYS.nfc);
+      const focus = localStorage.getItem(STORAGE_KEYS.focus);
+      if (nfc !== null) nfcOption.checked = nfc === "1";
+      if (focus !== null) focusOption.checked = focus === "1";
+    } catch (e) {
+      status.textContent = "自動保存: 利用不可";
+    }
+  }
+
+  function update(textarea, view, cpBox) {
+    view.innerHTML = visualize(textarea.value);
+    cpBox.textContent = codePointLabel(textarea);
+  }
+
+  function updateAll() {
+    update(padauk, padaukView, padaukCP);
+    update(times, timesView, timesCP);
+    renderComparison();
+  }
+
+  function attach(textarea, view, cpBox) {
+    textarea.addEventListener("focus", () => {
+      activeTextarea = textarea;
+      update(textarea, view, cpBox);
+    });
+    textarea.addEventListener("input", () => {
+      update(textarea, view, cpBox);
+      renderComparison();
+      save();
+    });
+    ["click", "keyup", "select"].forEach(type => {
+      textarea.addEventListener(type, () => update(textarea, view, cpBox));
+    });
+    textarea.addEventListener("keydown", (e) => {
+      if (e.ctrlKey && e.key === "Enter") {
+        e.preventDefault();
+        const target = textarea === padauk ? times : padauk;
+        target.focus();
+        target.selectionStart = target.selectionEnd = target.value.length;
+        return;
+      }
+      if (e.key === "Tab" && !e.ctrlKey && !e.altKey && !e.metaKey) {
+        e.preventDefault();
+        const start = textarea.selectionStart;
+        const end = textarea.selectionEnd;
+        textarea.setRangeText("\t", start, end, "end");
+        textarea.dispatchEvent(new Event("input"));
+      }
+    });
+  }
+
+  nfcOption.addEventListener("change", () => { renderComparison(); save(); });
+  focusOption.addEventListener("change", () => { renderComparison(); save(); });
+
+  window.insertText = function(text) {
+    const el = activeTextarea;
+    const start = el.selectionStart;
+    const end = el.selectionEnd;
+    el.setRangeText(text, start, end, "end");
+    el.focus();
+    el.dispatchEvent(new Event("input"));
+  };
+
+  window.copyAll = async function() {
+    const combined = padauk.value + "\n" + times.value;
+    try {
+      await navigator.clipboard.writeText(combined);
+      status.textContent = "コピーしました";
+      setTimeout(() => status.textContent = "自動保存: ON", 1500);
+    } catch (e) {
+      const helper = document.createElement("textarea");
+      helper.value = combined;
+      helper.style.position = "fixed";
+      helper.style.opacity = "0";
+      document.body.appendChild(helper);
+      helper.select();
+      try {
+        document.execCommand("copy");
+        status.textContent = "コピーしました";
+      } catch (err) {
+        status.textContent = "コピーに失敗しました";
+      }
+      document.body.removeChild(helper);
+      setTimeout(() => status.textContent = "自動保存: ON", 1500);
+    }
+  };
+
+  window.clearAll = function() {
+    if (!confirm("ビルマ文字欄とALA-LC手入力欄の入力内容をすべて消去しますか？")) return;
+    padauk.value = "";
+    times.value = "";
+    save();
+    updateAll();
+    padauk.focus();
+  };
+
+  load();
+  attach(padauk, padaukView, padaukCP);
+  attach(times, timesView, timesCP);
+  updateAll();
+  padauk.focus();
+})();
+</script>
+</body>
+</html>
