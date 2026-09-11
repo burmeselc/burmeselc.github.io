@@ -1,0 +1,145 @@
+.home-page .page {
+  max-width: 980px;
+}
+
+.home-hero {
+  margin-bottom: 3.2rem;
+  padding: 10px 0 28px 22px;
+  border-left: 4px solid var(--green-700);
+  border-bottom: 1px solid var(--line);
+}
+
+.home-kicker {
+  margin: 0 0 .45rem;
+  color: var(--green-600);
+  font-family: var(--font-ui);
+  font-size: .78rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.home-title {
+  margin: 0 0 .55rem;
+  font-size: clamp(2.15rem, 7vw, 4.25rem);
+  line-height: 1.08;
+  letter-spacing: .015em;
+}
+
+.home-lead {
+  max-width: 38rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.home-section {
+  margin-top: 3rem;
+}
+
+.home-section > h2 {
+  margin: 0 0 1.15rem;
+  padding-bottom: .4rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card-grid--single {
+  grid-template-columns: 1fr;
+}
+
+.home-card {
+  position: relative;
+  display: block;
+  min-height: 170px;
+  padding: 22px 22px 20px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green-600);
+  border-radius: var(--radius);
+  color: var(--ink);
+  background: var(--surface);
+  text-decoration: none;
+  transition: background .14s ease, border-color .14s ease, transform .14s ease;
+}
+
+.home-card:hover {
+  border-color: var(--green-500);
+  border-left-color: var(--green-800);
+  color: var(--ink);
+  background: var(--surface-strong);
+  transform: translateY(-1px);
+}
+
+.home-card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.card-kind {
+  display: inline-block;
+  margin-bottom: .7rem;
+  color: var(--green-700);
+  font-family: var(--font-ui);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .11em;
+}
+
+.home-card h3 {
+  margin: 0 0 .55rem;
+  font-size: 1.14rem;
+  line-height: 1.5;
+}
+
+.home-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .94rem;
+  line-height: 1.75;
+}
+
+.home-card::after {
+  content: "→";
+  position: absolute;
+  right: 18px;
+  bottom: 14px;
+  color: var(--green-600);
+  font-family: var(--font-ui);
+  font-size: 1.1rem;
+}
+
+.home-about {
+  max-width: 42rem;
+  color: var(--muted);
+  font-size: .94rem;
+}
+
+.home-page .site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .5rem 1.5rem;
+}
+
+.home-page .site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .home-hero {
+    margin-bottom: 2.5rem;
+    padding-left: 16px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-card {
+    min-height: 0;
+  }
+}
