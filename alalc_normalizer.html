@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALA-LC 記号正規化 | burmeselc</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.normalizer-page .page{max-width:1000px}
+.normalizer-page .intro{color:var(--muted);max-width:56rem}
+.normalizer-page .work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.normalizer-page .work-grid section{min-width:0}
+.normalizer-page .work-grid h2{margin:0 0 .6rem}
+.normalizer-page textarea{display:block;width:100%;min-height:260px;padding:14px;font:1.2rem/1.65 var(--font-roman);resize:vertical;tab-size:4}
+.normalizer-page .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0}
+.normalizer-page .controls label{display:inline-flex;align-items:center;gap:6px;font:.9rem/1.5 var(--font-ui)}
+.normalizer-page input[type=checkbox]{accent-color:var(--green-700)}
+.normalizer-page .primary{background:var(--green-800);color:white;border-color:var(--green-800)}
+.normalizer-page .primary:hover{background:var(--green-700);color:white}
+.normalizer-page .caption{font-size:.87rem;color:var(--muted)}
+.normalizer-page .report{margin:24px 0;padding:16px;border:1px solid var(--line);border-left:4px solid var(--green-600);border-radius:var(--radius);background:var(--surface)}
+.normalizer-page .report h2{margin:0 0 .4rem}
+.normalizer-page .report p{margin:.3rem 0}
+.normalizer-page .change-list{padding-left:1.5rem;margin:.6rem 0}
+.normalizer-page .change-list li{margin:.3rem 0;overflow-wrap:anywhere}
+.normalizer-page code,.normalizer-page .glyph{font-family:var(--font-roman);font-size:1.05em}
+.normalizer-page .review{color:#854025}
+.normalizer-page .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:750px){.normalizer-page .work-grid{grid-template-columns:1fr}.normalizer-page textarea{min-height:180px}}
+</style>
+</head>
+<body class="normalizer-page">
+<main class="page page--tool">
+<header class="page-header">
+  <h1>ALA-LC 記号正規化</h1>
+  <p class="subtitle">WorldCat 等からコピーした翻字の表記ゆれを、当サイトの入力補助ツールで用ゐる Unicode 文字に揃へる。</p>
+</header>
+<p class="intro">原文を左欄に貼りつけると、右欄に正規化結果を表示します。変換の基準は当サイトの <a href="burmese_alalc_keyboard.html">ALA-LC Keyboard</a> と <a href="burmese_alalc_checker.html">ALA-LC Checker</a> です。原文の大文字・小文字、空白、語順、句読点は原則として保持します。</p>
+<div class="work-grid">
+  <section aria-labelledby="src-heading">
+    <h2 id="src-heading">原文</h2>
+    <label for="source" class="sr-only">正規化前の文字列</label>
+    <textarea id="source" spellcheck="false" autocomplete="off" placeholder="WorldCat 等の翻字を貼りつける"></textarea>
+    <p class="caption">原文は書き換へません。</p>
+  </section>
+  <section aria-labelledby="dest-heading">
+    <h2 id="dest-heading">正規化後</h2>
+    <label for="result" class="sr-only">正規化後の文字列</label>
+    <textarea id="result" spellcheck="false" readonly placeholder="変換結果がここに表示されます"></textarea>
+    <p class="caption" id="status" role="status" aria-live="polite">入力待ち</p>
+  </section>
+</div>
+<div class="controls">
+  <button type="button" id="copy" class="primary">結果をコピー</button>
+  <button type="button" id="clear">全消去</button>
+  <label><input type="checkbox" id="preposed" checked> MARC-8／ANSEL由来の前置結合記号を補正</label>
+</div>
+<div class="report" aria-live="polite">
+  <h2>変換履歴・要確認文字</h2>
+  <p id="summary">文字を入力すると変換内容を表示します。</p>
+  <ol id="changes" class="change-list"></ol>
+  <p id="review" class="review"></p>
+</div>
+<h2>変換の範囲</h2>
+<p>異体字形の <span class="glyph">ʻ</span>（U+02BB）を <span class="glyph">ʿ</span>（U+02BF）、<span class="glyph">ʼ</span>（U+02BC）を <span class="glyph">ʾ</span>（U+02BE）に揃へます。プライム記号の異体形は、入力補助ツールで用ゐる <span class="glyph">ʹ</span>（U+02B9）・<span class="glyph">ʺ</span>（U+02BA）に揃へます。結合記号は Unicode NFC に整へます。たとへば <span class="glyph">a + ◌̄</span> は <span class="glyph">ā</span> になります。</p>
+<p>前置結合記号の補正を有効にすると、ANSELからUnicodeへ変換された文字列で、語頭等の文字の前に残った結合記号（例：<span class="glyph">◌̄a</span>）を、直後のラテン文字に付け直します。これは既にUnicodeの文字列に対する補正であり、MARC-8の生バイト列を直接解読するものではありません。</p>
+<p class="note">単なるアポストロフィ <code>'</code>、左右の引用符 <span class="glyph">‘ ’</span>、一般のダブルクォート <code>"</code> は意味を一意に定められないため、自動変換しません。要確認文字として表示します。語境界・翻字規則そのものの正誤も自動判定しません。</p>
+<footer class="site-footer"><p>© 2026 good samurai</p><p><a href="index.html">burmeselc へ戻る</a></p></footer>
+</main>
+<script>
+(() => {
+  "use strict";
+  const $ = id => document.getElementById(id);
+  const source = $("source"), result = $("result"), preposed = $("preposed");
+  const variants = new Map([
+    ["\u02BB","\u02BF"], // turned comma -> ayn
+    ["\u02BC","\u02BE"], // modifier apostrophe -> alif
+    ["\u2032","\u02B9"], // prime
+    ["\u2033","\u02BA"], // double prime
+    ["\u201F","\u02BA"]  // double high reversed-9 quotation mark (legacy double prime)
+  ]);
+  const marcMarks = new Set(["\u0304","\u0307","\u0323","\u0303","\u0306","\u0301","\u0300","\u0302","\u0308","\u030C","\u030A","\u0327","\u0328","\u030B"]);
+  const latin = ch => /[A-Za-z\u00C0-\u024F\u1E00-\u1EFF]/u.test(ch);
+  const codePoint = ch => "U+" + ch.codePointAt(0).toString(16).toUpperCase().padStart(4,"0");
+  function convert(text, reorder) {
+    const counts = new Map();
+    const record = (from,to,kind) => {
+      const key = kind+"|"+from+"|"+to;
+      const item = counts.get(key) || {from,to,kind,count:0};
+      item.count++; counts.set(key,item);
+    };
+    let chars = Array.from(text);
+    chars = chars.map(ch => {
+      const next = variants.get(ch);
+      if(next && next !== ch){record(ch,next,"異体記号");return next;}
+      return ch;
+    });
+    if(reorder){
+      const fixed=[];
+      for(let i=0;i<chars.length;i++){
+        const start = i === 0 || /[\s([{,;:]/u.test(chars[i-1]);
+        if(start && marcMarks.has(chars[i])){
+          let j=i;
+          while(j<chars.length && marcMarks.has(chars[j]))j++;
+          if(j<chars.length && latin(chars[j])){
+            const marks=chars.slice(i,j);
+            fixed.push(chars[j],...marks);
+            record(marks.join("")+chars[j],chars[j]+marks.join(""),"前置結合記号");
+            i=j; continue;
+          }
+        }
+        fixed.push(chars[i]);
+      }
+      chars=fixed;
+    }
+    const intermediate=chars.join("");
+    const normalized=intermediate.normalize("NFC");
+    if(intermediate!==normalized)record("結合文字列","NFC","Unicode正規化");
+    const uncertain = [...new Set(Array.from(normalized).filter(ch=>["'","\u2018","\u2019",'"',"\u201C","\u201D","\u0060","\u00B4"].includes(ch)))];
+    return {output:normalized,changes:[...counts.values()],uncertain};
+  }
+  function run(){
+    const value=source.value;
+    const out=convert(value,preposed.checked);
+    result.value=out.output;
+    $("summary").textContent=!value?"文字を入力すると変換内容を表示します。":out.changes.length? "変換 "+out.changes.reduce((n,c)=>n+c.count,0)+" 件（種類 "+out.changes.length+" 件）。":"置換対象の記号は見つかりませんでした。";
+    $("changes").replaceChildren();
+    for(const c of out.changes){
+      const li=document.createElement("li");
+      li.textContent=c.kind+"："+c.from+" → "+c.to+"（"+c.count+" 件）";
+      $("changes").appendChild(li);
+    }
+    $("review").textContent=out.uncertain.length?"要確認（自動変換しません）："+out.uncertain.map(ch=>ch+" "+codePoint(ch)).join(" ／ "):"";
+    $("status").textContent=value?"正規化結果を表示中":"入力待ち";
+  }
+  source.addEventListener("input",run);
+  preposed.addEventListener("change",run);
+  $("clear").addEventListener("click",()=>{source.value="";run();source.focus();});
+  $("copy").addEventListener("click",async()=>{
+    try{await navigator.clipboard.writeText(result.value);$("status").textContent="結果をコピーしました。";}
+    catch(e){result.focus();result.select();$("status").textContent="自動コピーできませんでした。結果欄を選択してコピーしてください。";}
+  });
+  run();
+})();
+</script>
+</body>
+</html>
