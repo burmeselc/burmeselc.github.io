@@ -37,36 +37,36 @@ const glossLookup={shan:new Map(),burmese:new Map()};
 for(const lang of ['shan','burmese'])for(const x of DATA[lang]){
  const m=glossLookup[lang],t=normalizedGloss(x);m.set(t,(m.get(t)||0)+1);
 }
-const DOMAIN_LABELS=window.DOPA_SEMANTIC_LABELS||{};
+const DOMAIN_LABELS_BY_LANG=window.DOPA_SEMANTIC_LABELS_BY_LANG||{burmese:window.DOPA_SEMANTIC_LABELS||{},shan:{}};
+const DOMAIN_READY_BY_LANG=window.DOPA_SEMANTIC_READY_BY_LANG||{burmese:!!window.DOPA_SEMANTIC_READY,shan:false};
+let previousSemanticLanguage=null;
 function domainEligible(x,l){
  const control=$('semanticCategory');
- return l!=='burmese'||!control||control.value==='all'||(x.semantic_major===control.value&&x.semantic_status!=='M');
+ return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
+  (x.semantic_major===control.value&&['P','R'].includes(x.semantic_status));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
  if(!select)return;
- const l=$('lang').value;
- if(l!=='burmese'){
-   select.innerHTML='<option value="all">シャン語はカテゴリ分類準備中</option>';
+ const l=$('lang').value,labels=DOMAIN_LABELS_BY_LANG[l]||{};
+ const old=previousSemanticLanguage===l?(select.value||'all'):'all';
+ previousSemanticLanguage=l;
+ if(!DOMAIN_READY_BY_LANG[l]){
+   select.innerHTML='<option value="all">意味分類を利用できません</option>';
    select.value='all';select.disabled=true;
-   if(notice)notice.textContent='カテゴリ学習は現在ビルマ語のみ対応します。';
+   if(notice)notice.textContent='分類データが読み込めないため、全語彙モードを利用します。';
    return;
  }
- if(!window.DOPA_SEMANTIC_READY){
-   select.innerHTML='<option value="all">分類データを読み込めませんでした</option>';
-   select.value='all';select.disabled=true;
-   if(notice)notice.textContent='全語彙モードは通常どおり利用できます。';
-   return;
- }
- const old=select.value||'all';
  let options='<option value="all">全カテゴリ（従来どおり）</option>';
- for(const [id,name] of Object.entries(DOMAIN_LABELS)){
-   const count=DATA.burmese.filter(x=>x.semantic_major===id&&x.semantic_status!=='M'&&String(x.game_include??'1')!=='0').length;
+ for(const [id,name] of Object.entries(labels)){
+   const count=DATA[l].filter(x=>x.semantic_major===id&&['P','R'].includes(x.semantic_status)&&String(x.game_include??'1')!=='0').length;
    options+='<option value="'+esc(id)+'">'+esc(id+' '+name+'（'+count+'語）')+'</option>';
  }
  select.innerHTML=options;
- select.value=DOMAIN_LABELS[old]?old:'all';select.disabled=false;
- if(notice)notice.textContent='分類は暫定版。多義239項目をカテゴリ限定学習から除外し、全語彙モードには残します。';
+ select.value=labels[old]?old:'all';select.disabled=false;
+ if(notice)notice.textContent=l==='shan'?
+   'シャン語分類は暫定版。多義1,242項目と訳語不足31項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。':
+   'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return DATA[l].filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&domainEligible(x,l)})}
 function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateSemanticCategories();renderZoneStats();refreshVoices()}
@@ -136,10 +136,10 @@ function applyCorrect(q){
  nemesisKilled:wasNem&&!w.nemesis,sk,credited};
 }
 function applyWrong(q){let w=W(q.x),now=Date.now(),sk=skillFor(q);w.seen++;w.wrong++;w.last=now;w.due[sk]=now+5*MIN;w.nextDue=nextDueFor(w);w[sk]=Math.max(0,(w[sk]||0)-1);if(w.wrong>=3)w.nemesis=true;return w.nemesis}
-function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('lang').value==='burmese'&&$('semanticCategory')?.value!=='all'?DATA.burmese.filter(x=>String(x.game_include??'1')!=='0'&&domainEligible(x,'burmese')):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
+function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('semanticCategory')?.value!=='all'?DATA[$('lang').value].filter(x=>String(x.game_include??'1')!=='0'&&domainEligible(x,$('lang').value)):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
 function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
- let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(l==='burmese'&&x.semantic_major?'・領域 '+esc(x.semantic_major)+'（暫定）':'');let from=q.dir==='fromJP'||q.typed;
+ let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(x.semantic_major?'・領域 '+esc(x.semantic_major)+'（暫定）':'');let from=q.dir==='fromJP'||q.typed;
  $('prompt').className='prompt'+(from?' jp':'');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?jp(x):orig(x,l);$('ipa').textContent='';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
