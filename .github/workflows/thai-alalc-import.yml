@@ -46,7 +46,7 @@ jobs:
         working-directory: thai-alalc
         run: |
           read -r -a query_list <<< "$QUERIES"
-          python scripts/sealang_api_thai.py --queries "${query_list[@]}" --limit "$MAX_REQUESTS" --delay 12 --legacy-tls --run --permission-confirmed
+          python scripts/sealang_api_thai.py --queries "${query_list[@]}" --limit "$MAX_REQUESTS" --delay 20 --legacy-tls --run --permission-confirmed
           python scripts/build_dictionary.py --source data/sealang-shards/
           python - <<'PY'
           import csv,glob,json
