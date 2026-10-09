@@ -1,0 +1,37 @@
+name: SEAlang Thai API diagnostic (one word)
+on:
+  push:
+    branches: ["feature/sealang-thai-import"]
+    paths: [".github/workflows/thai-sealang-probe.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Probe robots and one Thai entry (diagnostic only)
+        run: |
+          python - <<'PY'
+          import urllib.request,urllib.parse,time,re
+          from urllib.error import HTTPError,URLError
+          urlbase='https://sealang.net/'
+          urls=[
+            ('robots',urlbase+'robots.txt'),
+            ('identify',urlbase+'api/api.pl?service=identify'),
+            ('dictionary',urlbase+'api/api.pl?'+urllib.parse.urlencode({'service':'dictionary','lang':'Thai','query':'ภาษา'})),
+          ]
+          for label,url in urls:
+            print('REQUEST',label,url,flush=True)
+            request=urllib.request.Request(url,headers={'User-Agent':'ThaiALALC-Research/0.1 (permission based; single request)','Accept':'text/html,*/*'})
+            try:
+              with urllib.request.urlopen(request,timeout=18) as r:
+                content=r.read(100000)
+                html=content.decode('utf-8','replace')
+                print('STATUS',r.status,'URL',r.url,'MIME',r.headers.get('Content-Type'),'CHARS',len(html),flush=True)
+                print('RESULT PREFIX:',re.sub(r'\\s+',' ',html[:2600]),flush=True)
+            except Exception as e:
+              print('REQUEST ERROR',repr(e),flush=True)
+            time.sleep(8)
+          PY
