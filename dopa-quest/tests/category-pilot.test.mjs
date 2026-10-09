@@ -27,25 +27,7 @@ test('unassigned multi-sense entries are not category-specific targets',()=>{
  const e=game.indexOf('\nfunction updateSemanticCategories()',s);
  assert.ok(s>=0&&e>s);
  let selected='06';
- const domainEligible=new Function('
- const single=deck.find(x=>sem.cards[x.id][0]==='06'&&sem.cards[x.id][1]!=='M');
- const multi=deck.find(x=>sem.cards[x.id][1]==='M');
- assert.equal(domainEligible({...single,semantic_major:'06',semantic_status:'P'},'burmese'),true);
- assert.equal(domainEligible({...single,semantic_major:'06',semantic_status:'P'},'shan'),true);
- assert.equal(domainEligible({...multi,semantic_major:sem.cards[multi.id][0],semantic_status:'M'},'burmese'),false);
- selected='all';
- assert.equal(domainEligible({...multi,semantic_major:sem.cards[multi.id][0],semantic_status:'M'},'burmese'),true);
-});
-test('legacy progress keys and original game modes remain intact',()=>{
- assert.match(game,/const KEY='dopaQuestV5_profile'/);
- assert.match(game,/P\.words\[x\.id\]/);
- assert.match(game,/function distractors\(/);
- assert.match(game,/function updateSemanticCategories\(/);
- assert.match(bootstrap,/window\.DOPA_SEMANTIC_READY/);
- assert.match(html,/id="semanticCategory"/);
- assert.match(game,/S\.pool=|pool:\(\$\('lang'\)/);
-});
-,'DOMAIN_READY_BY_LANG',game.slice(s,e)+';return domainEligible;')(
+ const domainEligible=new Function('$','DOMAIN_READY_BY_LANG',game.slice(s,e)+';return domainEligible;')(
   id=>id==='semanticCategory'?{get value(){return selected;}}:null,{burmese:true,shan:true}
  );
  const single=deck.find(x=>sem.cards[x.id][0]==='06'&&sem.cards[x.id][1]!=='M');
