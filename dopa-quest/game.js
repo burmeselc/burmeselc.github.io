@@ -4,10 +4,10 @@ const DAY=86400000, MIN=60000;
 const KEY='dopaQuestV5_profile', OLDKEY='dopaQuestV4_profile';
 const STAGES=['UNSEEN','SEEN','KNOWN','SOLID','MASTERED'];
 let mode='campaign', S={}, voices=[], ctx=null, nextTimeout=null;
-const fresh=()=>({xp:0,coin:0,totalQ:0,totalCorrect:0,bestCombo:0,day:'',daily:{q:0,revenge:0,prod:0,rewarded:false},words:{},rivals:{},issues:{},sound:true,migratedFrom:''});
+const fresh=()=>({xp:0,coin:0,totalQ:0,totalCorrect:0,bestCombo:0,day:'',daily:{q:0,revenge:0,prod:0,rewarded:false},words:{},rivals:{},issues:{},sound:true,migratedFrom:'',reviewLog:[]});
 function loadLocal(){try{let raw=localStorage.getItem(KEY);if(raw)return {...fresh(),...JSON.parse(raw)};raw=localStorage.getItem(OLDKEY);if(raw)return {...fresh(),...JSON.parse(raw),migratedFrom:'v4'};}catch(e){}return fresh()}
 let P=loadLocal();
-function ensureProfile(){if(!P.words||typeof P.words!=='object')P.words={};if(!P.rivals||typeof P.rivals!=='object')P.rivals={};if(!P.issues||typeof P.issues!=='object')P.issues={};if(!P.daily)P.daily=fresh().daily;}
+function ensureProfile(){if(!P.words||typeof P.words!=='object')P.words={};if(!P.rivals||typeof P.rivals!=='object')P.rivals={};if(!P.issues||typeof P.issues!=='object')P.issues={};if(!P.daily)P.daily=fresh().daily;if(!Array.isArray(P.reviewLog))P.reviewLog=[];}
 ensureProfile();
 function today(){let d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
 function rollover(){if(P.day!==today()){P.day=today();P.daily={q:0,revenge:0,prod:0,rewarded:false}}}
@@ -25,10 +25,17 @@ function shuffle(a){let b=[...a];for(let i=b.length-1;i>0;i--){let j=Math.floor(
 function orig(x,l){return l==='shan'?x.shan:x.burmese}
 function jp(x){return x.japanese_core||x.japanese||x.english||''}
 function note(x,l){return x.japanese_note||(x.english||'')}
+function glossParts(s){return [...new Set(String(s||'').normalize('NFKC').split(/[；;、，,／/]/).map(x=>x.replace(/[。．！？!？\s　]+/g,'').trim().toLowerCase()).filter(Boolean))]}
+function glossOverlap(a,b){let aa=new Set(glossParts(jp(a)));return glossParts(jp(b)).some(x=>aa.has(x))}
+function isUnambiguous(x,l){return glossParts(jp(x)).every(t=>(glossLookup[l].get(t)||0)===1)}
 function pos(x,l){return l==='shan'?(x.game_pos||x.pos||''):(x.game_pos||x.category||x.type_hint||'')}
 function indexOf(x,l){return l==='shan'?Number(x.rank||99999):Number(x.order||99999)}
 function zones(l){if(l==='shan')return[['all','全5,480語',1,5480],['z1','頻度 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–2000',1001,2000],['z6','2001–5480',2001,5480]];return[['all','全2,500語',1,2500],['z1','教材 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–1500',1001,1500],['z6','1501–2500',1501,2500]]}
 const byId = Object.fromEntries([...DATA.shan,...DATA.burmese].map(x=>[x.id,x]));
+const glossLookup={shan:new Map(),burmese:new Map()};
+for(const lang of ['shan','burmese'])for(const x of DATA[lang])for(const t of glossParts(jp(x))){
+ const m=glossLookup[lang];m.set(t,(m.get(t)||0)+1);
+}
 function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return DATA[l].filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'})}
 function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;renderZoneStats();refreshVoices()}
 function renderProfile(){rollover();let L=lvInfo(P.xp||0);$('lv').textContent='LV.'+L.lv;$('lvl').style.setProperty('--p',Math.max(0,Math.min(100,L.p))+'%');$('xpBar').style.width=L.p+'%';$('xpText').textContent=`${Math.round(L.cur)}/${Math.round(L.need)} XP`;$('title').textContent=titleFor(L.lv);$('coin').textContent='◈ '+(P.coin||0);
@@ -59,10 +66,13 @@ function adaptiveDir(x){let w=getW(x)||{},d=$('direction').value,ans=$('answerMo
 function qFor(x,retry=0,old=null){let w=getW(x),dir=old?.dir||adaptiveDir(x),typed=old?old.typed:false;let answerMode=$('answerMode').value;
  if(!old&&dir==='fromJP')typed=answerMode==='typed'||(answerMode==='adaptive'&&(w?.prod||0)>=3&&Math.random()<.40);
  if(mode==='rival'){typed=false;if(!old)dir=Math.random()<.5?'toJP':'fromJP'}
- return{x,dir,typed,retry,answered:false,isBoss:false,isNew:!w,isRival:rivalsFor(x).length>0}}
+ // A shared Japanese gloss cannot uniquely determine the expected source spelling.
+ let ambiguousFallback=dir==='fromJP'&&!isUnambiguous(x,$('lang').value);
+ if(ambiguousFallback){dir='toJP';typed=false}
+ return{x,dir,typed,ambiguousFallback,retry,answered:false,isBoss:false,isNew:!w,isRival:rivalsFor(x).length>0}}
 function distractors(item,pool,l,dir){let targetLabel=dir==='fromJP'?orig(item,l):jp(item),ip=pos(item,l),ii=indexOf(item,l);
- let cand=pool.filter(x=>x.id!==item.id&&((dir==='fromJP'?orig(x,l):jp(x))!==targetLabel));let same=cand.filter(x=>pos(x,l)===ip);if(same.length>=3)cand=same;
- cand.sort((a,b)=>Math.abs(indexOf(a,l)-ii)-Math.abs(indexOf(b,l)-ii));let shortlist=shuffle(cand.slice(0,100));let riv=rivalsFor(item);let special=riv.map(r=>byId[r.a===item.id?r.b:r.a]).filter(Boolean);
+ let cand=pool.filter(x=>x.id!==item.id&&!glossOverlap(item,x)&&((dir==='fromJP'?orig(x,l):jp(x))!==targetLabel));let same=cand.filter(x=>pos(x,l)===ip);if(same.length>=3)cand=same;
+ cand.sort((a,b)=>Math.abs(indexOf(a,l)-ii)-Math.abs(indexOf(b,l)-ii));let shortlist=shuffle(cand.slice(0,100));let riv=rivalsFor(item);let candidateIds=new Set(cand.map(x=>x.id));let special=riv.map(r=>byId[r.a===item.id?r.b:r.a]).filter(x=>x&&candidateIds.has(x.id));
  let labels=new Set([targetLabel]),out=[];
  for(let x of [...special,...shortlist,...shuffle(cand)]){let lab=dir==='fromJP'?orig(x,l):jp(x);if(!lab||labels.has(lab))continue;labels.add(lab);out.push(x);if(out.length>=3)break}return out}
 function beep(kind){if(!P.sound)return;try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();let o=ctx.createOscillator(),g=ctx.createGain(),now=ctx.currentTime;o.type=kind==='seal'?'triangle':'sine';o.connect(g);g.connect(ctx.destination);o.frequency.value=kind==='bad'?140:kind==='boss'?95:kind==='seal'?840:540;g.gain.setValueAtTime(.035,now);g.gain.exponentialRampToValueAtTime(.001,now+.16);o.start(now);o.stop(now+.17)}catch(e){}}
@@ -73,16 +83,28 @@ function floatXP(t,el){if(window.matchMedia?.('(prefers-reduced-motion: reduce)'
 function intervals(score){return [5*MIN,6*60*MIN,DAY,3*DAY,7*DAY,21*DAY,60*DAY][Math.min(Math.max(0,score),6)]}
 function skillFor(q){return q.typed?'spell':q.dir==='toJP'?'rec':q.dir==='listen'?'listen':'prod'}
 function nextDueFor(w){let d=w.due||{},times=['rec','prod',...(w.spell?['spell']:[]),...(w.listen?['listen']:[])].map(k=>Number(d[k]||Infinity));return Math.min(...times)}
-function applyCorrect(q){let w=W(q.x),now=Date.now(),prev=stage(w),sk=skillFor(q),wasNem=w.nemesis,wason=w.seals||0,oldLast=w.lastCorrect||0;
+function applyCorrect(q){
+ let w=W(q.x),now=Date.now(),prev=stage(w),sk=skillFor(q),
+ wasNem=w.nemesis,wason=w.seals||0,oldLast=w.lastCorrect||0;
+ let lastScheduled=Number(w.due[sk]||0);
+ let credited=!q.retry&&((w[sk]||0)===0||!lastScheduled||now>=lastScheduled);
  w.seen++;w.correct++;w.last=now;w.days[today()]=(w.days[today()]||0)+1;
- // A correct immediate retry is short-term practice, not evidence of delayed retention.
- if(!q.retry){w[sk]=Math.min(6,(w[sk]||0)+1);w.due[sk]=now+intervals(w[sk]);if(oldLast&&now-oldLast>=18*60*60*1000&&w.rec>=2&&w.prod>=1)w.seals=Math.min(9,(w.seals||0)+1);w.lastCorrect=now;w.nextDue=nextDueFor(w)}
- if(wasNem&&w.correct>=Math.max(4,w.wrong*2)&&w.seals>=1)w.nemesis=false;
- return{before:prev,after:stage(w),sealed:(!wason&&w.seals>0),nemesisKilled:wasNem&&!w.nemesis,sk}}
+ // Only a first retrieval or a due review increases long-term mastery.
+ if(credited){
+   w[sk]=Math.min(6,(w[sk]||0)+1);
+   w.due[sk]=now+intervals(w[sk]);
+   if(oldLast&&now-oldLast>=18*60*60*1000&&w.rec>=2&&w.prod>=1)
+     w.seals=Math.min(9,(w.seals||0)+1);
+   w.lastCorrect=now;w.nextDue=nextDueFor(w);
+ }
+ if(wasNem&&credited&&oldLast&&now-oldLast>=18*60*60*1000&&w.correct>=Math.max(4,w.wrong*2)&&w.seals>=1)w.nemesis=false;
+ return {before:prev,after:stage(w),sealed:(!wason&&w.seals>0),
+ nemesisKilled:wasNem&&!w.nemesis,sk,credited};
+}
 function applyWrong(q){let w=W(q.x),now=Date.now(),sk=skillFor(q);w.seen++;w.wrong++;w.last=now;w.due[sk]=now+5*MIN;w.nextDue=nextDueFor(w);w[sk]=Math.max(0,(w[sk]||0)-1);if(w.wrong>=3)w.nemesis=true;return w.nemesis}
-function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:zonePool(),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
+function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:zonePool(),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
-function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
+function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
  let meta=l==='shan'?`${x.rank}位・${x.count}件・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta;let from=q.dir==='fromJP'||q.typed;
  $('prompt').className='prompt'+(from?' jp':'');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?jp(x):orig(x,l);$('ipa').textContent='';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
@@ -101,27 +123,32 @@ function feedbackDetail(x){return `<div class="detail"><b>${esc(orig(x,S.lang))}
 function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x),lang:S.lang,flaggedAt:new Date().toISOString()};save();toast('校閲候補として記録しました（SAVEで書き出せます）');let b=$('reportIssue');if(b)b.disabled=true}
 function registerRivalWin(x){let active=rivalsFor(x),result=0;for(let r of active){let other=r.a===x.id?r.b:r.a;if(!S.options?.some(y=>y.id===other))continue;r.wins=(r.wins||0)+1;if(r.wins>=4&&!r.cleared){r.cleared=true;result++}}return result}
 function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.answered=true;clearTimer();if(q.typed){$('typedAnswer').disabled=true;$('typedSubmit').disabled=true}else{[...$('choices').children].forEach(b=>b.disabled=true)};
- let x=q.x,w=W(x);if(!q.retry){S.done++;P.daily.q++;P.totalQ++}let mult=q.isBoss?2:1,comboMult=Math.min(2.5,1+Math.floor(S.combo/3)*.25);
- if(ok){let ev=applyCorrect(q);S.hit++;P.totalCorrect++;S.combo++;S.best=Math.max(S.best,S.combo);P.bestCombo=Math.max(P.bestCombo,S.combo);
+ let x=q.x,w=W(x),coinBefore=S.coin,memoryCredit=false;if(!q.retry){S.done++;P.daily.q++;P.totalQ++}let mult=q.isBoss?2:1,comboMult=Math.min(2.5,1+Math.floor(S.combo/3)*.25);
+ if(ok){let ev=applyCorrect(q);memoryCredit=ev.credited;S.hit++;if(!q.retry){P.totalCorrect++;S.firstHits++;if(!ev.credited)S.practiceHits++}S.combo++;S.best=Math.max(S.best,S.combo);P.bestCombo=Math.max(P.bestCombo,S.combo);
  if(q.dir==='fromJP'){S.prodHits++;P.daily.prod++}if(q.typed)S.typedHits++;if(q.dir==='listen')S.audioHits++;if(q.retry){S.revengeKills++;P.daily.revenge++}
  let rivalKills=!q.retry?registerRivalWin(x):0;S.rivalWins+=rivalKills;
  let gain=Math.round((q.retry?8:14)*mult*comboMult*(w.nemesis?1.6:1));if(ev.sealed){gain+=35;S.seals++;banner('✦ SEALED +35','seal');beep('seal')}if(ev.nemesisKilled){gain+=80;S.nemKills++;S.coin+=12;banner('☠ NEMESIS PURGED +80','seal')}if(rivalKills){gain+=70*rivalKills;S.coin+=10*rivalKills;banner('⚔ RIVAL CLEARED','seal')}
- S.xp+=gain;S.coin+=q.isBoss?5:1;if(btn)btn.classList.add('correct');$('feedback').className='feedback on';$('feedback').innerHTML=`<div class="hit">${q.typed?'SPELL CLEAR':q.retry?'REVENGE COMPLETE':'PERFECT HIT'} <span class="gain">+${gain} XP</span></div>${feedbackDetail(x)}`;
+ S.xp+=gain;P.xp+=gain;S.coin+=q.isBoss?5:1;if(btn)btn.classList.add('correct');$('feedback').className='feedback on';$('feedback').innerHTML=`<div class="hit">${q.typed?'SPELL CLEAR':q.retry?'REVENGE COMPLETE':'PERFECT HIT'} <span class="gain">+${gain} XP</span></div>${(!q.retry&&!ev.credited)?'<div class="small">短期練習：XP獲得。熟練度は復習期限後に上昇します。</div>':''}${feedbackDetail(x)}`;
  floatXP('+'+gain+' XP',btn||$('card'));beep('ok');vibe(16);if(ev.after>ev.before)toast(`${STAGES[ev.before]} → ${STAGES[ev.after]}`)}
  else{S.miss++;S.combo=0;S.mistakes.push(x);let nem=applyWrong(q);if(btn)btn.classList.add('wrong');if(!q.typed)[...$('choices').children].forEach(b=>{if(b.dataset.correct==='1')b.classList.add('correct')});
  if(selected){let r=recordConfusion(x,selected);if(r&&r.confusions===2)banner('⚔ RIVAL UNLOCKED','nem')}
  if(q.retry<2){let rq=qFor(x,q.retry+1,q),at=Math.min(3,S.queue.length);S.queue.splice(at,0,rq)}
  $('feedback').className='feedback on';$('feedback').innerHTML=`<div class="miss">${timeout?'TIME OUT':q.typed?'SPELL MISS':'MISS'} → ${esc(q.typed?orig(x,S.lang):q.dir==='fromJP'?orig(x,S.lang):jp(x))}</div>${feedbackDetail(x)}<div class="small" style="padding-top:5px">${q.retry<2?'数問後に短期復習します。':'時間を空けた復習も必要です。'}${nem?' NEMESIS化':''}</div>`;
  if(nem)banner('☠ NEMESIS ACTIVE','nem');beep('bad');vibe([25,20,25]);$('card').classList.add('shake');setTimeout(()=>$('card').classList.remove('shake'),300)}
+ if(!q.retry){
+   P.reviewLog.push({at:Date.now(),id:x.id,skill:skillFor(q),ok:!!ok,credited:!!memoryCredit});
+   if(P.reviewLog.length>1000)P.reviewLog=P.reviewLog.slice(-1000);
+ }
+ P.coin+=S.coin-coinBefore;
  $('reportIssue').onclick=()=>markIssue(x);renderMastery(W(x));updateHUD();save();if(ok){nextTimeout=setTimeout(next,1300)}else{$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');$('continueBtn').onclick=next}}
 function updateHUD(){$('qstat').textContent=`${Math.min(S.done||0,S.initial||0)}/${S.initial||0}`;$('hitstat').textContent=S.hit||0;$('combo').textContent=S.combo||0;$('xpstat').textContent=S.xp||0;$('roundBar').style.width=((S.done||0)/(S.initial||1)*100)+'%'}
-function finish(){clearTimer();clearTimeout(nextTimeout);let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.hit+S.miss,acc=attempt?S.hit/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
+function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.done,acc=attempt?S.firstHits/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
  if(!uniq.length){bonus+=90;S.coin+=15;rewards.push('NO MISS +90 XP / ◈15')}if(S.best>=10){bonus+=50;S.coin+=8;rewards.push('10 COMBO +50 XP / ◈8')}
  if(P.daily.q>=30&&P.daily.revenge>=5&&P.daily.prod>=8&&!P.daily.rewarded){bonus+=250;S.coin+=50;P.daily.rewarded=true;rewards.push('DAILY ALL CLEAR +250 XP / ◈50')}
- S.xp+=bonus;P.xp+=S.xp;P.coin+=S.coin;save();window.DOPACloud?.flush?.();renderZoneStats();$('game').classList.add('hidden');$('profile').classList.remove('hidden');let list=uniq.map(x=>`<div class="mistake"><b>${esc(orig(x,S.lang))}</b>　${esc(jp(x))}　<span class="small">${getW(x)?.nemesis?'NEMESIS':''}</span></div>`).join('');
- $('result').innerHTML=`<div class="end"><div class="small">QUEST COMPLETE</div><div class="rank">${rank}</div><b>${Math.round(acc*100)}% CLEAR</b><div class="endgrid"><div><b>${S.xp}</b><span>XP</span></div><div><b>${S.best}</b><span>MAX COMBO</span></div><div><b>${S.typedHits}</b><span>SPELL</span></div><div><b>${S.rivalWins}</b><span>RIVAL WIN</span></div></div><div class="loot"><b>REWARD</b><br>◈ ${S.coin} DOPA ${rewards.length?'<br>'+rewards.join('<br>'):''}<br>REVENGE ${S.revengeKills} ・ NEMESIS ${S.nemKills} ・ SEALED ${S.seals}</div>${uniq.length?`<div class="mistakes">${list}</div>`:''}<button class="primary" id="again">▶ NEXT QUEST</button></div>`;
+ S.xp+=bonus;P.xp+=bonus;P.coin+=S.coin-coinBefore;save();window.DOPACloud?.flush?.();renderZoneStats();$('game').classList.add('hidden');$('profile').classList.remove('hidden');let list=uniq.map(x=>`<div class="mistake"><b>${esc(orig(x,S.lang))}</b>　${esc(jp(x))}　<span class="small">${getW(x)?.nemesis?'NEMESIS':''}</span></div>`).join('');
+ $('result').innerHTML=`<div class="end"><div class="small">QUEST COMPLETE</div><div class="rank">${rank}</div><b>${Math.round(acc*100)}% CLEAR</b><div class="endgrid"><div><b>${S.xp}</b><span>XP</span></div><div><b>${S.best}</b><span>MAX COMBO</span></div><div><b>${S.typedHits}</b><span>SPELL</span></div><div><b>${S.rivalWins}</b><span>RIVAL WIN</span></div></div><div class="loot"><b>REWARD</b><br>◈ ${S.coin} DOPA ${rewards.length?'<br>'+rewards.join('<br>'):''}<br>REVENGE ${S.revengeKills} ・ NEMESIS ${S.nemKills} ・ SEALED ${S.seals}<br>初回正答 ${S.firstHits}/${S.done} ・ 早期練習 ${S.practiceHits}</div>${uniq.length?`<div class="mistakes">${list}</div>`:''}<button class="primary" id="again">▶ NEXT QUEST</button></div>`;
  $('result').classList.remove('hidden');$('again').onclick=()=>{$('result').classList.add('hidden');$('setup').classList.remove('hidden');renderProfile();renderZoneStats()}}
-function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。即時REVENGEの正答だけでは長期熟練度は伸びません。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
+function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
  $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
