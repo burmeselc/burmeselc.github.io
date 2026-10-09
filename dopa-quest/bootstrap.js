@@ -105,7 +105,8 @@
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
   game.onload=()=>{
-    if(window.DOPA_FIREBASE_CONFIG?.projectId){
+    // Preview/CDN origins must never run production cloud sign-in or sync.
+    if(window.DOPA_FIREBASE_CONFIG?.projectId&&location.hostname==='burmeselc.github.io'){
       const s=document.createElement('script');s.type='module';s.src='./cloud-sync.js';
       s.onerror=()=>{status.textContent='クラウド機能を読込めません。端末内保存は有効です。'};
       document.body.appendChild(s);
