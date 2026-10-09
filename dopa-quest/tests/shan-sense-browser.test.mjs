@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 const URL=process.env.DOPA_TEST_URL||'http://127.0.0.1:8123/dopa-quest/';
-test('Shan sense lab opt-in keeps old progress, presents split senses only Japanese to Shan',async()=>{
+test('Shan sense lab opt-in keeps old progress, supports Shan to Japanese and Japanese to Shan split senses',async()=>{
  const browser=await chromium.launch({headless:true});
  try{
   const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
@@ -22,10 +22,28 @@ test('Shan sense lab opt-in keeps old progress, presents split senses only Japan
     const q=window.qFor(x);
     return {dir:q.dir,typed:q.typed,ambiguousFallback:q.ambiguousFallback,parent:x.parent_id,id:x.id};
   });
-  assert.equal(forced.dir,'fromJP');
+  assert.equal(forced.dir,'toJP');
   assert.equal(forced.typed,false);
   assert.equal(forced.ambiguousFallback,false);
   assert.notEqual(forced.parent,forced.id);
+  // The spelling may have multiple meanings, but no alternative sense of it
+  // may appear among the three distractors in Shan -> Japanese mode.
+  const invariant=await page.evaluate(()=>{
+    const pool=window.DOPA_DATA.shan_senses.filter(x=>x.semantic_major==='17'&&x.game_include===1);
+    const source=pool.find(x=>x.sense_split&&pool.some(y=>y.id!==x.id&&y.shan===x.shan));
+    if(!source)return {found:false};
+    const alternatives=window.distractors(source,pool,'shan','toJP');
+    const choices=[source,...alternatives];
+    return {found:true,length:choices.length,spelling:source.shan,
+      otherSameSpelling:alternatives.some(x=>x.shan===source.shan),
+      uniqueJapanese:new Set(choices.map(x=>x.japanese_core)).size,
+      uniqueSpelling:new Set(choices.map(x=>x.shan)).size};
+  });
+  assert.equal(invariant.found,true);
+  assert.equal(invariant.length,4);
+  assert.equal(invariant.otherSameSpelling,false);
+  assert.equal(invariant.uniqueJapanese,4);
+  assert.equal(invariant.uniqueSpelling,4);
   await page.locator('#start').click();
   await page.locator('#game:not(.hidden)').waitFor();
   for(let n=0;n<5;n++){
