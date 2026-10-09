@@ -4,7 +4,7 @@ const DAY=86400000, MIN=60000;
 const KEY='dopaQuestV5_profile', OLDKEY='dopaQuestV4_profile';
 const STAGES=['UNSEEN','SEEN','KNOWN','SOLID','MASTERED'];
 let mode='campaign', S={}, voices=[], ctx=null, nextTimeout=null;
-const fresh=()=>({xp:0,coin:0,totalQ:0,totalCorrect:0,bestCombo:0,day:'',daily:{q:0,revenge:0,prod:0,rewarded:false},words:{},rivals:{},issues:{},sound:true,migratedFrom:'',reviewLog:[]});
+const fresh=()=>({xp:0,coin:0,totalQ:0,totalCorrect:0,bestCombo:0,day:'',daily:{q:0,revenge:0,prod:0,rewarded:false},words:{},rivals:{},issues:{},sound:true,slowCorrect:false,migratedFrom:'',reviewLog:[]});
 function loadLocal(){try{let raw=localStorage.getItem(KEY);if(raw)return {...fresh(),...JSON.parse(raw)};raw=localStorage.getItem(OLDKEY);if(raw)return {...fresh(),...JSON.parse(raw),migratedFrom:'v4'};}catch(e){}return fresh()}
 let P=loadLocal();
 function ensureProfile(){if(!P.words||typeof P.words!=='object')P.words={};if(!P.rivals||typeof P.rivals!=='object')P.rivals={};if(!P.issues||typeof P.issues!=='object')P.issues={};if(!P.daily)P.daily=fresh().daily;if(!Array.isArray(P.reviewLog))P.reviewLog=[];}
@@ -106,7 +106,7 @@ function applyWrong(q){let w=W(q.x),now=Date.now(),sk=skillFor(q);w.seen++;w.wro
 function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:zonePool(),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
 function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
- let meta=l==='shan'?`${x.rank}位・${x.count}件・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta;let from=q.dir==='fromJP'||q.typed;
+ let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta;let from=q.dir==='fromJP'||q.typed;
  $('prompt').className='prompt'+(from?' jp':'');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?jp(x):orig(x,l);$('ipa').textContent='';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
@@ -120,7 +120,7 @@ function clearTimer(){if(S.timer){clearInterval(S.timer);S.timer=null}}
 function startTimer(){clearTimer();let speed=$('speed').value;if(speed==='normal'||S.cur.typed){$('timestat').textContent='∞';S.start=performance.now();return}let sec=speed==='rush'?10:6;if(S.cur.isBoss)sec=Math.max(4,sec-1);let end=performance.now()+sec*1000;S.start=performance.now();S.timer=setInterval(()=>{let rem=Math.max(0,end-performance.now());$('timestat').textContent=(rem/1000).toFixed(1);if(!rem){clearTimer();answer(null,false,true,null)}},90)}
 function normalizedOriginal(v){return String(v||'').normalize('NFC').replace(/[\s\u200b\u200c\u200d\u2060]+/g,'').trim()}
 function submitTyped(){if(!$('typedAnswer').value.trim())return;let ans=normalizedOriginal($('typedAnswer').value),want=normalizedOriginal(orig(S.cur.x,S.lang)),ok=ans===want;answer(null,ok,false,null)}
-function feedbackDetail(x){return `<div class="detail"><b>${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
+function feedbackDetail(x,full=true){return `<div class="detail"><b>${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
 function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x),lang:S.lang,flaggedAt:new Date().toISOString()};save();toast('校閲候補として記録しました（SAVEで書き出せます）');let b=$('reportIssue');if(b)b.disabled=true}
 function registerRivalWin(x){let active=rivalsFor(x),result=0;for(let r of active){let other=r.a===x.id?r.b:r.a;if(!S.options?.some(y=>y.id===other))continue;r.wins=(r.wins||0)+1;if(r.wins>=4&&!r.cleared){r.cleared=true;result++}}return result}
 function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.answered=true;clearTimer();if(q.typed){$('typedAnswer').disabled=true;$('typedSubmit').disabled=true}else{[...$('choices').children].forEach(b=>b.disabled=true)};
@@ -129,7 +129,7 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
  if(q.dir==='fromJP'){S.prodHits++;P.daily.prod++}if(q.typed)S.typedHits++;if(q.dir==='listen')S.audioHits++;if(q.retry){S.revengeKills++;P.daily.revenge++}
  let rivalKills=!q.retry?registerRivalWin(x):0;S.rivalWins+=rivalKills;
  let gain=Math.round((q.retry?8:14)*mult*comboMult*(w.nemesis?1.6:1));if(ev.sealed){gain+=35;S.seals++;banner('✦ SEALED +35','seal');beep('seal')}if(ev.nemesisKilled){gain+=80;S.nemKills++;S.coin+=12;banner('☠ NEMESIS PURGED +80','seal')}if(rivalKills){gain+=70*rivalKills;S.coin+=10*rivalKills;banner('⚔ RIVAL CLEARED','seal')}
- S.xp+=gain;P.xp+=gain;S.coin+=q.isBoss?5:1;if(btn)btn.classList.add('correct');$('feedback').className='feedback on';$('feedback').innerHTML=`<div class="hit">${q.typed?'SPELL CLEAR':q.retry?'REVENGE COMPLETE':'PERFECT HIT'} <span class="gain">+${gain} XP</span></div>${(!q.retry&&!ev.credited)?'<div class="small">短期練習：XP獲得。熟練度は復習期限後に上昇します。</div>':''}${feedbackDetail(x)}`;
+ S.xp+=gain;P.xp+=gain;S.coin+=q.isBoss?5:1;if(btn)btn.classList.add('correct');$('feedback').className='feedback on';$('feedback').innerHTML=`<div class="hit">${q.typed?'SPELL CLEAR':q.retry?'REVENGE COMPLETE':'PERFECT HIT'} <span class="gain">+${gain} XP</span></div>${(!q.retry&&!ev.credited)?'<div class="small">短期練習：XP獲得。熟練度は復習期限後に上昇します。</div>':''}${feedbackDetail(x,false)}`;
  floatXP('+'+gain+' XP',btn||$('card'));beep('ok');vibe(16);if(ev.after>ev.before)toast(`${STAGES[ev.before]} → ${STAGES[ev.after]}`)}
  else{S.miss++;S.combo=0;S.mistakes.push(x);let nem=applyWrong(q);if(btn)btn.classList.add('wrong');if(!q.typed)[...$('choices').children].forEach(b=>{if(b.dataset.correct==='1')b.classList.add('correct')});
  if(selected){let r=recordConfusion(x,selected);if(r&&r.confusions===2)banner('⚔ RIVAL UNLOCKED','nem')}
@@ -141,9 +141,27 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
    if(P.reviewLog.length>1000)P.reviewLog=P.reviewLog.slice(-1000);
  }
  P.coin+=S.coin-coinBefore;
- $('reportIssue').onclick=()=>markIssue(x);renderMastery(W(x));updateHUD();save();if(ok){const needsRead=q.isNew||jp(x).length>38||note(x,S.lang).length>65;
- if(needsRead){$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">覚えた → 次の問題へ</button>');$('continueBtn').onclick=next}
- else nextTimeout=setTimeout(next,1400)
+ $('reportIssue').onclick=()=>markIssue(x);renderMastery(W(x));updateHUD();save();if(ok){
+   const explain=()=>{
+     clearTimeout(nextTimeout);
+     if(!$('continueBtn')){
+       const area=$('feedback');
+       const detail=note(x,S.lang);
+       if(detail)area.insertAdjacentHTML('beforeend','<div class="detail note">'+esc(detail)+'</div>');
+       area.insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');
+       $('continueBtn').onclick=next;
+     }
+     const more=$('detailHold');if(more)more.remove();
+   };
+   if(P.slowCorrect)explain();
+   else {
+     const detail=note(x,S.lang);
+     if(detail||jp(x).length>38){
+       $('feedback').insertAdjacentHTML('beforeend','<button type="button" class="flag" id="detailHold">解説を見る（自動送りを停止）</button>');
+       $('detailHold').onclick=explain;
+     }
+     nextTimeout=setTimeout(next,950);
+   }
  }else{$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');$('continueBtn').onclick=next}}
 function updateHUD(){$('qstat').textContent=`${Math.min(S.done||0,S.initial||0)}/${S.initial||0}`;$('hitstat').textContent=S.hit||0;$('combo').textContent=S.combo||0;$('xpstat').textContent=S.xp||0;$('roundBar').style.width=((S.done||0)/(S.initial||1)*100)+'%'}
 function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.done,acc=attempt?S.firstHits/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
@@ -155,9 +173,9 @@ function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;l
 function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
- $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
+ $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
  $('start').onclick=start;$('soundBtn').onclick=()=>{P.sound=!P.sound;$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';save()};
- $('backupBtn').onclick=()=>{download('dopa_quest_v5_progress.json',{format:'DOPA_QUEST_V5',exportedAt:new Date().toISOString(),profile:P});toast('進捗・RIVAL・校閲候補を出力しました')};
+ $('backupBtn').onclick=()=>{download('dopa_quest_v6_progress.json',{format:'DOPA_QUEST_V5',exportedAt:new Date().toISOString(),profile:P});toast('進捗・RIVAL・校閲候補を出力しました')};
  $('loadBtn').onclick=()=>$('loadFile').click();$('loadFile').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let o=JSON.parse(await f.text());if(!['DOPA_QUEST_V4','DOPA_QUEST_V5'].includes(o.format)||!o.profile||!o.profile.words)throw Error('invalid');if(Object.keys(P.words).length&&!confirm('現在の進捗を読み込んだファイルの内容で置き換へます。実行しますか？'))return;P={...fresh(),...o.profile,migratedFrom:o.format==='DOPA_QUEST_V4'?'v4':''};ensureProfile();rollover();save();renderZoneStats();$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';toast('進捗を読み込みました')}catch(err){toast('進捗ファイルを読めません')}finally{e.target.value=''}};
  $('typedAnswer').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();submitTyped()}});
  document.addEventListener('keydown',e=>{if($('game').classList.contains('hidden')||S.cur?.typed||['INPUT','TEXTAREA'].includes(document.activeElement?.tagName))return;let n=+e.key;if(n>=1&&n<=4){let b=$('choices').children[n-1];if(b&&!b.disabled)b.click()}});
@@ -171,6 +189,7 @@ window.DOPA_SYNC_API = {
     localStorage.setItem(KEY,JSON.stringify(P));
     renderProfile();renderZoneStats();
     $('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';
+    if($('slowCorrect'))$('slowCorrect').checked=!!P.slowCorrect;
     $('result').classList.add('hidden');$('game').classList.add('hidden');
     $('setup').classList.remove('hidden');$('profile').classList.remove('hidden');
   }

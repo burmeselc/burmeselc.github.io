@@ -71,3 +71,74 @@ test('XP is persisted on each answer with no double credit at result',()=>{
   assert.ok(!source.includes('P.xp+=S.xp'));
   assert.ok(source.includes('P.reviewLog.push('));
 });
+
+const cloudSource=read('cloud-sync.js');
+test('v6.2 Shan frequency metadata is present on every built-in word',()=>{
+  assert.ok(shan.every(x=>Number.isSafeInteger(x.count)&&x.count>0));
+  assert.ok(source.includes("Number(x.count).toLocaleString()"));
+});
+test('correct answers auto-advance by default, optional reading mode remains',()=>{
+  assert.ok(source.includes('nextTimeout=setTimeout(next,950)'));
+  assert.ok(source.includes('if(P.slowCorrect)explain()'));
+  assert.ok(source.includes("id=\"detailHold\""));
+  assert.ok(source.includes('slowCorrect:false'));
+});
+test('cloud snapshots survive Unicode split across chunk boundaries',()=>{
+  const start=cloudSource.indexOf('function chunks(s){');
+  const end=cloudSource.indexOf('async function meta(',start);
+  assert.ok(start>=0&&end>start);
+  const implementation=cloudSource.slice(start,end);
+  const roundtrip=new Function('value',implementation+'return assemble(chunks(value))');
+  const content='ၵိၼ်စား'+('ရှမ်း語と日本語𠮷'.repeat(12000));
+  assert.equal(roundtrip(content),content);
+});
+test('cloud restore rejects updates made while remote data is being fetched',async()=>{
+  const start=cloudSource.indexOf('async function restore(m,account=uid){');
+  const end=cloudSource.indexOf('async function upload(',start);
+  assert.ok(start>=0&&end>start);
+  const fn=cloudSource.slice(start,end);
+  const make=new Function('race',`
+    let uid='u1',revision=0,dirty=true,blocked=false;
+    let profile={words:{a:{rec:2}},rivals:{},totalQ:1};
+    let backedUp=null,restored=false,conflicted=false;
+    const snapshot=()=>profile;
+    const hash=s=>s;
+    const download=async()=>{if(race)profile={words:{a:{rec:2},b:{rec:1}},rivals:{},totalQ:2};return {words:{remote:{rec:3}},rivals:{},totalQ:5}};
+    const $=()=>({classList:{contains:()=>true}});
+    const hasProgress=p=>Object.keys(p.words).length>0;
+    const recoveryStorage=async(write,data)=>{backedUp=data};
+    const window={DOPA_SYNC_API:{restore:p=>{restored=true;profile=p}}};
+    const remember=()=>{};
+    const hideConflict=()=>{blocked=false};
+    const showConflict=()=>{conflicted=true};
+    const print=()=>{};
+    ${fn}
+    return async()=>{await restore({rev:2},'u1');return {profile,restored,conflicted,backedUp,revision}};
+  `);
+  const conflict=await make(true)();
+  assert.equal(conflict.conflicted,true);
+  assert.equal(conflict.restored,false);
+  assert.equal(conflict.backedUp,null);
+  const success=await make(false)();
+  assert.equal(success.conflicted,false);
+  assert.equal(success.restored,true);
+  assert.ok(success.backedUp?.profile.words.a);
+  assert.equal(success.profile.totalQ,5);
+  assert.equal(success.revision,2);
+});
+test('explicit cloud sync fetches newer remote progress',async()=>{
+  const start=cloudSource.indexOf('async function syncNow(){');
+  const end=cloudSource.indexOf("$('cloudSync').onclick",start);
+  assert.ok(start>=0&&end>start);
+  const fn=cloudSource.slice(start,end);
+  const make=new Function(`
+    let uid='u1',busy=false,blocked=false,revision=1;
+    let restored=0,uploaded=0,conflicted=0;
+    const changed=()=>false,flush=async()=>{uploaded++};
+    const print=()=>{},meta=async()=>({rev:2}),restore=async()=>{restored++};
+    const showConflict=()=>{conflicted++};
+    ${fn}
+    return async()=>{await syncNow();return {restored,uploaded,conflicted}};
+  `);
+  assert.deepEqual(await make()(),{restored:1,uploaded:0,conflicted:0});
+});
