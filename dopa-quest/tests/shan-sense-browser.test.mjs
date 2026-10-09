@@ -53,7 +53,7 @@ test('Shan sense lab opt-in keeps old progress, supports Shan to Japanese and Ja
     if(!x)return {found:false};
     const q=window.qFor(x);
     const distractors=window.distractors(x,pool,'shan','fromJP');
-    const parts=s=>[...new Set(String(s||'').normalize('NFKC').split(/[；;、，,／/]).map(t=>t.replace(/[。．！？!？\s　]+/g,'').trim().toLowerCase()).filter(Boolean))];
+    const parts=s=>[...new Set(String(s||'').normalize('NFKC').split(/[；;、，,／\/]/).map(t=>t.replace(/[。．！？!？\s　]+/g,'').trim().toLowerCase()).filter(Boolean))];
     const base=new Set(parts(x.japanese_core));
     return {found:true,dir:q.dir,typed:q.typed,length:distractors.length,
       sameShan:distractors.some(y=>y.shan===x.shan),
