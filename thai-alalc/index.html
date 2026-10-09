@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thai ALA-LC | burmeselc</title><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="thai.css">
+<script type="module" src="app.js"></script></head>
+<body class="thai-alalc-page"><main class="page page--tool">
+<header class="page-header thai-header">
+<nav class="breadcrumb"><a href="../index.html">← burmeselc / Tools</a></nav>
+<p class="kicker">THAI · ROMANIZATION · 2011</p><h1>Thai ALA-LC Converter</h1>
+<p class="note">タイ文字とALA-LC翻字を照合する目録作業用の補助道具。既知語は辞書から検索し、逆変換では複数の綴りを意味とともに選択できます。</p>
+</header>
+<div class="mode-group" role="tablist" aria-label="変換方向">
+<button class="mode is-active" type="button" data-mode="forward" role="tab" aria-selected="true">タイ文字 → ALA-LC</button>
+<button class="mode" type="button" data-mode="reverse" role="tab" aria-selected="false">ALA-LC → タイ文字</button>
+<button class="mode" type="button" data-mode="search" role="tab" aria-selected="false">辞書検索</button>
+</div>
+<section class="workspace" aria-label="入力と結果">
+<div class="editor-heading"><h2 id="input-title">タイ文字の入力</h2><button type="button" id="clear" class="button-light">消去</button></div>
+<textarea id="input" class="thai-input" aria-labelledby="input-title" rows="4" spellcheck="false" placeholder="例：ภาษาไทย" autocomplete="off"></textarea>
+<div class="editor-foot"><span id="dictionary-status">辞書を読み込み中...</span><span>入力内容はサーバーへ送信せず、保存もしません。</span></div>
+</section>
+<section class="workspace result-workspace" aria-labelledby="result-title">
+<div class="editor-heading"><h2 id="result-title">変換結果</h2><div class="actions"><button type="button" id="copy">結果をコピー</button><button type="button" id="download">.txt 保存</button></div></div>
+<div id="result" class="result-output alalc" aria-live="polite">入力するとここに変換候補が表示されます。</div>
+<p id="result-status" class="result-status" aria-live="polite"></p>
+<div id="candidates" class="candidate-panel" hidden><h3>綴りの候補</h3><p class="candidate-help">候補を選ぶと上の変換結果が更新されます。意味は選択の参考情報です。</p><div id="candidate-list"></div></div>
+</section>
+<section class="workspace"><details><summary>辞書データの追加（このタブ内だけ）</summary>
+<p class="detail-note">CSVまたはJSONの辞書を読み込めます。CSV列名：<code>thai,alalc,meaning,ipa,source,status</code>。読み込んだデータは外部へ送信されず、ページを閉じると失はれます。</p>
+<input type="file" id="import-dictionary" accept=".csv,.json,text/csv,application/json">
+<p id="import-status" class="result-status"></p></details></section>
+<section class="guidance"><h2>変換の取扱ひ</h2>
+<p>このページの初期辞書は規則表に見られる少数の例を中心とした試験版です。単語の境界、黙字、語彙固有の読み、分かち書きについては、辞書にない部分を「未登録」と明示します。<strong>未確定の候補を、確認済みALA-LCとして扱はないでください。</strong></p>
+<p>準拠規則：<a href="https://www.loc.gov/catdir/cpso/romanization/thai.pdf" target="_blank" rel="noopener">Library of Congress, Thai Romanization Table (2011)</a>。将来的には、適切な許諾を受けた語彙データを変換・査読して拡充します。</p></section>
+<footer class="site-footer"><p><a href="../index.html">burmeselc に戻る</a>　·　Thai ALA-LC (beta)</p></footer>
+</main></body></html>
