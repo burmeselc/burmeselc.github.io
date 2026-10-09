@@ -26,6 +26,13 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
    assert.match(await page.locator('#meta').textContent(),/領域 06/);
    const labels=await page.locator('#choices button').allTextContents();
    assert.equal(new Set(labels).size,4);
+   // Every answer (including the three false alternatives) belongs to the food domain.
+   const scoped=await page.locator('#choices button').evaluateAll((buttons)=>{
+     const byId=new Map(window.DOPA_DATA.burmese.map(w=>[w.id,w]));
+     return buttons.map(b=>({category:byId.get(b.dataset.itemid)?.semantic_major,status:byId.get(b.dataset.itemid)?.semantic_status}));
+   });
+   assert.deepEqual(scoped.map(x=>x.category),['06','06','06','06']);
+   assert.ok(scoped.every(x=>x.status!=='M'));
    await page.locator('#choices button[data-correct="0"]').first().click();
    await page.locator('#continueBtn').waitFor();
    await page.locator('#continueBtn').click();
@@ -44,6 +51,26 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
   assert.deepEqual(errors,[]);
   await context.close();
  }finally{await browser.close();}
+});
+test('rare semantic category still shows four in-category choices',async()=>{
+ const browser=await launch();
+ try{
+  const page=await browser.newPage(),errors=errorsOn(page);
+  await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>window.DOPA_DATA?.burmese?.length===2500);
+  await page.locator('#lang').selectOption('burmese');
+  await page.locator('#semanticCategory').selectOption('18');
+  await page.locator('#direction').selectOption('toJP');
+  await page.locator('#start').click();
+  await page.locator('#game:not(.hidden)').waitFor();
+  assert.equal(await page.locator('#choices button').count(),4);
+  const actual=await page.locator('#choices button').evaluateAll(buttons=>{
+    const byId=new Map(window.DOPA_DATA.burmese.map(w=>[w.id,w]));
+    return buttons.map(b=>byId.get(b.dataset.itemid)?.semantic_major);
+  });
+  assert.deepEqual(actual,['18','18','18','18']);
+  assert.deepEqual(errors,[]);
+ } finally {await browser.close()}
 });
 test('missing category data degrades to original all-words mode',async()=>{
  const browser=await launch();
