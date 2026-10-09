@@ -45,5 +45,5 @@ test('legacy progress keys and original game modes remain intact',()=>{
  assert.match(game,/function updateSemanticCategories\(/);
  assert.match(bootstrap,/window\.DOPA_SEMANTIC_READY/);
  assert.match(html,/id="semanticCategory"/);
- assert.match(game,/S\.pool=|pool:\(\$\('lang'\)/);
+ assert.ok(game.includes("pool:($('semanticCategory')"));
 });
