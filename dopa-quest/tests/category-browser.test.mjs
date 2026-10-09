@@ -26,7 +26,7 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
    assert.match(await page.locator('#meta').textContent(),/領域 06/);
    const labels=await page.locator('#choices button').allTextContents();
    assert.equal(new Set(labels).size,4);
-   await page.locator('#choices button').first().click();
+   await page.locator('#choices button[data-correct="0"]').first().click();
    await page.locator('#continueBtn').waitFor();
    await page.locator('#continueBtn').click();
   }
