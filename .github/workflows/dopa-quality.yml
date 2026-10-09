@@ -1,0 +1,26 @@
+name: DOPA QUEST quality checks
+on:
+  pull_request:
+    paths:
+      - 'dopa-quest/**'
+      - '.github/workflows/dopa-quality.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'dopa-quest/**'
+      - '.github/workflows/dopa-quality.yml'
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check dopa-quest/game.js
+      - run: node --check dopa-quest/bootstrap.js
+      - run: node --check dopa-quest/cloud-sync.js
+      - run: node --test dopa-quest/tests/quality.test.mjs
