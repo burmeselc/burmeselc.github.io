@@ -5,6 +5,7 @@ from pathlib import Path
 from sys import path
 BASE=Path(__file__).resolve().parents[1]
 path.insert(0,str(BASE/'scripts'))
+from ipa_candidates import candidate_from_ipa
 from romanize import guess_word
 from build_dictionary import make_entries
 from sealang_batch import planned_urls
@@ -36,6 +37,12 @@ class ThaiDictionaryTests(unittest.TestCase):
             self.assertEqual(next(x for x in data if x['thai']=='ไก่')['status'],'tentative')
             self.assertEqual(next(x for x in data if x['thai']=='พิเศษ')['status'],'unresolved')
             self.assertEqual(next(x for x in data if x['thai']=='ไก่')['meaning'],'chicken')
+    def test_ipa_roman_candidates(self):
+        self.assertEqual(candidate_from_ipa('pʰaa-sǎa'),'phāsā')
+        self.assertEqual(candidate_from_ipa('ˈkʰon'),'khon')
+        self.assertEqual(candidate_from_ipa('saˈmɔ̌ɔ'),'samǭ')
+        self.assertIsNone(candidate_from_ipa('two~pronunciations'))
+
     def test_collector_rejects_untrusted_hosts(self):
         self.assertEqual(len(planned_urls('https://sealang.net/results?query={query}',4)),4)
         with self.assertRaises(ValueError):
