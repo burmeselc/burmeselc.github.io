@@ -126,7 +126,7 @@ let targetLabel=dir==='fromJP'?orig(item,l):jp(item),ip=pos(item,l),ii=indexOf(i
  let labels=new Set([targetLabel]),seenSpelling=new Set([orig(item,l)]),out=[];
  for(let x of [...special,...shortlist,...shuffle(cand)]){
   let lab=dir==='fromJP'?orig(x,l):jp(x),spelling=orig(x,l);
-  if(!lab||labels.has(lab)||seenSpelling.has(spelling)||out.some(o=>glossOverlap(o,x)))continue;
+  if(!lab||labels.has(lab)||seenSpelling.has(spelling))continue;
   labels.add(lab);seenSpelling.add(spelling);out.push(x);
   if(out.length>=3)break
  }return out}
