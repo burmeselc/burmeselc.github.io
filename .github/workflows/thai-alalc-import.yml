@@ -1,39 +1,23 @@
-name: Thai dictionary import (manual; permission-gated)
+name: Import SEAlang Thai dictionary
 on:
   workflow_dispatch:
     inputs:
-      url_template:
-        description: "VERIFIED SEAlang Thai results URL with {query}"
+      query_patterns:
+        description: "Space-separated Thai search patterns: ก.* ข.* ค.*"
         type: string
         required: true
-      entry_selector:
-        description: "Verified CSS selector for one result entry"
-        type: string
-        required: true
-      thai_selector:
-        description: "Verified CSS selector for Thai headword"
-        type: string
-        required: true
-      meaning_selector:
-        description: "Verified CSS selector for the gloss"
-        type: string
-        required: true
-      ipa_selector:
-        description: "Optional IPA selector"
-        type: string
-        required: false
       max_requests:
-        description: "Queries per run (1-100)"
+        description: "Maximum requests in this batch (up to 60)"
         type: number
+        default: 12
         required: true
-        default: 20
       bulk_access_permitted:
-        description: "I confirm permission for Thai bulk collection"
+        description: "I confirm SEAlang permitted academic bulk retrieval"
         type: boolean
         required: true
         default: false
       redistribution_permitted:
-        description: "I confirm public redistribution rights for all dictionary material"
+        description: "I confirm SEAlang permitted redistribution"
         type: boolean
         required: true
         default: false
@@ -43,14 +27,11 @@ jobs:
   import:
     if: inputs.bulk_access_permitted && inputs.redistribution_permitted
     runs-on: ubuntu-latest
+    timeout-minutes: 55
     permissions:
       contents: write
     env:
-      SEALANG_URL: ${{ inputs.url_template }}
-      ENTRY_SELECTOR: ${{ inputs.entry_selector }}
-      THAI_SELECTOR: ${{ inputs.thai_selector }}
-      MEANING_SELECTOR: ${{ inputs.meaning_selector }}
-      IPA_SELECTOR: ${{ inputs.ipa_selector }}
+      QUERIES: ${{ inputs.query_patterns }}
       MAX_REQUESTS: ${{ inputs.max_requests }}
     steps:
       - uses: actions/checkout@v4
@@ -58,43 +39,35 @@ jobs:
           persist-credentials: true
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Install parser dependencies
-        run: python -m pip install requests beautifulsoup4
-      - name: Fetch controlled batch
+          python-version: '3.12'
+      - name: Install parser
+        run: python -m pip install beautifulsoup4
+      - name: Fetch approved SEAlang search results
         working-directory: thai-alalc
         run: |
-          python scripts/sealang_batch.py --url-template "$SEALANG_URL" \
-            --max-requests "$MAX_REQUESTS" --delay 10 \
-            --run --permission-confirmed
-      - name: Parse inspected results and build dictionary
-        working-directory: thai-alalc
-        run: |
-          python scripts/sealang_batch.py --parse-only \
-            --entry-selector "$ENTRY_SELECTOR" \
-            --thai-selector "$THAI_SELECTOR" \
-            --meaning-selector "$MEANING_SELECTOR" \
-            --ipa-selector "$IPA_SELECTOR"
+          read -r -a query_list <<< "$QUERIES"
+          python scripts/sealang_api_thai.py --queries "${query_list[@]}" --limit "$MAX_REQUESTS" --delay 12 --legacy-tls --run --permission-confirmed
+          python scripts/build_dictionary.py --source data/sealang-shards/
           python - <<'PY'
-          import csv
-          with open('data/sealang-export.csv',encoding='utf-8') as f:
-              count=sum(1 for _ in csv.DictReader(f))
-          if count<1:raise SystemExit('No entries extracted; refusing to publish.')
-          print('Candidate rows:', count)
+          import csv,glob,json
+          paths=glob.glob('data/sealang-shards/*.csv')
+          records=sum(sum(1 for _ in csv.DictReader(open(p,encoding='utf-8'))) for p in paths)
+          rows=json.load(open('dictionary.json',encoding='utf-8'))
+          print('SEAlang source records:',records,'published dictionary entries:',len(rows))
+          if not records: raise SystemExit('No source records; aborting publication.')
           PY
-          python scripts/build_dictionary.py --source data/sealang-export.csv
-      - name: Validate output before commit
+      - name: Validate
         run: |
           python -m unittest discover -s thai-alalc/tests -v
           node --check thai-alalc/app.js
-      - name: Commit candidate dictionary
+      - name: Commit source shards and the derived dictionary
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add thai-alalc/dictionary.json
+          git add thai-alalc/data/sealang-shards/ thai-alalc/dictionary.json
           if git diff --cached --quiet; then
-            echo "No dictionary changes."
+            echo 'No new dictionary entries'
           else
-            git commit -m "Update Thai ALA-LC lexicon from permitted export"
+            git commit -m 'Update Thai ALA-LC dictionary from SEAlang API'
             git push
           fi

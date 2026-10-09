@@ -11,7 +11,7 @@ A static, dictionary-first Thai ↔ ALA-LC 2011 tool at /thai-alalc/. It inherit
 
 ## What remains to be built
 
-The initial dictionary has 25 manually curated demonstration entries, 17 with ALA-LC romanization given as examples in the official 2011 table; glosses are editor-written. **No SEAlang entries were downloaded or republished.** The site does not perform reliable novel-word transcription or automatic Thai word division yet. 43 word division rules, irregular inherent vowels, silent letters, loanwords, and proper names require a reviewed dictionary and human cataloging review.
+The initial dictionary has 25 manually curated demonstration entries, 17 with ALA-LC romanization given as examples in the official 2011 table; glosses are editor-written. **An initial SEAlang Thai API batch (ณ.* and ฬ.*) has been collected and reviewed only for parse/schema integrity.** The site does not perform reliable novel-word transcription or automatic Thai word division yet. 43 word division rules, irregular inherent vowels, silent letters, loanwords, and proper names require a reviewed dictionary and human cataloging review.
 
 ## Record schema and building
 
@@ -22,32 +22,27 @@ Build from curated examples:
 
     python thai-alalc/scripts/build_dictionary.py
 
-Build with an authorized, privately obtained SEAlang CSV:
+Build with authorized SEAlang CSV shards (as collected by GitHub Actions):
 
-    python thai-alalc/scripts/build_dictionary.py --source thai-alalc/data/sealang-export.csv
+    python thai-alalc/scripts/build_dictionary.py --source thai-alalc/data/sealang-shards/
 
 CSV header: thai,meaning,ipa,source,alalc,verified. A genuinely reviewed ALA-LC can be supplied with verified=yes. Without verification the build script gives simple words a tentative orthography-based romanization and leaves complex words unresolved. Never promote tentative results to verified automatically.
 
-## Opt-in SEAlang collection
+## SEAlang Thai API collection (GitHub-only)
 
-scripts/sealang_batch.py can plan conservative queries partitioned by Thai initial orthographic character (ก.*, ข.*, เ.*, etc.). It **does not know** the current official Thai query endpoint or actual result CSS selectors. A query may paginate or truncate, and therefore prefix partitioning does not establish full coverage. Inspect SEAlang's live site first.
+The Thai search API was verified at `https://sealang.net/api/api.pl?service=dictionary&lang=Thai&query=...`. It returns XML-like HTML containing `entry` and `subentry`, with `formx` source IDs, `orth` Thai heads, `pron` phonetic transcriptions, and `sense/def` English glosses. A limited real batch on GitHub Actions retrieved 27 records with 2 search patterns, then wrote CSV shards and a 52-entry combined dictionary.
 
-- No network activity unless both --run and --permission-confirmed are supplied.
-- Explicit --url-template (one {query} placeholder, HTTPS sealang.net only).
-- 7 seconds minimum between queries, max 100 requests per execution, robots.txt check, stop on HTTP errors, resumable manifest.
-- parse-only mode requires observed --entry-selector, --thai-selector, --meaning-selector, and optionally --ipa-selector.
+Visit **GitHub → Actions → Import SEAlang Thai dictionary → Run workflow**. Enter a limited group of regex search patterns separated by spaces (e.g. `ก.* ข.* ค.*`), set the maximum number of requests, and affirm the academic bulk-access and redistribution permissions. The workflow checks robots.txt, observes a minimum 12-second interval, caps each response at 8MB, merges fetched shards with the seed dataset, tests, and commits the resulting `dictionary.json` directly to the repository. No local installation is required.
 
-**Rights:** a past email permitting the user to download Shan dictionary results does not establish permission to redistribute SEAlang's Thai lexical definitions in a public GitHub repo. The Thai search collection combines several providers, including Haas, Royal Institute, and LEXiTRON. Permission for *public distribution* and the source-specific license must be checked separately. The raw HTML and exports are ignored via .gitignore.
+The API's native-script search matches can include compounds containing the queried character and need not be anchored at the start. The apparently anchored expression `^ณ.*` returned no matching records in one verification attempt. Therefore distinct-character searches will substantially overlap and source IDs are retained for deduplication. Counting every headword has **not** been shown to establish complete dictionary coverage; a completeness audit remains necessary.
 
-To inspect an endpoint without contacting SEAlang:
+The SEAlang server currently presents a nonstandard TLS certificate that Python does not verify. The collector uses an explicit `--legacy-tls` option limited to public-data requests to `sealang.net`; it does not send login cookies or credentials. A future remediation is desirable. Source rows retain IDs like `TDP:6410` and `RI:23150`; the `source` field identifies origin.
 
-    python thai-alalc/scripts/sealang_batch.py --url-template 'https://sealang.net/VERIFIED-PATH?query={query}' --dry-run
+The SEAlang `pron written` field is a phonetic transcription, not the ALA-LC romanization. This project stores it separately as `ipa` (provisionally named). Only a conservative Thai orthography guess is supplied as `tentative`. Other new entries remain `unresolved`; all require verification before using the output as cataloging-standard romanization. The official 2011 ALA-LC rules include 43 word-division guidelines. The user has stated that SEAlang expressly permitted academic bulk collection and public redistribution; the source attribution and each source ID are retained.
 
-For opt-in download after checks:
+## Repository maintenance
 
-    python thai-alalc/scripts/sealang_batch.py --url-template 'https://sealang.net/VERIFIED-PATH?query={query}' --run --permission-confirmed --max-requests 20 --delay 10
-
-Extraction is a distinct local step, after inspecting the actual returned HTML. Do not commit private session cookies, raw html, or data without redistribution rights. The current script is a preparatory collector, not a verified production crawler.
+Keep raw HTML and non-approved sources out of the repository. The CSV shard files contain the transferred entry text and are intentionally versioned to make changes auditable. Never commit browser input, account credentials, or private catalog records.
 
 ## Tests
 
