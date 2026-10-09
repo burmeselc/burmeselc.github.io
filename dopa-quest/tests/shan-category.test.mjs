@@ -43,7 +43,7 @@ test('Shan domain selection excludes out-of-domain and ambiguous candidates',()=
  assert.equal(elig({...word,semantic_major:'06',semantic_status:'H'},'shan'),false);
  selected='all';assert.equal(elig({...word,semantic_major:'06',semantic_status:'M'},'shan'),true);
  assert.match(bootstrap,/window\.DOPA_SEMANTIC_READY_BY_LANG/);
- assert.match(game,/DATA\[\$\('lang'\)\.value\]\.filter/);
+ assert.match(game,/activeDeck\(\$\('lang'\)\.value\)/);
 });
 test('legacy progress storage key and card identity unchanged',()=>{
  assert.match(game,/const KEY='dopaQuestV5_profile'/);
