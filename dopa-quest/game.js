@@ -141,7 +141,10 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
    if(P.reviewLog.length>1000)P.reviewLog=P.reviewLog.slice(-1000);
  }
  P.coin+=S.coin-coinBefore;
- $('reportIssue').onclick=()=>markIssue(x);renderMastery(W(x));updateHUD();save();if(ok){nextTimeout=setTimeout(next,1300)}else{$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');$('continueBtn').onclick=next}}
+ $('reportIssue').onclick=()=>markIssue(x);renderMastery(W(x));updateHUD();save();if(ok){const needsRead=q.isNew||jp(x).length>38||note(x,S.lang).length>65;
+ if(needsRead){$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">覚えた → 次の問題へ</button>');$('continueBtn').onclick=next}
+ else nextTimeout=setTimeout(next,1400)
+ }else{$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');$('continueBtn').onclick=next}}
 function updateHUD(){$('qstat').textContent=`${Math.min(S.done||0,S.initial||0)}/${S.initial||0}`;$('hitstat').textContent=S.hit||0;$('combo').textContent=S.combo||0;$('xpstat').textContent=S.xp||0;$('roundBar').style.width=((S.done||0)/(S.initial||1)*100)+'%'}
 function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.done,acc=attempt?S.firstHits/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
  if(!uniq.length){bonus+=90;S.coin+=15;rewards.push('NO MISS +90 XP / ◈15')}if(S.best>=10){bonus+=50;S.coin+=8;rewards.push('10 COMBO +50 XP / ◈8')}
