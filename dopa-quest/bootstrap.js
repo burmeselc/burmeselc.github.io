@@ -104,8 +104,8 @@
     if(manifest.schema!=='dopa-shan-sense-lab-v1'||manifest.parent_count!==5480||
        manifest.candidate_count!==7290||manifest.parts?.length!==8)
       throw Error('unexpected sense manifest');
-    const fragments=await Promise.all(manifest.parts.map(async path=>{
-      if(!/^dopa-quest\\/data\\/shan-senses-[1-8]\\.json$/.test(path))throw Error('invalid sense-part path');
+    const fragments=await Promise.all(manifest.parts.map(async (path,i)=>{
+      if(path!=='dopa-quest/data/shan-senses-'+(i+1)+'.json')throw Error('invalid sense-part path');
       const r=await fetch('./data/'+path.split('/').pop(),{cache:'no-cache'});
       if(!r.ok)throw Error('sense part HTTP '+r.status);
       return r.json();
