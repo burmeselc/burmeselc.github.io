@@ -30,6 +30,10 @@ class SEAlangParserTests(unittest.TestCase):
         rows,count=parse_document(b'<html>Nothing found <entry><orth type="head">TEST</orth></entry></html>','test')
         self.assertEqual(rows,[])
         self.assertIsNone(count)
+    def test_query_hit_cap(self):
+        data=b"Content-type: text/html\nExcessive number of hits (14408, limit 2400).  Try again."
+        with self.assertRaisesRegex(ValueError,'2400'):
+            parse_document(data,'ก.*')
     def test_url_encoding(self):
         self.assertIn('lang=Thai',make_url('ณ.*'))
         self.assertIn('%E0%B8%93',make_url('ณ.*'))
