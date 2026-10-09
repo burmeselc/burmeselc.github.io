@@ -1,6 +1,19 @@
-# DOPA QUEST v6 — private progress / cloud-sync foundation
+# DOPA QUEST v6.1 — cloud sync and learning-quality improvements
 
-DOPA QUEST vocabulary RPG for **Shan and Burmese**. This folder is a preview of the v5 → v6 migration. The game logic retains v5's RIVAL, NEMESIS, REVENGE, timed rounds, XP, and progress record.
+DOPA QUEST vocabulary RPG for **Shan and Burmese**.
+
+## v6.1 learning-quality changes
+
+- Two cards with overlapping Japanese glosses are **never presented as false alternative answers** in four-choice questions. Ambiguous reverse prompts switch automatically to source-language recognition and show a label; this is conservative until curated sense IDs are available.
+- A correct answer awards XP immediately, and XP/coins are saved per answer. Closing a round early no longer discards XP.
+- Initial or **due** successful retrieval advances long-term mastery. Early repetitions still award XP but do not artificially extend review intervals. Immediate REVENGE does not advance long-term skill.
+- Accuracy at round end reflects **first attempts**, not easy successes on repeated cards.
+- Up to 1,000 recent primary review events are stored in the existing per-user progress snapshot (timestamp, card ID, skill, accuracy, credited retention). This is backward-compatible with existing save data and paves the way for FSRS.
+- Cloud sync schema, URLs, vocabulary IDs and Firebase configuration are unchanged.
+- Regression checks: `node --test dopa-quest/tests/quality.test.mjs`.
+
+**Important:** the current algorithm is a custom staged repetition scheduler, not FSRS. The review log must be interpreted as training events, not necessarily validated retention estimates.
+ This folder is a preview of the v5 → v6 migration. The game logic retains v5's RIVAL, NEMESIS, REVENGE, timed rounds, XP, and progress record.
 
 ## What is / is not deployed
 
