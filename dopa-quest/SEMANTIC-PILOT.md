@@ -21,7 +21,7 @@ This branch adds an **optional semantic category selector for Burmese** using a 
 - Status M = multiple senses, withheld from category-filtered questions until sense-level curation
 - There are exactly 2,500 original parent IDs and 18 major semantic domains. Categories are not embedded into the source deck.
 - Multi-sense cards remain available in the default all-words mode.
-- When a category is active, distractors can come from outside the category, reducing answer cues from the learning-stage theme.
+- When a category is active, **all four alternatives come from that same semantic category**, including the three distractors. The question can be limited to one rank zone while distractors are sampled from the entire category across ranks, keeping four distinct choices available. The original all-words mode retains its previous behavior.
 - The category map is optional: if it fails to load, the all-words mode continues.
 
 ## Known limitations
