@@ -1,57 +1,49 @@
 # Thai ALA-LC Converter (beta)
 
-A static, dictionary-first Thai ↔ ALA-LC 2011 tool at /thai-alalc/. It inherits the existing burmeselc typography and layout, with a blue palette. Translation and search run in the browser (no API calls, no persistence of work documents). It fetches only this repository's dictionary.json.
+Static Thai ⇄ ALA-LC candidate lookup hosted on GitHub Pages: https://burmeselc.github.io/thai-alalc/
 
-## What works
+## User interface
+- Uses the site-wide burmeselc design with a blue theme.
+- Thai → ALA-LC finds known dictionary forms, with ambiguous candidates selectable.
+- ALA-LC → Thai retrieves spellings with glosses.
+- Search Thai, romanized forms, and English definitions; import local CSV or JSON without uploading work text.
+- **Outputs are aids, not certified ALA-LC records.** The authoritative ALA-LC table has 43 word-division rules. Unknown segments are explicitly indicated.
 
-- Thai → ALA-LC: finds word entries in dictionary; unknown substrings are explicitly marked "未登録".
-- ALA-LC → Thai: supplies multiple Thai spellings for the same ALA-LC string with English glosses and a manual choice interface.
-- Dictionary search by Thai, romanization, or gloss, and temporary local CSV/JSON upload.
-- Plain text copying and download.
+## SEAlang import with GitHub Actions
 
-## What remains to be built
+The dictionary API endpoint has been tested (2026-10-09):
 
-The initial dictionary has 25 manually curated demonstration entries, 17 with ALA-LC romanization given as examples in the official 2011 table; glosses are editor-written. **No SEAlang entries were downloaded or republished.** The site does not perform reliable novel-word transcription or automatic Thai word division yet. 43 word division rules, irregular inherent vowels, silent letters, loanwords, and proper names require a reviewed dictionary and human cataloging review.
+`http://sealang.net/api/api.pl?service=dictionary&lang=Thai&query=ภาษา`
 
-## Record schema and building
+SEAlang's XHTML contains `entry` and `subentry` elements, with `formx/orth[@type=head]` for Thai, `formx/pron` for pronunciation (often in a `written` attribute), and `sense/def` for definitions. The `formx` ID records source identifiers such as TDP codes.
 
-Each dictionary.json entry has: thai, alalc, meaning, ipa, source, status.
-status = reviewed | tentative | unresolved.
+**Run on GitHub:** Actions → **Thai SEAlang dictionary import (permission-confirmed)** → Run workflow. Enter `max_requests` and optionally `queries` (semicolon-separated, e.g., `ก.*;ข.*`). Confirm both permissions. This performs the work in GitHub's hosted runner, commits the incrementally expanded `thai-alalc/dictionary.json`, and GitHub Pages deploys it. The user reports that SEAlang granted permission to download and republish; users should adhere to the actual scope of that authorization.
 
-Build from curated examples:
+SEAlang's robots.txt currently specifies **Crawl-Delay: 20**. The script uses at least 20 seconds between queries, limits each run to 100 requests, checks robots.txt, stops rather than retries after errors, and never accesses the site from a browser visitor's machine. Queries are partitioned by Thai initial written characters, including preposed vowels `เ แ โ ใ ไ`.
 
-    python thai-alalc/scripts/build_dictionary.py
+### Coverage limitations
 
-Build with an authorized, privately obtained SEAlang CSV:
+A `.*` search may return a truncated or collapsed list (for example, an observed query for `ภาษา` reported 55 results while the XHTML contained 41 entry/subentry blocks). Accordingly:
+- A single query or one search per initial letter **does not establish complete coverage**.
+- The collector prints counts and warnings; subsequent partitioning into narrower patterns or an API pagination strategy will be needed to verify full dictionary coverage.
+- Temporary collected HTML/CSV is gitignored. Only normalized candidate records should be committed.
+- The returned source IDs, IPA, and English definitions are retained in dictionary JSON for tracing and later review.
 
-    python thai-alalc/scripts/build_dictionary.py --source thai-alalc/data/sealang-export.csv
+### Romanization integrity
 
-CSV header: thai,meaning,ipa,source,alalc,verified. A genuinely reviewed ALA-LC can be supplied with verified=yes. Without verification the build script gives simple words a tentative orthography-based romanization and leaves complex words unresolved. Never promote tentative results to verified automatically.
+The Python converter prioritizes manually reviewed ALA-LC forms. Simple Thai spelling rules are a fallback; for other words, SEAlang's pronunciation may provide a tentative segment-based spelling. Each record carries `status` (`reviewed`, `tentative`, `unresolved`) and `roman_method` (`curated`, `manual`, `spelling`, `ipa`). **IPA-derived guesses are not certified ALA-LC**, because Thai word division and etymological conventions are not guaranteed by pronunciation alone.
 
-## Opt-in SEAlang collection
+Existing dictionary rows are preserved across successive runs. Unreviewed SEAlang records must never be assigned `reviewed` merely because they have IPA.
 
-scripts/sealang_batch.py can plan conservative queries partitioned by Thai initial orthographic character (ก.*, ข.*, เ.*, etc.). It **does not know** the current official Thai query endpoint or actual result CSS selectors. A query may paginate or truncate, and therefore prefix partitioning does not establish full coverage. Inspect SEAlang's live site first.
+## Command-line equivalents (for developer testing, not needed by users)
 
-- No network activity unless both --run and --permission-confirmed are supplied.
-- Explicit --url-template (one {query} placeholder, HTTPS sealang.net only).
-- 7 seconds minimum between queries, max 100 requests per execution, robots.txt check, stop on HTTP errors, resumable manifest.
-- parse-only mode requires observed --entry-selector, --thai-selector, --meaning-selector, and optionally --ipa-selector.
+```sh
+python -m pip install beautifulsoup4
+python thai-alalc/scripts/sealang_batch.py --queries 'ภาษา' --max-requests 1 --run --permission-confirmed
+python thai-alalc/scripts/sealang_batch.py --parse-only
+python thai-alalc/scripts/build_dictionary.py --source thai-alalc/data/sealang-export.csv
+python -m unittest discover -s thai-alalc/tests -v
+node --check thai-alalc/app.js
+```
 
-**Rights:** a past email permitting the user to download Shan dictionary results does not establish permission to redistribute SEAlang's Thai lexical definitions in a public GitHub repo. The Thai search collection combines several providers, including Haas, Royal Institute, and LEXiTRON. Permission for *public distribution* and the source-specific license must be checked separately. The raw HTML and exports are ignored via .gitignore.
-
-To inspect an endpoint without contacting SEAlang:
-
-    python thai-alalc/scripts/sealang_batch.py --url-template 'https://sealang.net/VERIFIED-PATH?query={query}' --dry-run
-
-For opt-in download after checks:
-
-    python thai-alalc/scripts/sealang_batch.py --url-template 'https://sealang.net/VERIFIED-PATH?query={query}' --run --permission-confirmed --max-requests 20 --delay 10
-
-Extraction is a distinct local step, after inspecting the actual returned HTML. Do not commit private session cookies, raw html, or data without redistribution rights. The current script is a preparatory collector, not a verified production crawler.
-
-## Tests
-
-    python -m unittest discover -s thai-alalc/tests -v
-    node --check thai-alalc/app.js
-
-Reference: https://www.loc.gov/catdir/cpso/romanization/thai.pdf
+Reference: [ALA-LC Thai Romanization Table (2011)](https://www.loc.gov/catdir/cpso/romanization/thai.pdf).
