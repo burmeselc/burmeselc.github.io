@@ -37,15 +37,46 @@ const glossLookup={shan:new Map(),burmese:new Map()};
 for(const lang of ['shan','burmese'])for(const x of DATA[lang]){
  const m=glossLookup[lang],t=normalizedGloss(x);m.set(t,(m.get(t)||0)+1);
 }
-function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return DATA[l].filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'})}
-function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;renderZoneStats();refreshVoices()}
+const DOMAIN_LABELS=window.DOPA_SEMANTIC_LABELS||{};
+function domainEligible(x,l){
+ const control=$('semanticCategory');
+ return l!=='burmese'||!control||control.value==='all'||(x.semantic_major===control.value&&x.semantic_status!=='M');
+}
+function updateSemanticCategories(){
+ const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
+ if(!select)return;
+ const l=$('lang').value;
+ if(l!=='burmese'){
+   select.innerHTML='<option value="all">シャン語はカテゴリ分類準備中</option>';
+   select.value='all';select.disabled=true;
+   if(notice)notice.textContent='カテゴリ学習は現在ビルマ語のみ対応します。';
+   return;
+ }
+ if(!window.DOPA_SEMANTIC_READY){
+   select.innerHTML='<option value="all">分類データを読み込めませんでした</option>';
+   select.value='all';select.disabled=true;
+   if(notice)notice.textContent='全語彙モードは通常どおり利用できます。';
+   return;
+ }
+ const old=select.value||'all';
+ let options='<option value="all">全カテゴリ（従来どおり）</option>';
+ for(const [id,name] of Object.entries(DOMAIN_LABELS)){
+   const count=DATA.burmese.filter(x=>x.semantic_major===id&&x.semantic_status!=='M'&&String(x.game_include??'1')!=='0').length;
+   options+='<option value="'+esc(id)+'">'+esc(id+' '+name+'（'+count+'語）')+'</option>';
+ }
+ select.innerHTML=options;
+ select.value=DOMAIN_LABELS[old]?old:'all';select.disabled=false;
+ if(notice)notice.textContent='分類は暫定版。多義239項目をカテゴリ限定学習から除外し、全語彙モードには残します。';
+}
+function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return DATA[l].filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&domainEligible(x,l)})}
+function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateSemanticCategories();renderZoneStats();refreshVoices()}
 function renderProfile(){rollover();let L=lvInfo(P.xp||0);$('lv').textContent='LV.'+L.lv;$('lvl').style.setProperty('--p',Math.max(0,Math.min(100,L.p))+'%');$('xpBar').style.width=L.p+'%';$('xpText').textContent=`${Math.round(L.cur)}/${Math.round(L.need)} XP`;$('title').textContent=titleFor(L.lv);$('coin').textContent='◈ '+(P.coin||0);
  let ws=Object.values(P.words),m=ws.filter(w=>stage(w)>=4).length,n=ws.filter(w=>w.nemesis).length,r=Object.values(P.rivals).filter(v=>v.confusions>=2&&!v.cleared).length;
  $('masterSummary').textContent=`MASTERED ${m} ・ NEMESIS ${n} ・ RIVAL ${r} ・ ${(P.totalQ||0)}問`;
  let q=[['30問',P.daily.q||0,30],['REVENGE 5',P.daily.revenge||0,5],['逆引き 8',P.daily.prod||0,8]];
  $('quests').innerHTML=q.map(([t,v,max])=>`<div class="quest ${v>=max?'done':''}"><b>${t}</b><span>${Math.min(v,max)}/${max}</span><div class="bar" style="height:3px;margin-top:4px"><div style="width:${Math.min(100,v/max*100)}%"></div></div></div>`).join('');
  $('migrateHint').textContent=P.migratedFrom==='v4'?'v4 の端末内進捗を継承しました。旧データは残してあります。':'別のHTMLから移す場合は旧版の SAVE → 本版の LOAD を使って下さい。';}
-function renderZoneStats(){let l=$('lang').value,all=DATA[l];$('zoneStats').innerHTML=zones(l).slice(1).map(z=>{let arr=all.filter(x=>{let i=indexOf(x,l);return i>=z[2]&&i<=z[3]}),known=arr.filter(x=>stage(getW(x))>=2).length,master=arr.filter(x=>stage(getW(x))>=4).length,p=arr.length?master/arr.length*100:0;return `<div class="zone"><b>${Math.round(p)}%</b><span>${z[1]}<br>KNOWN ${known}/${arr.length}</span><div class="mini"><div style="width:${p}%"></div></div></div>`}).join('')}
+function renderZoneStats(){let l=$('lang').value,all=DATA[l];$('zoneStats').innerHTML=zones(l).slice(1).map(z=>{let arr=all.filter(x=>{let i=indexOf(x,l);return i>=z[2]&&i<=z[3]&&domainEligible(x,l)}),known=arr.filter(x=>stage(getW(x))>=2).length,master=arr.filter(x=>stage(getW(x))>=4).length,p=arr.length?master/arr.length*100:0;return `<div class="zone"><b>${Math.round(p)}%</b><span>${z[1]}<br>KNOWN ${known}/${arr.length}</span><div class="mini"><div style="width:${p}%"></div></div></div>`}).join('')}
 function rivalKey(a,b){return [a,b].sort().join('||')}
 function playableRival(r){let a=byId[r.a],b=byId[r.b];return a&&b&&a.id!==b.id&&jp(a)!==jp(b)&&orig(a,a.id.startsWith('shn:')?'shan':'burmese')!==orig(b,b.id.startsWith('shn:')?'shan':'burmese')}
 function rivalsFor(x){return Object.values(P.rivals).filter(r=>r.confusions>=2&&!r.cleared&&playableRival(r)&&(r.a===x.id||r.b===x.id)).sort((a,b)=>b.confusions-a.confusions)}
@@ -103,10 +134,10 @@ function applyCorrect(q){
  nemesisKilled:wasNem&&!w.nemesis,sk,credited};
 }
 function applyWrong(q){let w=W(q.x),now=Date.now(),sk=skillFor(q);w.seen++;w.wrong++;w.last=now;w.due[sk]=now+5*MIN;w.nextDue=nextDueFor(w);w[sk]=Math.max(0,(w[sk]||0)-1);if(w.wrong>=3)w.nemesis=true;return w.nemesis}
-function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:zonePool(),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
+function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('lang').value==='burmese'&&$('semanticCategory')?.value!=='all'?DATA.burmese.filter(x=>String(x.game_include??'1')!=='0'):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
 function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
- let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta;let from=q.dir==='fromJP'||q.typed;
+ let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(l==='burmese'&&x.semantic_major?'・領域 '+esc(x.semantic_major)+'（暫定）':'');let from=q.dir==='fromJP'||q.typed;
  $('prompt').className='prompt'+(from?' jp':'');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?jp(x):orig(x,l);$('ipa').textContent='';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
@@ -173,7 +204,7 @@ function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;l
 function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
- $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
+ $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=renderZoneStats;const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
  $('start').onclick=start;$('soundBtn').onclick=()=>{P.sound=!P.sound;$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';save()};
  $('backupBtn').onclick=()=>{download('dopa_quest_v6_progress.json',{format:'DOPA_QUEST_V5',exportedAt:new Date().toISOString(),profile:P});toast('進捗・RIVAL・校閲候補を出力しました')};
  $('loadBtn').onclick=()=>$('loadFile').click();$('loadFile').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let o=JSON.parse(await f.text());if(!['DOPA_QUEST_V4','DOPA_QUEST_V5'].includes(o.format)||!o.profile||!o.profile.words)throw Error('invalid');if(Object.keys(P.words).length&&!confirm('現在の進捗を読み込んだファイルの内容で置き換へます。実行しますか？'))return;P={...fresh(),...o.profile,migratedFrom:o.format==='DOPA_QUEST_V4'?'v4':''};ensureProfile();rollover();save();renderZoneStats();$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';toast('進捗を読み込みました')}catch(err){toast('進捗ファイルを読めません')}finally{e.target.value=''}};
