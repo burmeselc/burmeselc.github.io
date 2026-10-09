@@ -77,7 +77,7 @@ def main():
     parser.add_argument("--queries",nargs="+",required=True,
                         help="Thai initial expression(s), e.g. 'ณ.*'")
     parser.add_argument("--directory",type=Path,default=BASE/"data/sealang-shards")
-    parser.add_argument("--delay",type=float,default=12.0)
+    parser.add_argument("--delay",type=float,default=20.0)
     parser.add_argument("--limit",type=int,default=5)
     parser.add_argument("--max-bytes",type=int,default=8_000_000)
     parser.add_argument("--legacy-tls",action="store_true",
@@ -86,7 +86,7 @@ def main():
     parser.add_argument("--run",action="store_true")
     a=parser.parse_args()
     if not 1<=a.limit<=60:parser.error("1<=limit<=60 required")
-    if a.delay<10:parser.error("Delay must be >=10 seconds")
+    if a.delay<20:parser.error("Delay must be >=20 seconds, per robots.txt")
     if not 50000<=a.max_bytes<=12_000_000:parser.error("Byte limit must be within range")
     queries=list(dict.fromkeys(a.queries))[:a.limit]
     for q in queries:print("SEARCH",q,make_url(q))
@@ -107,6 +107,8 @@ def main():
     rp=RobotFileParser()
     rp.parse(robots.splitlines())
     a.directory.mkdir(parents=True,exist_ok=True)
+    effective_delay=max(a.delay,float(rp.crawl_delay(HEADERS["User-Agent"]) or 0),20.0)
+    print("ROBOTS DELAY",effective_delay,"seconds")
     succeeded=0
     last=0.
     for q in queries:
@@ -116,7 +118,7 @@ def main():
         path=a.directory/(hashlib.sha256(q.encode()).hexdigest()[:16]+".csv")
         if path.exists():print("EXISTS",q,path,"skipping");continue
         if last:
-            time.sleep(max(0,a.delay-(time.monotonic()-last)))
+            time.sleep(max(0,effective_delay-(time.monotonic()-last)))
         last=time.monotonic()
         try:
             raw=request_url(url,ctx,a.max_bytes)
