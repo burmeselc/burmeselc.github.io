@@ -27,8 +27,8 @@ test('unassigned multi-sense entries are not category-specific targets',()=>{
  const e=game.indexOf('\nfunction updateSemanticCategories()',s);
  assert.ok(s>=0&&e>s);
  let selected='06';
- const domainEligible=new Function('$',game.slice(s,e)+';return domainEligible;')(
-  id=>id==='semanticCategory'?{value:selected}:null
+ const domainEligible=new Function('$','DOMAIN_READY_BY_LANG',game.slice(s,e)+';return domainEligible;')(
+  id=>id==='semanticCategory'?{get value(){return selected;}}:null,{burmese:true,shan:true}
  );
  const single=deck.find(x=>sem.cards[x.id][0]==='06'&&sem.cards[x.id][1]!=='M');
  const multi=deck.find(x=>sem.cards[x.id][1]==='M');
@@ -45,5 +45,5 @@ test('legacy progress keys and original game modes remain intact',()=>{
  assert.match(game,/function updateSemanticCategories\(/);
  assert.match(bootstrap,/window\.DOPA_SEMANTIC_READY/);
  assert.match(html,/id="semanticCategory"/);
- assert.match(game,/S\.pool=|pool:\(\$\('lang'\)/);
+ assert.ok(game.includes("pool:($('semanticCategory')"));
 });

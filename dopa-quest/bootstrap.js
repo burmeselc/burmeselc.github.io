@@ -62,25 +62,37 @@
     burmese:Array.from(new Map([...base.burmese,...(custom?.burmese||[])].map(x=>[x.id,x])).values())
   });
   // Semantic-domain pilot is read-only metadata; failure never prevents vocabulary loading.
-  let semantic=null;
-  try{
-    const response=await fetch('./data/burmese-categories-v1.json',{cache:'no-cache'});
-    if(!response.ok)throw Error('category map HTTP '+response.status);
-    const obj=await response.json();
-    if(obj.schema!=='dopa-semantic-domains-pilot-v1'||!obj.cards||!obj.labels||
-       Object.keys(obj.cards).length!==2500||
-       defaults.burmese.length!==2500||defaults.burmese.some(x=>!obj.cards[x.id]))
-      throw Error('category map does not match the original Burmese deck');
-    semantic=obj;
-  }catch(e){console.warn('Semantic-domain pilot disabled:',e)}
-  window.DOPA_SEMANTIC_LABELS=semantic?.labels||{};
-  window.DOPA_SEMANTIC_READY=!!semantic;
+  // Sidecar-only semantic categories. Each deck can fall back independently.
+  async function loadSemantic(path,schema,deck,expected){
+    try{
+      const response=await fetch(path,{cache:'no-cache'});
+      if(!response.ok)throw Error('category map HTTP '+response.status);
+      const obj=await response.json();
+      if(obj.schema!==schema||!obj.cards||!obj.labels||
+         deck.length!==expected||Object.keys(obj.cards).length!==expected||
+         deck.some(x=>!obj.cards[x.id]))throw Error('category map does not match the original vocabulary');
+      return obj;
+    }catch(e){console.warn('Optional semantic categories disabled for '+path,e);return null}
+  }
+  const [burmeseSemantic,shanSemantic]=await Promise.all([
+    loadSemantic('./data/burmese-categories-v1.json','dopa-semantic-domains-pilot-v1',defaults.burmese,2500),
+    loadSemantic('./data/shan-categories-v1.json','dopa-shan-parent-category-pilot-v1',defaults.shan,5480)
+  ]);
+  window.DOPA_SEMANTIC_LABELS=burmeseSemantic?.labels||{};
+  window.DOPA_SEMANTIC_READY=!!burmeseSemantic; // backwards compatibility with Burmese checks
+  window.DOPA_SEMANTIC_LABELS_BY_LANG={
+    burmese:burmeseSemantic?.labels||{},
+    shan:shanSemantic?.labels||{}
+  };
+  window.DOPA_SEMANTIC_READY_BY_LANG={burmese:!!burmeseSemantic,shan:!!shanSemantic};
   window.DOPA_DATA=merge(defaults,valid(uploaded)?uploaded:null);
-  for(const x of window.DOPA_DATA.burmese){
-    const annotation=semantic?.cards[x.id];
-    if(annotation){
-      x.semantic_major=annotation[0];
-      x.semantic_status=annotation[1]; // M = multiple senses, excluded from category-specific play
+  for(const [lang,metadata] of [['burmese',burmeseSemantic],['shan',shanSemantic]]){
+    for(const x of window.DOPA_DATA[lang]){
+      const annotation=metadata?.cards[x.id];
+      if(annotation){
+        x.semantic_major=annotation[0];
+        x.semantic_status=annotation[1]; // M/H withheld from filtered play, present in all-categories play
+      }
     }
   }
   badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length.toLocaleString()}語 / ビルマ語 ${window.DOPA_DATA.burmese.length.toLocaleString()}語`+
