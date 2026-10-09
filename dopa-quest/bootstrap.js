@@ -1,4 +1,4 @@
-// Import vocabulary into IndexedDB; only game logic and a tiny demo ship publicly.
+// Load author-owned default decks. Optional user imports merge locally by stable card ID.
 (async()=>{
   const $=id=>document.getElementById(id),status=$('cloudStatus'),badge=$('dataBadge');
   const DEMO={
@@ -40,23 +40,45 @@
   const valid=o=>o&&Array.isArray(o.shan)&&Array.isArray(o.burmese)&&
     o.shan.every(x=>typeof x.id==='string'&&typeof x.shan==='string')&&
     o.burmese.every(x=>typeof x.id==='string'&&typeof x.burmese==='string');
-  let uploaded=null;
-  try{uploaded=await store(false)}catch(e){status.textContent='語彙データの端末保存を使へません。';console.warn(e)}
-  window.DOPA_DATA=valid(uploaded)?uploaded:DEMO;
-  badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length}語 / ビルマ語 ${window.DOPA_DATA.burmese.length}語`+
-    (uploaded?'（端末に保存済み）':'（公開デモ。語彙データを読み込んで下さい）');
+  let uploaded=null,defaults=DEMO,usingDemo=false;
+  try {
+    const paths=['./data/shan-1.json','./data/shan-2.json','./data/burmese.json'];
+    const parts=await Promise.all(paths.map(async path=>{
+      const response=await fetch(path,{cache:'no-cache'});
+      if(!response.ok)throw Error(path+' HTTP '+response.status);
+      return response.json();
+    }));
+    defaults={shan:[...parts[0],...parts[1]],burmese:parts[2]};
+    if(defaults.shan.length!==5480||defaults.burmese.length!==2500||!valid(defaults))
+      throw Error('既定デッキの整合性エラー');
+  } catch(err) {
+    usingDemo=true;
+    console.error('Failed to load built-in wordlists',err);
+    status.textContent='既定デッキの取得に失敗しました。ネット接続を確認して再読込してください。現在はデモ語彙です。';
+  }
+  try{uploaded=await store(false)}catch(e){console.warn('Imported deck storage unavailable',e)}
+  const merge=(base,custom)=>({
+    shan:Array.from(new Map([...base.shan,...(custom?.shan||[])].map(x=>[x.id,x])).values()),
+    burmese:Array.from(new Map([...base.burmese,...(custom?.burmese||[])].map(x=>[x.id,x])).values())
+  });
+  window.DOPA_DATA=merge(defaults,valid(uploaded)?uploaded:null);
+  badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length.toLocaleString()}語 / ビルマ語 ${window.DOPA_DATA.burmese.length.toLocaleString()}語`+
+    (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）');
+  $('vocabLoad').textContent='デッキを追加・更新';
   $('vocabLoad').onclick=()=>$('vocabFile').click();
   $('vocabFile').onchange=async e=>{
     const f=e.target.files?.[0];if(!f)return;
-    try{
+    try {
       if(f.size>15000000)throw Error('語彙JSONは15MBまで');
       const obj=JSON.parse(await f.text());
       if(!valid(obj))throw Error('shan/burmese配列を持つ統合JSONが必要です');
-      if(new Set([...obj.shan,...obj.burmese].map(x=>x.id)).size!==obj.shan.length+obj.burmese.length)throw Error('語彙IDの重複があります');
-      await store(true,obj);
-      alert(`読込成功：シャン語 ${obj.shan.length}語／ビルマ語 ${obj.burmese.length}語。再読込します。`);
+      if(new Set([...obj.shan,...obj.burmese].map(x=>x.id)).size!==obj.shan.length+obj.burmese.length)
+        throw Error('語彙IDの重複があります');
+      const combined=merge(valid(uploaded)?uploaded:{shan:[],burmese:[]},obj);
+      await store(true,combined);
+      alert(`追加・更新しました（シャン語 ${combined.shan.length}語／ビルマ語 ${combined.burmese.length}語）。画面を再読込します。`);
       location.reload();
-    }catch(err){alert('語彙の保存に失敗しました：'+err.message)}
+    } catch(err){alert('語彙の保存に失敗しました：'+err.message)}
     finally{e.target.value=''}
   };
   const game=document.createElement('script');game.src='./game.js';
