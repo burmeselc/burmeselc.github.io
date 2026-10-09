@@ -1,0 +1,54 @@
+name: DOPA QUEST Shan sense-card lab
+on:
+  push:
+    branches:
+      - feature/shan-sense-cards-lab-20261009
+    paths:
+      - 'dopa-quest/**'
+      - '.github/workflows/dopa-shan-sense-lab.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  semantic-senses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check dopa-quest/bootstrap.js
+      - run: node --check dopa-quest/game.js
+      - run: node --check dopa-quest/cloud-sync.js
+      - run: node --test dopa-quest/tests/quality.test.mjs
+      - run: node --test dopa-quest/tests/category-pilot.test.mjs
+      - run: node --test dopa-quest/tests/shan-category.test.mjs
+      - run: node --test dopa-quest/tests/shan-sense-lab.test.mjs
+      - name: Install headless Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Browser integration and regression checks
+        run: |
+          python3 -m http.server 8123 > /tmp/dopa-http.log 2>&1 &
+          sleep 2
+          node --test dopa-quest/tests/category-browser.test.mjs
+          node --test dopa-quest/tests/shan-browser.test.mjs
+          node --test dopa-quest/tests/shan-sense-browser.test.mjs
+      - name: Check external isolated preview
+        continue-on-error: true
+        run: |
+          URL="https://rawcdn.githack.com/burmeselc/burmeselc.github.io/${GITHUB_SHA}/dopa-quest/index.html"
+          CODE=$(curl --connect-timeout 10 --max-time 45 -sSL -w "%{http_code}" -o /tmp/dopa-sense-preview.html "$URL")
+          echo "Preview HTTP $CODE"
+          test "$CODE" = "200"
+          grep -q 'shanSenseMode' /tmp/dopa-sense-preview.html
+          echo "$URL" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dopa-shan-sense-lab-mobile-preview
+          path: |
+            dopa-shan-sense-lab-mobile.png
+            dopa-shan-category-mobile.png
+          if-no-files-found: ignore
