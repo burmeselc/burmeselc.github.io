@@ -7,7 +7,7 @@ BASE=Path(__file__).resolve().parents[1]
 path.insert(0,str(BASE/'scripts'))
 from romanize import guess_word
 from build_dictionary import make_entries
-from sealang_batch import planned_urls
+from sealang_batch import planned_query_urls,extract_entries,report_count
 
 class ThaiDictionaryTests(unittest.TestCase):
     def test_simple_syllables(self):
@@ -36,9 +36,22 @@ class ThaiDictionaryTests(unittest.TestCase):
             self.assertEqual(next(x for x in data if x['thai']=='ไก่')['status'],'tentative')
             self.assertEqual(next(x for x in data if x['thai']=='พิเศษ')['status'],'unresolved')
             self.assertEqual(next(x for x in data if x['thai']=='ไก่')['meaning'],'chicken')
-    def test_collector_rejects_untrusted_hosts(self):
-        self.assertEqual(len(planned_urls('https://sealang.net/results?query={query}',4)),4)
-        with self.assertRaises(ValueError):
-            planned_urls('https://example.com/?query={query}',4)
+    def test_api_url_and_xml_extract(self):
+        urls=planned_query_urls(['ภาษา'])
+        self.assertEqual(len(urls),1)
+        self.assertIn('lang=Thai',urls[0][1])
+        self.assertIn('query=',urls[0][1])
+        html='''<html><body><p>1 items found</p>
+        <entry orthTarget="ภาษา">
+          <formx id="TDP:1"><orth type="head">ภาษา</orth><pron written="pʰaa-sǎa">pʰaa sǎa</pron></formx>
+          <sense n="1"><num>1</num><pos>N</pos><def>language, speech</def></sense>
+        </entry></body></html>'''
+        self.assertEqual(report_count(html),1)
+        result=extract_entries(html,'ภาษา')
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0]['thai'],'ภาษา')
+        self.assertEqual(result[0]['ipa'],'pʰaa-sǎa')
+        self.assertEqual(result[0]['meaning'],'N: language, speech')
+        self.assertEqual(result[0]['source_id'],'TDP:1')
 
 if __name__=='__main__':unittest.main()
