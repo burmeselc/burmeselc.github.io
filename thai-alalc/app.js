@@ -58,7 +58,8 @@ function tokenText(t){
  if(t.space||!t.choices.length)return t.raw;
  const e=t.choices[t.selected||0];return mode==='forward'?e.alalc||'〔未確定：'+e.thai+'〕':e.thai;
 }
-function getPrintable(){return mode==='search'?'':tokens.map(t=>t.unknown?'〔未登録：'+t.raw+'〕':tokenText(t)).join('');}
+function gapBefore(i){return mode==='forward'&&i>0&&tokens[i-1].choices?.length>0&&tokens[i].choices?.length>0?' ':'';}
+function getPrintable(){return mode==='search'?'':tokens.map((t,i)=>gapBefore(i)+(t.unknown?'〔未登録：'+t.raw+'〕':tokenText(t))).join('');}
 function showCandidates(i){
  const token=tokens[i];candidateList.replaceChildren();
  if(!token?.choices?.length){candidatePanel.hidden=true;return;}
@@ -78,6 +79,7 @@ function renderResult(){
  if(!input.value.trim()){output.textContent='入力するとここに変換候補が表示されます。';candidatePanel.hidden=true;resultStatus.textContent='';return;}
  let unknown=0,ambiguous=0,unreviewed=0;
  tokens.forEach((t,i)=>{
+  if(gapBefore(i))output.append(document.createTextNode(' '));
   if(t.unknown){unknown++;const s=document.createElement('span');s.className='token-unknown';s.textContent='〔未登録：'+t.raw+'〕';output.append(s);return;}
   const e=t.choices?.[t.selected||0];if(e&&e.status!=='reviewed')unreviewed++;
   if(t.choices?.length>1){ambiguous++;const b=document.createElement('button');b.type='button';b.className='token-button';b.title='候補を選択';b.textContent=tokenText(t);b.addEventListener('click',()=>showCandidates(i));output.append(b);}
