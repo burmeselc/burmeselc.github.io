@@ -11,26 +11,28 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Probe robots and one Thai entry (diagnostic only)
+      - name: Inspect dictionary API record structure (one request)
         run: |
           python - <<'PY'
-          import urllib.request,urllib.parse,time,re,ssl,hashlib
-          from urllib.error import HTTPError,URLError
-          urls=[
-            ('http robots','http://sealang.net/robots.txt',None),
-            ('www identify','https://www.sealang.net/api/api.pl?service=identify',None),
-            ('api insecure diagnostic','https://sealang.net/api/api.pl?'+urllib.parse.urlencode({'service':'dictionary','lang':'Thai','query':'ภาษา'}),ssl._create_unverified_context()),
-          ]
-          for label,url,context in urls:
-            print('REQUEST',label,url,flush=True)
-            request=urllib.request.Request(url,headers={'User-Agent':'ThaiALALC-Research/0.1 (permission based; single query)','Accept':'text/html,*/*'})
-            try:
-              with urllib.request.urlopen(request,timeout=12,context=context) as r:
-                content=r.read(100000)
-                html=content.decode('utf-8','replace')
-                print('STATUS',r.status,'URL',r.url,'MIME',r.headers.get('Content-Type'),'CHARS',len(html),flush=True)
-                print('RESULT PREFIX:',re.sub(r'\s+',' ',html[:4200]),flush=True)
-            except Exception as e:
-              print('REQUEST ERROR',repr(e),flush=True)
-            time.sleep(8)
+          import urllib.request,urllib.parse,re,collections
+          from html.parser import HTMLParser
+          url='http://sealang.net/api/api.pl?'+urllib.parse.urlencode({'service':'dictionary','lang':'Thai','query':'ภาษา'})
+          request=urllib.request.Request(url,headers={'User-Agent':'ThaiALALC-Research/0.1 (permission granted)','Accept':'text/html'})
+          with urllib.request.urlopen(request,timeout=20) as response:
+              html=response.read(150000).decode('utf-8','replace')
+              print('STATUS',response.status,'ACTUAL URL',response.url,'HTML CHARS',len(html))
+          class Tags(HTMLParser):
+              def __init__(self):super().__init__();self.tags=collections.Counter();self.classes=collections.Counter()
+              def handle_starttag(self,tag,attrs):
+                  self.tags[tag]+=1
+                  cls=dict(attrs).get('class','')
+                  if cls:self.classes.update(cls.split())
+          tags=Tags();tags.feed(html)
+          print('TAGS',tags.tags.most_common(24))
+          print('CLASSES',tags.classes.most_common(28))
+          for label,regex in [('ORTH',r'<orth\b'),('ENTRY',r'<entry\b'),('W',r'<w\b'),('DEFINITION',r'<def\b'),('LEMMA',r'lemma='),('GLOSS',r'gloss')]:
+              matches=list(re.finditer(regex,html,re.I))
+              print(label,'COUNT',len(matches))
+              for m in matches[-3:]:
+                  print(label+' HTML:',re.sub(r'\s+',' ',html[max(0,m.start()-260):m.start()+850]))
           PY
