@@ -61,7 +61,28 @@
     shan:Array.from(new Map([...base.shan,...(custom?.shan||[])].map(x=>[x.id,x])).values()),
     burmese:Array.from(new Map([...base.burmese,...(custom?.burmese||[])].map(x=>[x.id,x])).values())
   });
+  // Semantic-domain pilot is read-only metadata; failure never prevents vocabulary loading.
+  let semantic=null;
+  try{
+    const response=await fetch('./data/burmese-categories-v1.json',{cache:'no-cache'});
+    if(!response.ok)throw Error('category map HTTP '+response.status);
+    const obj=await response.json();
+    if(obj.schema!=='dopa-semantic-domains-pilot-v1'||!obj.cards||!obj.labels||
+       Object.keys(obj.cards).length!==2500||
+       defaults.burmese.length!==2500||defaults.burmese.some(x=>!obj.cards[x.id]))
+      throw Error('category map does not match the original Burmese deck');
+    semantic=obj;
+  }catch(e){console.warn('Semantic-domain pilot disabled:',e)}
+  window.DOPA_SEMANTIC_LABELS=semantic?.labels||{};
+  window.DOPA_SEMANTIC_READY=!!semantic;
   window.DOPA_DATA=merge(defaults,valid(uploaded)?uploaded:null);
+  for(const x of window.DOPA_DATA.burmese){
+    const annotation=semantic?.cards[x.id];
+    if(annotation){
+      x.semantic_major=annotation[0];
+      x.semantic_status=annotation[1]; // M = multiple senses, excluded from category-specific play
+    }
+  }
   badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length.toLocaleString()}語 / ビルマ語 ${window.DOPA_DATA.burmese.length.toLocaleString()}語`+
     (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）');
   $('vocabLoad').textContent='デッキを追加・更新';
