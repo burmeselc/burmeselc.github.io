@@ -15,7 +15,7 @@ jobs:
         run: |
           python - <<'PY'
           import urllib.request, urllib.parse, urllib.error, re, ssl
-          url='https://sealang.net/api/api.pl?'+urllib.parse.urlencode({'service':'dictionary','lang':'Thai','query':'ณ'})
+          url='https://sealang.net/api/api.pl?'+urllib.parse.urlencode({'service':'dictionary','lang':'Thai','query':'ณ.*'})
           print('url:',url,flush=True)
           try:
               req=urllib.request.Request(url,headers={'User-Agent':'ThaiALALC-academic-dictionary-probe/0.1'})
@@ -24,8 +24,10 @@ jobs:
                   raw=res.read(160000)
                   print('bytes_read:',len(raw),flush=True)
                   html=raw.decode('utf-8','replace')
+                  print('ITEM_COUNTS',re.findall(r'\\d+ items found',html))
+                  print('ENTRIES',len(re.findall(r'<entry\\b',html)),'SUBENTRIES',len(re.findall(r'<subentry\\b',html)))
                   print('HTML_PREVIEW_BEGIN')
-                  print(html[:7500])
+                  print(html[-3500:])
                   print('HTML_PREVIEW_END')
                   print('TABLES',len(re.findall(r'<table',html,re.I)),'TRS',len(re.findall(r'<tr',html,re.I)))
           except Exception as e: print('Probe failed:',type(e).__name__,str(e),flush=True)
