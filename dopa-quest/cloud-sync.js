@@ -70,6 +70,8 @@ async function restore(m,account=uid){
     showConflict('読込中またはプレイ中の進捗を保護しました');return;
   }
   if(hasProgress(localBefore))await recoveryStorage(true,{savedAt:new Date().toISOString(),profile:localBefore});
+  if(uid!==account)return;
+  if(hash(JSON.stringify(snapshot()))!==localFingerprint){showConflict('バックアップ処理中に学習が進んだため、復元を中止しました');return}
   window.DOPA_SYNC_API.restore(p);
   revision=m.rev;remember(revision,hash(JSON.stringify(snapshot())));
   dirty=false;hideConflict();
