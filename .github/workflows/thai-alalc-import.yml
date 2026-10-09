@@ -12,6 +12,11 @@ on:
         required: true
         type: number
         default: 20
+      start_index:
+        description: "First initial-letter partition index: 0, 20, 40, etc.; ignored when queries is set"
+        required: true
+        type: number
+        default: 0
       bulk_access_permitted:
         description: "I have permission for SEAlang Thai batch retrieval"
         type: boolean
@@ -34,6 +39,7 @@ jobs:
     env:
       QUERIES: ${{ inputs.queries }}
       MAX_REQUESTS: ${{ inputs.max_requests }}
+      START_INDEX: ${{ inputs.start_index }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,7 +52,7 @@ jobs:
         working-directory: thai-alalc
         run: |
           python scripts/sealang_batch.py --run --permission-confirmed \
-            --queries "$QUERIES" --max-requests "$MAX_REQUESTS" --delay 20
+            --queries "$QUERIES" --max-requests "$MAX_REQUESTS" --start-index "$START_INDEX" --delay 20
       - name: Extract records and build dictionary
         working-directory: thai-alalc
         run: |
