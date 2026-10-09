@@ -10,6 +10,7 @@ import pathlib
 import sys
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
 from romanize import guess_word,normalize_thai
+from ipa_candidates import candidate_from_ipa
 
 BASE=pathlib.Path(__file__).resolve().parents[1]
 
@@ -28,11 +29,15 @@ def make_entries(seed_path,source_path=None):
                     if not thai:continue
                     supplied=(row.get('alalc') or '').strip()
                     verified=(row.get('verified') or '').strip().lower() in ('1','true','yes')
-                    roman=supplied or guess_word(thai) or ''
+                    by_spelling=guess_word(thai)
+                    by_ipa=candidate_from_ipa((row.get('ipa') or '').strip())
+                    roman=supplied or by_spelling or by_ipa or ''
+                    method='manual' if supplied else ('spelling' if by_spelling else ('ipa' if by_ipa else ''))
                     entries.append({'thai':thai,'alalc':roman,
                     'meaning':(row.get('meaning') or '').strip(),'ipa':(row.get('ipa') or '').strip(),
                     'source':(row.get('source') or 'SEAlang Thai').strip(),
                     'source_id':(row.get('source_id') or '').strip(),
+                    'roman_method':method,
                     'status':'reviewed' if supplied and verified else ('tentative' if roman else 'unresolved')})
     merged={}
     for item in entries:
