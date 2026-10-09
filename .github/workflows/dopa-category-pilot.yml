@@ -1,0 +1,24 @@
+name: DOPA QUEST Burmese category pilot tests
+on:
+  push:
+    branches:
+      - feature/burmese-semantic-domains-pilot-20261009
+    paths:
+      - 'dopa-quest/**'
+      - '.github/workflows/dopa-category-pilot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check dopa-quest/game.js
+      - run: node --check dopa-quest/bootstrap.js
+      - run: node --check dopa-quest/cloud-sync.js
+      - run: node --test dopa-quest/tests/quality.test.mjs
+      - run: node --test dopa-quest/tests/category-pilot.test.mjs
