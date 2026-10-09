@@ -22,3 +22,18 @@ jobs:
       - run: node --check dopa-quest/cloud-sync.js
       - run: node --test dopa-quest/tests/quality.test.mjs
       - run: node --test dopa-quest/tests/category-pilot.test.mjs
+      - name: Install browser test dependencies
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run real Chromium browser smoke tests
+        run: |
+          python3 -m http.server 8123 > /tmp/dopa-pilot-http.log 2>&1 &
+          sleep 2
+          node --test dopa-quest/tests/category-browser.test.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dopa-category-mobile-preview
+          path: dopa-category-mobile.png
+          if-no-files-found: ignore
