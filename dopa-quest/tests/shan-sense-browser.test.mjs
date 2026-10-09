@@ -44,6 +44,30 @@ test('Shan sense lab opt-in keeps old progress, supports Shan to Japanese and Ja
   assert.equal(invariant.otherSameSpelling,false);
   assert.equal(invariant.uniqueJapanese,4);
   assert.equal(invariant.uniqueSpelling,4);
+  // The reverse mode must also work for split senses: matching Japanese glosses
+  // cannot become false Shan choices even when another headword shares the gloss.
+  await page.locator('#direction').selectOption('fromJP');
+  const reverse=await page.evaluate(()=>{
+    const pool=window.DOPA_DATA.shan_senses.filter(x=>x.game_include===1);
+    const x=pool.find(c=>c.sense_split&&c.shared_gloss_review===true);
+    if(!x)return {found:false};
+    const q=window.qFor(x);
+    const distractors=window.distractors(x,pool,'shan','fromJP');
+    const parts=s=>[...new Set(String(s||'').normalize('NFKC').split(/[；;、，,／/]).map(t=>t.replace(/[。．！？!？\\s　]+/g,'').trim().toLowerCase()).filter(Boolean))];
+    const base=new Set(parts(x.japanese_core));
+    return {found:true,dir:q.dir,typed:q.typed,length:distractors.length,
+      sameShan:distractors.some(y=>y.shan===x.shan),
+      duplicateShan:new Set([x,...distractors].map(y=>y.shan)).size!==distractors.length+1,
+      overlappingGloss:distractors.some(y=>parts(y.japanese_core).some(p=>base.has(p)))};
+  });
+  assert.equal(reverse.found,true);
+  assert.equal(reverse.dir,'fromJP');
+  assert.equal(reverse.typed,false);
+  assert.equal(reverse.length,3);
+  assert.equal(reverse.sameShan,false);
+  assert.equal(reverse.duplicateShan,false);
+  assert.equal(reverse.overlappingGloss,false);
+  await page.locator('#direction').selectOption('toJP');
   await page.locator('#start').click();
   await page.locator('#game:not(.hidden)').waitFor();
   for(let n=0;n<5;n++){
