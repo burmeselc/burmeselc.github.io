@@ -47,7 +47,7 @@ function updateShanSenseControl(){
  if(!input)return;
  input.disabled=$('lang').value!=='shan'||!window.DOPA_SENSE_READY;
  if(note)note.textContent=!window.DOPA_SENSE_READY?'語義カードデータを読み込めないため、従来の5,480カードだけを使ひます。':
- '語義別モードでは7,290候補から未確認の276件を除外。多義カードは日本語→シャン語で出題し、新IDに別の復習履歴を記録します。';
+ '語義別モードでは7,290候補のうち7,241件を出題。同綴りの別語義は同じ四択に出さず、両方向で学べます。新IDの復習履歴は別管理です。';
 }
 
 function domainEligible(x,l){
