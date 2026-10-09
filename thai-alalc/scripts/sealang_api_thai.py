@@ -28,6 +28,11 @@ COUNT_RE=re.compile(r"(\d[\d,]*)\s+items\s+found",re.I)
 CHARS="กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮเแโใไ"
 
 def parse_document(data:bytes,query:str):
+    match=re.search(r"Excessive number of hits\s*\(([\d,]+),\s*limit\s*([\d,]+)\)", data.decode("utf-8","replace"), re.I)
+    if match:
+        raise ValueError(
+            f"Too many SEAlang matches for {query!r}: {match.group(1)} > {match.group(2)}; "
+            "split into narrower search expressions (e.g. กก.*) and retry.")
     soup=BeautifulSoup(data,"html.parser")
     text=soup.get_text(" ",strip=True)
     m=COUNT_RE.search(text)
