@@ -1,6 +1,18 @@
-# DOPA QUEST v6.1 — cloud sync and learning-quality improvements
+# DOPA QUEST v6.2 — stability, rapid play, and cloud recovery
 
 DOPA QUEST vocabulary RPG for **Shan and Burmese**.
+
+## v6.2 release notes
+
+- Shan word-count metadata: restore the original per-word source occurrence counts for all 5,480 entries, rather than showing `undefined件`.
+- Correct answers advance automatically after **950 ms** by default. Tap **解説を見る** within that window to pause for details; optional setting **正解後も確認するまで停止** re-enables manual advancement.
+- Before a remote snapshot overwrites local progress, save the previous local profile in the browser's IndexedDB under a recovery slot. **復旧** can recover that local copy after confirmation.
+- Synchronization now checks newer cloud revisions even when the local profile is unchanged.
+- Cloud snapshot retrieval re-checks the server revision after reading chunks and prevents overwriting answers made while loading. Identity is captured during uploads to avoid cross-account races.
+- Backgrounding the page attempts a cloud flush; localStorage remains the immediate persistence mechanism, so browser termination may interrupt the network operation.
+- Tests cover counts, fast answers, UTF-8 snapshots, in-flight edit protection and remote revision retrieval.
+
+**Storage notice:** Recovery is a single-slot, on-device safety copy; it is not a complete historical archive. Use SAVE to export additional backups. Cloud syncing still uses a snapshot model rather than a per-card, automatic conflict merge.
 
 ## v6.1 learning-quality changes
 
@@ -17,9 +29,9 @@ DOPA QUEST vocabulary RPG for **Shan and Burmese**.
 
 ## What is / is not deployed
 
-- **Included:** game code, sample 8 Shan + 8 Burmese cards, vocabulary importer, local progress, JSON backup, optional Google Auth + Firestore sync, security rules.
+- **Included:** game code, 5,480 Shan and 2,500 Burmese author-owned built-in words, optional vocabulary importer, local progress, JSON backup, Google Auth + Firestore sync, security rules.
 - **Vocabulary rights:** the deck creator has explicitly confirmed both Anki sets are self-authored and authorized their inclusion. Independently sourced dictionary text, images, or audio still require separate rights checks where applicable.
-- **Not yet configured:** a Firebase project or Firestore database. Without configuration, the game runs **local-only**. Cloud buttons are disabled.
+- **Configured:** Firebase Web project and Google Auth/Firestore synchronization (reported operational by the user in v6); the new v6.2 improvements still require device-side verification.
 - **Not yet production-verified:** actual iOS Safari login, Firebase permissions, conflict behaviour across two devices, security rules emulator testing.
 
 ## Default vocabulary and optional additions
