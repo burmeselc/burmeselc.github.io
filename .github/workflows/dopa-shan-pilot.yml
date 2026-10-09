@@ -1,0 +1,52 @@
+name: DOPA QUEST Shan category pilot tests
+on:
+  push:
+    branches:
+      - feature/shan-semantic-domains-pilot-20261009
+    paths:
+      - 'dopa-quest/**'
+      - '.github/workflows/dopa-shan-pilot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check dopa-quest/game.js
+      - run: node --check dopa-quest/bootstrap.js
+      - run: node --check dopa-quest/cloud-sync.js
+      - run: node --test dopa-quest/tests/quality.test.mjs
+      - run: node --test dopa-quest/tests/category-pilot.test.mjs
+      - run: node --test dopa-quest/tests/shan-category.test.mjs
+      - name: Install browser test dependencies
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run real Chromium browser smoke tests
+        run: |
+          python3 -m http.server 8123 > /tmp/dopa-pilot-http.log 2>&1 &
+          sleep 2
+          node --test dopa-quest/tests/category-browser.test.mjs
+          node --test dopa-quest/tests/shan-browser.test.mjs
+      - name: Check isolated CDN preview availability
+        continue-on-error: true
+        run: |
+          URL="https://rawcdn.githack.com/burmeselc/burmeselc.github.io/${GITHUB_SHA}/dopa-quest/index.html"
+          CODE=$(curl --connect-timeout 10 --max-time 45 -sSL -w "%{http_code}" -o /tmp/dopa-preview.html "$URL")
+          echo "Preview HTTP $CODE"
+          test "$CODE" = "200"
+          grep -q 'semanticCategory' /tmp/dopa-preview.html
+          echo "$URL" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dopa-shan-category-mobile-preview
+          path: |
+            dopa-category-mobile.png
+            dopa-shan-category-mobile.png
+          if-no-files-found: ignore
