@@ -1,6 +1,6 @@
 # DOPA QUEST: Burmese semantic-domain pilot (branch only)
 
-This branch adds an **optional semantic category selector for Burmese** using a separate provisional sidecar file. No card IDs, source vocabulary, review-history keys, progress schema, or existing Shan data are changed.
+This original Burmese pilot was merged to main; the same selector is now extended to Shan on the dedicated Shan pilot branch. Both sidecars remain provisional and separate from vocabulary. No card IDs, source vocabulary, review-history keys, progress schema, or existing Shan data are changed.
 
 ## Testing locally from this branch
 
@@ -18,7 +18,7 @@ This branch adds an **optional semantic category selector for Burmese** using a 
 - `cards[legacy_id] = [major_category, status]`
 - Status P = automatically classified / provisional (not independently verified)
 - Status R = category checked against existing Japanese gloss only
-- Status M = multiple senses, withheld from category-filtered questions until sense-level curation
+- Status M = multiple senses, withheld from category-filtered questions until sense-level curation (same category policy for Shan)
 - There are exactly 2,500 original parent IDs and 18 major semantic domains. Categories are not embedded into the source deck.
 - Multi-sense cards remain available in the default all-words mode.
 - When a category is active, **all four alternatives come from that same semantic category**, including the three distractors. The question can be limited to one rank zone while distractors are sampled from the entire category across ranks, keeping four distinct choices available. The original all-words mode retains its previous behavior.
