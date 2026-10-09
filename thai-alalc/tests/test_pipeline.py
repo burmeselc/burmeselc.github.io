@@ -5,6 +5,7 @@ from pathlib import Path
 from sys import path
 BASE=Path(__file__).resolve().parents[1]
 path.insert(0,str(BASE/'scripts'))
+from ipa_candidates import candidate_from_ipa
 from romanize import guess_word
 from build_dictionary import make_entries
 from sealang_batch import planned_query_urls,extract_entries,report_count
@@ -36,6 +37,28 @@ class ThaiDictionaryTests(unittest.TestCase):
             self.assertEqual(next(x for x in data if x['thai']=='ไก่')['status'],'tentative')
             self.assertEqual(next(x for x in data if x['thai']=='พิเศษ')['status'],'unresolved')
             self.assertEqual(next(x for x in data if x['thai']=='ไก่')['meaning'],'chicken')
+    def test_ipa_roman_candidates(self):
+        self.assertEqual(candidate_from_ipa('pʰaa-sǎa'),'phāsā')
+        self.assertEqual(candidate_from_ipa('ˈkʰon'),'khon')
+        self.assertEqual(candidate_from_ipa('saˈmɔ̌ɔ'),'samǭ')
+        self.assertIsNone(candidate_from_ipa('something~else'))
+
+    def test_incremental_preservation(self):
+        with tempfile.TemporaryDirectory() as t:
+            src=Path(t)/'new.csv'
+            with src.open('w',encoding='utf-8',newline='') as f:
+                w=csv.DictWriter(f,fieldnames=['thai','meaning','ipa','source','source_id'])
+                w.writeheader()
+                w.writerow({'thai':'ภาษา','meaning':'N: a natural language','ipa':'pʰaa-sǎa','source':'SEAlang Thai','source_id':'TDP:13753'})
+            old=Path(t)/'previous.json'
+            old.write_text(__import__('json').dumps([{'thai':'ภาษาจีน','alalc':'phāsāčhīn','meaning':'Chinese',
+                'source':'legacy','status':'reviewed'}],ensure_ascii=False),encoding='utf-8')
+            data=make_entries(BASE/'data/seed.json',src,old)
+            self.assertTrue(any(x['thai']=='ภาษาจีน' for x in data))
+            row=next(x for x in data if x.get('source_id')=='TDP:13753')
+            self.assertEqual(row['alalc'],'phāsā')
+            self.assertEqual(row['status'],'tentative')
+
     def test_api_url_and_xml_extract(self):
         urls=planned_query_urls(['ภาษา'])
         self.assertEqual(len(urls),1)
