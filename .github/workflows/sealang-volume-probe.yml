@@ -22,8 +22,21 @@ jobs:
       - name: Fetch single common Thai character class
         working-directory: thai-alalc
         run: |
-          python scripts/sealang_api_thai.py --queries 'ก.*' --limit 1 --delay 12 --legacy-tls --run --permission-confirmed
-          python scripts/build_dictionary.py --source data/sealang-shards/
+          python - <<'PY'
+          import ssl,urllib.parse,urllib.request,re
+          from bs4 import BeautifulSoup
+          q=urllib.parse.urlencode({'service':'dictionary','lang':'Thai','query':'ก.*'})
+          req=urllib.request.Request('https://sealang.net/api/api.pl?'+q,headers={'User-Agent':'ThaiALALC-AcademicLexicon/0.2'})
+          with urllib.request.urlopen(req,timeout=35,context=ssl._create_unverified_context()) as r:
+              body=r.read(300000)
+              print('status',r.status,'read_bytes',len(body))
+          soup=BeautifulSoup(body,'html.parser')
+          for x in soup(['script','style']):x.decompose()
+          text=soup.get_text(' ',strip=True)
+          print('BODY_PREVIEW',text[:1300])
+          print('BODY_END',text[-600:])
+          print('ENTRY_TAGS',len(soup.find_all(['entry','subentry'])))
+          PY
       - name: Validate
         run: python -m unittest discover -s thai-alalc/tests -v
       - name: Save tested source records
