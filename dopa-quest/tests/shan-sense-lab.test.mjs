@@ -22,25 +22,28 @@ test('seven thousand split/singleton candidates preserve all original ID relatio
 });
 test('eligible Shan sense cards have gloss, domain and distinct Japanese prompts',()=>{
  const expected=manifest.counts;
- assert.equal(expected.playable,7014);
- assert.equal(expected.split_playable,2807);
- assert.equal(expected.excluded_gloss,46);
- assert.equal(expected.excluded_collision,230);
+ assert.equal(expected.playable,7241);
+ assert.equal(expected.split_playable,3034);
+ assert.equal(expected.excluded_gloss,49);
+ assert.equal(expected.excluded_collision,0);
  const usable=cards.filter(x=>x.game_include===1);
- assert.equal(usable.length,7014);
- assert.equal(usable.filter(x=>x.sense_split).length,2807);
+ assert.equal(usable.length,7241);
+ assert.equal(usable.filter(x=>x.sense_split).length,3034);
  assert.ok(usable.every(x=>x.japanese_core&&x.semantic_major&&x.semantic_status==='P'));
  const norm=s=>s.normalize('NFKC').replace(/[\s　。、，,；;:：・]+/g,'').toLowerCase();
- const glossCounts=new Map();
- for(const x of cards)if(x.japanese_core){const g=norm(x.japanese_core);glossCounts.set(g,(glossCounts.get(g)||0)+1)}
- assert.ok(usable.filter(x=>x.sense_split).every(x=>glossCounts.get(norm(x.japanese_core))===1));
+ const reviewedShared=usable.filter(x=>x.shared_gloss_review===true);
+ assert.equal(reviewedShared.length,227);
+ assert.ok(reviewedShared.every(x=>x.review_required===true));
+ assert.ok(usable.every(x=>x.semantic_major&&x.japanese_core));
+ // Shared gloss is handled at distractor selection, not by removing valid cards.
  assert.ok(cards.filter(x=>x.game_include===0).every(x=>x.exclusion_reason));
 });
 test('the sense lab never overwrites parent records or previously credited progress',()=>{
  assert.match(game,/const KEY='dopaQuestV5_profile'/);
  assert.match(game,/P\.words\[x\.id\]/);
  assert.match(game,/function activeDeck\(/);
- assert.match(game,/if\(x\.sense_split\)\{dir='fromJP';typed=false\}/);
+ assert.match(game,/if\(x\.sense_split\)typed=false;/);
+ assert.match(game,/seenSpelling\.has\(spelling\)/);
  assert.match(boot,/window\.DOPA_DATA\.shan_senses=expanded/);
  assert.match(boot,/window\.DOPA_SENSE_READY=true/);
 });
