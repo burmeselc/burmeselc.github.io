@@ -17,9 +17,9 @@ The dictionary API endpoint has been tested (2026-10-09):
 
 SEAlang's XHTML contains `entry` and `subentry` elements, with `formx/orth[@type=head]` for Thai, `formx/pron` for pronunciation (often in a `written` attribute), and `sense/def` for definitions. The `formx` ID records source identifiers such as TDP codes.
 
-**Run on GitHub:** Actions → **Thai SEAlang dictionary import (permission-confirmed)** → Run workflow. Enter `max_requests` and optionally `queries` (semicolon-separated, e.g., `ก.*;ข.*`). Confirm both permissions. This performs the work in GitHub's hosted runner, commits the incrementally expanded `thai-alalc/dictionary.json`, and GitHub Pages deploys it. The user reports that SEAlang granted permission to download and republish; users should adhere to the actual scope of that authorization.
+**Run on GitHub:** Actions → **Thai SEAlang dictionary import (permission-confirmed)** → Run workflow. Enter `max_requests`, `start_index` (0 then 20 then 40, etc.), and optionally `queries` (semicolon-separated, e.g., `ก.*;ข.*`). Confirm both permissions. This performs the work in GitHub's hosted runner, commits the incrementally expanded `thai-alalc/dictionary.json`, and GitHub Pages deploys it. The user reports that SEAlang granted permission to download and republish; users should adhere to the actual scope of that authorization.
 
-SEAlang's robots.txt currently specifies **Crawl-Delay: 20**. The script uses at least 20 seconds between queries, limits each run to 100 requests, checks robots.txt, stops rather than retries after errors, and never accesses the site from a browser visitor's machine. Queries are partitioned by Thai initial written characters, including preposed vowels `เ แ โ ใ ไ`.
+SEAlang's robots.txt currently specifies **Crawl-Delay: 20**. The script uses at least 20 seconds between queries, limits each run to 100 requests, checks robots.txt, stops rather than retries after errors, and never accesses the site from a browser visitor's machine. Successive runs use `start_index` to avoid repeating the first prefix batch. Queries are partitioned by Thai initial written characters, including preposed vowels `เ แ โ ใ ไ`.
 
 ### Coverage limitations
 
