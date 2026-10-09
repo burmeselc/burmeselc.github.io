@@ -5,15 +5,15 @@ DOPA QUEST vocabulary RPG for **Shan and Burmese**. This folder is a preview of 
 ## What is / is not deployed
 
 - **Included:** game code, sample 8 Shan + 8 Burmese cards, vocabulary importer, local progress, JSON backup, optional Google Auth + Firestore sync, security rules.
-- **Not included:** the original 5,480 Shan and 2,500 Burmese Anki-derived cards. Their redistribution rights have not been checked. The real data must be loaded privately from the user's integrated JSON.
+- **Vocabulary rights:** the deck creator has explicitly confirmed both Anki sets are self-authored and authorized their inclusion. Independently sourced dictionary text, images, or audio still require separate rights checks where applicable.
 - **Not yet configured:** a Firebase project or Firestore database. Without configuration, the game runs **local-only**. Cloud buttons are disabled.
 - **Not yet production-verified:** actual iOS Safari login, Firebase permissions, conflict behaviour across two devices, security rules emulator testing.
 
-## Load real vocabulary
+## Default vocabulary and optional additions
 
-Open the site over HTTPS, then click **語彙を読込**. Select an integrated JSON file structured as `{"shan":[{"id":"...","shan":"...","japanese_core":"..."}], "burmese":[{"id":"...","burmese":"...","japanese_core":"..."}]}`.
+The two default decks load automatically on site launch; no upload is necessary. To add or update vocabulary, click **デッキを追加・更新** and select a JSON file structured as `{"shan":[{"id":"...","shan":"...","japanese_core":"..."}], "burmese":[{"id":"...","burmese":"...","japanese_core":"..."}]}`.
 
-The imported wordlist is stored locally in **IndexedDB** and is not uploaded to Firestore. It will need to be imported separately on each new device. Learning progress is stored locally in **localStorage** until cloud sync is configured.
+Imported words **merge with the default decks** using stable IDs and are stored locally in **IndexedDB**, not Firestore. Custom additions must be imported separately on each new device. Learning progress is stored locally in **localStorage** until cloud sync is configured.
 
 ## Preserve existing v5 progress
 
@@ -35,7 +35,7 @@ Current limitations: last-writer preservation rather than per-word merging, no a
 
 ## Privacy and permission notes
 
-Never commit the private integrated vocabulary JSON or downloaded personal progress JSON. The files can include third-party dictionary data or learning history. Only the game code and intentionally authored demo cards belong in the public repository.
+The author-owned built-in decks are intentionally published under `data/`. Never commit personal progress JSON; it contains learning history. Check third-party rights before incorporating externally sourced media or dictionary content.
 
 ## Local development
 
