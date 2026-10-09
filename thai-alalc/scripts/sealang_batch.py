@@ -22,8 +22,8 @@ def planned_query_urls(queries):
     return [(q,API+'?'+parse.urlencode({'service':'dictionary','lang':'Thai','query':q}))
             for q in queries]
 
-def base_queries(limit):
-    return [char+'.*' for char in INITIALS[:limit]]
+def base_queries(limit,start_index=0):
+    return [char+'.*' for char in INITIALS[start_index:start_index+limit]]
 
 def report_count(raw:str):
     match=re.search(r'([\d,]+)\s+items?\s+found',raw,re.I)
@@ -79,9 +79,10 @@ def process_files(directory,export):
     return len(unique)
 
 def collect(args):
-    queries=[x.strip() for x in args.queries.split(';') if x.strip()] if args.queries else base_queries(args.max_requests)
+    queries=[x.strip() for x in args.queries.split(';') if x.strip()] if args.queries else base_queries(args.max_requests,args.start_index)
     if len(queries)>args.max_requests:raise SystemExit('Query count exceeds --max-requests.')
     plan=planned_query_urls(queries)
+    if not plan:raise SystemExit('No remaining search prefixes at this start index.')
     print('Planned searches:',len(plan),'; first:',', '.join(queries[:5]),flush=True)
     if not args.run:
         print('DRY RUN (no requests).',flush=True);return
@@ -142,6 +143,7 @@ def main():
     p.add_argument('--parse-only',action='store_true')
     p.add_argument('--queries',default='',help='semicolon-delimited explicit regex expressions')
     p.add_argument('--max-requests',type=int,default=1)
+    p.add_argument('--start-index',type=int,default=0,help='Starting position in the Thai written-initial list')
     p.add_argument('--delay',type=float,default=20)
     p.add_argument('--max-bytes',type=int,default=12000000)
     p.add_argument('--directory',type=Path,default=ROOT/'data/sealang-html')
@@ -149,6 +151,7 @@ def main():
     args=p.parse_args()
     if not 1<=args.max_requests<=100:p.error('max-requests: 1..100')
     if args.delay<20:p.error('Minimum delay is 20 seconds per robots.txt.')
+    if args.start_index<0 or args.start_index>=len(INITIALS):p.error('Invalid start index.')
     if args.parse_only:
         print('Exported',process_files(args.directory,args.export),'records to',args.export)
     else:collect(args)
