@@ -95,6 +95,30 @@
       }
     }
   }
+  // Experimental, opt-in Shan sense cards. Original shan/burmese arrays and IDs are untouched.
+  window.DOPA_SENSE_READY=false;
+  try{
+    const manifestResponse=await fetch('./data/shan-senses-manifest.json',{cache:'no-cache'});
+    if(!manifestResponse.ok)throw Error('sense manifest HTTP '+manifestResponse.status);
+    const manifest=await manifestResponse.json();
+    if(manifest.schema!=='dopa-shan-sense-lab-v1'||manifest.parent_count!==5480||
+       manifest.candidate_count!==7290||manifest.parts?.length!==8)
+      throw Error('unexpected sense manifest');
+    const fragments=await Promise.all(manifest.parts.map(async path=>{
+      if(!/^dopa-quest\\/data\\/shan-senses-[1-8]\\.json$/.test(path))throw Error('invalid sense-part path');
+      const r=await fetch('./data/'+path.split('/').pop(),{cache:'no-cache'});
+      if(!r.ok)throw Error('sense part HTTP '+r.status);
+      return r.json();
+    }));
+    const expanded=fragments.flat(),parentIds=new Set(defaults.shan.map(x=>x.id));
+    if(expanded.length!==7290||
+       new Set(expanded.map(x=>x.id)).size!==7290||
+       new Set(expanded.map(x=>x.parent_id)).size!==5480||
+       expanded.some(x=>!parentIds.has(x.parent_id)||typeof x.japanese_core!=='string'||typeof x.shan!=='string'))
+      throw Error('sense inventory does not match Shan vocabulary');
+    window.DOPA_DATA.shan_senses=expanded;
+    window.DOPA_SENSE_READY=true;
+  }catch(e){console.warn('Optional Shan sense lab disabled',e)}
   badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length.toLocaleString()}語 / ビルマ語 ${window.DOPA_DATA.burmese.length.toLocaleString()}語`+
     (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）');
   $('vocabLoad').textContent='デッキを追加・更新';
