@@ -27,14 +27,15 @@ function jp(x){return x.japanese_core||x.japanese||x.english||''}
 function note(x,l){return x.japanese_note||(x.english||'')}
 function glossParts(s){return [...new Set(String(s||'').normalize('NFKC').split(/[；;、，,／/]/).map(x=>x.replace(/[。．！？!？\s　]+/g,'').trim().toLowerCase()).filter(Boolean))]}
 function glossOverlap(a,b){let aa=new Set(glossParts(jp(a)));return glossParts(jp(b)).some(x=>aa.has(x))}
-function isUnambiguous(x,l){return glossParts(jp(x)).every(t=>(glossLookup[l].get(t)||0)===1)}
+function normalizedGloss(x){return String(jp(x)).normalize('NFKC').replace(/[\s　。、，,；;:：・]+/g,'').toLowerCase()}
+function isUnambiguous(x,l){return (glossLookup[l].get(normalizedGloss(x))||0)===1}
 function pos(x,l){return l==='shan'?(x.game_pos||x.pos||''):(x.game_pos||x.category||x.type_hint||'')}
 function indexOf(x,l){return l==='shan'?Number(x.rank||99999):Number(x.order||99999)}
 function zones(l){if(l==='shan')return[['all','全5,480語',1,5480],['z1','頻度 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–2000',1001,2000],['z6','2001–5480',2001,5480]];return[['all','全2,500語',1,2500],['z1','教材 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–1500',1001,1500],['z6','1501–2500',1501,2500]]}
 const byId = Object.fromEntries([...DATA.shan,...DATA.burmese].map(x=>[x.id,x]));
 const glossLookup={shan:new Map(),burmese:new Map()};
-for(const lang of ['shan','burmese'])for(const x of DATA[lang])for(const t of glossParts(jp(x))){
- const m=glossLookup[lang];m.set(t,(m.get(t)||0)+1);
+for(const lang of ['shan','burmese'])for(const x of DATA[lang]){
+ const m=glossLookup[lang],t=normalizedGloss(x);m.set(t,(m.get(t)||0)+1);
 }
 function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return DATA[l].filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'})}
 function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;renderZoneStats();refreshVoices()}
