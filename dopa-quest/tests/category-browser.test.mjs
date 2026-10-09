@@ -10,6 +10,7 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
   const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const page=await context.newPage(),errors=errorsOn(page);
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.burmese?.length===2500);
   await page.waitForFunction(()=>window.DOPA_SEMANTIC_READY_BY_LANG?.shan===true);
   assert.equal(await page.locator('#semanticCategory').isDisabled(),false);
@@ -43,6 +44,7 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
   assert.ok(saved?.totalQ>=1);
   assert.ok(Object.keys(saved.words).length>=1);
   await page.reload({waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.burmese?.length===2500);
   assert.ok(await page.evaluate(()=>JSON.parse(localStorage.getItem('dopaQuestV5_profile')||'null').totalQ>=1));
   await page.locator('#lang').selectOption('shan');
@@ -60,6 +62,7 @@ test('rare semantic category still shows four in-category choices',async()=>{
  try{
   const page=await browser.newPage(),errors=errorsOn(page);
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.burmese?.length===2500);
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#semanticCategory').selectOption('18');
@@ -81,6 +84,7 @@ test('missing category data degrades to original all-words mode',async()=>{
   const page=await browser.newPage(),errors=errorsOn(page);
   await page.route('**/data/burmese-categories-v1.json',route=>route.abort());
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.burmese?.length===2500);
   await page.locator('#lang').selectOption('burmese');
   assert.equal(await page.locator('#semanticCategory').isDisabled(),true);
