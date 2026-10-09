@@ -20,17 +20,20 @@ def make_entries(seed_path,source_path=None):
         'meaning':row.get('meaning',''),'ipa':row.get('ipa',''),
         'source':row.get('source','editor seed'),'status':row.get('status','tentative')})
     if source_path:
-        with source_path.open(newline='',encoding='utf-8-sig') as f:
-            for row in csv.DictReader(f):
-                thai=normalize_thai(row.get('thai') or '')
-                if not thai:continue
-                supplied=(row.get('alalc') or '').strip()
-                verified=(row.get('verified') or '').strip().lower() in ('1','true','yes')
-                roman=supplied or guess_word(thai) or ''
-                entries.append({'thai':thai,'alalc':roman,
-                'meaning':(row.get('meaning') or '').strip(),'ipa':(row.get('ipa') or '').strip(),
-                'source':(row.get('source') or 'SEAlang (user-provided export)').strip(),
-                'status':'reviewed' if supplied and verified else ('tentative' if roman else 'unresolved')})
+        sources=sorted(source_path.glob('*.csv')) if source_path.is_dir() else [source_path]
+        for csv_path in sources:
+            with csv_path.open(newline='',encoding='utf-8-sig') as f:
+                for row in csv.DictReader(f):
+                    thai=normalize_thai(row.get('thai') or '')
+                    if not thai:continue
+                    supplied=(row.get('alalc') or '').strip()
+                    verified=(row.get('verified') or '').strip().lower() in ('1','true','yes')
+                    roman=supplied or guess_word(thai) or ''
+                    entries.append({'thai':thai,'alalc':roman,
+                    'meaning':(row.get('meaning') or '').strip(),'ipa':(row.get('ipa') or '').strip(),
+                    'source':(row.get('source') or 'SEAlang Thai').strip(),
+                    'source_id':(row.get('source_id') or '').strip(),
+                    'status':'reviewed' if supplied and verified else ('tentative' if roman else 'unresolved')})
     merged={}
     for item in entries:
         key=(item['thai'],item['alalc'],item['meaning'])
@@ -43,7 +46,7 @@ def main():
     ap.add_argument('--source',type=pathlib.Path)
     ap.add_argument('--out',type=pathlib.Path,default=BASE/'dictionary.json')
     args=ap.parse_args()
-    if args.source and not args.source.exists():ap.error('source CSV does not exist')
+    if args.source and not args.source.exists():ap.error('source path does not exist')
     items=make_entries(BASE/'data/seed.json',args.source)
     args.out.parent.mkdir(parents=True,exist_ok=True)
     args.out.write_text(json.dumps(items,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
