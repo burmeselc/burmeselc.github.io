@@ -108,10 +108,13 @@ function adaptiveDir(x){let w=getW(x)||{},d=$('direction').value,ans=$('answerMo
 function qFor(x,retry=0,old=null){let w=getW(x),dir=old?.dir||adaptiveDir(x),typed=old?old.typed:false;let answerMode=$('answerMode').value;
  if(!old&&dir==='fromJP')typed=answerMode==='typed'||(answerMode==='adaptive'&&(w?.prod||0)>=3&&Math.random()<.40);
  if(mode==='rival'){typed=false;if(!old)dir=Math.random()<.5?'toJP':'fromJP'}
- // Split Shan senses are tested from meaning (and POS) to Shan spelling.
- // Never ask ambiguous form->meaning recognition without example sentence context.
- if(x.sense_split){dir='fromJP';typed=false}
- // Duplicated exact Japanese glosses in split senses were excluded during staging.
+ // A split Shan form may be asked in either direction: the multiple-choice
+ // distractor filter excludes every other sense of the same spelling, so only
+ // one meaning of that spelling can appear among the displayed options.
+ // This tests recognition of a possible meaning, not contextual sense selection.
+ if(x.sense_split)typed=false;
+ // For Japanese-to-Shan questions, gloss-overlap distractor filtering prevents
+ // alternative correct spellings with matching recorded glosses from co-occurring.
  let ambiguousFallback=!x.sense_split&&dir==='fromJP'&&!isUnambiguous(x,$('lang').value);
  if(ambiguousFallback){dir='toJP';typed=false}
  return{x,dir,typed,ambiguousFallback,retry,answered:false,isBoss:false,isNew:!w,isRival:rivalsFor(x).length>0}}
@@ -120,8 +123,13 @@ function distractors(item,pool,l,dir){
 let targetLabel=dir==='fromJP'?orig(item,l):jp(item),ip=pos(item,l),ii=indexOf(item,l);
  let cand=pool.filter(x=>x.id!==item.id&&orig(x,l)!==orig(item,l)&&!glossOverlap(item,x)&&((dir==='fromJP'?orig(x,l):jp(x))!==targetLabel));let same=cand.filter(x=>pos(x,l)===ip);if(same.length>=3)cand=same;
  cand.sort((a,b)=>Math.abs(indexOf(a,l)-ii)-Math.abs(indexOf(b,l)-ii));let shortlist=shuffle(cand.slice(0,100));let riv=rivalsFor(item);let candidateIds=new Set(cand.map(x=>x.id));let special=riv.map(r=>byId[r.a===item.id?r.b:r.a]).filter(x=>x&&candidateIds.has(x.id));
- let labels=new Set([targetLabel]),out=[];
- for(let x of [...special,...shortlist,...shuffle(cand)]){let lab=dir==='fromJP'?orig(x,l):jp(x);if(!lab||labels.has(lab))continue;labels.add(lab);out.push(x);if(out.length>=3)break}return out}
+ let labels=new Set([targetLabel]),seenSpelling=new Set([orig(item,l)]),out=[];
+ for(let x of [...special,...shortlist,...shuffle(cand)]){
+  let lab=dir==='fromJP'?orig(x,l):jp(x),spelling=orig(x,l);
+  if(!lab||labels.has(lab)||seenSpelling.has(spelling)||out.some(o=>glossOverlap(o,x)))continue;
+  labels.add(lab);seenSpelling.add(spelling);out.push(x);
+  if(out.length>=3)break
+ }return out}
 function beep(kind){if(!P.sound)return;try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();let o=ctx.createOscillator(),g=ctx.createGain(),now=ctx.currentTime;o.type=kind==='seal'?'triangle':'sine';o.connect(g);g.connect(ctx.destination);o.frequency.value=kind==='bad'?140:kind==='boss'?95:kind==='seal'?840:540;g.gain.setValueAtTime(.035,now);g.gain.exponentialRampToValueAtTime(.001,now+.16);o.start(now);o.stop(now+.17)}catch(e){}}
 function vibe(v){try{navigator.vibrate?.(v)}catch(e){}}
 function toast(t){let e=$('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1500)}
