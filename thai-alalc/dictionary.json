@@ -1,202 +1,445 @@
 [
   {
+    "thai": "การลงคะแนนเลือกตั้งของผู้ไม่สามารถไป ณ ที่เลือกตั้ง",
+    "alalc": "",
+    "meaning": "absentee voting",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:5595",
+    "status": "unresolved"
+  },
+  {
+    "thai": "การหักภาษี ณ ที่จ่าย",
+    "alalc": "",
+    "meaning": "current tax payment",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:6519",
+    "status": "unresolved"
+  },
+  {
     "thai": "การแปล",
     "alalc": "kānplǣ",
     "meaning": "translation",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
-  },
-  {
-    "thai": "ใกล้ชิด",
-    "alalc": "klaichit",
-    "meaning": "close; intimate",
-    "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "ขน",
     "alalc": "khon",
     "meaning": "hair; to transport",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
   },
   {
     "thai": "ข้า",
     "alalc": "khā",
     "meaning": "I; servant",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "คน",
     "alalc": "khon",
     "meaning": "person",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
   },
   {
     "thai": "ความจริง",
     "alalc": "khwāmčhing",
     "meaning": "truth",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "ความหมาย",
     "alalc": "khwāmmāi",
     "meaning": "meaning",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
-  },
-  {
-    "thai": "ค่า",
-    "alalc": "khā",
-    "meaning": "value; cost",
-    "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "คำ",
     "alalc": "kham",
     "meaning": "word; expression",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
+  },
+  {
+    "thai": "ค่า",
+    "alalc": "khā",
+    "meaning": "value; cost",
+    "ipa": "",
+    "source": "editor example",
+    "status": "tentative"
   },
   {
     "thai": "ฆ่า",
     "alalc": "khā",
     "meaning": "to kill",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
+  },
+  {
+    "thai": "ชำระภาษีเงินได้ ณ ที่จ่าย",
+    "alalc": "",
+    "meaning": "pay as you earn",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13118",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ",
+    "alalc": "",
+    "meaning": "at, in, of (place or time).; element in surnames, indicating relationship to royalty or to former local princes who served as governors of provinces.",
+    "ipa": "ná",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6410",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ",
+    "alalc": "",
+    "meaning": "low consonant, pronounced n initially and finally.",
+    "ipa": "nɔɔ",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6409",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ จุดขาย",
+    "alalc": "",
+    "meaning": "point-of-sale (POS) (พีโอเอส)",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13930",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ จุดเริ่ม",
+    "alalc": "",
+    "meaning": "in situ",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13931",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ ต่างประเทศ",
+    "alalc": "",
+    "meaning": "abroad.",
+    "ipa": "ná tàaŋ pra-tʰêet",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6413",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ ที่เดิม",
+    "alalc": "",
+    "meaning": "in situ",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13932",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ บัดนี้",
+    "alalc": "",
+    "meaning": "at this moment, at present, now.; right away.",
+    "ipa": "ná bàt níi",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6414",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ สงขลา",
+    "alalc": "",
+    "meaning": "Na-Songkhla, surname of persons descended from the local prince who served as governor of Songkhla in earlier times. Based on สงขลา, a township in S Thailand.",
+    "ipa": "ná sǒŋ-kʰlǎa",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6412",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณ อยุธยา",
+    "alalc": "",
+    "meaning": "Na-Ayuthaya (Na-Ayuthia), an addition to the surname of persons who, though without royal titles, are related to the Chakri line. Based on อยุธยา, a township in Central Thailand and former capital of the country.",
+    "ipa": "ná a-yút-tʰa-yaa",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6411",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ณรงค์",
+    "alalc": "",
+    "meaning": "campaign; fight; absentee voting; current tax payment; pay as you earn; point-of-sale (POS) (พีโอเอส); in situ; place of residence at a fixed past date; absentee ballot; withholding tax; arrived admaged value; gross arrived damaged value; arrived sound value; point-of-sale system; instantaneous rate; instantaneous death rate; instantaneous rate of growth",
+    "ipa": "ná roŋ",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23480",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ถิ่นที่อยู่ ณ วันที่กำหนดในอดีต",
+    "alalc": "",
+    "meaning": "place of residence at a fixed past date",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:15368",
+    "status": "unresolved"
   },
   {
     "thai": "ทดลอง",
     "alalc": "thotlǭng",
     "meaning": "to experiment",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
-    "thai": "ไทย",
-    "alalc": "Thai",
-    "meaning": "Thai",
-    "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "thai": "บัตรเลือกตั้งของผู้ไม่สามารถไป ณ ที่เลือกตั้ง",
+    "alalc": "",
+    "meaning": "absentee ballot",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17390",
+    "status": "unresolved"
   },
   {
     "thai": "ปัญญา",
     "alalc": "panyā",
     "meaning": "wisdom",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "ผ้า",
     "alalc": "phā",
     "meaning": "cloth",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
   },
   {
     "thai": "พระมหา",
     "alalc": "Phra Mahā",
     "meaning": "a royal or religious title",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "พา",
     "alalc": "phā",
     "meaning": "to take along",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
   },
   {
     "thai": "พูด",
     "alalc": "phūt",
     "meaning": "to speak",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "ภา",
     "alalc": "phā",
     "meaning": "light; a name element",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
   },
   {
     "thai": "ภาษา",
     "alalc": "phāsā",
     "meaning": "language",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
+  },
+  {
+    "thai": "ภาษีหัก ณ ที่จ่าย",
+    "alalc": "",
+    "meaning": "withholding tax",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21542",
+    "status": "unresolved"
   },
   {
     "thai": "มหาวิทยาลัย",
     "alalc": "mahāwitthayālai",
     "meaning": "university",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
+  },
+  {
+    "thai": "มูลค่า ณ ปลายทางหลังเสียหาย",
+    "alalc": "",
+    "meaning": "arrived admaged value",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22290",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มูลค่ารวม ณ ปลายทางหลังเสียหาย",
+    "alalc": "",
+    "meaning": "gross arrived damaged value",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22304",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มูลค่าไม่เสียหาย ณ ปลายทาง",
+    "alalc": "",
+    "meaning": "arrived sound value",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22315",
+    "status": "unresolved"
   },
   {
     "thai": "รถไฟ",
     "alalc": "rotfai",
     "meaning": "train",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
+  },
+  {
+    "thai": "ระบบ ณ จุดขาย",
+    "alalc": "",
+    "meaning": "point-of-sale system",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:23150",
+    "status": "unresolved"
   },
   {
     "thai": "วัฒนธรรม",
     "alalc": "watthanatham",
     "meaning": "culture",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
-  },
-  {
-    "thai": "เสื้อผ้า",
-    "alalc": "sư̄aphā",
-    "meaning": "clothing",
-    "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
   },
   {
     "thai": "หนังสือ",
     "alalc": "nangsư̄",
     "meaning": "book",
+    "ipa": "",
     "source": "editor example",
-    "status": "tentative",
-    "ipa": ""
+    "status": "tentative"
   },
   {
     "thai": "หมู่บ้าน",
     "alalc": "mūbān",
     "meaning": "village",
+    "ipa": "",
     "source": "ALA-LC 2011 sample",
-    "status": "reviewed",
-    "ipa": ""
+    "status": "reviewed"
+  },
+  {
+    "thai": "ฬ",
+    "alalc": "",
+    "meaning": "high consonant, pronounced l initially and n finally.",
+    "ipa": "lɔɔ",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18995",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฬา",
+    "alalc": "lā",
+    "meaning": "ลา_1.",
+    "ipa": "laa",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18997",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฬ่อ",
+    "alalc": "",
+    "meaning": "ล่อ_1.",
+    "ipa": "lɔ̂ɔ",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18996",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อัตรา ณ ขณะหนึ่ง",
+    "alalc": "",
+    "meaning": "instantaneous rate",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29768",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อัตราตาย ณ ขณะอายุหนึ่ง",
+    "alalc": "",
+    "meaning": "instantaneous death rate",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29821",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อัตราเติบโต ณ ขณะหนึ่ง",
+    "alalc": "",
+    "meaning": "instantaneous rate of growth",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:30008",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อัตราเพิ่ม ณ ขณะหนึ่ง",
+    "alalc": "",
+    "meaning": "instantaneous rate of growth",
+    "ipa": "",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:30021",
+    "status": "unresolved"
+  },
+  {
+    "thai": "เสื้อผ้า",
+    "alalc": "sư̄aphā",
+    "meaning": "clothing",
+    "ipa": "",
+    "source": "ALA-LC 2011 sample",
+    "status": "reviewed"
+  },
+  {
+    "thai": "ใกล้ชิด",
+    "alalc": "klaichit",
+    "meaning": "close; intimate",
+    "ipa": "",
+    "source": "ALA-LC 2011 sample",
+    "status": "reviewed"
+  },
+  {
+    "thai": "ไทย",
+    "alalc": "Thai",
+    "meaning": "Thai",
+    "ipa": "",
+    "source": "ALA-LC 2011 sample",
+    "status": "reviewed"
   }
 ]
