@@ -25,7 +25,7 @@ jobs:
           node --check dopa-quest/game.js
           node --check dopa-quest/bootstrap.js
           node --check dopa-quest/study-details.js
-          node --test dopa-quest/tests/quality.test.mjs dopa-quest/tests/category-pilot.test.mjs dopa-quest/tests/shan-category.test.mjs dopa-quest/tests/shan-sense-lab.test.mjs dopa-quest/tests/sound-fx.test.mjs dopa-quest/tests/study-details.test.mjs dopa-quest/tests/study-category18-review.test.mjs dopa-quest/tests/study-taxonomy-gap.test.mjs dopa-quest/tests/study-literature-review.test.mjs dopa-quest/tests/study-major-mismatch-audit.test.mjs dopa-quest/tests/shan-sense-audit.test.mjs
+          node --test dopa-quest/tests/quality.test.mjs dopa-quest/tests/category-pilot.test.mjs dopa-quest/tests/shan-category.test.mjs dopa-quest/tests/shan-sense-lab.test.mjs dopa-quest/tests/sound-fx.test.mjs dopa-quest/tests/study-details.test.mjs dopa-quest/tests/study-category18-review.test.mjs dopa-quest/tests/study-taxonomy-gap.test.mjs dopa-quest/tests/study-literature-review.test.mjs dopa-quest/tests/study-major-corrections.test.mjs dopa-quest/tests/study-major-mismatch-audit.test.mjs dopa-quest/tests/shan-sense-audit.test.mjs
       - name: Install headless Chromium
         run: |
           npm install --no-save playwright@1.56.1
