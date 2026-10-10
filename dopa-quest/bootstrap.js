@@ -171,6 +171,12 @@
         burmese:burmeseSemantic,shan:shanSemantic
       });
     }catch(e){console.warn('Major-domain correction pilot unavailable; retaining preceding details',e)}
+    try{
+      const response=await fetch('./data/study-place-language-review-v1.json',{cache:'no-cache'});
+      if(!response.ok)throw Error('place/language review HTTP '+response.status);
+      usableDetails=window.DOPAStudyDetails.extendPlaceLanguage(taxonomy,usableDetails,
+        await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
+    }catch(e){console.warn('Place/language review unavailable; retaining preceding details',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
