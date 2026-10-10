@@ -204,6 +204,12 @@
         await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic},
         await queueResponse.json());
     }catch(e){console.warn('728-parent review unavailable; retaining previous 4360 classifications',e)}
+    try{
+      const res=await fetch('./data/study-next-500-audit-v1.json',{cache:'no-cache'});
+      if(!res.ok)throw Error('next 500 audit HTTP '+res.status);
+      usableDetails=window.DOPAStudyDetails.extendNext500(taxonomy,usableDetails,
+        await res.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
+    }catch(e){console.warn('Next 500 review unavailable; keeping previous 4907 classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
