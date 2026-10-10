@@ -841,7 +841,7 @@
     if(row.language!=='shan'||audited.has(row.id)||formerIds.has(row.id)||
        !source||base.cards?.[lang]?.[row.id]||
        source[lang]!==row.word||source.japanese_core!==row.japanese_core||
-       source.english!==row.english||status?.[0]!==row.legacy_major||
+       (source.english??null)!==row.english||status?.[0]!==row.legacy_major||
        !['P','R'].includes(status?.[1])||row.independent_dictionary_verified!==false||
        !['held-for-source-review','gloss-reviewed-pilot-candidate'].includes(row.current_review_status)||
        (row.current_review_status==='held-for-source-review'&&row.proposed_medium!==null))
