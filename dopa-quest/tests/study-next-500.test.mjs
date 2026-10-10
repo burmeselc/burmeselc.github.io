@@ -64,3 +64,62 @@ test('tampered source data or false semantic IDs reject the entire batch',()=>{
  const d=structuredClone(batch);d.accepted[0].tags.field=['invalid'];
  assert.throws(()=>D.extendNext500(tax,base,d,decks,semantic),/Invalid 500-card tag/);
 });
+
+
+const secondBatch=load('study-next-500-second-audit-v1.json');
+const second=D.extendNext500Second(tax,next,secondBatch,decks,semantic,batch);
+const secondEngine=D.create(tax,second,decks);
+test('second 500 Shan parents: stable P/R source IDs, cumulative counts and separate holds',()=>{
+ assert.equal(secondBatch.counts.audited,500);
+ assert.equal(secondBatch.counts.selected,151);
+ assert.equal(secondBatch.counts.held,349);
+ assert.equal(secondBatch.counts.major_corrections,129);
+ assert.equal(secondBatch.audited_records.length,500);
+ assert.equal(secondBatch.accepted.length,151);
+ assert.equal(secondBatch.independent_dictionary_verified,false);
+ const firstIDs=new Set(batch.audited_records.map(x=>x.id)),seen=new Set();
+ for(const row of secondBatch.audited_records){
+  assert.equal(row.language,'shan');
+  assert.ok(!seen.has(row.id)&&!firstIDs.has(row.id));
+  seen.add(row.id);
+  const originalCard=decks.shan.find(x=>x.id===row.id);
+  assert.ok(originalCard);
+  assert.equal(originalCard.shan,row.word);
+  assert.equal(originalCard.japanese_core,row.japanese_core);
+  assert.equal(originalCard.english,row.english);
+  assert.deepEqual(semantic.shan.cards[row.id].slice(0,2),[row.legacy_major,semantic.shan.cards[row.id][1]]);
+  assert.ok(['P','R'].includes(semantic.shan.cards[row.id][1]));
+  assert.equal(next.cards.shan[row.id],undefined);
+  assert.equal(row.independent_dictionary_verified,false);
+ }
+ assert.equal(seen.size,500);
+ assert.equal(second.counts.burmese,2205);
+ assert.equal(second.counts.shan,2886);
+ assert.equal(second.coverage.burmese.classified+second.coverage.shan.classified,5091);
+ assert.equal(second.coverage.burmese.review_pending+second.coverage.shan.review_pending,1377);
+ assert.equal(5091+1377,6468);
+ assert.equal(JSON.stringify(decks),original);
+});
+test('151 selected bilingual meanings and major corrections remain safe for choices',()=>{
+ for(const row of secondBatch.accepted){
+  const src=decks.shan.find(x=>x.id===row.id);
+  assert.ok(src);
+  assert.equal(secondEngine.annotation(src,'shan')?.medium,row.medium);
+  assert.equal(secondEngine.majorFor({...src,semantic_major:semantic.shan.cards[src.id][0],
+    semantic_status:semantic.shan.cards[src.id][1]},'shan'),row.medium.slice(0,2));
+  assert.equal(secondEngine.annotation({...src,japanese_core:'modified definition'},'shan'),null);
+  for(const other of decks.shan)if(other.id!==src.id&&other.japanese_core===src.japanese_core&&secondEngine.annotation(other,'shan'))
+   assert.equal(secondEngine.canContrast(src,other,'shan'),false);
+ }
+});
+test('tampering an accepted gloss, duplicate audited ID or tag rejects entire second batch',()=>{
+ const a=structuredClone(secondBatch);
+ a.accepted[0].english+=' altered';
+ assert.throws(()=>D.extendNext500Second(tax,next,a,decks,semantic,batch),/Stale second-500 candidate/);
+ const b=structuredClone(secondBatch);
+ b.audited_records[1].id=b.audited_records[0].id;
+ assert.throws(()=>D.extendNext500Second(tax,next,b,decks,semantic,batch),/Stale second-500 source/);
+ const c=structuredClone(secondBatch);
+ c.accepted[0].tags.field=['invalid_value'];
+ assert.throws(()=>D.extendNext500Second(tax,next,c,decks,semantic,batch),/Invalid second-500 tag/);
+});
