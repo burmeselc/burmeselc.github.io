@@ -269,5 +269,11 @@
       "original_dictionary_verified": false,
       "reason": "Say again and also may be distinct lexical or grammatical senses; do not classify whole parent"
     }
-  ]
+  ],
+  "medium_counts": {
+    "09.04": 8,
+    "09.05": 1,
+    "13.01": 1,
+    "13.05": 1
+  }
 }
