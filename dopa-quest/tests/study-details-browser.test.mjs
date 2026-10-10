@@ -109,7 +109,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1721件/);
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1780件/);
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
@@ -401,6 +401,35 @@ test('major correction overlay changes only effective browse categories and neve
     const x=window.DOPA_DATA[lang].find(y=>y.id===id);
     return window.DOPA_DETAIL.majorFor(x,lang)===document.querySelector('#semanticCategory').value;
    },{lang,id}),false);
+   await page.close();
+  }
+ }finally{await browser.close()}
+});
+
+test('reviewed geographic place names and language names show on iPhone-sized browse without changing progress',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  for(const [lang,major,medium,word,expected] of [
+   ['burmese','09','09.05','ရန်ကုန်',56],
+   ['shan','09','09.05','ၵဵင်းမႆႇ',27],
+   ['burmese','13','13.05','အင်္ဂလိပ်',3]
+  ]){
+   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+   await ready(page);
+   await page.locator('#lang').selectOption(lang);
+   await page.locator('#studyDetailControls > summary').click();
+   await page.locator('#studyDetailReview summary').click();
+   await page.locator('#semanticCategory').selectOption(major);
+   await page.locator('#semanticMedium').selectOption(medium);
+   assert.match(await page.locator('#studyDetailReviewSummary').textContent(),new RegExp(expected+'件'));
+   for(let i=0;i<8;i++){
+    if((await page.locator('#studyDetailReviewList').textContent()).includes(word))break;
+    if(!await page.locator('#studyDetailReviewMore').isVisible())break;
+    await page.locator('#studyDetailReviewMore').click();
+   }
+   assert.match(await page.locator('#studyDetailReviewList').textContent(),new RegExp(word));
+   assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
    await page.close();
   }
  }finally{await browser.close()}
