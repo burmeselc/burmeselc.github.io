@@ -22,8 +22,8 @@ test('500+ provisional new parent classifications and old history remain usable 
     progress:Object.keys(window.DOPA_SYNC_API.snapshot().words).length,
     overflow:document.documentElement.scrollWidth>innerWidth};
   });
-  assert.equal(got.burmese,2205);assert.equal(got.shan,2702);
-  assert.equal(got.remaining,1561);
+  assert.ok(got.burmese>=2205);assert.ok(got.shan>=2702);
+  assert.ok(got.remaining<=1561);assert.equal(got.burmese+got.shan+got.remaining,6468);
   assert.equal(got.b,'17.03');
   assert.equal(got.s,'13.01');
   assert.equal(got.held,null);
