@@ -22,6 +22,7 @@ jobs:
           git diff --exit-code -- dopa-quest/data/study-details-pilot-v1.json dopa-quest/data/shan-sense-audit-v1.json
       - name: Syntax and Node regression checks
         run: |
+          node --check dopa-quest/dashboard.js
           node --check dopa-quest/game.js
           node --check dopa-quest/flashcards.js
           node --check dopa-quest/flashcards-ui.js
@@ -37,7 +38,7 @@ jobs:
       - name: Mobile browser checks and existing learning regressions
         run: |
           python3 -m http.server 8123 > /tmp/dopa-http.log 2>&1 &
-          node --test dopa-quest/tests/vocabulary-library-browser.test.mjs dopa-quest/tests/flashcards-browser.test.mjs dopa-quest/tests/study-details-browser.test.mjs dopa-quest/tests/study-next-held-browser.test.mjs dopa-quest/tests/study-bulk-review-browser.test.mjs dopa-quest/tests/study-rapid-curated-browser.test.mjs dopa-quest/tests/study-728-parents-browser.test.mjs dopa-quest/tests/category-browser.test.mjs dopa-quest/tests/shan-browser.test.mjs dopa-quest/tests/shan-sense-browser.test.mjs dopa-quest/tests/sound-fx-browser.test.mjs
+          node --test dopa-quest/tests/dashboard-browser.test.mjs dopa-quest/tests/vocabulary-library-browser.test.mjs dopa-quest/tests/flashcards-browser.test.mjs dopa-quest/tests/study-details-browser.test.mjs dopa-quest/tests/study-next-held-browser.test.mjs dopa-quest/tests/study-bulk-review-browser.test.mjs dopa-quest/tests/study-rapid-curated-browser.test.mjs dopa-quest/tests/study-728-parents-browser.test.mjs dopa-quest/tests/category-browser.test.mjs dopa-quest/tests/shan-browser.test.mjs dopa-quest/tests/shan-sense-browser.test.mjs dopa-quest/tests/sound-fx-browser.test.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
