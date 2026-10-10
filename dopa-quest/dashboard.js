@@ -21,6 +21,38 @@
   $('dashDue').textContent=dueCount(p).toLocaleString();
   $('dashXp').textContent=Math.max(0,Number(p.xp)||0).toLocaleString();
   $('dashSeen').textContent=Object.keys(p.words||{}).length.toLocaleString();
+  if(root.DOPA_DAILY){
+   const d=root.DOPA_DAILY.summary(p);
+   $('dashStreak').textContent=d.streak+'日';
+   $('dashMissionCount').textContent=d.missions.filter(m=>m.completed).length+' / '+d.missions.length+' 達成';
+   const rows=$('dashMissionRows');rows.replaceChildren();
+   for(const mission of d.missions){
+    const row=document.createElement('div');row.className='dopa-mission'+(mission.completed?' done':'');
+    const mark=document.createElement('span');mark.className='dopa-mission-icon';mark.textContent=mission.completed?'✓':'○';
+    const mid=document.createElement('div');mid.className='dopa-mission-main';
+    const title=document.createElement('b');title.textContent=mission.title;
+    const detail=document.createElement('small');detail.textContent=mission.progress+' / '+mission.target+' 語';
+    const bar=document.createElement('div');bar.className='dopa-mission-bar';
+    const fill=document.createElement('div');fill.style.width=Math.min(100,100*mission.progress/mission.target)+'%';
+    bar.appendChild(fill);mid.append(title,detail,bar);
+    const reward=document.createElement('span');reward.className='dopa-mission-reward';
+    reward.textContent=mission.completed?'獲得済み':'+'+mission.xp+' XP';
+    row.append(mark,mid,reward);rows.appendChild(row);
+   }
+   $('dashWeekly').textContent=d.weeklyDays+' / 7日 達成 ・ '+d.weeklyWords+'語';
+   const bars=$('dashWeekBars');bars.replaceChildren();
+   const max=Math.max(10,...d.recent.map(x=>x.distinct));
+   for(const item of d.recent){
+    const cell=document.createElement('div');cell.className='dopa-week-day'+(item.reached?' done':'');
+    const plot=document.createElement('div');plot.className='dopa-week-bar';
+    const fill=document.createElement('i');fill.style.height=Math.round(100*item.distinct/max)+'%';plot.appendChild(fill);
+    const name=document.createElement('span');
+    const [y,m,day]=item.date.split('-').map(Number);
+    name.textContent=new Date(y,m-1,day,12).toLocaleDateString('ja-JP',{weekday:'short'});
+    cell.title=item.date+'：'+item.distinct+'語';
+    cell.append(plot,name);bars.appendChild(cell);
+   }
+  }
   $('dashStatus').textContent=dueCount(p)?
    '復習期限が到来した単語カードの課題があります。':
    '単語カードの復習待ちはありません。クエストや新規学習を選べます。';
