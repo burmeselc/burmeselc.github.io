@@ -26,10 +26,16 @@
    '単語カードの復習待ちはありません。クエストや新規学習を選べます。';
  }
  function visibility(target){
-  for(const id of ['dopaDashboard','dopaSettings','setup','profile','dopa-v6'])
-   $(id)?.classList.toggle('hidden',target==='home'?id!=='dopaDashboard':
-    target==='settings'?id!=='dopaSettings':
-    target==='quest'?id==='dopaDashboard'||id==='dopaSettings':true);
+  // Exactly one top-level view must be visible. Settings content is nested
+  // inside dopaSettings; hide its ancestor rather than the inner sync panel.
+  for(const id of ['dopaDashboard','dopaSettings','setup','profile','vocabPanel','flashcardPanel','result']){
+   const show=target==='home'?id==='dopaDashboard':
+    target==='settings'?id==='dopaSettings':
+    target==='quest'?id==='setup'||id==='profile':
+    false;
+   $(id)?.classList.toggle('hidden',!show);
+  }
+  // Cloud/sound panel is now inside settings. Do not hide it separately.
   nav.querySelectorAll('[data-dopa-route]').forEach(b=>{
    if(b.dataset.dopaRoute===target)b.setAttribute('aria-current','page');
    else b.removeAttribute('aria-current');
@@ -68,6 +74,8 @@
   const p=snapshot();
   if(!p)return;
   nav.querySelectorAll('[data-dopa-route]').forEach(btn=>btn.addEventListener('click',()=>go(btn.dataset.dopaRoute)));
+  $('flashExit')?.addEventListener('click',()=>{if(route==='cards'){route='quest';visibility('quest')}});
+  $('vocabExit')?.addEventListener('click',()=>{if(route==='library'){route='quest';visibility('quest')}});
   $('dashQuest').addEventListener('click',()=>go('quest'));
   $('dashCards').addEventListener('click',()=>go('cards'));
   $('dashReview').addEventListener('click',()=>{
