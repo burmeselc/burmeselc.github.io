@@ -11,7 +11,7 @@ test('PWA reloads its full parent decks offline without losing browser storage',
    viewport:{width:375,height:844},isMobile:true,hasTouch:true,serviceWorkers:'allow'
   });
   const page=await context.newPage();
-  await page.goto(BASE,{waitUntil:'load'});
+  await page.goto(BASE+(BASE.includes('?')?'&':'?')+'pwa-test=1',{waitUntil:'load'});
   await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===5480 && window.DOPA_DATA?.burmese?.length===2500,
     null,{timeout:60000});
   await page.waitForFunction(()=>!!navigator.serviceWorker.controller,null,{timeout:60000});
