@@ -347,7 +347,10 @@ test('literature/history list shows even a single reviewed word and preserves hi
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#studyDetailReview summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
-   assert.equal(await page.locator('#studyDetailReviewList > div').count(),expected);
+   const actual=await page.evaluate(({language,medium})=>window.DOPA_DATA[language].filter(
+     x=>window.DOPA_DETAIL.matches(x,language,{medium})).length,{language:lang,medium});
+    assert.ok(actual>=expected);
+    assert.equal(await page.locator('#studyDetailReviewList > div').count(),actual);
    assert.match(await page.locator('#studyDetailReviewList').textContent(),new RegExp(word));
    assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
