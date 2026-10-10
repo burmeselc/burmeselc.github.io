@@ -1,0 +1,26 @@
+{
+  "name": "DOPA QUEST — Shan / Burmese",
+  "short_name": "DOPA QUEST",
+  "description": "シャン語・ビルマ語の語彙をクエストと単語カードで学ぶ。",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050713",
+  "theme_color": "#060813",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
