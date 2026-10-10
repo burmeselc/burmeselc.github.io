@@ -86,15 +86,56 @@ function updateSemanticCategories(){
    'シャン語分類は暫定版。多義1,242項目と訳語不足31項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。':
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
-function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return activeDeck(l).filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&domainEligible(x,l)})}
-function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();renderZoneStats();refreshVoices()}
+// Detailed study filters are session settings; they never rewrite profile/history data.
+let previousDetailDeck=null;
+function detailFilters(){return {medium:$('semanticMedium')?.value||'all',tag:$('semanticTag')?.value||'all'}}
+function detailFilterActive(){const f=detailFilters();return f.medium!=='all'||f.tag!=='all'}
+function studyEligible(x,l){return domainEligible(x,l)&&(!window.DOPA_DETAIL||window.DOPA_DETAIL.matches(x,l,detailFilters()))}
+function updateDetailFilters(){
+ const medium=$('semanticMedium'),tag=$('semanticTag'),notice=$('studyDetailNotice');
+ if(!medium||!tag)return;
+ const engine=window.DOPA_DETAIL,l=$('lang').value,key=l+':'+senseStudyActive();
+ let oldMedium=medium.value||'all',oldTag=tag.value||'all';
+ if(key!==previousDetailDeck){oldMedium='all';oldTag='all'}
+ previousDetailDeck=key;
+ const available=!!engine&&!!DOMAIN_READY_BY_LANG[l];
+ medium.disabled=tag.disabled=!available;
+ if(!available){
+  medium.innerHTML=tag.innerHTML='<option value="all">限定しない</option>';
+  if(notice)notice.textContent='詳細分類を利用できません。従来の全語彙学習を続けられます。';
+  return;
+ }
+ const deck=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&domainEligible(x,l));
+ const annotated=deck.filter(x=>engine.annotation(x,l));
+ const ids=new Set(annotated.map(x=>engine.annotation(x,l).medium));
+ medium.innerHTML='<option value="all">限定しない</option>'+[...engine.mediums].filter(([id])=>ids.has(id)).map(([id,a])=>{
+  const count=annotated.filter(x=>engine.annotation(x,l).medium===id).length;
+  return '<option value="'+esc(id)+'">'+esc(id+' '+a.label+'（'+count+'件）')+'</option>';
+ }).join('');
+ medium.value=ids.has(oldMedium)?oldMedium:'all';
+ const scoped=annotated.filter(x=>engine.matches(x,l,{medium:medium.value}));
+ const tagIds=new Set(scoped.flatMap(x=>Object.entries(engine.annotation(x,l).tags).flatMap(([axis,values])=>values.map(v=>axis+':'+v))));
+ tag.innerHTML='<option value="all">限定しない</option>'+engine.taxonomy.tag_axes.map(axis=>{
+  const options=axis.values.filter(v=>tagIds.has(axis.axis+':'+v)).map(v=>{
+   const id=axis.axis+':'+v,count=scoped.filter(x=>engine.matches(x,l,{tag:id})).length;
+   return '<option value="'+esc(id)+'">'+esc(engine.taxonomy.tag_labels[axis.axis][v]+'（'+count+'件）')+'</option>';
+  }).join('');
+  return options?'<optgroup label="'+esc(axis.label)+'">'+options+'</optgroup>':'';
+ }).join('');
+ tag.value=tagIds.has(oldTag)?oldTag:'all';
+ const count=deck.filter(x=>engine.matches(x,l,detailFilters())).length;
+ if(notice)notice.textContent='食物・身体・道具や交通の一部を試験分類。訳語による確認で、原辞書の照合は未完了です。'+
+  (detailFilterActive()?'絞り込み '+count+'件（エリア指定前）。四択に足りない語は開始時に除外します。':'このデッキで詳細分類済み '+annotated.length+'件。未分類の語も限定しなければ学べます。');
+}
+function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return activeDeck(l).filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&studyEligible(x,l)})}
+function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats();refreshVoices()}
 function renderProfile(){rollover();let L=lvInfo(P.xp||0);$('lv').textContent='LV.'+L.lv;$('lvl').style.setProperty('--p',Math.max(0,Math.min(100,L.p))+'%');$('xpBar').style.width=L.p+'%';$('xpText').textContent=`${Math.round(L.cur)}/${Math.round(L.need)} XP`;$('title').textContent=titleFor(L.lv);$('coin').textContent='◈ '+(P.coin||0);
  let ws=Object.values(P.words),m=ws.filter(w=>stage(w)>=4).length,n=ws.filter(w=>w.nemesis).length,r=Object.values(P.rivals).filter(v=>v.confusions>=2&&!v.cleared).length;
  $('masterSummary').textContent=`MASTERED ${m} ・ NEMESIS ${n} ・ RIVAL ${r} ・ ${(P.totalQ||0)}問`;
  let q=[['30問',P.daily.q||0,30],['REVENGE 5',P.daily.revenge||0,5],['逆引き 8',P.daily.prod||0,8]];
  $('quests').innerHTML=q.map(([t,v,max])=>`<div class="quest ${v>=max?'done':''}"><b>${t}</b><span>${Math.min(v,max)}/${max}</span><div class="bar" style="height:3px;margin-top:4px"><div style="width:${Math.min(100,v/max*100)}%"></div></div></div>`).join('');
  $('migrateHint').textContent=P.migratedFrom==='v4'?'v4 の端末内進捗を継承しました。旧データは残してあります。':'別のHTMLから移す場合は旧版の SAVE → 本版の LOAD を使って下さい。';}
-function renderZoneStats(){let l=$('lang').value,all=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0');$('zoneStats').innerHTML=zones(l).slice(1).map(z=>{let arr=all.filter(x=>{let i=indexOf(x,l);return i>=z[2]&&i<=z[3]&&domainEligible(x,l)}),known=arr.filter(x=>stage(getW(x))>=2).length,master=arr.filter(x=>stage(getW(x))>=4).length,p=arr.length?master/arr.length*100:0;return `<div class="zone"><b>${Math.round(p)}%</b><span>${z[1]}<br>KNOWN ${known}/${arr.length}</span><div class="mini"><div style="width:${p}%"></div></div></div>`}).join('')}
+function renderZoneStats(){let l=$('lang').value,all=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0');$('zoneStats').innerHTML=zones(l).slice(1).map(z=>{let arr=all.filter(x=>{let i=indexOf(x,l);return i>=z[2]&&i<=z[3]&&studyEligible(x,l)}),known=arr.filter(x=>stage(getW(x))>=2).length,master=arr.filter(x=>stage(getW(x))>=4).length,p=arr.length?master/arr.length*100:0;return `<div class="zone"><b>${Math.round(p)}%</b><span>${z[1]}<br>KNOWN ${known}/${arr.length}</span><div class="mini"><div style="width:${p}%"></div></div></div>`}).join('')}
 function rivalKey(a,b){return [a,b].sort().join('||')}
 function playableRival(r){let a=byId[r.a],b=byId[r.b];return a&&b&&a.id!==b.id&&jp(a)!==jp(b)&&orig(a,a.id.startsWith('shn:')?'shan':'burmese')!==orig(b,b.id.startsWith('shn:')?'shan':'burmese')}
 function rivalsFor(x){return Object.values(P.rivals).filter(r=>r.confusions>=2&&!r.cleared&&playableRival(r)&&(r.a===x.id||r.b===x.id)).sort((a,b)=>b.confusions-a.confusions)}
@@ -178,10 +219,10 @@ function applyCorrect(q){
  nemesisKilled:wasNem&&!w.nemesis,sk,credited};
 }
 function applyWrong(q){let w=W(q.x),now=Date.now(),sk=skillFor(q);w.seen++;w.wrong++;w.last=now;w.due[sk]=now+5*MIN;w.nextDue=nextDueFor(w);w[sk]=Math.max(0,(w[sk]||0)-1);if(w.wrong>=3)w.nemesis=true;return w.nemesis}
-function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('semanticCategory')?.value!=='all'?activeDeck($('lang').value).filter(x=>String(x.game_include??'1')!=='0'&&domainEligible(x,$('lang').value)):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
+function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(detailFilterActive()){const l=$('lang').value,pool=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l));arr=arr.filter(x=>['toJP','fromJP'].every(dir=>distractors(x,pool,l,dir).length===3));if(!arr.length){toast('この絞り込みでは四択に十分な語がありません。中分類・タグ・エリアを広げて下さい。');return}}if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('semanticCategory')?.value!=='all'||detailFilterActive()?activeDeck($('lang').value).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,$('lang').value)):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
 function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
- let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(x.semantic_major?'・領域 '+esc(x.semantic_major)+'（暫定）':'');let from=q.dir==='fromJP'||q.typed;
+ const detail=window.DOPA_DETAIL?.annotation(x,l);let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(x.semantic_major?'・領域 '+esc(x.semantic_major)+'（暫定）':'')+(detail?'・'+esc(window.DOPA_DETAIL.mediums.get(detail.medium).label):'');let from=q.dir==='fromJP'||q.typed;
  $('prompt').className='prompt'+(from?' jp':'');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?(jp(x)+(x.sense_split&&x.game_pos?'〔'+x.game_pos+'〕':'')):orig(x,l);$('ipa').textContent='';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
@@ -253,7 +294,7 @@ function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;l
 function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
- $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=renderZoneStats;const senseChoice=$('shanSenseMode');if(senseChoice)senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();renderZoneStats()};const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
+ $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=()=>{updateDetailFilters();renderZoneStats()};for(const id of ['semanticMedium','semanticTag'])if($(id))$(id).onchange=()=>{updateDetailFilters();renderZoneStats()};if($('clearStudyDetails'))$('clearStudyDetails').onclick=()=>{$('semanticMedium').value=$('semanticTag').value='all';updateDetailFilters();renderZoneStats()};const senseChoice=$('shanSenseMode');if(senseChoice)senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats()};const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
  $('start').onclick=start;$('soundBtn').onclick=()=>{
  if(P.sound){P.lastSfxStyle=P.sfxStyle;P.sfxStyle='off'}
  else P.sfxStyle=P.lastSfxStyle||'standard';

@@ -138,6 +138,16 @@
     } catch(err){alert('語彙の保存に失敗しました：'+err.message)}
     finally{e.target.value=''}
   };
+  // Optional detailed filters: network or validation failure leaves ordinary play available.
+  window.DOPA_DETAIL=null;
+  try{
+    const [taxonomy,details]=await Promise.all(['study-taxonomy-v1.json','study-details-pilot-v1.json'].map(async name=>{
+      const r=await fetch('./data/'+name,{cache:'no-cache'});
+      if(!r.ok)throw Error('study details HTTP '+r.status);
+      return r.json();
+    }));
+    window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,details,defaults);
+  }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
   game.onload=()=>{

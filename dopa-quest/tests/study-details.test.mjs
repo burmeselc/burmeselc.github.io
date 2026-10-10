@@ -1,0 +1,75 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),{create}=require('../study-details.js');
+const load=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));
+const taxonomy=load('study-taxonomy-v1.json'),details=load('study-details-pilot-v1.json');
+const decks={burmese:load('burmese.json'),shan:[...load('shan-1.json'),...load('shan-2.json')]};
+const engine=create(taxonomy,details,decks),clone=x=>structuredClone(x);
+test('pilot has 103 exact reviewed existing IDs and 77 stable middle categories',()=>{
+ assert.equal(engine.mediums.size,77);
+ assert.equal(Object.keys(details.cards.burmese).length,57);
+ assert.equal(Object.keys(details.cards.shan).length,46);
+ for(const l of ['shan','burmese']){
+  const majors=load(l+'-categories-v1.json').cards;
+  for(const x of decks[l]){
+   const a=engine.annotation(x,l);if(!a)continue;
+   assert.equal(a.evidence,x.japanese_core);
+   assert.equal(a.medium.slice(0,2),majors[x.id][0]);
+   assert.ok(['P','R'].includes(majors[x.id][1]));
+  }
+ }
+ assert.equal(details.new_cards_created,0);
+ assert.equal(details.original_dictionary_verified,false);
+});
+test('no filters retain every old card, including unclassified entries',()=>{
+ for(const l of ['shan','burmese'])assert.ok(decks[l].every(x=>engine.matches(x,l)));
+});
+test('medium and cross-cutting tags intersect; POS is never a tag substitute',()=>{
+ const body=decks.burmese.filter(x=>engine.matches(x,'burmese',{medium:'03.01',tag:'feature:body_part'}));
+ assert.equal(body.length,14);
+ assert.equal(decks.burmese.filter(x=>engine.matches(x,'burmese',{medium:'03.01',tag:'feature:consumable'})).length,0);
+ assert.ok(body.every(x=>x.japanese_core===engine.annotation(x,'burmese').gloss));
+});
+test('stale imported definitions and child cards do not inherit annotations',()=>{
+ const x=decks.burmese.find(x=>engine.annotation(x,'burmese'));
+ assert.equal(engine.annotation({...x,japanese_core:'別の意味'},'burmese'),null);
+ assert.equal(engine.annotation({...x,burmese:'別語'},'burmese'),null);
+ assert.equal(engine.annotation({...x,id:x.id+':sense:2',parent_id:x.id},'burmese'),null);
+ assert.equal(engine.annotation({...x,game_pos:'訂正済み品詞'},'burmese')?.medium,engine.annotation(x,'burmese').medium);
+});
+test('bad metadata fails closed without modifying decks or old categories',()=>{
+ const before=JSON.stringify(decks),bad=clone(details);
+ bad.cards.burmese[Object.keys(bad.cards.burmese)[0]].gloss='changed';
+ assert.throws(()=>create(taxonomy,bad,decks),/does not match/);
+ const badTag=clone(details);
+ badTag.cards.shan[Object.keys(badTag.cards.shan)[0]].tags.feature.push('invented');
+ assert.throws(()=>create(taxonomy,badTag,decks),/Unknown tag/);
+ assert.equal(JSON.stringify(decks),before);
+});
+// Execute the actual collision filter used by the game, including sparse categories.
+const game=readFileSync(new URL('../game.js',import.meta.url),'utf8');
+const start=game.indexOf('function distractors('),end=game.indexOf('\nfunction beep(',start);
+const getDistractors=new Function('orig','jp','glossOverlap','pos','indexOf','shuffle','rivalsFor','byId',game.slice(start,end)+';return distractors;')(
+ (x,l)=>x[l],x=>x.japanese_core,
+ (a,b)=>{const parts=s=>s.normalize('NFKC').split(/[；;、，,／/]/).map(x=>x.replace(/[。．！？!？\s　]+/g,'').toLowerCase()).filter(Boolean);return parts(a.japanese_core).some(p=>parts(b.japanese_core).includes(p));},
+ x=>x.game_pos,(x,l)=>Number(l==='shan'?x.rank:x.order),x=>x,()=>[],{}
+);
+test('body/food/tool pilots provide non-colliding four choices in both directions',()=>{
+ for(const l of ['shan','burmese'])for(const medium of ['03.01','06.01','11.03']){
+  const pool=decks[l].filter(x=>engine.matches(x,l,{medium}));
+  assert.ok(pool.length>=4);
+  for(const item of pool)for(const dir of ['toJP','fromJP']){
+   const choices=[item,...getDistractors(item,pool,l,dir)];
+   assert.equal(choices.length,4,l+medium+item.id);
+   assert.equal(new Set(choices.map(x=>x[l])).size,4);
+   assert.ok(choices.every(x=>engine.matches(x,l,{medium})));
+  }
+ }
+});
+test('sparse medium cannot provide four choices and must not borrow other domains',()=>{
+ const pool=decks.shan.filter(x=>engine.matches(x,'shan',{medium:'06.02'}));
+ assert.equal(pool.length,1);assert.equal(getDistractors(pool[0],pool,'shan','toJP').length,0);
+ assert.match(game,/四択に十分な語がありません/);
+});
