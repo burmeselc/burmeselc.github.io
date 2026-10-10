@@ -15,7 +15,7 @@ const remember=(rev,hash)=>localStorage.setItem(memoryKey(),JSON.stringify({rev,
 const snapshot=()=>window.DOPA_SYNC_API.snapshot();
 const print=s=>{status.textContent=s};
 const hash=s=>{let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0)+'/'+s.length};
-const hasProgress=p=>Object.keys(p?.words||{}).length>0||(p?.totalQ||0)>0;
+const hasProgress=p=>Object.keys(p?.words||{}).length>0||(p?.totalQ||0)>0||Object.keys(p?.flashcards?.cards||{}).length>0;
 const changed=()=>memo().hash!==hash(JSON.stringify(snapshot()));
 function hideConflict(){blocked=false;conflictBox.classList.add('hidden')}
 function showConflict(msg){blocked=true;clearTimeout(timer);conflictBox.classList.remove('hidden');print('⚠ '+msg+'。同期を停止しました。')}
@@ -66,7 +66,7 @@ async function restore(m,account=uid){
   const localBefore=snapshot(),localFingerprint=hash(JSON.stringify(localBefore));
   const p=await download(m,account);
   if(uid!==account)return;
-  if(hash(JSON.stringify(snapshot()))!==localFingerprint||!$('game').classList.contains('hidden')){
+  if(hash(JSON.stringify(snapshot()))!==localFingerprint||!$('game').classList.contains('hidden')||!$('flashcardPanel')?.classList.contains('hidden')){
     showConflict('読込中またはプレイ中の進捗を保護しました');return;
   }
   if(hasProgress(localBefore))await recoveryStorage(true,{savedAt:new Date().toISOString(),profile:localBefore});
