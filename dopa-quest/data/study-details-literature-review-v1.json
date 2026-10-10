@@ -1,0 +1,320 @@
+{
+  "schema": "dopa-study-review-batch-v1",
+  "scope": "legacy-major-12-literature-history-held-proposals",
+  "review_basis": "Existing Japanese core gloss, embedded original English gloss, and original P/R category 12. No external dictionary or speaker validation.",
+  "production_applied": false,
+  "original_cards_modified": 0,
+  "cards": {
+    "burmese": [
+      {
+        "id": "bur:1403375330719",
+        "word": "ဝတ္ထု",
+        "gloss": "小説",
+        "english": "novel",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1418254615081",
+        "word": "ကဗျာ",
+        "gloss": "詩",
+        "english": "poem",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1423654356883",
+        "word": "ပုံပြင်",
+        "gloss": "物語、昔話",
+        "english": "1) story 2) box or plate of mixed food",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1423656064976",
+        "word": "သမိုင်း",
+        "gloss": "歴史",
+        "english": "history",
+        "medium": "12.06",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "history"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1444687455881",
+        "word": "ဇာတ်လမ်း",
+        "gloss": "筋書き、物語（映画・本など）",
+        "english": "plot, story (of a film, book, etc.)",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1455326046517",
+        "word": "စာပေ",
+        "gloss": "文学",
+        "english": "literature",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1460079333478",
+        "word": "ဝတ္ထုတို",
+        "gloss": "短編小説",
+        "english": "short story",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1482239429471",
+        "word": "အက်ဆေး",
+        "gloss": "エッセイ",
+        "english": "essay",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "bur:1528381637220",
+        "word": "စကားပုံ",
+        "gloss": "ことわざ",
+        "english": "proverb",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      }
+    ],
+    "shan": [
+      {
+        "id": "shn:1783945284130",
+        "word": "လိၵ်ႈလၢႆး",
+        "gloss": "著作、本、文学",
+        "english": "writings, books, literature",
+        "medium": null,
+        "tags": null,
+        "status": "needs-source-review",
+        "reason": "books-and-literature-cross-medium-parent-gloss"
+      },
+      {
+        "id": "shn:1783945285892",
+        "word": "ပိုၼ်းမိူင်း",
+        "gloss": "歴史、国の物語",
+        "english": "history, story, as of a countr",
+        "medium": "12.06",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "history"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "shn:1783945286332",
+        "word": "လင်ႇၵႃႇ",
+        "gloss": "詩、詩歌",
+        "english": "poetry （語源等：Burmese）",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "shn:1783945286383",
+        "word": "ၵႂၢမ်းၵပ်းထုၵ်ႇ",
+        "gloss": "諺、イディオム",
+        "english": "proverb, idiom",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "shn:1783945286816",
+        "word": "လိၵ်ႈလင်ႇၵႃႇ",
+        "gloss": "詩、詩の節",
+        "english": "poetry, poetical verse",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "shn:1783945288241",
+        "word": "တၼ်ႇတႃႇရီႇ",
+        "gloss": "フィクション、寓話、空想上の物語、神話",
+        "english": "fiction, fable, tale of the imagination, myth （語源等：Pali）",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "literature"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      },
+      {
+        "id": "shn:1783945288595",
+        "word": "လွင်ႈပိုၼ်းမိူင်း",
+        "gloss": "歴史",
+        "english": "history",
+        "medium": "12.06",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "history"
+          ],
+          "usage": []
+        },
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null
+      }
+    ]
+  },
+  "counts": {
+    "burmese": {
+      "total": 9,
+      "candidates": 9,
+      "held": 0
+    },
+    "shan": {
+      "total": 7,
+      "candidates": 6,
+      "held": 1
+    }
+  }
+}
