@@ -1,0 +1,19 @@
+{
+  "schema": "dopa-parent-progress-delta-v5",
+  "source_main": "df0c9c3386bbc1a7b7e9c0db51ec37964fcd2d1f",
+  "prior_delta": "study-parent-progress-delta-v4.json",
+  "counts": {
+    "parent_total": 7980,
+    "pr_total": 6468,
+    "classed_parent": 5257,
+    "unresolved_pr": 1211,
+    "mh_parent": 1512,
+    "sense_active": 7241,
+    "sense_held": 49,
+    "never_audited_pr": 0,
+    "newly_audited": 484,
+    "newly_selected": 166,
+    "newly_held": 318
+  },
+  "independent_dictionary_verified": false
+}

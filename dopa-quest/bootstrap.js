@@ -213,8 +213,15 @@
       try{
         const second=await fetch('./data/study-next-500-second-audit-v1.json',{cache:'no-cache'});
         if(!second.ok)throw Error('second 500 audit HTTP '+second.status);
+        const second500=await second.json();
         usableDetails=window.DOPAStudyDetails.extendNext500Second(taxonomy,usableDetails,
-          await second.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic},first500);
+          second500,defaults,{burmese:burmeseSemantic,shan:shanSemantic},first500);
+        try{
+          const finalResponse=await fetch('./data/study-final-484-parent-audit-v1.json',{cache:'no-cache'});
+          if(!finalResponse.ok)throw Error('final 484 audit HTTP '+finalResponse.status);
+          usableDetails=window.DOPAStudyDetails.extendFinal484(taxonomy,usableDetails,
+            await finalResponse.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic},second500);
+        }catch(e){console.warn('Final 484 review unavailable; keeping previous 5091 classifications',e)}
       }catch(e){console.warn('Second 500 review unavailable; keeping previous 4940 classifications',e)}
     }catch(e){console.warn('Next 500 review unavailable; keeping previous 4907 classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
