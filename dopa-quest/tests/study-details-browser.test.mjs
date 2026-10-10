@@ -109,7 +109,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1697件/);
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1706件/);
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
@@ -325,6 +325,30 @@ test('reviewed category 18 can make four choices in both languages without chang
      const x=window.DOPA_DATA[l].find(item=>item.id===b.dataset.itemid);
      return x&&window.DOPA_DETAIL.annotation(x,l)?.medium==='18.04';
     }),lang));
+   await page.close();
+  }
+ }finally{await browser.close()}
+});
+
+test('literature/history list shows even a single reviewed word and preserves history',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  for(const [lang,medium,expected,word] of [
+   ['burmese','12.05',8,'ဝတ္ထု'],
+   ['burmese','12.06',1,'သမိုင်း'],
+   ['shan','12.05',4,'လင်ႇၵႃႇ'],
+   ['shan','12.06',2,'လွင်ႈပိုၼ်းမိူင်း']
+  ]){
+   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+   await ready(page);
+   await page.locator('#lang').selectOption(lang);
+   await page.locator('#studyDetailControls > summary').click();
+   await page.locator('#studyDetailReview summary').click();
+   await page.locator('#semanticMedium').selectOption(medium);
+   assert.equal(await page.locator('#studyDetailReviewList > div').count(),expected);
+   assert.match(await page.locator('#studyDetailReviewList').textContent(),new RegExp(word));
+   assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
    await page.close();
   }
  }finally{await browser.close()}
