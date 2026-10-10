@@ -303,3 +303,29 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   }
  }finally{await browser.close()}
 });
+
+test('reviewed category 18 can make four choices in both languages without changing history on filter',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  for(const lang of ['burmese','shan']){
+   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+   await ready(page);
+   assert.equal(await page.evaluate(()=>window.DOPA_DETAIL?.coverage?.[window.document.querySelector('#lang').value]?.major_ids?.at(-1)),'18');
+   await page.locator('#lang').selectOption(lang);
+   await page.locator('#studyDetailControls > summary').click();
+   await page.locator('#semanticMedium').selectOption('18.04');
+   assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
+   await page.locator('#start').click();
+   await page.locator('#game:not(.hidden)').waitFor();
+   await page.waitForFunction(()=>document.querySelectorAll('#choices button').length===4);
+   const answerIds=await page.locator('#choices button').evaluateAll(buttons=>buttons.map(x=>x.dataset.itemid));
+   assert.equal(new Set(answerIds).size,4);
+   assert.ok(await page.evaluate(l=>document.querySelectorAll('#choices button').length===4&&
+    [...document.querySelectorAll('#choices button')].every(b=>{
+     const x=window.DOPA_DATA[l].find(item=>item.id===b.dataset.itemid);
+     return x&&window.DOPA_DETAIL.annotation(x,l)?.medium==='18.04';
+    }),lang));
+   await page.close();
+  }
+ }finally{await browser.close()}
+});
