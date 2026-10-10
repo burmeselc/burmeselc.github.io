@@ -3,6 +3,7 @@ const CACHE_NAME = 'dopa-quest-static-20261011-v1';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
+  './data/shan-1.json','./data/shan-2.json','./data/burmese.json',
   './firebase-config.js','./sound-fx.js','./study-details.js',
   './flashcards.js','./vocabulary-library.js','./daily-progress.js',
   './dashboard.js','./bootstrap.js','./game.js',
