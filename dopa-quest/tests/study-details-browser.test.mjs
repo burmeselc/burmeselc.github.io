@@ -52,8 +52,12 @@ test('sparse medium blocks launch; clearing filters restores all vocabulary',asy
   await page.locator('#studyDetailControls > summary').click();
   // Select an actually sparse medium: new reviewed cards may populate former sparse ones.
   const sparse=await page.evaluate(()=>{
-   const counts=window.DOPA_DETAIL.medium_counts.shan;
-   return Object.entries(counts).find(([id,n])=>n>0&&n<4)?.[0]||null;
+   const counts=new Map();
+   for(const card of window.DOPA_DATA.shan){
+    const a=window.DOPA_DETAIL.annotation(card,'shan');
+    if(a)counts.set(a.medium,(counts.get(a.medium)||0)+1);
+   }
+   return [...counts.entries()].find(([id,n])=>n>0&&n<4)?.[0]||null;
   });
   assert.ok(sparse,'expected an existing Shan medium with fewer than four cards');
   await page.locator('#semanticMedium').selectOption(sparse);
