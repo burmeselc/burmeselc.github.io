@@ -426,6 +426,118 @@
    }
    return next;
   },
+  // Reviewed in a broad first-pass sweep against saved bilingual glosses.
+  // Provisional semantic routing, NOT independently checked lexical attestation.
+  extendRapidCurated(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-rapid-curated-batch3-v1'||
+      batch?.source_main!=='174a29cedbfe77d6aa0343f6345833e9e32408f7'||
+      batch.original_dictionary_verified!==false||
+      batch.existing_cards_modified!==0||
+      batch.counts?.proposals!==244||
+      batch.counts?.classified!==184||
+      batch.counts?.burmese!==26||
+      batch.counts?.shan!==158||
+      batch.counts?.deferred!==60||
+      batch.counts?.major_corrections!==131)
+    throw Error('Unsupported rapid curated batch');
+   if(base?.counts?.burmese!==1807||base?.counts?.shan!==2369||
+      base.coverage?.burmese?.review_pending+base.coverage?.shan?.review_pending!==2292)
+    throw Error('Rapid batch requires 4176 previously classified parents');
+   const mediumMajor=new Map((taxonomy.categories||[]).flatMap(
+    c=>(c.children||[]).map(m=>[m.id,c.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const indexed={burmese:new Map(decks.burmese.map(x=>[x.id,x])),
+    shan:new Map(decks.shan.map(x=>[x.id,x]))};
+   const approved=new Set(),all=new Set(),counts={},byLang={burmese:[],shan:[]};
+   // Fail closed: inspect all rows and rejected pattern matches before constructing output.
+   for(const lang of ['burmese','shan']){
+    const list=batch.cards?.[lang],size=lang==='burmese'?26:158;
+    if(!Array.isArray(list)||list.length!==size)
+     throw Error('Rapid batch language total mismatch');
+    for(const row of list){
+     const source=indexed[lang].get(row.id),sem=semantic?.[lang]?.cards?.[row.id];
+     if(approved.has(row.id)||!source||base.cards?.[lang]?.[row.id]||
+        !mediumMajor.has(row.medium)||sem?.[0]!==row.legacy_major||
+        !['P','R'].includes(sem?.[1])||
+        row.major_correction!==(row.legacy_major!==mediumMajor.get(row.medium))||
+        row.original_dictionary_verified!==false||
+        row.review_status!=='gloss-reviewed-pilot-candidate'||
+        source[lang]!==row.word||source.japanese_core!==row.gloss||
+        source.english!==row.english||
+        !row.tags||Object.keys(row.tags).length!==axes.size)
+      throw Error('Stale rapid review card '+row.id);
+     for(const [axis,values] of axes){
+      const tags=row.tags[axis];
+      if(!Array.isArray(tags)||new Set(tags).size!==tags.length||
+         tags.some(v=>!values.has(v)))
+       throw Error('Invalid rapid review tag '+row.id);
+     }
+     approved.add(row.id);all.add(row.id);byLang[lang].push(row);
+     counts[row.medium]=(counts[row.medium]||0)+1;
+    }
+   }
+   if(approved.size!==184||
+      Object.keys(counts).length!==Object.keys(batch.medium_counts||{}).length||
+      Object.entries(counts).some(([m,n])=>batch.medium_counts[m]!==n)||
+      Object.entries(batch.medium_counts||{}).some(([m,n])=>counts[m]!==n))
+    throw Error('Invalid rapid review medium distribution');
+   let corrections=0;
+   for(const lang of ['burmese','shan'])
+    corrections+=byLang[lang].filter(r=>r.major_correction).length;
+   if(corrections!==131)throw Error('Rapid major correction count mismatch');
+   if(!Array.isArray(batch.deferred_keyword_candidates)||
+      batch.deferred_keyword_candidates.length!==60)
+    throw Error('Incomplete rapid keyword review');
+   for(const row of batch.deferred_keyword_candidates){
+    const lang=row.id?.startsWith('bur:')?'burmese':row.id?.startsWith('shn:')?'shan':null;
+    if(!lang||all.has(row.id)||!indexed[lang].has(row.id)||
+       base.cards[lang][row.id]||row.decision!=='hold'||
+       typeof row.reason!=='string'||!row.reason||
+       row.independent_dictionary_verified!==false)
+     throw Error('Stale deferred keyword card '+row.id);
+    all.add(row.id);
+   }
+   if(all.size!==244)throw Error('Rapid batch has duplicate or missing source rows');
+   const next={...base,cards:{burmese:{...base.cards.burmese},
+      shan:{...base.cards.shan}},counts:{...base.counts},
+    coverage:{...base.coverage},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    major_corrections:{burmese:{...(base.major_corrections?.burmese||{})},
+     shan:{...(base.major_corrections?.shan||{})}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],
+     shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const newIds=new Set();
+    for(const row of byLang[lang]){
+     next.cards[lang][row.id]={word:row.word,gloss:row.gloss,medium:row.medium,
+      tags:row.tags,review_status:'gloss-reviewed-pilot',evidence:row.gloss};
+     next.medium_counts[lang][row.medium]=(next.medium_counts[lang][row.medium]||0)+1;
+     if(row.major_correction){
+      if(next.major_corrections[lang][row.id])
+       throw Error('Duplicate major correction '+row.id);
+      next.major_corrections[lang][row.id]={from:row.legacy_major,
+       to:mediumMajor.get(row.medium)};
+     }
+     newIds.add(row.id);
+    }
+    const glosses=new Map();
+    for(const [id,r] of Object.entries(next.cards[lang])){
+     const group=glosses.get(r.gloss)||[];group.push(id);glosses.set(r.gloss,group);
+    }
+    for(const ids of glosses.values())if(ids.length>1&&ids.some(id=>newIds.has(id)))
+     next.choice_conflicts[lang].push({ids,reason:'同一日本語訳を相互に誤答として提示しない'});
+    const previous=base.coverage[lang];
+    next.coverage[lang]={...previous,
+     classified:previous.classified+newIds.size,
+     review_pending:previous.review_pending-newIds.size};
+    if(next.coverage[lang].review_pending<0||
+       next.coverage[lang].classified+next.coverage[lang].review_pending!==previous.scope_candidates)
+     throw Error('Rapid batch coverage mismatch');
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
