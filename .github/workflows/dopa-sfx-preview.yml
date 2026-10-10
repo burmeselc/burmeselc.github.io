@@ -1,0 +1,53 @@
+name: DOPA QUEST music-safe SFX preview
+on:
+  push:
+    branches:
+      - feature/dopa-immersive-sfx-music-safe-20261010
+    paths:
+      - 'dopa-quest/**'
+      - '.github/workflows/dopa-sfx-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sfx-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check dopa-quest/game.js
+      - run: node --check dopa-quest/sound-fx.js
+      - run: node --check dopa-quest/bootstrap.js
+      - run: node --test dopa-quest/tests/quality.test.mjs
+      - run: node --test dopa-quest/tests/category-pilot.test.mjs
+      - run: node --test dopa-quest/tests/shan-category.test.mjs
+      - run: node --test dopa-quest/tests/shan-sense-lab.test.mjs
+      - run: node --test dopa-quest/tests/sound-fx.test.mjs
+      - name: Install Chromium browser tests
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Browser integration and regression checks
+        run: |
+          python3 -m http.server 8123 > /tmp/dopa-sfx-http.log 2>&1 &
+          sleep 2
+          node --test dopa-quest/tests/category-browser.test.mjs
+          node --test dopa-quest/tests/shan-browser.test.mjs
+          node --test dopa-quest/tests/shan-sense-browser.test.mjs
+          node --test dopa-quest/tests/sound-fx-browser.test.mjs
+      - name: Check immutable external preview
+        run: |
+          URL="https://rawcdn.githack.com/burmeselc/burmeselc.github.io/${GITHUB_SHA}/dopa-quest/index.html"
+          CODE=$(curl --connect-timeout 10 --max-time 45 -sSL -w "%{http_code}" -o /tmp/dopa-sfx-preview.html "$URL")
+          echo "Preview HTTP $CODE"
+          test "$CODE" = "200"
+          grep -q 'sfxPreset' /tmp/dopa-sfx-preview.html
+          echo "$URL" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dopa-sfx-mobile-preview
+          path: dopa-sfx-mobile-preview.png
+          if-no-files-found: ignore
