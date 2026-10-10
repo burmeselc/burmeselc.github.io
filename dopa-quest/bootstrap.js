@@ -195,6 +195,15 @@
       usableDetails=window.DOPAStudyDetails.extendRapidCurated(taxonomy,usableDetails,
         await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
     }catch(e){console.warn('Rapid review unavailable; retaining preceding 4176 detail classifications',e)}
+    try{
+      const response=await fetch('./data/study-728-parent-review-batch-v1.json',{cache:'no-cache'});
+      if(!response.ok)throw Error('728 review HTTP '+response.status);
+      const queueResponse=await fetch('./data/study-current-vocab-fast-sweep-v2.json',{cache:'no-cache'});
+      if(!queueResponse.ok)throw Error('prior queue HTTP '+queueResponse.status);
+      usableDetails=window.DOPAStudyDetails.extendParent728(taxonomy,usableDetails,
+        await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic},
+        await queueResponse.json());
+    }catch(e){console.warn('728-parent review unavailable; retaining previous 4360 classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';

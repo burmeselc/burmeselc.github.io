@@ -116,8 +116,11 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
   await page.locator('#semanticMedium').selectOption('06.02');
-  assert.equal(await page.locator('#studyDetailReviewList > div').count(),17);
-  assert.equal(await page.locator('#studyDetailReviewMore').isVisible(),false);
+  const scopeCount=await page.evaluate(()=>window.DOPA_DATA.burmese.filter(
+   x=>window.DOPA_DETAIL.matches(x,'burmese',{medium:'06.02'})).length);
+  assert.ok(scopeCount>=17);
+  assert.equal(await page.locator('#studyDetailReviewList > div').count(),Math.min(scopeCount,20));
+  assert.equal(await page.locator('#studyDetailReviewMore').isVisible(),scopeCount>20);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
   await page.screenshot({path:'dopa-study-details-review-mobile.png',fullPage:true});
