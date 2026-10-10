@@ -12433,6 +12433,2313 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "よそよそしい、冷淡である"
+      },
+      "bur:1396101991722": {
+        "word": "သံရုံး",
+        "gloss": "大使館",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大使館"
+      },
+      "bur:1397343780894": {
+        "word": "နိုင်ငံ",
+        "gloss": "国、国家",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国、国家"
+      },
+      "bur:1427592744420": {
+        "word": "ပြည်ထောင်စု",
+        "gloss": "連邦、国家連合",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "連邦、国家連合"
+      },
+      "bur:1442439470848": {
+        "word": "အစိုးရ",
+        "gloss": "政府",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政府"
+      },
+      "bur:1473405395054": {
+        "word": "(ကမ္ဘာ့)ကုလသမဂ္ဂ",
+        "gloss": "国際連合、国連",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国際連合、国連"
+      },
+      "bur:1485442509851": {
+        "word": "လူ့အဖွဲ့အစည်း",
+        "gloss": "人間社会、社会",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "人間社会、社会"
+      },
+      "bur:1487727264169": {
+        "word": "ဌာန",
+        "gloss": "部局、学部、課",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "部局、学部、課"
+      },
+      "bur:1498928070812": {
+        "word": "ဘိုးဘွားရိပ်သာ",
+        "gloss": "老人ホーム、高齢者施設",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "老人ホーム、高齢者施設"
+      },
+      "bur:1522501743082": {
+        "word": "အစိုးရနဲ့ မသက်ဆိုင်တဲ့ အရပ်ဘက်အဖွဲ့အစည်း",
+        "gloss": "非政府組織、NGO",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "非政府組織、NGO"
+      },
+      "bur:1537967515221": {
+        "word": "ပါလီမန်",
+        "gloss": "議会、国会",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "議会、国会"
+      },
+      "bur:1403372389668": {
+        "word": "ပြည်နယ်",
+        "gloss": "州；省",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "州；省"
+      },
+      "bur:1403375286257": {
+        "word": "သမ္မတ",
+        "gloss": "大統領",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大統領"
+      },
+      "bur:1404685046849": {
+        "word": "နိုင်ငံရေး",
+        "gloss": "政治",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政治"
+      },
+      "bur:1418857740911": {
+        "word": "မြို့တော်",
+        "gloss": "首都",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "首都"
+      },
+      "bur:1418857837725": {
+        "word": "ဘုရင်",
+        "gloss": "王",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "王"
+      },
+      "bur:1418857893348": {
+        "word": "ဧကရာဇ်",
+        "gloss": "王、皇帝",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "王、皇帝"
+      },
+      "bur:1444688256643": {
+        "word": "အင်ပါယာ",
+        "gloss": "①帝国 ②帝国の、帝国主義的な",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity",
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "①帝国 ②帝国の、帝国主義的な"
+      },
+      "bur:1446828401650": {
+        "word": "ရွေးကောက်ပွဲ",
+        "gloss": "選挙",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "選挙"
+      },
+      "bur:1446829669625": {
+        "word": "မဲထည့်",
+        "gloss": "投票する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "投票する"
+      },
+      "bur:1452697713862": {
+        "word": "အုပ်ချုပ်",
+        "gloss": "統治する、管理する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "統治する、管理する"
+      },
+      "bur:1453654615336": {
+        "word": "မြို့နယ်",
+        "gloss": "郡区、タウンシップ",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "郡区、タウンシップ"
+      },
+      "bur:1453654679101": {
+        "word": "ရပ်ကွက်",
+        "gloss": "地区、街区",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地区、街区"
+      },
+      "bur:1453977307519": {
+        "word": "အခွန်",
+        "gloss": "税、税金",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "税、税金"
+      },
+      "bur:1465299173819": {
+        "word": "အာဏာရှင်",
+        "gloss": "独裁者",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "独裁者"
+      },
+      "bur:1478265664835": {
+        "word": "တိုင်း",
+        "gloss": "管区、行政区画",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "管区、行政区画"
+      },
+      "bur:1533982677854": {
+        "word": "လူဝင်ကြီးကြပ်ရေး<br>(လဝက)",
+        "gloss": "入国管理、移民管理",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "入国管理、移民管理"
+      },
+      "bur:1534882671455": {
+        "word": "ကုန်သွယ်လုပ်ငန်းခွန်",
+        "gloss": "付加価値税、VAT",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "付加価値税、VAT"
+      },
+      "bur:1554898701200": {
+        "word": "အာဏာ",
+        "gloss": "権力、権限",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "権力、権限"
+      },
+      "bur:1565746031381": {
+        "word": "ဝန်ကြီး",
+        "gloss": "大臣",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大臣"
+      },
+      "bur:1570495977390": {
+        "word": "ဆန္ဒပြပွဲ",
+        "gloss": "デモ、抗議活動",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "デモ、抗議活動"
+      },
+      "bur:1442438264683": {
+        "word": "လိုင်စင်",
+        "gloss": "免許、ライセンス",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "免許、ライセンス"
+      },
+      "bur:1453829868438": {
+        "word": "ဥပဒေ",
+        "gloss": "法律",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "法律"
+      },
+      "bur:1460239924652": {
+        "word": "တာဝန်",
+        "gloss": "義務、責任",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "義務、責任"
+      },
+      "bur:1487961357906": {
+        "word": "ဗီဇာ",
+        "gloss": "ビザ",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビザ"
+      },
+      "bur:1508805490029": {
+        "word": "တရားသူကြီး",
+        "gloss": "裁判官",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "裁判官"
+      },
+      "bur:1512345026483": {
+        "word": "မှတ်ပုံတင်",
+        "gloss": "国民登録証、NRC、身分証明書",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国民登録証、NRC、身分証明書"
+      },
+      "bur:1512609515839": {
+        "word": "စည်းကမ်း",
+        "gloss": "規則、規律",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "規則、規律"
+      },
+      "bur:1522499383359": {
+        "word": "တားမြစ်",
+        "gloss": "禁止する",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "禁止する"
+      },
+      "bur:1522500653734": {
+        "word": "ခွင့်ပြုချက်",
+        "gloss": "許可、許可証",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "許可、許可証"
+      },
+      "bur:1561321167005": {
+        "word": "စာချုပ်",
+        "gloss": "契約、契約書",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "契約、契約書"
+      },
+      "bur:1570496210107": {
+        "word": "ပိတ်ပင်(လိုက်)",
+        "gloss": "禁止する",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "禁止する"
+      },
+      "bur:1401378666464": {
+        "word": "သူခိုး",
+        "gloss": "泥棒",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "泥棒"
+      },
+      "bur:1403732392490": {
+        "word": "ရဲ",
+        "gloss": "警察",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "警察"
+      },
+      "bur:1404078569426": {
+        "word": "ခိုး",
+        "gloss": "盗む",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "盗む"
+      },
+      "bur:1404684623941": {
+        "word": "စစ်သား",
+        "gloss": "兵士",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "兵士"
+      },
+      "bur:1409399571465": {
+        "word": "ဗိုလ်",
+        "gloss": "将軍（軍の階級）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "将軍（軍の階級）"
+      },
+      "bur:1418253458307": {
+        "word": "မြား",
+        "gloss": "矢",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "矢"
+      },
+      "bur:1418857805550": {
+        "word": "သေနတ်",
+        "gloss": "銃、ライフル",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "銃、ライフル"
+      },
+      "bur:1423653354292": {
+        "word": "လုယက်",
+        "gloss": "強盗する、略奪する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "強盗する、略奪する"
+      },
+      "bur:1432342447971": {
+        "word": "ဗုံး",
+        "gloss": "爆弾",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "爆弾"
+      },
+      "bur:1440985960567": {
+        "word": "စစ်ပြေး",
+        "gloss": "戦争難民",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦争難民"
+      },
+      "bur:1442439002831": {
+        "word": "လာဘ်(ထိုး)",
+        "gloss": "賄賂；賄賂を渡す",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity",
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賄賂；賄賂を渡す"
+      },
+      "bur:1442439165651": {
+        "word": "လူယုတ်မာ",
+        "gloss": "犯罪者、極悪人",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "犯罪者、極悪人"
+      },
+      "bur:1442439541537": {
+        "word": "ထောင်မှူး",
+        "gloss": "刑務所長、看守長",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "刑務所長、看守長"
+      },
+      "bur:1442439640194": {
+        "word": "ထောင်သား",
+        "gloss": "囚人",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "囚人"
+      },
+      "bur:1444688607570": {
+        "word": "စစ်တပ်",
+        "gloss": "軍、軍隊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "軍、軍隊"
+      },
+      "bur:1444689413135": {
+        "word": "စစ်တိုက်",
+        "gloss": "戦う、戦争をする",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦う、戦争をする"
+      },
+      "bur:1449718213887": {
+        "word": "ချပ်ဝတ်တန်ဆာ",
+        "gloss": "鎧、防具",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鎧、防具"
+      },
+      "bur:1449719186260": {
+        "word": "လက်နက်",
+        "gloss": "武器",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "武器"
+      },
+      "bur:1449719492653": {
+        "word": "တပ်ဖွဲ့",
+        "gloss": "部隊、軍事部隊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "部隊、軍事部隊"
+      },
+      "bur:1480672746002": {
+        "word": "ဖိနှိပ်",
+        "gloss": "抑圧する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "抑圧する"
+      },
+      "bur:1487787358054": {
+        "word": "တိုက်ပွဲ",
+        "gloss": "戦闘、戦い",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦闘、戦い"
+      },
+      "bur:1489364841918": {
+        "word": "ပဋိပက္ခ",
+        "gloss": "対立、紛争",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "対立、紛争"
+      },
+      "bur:1494461222455": {
+        "word": "မုဒိမ်းကျင့်",
+        "gloss": "強姦する、レイプする",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "強姦する、レイプする"
+      },
+      "bur:1501517504771": {
+        "word": "လှံ(တံ)",
+        "gloss": "槍",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "槍"
+      },
+      "bur:1508805876236": {
+        "word": "ဒုက္ခသည်",
+        "gloss": "難民、被災避難民",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "難民、被災避難民"
+      },
+      "bur:1508805994373": {
+        "word": "အမြောက်",
+        "gloss": "大砲",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大砲"
+      },
+      "bur:1533982593324": {
+        "word": "တပ်မတော်",
+        "gloss": "ミャンマー国軍、タッマドー",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ミャンマー国軍、タッマドー"
+      },
+      "bur:1551535513339": {
+        "word": "ဖြတ်စက်",
+        "gloss": "ギロチン",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ギロチン"
+      },
+      "bur:1554640468578": {
+        "word": "သူပုန်ထ",
+        "gloss": "反乱を起こす、反逆する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "反乱を起こす、反逆する"
+      },
+      "bur:1396101942472": {
+        "word": "ရုံး",
+        "gloss": "事務所、オフィス",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "事務所、オフィス"
+      },
+      "bur:1398089379896": {
+        "word": "အလုပ်",
+        "gloss": "仕事",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事"
+      },
+      "bur:1401381489066": {
+        "word": "ဆိုင်ရှင်",
+        "gloss": "店主、店の主人",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "店主、店の主人"
+      },
+      "bur:1402173479728": {
+        "word": "လုပ်ဖော်ကိုင်ဖက်",
+        "gloss": "同僚、仕事仲間",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "同僚、仕事仲間"
+      },
+      "bur:1404684363583": {
+        "word": "အလုပ်ရှင်",
+        "gloss": "雇用主、上司",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雇用主、上司"
+      },
+      "bur:1404684504121": {
+        "word": "တောင်သူ",
+        "gloss": "農民、農家",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "農民、農家"
+      },
+      "bur:1404684573288": {
+        "word": "စားပွဲထိုး",
+        "gloss": "ウェイター、給仕",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ウェイター、給仕"
+      },
+      "bur:1439692181805": {
+        "word": "ဝန်ထမ်း",
+        "gloss": "職員、従業員",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "職員、従業員"
+      },
+      "bur:1454435137086": {
+        "word": "စီးပွားရေးသမား",
+        "gloss": "商人、ビジネスパーソン",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商人、ビジネスパーソン"
+      },
+      "bur:1481850851250": {
+        "word": "ပြည့်တန်ဆာ",
+        "gloss": "売春婦",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "売春婦"
+      },
+      "bur:1487786731076": {
+        "word": "အတွင်းရေးမှူး",
+        "gloss": "書記、秘書",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書記、秘書"
+      },
+      "bur:1508805547857": {
+        "word": "စာရင်းကိုင်",
+        "gloss": "会計士、簿記係",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "会計士、簿記係"
+      },
+      "bur:1522500489747": {
+        "word": "ညွှန်ကြားရေးမှူး",
+        "gloss": "局長、所長、ディレクター",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "局長、所長、ディレクター"
+      },
+      "bur:1531268778329": {
+        "word": "လက်ထောက်",
+        "gloss": "助手、アシスタント",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "助手、アシスタント"
+      },
+      "bur:1564424293238": {
+        "word": "မော်ဒယ်",
+        "gloss": "モデル（人物）",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "モデル（人物）"
+      },
+      "bur:1409400784540": {
+        "word": "စပါး",
+        "gloss": "籾、籾米、水田の稲",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "material"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "籾、籾米、水田の稲"
+      },
+      "bur:1418855293646": {
+        "word": "လယ်",
+        "gloss": "水田、田んぼ",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "水田、田んぼ"
+      },
+      "bur:1418855418711": {
+        "word": "ငါးမျှားတံ",
+        "gloss": "釣り竿",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "釣り竿"
+      },
+      "bur:1418855697649": {
+        "word": "ထယ်ထိုး",
+        "gloss": "耕す、犂で耕起する",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "耕す、犂で耕起する"
+      },
+      "bur:1418857135703": {
+        "word": "တံစဉ်",
+        "gloss": "鎌",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鎌"
+      },
+      "bur:1418857208676": {
+        "word": "ပျိုး",
+        "gloss": "種をまく、苗を育てる",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "種をまく、苗を育てる"
+      },
+      "bur:1423654317944": {
+        "word": "ကောက်ရိုး",
+        "gloss": "干し草、わら",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "material"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "干し草、わら"
+      },
+      "bur:1442438571729": {
+        "word": "ထုတ်လုပ်",
+        "gloss": "生産する、製造する",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生産する、製造する"
+      },
+      "bur:1478042006832": {
+        "word": "စက်မှု",
+        "gloss": "産業、工業",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "産業、工業"
+      },
+      "bur:1389834182732": {
+        "word": "မှာ",
+        "gloss": "注文する（飲食物など）",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "注文する（飲食物など）"
+      },
+      "bur:1396104415963": {
+        "word": "ဝယ်",
+        "gloss": "買う",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "買う"
+      },
+      "bur:1398088368660": {
+        "word": "ဈေး",
+        "gloss": "市場",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "市場"
+      },
+      "bur:1398088825749": {
+        "word": "မုန့်ဆိုင်",
+        "gloss": "パン屋、菓子店",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "パン屋、菓子店"
+      },
+      "bur:1398090466157": {
+        "word": "ရောင်း",
+        "gloss": "売る",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "売る"
+      },
+      "bur:1401389150872": {
+        "word": "အရောင်းအဝယ်",
+        "gloss": "商売、取引（字義：売買）",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商売、取引（字義：売買）"
+      },
+      "bur:1409400071583": {
+        "word": "ကုန်",
+        "gloss": "商品、物資",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商品、物資"
+      },
+      "bur:1533983558267": {
+        "word": "ဆံပင်ညှပ်ဆိုင်",
+        "gloss": "理髪店、美容室",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "理髪店、美容室"
+      },
+      "bur:1534882251212": {
+        "word": "ပြေစာ",
+        "gloss": "領収書、伝票、請求書",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "領収書、伝票、請求書"
+      },
+      "bur:1389144696814": {
+        "word": "ဈေးကြီး",
+        "gloss": "値段が高い、高価である",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "値段が高い、高価である"
+      },
+      "bur:1389398316585": {
+        "word": "ဈေးချို",
+        "gloss": "値段が安い",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "値段が安い"
+      },
+      "bur:1389835025141": {
+        "word": "ကျပ်",
+        "gloss": "チャット（ミャンマー通貨）",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チャット（ミャンマー通貨）"
+      },
+      "bur:1394193164998": {
+        "word": "ဒေါ်လာ",
+        "gloss": "ドル",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ドル"
+      },
+      "bur:1395257580089": {
+        "word": "ပိုက်ဆံ",
+        "gloss": "お金",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "お金"
+      },
+      "bur:1398086165306": {
+        "word": "ငှါး",
+        "gloss": "借りる、賃借する",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借りる、賃借する"
+      },
+      "bur:1398088784803": {
+        "word": "ဘဏ်(တိုက်)",
+        "gloss": "銀行",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "銀行"
+      },
+      "bur:1398610018971": {
+        "word": "လစာ",
+        "gloss": "給料",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "給料"
+      },
+      "bur:1398611892519": {
+        "word": "ဥစ္စာ",
+        "gloss": "財産、所有物",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "財産、所有物"
+      },
+      "bur:1400453180260": {
+        "word": "ချမ်းသာ",
+        "gloss": "裕福である、金持ちである",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "裕福である、金持ちである"
+      },
+      "bur:1401385980808": {
+        "word": "အခန်းခ",
+        "gloss": "部屋代、家賃",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "部屋代、家賃"
+      },
+      "bur:1423655509921": {
+        "word": "ငွေဖြည့်ကတ်",
+        "gloss": "プリペイド式チャージカード",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "プリペイド式チャージカード"
+      },
+      "bur:1423656635970": {
+        "word": "ငွေထုတ်စက်",
+        "gloss": "ATM、現金自動預払機",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ATM、現金自動預払機"
+      },
+      "bur:1453654025130": {
+        "word": "လှူ",
+        "gloss": "①寄付 ②寄付する",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity",
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "①寄付 ②寄付する"
+      },
+      "bur:1463787673566": {
+        "word": "ဒင်္ဂါး",
+        "gloss": "硬貨、コイン",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "硬貨、コイン"
+      },
+      "bur:1483923701846": {
+        "word": "လွဲ",
+        "gloss": "送金する、振り込む",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "送金する、振り込む"
+      },
+      "bur:1499931885014": {
+        "word": "မြတ်",
+        "gloss": "利益、利潤",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "利益、利潤"
+      },
+      "bur:1522500033736": {
+        "word": "အဖိုးတန်",
+        "gloss": "貴重である、値打ちがある",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "貴重である、値打ちがある"
+      },
+      "bur:1537909734910": {
+        "word": "ဝင်ကြေး",
+        "gloss": "入場料",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "入場料"
+      },
+      "bur:1556027157663": {
+        "word": "ဝင်ငွေ",
+        "gloss": "収入",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "収入"
+      },
+      "bur:1560606027623": {
+        "word": "အခမဲ့",
+        "gloss": "無料で、無償で",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "無料で、無償で"
+      },
+      "bur:1562415064901": {
+        "word": "လူနေမှုစရိတ်",
+        "gloss": "生活費",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生活費"
+      },
+      "bur:1564423853682": {
+        "word": "ငွေစက္ကူ",
+        "gloss": "紙幣",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "紙幣"
+      },
+      "bur:1564424442813": {
+        "word": "ယူရို",
+        "gloss": "ユーロ（€）",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ユーロ（€）"
+      },
+      "bur:1570975882630": {
+        "word": "အလကား",
+        "gloss": "無料である",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "無料である"
       }
     },
     "shan": {
@@ -27071,6 +29378,4353 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "恋愛沙汰などの仲介役をする"
+      },
+      "shn:1783945283963": {
+        "word": "လူင်ပွင်ၸိုင်ႈ",
+        "gloss": "政府、行政機関",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政府、行政機関"
+      },
+      "shn:1783945284037": {
+        "word": "ပႃႇတီႇ",
+        "gloss": "党、政党",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "党、政党"
+      },
+      "shn:1783945284307": {
+        "word": "ဝၢၼ်ႈမိူင်း",
+        "gloss": "国、国家",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国、国家"
+      },
+      "shn:1783945284308": {
+        "word": "ၸိုင်ႈမိူင်း",
+        "gloss": "主権国家、自治州、国 [ sovereign state, autonomous state, country]",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "主権国家、自治州、国 [ sovereign state, autonomous state, country]"
+      },
+      "shn:1783945284319": {
+        "word": "ႁွင်ႈၵၢၼ်",
+        "gloss": "行政機関の主要な区分、省、局、部署",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "行政機関の主要な区分、省、局、部署"
+      },
+      "shn:1783945287296": {
+        "word": "ၵွင်ႇၸီႇ",
+        "gloss": "評議会、カウンシル",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "評議会、カウンシル"
+      },
+      "shn:1783945283925": {
+        "word": "ၸိုင်ႈတႆး",
+        "gloss": "シャン州",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シャン州"
+      },
+      "shn:1783945283987": {
+        "word": "မိူင်းတႆး",
+        "gloss": "シャン州",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シャン州"
+      },
+      "shn:1783945284069": {
+        "word": "ၸႄႈတွၼ်ႈ",
+        "gloss": "郡、町、地区",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "郡、町、地区"
+      },
+      "shn:1783945284147": {
+        "word": "ၵၢၼ်မိူင်း",
+        "gloss": "国政、政治、行政",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国政、政治、行政"
+      },
+      "shn:1783945284157": {
+        "word": "ၸိုင်ႈ",
+        "gloss": "管轄、統治区域；州、主権国家、国",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "管轄、統治区域；州、主権国家、国"
+      },
+      "shn:1783945284835": {
+        "word": "ဢႃႇၼႃႇ",
+        "gloss": "権力、権限；統治権、支配権",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "権力、権限；統治権、支配権"
+      },
+      "shn:1783945284989": {
+        "word": "လွတ်ႈလႅဝ်း",
+        "gloss": "解放される、独立する、圧政から自由になる",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "解放される、独立する、圧政から自由になる"
+      },
+      "shn:1783945285213": {
+        "word": "ဢုပ်ႉပိူင်ႇ",
+        "gloss": "統治する、主宰する、権限を持つ、支配する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "統治する、主宰する、権限を持つ、支配する"
+      },
+      "shn:1783945285249": {
+        "word": "ၽူႈၼင်ႈၸိုင်ႈ",
+        "gloss": "政府高官、大統領",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政府高官、大統領"
+      },
+      "shn:1783945285280": {
+        "word": "ဢိူင်ႇဝၢၼ်ႈ",
+        "gloss": "村落区、行政的な村の集まり",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "村落区、行政的な村の集まり"
+      },
+      "shn:1783945285523": {
+        "word": "ငဝ်ႈၸိုင်ႈ",
+        "gloss": "地方長官；行政首長",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地方長官；行政首長"
+      },
+      "shn:1783945285630": {
+        "word": "လိၵ်ႈပိုၼ်ၽၢဝ်ႇ",
+        "gloss": "公告、宣言、告示、布告、声明、公表",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "公告、宣言、告示、布告、声明、公表"
+      },
+      "shn:1783945285661": {
+        "word": "ၽွင်းမိူင်း",
+        "gloss": "統治者、貴族",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "統治者、貴族"
+      },
+      "shn:1783945286143": {
+        "word": "ပၢႆးမိူင်း",
+        "gloss": "政治",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政治"
+      },
+      "shn:1783945286169": {
+        "word": "လွင်ႈလွတ်ႈလႅဝ်း",
+        "gloss": "自由、解放（他国の圧政からの解放など）",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "自由、解放（他国の圧政からの解放など）"
+      },
+      "shn:1783945286208": {
+        "word": "ၵၢၼ်ပၢႆးမိူင်း",
+        "gloss": "政治、政務",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政治、政務"
+      },
+      "shn:1783945286230": {
+        "word": "ၸဝ်ႈဢႃႇၼႃႇ",
+        "gloss": "独裁者、絶対的な権力を持つ人；（逐語訳）権力の主",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "独裁者、絶対的な権力を持つ人；（逐語訳）権力の主"
+      },
+      "shn:1783945286597": {
+        "word": "ၵွၼ်းၶေႃ",
+        "gloss": "自治の、独立した統治を持つ（国家など）",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "自治の、独立した統治を持つ（国家など）"
+      },
+      "shn:1783945286645": {
+        "word": "ၼမ်ႉလိၼ်",
+        "gloss": "国家の領土",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国家の領土"
+      },
+      "shn:1783945287289": {
+        "word": "ၵူၼ်းၵၢၼ်မိူင်း",
+        "gloss": "政治家、行政官、立法者",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "政治家、行政官、立法者"
+      },
+      "shn:1783945287327": {
+        "word": "ၶုၼ်မိူင်း",
+        "gloss": "知事、国の統治者",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "知事、国の統治者"
+      },
+      "shn:1783945287347": {
+        "word": "ၶႂၢၵ်ႈမိူင်း",
+        "gloss": "領土を広げる、植民地化する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "領土を広げる、植民地化する"
+      },
+      "shn:1783945287362": {
+        "word": "ၸုမ်းၵၢၼ်",
+        "gloss": "課、部門、セクション",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "課、部門、セクション"
+      },
+      "shn:1783945287413": {
+        "word": "ၽူႈတႅၼ်းၽွင်း",
+        "gloss": "州代表、上院議員、国会議員",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "州代表、上院議員、国会議員"
+      },
+      "shn:1783945287748": {
+        "word": "ဝႂ်ၶၢမ်ႈမိူင်း",
+        "gloss": "パスポート、旅券",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "パスポート、旅券"
+      },
+      "shn:1783945287798": {
+        "word": "ဢမ်းၼၢတ်ႈ",
+        "gloss": "権力、権威",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "権力、権威"
+      },
+      "shn:1783945287870": {
+        "word": "ၵွၼ်းမိူင်း",
+        "gloss": "国の統治者",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国の統治者"
+      },
+      "shn:1783945287886": {
+        "word": "ၵႄႇဝၢၼ်ႈ",
+        "gloss": "村長",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "村長"
+      },
+      "shn:1783945287941": {
+        "word": "ၶႅပ်းၵၢင်ၸႂ်",
+        "gloss": "投票用紙；投票",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity",
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "投票用紙；投票"
+      },
+      "shn:1783945288031": {
+        "word": "ၽူႈၵွၼ်းဝဵင်း",
+        "gloss": "市長、都市の最高責任者",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "市長、都市の最高責任者"
+      },
+      "shn:1783945288393": {
+        "word": "မိူင်းလွတ်ႈလႅဝ်း",
+        "gloss": "自由な国、独立した国家",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "自由な国、独立した国家"
+      },
+      "shn:1783945288395": {
+        "word": "မိူင်းဢူၺ်းလီ",
+        "gloss": "同盟国",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "同盟国"
+      },
+      "shn:1783945288397": {
+        "word": "မိူင်းၵွၼ်းၶေႃ",
+        "gloss": "独立国（他国からの圧迫がない国）",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "独立国（他国からの圧迫がない国）"
+      },
+      "shn:1783945288665": {
+        "word": "ဝႂ်ၶဝ်ႈမိူင်း",
+        "gloss": "入国許可証、入国ビザ",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "入国許可証、入国ビザ"
+      },
+      "shn:1783945288670": {
+        "word": "ဝႆႉဢႃႇၼႃႇ",
+        "gloss": "権力を行使する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "権力を行使する"
+      },
+      "shn:1783945288741": {
+        "word": "သႂၢင်းၶွၼ်ႇ",
+        "gloss": "納税する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "納税する"
+      },
+      "shn:1783945288783": {
+        "word": "ဢိူင်ႇဝဵင်း",
+        "gloss": "タウンシップ（行政区画）",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タウンシップ（行政区画）"
+      },
+      "shn:1783945288975": {
+        "word": "ၶဝ်ႈဝၢင်ႇ",
+        "gloss": "屈服する、統治を受け入れる（被征服国など）",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "屈服する、統治を受け入れる（被征服国など）"
+      },
+      "shn:1783945289071": {
+        "word": "ၸရေးမိူင်း",
+        "gloss": "領主の秘書、官房",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "領主の秘書、官房"
+      },
+      "shn:1783945289076": {
+        "word": "ၸဝ်ႈဢႃႇၼႃႇသိုၵ်း",
+        "gloss": "軍事独裁者",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "軍事独裁者"
+      },
+      "shn:1783945289127": {
+        "word": "ၼင်ႈႁေႃ",
+        "gloss": "国を治める；王位に就く；君臨する",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "国を治める；王位に就く；君臨する"
+      },
+      "shn:1783945289215": {
+        "word": "ၽူႈၵွၼ်းၸိုင်ႈ",
+        "gloss": "知事、州知事",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "知事、州知事"
+      },
+      "shn:1783945289217": {
+        "word": "ၽွင်းတၢင်မိူင်း",
+        "gloss": "大使",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大使"
+      },
+      "shn:1783945284193": {
+        "word": "မၢႆမီႈ",
+        "gloss": "規則、法規定、公式記録",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "規則、法規定、公式記録"
+      },
+      "shn:1783945285320": {
+        "word": "ၶႂၢင်ႉ",
+        "gloss": "許可、許諾、許可証",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "許可、許諾、許可証"
+      },
+      "shn:1783945285725": {
+        "word": "ငိုၼ်းသေ",
+        "gloss": "罰金、違約金",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "罰金、違約金"
+      },
+      "shn:1783945285964": {
+        "word": "ၽိတ်းပိူင်ႈ",
+        "gloss": "罪を犯す、背く",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "罪を犯す、背く"
+      },
+      "shn:1783945285990": {
+        "word": "တၢမ်ႇတၢႆ",
+        "gloss": "死刑、死刑判決",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "死刑、死刑判決"
+      },
+      "shn:1783945286047": {
+        "word": "သိမ်းဢဝ်",
+        "gloss": "取り上げる、没収する",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "取り上げる、没収する"
+      },
+      "shn:1783945286144": {
+        "word": "ပၼ်တၢမ်ႇ",
+        "gloss": "罰する、罰を与える",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "罰する、罰を与える"
+      },
+      "shn:1783945286395": {
+        "word": "ၶေႃႈတႅပ်းတတ်း",
+        "gloss": "決定、評決、判決",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "決定、評決、判決"
+      },
+      "shn:1783945286624": {
+        "word": "ၶေႃႈၵိၼ်ၵႅၼ်ႇ",
+        "gloss": "合意、契約",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "合意、契約"
+      },
+      "shn:1783945286625": {
+        "word": "ၶၢမ်ႇတၢမ်ႇ",
+        "gloss": "刑罰を受ける",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "刑罰を受ける"
+      },
+      "shn:1783945286718": {
+        "word": "တၢမ်ႇငိုၼ်း",
+        "gloss": "罰金",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "罰金"
+      },
+      "shn:1783945286817": {
+        "word": "လိၵ်ႈၵိၼ်ၵႅၼ်ႇ",
+        "gloss": "契約、合意",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "契約、合意"
+      },
+      "shn:1783945287627": {
+        "word": "မၢႆမီႈပၵ်းပိူင်",
+        "gloss": "規則、公的記録、憲法",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "規則、公的記録、憲法"
+      },
+      "shn:1783945288317": {
+        "word": "ပူၼ်ႉပိူင်",
+        "gloss": "（規則などに）背く、違反する",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（規則などに）背く、違反する"
+      },
+      "shn:1783945288972": {
+        "word": "ၶဝ်ႈတြႃး",
+        "gloss": "合法的である、正当である",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "合法的である、正当である"
+      },
+      "shn:1783945283894": {
+        "word": "သိုၵ်း",
+        "gloss": "戦争、戦闘、紛争（時には軍隊）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event",
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦争、戦闘、紛争（時には軍隊）"
+      },
+      "shn:1783945283968": {
+        "word": "တပ်ႉသိုၵ်း",
+        "gloss": "軍隊、部隊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "軍隊、部隊"
+      },
+      "shn:1783945284041": {
+        "word": "ပလိၵ်ႈ",
+        "gloss": "警察、警官 （語源等：English）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "警察、警官 （語源等：English）"
+      },
+      "shn:1783945284086": {
+        "word": "ပၢင်တိုၵ်း",
+        "gloss": "戦場、戦闘",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity",
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦場、戦闘"
+      },
+      "shn:1783945284428": {
+        "word": "ၵွင်ႈၵၢင်ႇ",
+        "gloss": "武器、武具",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "武器、武具"
+      },
+      "shn:1783945284433": {
+        "word": "လုၵ်ႉၽိုၼ်ႉ",
+        "gloss": "反乱を起こす、謀反する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "反乱を起こす、謀反する"
+      },
+      "shn:1783945284837": {
+        "word": "ၵူၼ်းသိုၵ်း",
+        "gloss": "兵士、戦士；軍人",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "兵士、戦士；軍人"
+      },
+      "shn:1783945284896": {
+        "word": "ၸဝ်ႈသိုၵ်းလူင်",
+        "gloss": "（陸軍の）大佐",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（陸軍の）大佐"
+      },
+      "shn:1783945285119": {
+        "word": "တိုၵ်းသိုၵ်း",
+        "gloss": "戦う、交戦する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦う、交戦する"
+      },
+      "shn:1783945285136": {
+        "word": "ၵၢၼ်လုၵ်ႉၽိုၼ်ႉ",
+        "gloss": "抵抗運動、レジスタンス",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "抵抗運動、レジスタンス"
+      },
+      "shn:1783945285201": {
+        "word": "တပ်ႉၸုမ်း",
+        "gloss": "旅団、連隊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "旅団、連隊"
+      },
+      "shn:1783945285229": {
+        "word": "တပ်ႉမတေႃႇ",
+        "gloss": "ミャンマー軍、国軍",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ミャンマー軍、国軍"
+      },
+      "shn:1783945285259": {
+        "word": "ပူဝ်ႇ",
+        "gloss": "将校、士官",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "将校、士官"
+      },
+      "shn:1783945285345": {
+        "word": "သိုၵ်းႁၢၼ်",
+        "gloss": "兵士、兵卒",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "兵士、兵卒"
+      },
+      "shn:1783945285619": {
+        "word": "တိုၵ်းတေႃး",
+        "gloss": "襲撃する、激しく戦う（戦争など）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "襲撃する、激しく戦う（戦争など）"
+      },
+      "shn:1783945285666": {
+        "word": "ႁူဝ်သိုၵ်းလူင်",
+        "gloss": "陸軍軍曹",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "陸軍軍曹"
+      },
+      "shn:1783945285825": {
+        "word": "လၢႆးလုၵ်ႉၽိုၼ်ႉ",
+        "gloss": "抵抗、革命（政治的な大義としての）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "抵抗、革命（政治的な大義としての）"
+      },
+      "shn:1783945286076": {
+        "word": "ၵူၼ်းၸူၼ်",
+        "gloss": "強盗、山賊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "強盗、山賊"
+      },
+      "shn:1783945286080": {
+        "word": "ၶိုၼ်ႈယိုဝ်း",
+        "gloss": "攻撃する（戦闘、戦いなどにおいて）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "攻撃する（戦闘、戦いなどにおいて）"
+      },
+      "shn:1783945286439": {
+        "word": "တပ်ႉသိုၵ်းလုၵ်ႉၽိုၼ်ႉ",
+        "gloss": "革命軍",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "革命軍"
+      },
+      "shn:1783945286528": {
+        "word": "လုၵ်ႈသိုၵ်း",
+        "gloss": "兵士、戦士",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "兵士、戦士"
+      },
+      "shn:1783945286692": {
+        "word": "ငႃးသိုၵ်း",
+        "gloss": "（戦闘に向かう際などの）縦隊、兵士の列",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（戦闘に向かう際などの）縦隊、兵士の列"
+      },
+      "shn:1783945286693": {
+        "word": "တပ်ႉပၢင်သဝ်း",
+        "gloss": "駐屯地、軍事基地",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "駐屯地、軍事基地"
+      },
+      "shn:1783945286751": {
+        "word": "ပွႆးတိုၵ်း",
+        "gloss": "戦闘、戦い",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦闘、戦い"
+      },
+      "shn:1783945286839": {
+        "word": "လၢၵ်ႈၼၢၵ်ႈ",
+        "gloss": "武器、兵器",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "武器、兵器"
+      },
+      "shn:1783945287030": {
+        "word": "တင်ႈတပ်ႉ",
+        "gloss": "砦を築く、軍営を設ける",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "砦を築く、軍営を設ける"
+      },
+      "shn:1783945287032": {
+        "word": "တပ်ႉၵွင်",
+        "gloss": "大隊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大隊"
+      },
+      "shn:1783945287128": {
+        "word": "မၢၵ်ႇပွမ်း",
+        "gloss": "爆弾",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "爆弾"
+      },
+      "shn:1783945287312": {
+        "word": "ၵႅမ်ၶုၼ်ႁၢၼ်",
+        "gloss": "上級曹長、准尉（軍の階級）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "上級曹長、准尉（軍の階級）"
+      },
+      "shn:1783945287329": {
+        "word": "ၶုၼ်သိုၵ်း",
+        "gloss": "将校、士官、中尉",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "将校、士官、中尉"
+      },
+      "shn:1783945287443": {
+        "word": "ႁူဝ်သိုၵ်း",
+        "gloss": "陸軍伍長",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "陸軍伍長"
+      },
+      "shn:1783945287450": {
+        "word": "ႁဵတ်းသိုၵ်း",
+        "gloss": "戦争をする、攻撃する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦争をする、攻撃する"
+      },
+      "shn:1783945287905": {
+        "word": "ၶိုၼ်ႈတိုၵ်း",
+        "gloss": "攻撃する（戦闘など）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "攻撃する（戦闘など）"
+      },
+      "shn:1783945287917": {
+        "word": "ၶုၼ်သိုၵ်းလူင်",
+        "gloss": "大尉、高級将校",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大尉、高級将校"
+      },
+      "shn:1783945287918": {
+        "word": "ၶူဝ်းသိုၵ်း",
+        "gloss": "軍装、武具、甲冑",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "軍装、武具、甲冑"
+      },
+      "shn:1783945288076": {
+        "word": "ႁူဝ်မူ",
+        "gloss": "塁壁、砦、要塞",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "塁壁、砦、要塞"
+      },
+      "shn:1783945288140": {
+        "word": "တပ်ႉပႆလိၼ်",
+        "gloss": "歩兵部隊",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "歩兵部隊"
+      },
+      "shn:1783945288153": {
+        "word": "တိုၵ်းပႅတ်ႈ",
+        "gloss": "戦いによって完全に破壊する、荒廃させる",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦いによって完全に破壊する、荒廃させる"
+      },
+      "shn:1783945288347": {
+        "word": "ပၢင်သိုၵ်း",
+        "gloss": "戦場",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦場"
+      },
+      "shn:1783945288376": {
+        "word": "ပႄႉသိုၵ်း",
+        "gloss": "戦闘に勝つ、勝利を収める",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戦闘に勝つ、勝利を収める"
+      },
+      "shn:1783945288432": {
+        "word": "မွၼ်ငိုၼ်း",
+        "gloss": "賄賂を贈る、買収する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "law"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賄賂を贈る、買収する"
+      },
+      "shn:1783945288598": {
+        "word": "လွင်ႈလုၵ်ႉၽိုၼ်ႉ",
+        "gloss": "革命、反乱",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "革命、反乱"
+      },
+      "shn:1783945288599": {
+        "word": "လွင်ႈၵႅတ်ႇၶႄ",
+        "gloss": "防衛（個人の安全確保など）",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "防衛（個人の安全確保など）"
+      },
+      "shn:1783945288601": {
+        "word": "လွမ်ယိုဝ်း",
+        "gloss": "狙撃する、暗殺する",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "狙撃する、暗殺する"
+      },
+      "shn:1783945289075": {
+        "word": "ၸဝ်ႈသိုၵ်း",
+        "gloss": "（軍の）中佐",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（軍の）中佐"
+      },
+      "shn:1783945283881": {
+        "word": "ၵၢၼ်",
+        "gloss": "仕事、労働、業務、職務",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事、労働、業務、職務"
+      },
+      "shn:1783945284036": {
+        "word": "ႁႅင်းၵၢၼ်",
+        "gloss": "労働力、稼働力",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "労働力、稼働力"
+      },
+      "shn:1783945284055": {
+        "word": "ႁဵတ်းၵၢၼ်",
+        "gloss": "働く、仕事をする",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "働く、仕事をする"
+      },
+      "shn:1783945284449": {
+        "word": "ပွင်ၵၢၼ်",
+        "gloss": "仕事を調整する、組織化する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事を調整する、組織化する"
+      },
+      "shn:1783945284731": {
+        "word": "ႁႅၵ်ႈ",
+        "gloss": "仕事に取り掛かる；（吉日とされる日に）少しだけ着手する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事に取り掛かる；（吉日とされる日に）少しだけ着手する"
+      },
+      "shn:1783945284838": {
+        "word": "ၸတ်းၵၢၼ်",
+        "gloss": "管理する、仕事を監督する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "管理する、仕事を監督する"
+      },
+      "shn:1783945284924": {
+        "word": "ၵူၼ်းႁဵတ်းၵၢၼ်",
+        "gloss": "労働者、従業員",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "労働者、従業員"
+      },
+      "shn:1783945285087": {
+        "word": "ၵူၼ်းၵႃႉ",
+        "gloss": "商人",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商人"
+      },
+      "shn:1783945285135": {
+        "word": "ၵၢၼ်ငၢၼ်း",
+        "gloss": "仕事、業務、プロジェクト、任務",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事、業務、プロジェクト、任務"
+      },
+      "shn:1783945285335": {
+        "word": "မီးၵၢၼ်",
+        "gloss": "仕事がある、雇われている",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事がある、雇われている"
+      },
+      "shn:1783945285389": {
+        "word": "ၸရေး",
+        "gloss": "書記、事務員、秘書",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書記、事務員、秘書"
+      },
+      "shn:1783945285500": {
+        "word": "ၵႂႃႇႁဵတ်းၵၢၼ်",
+        "gloss": "仕事に行く、働きに行く",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事に行く、働きに行く"
+      },
+      "shn:1783945285559": {
+        "word": "ႁူင်းၵၢၼ်",
+        "gloss": "オフィスビル、事務所",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "オフィスビル、事務所"
+      },
+      "shn:1783945285876": {
+        "word": "တီႈၵၢၼ်",
+        "gloss": "職場、仕事場",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "職場、仕事場"
+      },
+      "shn:1783945285955": {
+        "word": "ၸဝ်ႈၼႃး",
+        "gloss": "水田耕作者、稲作農家",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "水田耕作者、稲作農家"
+      },
+      "shn:1783945286181": {
+        "word": "သိုပ်ႇႁဵတ်း",
+        "gloss": "（未完成の仕事を）再開する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（未完成の仕事を）再開する"
+      },
+      "shn:1783945286401": {
+        "word": "ၸဝ်ႈႁႆႈ",
+        "gloss": "農家（畑作農家）",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "農家（畑作農家）"
+      },
+      "shn:1783945286586": {
+        "word": "ၵူၼ်းဝၢၼ်ႈၵူၼ်းသူၼ်",
+        "gloss": "農家、園芸家；小作農",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "農家、園芸家；小作農"
+      },
+      "shn:1783945286588": {
+        "word": "ၵူၼ်းၸႂ်ႉ",
+        "gloss": "給仕、使い走り、使用人",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "給仕、使い走り、使用人"
+      },
+      "shn:1783945286735": {
+        "word": "ထၢမ်းၵၢၼ်",
+        "gloss": "公的な仕事をする",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "公的な仕事をする"
+      },
+      "shn:1783945286879": {
+        "word": "ဢမ်ႇမီးၵၢၼ်",
+        "gloss": "仕事がない、失業している",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事がない、失業している"
+      },
+      "shn:1783945286908": {
+        "word": "ၵူၼ်းလိူဝ်ႈမႆႉ",
+        "gloss": "木こり、伐採業者",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木こり、伐採業者"
+      },
+      "shn:1783945287082": {
+        "word": "ပေႃးၵၢၼ်",
+        "gloss": "仕事を辞める、退職する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事を辞める、退職する"
+      },
+      "shn:1783945287120": {
+        "word": "မေႃမိုဝ်း",
+        "gloss": "手作業に優れた人；職人、大工",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "手作業に優れた人；職人、大工"
+      },
+      "shn:1783945287160": {
+        "word": "လိုဝ်ႈၵၢၼ်",
+        "gloss": "仕事を休む、引退する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事を休む、引退する"
+      },
+      "shn:1783945287258": {
+        "word": "ဢွၵ်ႇၵၢၼ်",
+        "gloss": "仕事を辞める、仕事を切り上げる",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事を辞める、仕事を切り上げる"
+      },
+      "shn:1783945287260": {
+        "word": "ဢွၼ်ၵၼ်ႁဵတ်း",
+        "gloss": "一緒に行う、同時に働く",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "一緒に行う、同時に働く"
+      },
+      "shn:1783945287291": {
+        "word": "ၵူၼ်းႁဵတ်းသူၼ်",
+        "gloss": "庭師",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "庭師"
+      },
+      "shn:1783945287304": {
+        "word": "ၵၢၼ်လဵင်ႉတွင်ႉ",
+        "gloss": "生計、暮らし（直訳：胃を養う仕事）",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生計、暮らし（直訳：胃を養う仕事）"
+      },
+      "shn:1783945287306": {
+        "word": "ၵၢၼ်ႁဵတ်း",
+        "gloss": "職業、仕事",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "職業、仕事"
+      },
+      "shn:1783945287346": {
+        "word": "ၶႂၢင်ႇ",
+        "gloss": "仕事場、場所（物が置かれたり作業が行われたりする場所、ၶႂၢင်ႇသူၼ် 庭など）（語源等：ビルマ語）",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事場、場所（物が置かれたり作業が行われたりする場所、ၶႂၢင်ႇသူၼ် 庭など）（語源等：ビルマ語）"
+      },
+      "shn:1783945287836": {
+        "word": "ၵိၼ်ၸၢင်ႈ",
+        "gloss": "賃仕事（雇われ仕事）で暮らす",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賃仕事（雇われ仕事）で暮らす"
+      },
+      "shn:1783945287847": {
+        "word": "ၵူၼ်းလဵင်ႉဝူဝ်း",
+        "gloss": "牛飼い、牧童",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "牛飼い、牧童"
+      },
+      "shn:1783945288145": {
+        "word": "တမ်ႇငႃႈ",
+        "gloss": "漁師",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "漁師"
+      },
+      "shn:1783945288420": {
+        "word": "မေႃပႃ",
+        "gloss": "漁師",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "漁師"
+      },
+      "shn:1783945288423": {
+        "word": "မေႃၸဵၼ်ႈ",
+        "gloss": "旋盤工",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "旋盤工"
+      },
+      "shn:1783945288882": {
+        "word": "ၵူၼ်းဝၢၼ်ႈၼွၵ်ႈၼႃးပၢင်ႇ",
+        "gloss": "農民；田舎者",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "農民；田舎者"
+      },
+      "shn:1783945288930": {
+        "word": "ၵၢၼ်လူႉ",
+        "gloss": "仕事が中断される、台無しになる",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事が中断される、台無しになる"
+      },
+      "shn:1783945288938": {
+        "word": "ၵႂႃႇၵၢၼ်",
+        "gloss": "仕事に行く、出勤する",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仕事に行く、出勤する"
+      },
+      "shn:1783945289216": {
+        "word": "ၽူႈၸတ်းသၢင်",
+        "gloss": "検査官、監査官",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "検査官、監査官"
+      },
+      "shn:1783945289318": {
+        "word": "ႁႅင်းၵူၼ်း",
+        "gloss": "人力、労働力",
+        "medium": "10.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "人力、労働力"
+      },
+      "shn:1783945284496": {
+        "word": "ၽုၵ်ႇသွမ်ႈ",
+        "gloss": "移植する、栽培する（農業）",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "移植する、栽培する（農業）"
+      },
+      "shn:1783945285076": {
+        "word": "ႁဵတ်းဢွၵ်ႇ",
+        "gloss": "生産する、製造する",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生産する、製造する"
+      },
+      "shn:1783945285364": {
+        "word": "တူင်ႈ",
+        "gloss": "田んぼの区画（約1ヘクタール）；水田地帯",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "田んぼの区画（約1ヘクタール）；水田地帯"
+      },
+      "shn:1783945286123": {
+        "word": "တူင်ႈၼႃး",
+        "gloss": "広大な水田地帯；田のひと区画（約1ヘクタール）",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "広大な水田地帯；田のひと区画（約1ヘクタール）"
+      },
+      "shn:1783945286423": {
+        "word": "ႁူင်းၸၢၵ်ႈ",
+        "gloss": "工場、製造プラント",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "工場、製造プラント"
+      },
+      "shn:1783945286427": {
+        "word": "ႁဵတ်းႁႆႈ",
+        "gloss": "畑を耕す",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "畑を耕す"
+      },
+      "shn:1783945286576": {
+        "word": "ဢၼ်ႁဵတ်းဢွၵ်ႇ",
+        "gloss": "生産（製造品など）",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生産（製造品など）"
+      },
+      "shn:1783945286680": {
+        "word": "ႁဵတ်းၼႃး",
+        "gloss": "水田を耕す",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "水田を耕す"
+      },
+      "shn:1783945286870": {
+        "word": "သဵမ်",
+        "gloss": "鍬（くわ）",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鍬（くわ）"
+      },
+      "shn:1783945286936": {
+        "word": "ၶဝ်ႈပိူၵ်ႇ",
+        "gloss": "籾（もみ）",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "material"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "籾（もみ）"
+      },
+      "shn:1783945287020": {
+        "word": "ႁွႆးမိုဝ်း",
+        "gloss": "手細工、手仕事、作品",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "手細工、手仕事、作品"
+      },
+      "shn:1783945287121": {
+        "word": "မေႃႇလဵၵ်း",
+        "gloss": "鉄鉱山",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鉄鉱山"
+      },
+      "shn:1783945288170": {
+        "word": "တူင်ႈပွင်ႇ",
+        "gloss": "収穫後の田畑",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "収穫後の田畑"
+      },
+      "shn:1783945288171": {
+        "word": "တူင်ႈႁႆႈ",
+        "gloss": "広大な畑、耕作地",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "広大な畑、耕作地"
+      },
+      "shn:1783945288424": {
+        "word": "မေႃႇသႅင်",
+        "gloss": "宝石鉱山",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宝石鉱山"
+      },
+      "shn:1783945288604": {
+        "word": "လွၵ်းၼႃး",
+        "gloss": "田んぼの一区画",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "田んぼの一区画"
+      },
+      "shn:1783945288732": {
+        "word": "သၢၼ်သၢတ်ႇ",
+        "gloss": "ござを編む",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ござを編む"
+      },
+      "shn:1783945289016": {
+        "word": "ၶဵဝ်း",
+        "gloss": "鎌（かま）",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "tool"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鎌（かま）"
+      },
+      "shn:1783945289288": {
+        "word": "ႁဵတ်းသူၼ်",
+        "gloss": "庭仕事をする、菜園や果樹園を耕す",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "庭仕事をする、菜園や果樹園を耕す"
+      },
+      "shn:1783945289295": {
+        "word": "ႁဵတ်းႁႆႈႁဵတ်းၼႃး",
+        "gloss": "田畑を耕す",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "田畑を耕す"
+      },
+      "shn:1783945284342": {
+        "word": "ၵၢတ်ႇ",
+        "gloss": "市場（いち）、バザール",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "市場（いち）、バザール"
+      },
+      "shn:1783945284469": {
+        "word": "သိုဝ်ႉ",
+        "gloss": "買う、購入する",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "買う、購入する"
+      },
+      "shn:1783945284747": {
+        "word": "ၵႃႉၶၢႆ",
+        "gloss": "商売をする、売買する、物物交換する",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商売をする、売買する、物物交換する"
+      },
+      "shn:1783945284997": {
+        "word": "ၵုၼ်ႇ",
+        "gloss": "商品、売り物",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商品、売り物"
+      },
+      "shn:1783945285853": {
+        "word": "ၸိူဝ်ႈ",
+        "gloss": "つけで買う",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "つけで買う"
+      },
+      "shn:1783945286130": {
+        "word": "တၢင်ႇၵုၼ်ႇ",
+        "gloss": "商売のために商品を積み込む",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商売のために商品を積み込む"
+      },
+      "shn:1783945286178": {
+        "word": "ဝဵင်းၵၢတ်ႇ",
+        "gloss": "市場の町、門前町のような商業都市",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "市場の町、門前町のような商業都市"
+      },
+      "shn:1783945286355": {
+        "word": "သိုဝ်ႉၶၢႆ",
+        "gloss": "売買する、取引する",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "売買する、取引する"
+      },
+      "shn:1783945286856": {
+        "word": "သိုဝ်ႉပၼ်",
+        "gloss": "（人のために）買ってあげる",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（人のために）買ってあげる"
+      },
+      "shn:1783945287223": {
+        "word": "သဵတ်ႈၵႃႈ",
+        "gloss": "値切る、価格交渉をする、買い叩く",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "値切る、価格交渉をする、買い叩く"
+      },
+      "shn:1783945287279": {
+        "word": "ၵုၼ်ႇသိၼ်",
+        "gloss": "財貨、商品",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "財貨、商品"
+      },
+      "shn:1783945287287": {
+        "word": "ၵူၼ်းလႅၵ်ႈငိုၼ်း",
+        "gloss": "両替商",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "両替商"
+      },
+      "shn:1783945287288": {
+        "word": "ၵူၼ်းသိုဝ်ႉ",
+        "gloss": "買い手、顧客",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "買い手、顧客"
+      },
+      "shn:1783945287303": {
+        "word": "ၵၢၼ်မၢၵ်ႈမီး",
+        "gloss": "経済事業、実業",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "経済事業、実業"
+      },
+      "shn:1783945287333": {
+        "word": "ၶူဝ်းၶွင်ၵိၼ်",
+        "gloss": "食料品",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "食料品"
+      },
+      "shn:1783945287343": {
+        "word": "ၶၢႆၶူဝ်း",
+        "gloss": "商品を売る",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商品を売る"
+      },
+      "shn:1783945287478": {
+        "word": "တမ်းၶၢႆ",
+        "gloss": "陳列して売る",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "陳列して売る"
+      },
+      "shn:1783945287746": {
+        "word": "ဝၼ်းၵၢတ်ႇ",
+        "gloss": "市の日（シャン州などで５日ごとに行われる）",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "市の日（シャン州などで５日ごとに行われる）"
+      },
+      "shn:1783945287760": {
+        "word": "သိုဝ်ႉဢဝ်",
+        "gloss": "（自分のために）買う、購入する",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（自分のために）買う、購入する"
+      },
+      "shn:1783945287935": {
+        "word": "ၶၢႆၵုၼ်ႇ",
+        "gloss": "商品を売る",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商品を売る"
+      },
+      "shn:1783945288658": {
+        "word": "ဝၼ်းတုမ်း",
+        "gloss": "市場（バザール）の前日",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "市場（バザール）の前日"
+      },
+      "shn:1783945288952": {
+        "word": "ၵႃႉၵုၼ်ႇ",
+        "gloss": "商品の商いをする",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "商品の商いをする"
+      },
+      "shn:1783945289044": {
+        "word": "ၶၢႆၶူဝ်းယွႆႈ",
+        "gloss": "小売りする；日用品を売る",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小売りする；日用品を売る"
+      },
+      "shn:1783945284184": {
+        "word": "ၵႃႈၶၼ်",
+        "gloss": "価格、価値、値打ち",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "価格、価値、値打ち"
+      },
+      "shn:1783945284317": {
+        "word": "ၶူဝ်းၶွင်",
+        "gloss": "持ち物、所持品、財産",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "持ち物、所持品、財産"
+      },
+      "shn:1783945284439": {
+        "word": "တိူဝ်း",
+        "gloss": "物品、財産、財",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "物品、財産、財"
+      },
+      "shn:1783945285040": {
+        "word": "သထေး",
+        "gloss": "富豪、金持ち",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "富豪、金持ち"
+      },
+      "shn:1783945285059": {
+        "word": "လႆႈလီ",
+        "gloss": "裕福である、暮らしが良い",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "裕福である、暮らしが良い"
+      },
+      "shn:1783945285437": {
+        "word": "ငိုၼ်းၶဝ်ႈ",
+        "gloss": "収入、所得",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "収入、所得"
+      },
+      "shn:1783945285476": {
+        "word": "ထေး",
+        "gloss": "裕福である；豊富に持つ （語源等：ビルマ語）",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "裕福である；豊富に持つ （語源等：ビルマ語）"
+      },
+      "shn:1783945285501": {
+        "word": "ၵႃႈၸၢင်ႈ",
+        "gloss": "賃金、レンタル料、使用料",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賃金、レンタル料、使用料"
+      },
+      "shn:1783945285572": {
+        "word": "မီးငိုၼ်း",
+        "gloss": "お金を持っている、金持ちである",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "お金を持っている、金持ちである"
+      },
+      "shn:1783945285809": {
+        "word": "ပၼ်ငိုၼ်း",
+        "gloss": "お金を払う",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "お金を払う"
+      },
+      "shn:1783945285940": {
+        "word": "ၵၢၼ်ငိုၼ်း",
+        "gloss": "金融業務、金銭に関わる仕事",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "金融業務、金銭に関わる仕事"
+      },
+      "shn:1783945286048": {
+        "word": "သုမ်းၼမ်",
+        "gloss": "多大な損失を被る",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "多大な損失を被る"
+      },
+      "shn:1783945286200": {
+        "word": "ၵူၼ်းမၢၵ်ႈ",
+        "gloss": "金持ち",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social",
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "金持ち"
+      },
+      "shn:1783945286209": {
+        "word": "ၵႃႈမၼ်း",
+        "gloss": "その価格；（直訳：それの値段）",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "その価格；（直訳：それの値段）"
+      },
+      "shn:1783945286319": {
+        "word": "ယိုမ်",
+        "gloss": "借りる（そのもの自体を返却する場合）",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借りる（そのもの自体を返却する場合）"
+      },
+      "shn:1783945286565": {
+        "word": "ဢမ်ႇၵႃႈ",
+        "gloss": "高くない、安い",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "高くない、安い"
+      },
+      "shn:1783945286606": {
+        "word": "ၵႃႈႁႅင်း",
+        "gloss": "労賃、手間賃",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "労賃、手間賃"
+      },
+      "shn:1783945286687": {
+        "word": "ငိုၼ်းလူႇ",
+        "gloss": "お布施、寄進金",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "お布施、寄進金"
+      },
+      "shn:1783945286706": {
+        "word": "တေႃႇလႃႇ",
+        "gloss": "ドル",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ドル"
+      },
+      "shn:1783945286756": {
+        "word": "ပၼ်ၵႃႈ",
+        "gloss": "代金を払う",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "代金を払う"
+      },
+      "shn:1783945286912": {
+        "word": "ၵူႈယိုမ်",
+        "gloss": "借りる",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借りる"
+      },
+      "shn:1783945287024": {
+        "word": "ႁႅင်းငိုၼ်း",
+        "gloss": "財力、資金力；金銭的援助",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "財力、資金力；金銭的援助"
+      },
+      "shn:1783945287292": {
+        "word": "ၵူႈငိုၼ်း",
+        "gloss": "借金する、金を借りる",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借金する、金を借りる"
+      },
+      "shn:1783945287382": {
+        "word": "ၼမ်ႉမျၢတ်ႈ",
+        "gloss": "利益",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "利益"
+      },
+      "shn:1783945287464": {
+        "word": "ငိုၼ်းတေႃႇ",
+        "gloss": "直接税によって徴収された金銭",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "直接税によって徴収された金銭"
+      },
+      "shn:1783945287465": {
+        "word": "ငိုၼ်းၵႃႈၸၢင်ႈ",
+        "gloss": "賃金、手間賃",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賃金、手間賃"
+      },
+      "shn:1783945287466": {
+        "word": "ငိုၼ်းၸွႆႈ",
+        "gloss": "義援金、寄付金、金銭的援助",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "義援金、寄付金、金銭的援助"
+      },
+      "shn:1783945287467": {
+        "word": "ငိုၼ်းၸၢႆႇ",
+        "gloss": "小遣い、生活費、雑費",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小遣い、生活費、雑費"
+      },
+      "shn:1783945287468": {
+        "word": "ငိုၼ်းၸႂ်ႉ",
+        "gloss": "通貨、流通している金銭",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "通貨、流通している金銭"
+      },
+      "shn:1783945287491": {
+        "word": "တုၵ်ႉယၢၵ်ႈ",
+        "gloss": "生活が苦しい、困窮している",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生活が苦しい、困窮している"
+      },
+      "shn:1783945287649": {
+        "word": "ယိမ်ငိုၼ်း",
+        "gloss": "お金を借りる",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "お金を借りる"
+      },
+      "shn:1783945287769": {
+        "word": "သုမ်းယႂ်ႇ",
+        "gloss": "大損をする、手どい損失を被る",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大損をする、手どい損失を被る"
+      },
+      "shn:1783945287789": {
+        "word": "သၢႆႈၼီႈ",
+        "gloss": "借金を返す",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借金を返す"
+      },
+      "shn:1783945287809": {
+        "word": "ဢုၵ်ႉၸႃႇ",
+        "gloss": "物品、財産",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "物品、財産"
+      },
+      "shn:1783945287824": {
+        "word": "ဢၼ်ၵူႈ",
+        "gloss": "借りたもの、借金、ローン",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借りたもの、借金、ローン"
+      },
+      "shn:1783945287884": {
+        "word": "ၵႃႈယႂ်ႇ",
+        "gloss": "高価な、値段が高い",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "高価な、値段が高い"
+      },
+      "shn:1783945287957": {
+        "word": "ၸေးၸိမ်ႇ",
+        "gloss": "富、贅沢、裕福な暮らし",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "富、贅沢、裕福な暮らし"
+      },
+      "shn:1783945288114": {
+        "word": "ငိုၼ်းၵူႈ",
+        "gloss": "借金、ローン、借入金",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借金、ローン、借入金"
+      },
+      "shn:1783945288251": {
+        "word": "တႅင်းၵႃး",
+        "gloss": "銀貨や金貨",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "銀貨や金貨"
+      },
+      "shn:1783945288273": {
+        "word": "ထုၵ်ႇၼီႈ",
+        "gloss": "借金を負う、負債がある",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借金を負う、負債がある"
+      },
+      "shn:1783945288517": {
+        "word": "ယွၼ်းၵူႈ",
+        "gloss": "借金を申し込む、借りる",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借金を申し込む、借りる"
+      },
+      "shn:1783945288685": {
+        "word": "သိမ်းပႅင်း",
+        "gloss": "保管する、大切に貯める",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "保管する、大切に貯める"
+      },
+      "shn:1783945288818": {
+        "word": "ဢၼ်ၵႃႈ",
+        "gloss": "高価なもの、高い品",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "高価なもの、高い品"
+      },
+      "shn:1783945288893": {
+        "word": "ၵူႈယိမ်",
+        "gloss": "借りる、貸す",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "借りる、貸す"
+      },
+      "shn:1783945288897": {
+        "word": "ၵေးလၢင်း",
+        "gloss": "資本、元手、起業資金",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "資本、元手、起業資金"
+      },
+      "shn:1783945288946": {
+        "word": "ၵႃႈထုၵ်ႇ",
+        "gloss": "安い、手頃な価格である",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "安い、手頃な価格である"
+      },
+      "shn:1783945288947": {
+        "word": "ၵႃႈပေႃး",
+        "gloss": "（豊富にあるため）安い",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（豊富にあるため）安い"
+      },
+      "shn:1783945288949": {
+        "word": "ၵႃႈၶၢတ်ႇ",
+        "gloss": "賃金、賃貸料、家賃",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [
+            "commerce"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賃金、賃貸料、家賃"
+      },
+      "shn:1783945289236": {
+        "word": "ၽၼ်ႇတႃႇ",
+        "gloss": "財宝、宝庫、蓄えられた物品（語源等：パーリ語）",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "財宝、宝庫、蓄えられた物品（語源等：パーリ語）"
       }
     }
   },
@@ -27096,7 +33750,7 @@
   },
   "coverage": {
     "burmese": {
-      "scope": "legacy-category-eligible-01-02-03-04-05-06-07-08-11",
+      "scope": "legacy-category-eligible-01-02-03-04-05-06-07-08-09-10-11",
       "major_ids": [
         "01",
         "02",
@@ -27106,16 +33760,18 @@
         "06",
         "07",
         "08",
+        "09",
+        "10",
         "11"
       ],
-      "scope_candidates": 946,
-      "classified": 747,
-      "review_pending": 199,
+      "scope_candidates": 1178,
+      "classified": 875,
+      "review_pending": 303,
       "untriaged": 0,
-      "other_classic_cards": 1554
+      "other_classic_cards": 1322
     },
     "shan": {
-      "scope": "legacy-category-eligible-01-02-03-04-05-06-07-08-11",
+      "scope": "legacy-category-eligible-01-02-03-04-05-06-07-08-09-10-11",
       "major_ids": [
         "01",
         "02",
@@ -27125,18 +33781,20 @@
         "06",
         "07",
         "08",
+        "09",
+        "10",
         "11"
       ],
-      "scope_candidates": 1476,
-      "classified": 873,
-      "review_pending": 603,
+      "scope_candidates": 1858,
+      "classified": 1115,
+      "review_pending": 743,
       "untriaged": 0,
-      "other_classic_cards": 4004
+      "other_classic_cards": 3622
     }
   },
   "counts": {
-    "burmese": 747,
-    "shan": 873
+    "burmese": 875,
+    "shan": 1115
   },
   "medium_counts": {
     "burmese": {
@@ -27172,6 +33830,14 @@
       "08.01": 17,
       "08.02": 20,
       "08.04": 2,
+      "09.01": 10,
+      "09.02": 20,
+      "09.03": 11,
+      "09.04": 29,
+      "10.01": 15,
+      "10.02": 9,
+      "10.03": 9,
+      "10.04": 25,
       "11.01": 15,
       "11.02": 14,
       "11.03": 27,
@@ -27211,6 +33877,14 @@
       "08.02": 13,
       "08.03": 6,
       "08.04": 3,
+      "09.01": 6,
+      "09.02": 43,
+      "09.03": 15,
+      "09.04": 45,
+      "10.01": 41,
+      "10.02": 20,
+      "10.03": 23,
+      "10.04": 49,
       "11.01": 14,
       "11.02": 32,
       "11.03": 34,

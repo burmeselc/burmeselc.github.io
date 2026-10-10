@@ -30,7 +30,7 @@ test('explicit preserved POS disagreements are evidence for review, not linguist
 test('ambiguous/cross-domain detail holds preserve glosses and are not classified',()=>{
  const holds=load('study-details-holds-v1.json'),details=load('study-details-pilot-v1.json');
  const decks={burmese:new Map(load('burmese.json').map(x=>[x.id,x])),shan:parents};
- assert.equal(holds.records.length,802);
+ assert.equal(holds.records.length,1046);
  for(const r of holds.records){
   assert.equal(r.gloss,decks[r.language].get(r.card_id).japanese_core);
   assert.ok(!details.cards[r.language][r.card_id]);
