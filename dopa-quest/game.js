@@ -7,7 +7,7 @@ let mode='campaign', S={}, voices=[], ctx=null, nextTimeout=null;
 const fresh=()=>({xp:0,coin:0,totalQ:0,totalCorrect:0,bestCombo:0,day:'',daily:{q:0,revenge:0,prod:0,rewarded:false},words:{},rivals:{},issues:{},sound:true,slowCorrect:false,migratedFrom:'',reviewLog:[]});
 function loadLocal(){try{let raw=localStorage.getItem(KEY);if(raw)return {...fresh(),...JSON.parse(raw)};raw=localStorage.getItem(OLDKEY);if(raw)return {...fresh(),...JSON.parse(raw),migratedFrom:'v4'};}catch(e){}return fresh()}
 let P=loadLocal();
-function ensureProfile(){if(!P.words||typeof P.words!=='object')P.words={};if(!P.rivals||typeof P.rivals!=='object')P.rivals={};if(!P.issues||typeof P.issues!=='object')P.issues={};if(!P.daily)P.daily=fresh().daily;if(!Array.isArray(P.reviewLog))P.reviewLog=[];}
+function ensureProfile(){if(!P.words||typeof P.words!=='object')P.words={};if(!P.rivals||typeof P.rivals!=='object')P.rivals={};if(!P.issues||typeof P.issues!=='object')P.issues={};if(!P.daily)P.daily=fresh().daily;if(!Array.isArray(P.reviewLog))P.reviewLog=[];window.DOPA_FLASH_ENGINE?.ensure(P);}
 ensureProfile();
 function normalizeSoundPrefs(){
  const modes=['off','quiet','standard','flashy'];
@@ -20,7 +20,7 @@ normalizeSoundPrefs();
 function today(){let d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
 function rollover(){if(P.day!==today()){P.day=today();P.daily={q:0,revenge:0,prod:0,rewarded:false}}}
 rollover();
-function save(){try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){console.warn('local save unavailable',e)}renderProfile();window.DOPACloud?.scheduleUpload?.()}
+function save(){window.DOPA_FLASH_ENGINE?.ensure(P);try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){console.warn('local save unavailable',e)}renderProfile();window.DOPACloud?.scheduleUpload?.()}
 function getW(x){return P.words[x.id]||null}
 function W(x){let w=P.words[x.id];if(!w){w={seen:0,correct:0,wrong:0,rec:0,prod:0,listen:0,spell:0,last:0,lastCorrect:0,nextDue:0,nemesis:false,seals:0,days:{},due:{}};P.words[x.id]=w}
  if(!w.due)w.due={};if(!w.days)w.days={};if(!Number.isFinite(w.spell))w.spell=0;if(!Number.isFinite(w.listen))w.listen=0;
@@ -335,7 +335,7 @@ function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode
    };
  });
  $('backupBtn').onclick=()=>{download('dopa_quest_v6_progress.json',{format:'DOPA_QUEST_V5',exportedAt:new Date().toISOString(),profile:P});toast('進捗・RIVAL・校閲候補を出力しました')};
- $('loadBtn').onclick=()=>$('loadFile').click();$('loadFile').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let o=JSON.parse(await f.text());if(!['DOPA_QUEST_V4','DOPA_QUEST_V5'].includes(o.format)||!o.profile||!o.profile.words)throw Error('invalid');if(Object.keys(P.words).length&&!confirm('現在の進捗を読み込んだファイルの内容で置き換へます。実行しますか？'))return;P={...fresh(),...o.profile,migratedFrom:o.format==='DOPA_QUEST_V4'?'v4':''};ensureProfile();normalizeSoundPrefs();rollover();save();renderZoneStats();refreshSoundControls();toast('進捗を読み込みました')}catch(err){toast('進捗ファイルを読めません')}finally{e.target.value=''}};
+ $('loadBtn').onclick=()=>$('loadFile').click();$('loadFile').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let o=JSON.parse(await f.text());if(!['DOPA_QUEST_V4','DOPA_QUEST_V5'].includes(o.format)||!o.profile||!o.profile.words)throw Error('invalid');if(Object.keys(P.words).length&&!confirm('現在の進捗を読み込んだファイルの内容で置き換へます。実行しますか？'))return;P={...fresh(),...o.profile,migratedFrom:o.format==='DOPA_QUEST_V4'?'v4':''};ensureProfile();normalizeSoundPrefs();rollover();save();renderZoneStats();refreshSoundControls();window.dispatchEvent(new Event('dopa-profile-restored'));toast('進捗を読み込みました')}catch(err){toast('進捗ファイルを読めません')}finally{e.target.value=''}};
  $('typedAnswer').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();submitTyped()}});
  document.addEventListener('keydown',e=>{if($('game').classList.contains('hidden')||S.cur?.typed||['INPUT','TEXTAREA'].includes(document.activeElement?.tagName))return;let n=+e.key;if(n>=1&&n<=4){let b=$('choices').children[n-1];if(b&&!b.disabled)b.click()}});
  $('modeHelp').textContent=modeText();updateZones();renderProfile();refreshSoundControls();
@@ -343,6 +343,34 @@ function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode
 }
 window.DOPA_SYNC_API = {
   snapshot(){return JSON.parse(JSON.stringify(P))},
+  flashcardContext(){
+    const lang=$('lang').value;
+    const deck=activeDeck(lang).filter(x=>String(x.game_include??'1')!=='0');
+    return {lang,pool:zonePool(),allDeck:deck,
+      flashcards:JSON.parse(JSON.stringify(window.DOPA_FLASH_ENGINE.ensure(P)))};
+  },
+  flashcardSettings(newLimit,reviewLimit){
+    const f=window.DOPA_FLASH_ENGINE.ensure(P);
+    if(!Number.isInteger(newLimit)||newLimit<0||newLimit>500||
+       !Number.isInteger(reviewLimit)||reviewLimit<0||reviewLimit>2000)
+      throw Error('Invalid flashcard daily limits');
+    f.settings.newPerDay=newLimit;f.settings.reviewPerDay=reviewLimit;
+    save();return {...f.settings};
+  },
+  flashcardRate(id,direction,rating){
+    const engine=window.DOPA_FLASH_ENGINE;
+    if(!engine.DIRECTIONS.includes(direction)||!engine.RATINGS.includes(rating)||
+       !byId[id]||String(byId[id].game_include??'1')==='0')
+      throw Error('Invalid flashcard rating target');
+    const now=Date.now(),f=engine.ensure(P,now);
+    const current=engine.entry(f.cards,id,direction);
+    const next=engine.schedule(current,rating,now);
+    if(!f.cards[id])f.cards[id]={};
+    f.cards[id][direction]=next;
+    if(!current)f.daily.newCount++;
+    else if(current.state==='review'&&engine.isDue(current,now))f.daily.reviewCount++;
+    save();return next;
+  },
   restore(profile){if(!profile||typeof profile!=='object'||!profile.words||!profile.rivals)throw Error('Invalid profile');
     P={...fresh(),...profile};ensureProfile();normalizeSoundPrefs();rollover();
     localStorage.setItem(KEY,JSON.stringify(P));
@@ -350,6 +378,7 @@ window.DOPA_SYNC_API = {
     if($('slowCorrect'))$('slowCorrect').checked=!!P.slowCorrect;
     $('result').classList.add('hidden');$('game').classList.add('hidden');
     $('setup').classList.remove('hidden');$('profile').classList.remove('hidden');
+    window.dispatchEvent(new Event('dopa-profile-restored'));
   }
 };
 init();

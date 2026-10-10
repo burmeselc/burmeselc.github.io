@@ -229,6 +229,9 @@
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
   game.onload=()=>{
+    const flashUI=document.createElement('script');flashUI.src='./flashcards-ui.js';
+    flashUI.onerror=()=>{console.warn('Optional flashcard UI unavailable; existing QUEST is unaffected')};
+    document.body.appendChild(flashUI);
     // Preview/CDN origins must never run production cloud sign-in or sync.
     if(window.DOPA_FIREBASE_CONFIG?.projectId&&location.hostname==='burmeselc.github.io'){
       const s=document.createElement('script');s.type='module';s.src='./cloud-sync.js';
