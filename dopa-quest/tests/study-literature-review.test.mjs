@@ -65,7 +65,7 @@ test('invalid batch data fail closed, leaving old results and immutable source d
  assert.throws(()=>extendReviewBatch(taxonomy,category18,invalid,decks,semantic),/Stale/);
  invalid=deep(literature);invalid.cards.burmese[0].tags.field=['fictional'];
  assert.throws(()=>extendReviewBatch(taxonomy,category18,invalid,decks,semantic),/Invalid review batch tag/);
- invalid=deep(literature);invalid.cards.shan[0].medium='13.02';
+ invalid=deep(literature);invalid.cards.shan.find(x=>x.status==='gloss-reviewed-pilot-candidate').medium='13.02';
  assert.throws(()=>extendReviewBatch(taxonomy,category18,invalid,decks,semantic),/Invalid review batch candidate/);
  invalid=deep(literature);invalid.cards.shan[0].id=invalid.cards.shan[1].id;
  assert.throws(()=>extendReviewBatch(taxonomy,category18,invalid,decks,semantic),/Stale/);
