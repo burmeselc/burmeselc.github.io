@@ -7,10 +7,10 @@ const load=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url
 const taxonomy=load('study-taxonomy-v1.json'),details=load('study-details-pilot-v1.json');
 const decks={burmese:load('burmese.json'),shan:[...load('shan-1.json'),...load('shan-2.json')]};
 const engine=create(taxonomy,details,decks),clone=x=>structuredClone(x);
-test('pilot has 1102 exact reviewed existing IDs and 77 stable middle categories',()=>{
+test('pilot has 1620 exact reviewed existing IDs and 77 stable middle categories',()=>{
  assert.equal(engine.mediums.size,77);
- assert.equal(Object.keys(details.cards.burmese).length,547);
- assert.equal(Object.keys(details.cards.shan).length,555);
+ assert.equal(Object.keys(details.cards.burmese).length,747);
+ assert.equal(Object.keys(details.cards.shan).length,873);
  for(const l of ['shan','burmese']){
   const majors=load(l+'-categories-v1.json').cards;
   for(const x of decks[l]){
@@ -57,7 +57,7 @@ const getDistractors=new Function('window','orig','jp','glossOverlap','pos','ind
  x=>x.game_pos,(x,l)=>Number(l==='shan'?x.rank:x.order),x=>x,()=>[],{}
 );
 test('reviewed middle categories provide non-colliding four choices in both directions',()=>{
- for(const l of ['shan','burmese'])for(const medium of ['01.01','01.02','01.03','02.01','02.02','03.01','06.01','07.01','08.01','08.02','11.03']){
+ for(const l of ['shan','burmese'])for(const medium of ['01.01','01.02','01.03','02.01','02.02','03.01','04.01','04.02','04.04','05.01','05.02','05.03','05.04','06.01','07.01','08.01','08.02','11.03']){
   const pool=decks[l].filter(x=>engine.matches(x,l,{medium}));
   assert.ok(pool.length>=4);
   for(const item of pool)for(const dir of ['toJP','fromJP']){
@@ -85,14 +85,14 @@ test('explicit reviewed synonym conflicts prevent alternative correct television
  assert.equal(engine.canContrast(first,{...old,japanese_core:'新しい意味'},'burmese'),true);
 });
 
-test('seven-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
+test('nine-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
  for(const l of ['shan','burmese']){
   const c=details.coverage[l];assert.equal(c.untriaged,0);
   assert.equal(c.scope_candidates,c.classified+c.review_pending);
   assert.equal(c.classified,Object.keys(details.cards[l]).length);
  }
- assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,1628);
- assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,526);
+ assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,2422);
+ assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,802);
 });
 
 test('etymology annotation does not turn two sapphire cards into different answers',()=>{
@@ -108,4 +108,19 @@ test('a sparse grooming category cannot borrow clothing or housing distractors',
  assert.equal(getDistractors(pool[0],pool,'shan','toJP').length,0);
  assert.equal(details.cards.shan['shn:1783945289096'],undefined);
  assert.equal(details.cards.burmese['bur:1395615743556'],undefined);
+});
+
+test('usage tags distinguish explicit restrictions from a merely usual collocation',()=>{
+ const restricted=decks.shan.find(x=>x.id==='shn:1783945285305');
+ const usual=decks.shan.find(x=>x.id==='shn:1783945289314');
+ const formal=decks.shan.find(x=>x.id==='shn:1783945285372');
+ assert.ok(engine.matches(restricted,'shan',{tag:'usage:bound_usage'}));
+ assert.ok(!engine.matches(usual,'shan',{tag:'usage:bound_usage'}));
+ assert.ok(engine.matches(formal,'shan',{tag:'usage:formal'}));
+});
+test('kinship mixed with nonkinship address does not inherit a narrow family annotation',()=>{
+ const x=decks.shan.find(x=>x.japanese_core==='祖父；おじいさん（年配男性への尊称）');
+ assert.ok(x);assert.equal(engine.annotation(x,'shan'),null);
+ assert.equal(engine.matches(x,'shan',{medium:'05.02'}),false);
+ assert.equal(engine.matches(x,'shan'),true);
 });

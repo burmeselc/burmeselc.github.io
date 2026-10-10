@@ -124,7 +124,7 @@ function updateDetailFilters(){
  }).join('');
  tag.value=tagIds.has(oldTag)?oldTag:'all';
  const count=deck.filter(x=>engine.matches(x,l,detailFilters())).length;
- if(notice)notice.textContent='自然・生物・身体・食物・衣服・住居・道具や交通の一部を試験分類。訳語による確認で、原辞書の照合は未完了です。'+
+ if(notice)notice.textContent='既存語彙の一部を試験分類。訳語による確認で、原辞書の照合は未完了です。'+
   (engine.coverage?.[l]?(engine.coverage[l].major_ids||['03','06','11']).length+'領域の従来カテゴリ対象 '+engine.coverage[l].scope_candidates+'件：分類済み '+engine.coverage[l].classified+'、保留 '+engine.coverage[l].review_pending+'。':'')+
   (detailFilterActive()?'絞り込み '+count+'件（エリア指定前）。四択に足りない語は開始時に除外します。':'このデッキで詳細分類済み '+annotated.length+'件。未分類の語も限定しなければ学べます。');
  detailReviewLimit=20;renderDetailReview();
