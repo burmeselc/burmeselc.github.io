@@ -138,6 +138,41 @@
     } catch(err){alert('語彙の保存に失敗しました：'+err.message)}
     finally{e.target.value=''}
   };
+  // Optional detailed filters: network or validation failure leaves ordinary play available.
+  window.DOPA_DETAIL=null;
+  try{
+    const [taxonomy,details]=await Promise.all(['study-taxonomy-v1.json','study-details-pilot-v1.json'].map(async name=>{
+      const r=await fetch('./data/'+name,{cache:'no-cache'});
+      if(!r.ok)throw Error('study details HTTP '+r.status);
+      return r.json();
+    }));
+    let usableDetails=details;
+    try{
+      const supplementResponse=await fetch('./data/study-details-category18-review-v1.json',{cache:'no-cache'});
+      if(!supplementResponse.ok)throw Error('category 18 review HTTP '+supplementResponse.status);
+      const supplement=await supplementResponse.json();
+      usableDetails=window.DOPAStudyDetails.extendCategory18(taxonomy,details,supplement,defaults,{
+        burmese:burmeseSemantic,shan:shanSemantic
+      });
+    }catch(e){console.warn('Category 18 pilot unavailable; retaining first 17 domains',e)}
+    try{
+      const reviewResponse=await fetch('./data/study-details-literature-review-v1.json',{cache:'no-cache'});
+      if(!reviewResponse.ok)throw Error('literature review HTTP '+reviewResponse.status);
+      const reviewedBatch=await reviewResponse.json();
+      usableDetails=window.DOPAStudyDetails.extendReviewBatch(taxonomy,usableDetails,reviewedBatch,defaults,{
+        burmese:burmeseSemantic,shan:shanSemantic
+      });
+    }catch(e){console.warn('Literature/history review batch unavailable; retaining preceding details',e)}
+    try{
+      const response=await fetch('./data/study-major-corrections-reviewed-v1.json',{cache:'no-cache'});
+      if(!response.ok)throw Error('major corrections HTTP '+response.status);
+      const reviewed=await response.json();
+      usableDetails=window.DOPAStudyDetails.extendMajorCorrections(taxonomy,usableDetails,reviewed,defaults,{
+        burmese:burmeseSemantic,shan:shanSemantic
+      });
+    }catch(e){console.warn('Major-domain correction pilot unavailable; retaining preceding details',e)}
+    window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
+  }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
   game.onload=()=>{

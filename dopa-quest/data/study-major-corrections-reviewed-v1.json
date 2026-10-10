@@ -1,0 +1,645 @@
+{
+  "schema": "dopa-major-correction-review-v1",
+  "scope": "known-33-legacy-major-mismatches",
+  "basis": "Existing Japanese core gloss and original embedded English gloss; independent lexicographic/speaker check pending",
+  "production_applied": false,
+  "legacy_major_map_changed": false,
+  "original_cards_modified": 0,
+  "cards": {
+    "burmese": [
+      {
+        "id": "bur:1400456807509",
+        "word": "ဆောင်းရာသီ",
+        "gloss": "涼季、寒季",
+        "english": "cold season",
+        "existing_major": "03",
+        "proposed_medium": "01.03",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "temporal"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1400456730795",
+        "word": "နွေရာသီ",
+        "gloss": "暑季",
+        "english": "hot season",
+        "existing_major": "06",
+        "proposed_medium": "01.03",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "temporal"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1403371976547",
+        "word": "မှန်ဘီလူး",
+        "gloss": "虫眼鏡、拡大鏡",
+        "english": "magnifying glass",
+        "existing_major": "06",
+        "proposed_medium": "11.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1404684526268",
+        "word": "လယ်သမား",
+        "gloss": "稲作農家",
+        "english": "rice farmer",
+        "existing_major": "06",
+        "proposed_medium": "10.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "agriculture"
+          ],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1468248114216",
+        "word": "ရုံးပတီသီး",
+        "gloss": "オクラ",
+        "english": "okra, lady's finger",
+        "existing_major": "03",
+        "proposed_medium": "06.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant",
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1423655715259",
+        "word": "စိတ်ပူ",
+        "gloss": "心配する（字義：心が熱い）",
+        "english": "to worry (lit. to have a hot heart)",
+        "existing_major": "03",
+        "proposed_medium": "04.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "mental"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1438170898220",
+        "word": "ငြီးငွေ့",
+        "gloss": "うんざりする、飽き飽きする",
+        "english": "to be sick of",
+        "existing_major": "03",
+        "proposed_medium": "04.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [
+            "mental"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1464596515369",
+        "word": "စိတ်ရှည်",
+        "gloss": "辛抱強い、忍耐強い",
+        "english": "to be patient",
+        "existing_major": "03",
+        "proposed_medium": "04.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "mental"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1458438223102",
+        "word": "လူလတ်",
+        "gloss": "中年の人",
+        "english": "middle-aged person",
+        "existing_major": "03",
+        "proposed_medium": "05.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1401389225590",
+        "word": "တူးရစ်",
+        "gloss": "観光客",
+        "english": "tourist",
+        "existing_major": "11",
+        "proposed_medium": "05.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1395615743556",
+        "word": "အိပ်",
+        "gloss": "寝る、眠る",
+        "english": "to sleep",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1400455109215",
+        "word": "သွားအိပ်",
+        "gloss": "寝に行く、就寝する",
+        "english": "to go to sleep",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1409400614606",
+        "word": "အိပ်ပျော်",
+        "gloss": "眠っている",
+        "english": "to be asleep",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1409407696036",
+        "word": "နိုး",
+        "gloss": "目を覚ます、起きる",
+        "english": "to wake up",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1560605686702",
+        "word": "ဟတ်ချိုးချေ",
+        "gloss": "くしゃみをする",
+        "english": "to sneeze",
+        "existing_major": "07",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      }
+    ],
+    "shan": [
+      {
+        "id": "shn:1783945284269",
+        "word": "ႁူဝ်ပဝ်ႈ",
+        "gloss": "責任者、社長、会長、委員長",
+        "english": "head, president (of a company), chairman (of a committee)",
+        "existing_major": "03",
+        "proposed_medium": "05.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human",
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286468",
+        "word": "ပူႇၵၢင်ႉ",
+        "gloss": "村長",
+        "english": "head of a village",
+        "existing_major": "03",
+        "proposed_medium": "09.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human",
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286929",
+        "word": "ၵႄး",
+        "gloss": "河川、川、流れ",
+        "english": "body of running water, river",
+        "existing_major": "03",
+        "proposed_medium": "01.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287009",
+        "word": "ႁူင်းၶဝ်ႈ",
+        "gloss": "稲の穂",
+        "english": "ear or spike of the rice plant",
+        "existing_major": "03",
+        "proposed_medium": "02.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945285097",
+        "word": "ၽိုၼ်လိၵ်ႈ",
+        "gloss": "記事、雑誌、定期刊行物、会報；パンフレット",
+        "english": "literary articles, as journal, periodical, newsletter; brochure, pamplet",
+        "existing_major": "06",
+        "proposed_medium": "13.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286752",
+        "word": "ပွႆးလၢမ်း",
+        "gloss": "祭り、フェスティバル（全般）",
+        "english": "feast, festival, entertainment (of any kind)",
+        "existing_major": "06",
+        "proposed_medium": "12.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "social"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287880",
+        "word": "ၵႂၢမ်းဝၢၼ်",
+        "gloss": "甘い言葉、心地よい言葉",
+        "english": "sweet, pleasant words",
+        "existing_major": "06",
+        "proposed_medium": "13.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286728",
+        "word": "ထီႇၼဵဝ်",
+        "gloss": "けちである、欲深い、しみったれた",
+        "english": "be close, niggardly, miserly, stingy",
+        "existing_major": "11",
+        "proposed_medium": "04.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [
+            "evaluative"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945285963",
+        "word": "ၼင်ႇဢၼ်",
+        "gloss": "～に従って、～の通りに",
+        "english": "according to, in accordance with",
+        "existing_major": "11",
+        "proposed_medium": null,
+        "status": "needs-source-review",
+        "reason": "grammar-marker-function-needs-context",
+        "tags": null
+      },
+      {
+        "id": "shn:1783945285344",
+        "word": "သိမ်ႇ",
+        "gloss": "戒壇、僧儀用の堂、シマ（結界内）",
+        "english": "building set apart for the performance of certain rites pertaining to the Buddhist monkhood; a sanctuary （語源等：Burmese）",
+        "existing_major": "11",
+        "proposed_medium": "12.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945284474",
+        "word": "ၼွၼ်း",
+        "gloss": "横になる；眠る",
+        "english": "be recumbent, recline; sleep",
+        "existing_major": "08",
+        "proposed_medium": null,
+        "status": "needs-source-review",
+        "reason": "posture-versus-sleep-parent-gloss",
+        "tags": null
+      },
+      {
+        "id": "shn:1783945284612",
+        "word": "ၸၢမ်",
+        "gloss": "くしゃみをする",
+        "english": "sneeze,",
+        "existing_major": "07",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286100",
+        "word": "ၼွၼ်းလပ်း",
+        "gloss": "眠る、眠っている状態",
+        "english": "sleep, be asleep",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286453",
+        "word": "တႃၼွၼ်း",
+        "gloss": "眠気、眠りたい欲求",
+        "english": "sleepiness, desire of going to sleep",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287524",
+        "word": "တႃၼွၼ်းလူႉ",
+        "gloss": "睡眠不足である、眠りを妨げられる",
+        "english": "have not enough sleep, have a disturbed sleep",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945288009",
+        "word": "ၼွၼ်းမိုၼ်းတႃ",
+        "gloss": "目を大きく開けたまま寝る",
+        "english": "sleep with the eyes wide open",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945289168",
+        "word": "ၼွၼ်းလူင်",
+        "gloss": "ぐっすり眠る；なかなか起きない",
+        "english": "sleep soundly; be difficult to wake",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945289169",
+        "word": "ၼွၼ်းၸွမ်း",
+        "gloss": "一緒に寝る",
+        "english": "sleep together",
+        "existing_major": "08",
+        "proposed_medium": "03.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "reason": null,
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      }
+    ]
+  },
+  "counts": {
+    "burmese": {
+      "total": 15,
+      "candidates": 15,
+      "held": 0
+    },
+    "shan": {
+      "total": 18,
+      "candidates": 16,
+      "held": 2
+    }
+  }
+}
