@@ -12,7 +12,7 @@ test('500+ provisional new parent classifications and old history remain usable 
   const got=await page.evaluate(()=>{
    const d=window.DOPA_DETAIL,p=window.DOPA_DATA;
    const b=p.burmese.find(x=>x.id==='bur:1394276921941');
-   const sh=p.shan.find(x=>x.id==='shn:1783945283952');
+   const sh=p.shan.find(x=>x.id==='shn:1783945283872');
    const held=p.shan.find(x=>x.id==='shn:1783945283871');
    return {burmese:d.coverage.burmese.classified,shan:d.coverage.shan.classified,
     remaining:d.coverage.burmese.review_pending+d.coverage.shan.review_pending,
@@ -25,7 +25,7 @@ test('500+ provisional new parent classifications and old history remain usable 
   assert.equal(got.burmese,2205);assert.equal(got.shan,2702);
   assert.equal(got.remaining,1561);
   assert.equal(got.b,'17.03');
-  assert.equal(got.s,'16.04');
+  assert.equal(got.s,'13.01');
   assert.equal(got.held,null);
   assert.equal(got.progress,0);assert.equal(got.overflow,false);
   assert.deepEqual(errors,[]);
