@@ -62,7 +62,7 @@ function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.seman
 function domainEligible(x,l){
  const control=$('semanticCategory');
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
-  (effectiveMajor(x,l)===control.value&&['P','R'].includes(x.semantic_status));
+  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&['P','R'].includes(x.semantic_status));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
