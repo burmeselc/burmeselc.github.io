@@ -71,6 +71,61 @@
    }
    return next;
   },
+  // Optional source-gloss cross-checked batches fill former holds without changing original IDs.
+  extendReviewBatch(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||batch?.schema!=='dopa-study-review-batch-v1'||
+      batch.scope!=='legacy-major-12-literature-history-held-proposals'||
+      batch.production_applied!==false||batch.original_cards_modified!==0)
+     throw Error('Unsupported review batch');
+   const mediums=new Map((taxonomy.categories||[]).flatMap(c=>c.children.map(m=>[m.id,c.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const next={...base,cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    coverage:{...base.coverage},counts:{...base.counts},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const original=new Map(decks[lang].map(x=>[x.id,x]));
+    const rows=batch.cards?.[lang],expected=batch.counts?.[lang];
+    if(!Array.isArray(rows)||!expected||rows.length!==(lang==='burmese'?9:7)||
+       expected.total!==rows.length||!semantic?.[lang]?.cards)throw Error('Invalid review batch inventory');
+    let added=0;const seen=new Set(),byGloss=new Map();
+    for(const r of rows){
+     const x=original.get(r.id),legacy=semantic[lang].cards[r.id];
+     if(seen.has(r.id)||!x||base.cards[lang][r.id]||
+        x[lang]!==r.word||x.japanese_core!==r.gloss||x.english!==r.english||
+        legacy?.[0]!=='12'||!['P','R'].includes(legacy?.[1]))
+       throw Error('Stale review batch entry '+r.id);
+     seen.add(r.id);
+     if(r.status==='needs-source-review'){
+      if(r.medium!==null||r.tags!==null||!r.reason)throw Error('Invalid held review batch entry');
+      continue;
+     }
+     if(r.status!=='gloss-reviewed-pilot-candidate'||!['12.05','12.06'].includes(r.medium)||
+        mediums.get(r.medium)!=='12'||!r.tags||Object.keys(r.tags).length!==axes.size)
+      throw Error('Invalid review batch candidate');
+     for(const [axis,allowed] of axes){
+      const values=r.tags[axis];
+      if(!Array.isArray(values)||new Set(values).size!==values.length||
+         values.some(v=>!allowed.has(v)))throw Error('Invalid review batch tag');
+     }
+     next.cards[lang][r.id]={word:r.word,gloss:r.gloss,medium:r.medium,
+      tags:r.tags,review_status:'gloss-reviewed-pilot',evidence:r.gloss};
+     next.medium_counts[lang][r.medium]=(next.medium_counts[lang][r.medium]||0)+1;
+     const ids=byGloss.get(r.gloss)||[];ids.push(r.id);byGloss.set(r.gloss,ids);
+     added++;
+    }
+    if(added!==expected.candidates||rows.length-added!==expected.held)
+     throw Error('Review batch count mismatch');
+    for(const ids of byGloss.values())if(ids.length>1)next.choice_conflicts[lang].push({
+     ids,reason:'同じ日本語定義をもつ文学・歴史語は互ひの誤答にしない。'});
+    next.coverage[lang]={...base.coverage[lang],
+     classified:base.coverage[lang].classified+added,
+     review_pending:base.coverage[lang].review_pending-added};
+    if(next.coverage[lang].review_pending<0)throw Error('Review batch exceeds held inventory');
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
