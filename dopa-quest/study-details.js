@@ -21,6 +21,15 @@
      cards[l].set(id,a);
     }
    }
+   const conflicts={shan:new Map(),burmese:new Map()};
+   for(const l of ['shan','burmese'])for(const group of metadata.choice_conflicts?.[l]||[]){
+    if(!Array.isArray(group.ids)||new Set(group.ids).size<2||group.ids.some(id=>!cards[l].has(id)))throw Error('Invalid choice conflict');
+    for(const id of group.ids){
+     const set=conflicts[l].get(id)||new Set();
+     group.ids.filter(other=>other!==id).forEach(other=>set.add(other));
+     conflicts[l].set(id,set);
+    }
+   }
    function annotation(x,l){
     const a=cards[l]?.get(x.id);
     // User-imported replacements and split children never inherit parent details.
@@ -37,7 +46,10 @@
     }
     return true;
    }
-   return {taxonomy,mediums,annotation,matches};
+   function canContrast(a,b,l){
+    return !(annotation(a,l)&&annotation(b,l)&&conflicts[l].get(a.id)?.has(b.id));
+   }
+   return {taxonomy,mediums,annotation,matches,canContrast};
   }
  };
  root.DOPAStudyDetails=API;

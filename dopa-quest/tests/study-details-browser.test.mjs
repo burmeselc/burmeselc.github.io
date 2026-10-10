@@ -12,7 +12,7 @@ for(const lang of ['burmese','shan'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));await ready(page);
   await page.locator('#lang').selectOption(lang);
-  await page.locator('#studyDetailControls summary').click();
+  await page.locator('#studyDetailControls > summary').click();
   await page.locator('#semanticMedium').selectOption('03.01');
   await page.locator('#semanticTag').selectOption('feature:body_part');
   await page.locator('#direction').selectOption(dir);
@@ -48,8 +48,8 @@ test('sparse medium blocks launch; clearing filters restores all vocabulary',asy
  const browser=await chromium.launch({headless:true});
  try{
   const page=await browser.newPage();await ready(page);
-  await page.locator('#studyDetailControls summary').click();
-  await page.locator('#semanticMedium').selectOption('06.02');
+  await page.locator('#studyDetailControls > summary').click();
+  await page.locator('#semanticMedium').selectOption('11.04');
   await page.locator('.tab[data-mode="due"]').click();
   await page.locator('#start').click();
   assert.match(await page.locator('#toast').textContent(),/期限到来の復習語/);
@@ -68,7 +68,7 @@ test('major/language/sense switching never leaves incompatible active filters',a
  const browser=await chromium.launch({headless:true});
  try{
   const page=await browser.newPage();await ready(page);
-  await page.locator('#studyDetailControls summary').click();
+  await page.locator('#studyDetailControls > summary').click();
   await page.locator('#semanticMedium').selectOption('03.01');
   await page.locator('#semanticTag').selectOption('feature:body_part');
   await page.locator('#semanticCategory').selectOption('06');
@@ -99,5 +99,51 @@ for(const path of ['study-details-pilot-v1.json','study-taxonomy-v1.json'])test(
   assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),5480);
   await page.locator('#start').click();await page.locator('#game:not(.hidden)').waitFor();
   assert.equal(await page.locator('#choices button').count(),4);assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});
+
+test('review list reveals reviewed definitions and refreshes with the filters',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});await ready(page);
+  await page.locator('#lang').selectOption('burmese');
+  await page.locator('#studyDetailControls summary').first().click();
+  await page.locator('#studyDetailReview summary').click();
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/246件/);
+  assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
+  await page.locator('#studyDetailReviewMore').click();
+  assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
+  await page.locator('#semanticMedium').selectOption('06.02');
+  assert.equal(await page.locator('#studyDetailReviewList > div').count(),17);
+  assert.equal(await page.locator('#studyDetailReviewMore').isVisible(),false);
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
+  await page.screenshot({path:'dopa-study-details-review-mobile.png',fullPage:true});
+ }finally{await browser.close()}
+});
+for(const lang of ['shan','burmese'])test(lang+' expanded cooking category stays within its selected scope',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage();await ready(page);
+  await page.locator('#lang').selectOption(lang);
+  await page.locator('#studyDetailControls > summary').click();
+  await page.locator('#semanticMedium').selectOption('06.03');
+  await page.locator('#direction').selectOption('fromJP');
+  await page.locator('#start').click();await page.locator('#game:not(.hidden)').waitFor();
+  assert.equal(await page.locator('#choices button').count(),4);
+  assert.equal(await page.locator('#choices button').evaluateAll((bs,l)=>bs.every(b=>{
+   const x=window.DOPA_DATA[l].find(x=>x.id===b.dataset.itemid);
+   return window.DOPA_DETAIL.annotation(x,l)?.medium==='06.03';
+  }),lang),true);
+ }finally{await browser.close()}
+});
+test('loaded detail engine blocks annotated television synonyms in both directions',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage();await ready(page);
+  const valid=await page.evaluate(()=>{
+   const pool=window.DOPA_DATA.burmese,a=pool.find(x=>x.id==='bur:1398089095013'),b=pool.find(x=>x.id==='bur:1519420764107');
+   return ['toJP','fromJP'].every(dir=>!window.distractors(a,pool,'burmese',dir).some(x=>x.id===b.id)&&!window.distractors(b,pool,'burmese',dir).some(x=>x.id===a.id));
+  });assert.equal(valid,true);
  }finally{await browser.close()}
 });

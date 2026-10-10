@@ -87,7 +87,7 @@ function updateSemanticCategories(){
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 // Detailed study filters are session settings; they never rewrite profile/history data.
-let previousDetailDeck=null;
+let previousDetailDeck=null,detailReviewLimit=20;
 function detailFilters(){return {medium:$('semanticMedium')?.value||'all',tag:$('semanticTag')?.value||'all'}}
 function detailFilterActive(){const f=detailFilters();return f.medium!=='all'||f.tag!=='all'}
 function studyEligible(x,l){return domainEligible(x,l)&&(!window.DOPA_DETAIL||window.DOPA_DETAIL.matches(x,l,detailFilters()))}
@@ -103,7 +103,7 @@ function updateDetailFilters(){
  if(!available){
   medium.innerHTML=tag.innerHTML='<option value="all">限定しない</option>';
   if(notice)notice.textContent='詳細分類を利用できません。従来の全語彙学習を続けられます。';
-  return;
+  renderDetailReview();return;
  }
  const deck=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&domainEligible(x,l));
  const annotated=deck.filter(x=>engine.annotation(x,l));
@@ -126,6 +126,21 @@ function updateDetailFilters(){
  const count=deck.filter(x=>engine.matches(x,l,detailFilters())).length;
  if(notice)notice.textContent='食物・身体・道具や交通の一部を試験分類。訳語による確認で、原辞書の照合は未完了です。'+
   (detailFilterActive()?'絞り込み '+count+'件（エリア指定前）。四択に足りない語は開始時に除外します。':'このデッキで詳細分類済み '+annotated.length+'件。未分類の語も限定しなければ学べます。');
+ detailReviewLimit=20;renderDetailReview();
+}
+function renderDetailReview(){
+ const list=$('studyDetailReviewList'),summary=$('studyDetailReviewSummary'),more=$('studyDetailReviewMore');
+ if(!list||!summary||!more)return;
+ const engine=window.DOPA_DETAIL,l=$('lang').value;
+ const rows=engine&&DOMAIN_READY_BY_LANG[l]?activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l)&&engine.annotation(x,l)):[];
+ summary.textContent='分類済みの語を確認（'+rows.length+'件・エリア指定前）';
+ list.innerHTML=rows.slice(0,detailReviewLimit).map(x=>{
+  const a=engine.annotation(x,l),labels=Object.entries(a.tags).flatMap(([axis,values])=>values.map(v=>engine.taxonomy.tag_labels[axis][v]));
+  return '<div style="padding:8px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere"><b>'+esc(orig(x,l))+'</b><div>'+esc(jp(x))+'</div><div class="small">'+esc(engine.mediums.get(a.medium).label+' ／ '+labels.join('・'))+'</div></div>';
+ }).join('')||'<p class="small">この条件の詳細分類済みカードはありません。</p>';
+ more.classList.toggle('hidden',rows.length<=detailReviewLimit);
+ more.textContent='続きを表示（残り '+Math.max(0,rows.length-detailReviewLimit)+'件）';
+ more.onclick=()=>{detailReviewLimit+=20;renderDetailReview()};
 }
 function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return activeDeck(l).filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&studyEligible(x,l)})}
 function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats();refreshVoices()}
@@ -170,7 +185,7 @@ function qFor(x,retry=0,old=null){let w=getW(x),dir=old?.dir||adaptiveDir(x),typ
 function distractors(item,pool,l,dir){
  // In category lessons, S.pool includes the whole selected domain across rank zones; never add unrelated distractors.
 let targetLabel=dir==='fromJP'?orig(item,l):jp(item),ip=pos(item,l),ii=indexOf(item,l);
- let cand=pool.filter(x=>x.id!==item.id&&orig(x,l)!==orig(item,l)&&!glossOverlap(item,x)&&((dir==='fromJP'?orig(x,l):jp(x))!==targetLabel));let same=cand.filter(x=>pos(x,l)===ip);if(same.length>=3)cand=same;
+ let cand=pool.filter(x=>x.id!==item.id&&orig(x,l)!==orig(item,l)&&!glossOverlap(item,x)&&(typeof window==='undefined'||!window.DOPA_DETAIL||window.DOPA_DETAIL.canContrast(item,x,l))&&((dir==='fromJP'?orig(x,l):jp(x))!==targetLabel));let same=cand.filter(x=>pos(x,l)===ip);if(same.length>=3)cand=same;
  cand.sort((a,b)=>Math.abs(indexOf(a,l)-ii)-Math.abs(indexOf(b,l)-ii));let shortlist=shuffle(cand.slice(0,100));let riv=rivalsFor(item);let candidateIds=new Set(cand.map(x=>x.id));let special=riv.map(r=>byId[r.a===item.id?r.b:r.a]).filter(x=>x&&candidateIds.has(x.id));
  let labels=new Set([targetLabel]),seenSpelling=new Set([orig(item,l)]),out=[];
  for(let x of [...special,...shortlist,...shuffle(cand)]){
