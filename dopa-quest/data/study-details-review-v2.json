@@ -5492,6 +5492,2467 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "ビニール袋"
+      },
+      "bur:1395616269491": {
+        "word": "ရေ",
+        "gloss": "水",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "水"
+      },
+      "bur:1396104700701": {
+        "word": "ကြောင်",
+        "gloss": "猫",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "猫"
+      },
+      "bur:1396104732665": {
+        "word": "ခွေး",
+        "gloss": "犬",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "犬"
+      },
+      "bur:1396906784602": {
+        "word": "ဘဲ",
+        "gloss": "アヒル",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アヒル"
+      },
+      "bur:1396906831903": {
+        "word": "ကြက်",
+        "gloss": "鶏、ニワトリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鶏、ニワトリ"
+      },
+      "bur:1397254398596": {
+        "word": "မိုးရွာ",
+        "gloss": "雨が降る",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雨が降る"
+      },
+      "bur:1397415144083": {
+        "word": "ချောင်း",
+        "gloss": "小川、流れ",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小川、流れ"
+      },
+      "bur:1397415265533": {
+        "word": "အဏ္ဏဝါ",
+        "gloss": "海、大洋",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "海、大洋"
+      },
+      "bur:1397418250755": {
+        "word": "မြင်း",
+        "gloss": "馬",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "馬"
+      },
+      "bur:1397418622518": {
+        "word": "ကြယ်",
+        "gloss": "星",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "星"
+      },
+      "bur:1398087517835": {
+        "word": "ခြင်",
+        "gloss": "蚊、ブヨ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蚊、ブヨ"
+      },
+      "bur:1398088355368": {
+        "word": "ငါး",
+        "gloss": "魚",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "魚"
+      },
+      "bur:1398092131787": {
+        "word": "ပန်း",
+        "gloss": "花",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "花"
+      },
+      "bur:1398092167741": {
+        "word": "ရွှေ",
+        "gloss": "金、黄金",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "金、黄金"
+      },
+      "bur:1398092212609": {
+        "word": "မီးခိုး",
+        "gloss": "煙",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "煙"
+      },
+      "bur:1398092233714": {
+        "word": "မီး",
+        "gloss": "火",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "火"
+      },
+      "bur:1398607822344": {
+        "word": "မြ",
+        "gloss": "エメラルド",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エメラルド"
+      },
+      "bur:1398612585509": {
+        "word": "ဝက်",
+        "gloss": "豚",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "豚"
+      },
+      "bur:1400454731335": {
+        "word": "လပြည့်",
+        "gloss": "満月",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "満月"
+      },
+      "bur:1400456778537": {
+        "word": "မိုးရာသီ",
+        "gloss": "雨季",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雨季"
+      },
+      "bur:1401375904604": {
+        "word": "မှို",
+        "gloss": "キノコ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キノコ"
+      },
+      "bur:1401376192796": {
+        "word": "ရေခဲ",
+        "gloss": "氷",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "氷"
+      },
+      "bur:1401378699844": {
+        "word": "ကုလားအုတ်",
+        "gloss": "ラクダ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ラクダ"
+      },
+      "bur:1401389490851": {
+        "word": "ရာသီဥတု",
+        "gloss": "気候、天候",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "気候、天候"
+      },
+      "bur:1403369191061": {
+        "word": "ငှက်",
+        "gloss": "鳥",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鳥"
+      },
+      "bur:1403375116771": {
+        "word": "ကျား",
+        "gloss": "虎",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "虎"
+      },
+      "bur:1403375221756": {
+        "word": "တိရစ္ဆာန်",
+        "gloss": "動物",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "動物"
+      },
+      "bur:1403733430017": {
+        "word": "မြက်",
+        "gloss": "草",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "草"
+      },
+      "bur:1403733499998": {
+        "word": "သစ်ပင်",
+        "gloss": "木、樹木",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木、樹木"
+      },
+      "bur:1404081446737": {
+        "word": "အရွက်",
+        "gloss": "葉",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "葉"
+      },
+      "bur:1404082754161": {
+        "word": "နှင်း",
+        "gloss": "雪",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雪"
+      },
+      "bur:1404083666958": {
+        "word": "မိုးလေဝသ",
+        "gloss": "天気、気象",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "天気、気象"
+      },
+      "bur:1404083857510": {
+        "word": "လေ",
+        "gloss": "風",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "風"
+      },
+      "bur:1404084534211": {
+        "word": "သက်တံ",
+        "gloss": "虹",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "虹"
+      },
+      "bur:1404084749618": {
+        "word": "တိမ်",
+        "gloss": "雲",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雲"
+      },
+      "bur:1404567540045": {
+        "word": "စကြဝဠာ",
+        "gloss": "宇宙",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宇宙"
+      },
+      "bur:1404567602014": {
+        "word": "ဧရာဝတီမြစ်",
+        "gloss": "エーヤワディー川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エーヤワディー川"
+      },
+      "bur:1404681799652": {
+        "word": "စာကလေး",
+        "gloss": "スズメ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スズメ"
+      },
+      "bur:1404682473072": {
+        "word": "ယုန်",
+        "gloss": "ウサギ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ウサギ"
+      },
+      "bur:1404682573524": {
+        "word": "အိမ်မွေးတိရစ္ဆာန်",
+        "gloss": "ペット、飼育動物",
+        "medium": "02.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ペット、飼育動物"
+      },
+      "bur:1404682575906": {
+        "word": "ကြွက်",
+        "gloss": "ネズミ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ネズミ"
+      },
+      "bur:1404683295619": {
+        "word": "ငှက်မွေး",
+        "gloss": "羽毛、鳥の羽",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal",
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "羽毛、鳥の羽"
+      },
+      "bur:1404684667196": {
+        "word": "ခြင်္သေ့",
+        "gloss": "ライオン",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ライオン"
+      },
+      "bur:1404684802449": {
+        "word": "ဆင်",
+        "gloss": "象",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "象"
+      },
+      "bur:1404684822960": {
+        "word": "နွား",
+        "gloss": "牛",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "牛"
+      },
+      "bur:1404684845471": {
+        "word": "မျောက်",
+        "gloss": "猿",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "猿"
+      },
+      "bur:1404684862888": {
+        "word": "သိုး",
+        "gloss": "羊",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "羊"
+      },
+      "bur:1404684908961": {
+        "word": "အိမ်မြှောင်",
+        "gloss": "ヤモリ・小型トカゲ（家の中にいるもの）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヤモリ・小型トカゲ（家の中にいるもの）"
+      },
+      "bur:1404684972913": {
+        "word": "မြွေ",
+        "gloss": "蛇",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蛇"
+      },
+      "bur:1409399741828": {
+        "word": "ရေနဂါး",
+        "gloss": "タツノオトシゴ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タツノオトシゴ"
+      },
+      "bur:1409399866611": {
+        "word": "ပင်လယ်",
+        "gloss": "海",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "海"
+      },
+      "bur:1409400862079": {
+        "word": "ကျီး(ကန်း)",
+        "gloss": "カラス",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カラス"
+      },
+      "bur:1409407336684": {
+        "word": "ပုစွန်",
+        "gloss": "エビ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エビ"
+      },
+      "bur:1409408804908": {
+        "word": "လိပ်ပြာ",
+        "gloss": "蝶",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蝶"
+      },
+      "bur:1409412383839": {
+        "word": "ဆိတ်",
+        "gloss": "ヤギ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヤギ"
+      },
+      "bur:1409413963447": {
+        "word": "ပိုးဟပ်",
+        "gloss": "ゴキブリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ゴキブリ"
+      },
+      "bur:1409414039534": {
+        "word": "တောက်တဲ့",
+        "gloss": "ヤモリ、トッケイヤモリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヤモリ、トッケイヤモリ"
+      },
+      "bur:1409414140557": {
+        "word": "ရှဉ့်",
+        "gloss": "リス",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "リス"
+      },
+      "bur:1409416122178": {
+        "word": "ဖား",
+        "gloss": "カエル",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カエル"
+      },
+      "bur:1409421619256": {
+        "word": "ခို",
+        "gloss": "ハト",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハト"
+      },
+      "bur:1418252635331": {
+        "word": "စေ့",
+        "gloss": "種、種子",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "種、種子"
+      },
+      "bur:1418252725434": {
+        "word": "အမြစ်",
+        "gloss": "根",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "根"
+      },
+      "bur:1418252901769": {
+        "word": "အမြီး",
+        "gloss": "尾、しっぽ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal",
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尾、しっぽ"
+      },
+      "bur:1418253149450": {
+        "word": "သဲ",
+        "gloss": "砂",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "砂"
+      },
+      "bur:1418253207004": {
+        "word": "ပြာ",
+        "gloss": "灰、燃え殻",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "灰、燃え殻"
+      },
+      "bur:1418253261962": {
+        "word": "လောင်",
+        "gloss": "燃える（自動詞）",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "燃える（自動詞）"
+      },
+      "bur:1418254630511": {
+        "word": "ကြိမ်",
+        "gloss": "籐、ラタン",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "籐、ラタン"
+      },
+      "bur:1418855014689": {
+        "word": "ပျား",
+        "gloss": "蜂",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蜂"
+      },
+      "bur:1418855114976": {
+        "word": "ဆတ်",
+        "gloss": "サンバーなどの鹿",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サンバーなどの鹿"
+      },
+      "bur:1418855170393": {
+        "word": "ဒရယ်",
+        "gloss": "鹿",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鹿"
+      },
+      "bur:1418857361207": {
+        "word": "မိကျောင်း",
+        "gloss": "ワニ、アリゲーター",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ワニ、アリゲーター"
+      },
+      "bur:1418857602940": {
+        "word": "ကျွန်း",
+        "gloss": "島",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "島"
+      },
+      "bur:1418857638677": {
+        "word": "အိုင်",
+        "gloss": "池、水たまり（季節的なもの）",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "池、水たまり（季節的なもの）"
+      },
+      "bur:1418857684846": {
+        "word": "သမုဒ္ဒရာ",
+        "gloss": "大洋、海洋",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大洋、海洋"
+      },
+      "bur:1418858962635": {
+        "word": "ကြေး",
+        "gloss": "銅",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "銅"
+      },
+      "bur:1418859095707": {
+        "word": "မြည်း",
+        "gloss": "ロバ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ロバ"
+      },
+      "bur:1418859113410": {
+        "word": "လား",
+        "gloss": "ラバ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ラバ"
+      },
+      "bur:1418859332273": {
+        "word": "အစွယ်",
+        "gloss": "牙",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal",
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "牙"
+      },
+      "bur:1423652578187": {
+        "word": "ဂူ",
+        "gloss": "洞窟",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "洞窟"
+      },
+      "bur:1423654482403": {
+        "word": "စံပယ်ပန်း",
+        "gloss": "ジャスミン",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ジャスミン"
+      },
+      "bur:1423654637903": {
+        "word": "အပွင့်",
+        "gloss": "花、開花したもの",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "花、開花したもの"
+      },
+      "bur:1423656536846": {
+        "word": "ငါးရှဉ့်",
+        "gloss": "ウナギ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ウナギ"
+      },
+      "bur:1427593325745": {
+        "word": "ငုံး",
+        "gloss": "ウズラ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ウズラ"
+      },
+      "bur:1435365196603": {
+        "word": "ရွှံ့",
+        "gloss": "泥",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "泥"
+      },
+      "bur:1439691976339": {
+        "word": "ရေကြီး",
+        "gloss": "洪水；洪水になる",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "洪水；洪水になる"
+      },
+      "bur:1439692113734": {
+        "word": "အလင်းရောင်",
+        "gloss": "光、光線",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "光、光線"
+      },
+      "bur:1439693537192": {
+        "word": "နှင်းဆီ",
+        "gloss": "バラ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バラ"
+      },
+      "bur:1439693618614": {
+        "word": "ယင်ကောင်",
+        "gloss": "ハエ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハエ"
+      },
+      "bur:1440782203479": {
+        "word": "စိန်",
+        "gloss": "ダイヤモンド",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ダイヤモンド"
+      },
+      "bur:1442437605952": {
+        "word": "တစောင်းလက်ပတ်",
+        "gloss": "アロエベラ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アロエベラ"
+      },
+      "bur:1442440456878": {
+        "word": "ကြံ့",
+        "gloss": "サイ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サイ"
+      },
+      "bur:1444686679513": {
+        "word": "ကြံ",
+        "gloss": "サトウキビ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サトウキビ"
+      },
+      "bur:1444686748416": {
+        "word": "ပုရွက်ဆိတ်",
+        "gloss": "アリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アリ"
+      },
+      "bur:1445131737511": {
+        "word": "ဂြိုဟ်",
+        "gloss": "惑星",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "惑星"
+      },
+      "bur:1445133648723": {
+        "word": "မြေကြီး",
+        "gloss": "大地、土",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大地、土"
+      },
+      "bur:1445769748474": {
+        "word": "ဝက်ဝံ",
+        "gloss": "熊",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "熊"
+      },
+      "bur:1445865924529": {
+        "word": " သံလွင်",
+        "gloss": "サルウィン川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サルウィン川"
+      },
+      "bur:1452842879724": {
+        "word": "ပုလဲ",
+        "gloss": "真珠",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "真珠"
+      },
+      "bur:1453653921442": {
+        "word": "နေကြာစေ့",
+        "gloss": "ひまわりの種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ひまわりの種"
+      },
+      "bur:1453655011897": {
+        "word": "နှင်းမိုး",
+        "gloss": "吹雪、雪嵐",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "吹雪、雪嵐"
+      },
+      "bur:1453944448866": {
+        "word": "တီကောင်",
+        "gloss": "ミミズ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ミミズ"
+      },
+      "bur:1454258334653": {
+        "word": "(ကျောက်မျက်)ရတနာ",
+        "gloss": "宝石、宝玉",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宝石、宝玉"
+      },
+      "bur:1454913148721": {
+        "word": "တောင်ကုန်း",
+        "gloss": "丘",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "丘"
+      },
+      "bur:1455472086047": {
+        "word": "ငလျင်လှုပ်ခြင်း",
+        "gloss": "地震",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地震"
+      },
+      "bur:1456364969935": {
+        "word": "ယူနန်",
+        "gloss": "雲南",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雲南"
+      },
+      "bur:1456925212181": {
+        "word": "ကမ်းခြေ",
+        "gloss": "浜辺、ビーチ",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "浜辺、ビーチ"
+      },
+      "bur:1457234477401": {
+        "word": "ဝေလငါး",
+        "gloss": "クジラ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "クジラ"
+      },
+      "bur:1457234713837": {
+        "word": "ဘဝဲ",
+        "gloss": "タコ；イカ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タコ；イカ"
+      },
+      "bur:1457234810394": {
+        "word": "နို့တိုက်သတ္တဝါ",
+        "gloss": "哺乳類",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "哺乳類"
+      },
+      "bur:1457833566537": {
+        "word": "ဘဲငန်း",
+        "gloss": "ガチョウ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ガチョウ"
+      },
+      "bur:1458769562460": {
+        "word": "မိုးအုံ့",
+        "gloss": "曇っている",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "曇っている"
+      },
+      "bur:1460079409209": {
+        "word": "အပင်",
+        "gloss": "植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "植物"
+      },
+      "bur:1460255644054": {
+        "word": "ပင့်ကူ",
+        "gloss": "クモ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "クモ"
+      },
+      "bur:1462973924963": {
+        "word": "မြေခွေး",
+        "gloss": "キツネ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キツネ"
+      },
+      "bur:1462973989374": {
+        "word": "ခွေးတူဝက်တူ",
+        "gloss": "アナグマ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アナグマ"
+      },
+      "bur:1464777726952": {
+        "word": "သမင်",
+        "gloss": "鹿（ルサジカ類）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鹿（ルサジカ類）"
+      },
+      "bur:1465991161551": {
+        "word": "မွှား",
+        "gloss": "ダニ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ダニ"
+      },
+      "bur:1468152319093": {
+        "word": "ခရု",
+        "gloss": "二枚貝、貝類",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "二枚貝、貝類"
+      },
+      "bur:1472528330102": {
+        "word": "သည်းခံ",
+        "gloss": "耐える、我慢する",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "耐える、我慢する"
+      },
+      "bur:1473404747077": {
+        "word": "ဥက္ကာ",
+        "gloss": "流星、隕石",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "流星、隕石"
+      },
+      "bur:1473405616999": {
+        "word": "လင်းတ",
+        "gloss": "ハゲワシ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハゲワシ"
+      },
+      "bur:1473406244526": {
+        "word": "လင်းနို့",
+        "gloss": "コウモリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コウモリ"
+      },
+      "bur:1476667771192": {
+        "word": "မြေပြင်",
+        "gloss": "地面、地形",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地面、地形"
+      },
+      "bur:1478539766612": {
+        "word": "လှိုင်း",
+        "gloss": "波",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "波"
+      },
+      "bur:1479130957197": {
+        "word": "နှံကောင်",
+        "gloss": "バッタ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バッタ"
+      },
+      "bur:1481337553261": {
+        "word": "ပုစဉ်း",
+        "gloss": "トンボ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トンボ"
+      },
+      "bur:1486420917865": {
+        "word": "စင်ရော်",
+        "gloss": "カモメ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カモメ"
+      },
+      "bur:1499931907868": {
+        "word": "ပယင်း",
+        "gloss": "琥珀",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "琥珀"
+      },
+      "bur:1500740492636": {
+        "word": "မြစ်ဆုံ",
+        "gloss": "川の合流点",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "川の合流点"
+      },
+      "bur:1504747570019": {
+        "word": "မိုးသီး",
+        "gloss": "雹",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雹"
+      },
+      "bur:1508805724001": {
+        "word": "မဲခေါင်မြစ်",
+        "gloss": "メコン川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "メコン川"
+      },
+      "bur:1510193486625": {
+        "word": "ကြက်တူရွေး",
+        "gloss": "オウム",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "オウム"
+      },
+      "bur:1511824072911": {
+        "word": "ကုန်းပြင်မြင့်",
+        "gloss": "高原、台地",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "高原、台地"
+      },
+      "bur:1511824281378": {
+        "word": "လွင်ပြင်",
+        "gloss": "平野、平地",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "平野、平地"
+      },
+      "bur:1521563426825": {
+        "word": "အာဖရီက",
+        "gloss": "アフリカ",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アフリカ"
+      },
+      "bur:1533984140930": {
+        "word": "နီလာ",
+        "gloss": "サファイア",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サファイア"
+      },
+      "bur:1533984186296": {
+        "word": "ပတ္တမြား",
+        "gloss": "ルビー",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ルビー"
+      },
+      "bur:1534882179080": {
+        "word": "ကျောက်စိမ်း",
+        "gloss": "翡翠、ヒスイ",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "翡翠、ヒスイ"
+      },
+      "bur:1534883198322": {
+        "word": "အခွံ",
+        "gloss": "殻；外骨格",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal",
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "殻；外骨格"
+      },
+      "bur:1534883623194": {
+        "word": "ငါးမန်း",
+        "gloss": "サメ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サメ"
+      },
+      "bur:1536597535890": {
+        "word": "လင်းပိုင်",
+        "gloss": "イルカ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "イルカ"
+      },
+      "bur:1537909690902": {
+        "word": "ရေခဲမြစ်",
+        "gloss": "氷河",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "氷河"
+      },
+      "bur:1554898176439": {
+        "word": "ရောင်ခြည်",
+        "gloss": "光、光線、光芒",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "光、光線、光芒"
+      },
+      "bur:1554898482056": {
+        "word": "ကြယ်စင်",
+        "gloss": "星",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "星"
+      },
+      "bur:1564423357344": {
+        "word": "မုန်တိုင်း",
+        "gloss": "嵐",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "嵐"
+      },
+      "bur:1564423475970": {
+        "word": "ကမ္ဘာကြီးပူနွေးလာမှု",
+        "gloss": "地球温暖化",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地球温暖化"
+      },
+      "bur:1565746469808": {
+        "word": "အင်္ဂါဂြိုသ်",
+        "gloss": "火星",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "火星"
+      },
+      "bur:1566501632149": {
+        "word": "လောက်",
+        "gloss": "ウジ、蛆虫",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ウジ、蛆虫"
+      },
+      "bur:1570495617385": {
+        "word": "သဲကန္တာရ",
+        "gloss": "砂漠",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "砂漠"
       }
     },
     "shan": {
@@ -10306,6 +12767,3351 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "加算機、電卓"
+      },
+      "shn:1783945284107": {
+        "word": "သႅင်",
+        "gloss": "宝石、貴石",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宝石、貴石"
+      },
+      "shn:1783945284218": {
+        "word": "ဢွင်",
+        "gloss": "浅い窪み",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "浅い窪み"
+      },
+      "shn:1783945284315": {
+        "word": "ၵုၼ်",
+        "gloss": "島；浅瀬、砂州；（低地に囲まれた）丘；大陸",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "島；浅瀬、砂州；（低地に囲まれた）丘；大陸"
+      },
+      "shn:1783945284355": {
+        "word": "မူ",
+        "gloss": "豚",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "豚"
+      },
+      "shn:1783945284529": {
+        "word": "ပႃ",
+        "gloss": "魚",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "魚"
+      },
+      "shn:1783945284563": {
+        "word": "တူၼ်ႈမႆႉ",
+        "gloss": "木、樹木",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木、樹木"
+      },
+      "shn:1783945284595": {
+        "word": "လိူဝ်ႇ",
+        "gloss": "エジプトイチジク",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エジプトイチジク"
+      },
+      "shn:1783945284608": {
+        "word": "ပၢင်ႇလၢႆႇ",
+        "gloss": "海、海洋",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "海、海洋"
+      },
+      "shn:1783945284630": {
+        "word": "ၼႃႈလိၼ်",
+        "gloss": "地表、地面",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地表、地面"
+      },
+      "shn:1783945284635": {
+        "word": "မႃ",
+        "gloss": "犬",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "犬"
+      },
+      "shn:1783945284643": {
+        "word": "မႄႈၼမ်ႉ",
+        "gloss": "川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "川"
+      },
+      "shn:1783945284672": {
+        "word": "ၸၢင်ႉ",
+        "gloss": "象",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "象"
+      },
+      "shn:1783945284676": {
+        "word": "သၢႆး",
+        "gloss": "砂",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "砂"
+      },
+      "shn:1783945284720": {
+        "word": "ႁိၼ်",
+        "gloss": "石",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "石"
+      },
+      "shn:1783945284840": {
+        "word": "ၼူၵ်ႉ",
+        "gloss": "鳥",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鳥"
+      },
+      "shn:1783945284916": {
+        "word": "ၼွင်း",
+        "gloss": "（川の水などが）増す、上昇する、氾濫する",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（川の水などが）増す、上昇する、氾濫する"
+      },
+      "shn:1783945284972": {
+        "word": "ၵိင်ႇ",
+        "gloss": "枝",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "枝"
+      },
+      "shn:1783945284993": {
+        "word": "ဝႃ",
+        "gloss": "（蕾、葉、花の）苞（ほう）、鞘",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（蕾、葉、花の）苞（ほう）、鞘"
+      },
+      "shn:1783945285060": {
+        "word": "သတ်း",
+        "gloss": "動物、生き物",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "動物、生き物"
+      },
+      "shn:1783945285067": {
+        "word": "ၶႅမ်",
+        "gloss": "アシ、ヨシの一種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アシ、ヨシの一種"
+      },
+      "shn:1783945285094": {
+        "word": "ၼမ်ႉၼွင်",
+        "gloss": "湖、池",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "湖、池"
+      },
+      "shn:1783945285128": {
+        "word": "မိၼ်ႉ",
+        "gloss": "ターメリック（ウコン）の植物または根",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ターメリック（ウコン）の植物または根"
+      },
+      "shn:1783945285149": {
+        "word": "ထမ်ႈ",
+        "gloss": "洞窟、洞穴（天然・人工問わず）",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "洞窟、洞穴（天然・人工問わず）"
+      },
+      "shn:1783945285173": {
+        "word": "မူဝ်ႇ",
+        "gloss": "地面の窪み、谷、峡谷",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地面の窪み、谷、峡谷"
+      },
+      "shn:1783945285231": {
+        "word": "မူင်ႈ",
+        "gloss": "虫、幼虫、毛虫、骨のない小さな生き物",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "虫、幼虫、毛虫、骨のない小さな生き物"
+      },
+      "shn:1783945285248": {
+        "word": "ၼူၵ်ႉယုင်း",
+        "gloss": "クジャク",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "クジャク"
+      },
+      "shn:1783945285304": {
+        "word": "မႅဝ်း",
+        "gloss": "猫",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "猫"
+      },
+      "shn:1783945285310": {
+        "word": "သၼ်လွႆ",
+        "gloss": "尾根、山脈",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尾根、山脈"
+      },
+      "shn:1783945285362": {
+        "word": "ႁုင်ႉ",
+        "gloss": "トビ（猛禽類）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トビ（猛禽類）"
+      },
+      "shn:1783945285374": {
+        "word": "မျႃႉ",
+        "gloss": "エメラルド",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エメラルド"
+      },
+      "shn:1783945285397": {
+        "word": "ၽႅၼ်ႇလိၼ်",
+        "gloss": "大地、地表",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大地、地表"
+      },
+      "shn:1783945285405": {
+        "word": "တၢတ်ႇ",
+        "gloss": "滝、小滝、瀑布",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "滝、小滝、瀑布"
+      },
+      "shn:1783945285431": {
+        "word": "ၽူၺ်း",
+        "gloss": "樹木の葉、葉群",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "樹木の葉、葉群"
+      },
+      "shn:1783945285450": {
+        "word": "မီ",
+        "gloss": "クマ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "クマ"
+      },
+      "shn:1783945285480": {
+        "word": "ပိုၼ်ႉမိူင်း",
+        "gloss": "地表、地球",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地表、地球"
+      },
+      "shn:1783945285524": {
+        "word": "ငူး",
+        "gloss": "蛇、ヘビ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蛇、ヘビ"
+      },
+      "shn:1783945285548": {
+        "word": "ၶုမ်",
+        "gloss": "地面の穴、窪み、墓穴",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地面の穴、窪み、墓穴"
+      },
+      "shn:1783945285609": {
+        "word": "ၼမ်ႉၶူင်း",
+        "gloss": "サルウィン川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サルウィン川"
+      },
+      "shn:1783945285676": {
+        "word": "တူဝ်သတ်း",
+        "gloss": "動物、獣",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "動物、獣"
+      },
+      "shn:1783945285697": {
+        "word": "လႅတ်ႇ",
+        "gloss": "太陽、日光",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "太陽、日光"
+      },
+      "shn:1783945285719": {
+        "word": "ၽၵ်းၵၢတ်ႇ",
+        "gloss": "カラシ、アブラナ属の植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カラシ、アブラナ属の植物"
+      },
+      "shn:1783945285729": {
+        "word": "တိုင်",
+        "gloss": "バンテン（野生の牛）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バンテン（野生の牛）"
+      },
+      "shn:1783945285735": {
+        "word": "တၢင်ႈ",
+        "gloss": "コルクの木の一種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コルクの木の一種"
+      },
+      "shn:1783945285794": {
+        "word": "တႅၼ်ႈ",
+        "gloss": "盛り土、畦（あぜ）、畝（うね）",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "盛り土、畦（あぜ）、畝（うね）"
+      },
+      "shn:1783945285798": {
+        "word": "ပိင်",
+        "gloss": "ヒル、吸血動物",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヒル、吸血動物"
+      },
+      "shn:1783945285898": {
+        "word": "ပႃႇထိူၼ်ႇ",
+        "gloss": "ジャングル、荒野",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ジャングル、荒野"
+      },
+      "shn:1783945285903": {
+        "word": "မႃႉလီႈ",
+        "gloss": "ロバ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ロバ"
+      },
+      "shn:1783945285905": {
+        "word": "ယိူဝ်ႈ",
+        "gloss": "草",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "草"
+      },
+      "shn:1783945285906": {
+        "word": "ယုင်း",
+        "gloss": "蚊",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蚊"
+      },
+      "shn:1783945285947": {
+        "word": "ၶဵတ်ႇ",
+        "gloss": "カエル",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カエル"
+      },
+      "shn:1783945285962": {
+        "word": "ၼင်လိၼ်",
+        "gloss": "地表",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地表"
+      },
+      "shn:1783945286053": {
+        "word": "သၢင်ႇသီႈ",
+        "gloss": "ライオン、獅子",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ライオン、獅子"
+      },
+      "shn:1783945286102": {
+        "word": "ၽင်ႇပၢင်ႇလၢႆႇ",
+        "gloss": "海岸、沿岸",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "海岸、沿岸"
+      },
+      "shn:1783945286154": {
+        "word": "မႆႉပူၵ်ႇ",
+        "gloss": "巨竹の一種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "巨竹の一種"
+      },
+      "shn:1783945286238": {
+        "word": "ၼမ်ႉမၢဝ်း",
+        "gloss": "シュウェリ川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シュウェリ川"
+      },
+      "shn:1783945286256": {
+        "word": "ႁၢတ်ႇသၢႆး",
+        "gloss": "砂州、砂堆",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "砂州、砂堆"
+      },
+      "shn:1783945286261": {
+        "word": "ငဝ်းလႅင်း",
+        "gloss": "きらめき、光の揺らぎ",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "きらめき、光の揺らぎ"
+      },
+      "shn:1783945286314": {
+        "word": "မၢၵ်ႇၵႅင်း",
+        "gloss": "タマリンド",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タマリンド"
+      },
+      "shn:1783945286333": {
+        "word": "လိင်း",
+        "gloss": "サル",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サル"
+      },
+      "shn:1783945286349": {
+        "word": "ဝိင်ႇ",
+        "gloss": "コウモリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コウモリ"
+      },
+      "shn:1783945286398": {
+        "word": "ၶၢဝ်းႁႅင်ႈ",
+        "gloss": "乾季",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "乾季"
+      },
+      "shn:1783945286412": {
+        "word": "ၼွၼ်",
+        "gloss": "ウジ虫",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ウジ虫"
+      },
+      "shn:1783945286429": {
+        "word": "ႁဵၼ်",
+        "gloss": "ネコ属の野生動物、ジャングルキャット",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ネコ属の野生動物、ジャングルキャット"
+      },
+      "shn:1783945286431": {
+        "word": "ႁၢၼ်လဵတ်း",
+        "gloss": "イラクサのように刺す植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "イラクサのように刺す植物"
+      },
+      "shn:1783945286446": {
+        "word": "တူၼ်ႈမွၵ်ႇ",
+        "gloss": "花の咲く植物、花木",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "花の咲く植物、花木"
+      },
+      "shn:1783945286496": {
+        "word": "မၢၵ်ႇၶေႃ",
+        "gloss": "野生のスモモの一種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "野生のスモモの一種"
+      },
+      "shn:1783945286503": {
+        "word": "မႆႉသၵ်း",
+        "gloss": "チーク",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チーク"
+      },
+      "shn:1783945286523": {
+        "word": "လိၼ်ၼဵဝ်",
+        "gloss": "粘土",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "粘土"
+      },
+      "shn:1783945286538": {
+        "word": "ဝူဝ်းမႄႈ",
+        "gloss": "雌牛",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雌牛"
+      },
+      "shn:1783945286541": {
+        "word": "ဝေႈ",
+        "gloss": "タカラガイ、子安貝",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タカラガイ、子安貝"
+      },
+      "shn:1783945286551": {
+        "word": "သူဝ်း",
+        "gloss": "羊 （語源等：Burmese）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "羊 （語源等：Burmese）"
+      },
+      "shn:1783945286599": {
+        "word": "ၵၢင်ႈ",
+        "gloss": "（魚の）小骨",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal",
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（魚の）小骨"
+      },
+      "shn:1783945286601": {
+        "word": "ၵၢဝ်",
+        "gloss": "ハナモツヤクノキ（Butea monosperma）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハナモツヤクノキ（Butea monosperma）"
+      },
+      "shn:1783945286605": {
+        "word": "ၵႂၢင်",
+        "gloss": "サンバー（大鹿）、鹿",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サンバー（大鹿）、鹿"
+      },
+      "shn:1783945286633": {
+        "word": "ၸိူဝ်ႉၽၼ်း",
+        "gloss": "種子、胚芽（成長の源）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "種子、胚芽（成長の源）"
+      },
+      "shn:1783945286640": {
+        "word": "ၸၵ်းတႅၼ်",
+        "gloss": "バッタ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バッタ"
+      },
+      "shn:1783945286646": {
+        "word": "ၼမ်ႉသႂ်",
+        "gloss": "純水、真水",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "純水、真水"
+      },
+      "shn:1783945286648": {
+        "word": "ၼမ်ႉႁွင်ႈ",
+        "gloss": "小川、川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小川、川"
+      },
+      "shn:1783945286661": {
+        "word": "ၽူၼ်လူင်လူမ်းလူင်",
+        "gloss": "嵐、暴風雨",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "嵐、暴風雨"
+      },
+      "shn:1783945286682": {
+        "word": "ႁွႆ",
+        "gloss": "貝、巻貝；カタツムリ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "貝、巻貝；カタツムリ"
+      },
+      "shn:1783945286710": {
+        "word": "တွၼ်ႇ",
+        "gloss": "タケネズミ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タケネズミ"
+      },
+      "shn:1783945286724": {
+        "word": "တႅၵ်ႉ",
+        "gloss": "山蛭（やまびる）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "山蛭（やまびる）"
+      },
+      "shn:1783945286780": {
+        "word": "မွၵ်ႇၵုမ်ႈ",
+        "gloss": "薄雲（暑い時期に見られる）、霧",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "薄雲（暑い時期に見られる）、霧"
+      },
+      "shn:1783945286782": {
+        "word": "မၢၵ်ႇႁဵပ်းတူၵ်း",
+        "gloss": "雹が降る",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雹が降る"
+      },
+      "shn:1783945286784": {
+        "word": "မႃမႃႈ",
+        "gloss": "狂犬、狂犬病の犬",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "狂犬、狂犬病の犬"
+      },
+      "shn:1783945286897": {
+        "word": "ဢွႆႇ",
+        "gloss": "動物に餌をやる",
+        "medium": "02.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "動物に餌をやる"
+      },
+      "shn:1783945286959": {
+        "word": "ၶႂၢၼ်",
+        "gloss": "落雷、雷",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "落雷、雷"
+      },
+      "shn:1783945286981": {
+        "word": "ၼမ်ႉၶွင်",
+        "gloss": "メコン川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "メコン川"
+      },
+      "shn:1783945287005": {
+        "word": "ၽၢၼ်း",
+        "gloss": "ホエジカ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ホエジカ"
+      },
+      "shn:1783945287081": {
+        "word": "ပေႃ",
+        "gloss": "黄麻、縄の材料になる樹皮",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant",
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "黄麻、縄の材料になる樹皮"
+      },
+      "shn:1783945287116": {
+        "word": "မူတ်ႉ",
+        "gloss": "蟻（アリ）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蟻（アリ）"
+      },
+      "shn:1783945287123": {
+        "word": "မွတ်ႈ",
+        "gloss": "竹食い虫、ナガシンクイムシ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "竹食い虫、ナガシンクイムシ"
+      },
+      "shn:1783945287124": {
+        "word": "မွၵ်ႇယႃႈ",
+        "gloss": "色々な花を指す名前",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "色々な花を指す名前"
+      },
+      "shn:1783945287125": {
+        "word": "မွၵ်ႇၵွၼ်",
+        "gloss": "桜の花",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "桜の花"
+      },
+      "shn:1783945287141": {
+        "word": "မႆႉပဝ်း",
+        "gloss": "サラノキ（沙羅双樹）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サラノキ（沙羅双樹）"
+      },
+      "shn:1783945287142": {
+        "word": "မႆႉသၢင်းၶမ်း",
+        "gloss": "キンメイチク（金明竹）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キンメイチク（金明竹）"
+      },
+      "shn:1783945287169": {
+        "word": "လုမ်ႈၽႃႉ",
+        "gloss": "天空の領域、宇宙",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "天空の領域、宇宙"
+      },
+      "shn:1783945287178": {
+        "word": "လွႆၶေႃ",
+        "gloss": "独峰、一軒山",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "独峰、一軒山"
+      },
+      "shn:1783945287193": {
+        "word": "ဝူဝ်းပေႃႈ",
+        "gloss": "雄牛",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雄牛"
+      },
+      "shn:1783945287195": {
+        "word": "ဝွၼ်",
+        "gloss": "サトイモ科の植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サトイモ科の植物"
+      },
+      "shn:1783945287200": {
+        "word": "ဝၢႆ",
+        "gloss": "籐（ラタン）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "籐（ラタン）"
+      },
+      "shn:1783945287217": {
+        "word": "သီႇႁူဝ်ႇ",
+        "gloss": "セイロン （語源等：Burmese）",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "セイロン （語源等：Burmese）"
+      },
+      "shn:1783945287232": {
+        "word": "သၢႆလႅတ်ႇ",
+        "gloss": "日差し、日光",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "日差し、日光"
+      },
+      "shn:1783945287251": {
+        "word": "ဢုမ်း",
+        "gloss": "雲に覆われる、雲が広がる",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雲に覆われる、雲が広がる"
+      },
+      "shn:1783945287282": {
+        "word": "ၵူၵ်း",
+        "gloss": "（ホエジカが）鳴く",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（ホエジカが）鳴く"
+      },
+      "shn:1783945287389": {
+        "word": "ၼမ်ႉၵဵဝ်",
+        "gloss": "エーヤワディー川",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エーヤワディー川"
+      },
+      "shn:1783945287394": {
+        "word": "ၼူၵ်ႉၶဵဝ်",
+        "gloss": "オウム、インコ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "オウム、インコ"
+      },
+      "shn:1783945287396": {
+        "word": "ၼၵ်ႈၶၢတ်ႈ",
+        "gloss": "星座",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "星座"
+      },
+      "shn:1783945287438": {
+        "word": "ႁိၼ်ၽႃ",
+        "gloss": "岩石、巨石",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "岩石、巨石"
+      },
+      "shn:1783945287455": {
+        "word": "ႁွၼ်ၼမ်ႉ",
+        "gloss": "波頭、大波",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "波頭、大波"
+      },
+      "shn:1783945287528": {
+        "word": "တႅတ်း",
+        "gloss": "象のような鳴き声を出す",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "象のような鳴き声を出す"
+      },
+      "shn:1783945287586": {
+        "word": "ပႃႇမႆႉပႃႇတွၵ်ႇ",
+        "gloss": "森林地帯（樹木や茂みを含む）",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "森林地帯（樹木や茂みを含む）"
+      },
+      "shn:1783945287624": {
+        "word": "မၢၵ်ႇႁဵပ်း",
+        "gloss": "雹（ひょう）",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雹（ひょう）"
+      },
+      "shn:1783945287635": {
+        "word": "မႃႉတၢင်ႇ",
+        "gloss": "駄馬、荷馬",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "駄馬、荷馬"
+      },
+      "shn:1783945287642": {
+        "word": "မႆႉမွင်",
+        "gloss": "竹の一種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "竹の一種"
+      },
+      "shn:1783945287644": {
+        "word": "မႆႉသႃးၸေး",
+        "gloss": "アセンヤクノキ（ペグーアカシア）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アセンヤクノキ（ペグーアカシア）"
+      },
+      "shn:1783945287699": {
+        "word": "လူမ်းပဝ်ႇ",
+        "gloss": "風が吹く",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "風が吹く"
+      },
+      "shn:1783945287708": {
+        "word": "လွင်ႈၼမ်ႉ",
+        "gloss": "流される、川を流れる",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "流される、川を流れる"
+      },
+      "shn:1783945287712": {
+        "word": "လွၼ်",
+        "gloss": "隆起、小山、丘",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "隆起、小山、丘"
+      },
+      "shn:1783945287731": {
+        "word": "ဝူဝ်းၵႂၢႆး",
+        "gloss": "牛と水牛、家畜としての牛",
+        "medium": "02.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "牛と水牛、家畜としての牛"
+      },
+      "shn:1783945287786": {
+        "word": "သၢႆလိၼ်",
+        "gloss": "土手、盛り土",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "土手、盛り土"
+      },
+      "shn:1783945287787": {
+        "word": "သၢႆၼမ်ႉ",
+        "gloss": "水路、河道、水流",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "水路、河道、水流"
+      },
+      "shn:1783945287811": {
+        "word": "ဢူးမၢင်ႇ",
+        "gloss": "洞窟、トンネル（人工または天然）",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "洞窟、トンネル（人工または天然）"
+      },
+      "shn:1783945287839": {
+        "word": "ၵူင်ႇၵၢဝ်",
+        "gloss": "クモ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "クモ"
+      },
+      "shn:1783945287874": {
+        "word": "ၵၢဝ်း",
+        "gloss": "ホウセンカ（鳳仙花）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ホウセンカ（鳳仙花）"
+      },
+      "shn:1783945287881": {
+        "word": "ၵႃလမ်",
+        "gloss": "カラス",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カラス"
+      },
+      "shn:1783945287889": {
+        "word": "ၵႆႇမႄႈ",
+        "gloss": "雌鶏",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雌鶏"
+      },
+      "shn:1783945287890": {
+        "word": "ၵႆႇၶၼ်",
+        "gloss": "（雄鶏が）鳴く、時を告げる",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（雄鶏が）鳴く、時を告げる"
+      },
+      "shn:1783945287966": {
+        "word": "ၸွၼ်ႈ",
+        "gloss": "リス",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "リス"
+      },
+      "shn:1783945288004": {
+        "word": "ၼီႇလႃႇ",
+        "gloss": "サファイア （語源等：パーリ語）",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サファイア （語源等：パーリ語）"
+      },
+      "shn:1783945288021": {
+        "word": "ၼႆႇ",
+        "gloss": "リスの一種",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "リスの一種"
+      },
+      "shn:1783945288024": {
+        "word": "ၽိုင်ႈ",
+        "gloss": "ミツバチ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ミツバチ"
+      },
+      "shn:1783945288025": {
+        "word": "ၽိူင်း",
+        "gloss": "藁（わら）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "藁（わら）"
+      },
+      "shn:1783945288065": {
+        "word": "ႁိူတ်ႈ",
+        "gloss": "トコジラミ（南京虫）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トコジラミ（南京虫）"
+      },
+      "shn:1783945288102": {
+        "word": "ႁၢဝ်းလွႆ",
+        "gloss": "山脈、連峰",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "山脈、連峰"
+      },
+      "shn:1783945288117": {
+        "word": "ငိူၵ်ႈ",
+        "gloss": "ワニ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ワニ"
+      },
+      "shn:1783945288123": {
+        "word": "ငူးလိူမ်",
+        "gloss": "ニシキヘビ、ボア",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ニシキヘビ、ボア"
+      },
+      "shn:1783945288124": {
+        "word": "ငူးႁဝ်ႇ",
+        "gloss": "コブラ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コブラ"
+      },
+      "shn:1783945288133": {
+        "word": "ငႃးၸၢင်ႉ",
+        "gloss": "象牙",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal",
+            "material",
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "象牙"
+      },
+      "shn:1783945288135": {
+        "word": "ငႃႉ",
+        "gloss": "（水牛のように）鳴く",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（水牛のように）鳴く"
+      },
+      "shn:1783945288165": {
+        "word": "တုမ်ႇမွၵ်ႇ",
+        "gloss": "花のつぼみ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "花のつぼみ"
+      },
+      "shn:1783945288175": {
+        "word": "တူဝ်ထိူၼ်ႇ",
+        "gloss": "野生動物、野獣",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "野生動物、野獣"
+      },
+      "shn:1783945288181": {
+        "word": "တူၼ်းလွႆ",
+        "gloss": "山脈、連峰、尾根",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "山脈、連峰、尾根"
+      },
+      "shn:1783945288183": {
+        "word": "တူၼ်ႈမၢၵ်ႇဢုၼ်",
+        "gloss": "ココヤシ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ココヤシ"
+      },
+      "shn:1783945288184": {
+        "word": "တူၼ်ႈမႆႉတူၼ်ႈတွၵ်ႇ",
+        "gloss": "木々、草木",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木々、草木"
+      },
+      "shn:1783945288187": {
+        "word": "တေႃလွၵ်ႇ",
+        "gloss": "切り株",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "切り株"
+      },
+      "shn:1783945288199": {
+        "word": "တွင်ယူၵ်ႇ",
+        "gloss": "野生バナナの葉",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "野生バナナの葉"
+      },
+      "shn:1783945288246": {
+        "word": "တႃႇယႃႇ",
+        "gloss": "星座",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "星座"
+      },
+      "shn:1783945288253": {
+        "word": "တႅတ်းတႅဝ်း",
+        "gloss": "タゲリ、ツメバゲリ（チドリ科の鳥）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タゲリ、ツメバゲリ（チドリ科の鳥）"
+      },
+      "shn:1783945288259": {
+        "word": "တႅၼ်ႈၼွင်",
+        "gloss": "貯水池周りの土手・堤防",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "貯水池周りの土手・堤防"
+      },
+      "shn:1783945288298": {
+        "word": "ထၢၼ်ႇၽႆး",
+        "gloss": "おき火、残り火",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "おき火、残り火"
+      },
+      "shn:1783945288346": {
+        "word": "ပၢင်တၢႆး",
+        "gloss": "野ウサギ、ウサギ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "野ウサギ、ウサギ"
+      },
+      "shn:1783945288414": {
+        "word": "မူတ်ႉသူမ်ႈ",
+        "gloss": "食用の大きな赤蟻の一種",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "食用の大きな赤蟻の一種"
+      },
+      "shn:1783945288428": {
+        "word": "မဵတ်ႉငႃး",
+        "gloss": "ごまの種、ごま",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ごまの種、ごま"
+      },
+      "shn:1783945288443": {
+        "word": "မၢၵ်ႇဢူဝ်း",
+        "gloss": "ポメロ、文旦（ぶんたん）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ポメロ、文旦（ぶんたん）"
+      },
+      "shn:1783945288446": {
+        "word": "မၢၵ်ႇၵႃႇ",
+        "gloss": "グアバ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "グアバ"
+      },
+      "shn:1783945288448": {
+        "word": "မၢၵ်ႇၸင်ႈ",
+        "gloss": "ザクロ（石榴）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ザクロ（石榴）"
+      },
+      "shn:1783945288468": {
+        "word": "မႃႉလႃး",
+        "gloss": "ロバ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ロバ"
+      },
+      "shn:1783945288475": {
+        "word": "မႅင်းၸလၢင်း",
+        "gloss": "ムカデ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ムカデ"
+      },
+      "shn:1783945288481": {
+        "word": "မႆႉပႅၵ်ႇ",
+        "gloss": "松",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "松"
+      },
+      "shn:1783945288482": {
+        "word": "မႆႉသၢင်း",
+        "gloss": "竹の一種",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "竹の一種"
+      },
+      "shn:1783945288485": {
+        "word": "မႆႉၼိမ်",
+        "gloss": "オーク、樫（かし）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "オーク、樫（かし）"
+      },
+      "shn:1783945288486": {
+        "word": "မႆႉႁႆး",
+        "gloss": "フトモモ科の木",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "フトモモ科の木"
+      },
+      "shn:1783945288493": {
+        "word": "ယိူဝ်ႈႁႅင်ႈ",
+        "gloss": "干し草",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "干し草"
+      },
+      "shn:1783945288535": {
+        "word": "လမ်းမႆႉ",
+        "gloss": "幹",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "幹"
+      },
+      "shn:1783945288557": {
+        "word": "လိူၼ်လွင်ႈ",
+        "gloss": "月が欠ける時期",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "月が欠ける時期"
+      },
+      "shn:1783945288573": {
+        "word": "လုၵ်းလဝ်",
+        "gloss": "自然の空洞、穴",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "自然の空洞、穴"
+      },
+      "shn:1783945288581": {
+        "word": "လူမ်းမႃး",
+        "gloss": "風が吹く",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "風が吹く"
+      },
+      "shn:1783945288609": {
+        "word": "လွႆၵူၼ်ႇ",
+        "gloss": "雪崩が起きる、山崩れが起きる",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雪崩が起きる、山崩れが起きる"
+      },
+      "shn:1783945288610": {
+        "word": "လွႆၸၼ်း",
+        "gloss": "崖、絶壁",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "崖、絶壁"
+      },
+      "shn:1783945288684": {
+        "word": "သိင်း",
+        "gloss": "（雨が）しとしと降り続く",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（雨が）しとしと降り続く"
+      },
+      "shn:1783945288747": {
+        "word": "သႅင်လႅင်",
+        "gloss": "ルビー",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ルビー"
+      },
+      "shn:1783945288748": {
+        "word": "သႅင်သွမ်ႇ",
+        "gloss": "サファイア",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サファイア"
+      },
+      "shn:1783945288749": {
+        "word": "သႅင်ၸိင်ႇ",
+        "gloss": "ダイヤモンド",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ダイヤモンド"
+      },
+      "shn:1783945288811": {
+        "word": "ဢၢၵ်ႇၶၢင်",
+        "gloss": "キノボリトカゲ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キノボリトカゲ"
+      },
+      "shn:1783945288843": {
+        "word": "ၵိင်ႇမႆႉ",
+        "gloss": "木の枝",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木の枝"
+      },
+      "shn:1783945288860": {
+        "word": "ၵုတ်ႇ",
+        "gloss": "コケ；シダ、ၽၵ်းၵုတ်ႇ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コケ；シダ、ၽၵ်းၵုတ်ႇ"
+      },
+      "shn:1783945288919": {
+        "word": "ၵွၼ်ႈလိၼ်",
+        "gloss": "土の塊",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "土の塊"
+      },
+      "shn:1783945288943": {
+        "word": "ၵႃၶၢပ်ႇ",
+        "gloss": "カケス（鳥）",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カケス（鳥）"
+      },
+      "shn:1783945288955": {
+        "word": "ၵႄႈလွႆ",
+        "gloss": "谷、山々の間の空間",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "谷、山々の間の空間"
+      },
+      "shn:1783945288963": {
+        "word": "ၵႆႇဢွၼ်ႇ",
+        "gloss": "雛（ひよこ）、若鶏",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雛（ひよこ）、若鶏"
+      },
+      "shn:1783945288964": {
+        "word": "ၵႆႇၽူႈ",
+        "gloss": "雄鶏",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雄鶏"
+      },
+      "shn:1783945289069": {
+        "word": "ၸမ်ႇပႄႇ",
+        "gloss": "チャンパカ（キンコウボク）の花",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チャンパカ（キンコウボク）の花"
+      },
+      "shn:1783945289101": {
+        "word": "ၸၢင်ႉပၢႆး",
+        "gloss": "おとりの象",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "おとりの象"
+      },
+      "shn:1783945289109": {
+        "word": "ၸၵ်းၸႃႈ",
+        "gloss": "セミ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "セミ"
+      },
+      "shn:1783945289137": {
+        "word": "ၼမ်ႉမဵၼ်",
+        "gloss": "石油",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "石油"
+      },
+      "shn:1783945289139": {
+        "word": "ၼမ်ႉယိုင်ႈ",
+        "gloss": "（自然・人工を問わず）流れのない水、よどんだ水；貯水池",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（自然・人工を問わず）流れのない水、よどんだ水；貯水池"
+      },
+      "shn:1783945289163": {
+        "word": "ၼူၵ်ႉၸွၵ်ႇ",
+        "gloss": "スズメ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スズメ"
+      },
+      "shn:1783945289164": {
+        "word": "ၼူၸၢင်ႉငႃႇ",
+        "gloss": "ジャコウネズミ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ジャコウネズミ"
+      },
+      "shn:1783945289193": {
+        "word": "ၽမ်",
+        "gloss": "食用になる水生植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "食用になる水生植物"
+      },
+      "shn:1783945289199": {
+        "word": "ၽိူဝ်တွင်",
+        "gloss": "（食べ物を包むための）葉",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（食べ物を包むための）葉"
+      },
+      "shn:1783945289231": {
+        "word": "ၽၵ်းတူပ်း",
+        "gloss": "ホテイアオイ",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ホテイアオイ"
+      },
+      "shn:1783945289233": {
+        "word": "ၽၵ်းၵမ်ႇၸွၼ်း",
+        "gloss": "ヨウサイ（空芯菜）、湖や川の端に生える植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヨウサイ（空芯菜）、湖や川の端に生える植物"
+      },
+      "shn:1783945289245": {
+        "word": "ၽႆးမႆႈ",
+        "gloss": "燃える、焼ける",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "change"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "燃える、焼ける"
+      },
+      "shn:1783945289249": {
+        "word": "ႁိင်ႇႁွႆႈ",
+        "gloss": "ホタル",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ホタル"
+      },
+      "shn:1783945289263": {
+        "word": "ႁီႈ",
+        "gloss": "黄麻（ジュート）",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant",
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "黄麻（ジュート）"
+      },
+      "shn:1783945289268": {
+        "word": "ႁူင်းႁႆး",
+        "gloss": "虹",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "虹"
+      },
+      "shn:1783945289276": {
+        "word": "ႁူဝ်ၽူၼ်",
+        "gloss": "雨季の始まり",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雨季の始まり"
+      },
+      "shn:1783945289301": {
+        "word": "ႁွမ်ႈ",
+        "gloss": "藍（アイ）、またはルイリア植物",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "plant"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "藍（アイ）、またはルイリア植物"
+      },
+      "shn:1783945289321": {
+        "word": "ႁႅတ်ႈ",
+        "gloss": "（一角の）サイ",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "animal"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（一角の）サイ"
       }
     }
   },
@@ -10319,6 +16125,21 @@
         "reason": "テレビとテレビ（旧称）は、この訳語では互ひに誤答選択肢としない。"
       }
     ],
-    "shan": []
-  }
+    "shan": [
+      {
+        "ids": [
+          "shn:1783945288004",
+          "shn:1783945288748"
+        ],
+        "reason": "サファイアとサファイア（語源注記）は互ひに誤答選択肢としない。語源注記を別の意味と扱はない。"
+      }
+    ]
+  },
+  "coverage_major_ids": [
+    "01",
+    "02",
+    "03",
+    "06",
+    "11"
+  ]
 }

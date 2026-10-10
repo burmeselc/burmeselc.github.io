@@ -109,7 +109,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/331件/);
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/480件/);
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
@@ -145,5 +145,24 @@ test('loaded detail engine blocks annotated television synonyms in both directio
    const pool=window.DOPA_DATA.burmese,a=pool.find(x=>x.id==='bur:1398089095013'),b=pool.find(x=>x.id==='bur:1519420764107');
    return ['toJP','fromJP'].every(dir=>!window.distractors(a,pool,'burmese',dir).some(x=>x.id===b.id)&&!window.distractors(b,pool,'burmese',dir).some(x=>x.id===a.id));
   });assert.equal(valid,true);
+ }finally{await browser.close()}
+});
+
+for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lang+' animal scope '+dir,async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});await ready(page);
+  await page.locator('#lang').selectOption(lang);
+  await page.locator('#studyDetailControls > summary').click();
+  await page.locator('#semanticMedium').selectOption('02.01');
+  await page.locator('#semanticTag').selectOption('feature:animal');
+  await page.locator('#direction').selectOption(dir);
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.locator('#start').click();await page.locator('#game:not(.hidden)').waitFor();
+  assert.equal(await page.locator('#choices button').count(),4);
+  assert.equal(await page.locator('#choices button').evaluateAll((bs,l)=>bs.every(b=>{
+   const x=window.DOPA_DATA[l].find(x=>x.id===b.dataset.itemid);
+   return window.DOPA_DETAIL.matches(x,l,{medium:'02.01',tag:'feature:animal'});
+  }),lang),true);
  }finally{await browser.close()}
 });
