@@ -51,6 +51,7 @@
   }catch(e){$('flashAvailability').textContent='カードの選択条件を確認できません。';$('flashStart').disabled=true;console.error(e)}
  }
  function showConfig(){
+  document.body.classList.remove('dopa-flash-playing');
   session=null;current=null;flipped=false;ratingsLocked=false;
   panels.config.classList.remove('hidden');
   panels.stage.classList.add('hidden');
@@ -74,6 +75,7 @@
   panels.flash.scrollIntoView({block:'start'});
  }
  function exit(){
+  document.body.classList.remove('dopa-flash-playing');
   session=null;current=null;
   panels.flash.classList.add('hidden');panels.stage.classList.add('hidden');
   if(returnToVocabulary&&root.DOPA_VOCAB_UI){
@@ -117,6 +119,7 @@
   renderCard();
  }
  function finish(){
+  document.body.classList.remove('dopa-flash-playing');
   if(!session)return;
   const n=session.rated,s=session;
   session=null;current=null;
@@ -135,6 +138,7 @@
   session={queue,index:0,rated:0,counts:{},lang:options.lang,direction:options.direction};
   panels.config.classList.add('hidden');panels.finished.classList.add('hidden');
   panels.stage.classList.remove('hidden');
+  document.body.classList.add('dopa-flash-playing');
   next();
  }
  function rate(rating){

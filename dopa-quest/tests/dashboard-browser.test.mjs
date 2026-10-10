@@ -26,10 +26,17 @@ test('dashboard routes preserve IDs, quiz progress and current flashcards',async
   assert.equal(await page.locator('#setup').isVisible(),true);
   await page.locator('[data-dopa-route="cards"]').click();
   assert.equal(await page.locator('#flashcardPanel').isVisible(),true);
+  assert.equal(await page.locator('[data-dopa-route="cards"]').getAttribute('aria-current'),'page');
+  assert.equal(await page.locator('#dopaNav').isVisible(),true);
+  assert.equal(await page.locator('#flashcardPanel').evaluate(el=>getComputedStyle(el).position),'static');
+
   assert.equal(await page.locator('#vocabPanel').isVisible(),false);
   await page.locator('#flashExit').click();
   await page.locator('[data-dopa-route="library"]').click();
   assert.equal(await page.locator('#vocabPanel').isVisible(),true);
+  assert.equal(await page.locator('[data-dopa-route="library"]').getAttribute('aria-current'),'page');
+  assert.equal(await page.locator('#dopaNav').isVisible(),true);
+
   assert.equal(await page.locator('#flashcardPanel').isVisible(),false);
   await page.locator('[data-dopa-route="home"]').click();
   assert.equal(await page.locator('#dopaDashboard').isVisible(),true);
