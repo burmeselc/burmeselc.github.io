@@ -98,12 +98,20 @@
    scope='due',limit=20,now=Date.now(),newRemaining=Infinity,reviewRemaining=Infinity,lang='shan'}=options;
   validDirection(direction);
   if(!SCOPES.includes(scope))throw Error('Invalid flashcard scope');
-  const existing=new Set(),out=[];
+  const existing=new Set(),out=[],formsByGloss=new Map();
+  if(direction==='production')for(const x of allDeck){
+   const gloss=normGloss(x),form=spelling(x,lang);
+   if(!gloss||!form)continue;
+   let forms=formsByGloss.get(gloss);
+   if(!forms){forms=new Set();formsByGloss.set(gloss,forms)}
+   forms.add(form);
+  }
   const items=pool.filter(x=>{
    if(!x?.id||existing.has(x.id))return false;
    existing.add(x.id);
-   return !!spelling(x,lang)&&!!normGloss(x)&&
-    (direction==='recognition'||eligibleProduction(x,allDeck,lang));
+   const gloss=normGloss(x),form=spelling(x,lang);
+   return !!form&&!!gloss&&
+    (direction==='recognition'||formsByGloss.get(gloss)?.size===1);
   });
   const candidates=items.filter(x=>{
    const s=entry(cards,x.id,direction);
