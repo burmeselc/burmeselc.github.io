@@ -313,6 +313,14 @@
      }
     }
    }
+   const expected={'09.04':8,'09.05':1,'13.01':1,'13.05':1};
+   const distribution=Object.fromEntries(Object.keys(expected).map(k=>[k,0]));
+   for(const lang of ['burmese','shan'])for(const row of batch.cards[lang])
+    distribution[row.medium]++;
+   if(Object.keys(batch.medium_counts||{}).length!==4||
+      Object.keys(expected).some(k=>batch.medium_counts?.[k]!==expected[k]||
+       distribution[k]!==expected[k]))
+    throw Error('Invalid next held category totals');
    if(seen.size!==15)throw Error('Next held pilot duplicates');
    const next={...base,cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
     counts:{...base.counts},coverage:{...base.coverage},
