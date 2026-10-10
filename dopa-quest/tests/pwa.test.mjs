@@ -37,5 +37,5 @@ test('offline cache is scope-limited, network-first, and leaves saved progress u
   assert.match(worker,/const response = await fetch\(request\)/);
   assert.match(worker,/const cached = await caches\.match\(request\)/);
   assert.doesNotMatch(worker,/localStorage|indexedDB|firestore\.collection|\.postMessage\(/);
-  assert.match(worker,/\.\/data/);
+  assert.match(worker,/html\|js\|json\|png\|webmanifest/);
 });
