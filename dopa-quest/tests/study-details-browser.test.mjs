@@ -109,7 +109,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/480件/);
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/547件/);
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
@@ -164,5 +164,27 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
    const x=window.DOPA_DATA[l].find(x=>x.id===b.dataset.itemid);
    return window.DOPA_DETAIL.matches(x,l,{medium:'02.01',tag:'feature:animal'});
   }),lang),true);
+ }finally{await browser.close()}
+});
+
+for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lang+' clothing and housing scopes '+dir,async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+  for(const medium of ['07.01','08.01']){
+   await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#studyDetailControls > summary').click();
+   await page.locator('#semanticMedium').selectOption(medium);
+   await page.locator('#direction').selectOption(dir);
+   assert.match(await page.locator('#studyDetailNotice').textContent(),/7領域/);
+   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+   if(lang==='burmese'&&dir==='toJP'&&medium==='07.01')await page.screenshot({path:'dopa-study-details-clothing-mobile.png',fullPage:true});
+   await page.locator('#start').click();await page.locator('#game:not(.hidden)').waitFor();
+   assert.equal(await page.locator('#choices button').count(),4);
+   assert.equal(await page.locator('#choices button').evaluateAll((bs,args)=>bs.every(b=>{
+    const x=window.DOPA_DATA[args.lang].find(x=>x.id===b.dataset.itemid);
+    return window.DOPA_DETAIL.matches(x,args.lang,{medium:args.medium});
+   }),{lang,medium}),true);
+  }
  }finally{await browser.close()}
 });

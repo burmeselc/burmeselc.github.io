@@ -41,4 +41,5 @@ jobs:
           path: |
             dopa-study-details-mobile.png
             dopa-study-details-review-mobile.png
+            dopa-study-details-clothing-mobile.png
           if-no-files-found: ignore

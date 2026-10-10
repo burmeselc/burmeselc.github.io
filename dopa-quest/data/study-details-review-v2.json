@@ -7953,6 +7953,1017 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "砂漠"
+      },
+      "bur:1397342967860": {
+        "word": "မျက်မှန်",
+        "gloss": "眼鏡、ゴーグル",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "眼鏡、ゴーグル"
+      },
+      "bur:1398091411894": {
+        "word": "ဦးထုပ်",
+        "gloss": "帽子、ヘルメット",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "帽子、ヘルメット"
+      },
+      "bur:1398607492983": {
+        "word": "အဝတ်",
+        "gloss": "衣服、服",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "衣服、服"
+      },
+      "bur:1398607532709": {
+        "word": "အင်္ကျီ",
+        "gloss": "上着、シャツ、ブラウス",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "上着、シャツ、ブラウス"
+      },
+      "bur:1398607845959": {
+        "word": "ဘောင်းဘီ",
+        "gloss": "ズボン",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ズボン"
+      },
+      "bur:1398609445274": {
+        "word": "ဖိနပ်",
+        "gloss": "靴",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "靴"
+      },
+      "bur:1403373875474": {
+        "word": "စကတ်",
+        "gloss": "スカート",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スカート"
+      },
+      "bur:1403373939511": {
+        "word": "ခြေအိတ်",
+        "gloss": "靴下、ストッキング",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "靴下、ストッキング"
+      },
+      "bur:1403374110401": {
+        "word": "ခါးပတ်",
+        "gloss": "ベルト",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ベルト"
+      },
+      "bur:1403374178223": {
+        "word": "လက်စွပ်",
+        "gloss": "指輪",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "指輪"
+      },
+      "bur:1404082909993": {
+        "word": "မိုးကာ",
+        "gloss": "レインコート、雨具",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "レインコート、雨具"
+      },
+      "bur:1404566511685": {
+        "word": "လုံချည်",
+        "gloss": "ロンジー、腰布",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ロンジー、腰布"
+      },
+      "bur:1404566624708": {
+        "word": "ထဘီ",
+        "gloss": "タメイン（女性用ロンジー／サロン）",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タメイン（女性用ロンジー／サロン）"
+      },
+      "bur:1418254395072": {
+        "word": "ပုဆိုး",
+        "gloss": "パソー（男性用ロンジー）",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "パソー（男性用ロンジー）"
+      },
+      "bur:1494450611932": {
+        "word": "ခေါင်းပေါင်း",
+        "gloss": "ターバン",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ターバン"
+      },
+      "bur:1506715480778": {
+        "word": "လက်ကိုင်ပုဝါ",
+        "gloss": "ハンカチ",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハンカチ"
+      },
+      "bur:1519786072021": {
+        "word": "အသက်ကယ်အင်္ကျီ",
+        "gloss": "救命胴衣、ライフジャケット",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "救命胴衣、ライフジャケット"
+      },
+      "bur:1542126015916": {
+        "word": "နားကွင်း",
+        "gloss": "イヤリング、耳輪",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "イヤリング、耳輪"
+      },
+      "bur:1565746245604": {
+        "word": "ဝတ်စုံ",
+        "gloss": "衣装、ドレス",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "衣装、ドレス"
+      },
+      "bur:1398607915657": {
+        "word": "ဝတ်",
+        "gloss": "服を着る",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "服を着る"
+      },
+      "bur:1398607937535": {
+        "word": "ဝတ်ထား",
+        "gloss": "服を着ている",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "服を着ている"
+      },
+      "bur:1403374426276": {
+        "word": "ဆောင်း",
+        "gloss": "（帽子を）かぶる",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（帽子を）かぶる"
+      },
+      "bur:1404565936439": {
+        "word": "ခေါင်းလျှော်ရည်",
+        "gloss": "シャンプー",
+        "medium": "07.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シャンプー"
+      },
+      "bur:1409414459043": {
+        "word": "သနပ်ခါး",
+        "gloss": "タナカ（化粧用樹皮ペースト）",
+        "medium": "07.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タナカ（化粧用樹皮ペースト）"
+      },
+      "bur:1436433634009": {
+        "word": "မိတ်ကပ်",
+        "gloss": "化粧、メイク",
+        "medium": "07.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "化粧、メイク"
+      },
+      "bur:1560605548151": {
+        "word": "ကျစ်ဆံမြီး",
+        "gloss": "おさげ、三つ編み",
+        "medium": "07.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "おさげ、三つ編み"
+      },
+      "bur:1402174493080": {
+        "word": "မီးပူတိုက်",
+        "gloss": "アイロンをかける",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アイロンをかける"
+      },
+      "bur:1418858989638": {
+        "word": "ချည်သား",
+        "gloss": "木綿、綿布",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木綿、綿布"
+      },
+      "bur:1395257309865": {
+        "word": "အိမ်သာ",
+        "gloss": "トイレ、便所",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トイレ、便所"
+      },
+      "bur:1395616438208": {
+        "word": "အိမ်",
+        "gloss": "家、自宅",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "家、自宅"
+      },
+      "bur:1396101014926": {
+        "word": "ဟိုတယ်",
+        "gloss": "ホテル",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ホテル"
+      },
+      "bur:1396908411177": {
+        "word": "အိုးအိမ်",
+        "gloss": "住まい、家",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "住まい、家"
+      },
+      "bur:1397343316702": {
+        "word": "အိပ်ခန်း",
+        "gloss": "寝室",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "寝室"
+      },
+      "bur:1398606766548": {
+        "word": "တံခါး",
+        "gloss": "窓；扉",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "窓；扉"
+      },
+      "bur:1398607037586": {
+        "word": "တံခါးမကြီး",
+        "gloss": "扉、ドア",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "扉、ドア"
+      },
+      "bur:1401373124986": {
+        "word": "မီးဖိုချောင်",
+        "gloss": "台所、キッチン",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "台所、キッチン"
+      },
+      "bur:1404683677280": {
+        "word": "ပြတင်းပေါက်",
+        "gloss": "窓",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "窓"
+      },
+      "bur:1418254660032": {
+        "word": "အမိုး",
+        "gloss": "屋根",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "屋根"
+      },
+      "bur:1423657298027": {
+        "word": "မုခ်",
+        "gloss": "門、入口",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "門、入口"
+      },
+      "bur:1439645919934": {
+        "word": "မြေအောက်ခန်း",
+        "gloss": "地下室、セラー",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地下室、セラー"
+      },
+      "bur:1452241246956": {
+        "word": "ဧည့်ရိပ်သာ",
+        "gloss": "ゲストハウス、宿泊所",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ゲストハウス、宿泊所"
+      },
+      "bur:1478265567457": {
+        "word": "စံအိမ်",
+        "gloss": "大邸宅、ヴィラ",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大邸宅、ヴィラ"
+      },
+      "bur:1479865600631": {
+        "word": "ဝရန်တာ",
+        "gloss": "ベランダ、バルコニー",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ベランダ、バルコニー"
+      },
+      "bur:1522499534629": {
+        "word": "ဘန်ဂလို",
+        "gloss": "バンガロー",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バンガロー"
+      },
+      "bur:1566501829334": {
+        "word": "တိုက်ခန်း",
+        "gloss": "アパート、集合住宅",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アパート、集合住宅"
+      },
+      "bur:1394277274214": {
+        "word": "ပုလင်း",
+        "gloss": "瓶",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "瓶"
+      },
+      "bur:1396908481388": {
+        "word": "အိပ်ရာ",
+        "gloss": "ベッド、寝床",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ベッド、寝床"
+      },
+      "bur:1397253158206": {
+        "word": "အိတ်",
+        "gloss": "鞄、袋",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鞄、袋"
+      },
+      "bur:1397343210273": {
+        "word": "စားပွဲ",
+        "gloss": "机、テーブル",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "机、テーブル"
+      },
+      "bur:1397343243156": {
+        "word": "ကုလားထိုင်",
+        "gloss": "椅子",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "椅子"
+      },
+      "bur:1398091313381": {
+        "word": "လွယ်အိတ်",
+        "gloss": "肩掛け鞄",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "肩掛け鞄"
+      },
+      "bur:1400454531439": {
+        "word": "ထိုင်ခုံ",
+        "gloss": "座席、椅子",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "座席、椅子"
+      },
+      "bur:1403374214070": {
+        "word": "ဆပ်ပြာ",
+        "gloss": "石けん",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "石けん"
+      },
+      "bur:1404562666643": {
+        "word": "သေတ္တာ",
+        "gloss": "箱",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "箱"
+      },
+      "bur:1404562767220": {
+        "word": "ရေခဲသေတ္တာ",
+        "gloss": "冷蔵庫",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "冷蔵庫"
+      },
+      "bur:1404565654301": {
+        "word": "ဖယောင်းတိုင်",
+        "gloss": "ろうそく",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ろうそく"
+      },
+      "bur:1404565833327": {
+        "word": "ဓါတ်မီး",
+        "gloss": "懐中電灯",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "懐中電灯"
+      },
+      "bur:1404565891749": {
+        "word": "ခြင်ဆေးခွေ",
+        "gloss": "蚊取り線香",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蚊取り線香"
+      },
+      "bur:1423656828374": {
+        "word": "သံဘူး",
+        "gloss": "缶、缶容器",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "缶、缶容器"
+      },
+      "bur:1428097988441": {
+        "word": "အိမ်သာသုံးစက္ကူ",
+        "gloss": "トイレットペーパー",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トイレットペーパー"
+      },
+      "bur:1442440386614": {
+        "word": "အမှိုက်ပုံး",
+        "gloss": "ごみ箱",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ごみ箱"
+      },
+      "bur:1453829616452": {
+        "word": "လိုက်ကာ",
+        "gloss": "カーテン",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カーテン"
+      },
+      "bur:1460508424361": {
+        "word": "ပန်ကာ",
+        "gloss": "扇風機",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "扇風機"
+      },
+      "bur:1481848607671": {
+        "word": "ပရိဘောဂ",
+        "gloss": "家具",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "家具"
+      },
+      "bur:1570976143220": {
+        "word": "ခေါင်းအုံး",
+        "gloss": "枕",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "枕"
+      },
+      "bur:1401385585309": {
+        "word": "တဲ / တည်း",
+        "gloss": "泊まる、滞在する（ホテルなどに）",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "泊まる、滞在する（ホテルなどに）"
+      },
+      "bur:1511824353066": {
+        "word": "စတင်နေထိုင်",
+        "gloss": "定住し始める、住みつく",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "定住し始める、住みつく"
       }
     },
     "shan": {
@@ -16112,6 +17123,927 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "（一角の）サイ"
+      },
+      "shn:1783945285773": {
+        "word": "ၶူဝ်းၼုင်ႈ",
+        "gloss": "衣服、着物",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "衣服、着物"
+      },
+      "shn:1783945285842": {
+        "word": "ၵူၼ်",
+        "gloss": "ズボン、パンツ",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ズボン、パンツ"
+      },
+      "shn:1783945285953": {
+        "word": "ၶႅပ်းတိၼ်",
+        "gloss": "サンダル",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サンダル"
+      },
+      "shn:1783945286469": {
+        "word": "ပေႇႁူ",
+        "gloss": "耳飾り、イヤリング",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "耳飾り、イヤリング"
+      },
+      "shn:1783945286497": {
+        "word": "မၢၵ်ႇႁူဝ်",
+        "gloss": "帽子（より一般的に使われる）",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "帽子（より一般的に使われる）"
+      },
+      "shn:1783945286859": {
+        "word": "သိူဝ်ႈ",
+        "gloss": "上着、シャツ、衣服",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "上着、シャツ、衣服"
+      },
+      "shn:1783945287525": {
+        "word": "တႃႇလီႇ",
+        "gloss": "垂れ飾りのある金のネックレス",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "垂れ飾りのある金のネックレス"
+      },
+      "shn:1783945287762": {
+        "word": "သိၼ်ႈ",
+        "gloss": "シン（シャン族などの女性用巻きスカート）",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シン（シャン族などの女性用巻きスカート）"
+      },
+      "shn:1783945287780": {
+        "word": "သွၵ်းတိၼ်",
+        "gloss": "靴",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "靴"
+      },
+      "shn:1783945288204": {
+        "word": "တွင်ႇႁူ",
+        "gloss": "耳飾り、ペンダント付きのイヤリング",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "耳飾り、ペンダント付きのイヤリング"
+      },
+      "shn:1783945288228": {
+        "word": "တၢင်းၼုင်ႈ",
+        "gloss": "衣類、衣服",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "衣類、衣服"
+      },
+      "shn:1783945288431": {
+        "word": "မွင်းၵူၺ်း",
+        "gloss": "指輪",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "指輪"
+      },
+      "shn:1783945288692": {
+        "word": "သိၼ်ႈတူင်ႇ",
+        "gloss": "筒状のシン、巻きスカート",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "筒状のシン、巻きスカート"
+      },
+      "shn:1783945289006": {
+        "word": "ၶူဝ်းၼုင်ႈၶူဝ်းမႆ",
+        "gloss": "衣服、衣類",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "衣服、衣類"
+      },
+      "shn:1783945289021": {
+        "word": "ၶဵၼ်းႁူဝ်",
+        "gloss": "ターバン、頭に巻くもの",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ターバン、頭に巻くもの"
+      },
+      "shn:1783945284769": {
+        "word": "မွပ်ႈ",
+        "gloss": "（作業のために）腰布をたくし上げる、ズボンの裾を上げる",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（作業のために）腰布をたくし上げる、ズボンの裾を上げる"
+      },
+      "shn:1783945285856": {
+        "word": "ၼုင်ႈၶူဝ်း",
+        "gloss": "服を着る、着替える",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "服を着る、着替える"
+      },
+      "shn:1783945287393": {
+        "word": "ၼုင်ႈသိူဝ်ႈ",
+        "gloss": "シャツやブラウス、ドレスを着る",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シャツやブラウス、ドレスを着る"
+      },
+      "shn:1783945288607": {
+        "word": "လွၼ်ႈ",
+        "gloss": "（服を）脱ぐ",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（服を）脱ぐ"
+      },
+      "shn:1783945289152": {
+        "word": "ၼုင်ႈပၼ်",
+        "gloss": "（人に）服を着せる",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（人に）服を着せる"
+      },
+      "shn:1783945284376": {
+        "word": "ထႃ",
+        "gloss": "剃る",
+        "medium": "07.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "剃る"
+      },
+      "shn:1783945285613": {
+        "word": "ၽႄး",
+        "gloss": "サテン、繻子（しゅす）",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サテン、繻子（しゅす）"
+      },
+      "shn:1783945287747": {
+        "word": "ဝၼ်ႈ",
+        "gloss": "布（特に地元産の粗末な布）",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "布（特に地元産の粗末な布）"
+      },
+      "shn:1783945288307": {
+        "word": "ပိၵ်ႈ",
+        "gloss": "綿布、更紗（さらさ） （語源等：ビルマ語）",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "綿布、更紗（さらさ） （語源等：ビルマ語）"
+      },
+      "shn:1783945288739": {
+        "word": "သၵ်ႉၶူဝ်း",
+        "gloss": "洗濯する",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "洗濯する"
+      },
+      "shn:1783945284763": {
+        "word": "ၽၵ်းတူ",
+        "gloss": "戸、ドア",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "戸、ドア"
+      },
+      "shn:1783945285111": {
+        "word": "လင်ႁိူၼ်း",
+        "gloss": "屋根",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "屋根"
+      },
+      "shn:1783945285401": {
+        "word": "တီႈယူႇ",
+        "gloss": "住居、居場所",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "住居、居場所"
+      },
+      "shn:1783945285826": {
+        "word": "ဝႄး",
+        "gloss": "重なり合う屋根（片側がもう一方に突き出たもの）",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "重なり合う屋根（片側がもう一方に突き出たもの）"
+      },
+      "shn:1783945286517": {
+        "word": "လင်ၶႃး",
+        "gloss": "茅葺屋根",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "茅葺屋根"
+      },
+      "shn:1783945286671": {
+        "word": "ႁိူၼ်းယူႇ",
+        "gloss": "住居、わが家",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "住居、わが家"
+      },
+      "shn:1783945286684": {
+        "word": "ႁႄး",
+        "gloss": "庇（ひさし）、ベランダ、オーニング",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "庇（ひさし）、ベランダ、オーニング"
+      },
+      "shn:1783945287441": {
+        "word": "ႁူင်းလိုဝ်ႈ",
+        "gloss": "休憩所、モーテル、宿、ホテル",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "休憩所、モーテル、宿、ホテル"
+      },
+      "shn:1783945287931": {
+        "word": "ၶွၵ်ႈမႃ",
+        "gloss": "犬小屋",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "犬小屋"
+      },
+      "shn:1783945288575": {
+        "word": "လုၵ်းၼွၼ်း",
+        "gloss": "寝室",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "寝室"
+      },
+      "shn:1783945288702": {
+        "word": "သုမ်ႉၵၢႆႇၼႃး",
+        "gloss": "小屋、休憩所（一般に平らな屋根）",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小屋、休憩所（一般に平らな屋根）"
+      },
+      "shn:1783945288708": {
+        "word": "သူၼ်ႁိူၵ်ႈ",
+        "gloss": "庭",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "庭"
+      },
+      "shn:1783945289027": {
+        "word": "ၶွင်ႉၼွၼ်း",
+        "gloss": "寝室、ベッドルーム",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "寝室、ベッドルーム"
+      },
+      "shn:1783945289031": {
+        "word": "ၶွၵ်ႈမူ",
+        "gloss": "豚小屋",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "豚小屋"
+      },
+      "shn:1783945284721": {
+        "word": "ထူင်",
+        "gloss": "袋、嚢",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "袋、嚢"
+      },
+      "shn:1783945285766": {
+        "word": "ဢုပ်း",
+        "gloss": "円錐形の蓋がついた箱",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "円錐形の蓋がついた箱"
+      },
+      "shn:1783945285978": {
+        "word": "တင်ႇ",
+        "gloss": "椅子、腰掛け、スツール",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "椅子、腰掛け、スツール"
+      },
+      "shn:1783945285983": {
+        "word": "တဵၼ်း",
+        "gloss": "ろうそく、明かり、ランプ",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ろうそく、明かり、ランプ"
+      },
+      "shn:1783945286196": {
+        "word": "ဢႅပ်ႇ",
+        "gloss": "箱、蓋付きの容器",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "箱、蓋付きの容器"
+      },
+      "shn:1783945287300": {
+        "word": "ၵွၼ်ႈသီ",
+        "gloss": "固形石鹸",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "固形石鹸"
+      },
+      "shn:1783945287332": {
+        "word": "ၶူဝ်လႆ",
+        "gloss": "階段、はしご",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "階段、はしご"
+      },
+      "shn:1783945287426": {
+        "word": "ၽႃႈႁူမ်ႇ",
+        "gloss": "掛け布団、毛布",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "掛け布団、毛布"
+      },
+      "shn:1783945287571": {
+        "word": "ပဵတ်ႈ",
+        "gloss": "（ござのように編んだ）籠",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（ござのように編んだ）籠"
+      },
+      "shn:1783945287609": {
+        "word": "မူင်",
+        "gloss": "保護用のカバーとして使う袋",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "保護用のカバーとして使う袋"
+      },
+      "shn:1783945288046": {
+        "word": "ၽႃႈၵင်ႈ",
+        "gloss": "カーテン、幕、ドレープ",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カーテン、幕、ドレープ"
+      },
+      "shn:1783945288047": {
+        "word": "ၽႃႈၸဵတ်ႉ",
+        "gloss": "ハンカチ；拭き布、雑巾；タオル",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハンカチ；拭き布、雑巾；タオル"
+      },
+      "shn:1783945288276": {
+        "word": "ထူင်ပႃး",
+        "gloss": "肩掛け鞄、ショルダーバッグ",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "肩掛け鞄、ショルダーバッグ"
+      },
+      "shn:1783945285361": {
+        "word": "ၽဵဝ်ႈ",
+        "gloss": "片付ける、整理する、一掃する",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "片付ける、整理する、一掃する"
+      },
+      "shn:1783945286699": {
+        "word": "တီႇၽဵဝ်ႈ",
+        "gloss": "きれいに取り除く、片付ける",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "きれいに取り除く、片付ける"
+      },
+      "shn:1783945286922": {
+        "word": "ၵၢၼ်ၼႃႈႁိူၼ်း",
+        "gloss": "家事",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "家事"
+      },
+      "shn:1783945287305": {
+        "word": "ၵၢၼ်ႁိူၼ်း",
+        "gloss": "家事",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "家事"
+      },
+      "shn:1783945288455": {
+        "word": "မၢႆသူၼ်",
+        "gloss": "庭の除草をする",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "庭の除草をする"
+      },
+      "shn:1783945288613": {
+        "word": "လၢင်ႉမေႃႈလၢင်ႉဝၢၼ်ႇ",
+        "gloss": "皿を洗う",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "皿を洗う"
+      },
+      "shn:1783945287477": {
+        "word": "တင်ႈသဝ်း",
+        "gloss": "住居を定める、定住する",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "住居を定める、定住する"
+      },
+      "shn:1783945287657": {
+        "word": "ယူႇလူၺ်ႈ",
+        "gloss": "共に暮らす、同居する",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "共に暮らす、同居する"
+      },
+      "shn:1783945288507": {
+        "word": "ယူႇၶေႃ",
+        "gloss": "離れて住む、別居する",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "離れて住む、別居する"
       }
     }
   },
@@ -16140,6 +18072,8 @@
     "02",
     "03",
     "06",
+    "07",
+    "08",
     "11"
   ]
 }
