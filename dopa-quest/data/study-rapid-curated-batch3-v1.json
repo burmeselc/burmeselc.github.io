@@ -7,11 +7,11 @@
   "basis": "semantic reading of stored Japanese and English glosses; independently verifying original lexicographic sources remains outstanding",
   "counts": {
     "proposals": 244,
-    "classified": 192,
-    "deferred": 52,
-    "burmese": 28,
-    "shan": 164,
-    "major_corrections": 133
+    "classified": 184,
+    "deferred": 60,
+    "burmese": 26,
+    "shan": 158,
+    "major_corrections": 131
   },
   "medium_counts": {
     "01.01": 1,
@@ -29,7 +29,7 @@
     "04.03": 3,
     "04.04": 2,
     "05.01": 13,
-    "05.02": 4,
+    "05.02": 3,
     "05.04": 2,
     "06.01": 6,
     "06.03": 1,
@@ -59,25 +59,21 @@
     "12.06": 1,
     "13.01": 4,
     "13.04": 2,
-    "14.01": 6,
+    "14.01": 5,
     "14.02": 1,
     "14.03": 2,
-    "14.04": 1,
     "15.01": 4,
     "15.02": 2,
     "15.03": 1,
     "15.04": 5,
-    "16.01": 9,
+    "16.01": 8,
     "16.02": 7,
     "16.03": 1,
     "16.04": 5,
     "17.01": 3,
     "17.06": 1,
     "17.07": 2,
-    "18.01": 1,
-    "18.02": 1,
-    "18.03": 2,
-    "18.04": 1
+    "18.02": 1
   },
   "cards": {
     "burmese": [
@@ -424,24 +420,6 @@
         "major_correction": false
       },
       {
-        "id": "bur:1404084354159",
-        "word": "...ရက်နေ့",
-        "gloss": "〜日（年月日の「〜日」に用いる）",
-        "english": "on the ...-th (in dates: MONTH DAY-...)",
-        "legacy_major": "14",
-        "medium": "14.01",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": false
-      },
-      {
         "id": "bur:1397415120642",
         "word": "မြစ်",
         "gloss": "川（大きい）",
@@ -566,24 +544,6 @@
         "review_status": "gloss-reviewed-pilot-candidate",
         "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
         "major_correction": true
-      },
-      {
-        "id": "bur:1398091624287",
-        "word": "အမျိုးမျိုး",
-        "gloss": "さまざまな種類、いろいろ",
-        "english": "various kinds",
-        "legacy_major": "18",
-        "medium": "18.03",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": false
       }
     ],
     "shan": [
@@ -1144,24 +1104,6 @@
         "review_status": "gloss-reviewed-pilot-candidate",
         "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
         "major_correction": true
-      },
-      {
-        "id": "shn:1783945284744",
-        "word": "လုၵ်ႈလၢင်း",
-        "gloss": "子、子供たち、子孫",
-        "english": "child, children, offspring",
-        "legacy_major": "05",
-        "medium": "05.02",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": false
       },
       {
         "id": "shn:1783945284781",
@@ -2514,24 +2456,6 @@
         "major_correction": false
       },
       {
-        "id": "shn:1783945284329",
-        "word": "ႁၢၼ်ႉ",
-        "gloss": "階、段、程度",
-        "english": "storey, step, degree",
-        "legacy_major": "15",
-        "medium": "14.04",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": true
-      },
-      {
         "id": "shn:1783945284816",
         "word": "သိူဝ်ၽိူၵ်ႇ",
         "gloss": "白虎",
@@ -3000,42 +2924,6 @@
         "major_correction": true
       },
       {
-        "id": "shn:1783945284492",
-        "word": "ပဵၼ်လႆႈ",
-        "gloss": "あり得る、可能である、達成できる",
-        "english": "is likely to be, is possible to happen, can be achieved",
-        "legacy_major": "16",
-        "medium": "18.04",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": true
-      },
-      {
-        "id": "shn:1783945284725",
-        "word": "ဢႅဝ်ႇ",
-        "gloss": "ぶらぶら歩く、出歩く、訪問する",
-        "english": "ramble, go about, pay a visit,",
-        "legacy_major": "16",
-        "medium": "16.01",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": false
-      },
-      {
         "id": "shn:1783945285337",
         "word": "လိုဝ်းလင်",
         "gloss": "名声を得る、有名な、名高い",
@@ -3502,42 +3390,6 @@
         "review_status": "gloss-reviewed-pilot-candidate",
         "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
         "major_correction": false
-      },
-      {
-        "id": "shn:1783945284422",
-        "word": "သႅၼ်း",
-        "gloss": "種類、型、等級",
-        "english": "kind, sort, rank, as",
-        "legacy_major": "18",
-        "medium": "18.03",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": false
-      },
-      {
-        "id": "shn:1783945284943",
-        "word": "ပုၼ်ႈတႃႇ",
-        "gloss": "～のために、～の目的で",
-        "english": "for, for the sake of, for the purpose of",
-        "legacy_major": "18",
-        "medium": "18.01",
-        "tags": {
-          "semantic_type": [],
-          "feature": [],
-          "field": [],
-          "usage": []
-        },
-        "original_dictionary_verified": false,
-        "review_status": "gloss-reviewed-pilot-candidate",
-        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
-        "major_correction": false
       }
     ]
   },
@@ -3904,6 +3756,62 @@
       "suggested_by_keywords": "18.04",
       "decision": "hold",
       "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1404084354159",
+      "suggested_by_keywords": "14.01",
+      "decision": "hold",
+      "reason": "cross_scope_parent_definition",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1398091624287",
+      "suggested_by_keywords": "18.03",
+      "decision": "hold",
+      "reason": "category18_prior_explicit_source_review_hold",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284744",
+      "suggested_by_keywords": "05.02",
+      "decision": "hold",
+      "reason": "kinship_and_nonkinship_usage_not_separated",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284329",
+      "suggested_by_keywords": "14.04",
+      "decision": "hold",
+      "reason": "cross_scope_parent_definition",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284492",
+      "suggested_by_keywords": "18.04",
+      "decision": "hold",
+      "reason": "detailed_scope_requires_definition_review",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284725",
+      "suggested_by_keywords": "16.01",
+      "decision": "hold",
+      "reason": "detailed_scope_requires_definition_review",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284422",
+      "suggested_by_keywords": "18.03",
+      "decision": "hold",
+      "reason": "category18_prior_explicit_source_review_hold",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284943",
+      "suggested_by_keywords": "18.01",
+      "decision": "hold",
+      "reason": "category18_prior_explicit_source_review_hold",
       "independent_dictionary_verified": false
     }
   ]
