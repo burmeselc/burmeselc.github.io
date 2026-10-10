@@ -58,10 +58,11 @@ function updateShanSenseControl(){
  '語義別モードでは7,290候補のうち7,241件を出題。同綴りの別語義は同じ四択に出さず、両方向で学べます。新IDの復習履歴は別管理です。';
 }
 
+function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.semantic_major}
 function domainEligible(x,l){
  const control=$('semanticCategory');
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
-  (x.semantic_major===control.value&&['P','R'].includes(x.semantic_status));
+  (effectiveMajor(x,l)===control.value&&['P','R'].includes(x.semantic_status));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
@@ -77,7 +78,7 @@ function updateSemanticCategories(){
  }
  let options='<option value="all">全カテゴリ（従来どおり）</option>';
  for(const [id,name] of Object.entries(labels)){
-   const count=activeDeck(l).filter(x=>x.semantic_major===id&&['P','R'].includes(x.semantic_status)&&String(x.game_include??'1')!=='0').length;
+   const count=activeDeck(l).filter(x=>effectiveMajor(x,l)===id&&['P','R'].includes(x.semantic_status)&&String(x.game_include??'1')!=='0').length;
    options+='<option value="'+esc(id)+'">'+esc(id+' '+name+'（'+count+'語）')+'</option>';
  }
  select.innerHTML=options;
