@@ -1,0 +1,26 @@
+{
+  "schema": "dopa-parent-progress-delta-v4",
+  "source_main": "d1cf54211d8e88c914a7b93334b453187f8a9fd7",
+  "source_ledger": "study-current-parent-ledger-v3.json",
+  "audits": [
+    "study-next-500-audit-v1.json",
+    "study-next-500-second-audit-v1.json"
+  ],
+  "counts": {
+    "parent_total": 7980,
+    "pr_total": 6468,
+    "classed_parent": 5091,
+    "unresolved_pr": 1377,
+    "mh_parent": 1512,
+    "sense_candidates": 7290,
+    "sense_active": 7241,
+    "sense_held": 49,
+    "newly_audited": 500,
+    "newly_selected": 151,
+    "newly_held": 349,
+    "not_yet_in_either_500_audit_or_pr28_held": 484
+  },
+  "next_unreviewed_first_id": "shn:1783945287956",
+  "independent_dictionary_verified": false,
+  "note": "Delta on top of v3 ledger; counts supersede its snapshot. Held entries remain eligible for independent dictionary/sense review."
+}

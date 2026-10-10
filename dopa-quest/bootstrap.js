@@ -207,8 +207,15 @@
     try{
       const res=await fetch('./data/study-next-500-audit-v1.json',{cache:'no-cache'});
       if(!res.ok)throw Error('next 500 audit HTTP '+res.status);
+      const first500=await res.json();
       usableDetails=window.DOPAStudyDetails.extendNext500(taxonomy,usableDetails,
-        await res.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
+        first500,defaults,{burmese:burmeseSemantic,shan:shanSemantic});
+      try{
+        const second=await fetch('./data/study-next-500-second-audit-v1.json',{cache:'no-cache'});
+        if(!second.ok)throw Error('second 500 audit HTTP '+second.status);
+        usableDetails=window.DOPAStudyDetails.extendNext500Second(taxonomy,usableDetails,
+          await second.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic},first500);
+      }catch(e){console.warn('Second 500 review unavailable; keeping previous 4940 classifications',e)}
     }catch(e){console.warn('Next 500 review unavailable; keeping previous 4907 classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
