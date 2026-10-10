@@ -146,7 +146,16 @@
       if(!r.ok)throw Error('study details HTTP '+r.status);
       return r.json();
     }));
-    window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,details,defaults);
+    let usableDetails=details;
+    try{
+      const supplementResponse=await fetch('./data/study-details-category18-review-v1.json',{cache:'no-cache'});
+      if(!supplementResponse.ok)throw Error('category 18 review HTTP '+supplementResponse.status);
+      const supplement=await supplementResponse.json();
+      usableDetails=window.DOPAStudyDetails.extendCategory18(taxonomy,details,supplement,defaults,{
+        burmese:burmeseSemantic,shan:shanSemantic
+      });
+    }catch(e){console.warn('Category 18 pilot unavailable; retaining first 17 domains',e)}
+    window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
