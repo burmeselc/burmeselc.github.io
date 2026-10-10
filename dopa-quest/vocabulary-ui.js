@@ -21,8 +21,9 @@
   const custom=target.value.startsWith('book:');
   $('vocabRename').disabled=$('vocabDelete').disabled=!custom;
   const key=target.value;
-  $('vocabStudy').textContent=key==='bookmarks'?'ブックマークを単語カードで学ぶ':'この単語帳を単語カードで学ぶ';
-  $('vocabStudy').disabled=!libAPI.idsFor(library,key).length;
+  const studyKey=views.value!=='all'?views.value:key;
+  $('vocabStudy').textContent=studyKey==='bookmarks'?'ブックマークを単語カードで学ぶ':'この単語帳を単語カードで学ぶ';
+  $('vocabStudy').disabled=!libAPI.idsFor(library,studyKey).length;
  }
  function results(){
   const {lang,pool,allDeck,library}=context(),scope=$('vocabScope').value,view=$('vocabView').value;
