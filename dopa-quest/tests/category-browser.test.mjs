@@ -32,7 +32,7 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
    // Every answer (including the three false alternatives) belongs to the food domain.
    const scoped=await page.locator('#choices button').evaluateAll((buttons)=>{
      const byId=new Map(window.DOPA_DATA.burmese.map(w=>[w.id,w]));
-     return buttons.map(b=>({category:byId.get(b.dataset.itemid)?.semantic_major,status:byId.get(b.dataset.itemid)?.semantic_status}));
+     return buttons.map(b=>{const x=byId.get(b.dataset.itemid);return {category:window.DOPA_DETAIL?.majorFor?.(x,'burmese')||x?.semantic_major,status:x?.semantic_status}});
    });
    assert.deepEqual(scoped.map(x=>x.category),['06','06','06','06']);
    assert.ok(scoped.every(x=>x.status!=='M'));
@@ -72,7 +72,7 @@ test('rare semantic category still shows four in-category choices',async()=>{
   assert.equal(await page.locator('#choices button').count(),4);
   const actual=await page.locator('#choices button').evaluateAll(buttons=>{
     const byId=new Map(window.DOPA_DATA.burmese.map(w=>[w.id,w]));
-    return buttons.map(b=>byId.get(b.dataset.itemid)?.semantic_major);
+    return buttons.map(b=>{const x=byId.get(b.dataset.itemid);return window.DOPA_DETAIL?.majorFor?.(x,'burmese')||x?.semantic_major});
   });
   assert.deepEqual(actual,['18','18','18','18']);
   assert.deepEqual(errors,[]);
