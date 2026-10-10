@@ -24,7 +24,7 @@ test('mobile: new flashcard ratings complete daily milestones, home streak persi
    await page.locator('[data-flash-rating="good"]').click();
   }
   const after=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
-  const day=windowDateKey(after.dailyStats.days);
+  const day=after.dailyStats.days[windowDateKey(after.dailyStats.days)];
   assert.equal(day.uniqueWords.length,5);
   assert.equal(day.rememberedWords.length,5);
   assert.equal(day.missionsClaimed.length,2);
