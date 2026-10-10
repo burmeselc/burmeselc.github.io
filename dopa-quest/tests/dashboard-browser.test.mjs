@@ -31,7 +31,11 @@ test('dashboard routes preserve IDs, quiz progress and current flashcards',async
   await page.locator('[data-dopa-route="library"]').click();
   assert.equal(await page.locator('#vocabPanel').isVisible(),true);
   assert.equal(await page.locator('#flashcardPanel').isVisible(),false);
-  await page.locator('#vocabExit').click();
+  await page.locator('[data-dopa-route="home"]').click();
+  assert.equal(await page.locator('#dopaDashboard').isVisible(),true);
+  assert.equal(await page.locator('#vocabPanel').isVisible(),false);
+  assert.equal(await page.locator('#setup').isVisible(),false);
+  await page.locator('[data-dopa-route="quest"]').click();
   assert.deepEqual(await page.evaluate(()=>window.DOPA_SYNC_API.snapshot().words),old.words);
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
