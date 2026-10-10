@@ -189,6 +189,12 @@
       usableDetails=window.DOPAStudyDetails.extendBulkGloss(taxonomy,usableDetails,
         await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
     }catch(e){console.warn('Bulk review pilot unavailable; retaining preceding detail classification',e)}
+    try{
+      const response=await fetch('./data/study-rapid-curated-batch3-v1.json',{cache:'no-cache'});
+      if(!response.ok)throw Error('rapid review HTTP '+response.status);
+      usableDetails=window.DOPAStudyDetails.extendRapidCurated(taxonomy,usableDetails,
+        await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
+    }catch(e){console.warn('Rapid review unavailable; retaining preceding 4176 detail classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
