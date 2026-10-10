@@ -1,0 +1,156 @@
+{
+  "schema": "dopa-held-conflict-and-speech-audit-v1",
+  "basis": "Existing original Japanese core + English gloss; no independent dictionary check",
+  "runtime_applied": false,
+  "scope": "currently held P/R original parent card candidates",
+  "counts": {
+    "total": 13,
+    "conflict": 9,
+    "speech": 4
+  },
+  "candidates": [
+    {
+      "id": "bur:1396908763156",
+      "language": "burmese",
+      "word": "သတ်",
+      "japanese_core": "殺す",
+      "english": "to kill",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "bur:1442441146520",
+      "language": "burmese",
+      "word": "ရန်သူ",
+      "japanese_core": "敵",
+      "english": "enemy",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "bur:1444687663358",
+      "language": "burmese",
+      "word": "တိုက်ခိုက်",
+      "japanese_core": "攻撃する",
+      "english": "to attack",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "bur:1572911736386",
+      "language": "burmese",
+      "word": "ကျူးကျော်",
+      "japanese_core": "侵入する、侵略する",
+      "english": "to trespass, invade",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "bur:1404084434454",
+      "language": "burmese",
+      "word": "ငြိမ်းချမ်းရေး",
+      "japanese_core": "平和",
+      "english": "peace",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286685",
+      "language": "shan",
+      "word": "ႁႅမ်တၢႆ",
+      "japanese_core": "殺害する、しとめる",
+      "english": "kill, slay,",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286883",
+      "language": "shan",
+      "word": "ဢဝ်တၢႆ",
+      "japanese_core": "殺す、殺害する",
+      "english": "kill, murder",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286960",
+      "language": "shan",
+      "word": "ၶႃႈၸႂ်",
+      "japanese_core": "殺す",
+      "english": "kill",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945288522",
+      "language": "shan",
+      "word": "ယၢၼ်ႇသူႇ",
+      "japanese_core": "敵 （語源等：Burmese）",
+      "english": "enemy, also （語源等：Burmese）",
+      "current_major": "09",
+      "proposed_medium": "09.04",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285795",
+      "language": "shan",
+      "word": "ထဵင်ၵၼ်",
+      "japanese_core": "反論する、互いに議論する",
+      "english": "contradict, argue with one another",
+      "current_major": "13",
+      "proposed_medium": "13.01",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286254",
+      "language": "shan",
+      "word": "ႁွင်ႉသႅၼ်ႇ",
+      "japanese_core": "叫ぶ、怒鳴る",
+      "english": "scream, yell, also",
+      "current_major": "13",
+      "proposed_medium": "13.01",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286408",
+      "language": "shan",
+      "word": "ၸၼ်ၸႂ်",
+      "japanese_core": "説得する、そそのかす、促す",
+      "english": "persuade, instigate, urge",
+      "current_major": "13",
+      "proposed_medium": "13.01",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286612",
+      "language": "shan",
+      "word": "ၶိုၼ်းဝႃႈ",
+      "japanese_core": "言い直す、再び言う、また",
+      "english": "say again, also",
+      "current_major": "13",
+      "proposed_medium": "13.01",
+      "source_status": "existing-bilingual-gloss-consistent",
+      "source_dictionary_verified": false
+    }
+  ]
+}

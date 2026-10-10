@@ -1,0 +1,542 @@
+{
+  "schema": "dopa-held-geography-languages-audit-v1",
+  "scope": "post-release-new-source-crosschecks-only",
+  "basis": "Japanese core and saved English gloss reviewed; original dictionary/speaker not yet independently checked; cross-checked against latest main study-place-language-review-v1.json",
+  "applied_to_runtime": false,
+  "original_ids_changed": false,
+  "counts": {
+    "net_new_candidates": 2,
+    "already_in_main": 84,
+    "original_audit_total": 86,
+    "retained_ambiguous": 8
+  },
+  "candidates": [
+    {
+      "id": "shn:1783945287672",
+      "language": "shan",
+      "word": "ယၼ်ႇၵုင်ႇ",
+      "gloss": "ラングーン、ヤンゴン",
+      "english": "Rangoon; Yangon (as presently known),",
+      "current_major": "09",
+      "proposed_medium": "09.05",
+      "review_status": "bilingual-gloss-consistent-proposal",
+      "original_dictionary_verified": false
+    },
+    {
+      "id": "bur:1432342945541",
+      "language": "burmese",
+      "word": "အက်စ်ပဲရန်တို",
+      "gloss": "エスペラント",
+      "english": "Esperanto",
+      "current_major": "13",
+      "proposed_medium": "13.05",
+      "review_status": "bilingual-gloss-consistent-proposal",
+      "original_dictionary_verified": false
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "bur:1394981526737",
+      "language": "burmese",
+      "word": "မြန်မာ",
+      "gloss": "ミャンマー、ミャンマー語（正式）",
+      "english": "Myanmar, Burmese (formal)",
+      "existing_major": "09",
+      "reason": "国名と言語名が混在",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "bur:1394981479872",
+      "language": "burmese",
+      "word": "ဗမာ",
+      "gloss": "ビルマ、ビルマ語",
+      "english": "Burma, Burmese (colloquial)",
+      "existing_major": "13",
+      "reason": "地理・民族と言語名が混在",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "bur:1402175716613",
+      "language": "burmese",
+      "word": "မွန်",
+      "gloss": "モン（ミャンマー南部の民族・言語）",
+      "english": "Mon (people and language in southern Myanmar)",
+      "existing_major": "09",
+      "reason": "民族名と言語名が混在",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "bur:1394981250630",
+      "language": "burmese",
+      "word": "အင်္ဂလိပ်",
+      "gloss": "英語、英語の",
+      "english": "English",
+      "existing_major": "13",
+      "reason": "言語名と形容詞用法の区別が必要",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "bur:1487726989411",
+      "language": "burmese",
+      "word": "ဂုံ",
+      "gloss": "クン（南部シャン州のタイ系民族・言語）",
+      "english": "Khün (Tai people and language in Southern Shan State)",
+      "existing_major": "13",
+      "reason": "民族名と言語名が混在",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "shn:1783945283864",
+      "language": "shan",
+      "word": "မိူင်း",
+      "gloss": "国、土地；大都市",
+      "english": "country, land; large city",
+      "existing_major": "09",
+      "reason": "国・土地・大都市という普通名詞の用法差",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "shn:1783945284889",
+      "language": "shan",
+      "word": "တဵင်း",
+      "gloss": "ムンクン地方の川の名（サルウィン川の支流、ၼမ်ႉတဵင်း）",
+      "english": "name of a river in the principality of Mng Kng (branch of the Salween River, ၼမ်ႉတဵင်း )",
+      "existing_major": "09",
+      "reason": "河川名の分類は01と09の境界確認を要する",
+      "status": "retained-needs-sense-or-major-review"
+    },
+    {
+      "id": "shn:1783945286767",
+      "language": "shan",
+      "word": "မိူင်းယၢင်းလႅင်",
+      "gloss": "カヤー州",
+      "english": "Kayah State, Karenni State",
+      "existing_major": "13",
+      "reason": "現在の旧大分類13と提案09が不一致、分類修正手順が必要",
+      "status": "retained-needs-sense-or-major-review"
+    }
+  ],
+  "previously_published_checks": [
+    {
+      "id": "bur:1396908662041",
+      "proposed_medium": "09.05",
+      "word": "ရန်ကုန်"
+    },
+    {
+      "id": "bur:1396908711265",
+      "proposed_medium": "09.05",
+      "word": "မန္တလေး"
+    },
+    {
+      "id": "bur:1397343890384",
+      "proposed_medium": "09.05",
+      "word": "အင်္ဂလန်"
+    },
+    {
+      "id": "bur:1397343944847",
+      "proposed_medium": "09.05",
+      "word": "ထိုင်းနိုင်ငံ"
+    },
+    {
+      "id": "bur:1397344007999",
+      "proposed_medium": "09.05",
+      "word": "အိန္ဒိယ"
+    },
+    {
+      "id": "bur:1397344059374",
+      "proposed_medium": "09.05",
+      "word": "အမေရိက"
+    },
+    {
+      "id": "bur:1397344101123",
+      "proposed_medium": "09.05",
+      "word": "ဂျပန်"
+    },
+    {
+      "id": "bur:1398085804230",
+      "proposed_medium": "09.05",
+      "word": "ပုဂံ"
+    },
+    {
+      "id": "bur:1401385166715",
+      "proposed_medium": "09.05",
+      "word": "ဂျာမနီ"
+    },
+    {
+      "id": "bur:1401385262069",
+      "proposed_medium": "09.05",
+      "word": "အီတလီ"
+    },
+    {
+      "id": "bur:1401385283411",
+      "proposed_medium": "09.05",
+      "word": "အင်ဒိုနီးရှား"
+    },
+    {
+      "id": "bur:1401385321136",
+      "proposed_medium": "09.05",
+      "word": "ဩစတြေးလျ"
+    },
+    {
+      "id": "bur:1401385363767",
+      "proposed_medium": "09.05",
+      "word": "သီရိလင်္ကာနိုင်ငံ"
+    },
+    {
+      "id": "bur:1401385439009",
+      "proposed_medium": "09.05",
+      "word": "ယိုးဒယားနိုင်ငံ"
+    },
+    {
+      "id": "bur:1401385497852",
+      "proposed_medium": "09.05",
+      "word": "သီဟိုဠ်နိုင်ငံ"
+    },
+    {
+      "id": "bur:1402175359791",
+      "proposed_medium": "09.05",
+      "word": "ဆွစ်ဇာလန်နိုင်ငံ"
+    },
+    {
+      "id": "bur:1402175483439",
+      "proposed_medium": "09.05",
+      "word": "ဇူးရစ်"
+    },
+    {
+      "id": "bur:1402175569609",
+      "proposed_medium": "09.05",
+      "word": "လိပ်ဇစ် /&nbsp;လိုက်ပဆစ်"
+    },
+    {
+      "id": "bur:1402175646206",
+      "proposed_medium": "09.05",
+      "word": "ဘာလင်"
+    },
+    {
+      "id": "bur:1403369965585",
+      "proposed_medium": "09.05",
+      "word": "အာရှ"
+    },
+    {
+      "id": "bur:1403370068574",
+      "proposed_medium": "09.05",
+      "word": "ဥရောပ"
+    },
+    {
+      "id": "bur:1403372214609",
+      "proposed_medium": "09.05",
+      "word": "စင်္ကာပူ"
+    },
+    {
+      "id": "bur:1409412414359",
+      "proposed_medium": "09.05",
+      "word": "ဘန်ကောက်"
+    },
+    {
+      "id": "bur:1409420999355",
+      "proposed_medium": "09.05",
+      "word": "ရုရှား"
+    },
+    {
+      "id": "bur:1409421652735",
+      "proposed_medium": "09.05",
+      "word": "ဩစတြီးယား"
+    },
+    {
+      "id": "bur:1418858281433",
+      "proposed_medium": "09.05",
+      "word": "နေပြည်တော်"
+    },
+    {
+      "id": "bur:1435364751503",
+      "proposed_medium": "09.05",
+      "word": "လန်ဒန်"
+    },
+    {
+      "id": "bur:1437809929006",
+      "proposed_medium": "09.05",
+      "word": "ရွှေဘို"
+    },
+    {
+      "id": "bur:1437810003522",
+      "proposed_medium": "09.05",
+      "word": "ထားဝယ်"
+    },
+    {
+      "id": "bur:1439692588501",
+      "proposed_medium": "09.05",
+      "word": "ဗီယက်နမ်"
+    },
+    {
+      "id": "bur:1439692685643",
+      "proposed_medium": "09.05",
+      "word": "ကိုရီးယား"
+    },
+    {
+      "id": "bur:1445865867791",
+      "proposed_medium": "09.05",
+      "word": "မော်လမြိုင်"
+    },
+    {
+      "id": "bur:1445866762048",
+      "proposed_medium": "09.05",
+      "word": "ပဲခူး"
+    },
+    {
+      "id": "bur:1446670086165",
+      "proposed_medium": "09.05",
+      "word": "ပြင်ဦးလွင်"
+    },
+    {
+      "id": "bur:1449157970716",
+      "proposed_medium": "09.05",
+      "word": "အနီးစခန်း"
+    },
+    {
+      "id": "bur:1449165166460",
+      "proposed_medium": "09.05",
+      "word": "မြစ်ကြီးနား"
+    },
+    {
+      "id": "bur:1452681034859",
+      "proposed_medium": "09.05",
+      "word": "လားရှိုး"
+    },
+    {
+      "id": "bur:1454468456845",
+      "proposed_medium": "09.05",
+      "word": "ကမ္ဘောဒီးယား"
+    },
+    {
+      "id": "bur:1455279773847",
+      "proposed_medium": "09.05",
+      "word": "ကျိုင်းတုံ"
+    },
+    {
+      "id": "bur:1455280365342",
+      "proposed_medium": "09.05",
+      "word": "ပူတာအို"
+    },
+    {
+      "id": "bur:1456364931701",
+      "proposed_medium": "09.05",
+      "word": "တိဗက်"
+    },
+    {
+      "id": "bur:1456367482823",
+      "proposed_medium": "09.05",
+      "word": "နီပေါ"
+    },
+    {
+      "id": "bur:1456799449821",
+      "proposed_medium": "09.05",
+      "word": "အရှေ့တောင်အာရှ"
+    },
+    {
+      "id": "bur:1458438403196",
+      "proposed_medium": "09.05",
+      "word": "နယ်သာလန်"
+    },
+    {
+      "id": "bur:1473360125090",
+      "proposed_medium": "09.05",
+      "word": "ထိုင်ဝမ်"
+    },
+    {
+      "id": "bur:1486848190466",
+      "proposed_medium": "09.05",
+      "word": "ဖင်လန်နိုင်ငံ"
+    },
+    {
+      "id": "bur:1487787291777",
+      "proposed_medium": "09.05",
+      "word": "နယူးယော့"
+    },
+    {
+      "id": "bur:1511824834610",
+      "proposed_medium": "09.05",
+      "word": "အာသံ"
+    },
+    {
+      "id": "bur:1522959274076",
+      "proposed_medium": "09.05",
+      "word": "ပီကင်း"
+    },
+    {
+      "id": "bur:1562414671122",
+      "proposed_medium": "09.05",
+      "word": "ယူကရိန်း"
+    },
+    {
+      "id": "bur:1564423402151",
+      "proposed_medium": "09.05",
+      "word": "ဆီးရီးယား"
+    },
+    {
+      "id": "bur:1564424233813",
+      "proposed_medium": "09.05",
+      "word": "ဖိလစ်ပိုင်"
+    },
+    {
+      "id": "bur:1566501653696",
+      "proposed_medium": "09.05",
+      "word": "နယူးဇီလန်"
+    },
+    {
+      "id": "bur:1570495197640",
+      "proposed_medium": "09.05",
+      "word": "ကူမင်း"
+    },
+    {
+      "id": "bur:1583843700006",
+      "proposed_medium": "09.05",
+      "word": "ဝူဟန်"
+    },
+    {
+      "id": "shn:1783945284064",
+      "proposed_medium": "09.05",
+      "word": "ၵဵင်းမႆႇ"
+    },
+    {
+      "id": "shn:1783945284104",
+      "proposed_medium": "09.05",
+      "word": "သီႇပေႃႉ"
+    },
+    {
+      "id": "shn:1783945284141",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းထႆး"
+    },
+    {
+      "id": "shn:1783945284190",
+      "proposed_medium": "09.05",
+      "word": "လႃႈသဵဝ်ႈ"
+    },
+    {
+      "id": "shn:1783945284365",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းမၢၼ်ႈ"
+    },
+    {
+      "id": "shn:1783945284398",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းၶႄႇ"
+    },
+    {
+      "id": "shn:1783945284521",
+      "proposed_medium": "09.05",
+      "word": "လၢႆးၶႃႈ"
+    },
+    {
+      "id": "shn:1783945285174",
+      "proposed_medium": "09.05",
+      "word": "မႄႈသၢႆ"
+    },
+    {
+      "id": "shn:1783945285216",
+      "proposed_medium": "09.05",
+      "word": "ၵဵင်းႁၢႆး"
+    },
+    {
+      "id": "shn:1783945285262",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းရၶႅင်ႇ"
+    },
+    {
+      "id": "shn:1783945285644",
+      "proposed_medium": "09.05",
+      "word": "ဢႃႇဝႃႉ"
+    },
+    {
+      "id": "shn:1783945286014",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းလၢဝ်း"
+    },
+    {
+      "id": "shn:1783945286595",
+      "proposed_medium": "09.05",
+      "word": "ၵျႃႇမၼီႇ"
+    },
+    {
+      "id": "shn:1783945286766",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းမိတ်ႈ"
+    },
+    {
+      "id": "shn:1783945286846",
+      "proposed_medium": "09.05",
+      "word": "ဝဵင်းမၼ်းတလေး"
+    },
+    {
+      "id": "shn:1783945287106",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းမွၼ်း"
+    },
+    {
+      "id": "shn:1783945287107",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းယူၼ်း"
+    },
+    {
+      "id": "shn:1783945287108",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းသီႇပေႃႉ"
+    },
+    {
+      "id": "shn:1783945287109",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းၵွၵ်ႇ"
+    },
+    {
+      "id": "shn:1783945287132",
+      "proposed_medium": "09.05",
+      "word": "မၢၼ်ႈမေႃႇ"
+    },
+    {
+      "id": "shn:1783945287152",
+      "proposed_medium": "09.05",
+      "word": "ယၢၼ်ႇၵုင်ႇ"
+    },
+    {
+      "id": "shn:1783945287600",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းဢႃႇဝႃႉ"
+    },
+    {
+      "id": "shn:1783945287601",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းၵလႃး"
+    },
+    {
+      "id": "shn:1783945288302",
+      "proposed_medium": "09.05",
+      "word": "ပမေႃႇ"
+    },
+    {
+      "id": "shn:1783945288396",
+      "proposed_medium": "09.05",
+      "word": "မိူင်းၵျႃႇပၢၼ်ႇ"
+    },
+    {
+      "id": "shn:1783945288837",
+      "proposed_medium": "09.05",
+      "word": "ၵမ်ႇပေႃးၸႃႉ"
+    },
+    {
+      "id": "shn:1783945288839",
+      "proposed_medium": "09.05",
+      "word": "ၵလေႃး"
+    },
+    {
+      "id": "bur:1423657131394",
+      "proposed_medium": "13.05",
+      "word": "ပါဠိ"
+    },
+    {
+      "id": "bur:1423657234188",
+      "proposed_medium": "13.05",
+      "word": "သက္ကတ"
+    }
+  ],
+  "prior_release_data_sha": "02de52b5cad67f23edd528645f7983948b361e9e"
+}

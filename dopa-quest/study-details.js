@@ -257,6 +257,103 @@
    }
    return next;
   },
+  // Eleven strictly source-matched held meanings; unresolved senses stay out of play.
+  extendNextHeld(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-held-next-pilot-v1'||
+      batch.scope!=='original-held-09-13-pr25-audited'||
+      batch.original_decks_unchanged!==true||
+      batch.original_dictionary_verified!==false||
+      batch.optional_runtime_pilot!==true||
+      batch.counts?.audited!==15||batch.counts?.classified!==11||
+      batch.counts?.held!==4||batch.counts?.burmese!==6||batch.counts?.shan!==5)
+    throw Error('Unsupported next held pilot');
+   if((base.counts?.burmese||0)+(base.counts?.shan||0)!==4131||
+      (base.coverage?.burmese?.review_pending||0)+
+      (base.coverage?.shan?.review_pending||0)!==2337)
+    throw Error('Next held pilot requires the published 86-card overlay');
+   const mediums=new Map((taxonomy.categories||[]).flatMap(
+    cat=>cat.children.map(m=>[m.id,cat.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const allowed=new Set(['09.04','09.05','13.01','13.05']);
+   const all=[...(batch.cards?.burmese||[]),...(batch.cards?.shan||[]),
+    ...(batch.deferred||[])],seen=new Set();
+   if(all.length!==15||!Array.isArray(batch.cards?.burmese)||
+      !Array.isArray(batch.cards?.shan)||!Array.isArray(batch.deferred)||
+      batch.cards.burmese.length!==6||batch.cards.shan.length!==5||
+      batch.deferred.length!==4)throw Error('Next held pilot inventory mismatch');
+   const original={burmese:new Map(decks.burmese.map(x=>[x.id,x])),
+    shan:new Map(decks.shan.map(x=>[x.id,x]))};
+   // Source/coverage/tag checks finish before any returned metadata can change.
+   for(const lang of ['burmese','shan']){
+    const rows=[...batch.cards[lang],...batch.deferred.filter(
+     x=>x.id.startsWith(lang==='shan'?'shn:':'bur:'))];
+    for(const r of rows){
+     const source=original[lang].get(r.id),major=semantic?.[lang]?.cards?.[r.id];
+     if(seen.has(r.id)||!source||base.cards?.[lang]?.[r.id]||
+        source[lang]!==r.word||source.japanese_core!==r.gloss||
+        source.english!==r.english||major?.[0]!==r.legacy_major||
+        !['P','R'].includes(major?.[1])||r.original_dictionary_verified!==false)
+      throw Error('Stale next held card '+r.id);
+     seen.add(r.id);
+     if(r.review_status==='needs-source-review'){
+      if(r.medium!==null||r.tags!==null||!r.reason||
+         !batch.deferred.includes(r))throw Error('Invalid next held deferred entry');
+      continue;
+     }
+     if(r.review_status!=='gloss-reviewed-pilot-candidate'||
+        !allowed.has(r.medium)||mediums.get(r.medium)!==r.legacy_major||
+        batch.deferred.includes(r)||!r.tags||
+        Object.keys(r.tags).length!==axes.size)
+      throw Error('Invalid next held pilot entry '+r.id);
+     for(const [axis,values] of axes){
+      const row=r.tags[axis];
+      if(!Array.isArray(row)||row.length!==new Set(row).size||
+         row.some(v=>!values.has(v)))throw Error('Invalid next held tag '+r.id);
+     }
+    }
+   }
+   const expected={'09.04':8,'09.05':1,'13.01':1,'13.05':1};
+   const distribution=Object.fromEntries(Object.keys(expected).map(k=>[k,0]));
+   for(const lang of ['burmese','shan'])for(const row of batch.cards[lang])
+    distribution[row.medium]++;
+   if(Object.keys(batch.medium_counts||{}).length!==4||
+      Object.keys(expected).some(k=>batch.medium_counts?.[k]!==expected[k]||
+       distribution[k]!==expected[k]))
+    throw Error('Invalid next held category totals');
+   if(seen.size!==15)throw Error('Next held pilot duplicates');
+   const next={...base,cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    counts:{...base.counts},coverage:{...base.coverage},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],
+     shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const added=new Set();
+    for(const r of batch.cards[lang]){
+     next.cards[lang][r.id]={word:r.word,gloss:r.gloss,medium:r.medium,
+      tags:r.tags,review_status:'gloss-reviewed-pilot',evidence:r.gloss};
+     next.medium_counts[lang][r.medium]=(next.medium_counts[lang][r.medium]||0)+1;
+     added.add(r.id);
+    }
+    // Same Japanese answers, including previously classified ones, cannot
+    // occur as incorrect distractors against the new card.
+    const byGloss=new Map();
+    for(const [id,r] of Object.entries(next.cards[lang])){
+     if(!byGloss.has(r.gloss))byGloss.set(r.gloss,[]);
+     byGloss.get(r.gloss).push(id);
+    }
+    for(const ids of byGloss.values())if(ids.length>1&&ids.some(id=>added.has(id)))
+     next.choice_conflicts[lang].push({ids,reason:'同一訳語を相互の誤答にしない。'});
+    const prev=base.coverage[lang];
+    next.coverage[lang]={...prev,classified:prev.classified+added.size,
+     review_pending:prev.review_pending-added.size};
+    if(next.coverage[lang].review_pending<0||
+       next.coverage[lang].classified+next.coverage[lang].review_pending!==prev.scope_candidates)
+     throw Error('Next held coverage mismatch');
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
