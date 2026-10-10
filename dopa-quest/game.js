@@ -9,6 +9,14 @@ function loadLocal(){try{let raw=localStorage.getItem(KEY);if(raw)return {...fre
 let P=loadLocal();
 function ensureProfile(){if(!P.words||typeof P.words!=='object')P.words={};if(!P.rivals||typeof P.rivals!=='object')P.rivals={};if(!P.issues||typeof P.issues!=='object')P.issues={};if(!P.daily)P.daily=fresh().daily;if(!Array.isArray(P.reviewLog))P.reviewLog=[];}
 ensureProfile();
+function normalizeSoundPrefs(){
+ const modes=['off','quiet','standard','flashy'];
+ if(!modes.includes(P.sfxStyle))P.sfxStyle=P.sound===false?'off':'standard';
+ P.sfxVolume=Number.isFinite(Number(P.sfxVolume))?Math.min(100,Math.max(0,Math.round(Number(P.sfxVolume)))):30;
+ if(!modes.includes(P.lastSfxStyle)||P.lastSfxStyle==='off')P.lastSfxStyle='standard';
+ P.sound=P.sfxStyle!=='off';
+}
+normalizeSoundPrefs();
 function today(){let d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
 function rollover(){if(P.day!==today()){P.day=today();P.daily={q:0,revenge:0,prod:0,rewarded:false}}}
 rollover();
@@ -130,7 +138,19 @@ let targetLabel=dir==='fromJP'?orig(item,l):jp(item),ip=pos(item,l),ii=indexOf(i
   labels.add(lab);seenSpelling.add(spelling);out.push(x);
   if(out.length>=3)break
  }return out}
-function beep(kind){if(!P.sound)return;try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();let o=ctx.createOscillator(),g=ctx.createGain(),now=ctx.currentTime;o.type=kind==='seal'?'triangle':'sine';o.connect(g);g.connect(ctx.destination);o.frequency.value=kind==='bad'?140:kind==='boss'?95:kind==='seal'?840:540;g.gain.setValueAtTime(.035,now);g.gain.exponentialRampToValueAtTime(.001,now+.16);o.start(now);o.stop(now+.17)}catch(e){}}
+function beep(kind){
+ if(!P.sound)return false;
+ return window.DOPASound?.play(kind,{preset:P.sfxStyle,volume:P.sfxVolume})||false;
+}
+function refreshSoundControls(){
+ normalizeSoundPrefs();
+ const preset=$('sfxPreset'),volume=$('sfxVolume'),value=$('sfxVolumeValue'),status=$('sfxSessionStatus');
+ if(preset)preset.value=P.sfxStyle;
+ if(volume)volume.value=String(P.sfxVolume);
+ if(value)value.textContent=P.sfxVolume+'%';
+ if(status)status.textContent=window.DOPASound?.status?.()||'サウンドエンジンが読み込まれてゐません。';
+ $('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';
+}
 function vibe(v){try{navigator.vibrate?.(v)}catch(e){}}
 function toast(t){let e=$('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1500)}
 function banner(t,k=''){let e=$('banner');e.textContent=t;e.className='banner show '+k;setTimeout(()=>e.className='banner',900)}
@@ -179,12 +199,17 @@ function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x)
 function registerRivalWin(x){let active=rivalsFor(x),result=0;for(let r of active){let other=r.a===x.id?r.b:r.a;if(!S.options?.some(y=>y.id===other))continue;r.wins=(r.wins||0)+1;if(r.wins>=4&&!r.cleared){r.cleared=true;result++}}return result}
 function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.answered=true;clearTimer();if(q.typed){$('typedAnswer').disabled=true;$('typedSubmit').disabled=true}else{[...$('choices').children].forEach(b=>b.disabled=true)};
  let x=q.x,w=W(x),coinBefore=S.coin,memoryCredit=false;if(!q.retry){S.done++;P.daily.q++;P.totalQ++}let mult=q.isBoss?2:1,comboMult=Math.min(2.5,1+Math.floor(S.combo/3)*.25);
- if(ok){let ev=applyCorrect(q);memoryCredit=ev.credited;S.hit++;if(!q.retry){P.totalCorrect++;S.firstHits++;if(!ev.credited)S.practiceHits++}S.combo++;S.best=Math.max(S.best,S.combo);P.bestCombo=Math.max(P.bestCombo,S.combo);
+ if(ok){let levelBefore=lvInfo(P.xp).lv;let ev=applyCorrect(q);memoryCredit=ev.credited;S.hit++;if(!q.retry){P.totalCorrect++;S.firstHits++;if(!ev.credited)S.practiceHits++}S.combo++;S.best=Math.max(S.best,S.combo);P.bestCombo=Math.max(P.bestCombo,S.combo);
  if(q.dir==='fromJP'){S.prodHits++;P.daily.prod++}if(q.typed)S.typedHits++;if(q.dir==='listen')S.audioHits++;if(q.retry){S.revengeKills++;P.daily.revenge++}
  let rivalKills=!q.retry?registerRivalWin(x):0;S.rivalWins+=rivalKills;
- let gain=Math.round((q.retry?8:14)*mult*comboMult*(w.nemesis?1.6:1));if(ev.sealed){gain+=35;S.seals++;banner('✦ SEALED +35','seal');beep('seal')}if(ev.nemesisKilled){gain+=80;S.nemKills++;S.coin+=12;banner('☠ NEMESIS PURGED +80','seal')}if(rivalKills){gain+=70*rivalKills;S.coin+=10*rivalKills;banner('⚔ RIVAL CLEARED','seal')}
+ let gain=Math.round((q.retry?8:14)*mult*comboMult*(w.nemesis?1.6:1));if(ev.sealed){gain+=35;S.seals++;banner('✦ SEALED +35','seal')}if(ev.nemesisKilled){gain+=80;S.nemKills++;S.coin+=12;banner('☠ NEMESIS PURGED +80','seal')}if(rivalKills){gain+=70*rivalKills;S.coin+=10*rivalKills;banner('⚔ RIVAL CLEARED','seal')}
  S.xp+=gain;P.xp+=gain;S.coin+=q.isBoss?5:1;if(btn)btn.classList.add('correct');$('feedback').className='feedback on';$('feedback').innerHTML=`<div class="hit">${q.typed?'SPELL CLEAR':q.retry?'REVENGE COMPLETE':'PERFECT HIT'} <span class="gain">+${gain} XP</span></div>${(!q.retry&&!ev.credited)?'<div class="small">短期練習：XP獲得。熟練度は復習期限後に上昇します。</div>':''}${feedbackDetail(x,false)}`;
- floatXP('+'+gain+' XP',btn||$('card'));beep('ok');vibe(16);if(ev.after>ev.before)toast(`${STAGES[ev.before]} → ${STAGES[ev.after]}`)}
+ floatXP('+'+gain+' XP',btn||$('card'));
+ let fx=ev.nemesisKilled?'nemesis':ev.sealed?'seal':q.isBoss?'boss':
+   lvInfo(P.xp).lv>levelBefore?'levelup':
+   S.combo===10?'combo10':S.combo===5?'combo5':S.combo===3?'combo3':
+   rivalKills?'rival':'ok';
+ beep(fx);vibe(16);if(ev.after>ev.before)toast(`${STAGES[ev.before]} → ${STAGES[ev.after]}`)}
  else{S.miss++;S.combo=0;S.mistakes.push(x);let nem=applyWrong(q);if(btn)btn.classList.add('wrong');if(!q.typed)[...$('choices').children].forEach(b=>{if(b.dataset.correct==='1')b.classList.add('correct')});
  if(selected){let r=recordConfusion(x,selected);if(r&&r.confusions===2)banner('⚔ RIVAL UNLOCKED','nem')}
  if(q.retry<2){let rq=qFor(x,q.retry+1,q),at=Math.min(3,S.queue.length);S.queue.splice(at,0,rq)}
@@ -221,28 +246,48 @@ function updateHUD(){$('qstat').textContent=`${Math.min(S.done||0,S.initial||0)}
 function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.done,acc=attempt?S.firstHits/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
  if(!uniq.length){bonus+=90;S.coin+=15;rewards.push('NO MISS +90 XP / ◈15')}if(S.best>=10){bonus+=50;S.coin+=8;rewards.push('10 COMBO +50 XP / ◈8')}
  if(P.daily.q>=30&&P.daily.revenge>=5&&P.daily.prod>=8&&!P.daily.rewarded){bonus+=250;S.coin+=50;P.daily.rewarded=true;rewards.push('DAILY ALL CLEAR +250 XP / ◈50')}
- S.xp+=bonus;P.xp+=bonus;P.coin+=S.coin-coinBefore;save();window.DOPACloud?.flush?.();renderZoneStats();$('game').classList.add('hidden');$('profile').classList.remove('hidden');let list=uniq.map(x=>`<div class="mistake"><b>${esc(orig(x,S.lang))}</b>　${esc(jp(x))}　<span class="small">${getW(x)?.nemesis?'NEMESIS':''}</span></div>`).join('');
+ S.xp+=bonus;P.xp+=bonus;P.coin+=S.coin-coinBefore;beep(acc>=.72?'resultGood':'resultLow');save();window.DOPACloud?.flush?.();renderZoneStats();$('game').classList.add('hidden');$('profile').classList.remove('hidden');let list=uniq.map(x=>`<div class="mistake"><b>${esc(orig(x,S.lang))}</b>　${esc(jp(x))}　<span class="small">${getW(x)?.nemesis?'NEMESIS':''}</span></div>`).join('');
  $('result').innerHTML=`<div class="end"><div class="small">QUEST COMPLETE</div><div class="rank">${rank}</div><b>${Math.round(acc*100)}% CLEAR</b><div class="endgrid"><div><b>${S.xp}</b><span>XP</span></div><div><b>${S.best}</b><span>MAX COMBO</span></div><div><b>${S.typedHits}</b><span>SPELL</span></div><div><b>${S.rivalWins}</b><span>RIVAL WIN</span></div></div><div class="loot"><b>REWARD</b><br>◈ ${S.coin} DOPA ${rewards.length?'<br>'+rewards.join('<br>'):''}<br>REVENGE ${S.revengeKills} ・ NEMESIS ${S.nemKills} ・ SEALED ${S.seals}<br>初回正答 ${S.firstHits}/${S.done} ・ 早期練習 ${S.practiceHits}</div>${uniq.length?`<div class="mistakes">${list}</div>`:''}<button class="primary" id="again">▶ NEXT QUEST</button></div>`;
  $('result').classList.remove('hidden');$('again').onclick=()=>{$('result').classList.add('hidden');$('setup').classList.remove('hidden');renderProfile();renderZoneStats()}}
 function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
  $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=renderZoneStats;const senseChoice=$('shanSenseMode');if(senseChoice)senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();renderZoneStats()};const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
- $('start').onclick=start;$('soundBtn').onclick=()=>{P.sound=!P.sound;$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';save()};
+ $('start').onclick=start;$('soundBtn').onclick=()=>{
+ if(P.sound){P.lastSfxStyle=P.sfxStyle;P.sfxStyle='off'}
+ else P.sfxStyle=P.lastSfxStyle||'standard';
+ refreshSoundControls();save();
+ };
+ if($('sfxPreset'))$('sfxPreset').onchange=()=>{
+   P.sfxStyle=$('sfxPreset').value;
+   if(P.sfxStyle!=='off')P.lastSfxStyle=P.sfxStyle;
+   refreshSoundControls();save();
+ };
+ if($('sfxVolume'))$('sfxVolume').oninput=()=>{
+   P.sfxVolume=Number($('sfxVolume').value);
+   refreshSoundControls();save();
+ };
+ document.querySelectorAll('[data-sfx-preview]').forEach(button=>{
+   button.onclick=()=>{
+     refreshSoundControls();
+     const played=beep(button.dataset.sfxPreview);
+     if(!played&&P.sound)toast('この環境では音楽保護のため効果音を鳴らせません');
+     refreshSoundControls();
+   };
+ });
  $('backupBtn').onclick=()=>{download('dopa_quest_v6_progress.json',{format:'DOPA_QUEST_V5',exportedAt:new Date().toISOString(),profile:P});toast('進捗・RIVAL・校閲候補を出力しました')};
- $('loadBtn').onclick=()=>$('loadFile').click();$('loadFile').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let o=JSON.parse(await f.text());if(!['DOPA_QUEST_V4','DOPA_QUEST_V5'].includes(o.format)||!o.profile||!o.profile.words)throw Error('invalid');if(Object.keys(P.words).length&&!confirm('現在の進捗を読み込んだファイルの内容で置き換へます。実行しますか？'))return;P={...fresh(),...o.profile,migratedFrom:o.format==='DOPA_QUEST_V4'?'v4':''};ensureProfile();rollover();save();renderZoneStats();$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';toast('進捗を読み込みました')}catch(err){toast('進捗ファイルを読めません')}finally{e.target.value=''}};
+ $('loadBtn').onclick=()=>$('loadFile').click();$('loadFile').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let o=JSON.parse(await f.text());if(!['DOPA_QUEST_V4','DOPA_QUEST_V5'].includes(o.format)||!o.profile||!o.profile.words)throw Error('invalid');if(Object.keys(P.words).length&&!confirm('現在の進捗を読み込んだファイルの内容で置き換へます。実行しますか？'))return;P={...fresh(),...o.profile,migratedFrom:o.format==='DOPA_QUEST_V4'?'v4':''};ensureProfile();normalizeSoundPrefs();rollover();save();renderZoneStats();refreshSoundControls();toast('進捗を読み込みました')}catch(err){toast('進捗ファイルを読めません')}finally{e.target.value=''}};
  $('typedAnswer').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();submitTyped()}});
  document.addEventListener('keydown',e=>{if($('game').classList.contains('hidden')||S.cur?.typed||['INPUT','TEXTAREA'].includes(document.activeElement?.tagName))return;let n=+e.key;if(n>=1&&n<=4){let b=$('choices').children[n-1];if(b&&!b.disabled)b.click()}});
- $('modeHelp').textContent=modeText();updateZones();renderProfile();$('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';
+ $('modeHelp').textContent=modeText();updateZones();renderProfile();refreshSoundControls();
  try{window.speechSynthesis?.addEventListener('voiceschanged',refreshVoices)}catch(e){}
 }
 window.DOPA_SYNC_API = {
   snapshot(){return JSON.parse(JSON.stringify(P))},
   restore(profile){if(!profile||typeof profile!=='object'||!profile.words||!profile.rivals)throw Error('Invalid profile');
-    P={...fresh(),...profile};ensureProfile();rollover();
+    P={...fresh(),...profile};ensureProfile();normalizeSoundPrefs();rollover();
     localStorage.setItem(KEY,JSON.stringify(P));
-    renderProfile();renderZoneStats();
-    $('soundBtn').textContent=P.sound?'♪ SOUND':'× MUTE';
+    renderProfile();renderZoneStats();refreshSoundControls();
     if($('slowCorrect'))$('slowCorrect').checked=!!P.slowCorrect;
     $('result').classList.add('hidden');$('game').classList.add('hidden');
     $('setup').classList.remove('hidden');$('profile').classList.remove('hidden');
