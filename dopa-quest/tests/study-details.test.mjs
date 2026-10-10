@@ -7,8 +7,8 @@ const load=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url
 const taxonomy=load('study-taxonomy-v1.json'),details=load('study-details-pilot-v1.json');
 const decks={burmese:load('burmese.json'),shan:[...load('shan-1.json'),...load('shan-2.json')]};
 const engine=create(taxonomy,details,decks),clone=x=>structuredClone(x);
-test('pilot has 3971 exact reviewed existing IDs and 77 stable middle categories',()=>{
- assert.equal(engine.mediums.size,77);
+test('pilot has 3971 exact reviewed existing IDs and 82 middle categories including five design-only additions',()=>{
+ assert.equal(engine.mediums.size,82);
  assert.equal(Object.keys(details.cards.burmese).length,1685);
  assert.equal(Object.keys(details.cards.shan).length,2286);
  for(const l of ['shan','burmese']){
