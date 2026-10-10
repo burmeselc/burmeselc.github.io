@@ -109,7 +109,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1706件/);
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1721件/);
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
@@ -349,6 +349,58 @@ test('literature/history list shows even a single reviewed word and preserves hi
    assert.match(await page.locator('#studyDetailReviewList').textContent(),new RegExp(word));
    assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+   await page.close();
+  }
+ }finally{await browser.close()}
+});
+
+test('major correction overlay changes only effective browse categories and never answer history',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  for(const [lang,id,oldMajor,newMajor,medium,word] of [
+   ['burmese','bur:1400456730795','06','01','01.03','နွေရာသီ'],
+   ['burmese','bur:1395615743556','08','03','03.02','အိပ်'],
+   ['shan','shn:1783945286929','03','01','01.02','ၵႄး'],
+   ['shan','shn:1783945286468','03','09','09.01','ပူႇၵၢင်ႉ']
+  ]){
+   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+   await ready(page);
+   await page.locator('#lang').selectOption(lang);
+   await page.locator('#studyDetailControls > summary').click();
+   await page.locator('#studyDetailReview summary').click();
+   const v=await page.evaluate(({lang,id})=>{
+    const x=window.DOPA_DATA[lang].find(c=>c.id===id);
+    const engine=window.DOPA_DETAIL;
+    return {word:x?.[lang],stored:x?.semantic_major,effective:engine.majorFor(x,lang),
+     medium:engine.annotation(x,lang)?.medium,reviewed:engine.matches(x,lang)};
+   },{lang,id});
+   assert.equal(v.word,word);
+   assert.equal(v.stored,oldMajor);
+   assert.equal(v.effective,newMajor);
+   assert.equal(v.medium,medium);
+   assert.equal(v.reviewed,true);
+   await page.locator('#semanticCategory').selectOption(newMajor);
+   await page.locator('#semanticMedium').selectOption(medium);
+   assert.ok(await page.evaluate(({lang,id})=>{
+    const select=document.querySelector('#semanticCategory').value;
+    const x=window.DOPA_DATA[lang].find(y=>y.id===id);
+    return select===window.DOPA_DETAIL.majorFor(x,lang)&&
+     window.DOPA_DETAIL.matches(x,lang,{medium:document.querySelector('#semanticMedium').value});
+   },{lang,id}));
+   for(let i=0;i<30;i++){
+    if((await page.locator('#studyDetailReviewList').textContent()).includes(word))break;
+    if(!await page.locator('#studyDetailReviewMore').isVisible())break;
+    await page.locator('#studyDetailReviewMore').click();
+   }
+   assert.ok((await page.locator('#studyDetailReviewList').textContent()).includes(word));
+   assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+   await page.locator('#semanticCategory').selectOption(oldMajor);
+   assert.equal(await page.locator('#semanticMedium').inputValue(),'all');
+   assert.equal(await page.evaluate(({lang,id})=>{
+    const x=window.DOPA_DATA[lang].find(y=>y.id===id);
+    return window.DOPA_DETAIL.majorFor(x,lang)===document.querySelector('#semanticCategory').value;
+   },{lang,id}),false);
    await page.close();
   }
  }finally{await browser.close()}
