@@ -7,18 +7,31 @@
  const panels={setup:$('setup'),profile:$('profile'),game:$('game'),result:$('result'),
   flash:$('flashcardPanel'),config:$('flashConfig'),stage:$('flashStage'),
   finished:$('flashFinished')};
- let session=null,flipped=false,current=null,ratingsLocked=false;
+ let session=null,flipped=false,current=null,ratingsLocked=false,returnToVocabulary=false;
  const original=(x,lang)=>String(lang==='shan'?x.shan:x.burmese||'');
  const japanese=x=>String(x.japanese_core||x.japanese||x.english||'');
  const makeOptions=()=>{
   const context=api.flashcardContext(),direction=$('flashDirection').value,
    scope=$('flashScope').value,now=Date.now(),f=context.flashcards;
   const daily=f.daily.day===engine.dayKey(now)?f.daily:{newCount:0,reviewCount:0};
-  return {...context,direction,scope,now,
+  const collection=$('flashCollection').value,ids=collection==='filtered'?null:
+   new Set(root.DOPA_VOCAB_LIBRARY.idsFor(context.vocabularyLibrary,collection));
+  return {...context,direction,scope,now,collection,
+   pool:ids?context.allDeck.filter(x=>ids.has(x.id)):context.pool,
    limit:Number($('flashCount').value),
    newRemaining:Math.max(0,Number(f.settings.newPerDay)-daily.newCount),
    reviewRemaining:Math.max(0,Number(f.settings.reviewPerDay)-daily.reviewCount)};
  };
+ function refreshCollections(choice='filtered'){
+  const library=api.flashcardContext().vocabularyLibrary;
+  const items=Object.entries(library.books);
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const select=$('flashCollection');
+  select.innerHTML='<option value="filtered">学習画面の絞込み（従来どほり）</option>'+
+   '<option value="bookmarks">ブックマーク（'+library.bookmarks.length+'）</option>'+
+   items.map(([id,b])=>'<option value="'+esc('book:'+id)+'">'+esc(b.name)+'（'+b.cards.length+'）</option>').join('');
+  select.value=[...select.options].some(x=>x.value===choice)?choice:'filtered';
+ }
  function candidates(){
   const o=makeOptions();
   return engine.select({...o,cards:o.flashcards.cards});
@@ -28,8 +41,9 @@
   try{
    const o=makeOptions(),c=engine.select({...o,cards:o.flashcards.cards});
    const lang=o.lang==='shan'?'シャン語':'ビルマ語';
-   $('flashContextLabel').textContent=lang+' ／ '+$('zone').selectedOptions[0]?.textContent+
-     ' ／ '+$('semanticCategory').selectedOptions[0]?.textContent;
+   $('flashContextLabel').textContent=lang+' ／ '+(o.collection==='filtered'?
+     $('zone').selectedOptions[0]?.textContent+' ／ '+$('semanticCategory').selectedOptions[0]?.textContent:
+     $('flashCollection').selectedOptions[0]?.textContent+'（保存した語のみ）');
    $('flashAvailability').textContent='今回出題できるカード '+c.length+'枚'+
     '・本日の新規残 '+o.newRemaining+'・長期復習残 '+o.reviewRemaining+
     (o.direction==='production'?'。複数の原語に同じ日本語義があるカードは逆引きから除外します。':'。');
@@ -43,8 +57,10 @@
   panels.finished.classList.add('hidden');
   updateAvailability();
  }
- function open(){
+ function open(options={}){
   if(!panels.game.classList.contains('hidden'))return;
+  returnToVocabulary=options.fromLibrary===true;
+  if(root.DOPA_VOCAB_UI&&returnToVocabulary)$('vocabPanel').classList.add('hidden');
   panels.setup.classList.add('hidden');panels.profile.classList.add('hidden');
   panels.result.classList.add('hidden');panels.flash.classList.remove('hidden');
   const f=api.flashcardContext().flashcards;
@@ -52,15 +68,20 @@
   $('flashNewLimit').value=String(f.settings.newPerDay);
   $('flashReviewLimit').value=String(f.settings.reviewPerDay);
   $('flashScope').value='due';
+  refreshCollections(options.collection||'filtered');
   showConfig();
   if(!candidates().length){$('flashScope').value='new';updateAvailability()}
   panels.flash.scrollIntoView({block:'start'});
  }
  function exit(){
   session=null;current=null;
-  panels.flash.classList.add('hidden');
-  panels.stage.classList.add('hidden');
-  panels.setup.classList.remove('hidden');panels.profile.classList.remove('hidden');
+  panels.flash.classList.add('hidden');panels.stage.classList.add('hidden');
+  if(returnToVocabulary&&root.DOPA_VOCAB_UI){
+   returnToVocabulary=false;root.DOPA_VOCAB_UI.resume();
+  }else{
+   returnToVocabulary=false;
+   panels.setup.classList.remove('hidden');panels.profile.classList.remove('hidden');
+  }
  }
  function renderCard(){
   if(!current||!session)return;
@@ -144,9 +165,9 @@
  $('flashFace').addEventListener('click',flip);
  $('flashReveal').addEventListener('click',flip);
  $('flashRatings').querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>rate(btn.dataset.flashRating)));
- ['flashScope','flashDirection','flashCount','flashNewLimit','flashReviewLimit'].forEach(id=>
+ ['flashScope','flashDirection','flashCount','flashNewLimit','flashReviewLimit','flashCollection'].forEach(id=>
   $(id).addEventListener('change',updateAvailability));
- root.addEventListener('dopa-profile-restored',()=>{exit();const f=api.flashcardContext().flashcards;
+ root.addEventListener('dopa-profile-restored',()=>{returnToVocabulary=false;exit();const f=api.flashcardContext().flashcards;
   $('flashNewLimit').value=String(f.settings.newPerDay);
   $('flashReviewLimit').value=String(f.settings.reviewPerDay)});
  root.DOPA_FLASH_UI={open,exit,showConfig};
