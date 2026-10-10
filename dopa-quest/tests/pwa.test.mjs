@@ -38,4 +38,5 @@ test('offline cache is scope-limited, network-first, and leaves saved progress u
   assert.match(worker,/const cached = await caches\.match\(request\)/);
   assert.doesNotMatch(worker,/localStorage|indexedDB|firestore\.collection|\.postMessage\(/);
   assert.match(worker,/html\|js\|json\|png\|webmanifest/);
+  for(const deck of ['shan-1.json','shan-2.json','burmese.json']) assert.ok(worker.includes("'./data/"+deck+"'"),'offline core deck missing: '+deck);
 });
