@@ -95,17 +95,17 @@ body{padding-bottom:calc(75px + env(safe-area-inset-bottom,0px))}
 .dopa-settings-actions button{min-height:40px}
 .dopa-settings-section{margin:12px 0}
 #setup .controls>#start{grid-column:1/-1}
-#game.dopa-play-viewport{position:fixed;inset:0;z-index:100;background:#070b18;overflow-y:auto;padding:calc(10px + env(safe-area-inset-top,0px)) 10px calc(14px + env(safe-area-inset-bottom,0px))}
-#flashcardPanel.dopa-play-viewport{position:fixed;inset:0;z-index:100;overflow-y:auto;background:#0c1020;padding:calc(10px + env(safe-area-inset-top,0px)) 12px calc(14px + env(safe-area-inset-bottom,0px));border-radius:0}
-#game.dopa-play-viewport .arena{max-width:680px;margin:auto}
-#game.dopa-play-viewport .card{min-height:0}
-#game.dopa-play-viewport .prompt{font-size:clamp(22px,6vw,37px);margin:10px 0}
-#game.dopa-play-viewport .choice{min-height:46px}
-#game.dopa-play-viewport .feedback.on{max-height:30dvh;overflow-y:auto;padding-bottom:8px}
-#game.dopa-play-viewport .next-question{position:sticky;bottom:0;z-index:7}
-#flashcardPanel.dopa-play-viewport .flash-face{min-height:160px;max-height:calc(100dvh - 315px)}
-#flashcardPanel.dopa-play-viewport .flash-ratings{position:sticky;bottom:0;z-index:6;background:#0c1020;padding:8px 0 calc(5px + env(safe-area-inset-bottom,0px))}
-@media(max-height:690px){#game.dopa-play-viewport .stat{padding:3px}#game.dopa-play-viewport .card{padding:10px}#flashcardPanel.dopa-play-viewport .flash-face{min-height:120px}}
+body.dopa-modern-mode #game.dopa-play-viewport{position:fixed;inset:0;z-index:100;background:#070b18;overflow-y:auto;padding:calc(10px + env(safe-area-inset-top,0px)) 10px calc(14px + env(safe-area-inset-bottom,0px))}
+body.dopa-modern-mode #flashcardPanel.dopa-play-viewport{position:fixed;inset:0;z-index:100;overflow-y:auto;background:#0c1020;padding:calc(10px + env(safe-area-inset-top,0px)) 12px calc(14px + env(safe-area-inset-bottom,0px));border-radius:0}
+body.dopa-modern-mode #game.dopa-play-viewport .arena{max-width:680px;margin:auto}
+body.dopa-modern-mode #game.dopa-play-viewport .card{min-height:0}
+body.dopa-modern-mode #game.dopa-play-viewport .prompt{font-size:clamp(22px,6vw,37px);margin:10px 0}
+body.dopa-modern-mode #game.dopa-play-viewport .choice{min-height:46px}
+body.dopa-modern-mode #game.dopa-play-viewport .feedback.on{max-height:30dvh;overflow-y:auto;padding-bottom:8px}
+body.dopa-modern-mode #game.dopa-play-viewport .next-question{position:sticky;bottom:0;z-index:7}
+body.dopa-modern-mode #flashcardPanel.dopa-play-viewport .flash-face{min-height:160px;max-height:calc(100dvh - 315px)}
+body.dopa-modern-mode #flashcardPanel.dopa-play-viewport .flash-ratings{position:sticky;bottom:0;z-index:6;background:#0c1020;padding:8px 0 calc(5px + env(safe-area-inset-bottom,0px))}
+@media(max-height:690px){body.dopa-modern-mode #game.dopa-play-viewport .stat{padding:3px}body.dopa-modern-mode #game.dopa-play-viewport .card{padding:10px}body.dopa-modern-mode #flashcardPanel.dopa-play-viewport .flash-face{min-height:120px}}
 </style></head><body><div class="app"><header><div class="brand"><div class="logo">D</div><div><h1>DOPA QUEST v6.2</h1><div class="subtitle">MEMORY ARCADE / QUALITY UPDATE</div></div></div><div style="display:flex;gap:6px"><button class="pill" id="backupBtn">SAVE</button><button class="pill" id="loadBtn">LOAD</button><button class="pill" id="soundBtn">♪ SOUND</button><input id="loadFile" type="file" accept="application/json,.json" class="hidden"></div></header><details class="sfx-panel" id="soundSettings"><summary>♪ サウンド演出を試聴・調整</summary><div class="sfx-grid"><label for="sfxPreset">効果音の演出<select id="sfxPreset"><option value="off">OFF（無音）</option><option value="quiet">控へめ</option><option value="standard">標準</option><option value="flashy">派手</option></select></label><label for="sfxVolume">効果音の音量 <span id="sfxVolumeValue">30%</span><input type="range" id="sfxVolume" min="0" max="100" value="30" step="5"></label></div><div class="sfx-buttons"><button type="button" data-sfx-preview="ok">通常正解</button><button type="button" data-sfx-preview="combo3">3 COMBO</button><button type="button" data-sfx-preview="combo5">5 COMBO</button><button type="button" data-sfx-preview="combo10">10 COMBO</button><button type="button" data-sfx-preview="bossEnter">BOSS出現</button><button type="button" data-sfx-preview="boss">BOSS撃破</button><button type="button" data-sfx-preview="seal">熟練度</button><button type="button" data-sfx-preview="nemesis">NEMESIS</button><button type="button" data-sfx-preview="rival">RIVAL撃破</button><button type="button" data-sfx-preview="levelup">LEVEL UP</button><button type="button" data-sfx-preview="resultLow">低得点RESULT</button><button type="button" data-sfx-preview="resultGood">QUEST COMPLETE</button><button type="button" data-sfx-preview="bad">不正解</button></div><p class="sfx-note" id="sfxSessionStatus" aria-live="polite"></p><p class="sfx-note">ゲーム内BGMはありません。モバイル端末ではほかの音楽と混ざる設定を確認できない場合、効果音を自動で無効にします。消音モードでは鳴らないことがあります。Spotify・Apple Musicとの実機検証は別途必要です。</p></details>
 <section class="panel hidden" id="dopaDashboard" aria-label="ホーム">
  <h2 class="dopa-dashboard-title">今日の学習</h2>
