@@ -1,0 +1,561 @@
+{
+  "schema": "dopa-bulk-gloss-reviewed-pilot-v1",
+  "review_basis": "explicit human-selected subset from bilingual Japanese and original embedded English source glosses; not independently dictionary verified",
+  "independent_dictionary_verified": false,
+  "source_main": "c97e2657adee476a8ef35019bab2dbccce3c1842",
+  "counts": {
+    "total": 34,
+    "burmese": 21,
+    "shan": 13
+  },
+  "cards": {
+    "burmese": [
+      {
+        "id": "bur:1388200369728",
+        "word": "တယ်လီဖုန်းနံပါတ်",
+        "gloss": "電話番号",
+        "english": "telephone number",
+        "legacy_major": "11",
+        "medium": "11.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1401373044012",
+        "word": "အစပ်",
+        "gloss": "辛い食べ物、辛味",
+        "english": "spicy food",
+        "legacy_major": "06",
+        "medium": "06.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1409400743491",
+        "word": "ဖုန်းဆက်",
+        "gloss": "電話をかける",
+        "english": "to call on the phone",
+        "legacy_major": "11",
+        "medium": "11.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1450466609645",
+        "word": "အသီးအနှံ",
+        "gloss": "果物と穀物、農産物",
+        "english": "fruits & cereals",
+        "legacy_major": "06",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1409415220236",
+        "word": "ရေတွင်း",
+        "gloss": "井戸",
+        "english": "well (for water)",
+        "legacy_major": "01",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1453942528391",
+        "word": "ကောင်းကင်",
+        "gloss": "空、天空",
+        "english": "sky",
+        "legacy_major": "01",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1442150397476",
+        "word": "ကျင့်သားရ",
+        "gloss": "慣れる、習慣になる",
+        "english": "to get accustomed, to get used",
+        "legacy_major": "08",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1442439397462",
+        "word": "အကျင့်",
+        "gloss": "習慣、癖",
+        "english": "habit",
+        "legacy_major": "08",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1474357569980",
+        "word": "ချုပ်",
+        "gloss": "縫う",
+        "english": "to sew",
+        "legacy_major": "07",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1395616482982",
+        "word": "မြို့",
+        "gloss": "町、都市",
+        "english": "town, city",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1399931558038",
+        "word": "ရွာ",
+        "gloss": "村",
+        "english": "village (not ကျေး !)",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1418858112033",
+        "word": "ကျေး",
+        "gloss": "村",
+        "english": "village (not ရွာ !)",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1398091262325",
+        "word": "ပိုက်ဆံအိတ်",
+        "gloss": "財布",
+        "english": "purse, wallet",
+        "legacy_major": "10",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1418859225538",
+        "word": "လဲ(လှယ်)",
+        "gloss": "交換する",
+        "english": "to exchange",
+        "legacy_major": "10",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1460250527281",
+        "word": "စာရေးဆရာ",
+        "gloss": "作家、著者",
+        "english": "writer, author",
+        "legacy_major": "12",
+        "medium": "12.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1518757516273",
+        "word": "ဓလေ့",
+        "gloss": "慣習、習慣",
+        "english": "practice, custom",
+        "legacy_major": "12",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1396910395414",
+        "word": "ဘယ်နှစ်နာရီ",
+        "gloss": "何時に〔直訳：何時間〕",
+        "english": "at what time (lit. \"how many hours\")",
+        "legacy_major": "14",
+        "medium": "14.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1460241077202",
+        "word": "အထောက်ကြိယာ",
+        "gloss": "助動詞",
+        "english": "auxiliary verb",
+        "legacy_major": "17",
+        "medium": "17.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1463247454807",
+        "word": "အမျိုးပြစကားလုံး",
+        "gloss": "類別詞、分類詞",
+        "english": "classifier",
+        "legacy_major": "17",
+        "medium": "17.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1423653881815",
+        "word": "သယ်ယူ",
+        "gloss": "運ぶ、輸送する",
+        "english": "to carry",
+        "legacy_major": "16",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1476667727414",
+        "word": "သယ်ဆောင်",
+        "gloss": "運ぶ、輸送する",
+        "english": "to transport, carry",
+        "legacy_major": "16",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      }
+    ],
+    "shan": [
+      {
+        "id": "shn:1783945285672",
+        "word": "တပ်း",
+        "gloss": "肝臓、レバー",
+        "english": "liver",
+        "legacy_major": "03",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945287690",
+        "word": "လိူၼ်မႂ်ႇ",
+        "gloss": "月が満ちる時期、新月",
+        "english": "waxing of the moon, new moon",
+        "legacy_major": "01",
+        "medium": "01.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945287990",
+        "word": "ၼမ်ႉတူၵ်းတၢတ်ႇ",
+        "gloss": "滝",
+        "english": "cascade, waterfall",
+        "legacy_major": "01",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945285750",
+        "word": "ယဵပ်ႉ",
+        "gloss": "縫う、ステッチする",
+        "english": "sew, stitch",
+        "legacy_major": "07",
+        "medium": "07.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945283897",
+        "word": "ဝၢၼ်ႈ",
+        "gloss": "村、集落",
+        "english": "village, hamlet",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945284491",
+        "word": "သုၼ်ႇလႆႈ",
+        "gloss": "権利、特権、機会",
+        "english": "rights, privilege, opportunity",
+        "legacy_major": "09",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945285134",
+        "word": "သုၼ်ႇလႆႈသုၼ်ႇပဵၼ်",
+        "gloss": "権利、特権、機会",
+        "english": "rights, privilege, opportunity",
+        "legacy_major": "09",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945285252",
+        "word": "ႁႃငိုၼ်း",
+        "gloss": "お金を稼ぐ、収入源を探す",
+        "english": "search for money, seek for a means of income",
+        "legacy_major": "10",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945286620",
+        "word": "ၶူဝ်းလူႇ",
+        "gloss": "供物、寄進品、寄付されたもの",
+        "english": "anything given an offering, donated things",
+        "legacy_major": "12",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945287492",
+        "word": "တူင်ႉတၵ်ႉ",
+        "gloss": "挨拶する、敬礼する",
+        "english": "greet, salute",
+        "legacy_major": "13",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945288345",
+        "word": "ပွႆႇၶၢဝ်ႇ",
+        "gloss": "ニュースを伝える、知らせる",
+        "english": "relay news, inform",
+        "legacy_major": "13",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945285886",
+        "word": "တၢင်းႁွင်ႇ",
+        "gloss": "北",
+        "english": "north,",
+        "legacy_major": "14",
+        "medium": "14.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945288480",
+        "word": "မႅၼ်ႉ",
+        "gloss": "くたばる、死ぬ（軽蔑的・侮辱的な表現）",
+        "english": "die, (conveying the idea of contempt or disgrace), croak,",
+        "legacy_major": "03",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      }
+    ]
+  }
+}

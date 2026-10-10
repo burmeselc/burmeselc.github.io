@@ -354,6 +354,78 @@
    }
    return next;
   },
+  // Batch pilot: 34 bilingual-gloss-aligned existing cards; never source-dictionary attested.
+  extendBulkGloss(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-bulk-gloss-reviewed-pilot-v1'||
+      batch?.independent_dictionary_verified!==false||
+      batch?.source_main!=='c97e2657adee476a8ef35019bab2dbccce3c1842'||
+      batch?.counts?.total!==34||batch?.counts?.burmese!==21||
+      batch?.counts?.shan!==13)
+    throw Error('Unsupported bulk gloss pilot');
+   if(base?.counts?.burmese!==1786||base?.counts?.shan!==2356||
+      base.coverage?.burmese?.review_pending+base.coverage?.shan?.review_pending!==2326)
+    throw Error('Bulk overlay requires the previous 4142-card review');
+   const mediumMajors=new Map((taxonomy.categories||[]).flatMap(c=>
+    c.children.map(m=>[m.id,c.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const byLanguage={},seen=new Set();
+   for(const lang of ['burmese','shan']){
+    const n=lang==='burmese'?21:13,rows=batch.cards?.[lang];
+    if(!Array.isArray(rows)||rows.length!==n)throw Error('Bulk language count mismatch '+lang);
+    const originals=new Map(decks[lang].map(x=>[x.id,x]));
+    for(const row of rows){
+     const source=originals.get(row.id),cat=semantic?.[lang]?.cards?.[row.id];
+     if(seen.has(row.id)||!source||base.cards?.[lang]?.[row.id]||
+        row.original_dictionary_verified!==false||
+        row.review_status!=='gloss-reviewed-pilot-candidate'||
+        row.legacy_major!==cat?.[0]||!['P','R'].includes(cat?.[1])||
+        row.legacy_major!==mediumMajors.get(row.medium)||
+        source[lang]!==row.word||source.japanese_core!==row.gloss||
+        source.english!==row.english)
+      throw Error('Stale bulk review row '+row.id);
+     seen.add(row.id);
+     if(!row.tags||Object.keys(row.tags).length!==axes.size)
+      throw Error('Invalid bulk tag axes '+row.id);
+     for(const [axis,allowed] of axes){
+      const values=row.tags[axis];
+      if(!Array.isArray(values)||new Set(values).size!==values.length||
+         values.some(v=>!allowed.has(v)))
+       throw Error('Invalid bulk tag '+row.id);
+     }
+    }
+    byLanguage[lang]=rows;
+   }
+   if(seen.size!==34)throw Error('Bulk duplicate IDs');
+   const next={...base,cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    counts:{...base.counts},coverage:{...base.coverage},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],
+     shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const newIds=new Set();
+    for(const row of byLanguage[lang]){
+     next.cards[lang][row.id]={word:row.word,gloss:row.gloss,medium:row.medium,
+      tags:row.tags,review_status:'gloss-reviewed-pilot',evidence:row.gloss};
+     next.medium_counts[lang][row.medium]=(next.medium_counts[lang][row.medium]||0)+1;
+     newIds.add(row.id);
+    }
+    const byGloss=new Map();
+    for(const [id,entry] of Object.entries(next.cards[lang])){
+     const ids=byGloss.get(entry.gloss)||[];ids.push(id);byGloss.set(entry.gloss,ids);
+    }
+    for(const ids of byGloss.values())if(ids.length>1&&ids.some(id=>newIds.has(id)))
+     next.choice_conflicts[lang].push({ids,reason:'同義の日本語訳を互いの誤答にしない'});
+    const prev=base.coverage[lang];
+    next.coverage[lang]={...prev,classified:prev.classified+newIds.size,
+     review_pending:prev.review_pending-newIds.size};
+    if(next.coverage[lang].review_pending<0||
+       next.coverage[lang].classified+next.coverage[lang].review_pending!==prev.scope_candidates)
+     throw Error('Bulk coverage mismatch');
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();

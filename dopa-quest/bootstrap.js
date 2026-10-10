@@ -183,6 +183,12 @@
       usableDetails=window.DOPAStudyDetails.extendNextHeld(taxonomy,usableDetails,
         await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
     }catch(e){console.warn('Next held pilot unavailable; retaining previous details',e)}
+    try{
+      const response=await fetch('./data/study-bulk-gloss-reviewed-pilot-v1.json',{cache:'no-cache'});
+      if(!response.ok)throw Error('bulk review HTTP '+response.status);
+      usableDetails=window.DOPAStudyDetails.extendBulkGloss(taxonomy,usableDetails,
+        await response.json(),defaults,{burmese:burmeseSemantic,shan:shanSemantic});
+    }catch(e){console.warn('Bulk review pilot unavailable; retaining preceding detail classification',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
