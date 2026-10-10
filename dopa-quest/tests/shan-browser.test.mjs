@@ -23,10 +23,10 @@ test('Shan domain-only four-choice session on Chromium mobile viewport and progr
     await page.waitForFunction(()=>document.querySelectorAll('#choices button').length===4);
     const cat=await page.locator('#choices button').evaluateAll(buttons=>{
       const byId=new Map(window.DOPA_DATA.shan.map(x=>[x.id,x]));
-      return buttons.map(b=>({major:byId.get(b.dataset.itemid)?.semantic_major,status:byId.get(b.dataset.itemid)?.semantic_status,source:byId.get(b.dataset.itemid)?.shan}));
+      return buttons.map(b=>{const x=byId.get(b.dataset.itemid);return {major:x?.semantic_major,effectiveMajor:window.DOPA_DETAIL?.majorFor?.(x,'shan')||x?.semantic_major,status:x?.semantic_status,source:x?.shan}});
     });
     assert.equal(cat.length,4);
-    assert.ok(cat.every(x=>x.major==='06'&&x.status==='P'));
+    assert.ok(cat.every(x=>x.effectiveMajor==='06'&&x.status==='P'));
     assert.equal(new Set(cat.map(x=>x.source)).size,4);
     assert.match(await page.locator('#meta').textContent(),/領域 06/);
     await page.locator('#choices button[data-correct="0"]').first().click();
