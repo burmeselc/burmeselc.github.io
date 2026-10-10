@@ -236,12 +236,27 @@ function applyCorrect(q){
  nemesisKilled:wasNem&&!w.nemesis,sk,credited};
 }
 function applyWrong(q){let w=W(q.x),now=Date.now(),sk=skillFor(q);w.seen++;w.wrong++;w.last=now;w.due[sk]=now+5*MIN;w.nextDue=nextDueFor(w);w[sk]=Math.max(0,(w[sk]||0)-1);if(w.wrong>=3)w.nemesis=true;return w.nemesis}
-function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(detailFilterActive()&&arr.length){const l=$('lang').value,pool=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l));arr=arr.filter(x=>['toJP','fromJP'].every(dir=>distractors(x,pool,l,dir).length===3));if(!arr.length){toast('この絞り込みでは四択に十分な語がありません。中分類・タグ・エリアを広げて下さい。');return}}if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('semanticCategory')?.value!=='all'||detailFilterActive()?activeDeck($('lang').value).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,$('lang').value)):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');next()}
+let questSoundHome=null,questSoundNext=null;
+function moveQuestSound(active){
+ const button=$('soundBtn'),destination=$('timestat')?.closest('.stat');
+ if(!button||!destination)return;
+ if(active){
+  if(questSoundHome)return;
+  questSoundHome=button.parentNode;questSoundNext=button.nextSibling;
+  destination.appendChild(button);
+ }else if(questSoundHome){
+  questSoundHome.insertBefore(button,questSoundNext?.parentNode===questSoundHome?questSoundNext:null);
+  questSoundHome=null;questSoundNext=null;
+ }
+}
+function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSize').value;if(detailFilterActive()&&arr.length){const l=$('lang').value,pool=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l));arr=arr.filter(x=>['toJP','fromJP'].every(dir=>distractors(x,pool,l,dir).length===3));if(!arr.length){toast('この絞り込みでは四択に十分な語がありません。中分類・タグ・エリアを広げて下さい。');return}}if(!arr.length){toast(mode==='due'?'期限到来の復習語はまだありません':mode==='weak'?'NEMESISはまだありません':mode==='rival'?'混同を2回以上記録するとRIVAL戦が解放されます':'対象語がありません');return}let base=weightedSample(arr,Math.min(n,arr.length));S={lang:$('lang').value,pool:($('semanticCategory')?.value!=='all'||detailFilterActive()?activeDeck($('lang').value).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,$('lang').value)):zonePool()),base,queue:base.map(x=>qFor(x)),initial:base.length,done:0,hit:0,miss:0,firstHits:0,practiceHits:0,combo:0,best:0,xp:0,coin:0,revengeKills:0,nemKills:0,seals:0,prodHits:0,typedHits:0,audioHits:0,rivalWins:0,mistakes:[],timer:null,start:0};$('setup').classList.add('hidden');$('profile').classList.add('hidden');$('result').classList.add('hidden');$('game').classList.remove('hidden');moveQuestSound(true);document.body.classList.add('dopa-quest-playing');next()}
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
 function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
  const detail=window.DOPA_DETAIL?.annotation(x,l);let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(effectiveMajor(x,l)?'・領域 '+esc(effectiveMajor(x,l))+'（暫定）':'')+(detail?'・'+esc(window.DOPA_DETAIL.mediums.get(detail.medium).label):'');let from=q.dir==='fromJP'||q.typed;
  $('prompt').className='prompt'+(from?' jp':'');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?(jp(x)+(x.sense_split&&x.game_pos?'〔'+x.game_pos+'〕':'')):orig(x,l);$('ipa').textContent='';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
+ $('continueBtn')?.remove();$('questDock').classList.add('hidden');
+ $('feedback').scrollTop=0;$('prompt').scrollTop=0;$('choices').scrollTop=0;
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
  if(q.typed){S.options=[];$('typedAnswer').value='';$('typedAnswer').placeholder='原語の綴りを入力';$('typedAnswer').lang=l==='shan'?'shn':'my';$('typedAnswer').disabled=false;$('typedSubmit').disabled=false;$('typedSubmit').onclick=submitTyped;setTimeout(()=>$('typedAnswer').focus(),50)}
  else{let opts=shuffle([x,...distractors(x,S.pool,l,q.dir)]);S.options=opts;opts.forEach((o,i)=>{let b=document.createElement('button');b.className='choice';b.dataset.correct=o.id===x.id?'1':'0';b.dataset.itemid=o.id;b.dataset.key=i+1;b.textContent=q.dir==='fromJP'?orig(o,l):jp(o);b.onclick=()=>answer(b,o.id===x.id,false,o);$('choices').appendChild(b)})}
@@ -256,7 +271,7 @@ function submitTyped(){if(!$('typedAnswer').value.trim())return;let ans=normaliz
 function feedbackDetail(x,full=true){return `<div class="detail"><b>${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
 function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x),lang:S.lang,flaggedAt:new Date().toISOString()};save();toast('校閲候補として記録しました（SAVEで書き出せます）');let b=$('reportIssue');if(b)b.disabled=true}
 function registerRivalWin(x){let active=rivalsFor(x),result=0;for(let r of active){let other=r.a===x.id?r.b:r.a;if(!S.options?.some(y=>y.id===other))continue;r.wins=(r.wins||0)+1;if(r.wins>=4&&!r.cleared){r.cleared=true;result++}}return result}
-function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.answered=true;clearTimer();if(q.typed){$('typedAnswer').disabled=true;$('typedSubmit').disabled=true}else{[...$('choices').children].forEach(b=>b.disabled=true)};
+function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.answered=true;clearTimer();$('questDock').classList.remove('hidden');if(q.typed){$('typedAnswer').disabled=true;$('typedSubmit').disabled=true}else{[...$('choices').children].forEach(b=>b.disabled=true)};
  let x=q.x,w=W(x),coinBefore=S.coin,memoryCredit=false;if(!q.retry){S.done++;P.daily.q++;P.totalQ++}let mult=q.isBoss?2:1,comboMult=Math.min(2.5,1+Math.floor(S.combo/3)*.25);
  if(ok){let levelBefore=lvInfo(P.xp).lv;let ev=applyCorrect(q);memoryCredit=ev.credited;S.hit++;if(!q.retry){P.totalCorrect++;S.firstHits++;if(!ev.credited)S.practiceHits++}S.combo++;S.best=Math.max(S.best,S.combo);P.bestCombo=Math.max(P.bestCombo,S.combo);
  if(q.dir==='fromJP'){S.prodHits++;P.daily.prod++}if(q.typed)S.typedHits++;if(q.dir==='listen')S.audioHits++;if(q.retry){S.revengeKills++;P.daily.revenge++}
@@ -289,7 +304,7 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
        const detail=note(x,S.lang);
        if(detail)area.insertAdjacentHTML('beforeend','<div class="detail note">'+esc(detail)+'</div>');
        area.insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');
-       $('continueBtn').onclick=next;
+       $('continueBtn').onclick=next;mountQuestContinue();
      }
      const more=$('detailHold');if(more)more.remove();
    };
@@ -302,9 +317,14 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
      }
      nextTimeout=setTimeout(next,950);
    }
- }else{$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');$('continueBtn').onclick=next}}
+ }else{$('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">確認した → 次の問題へ</button>');$('continueBtn').onclick=next;mountQuestContinue()}}
+function mountQuestContinue(){
+  const button=$('continueBtn');if(!button)return;
+  $('questDock').appendChild(button);
+  $('feedback').scrollTop=0;
+}
 function updateHUD(){$('qstat').textContent=`${Math.min(S.done||0,S.initial||0)}/${S.initial||0}`;$('hitstat').textContent=S.hit||0;$('combo').textContent=S.combo||0;$('xpstat').textContent=S.xp||0;$('roundBar').style.width=((S.done||0)/(S.initial||1)*100)+'%'}
-function finish(){clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.done,acc=attempt?S.firstHits/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
+function finish(){moveQuestSound(false);document.body.classList.remove('dopa-quest-playing');clearTimer();clearTimeout(nextTimeout);let coinBefore=S.coin;let uniq=[...new Map(S.mistakes.map(x=>[x.id,x])).values()],attempt=S.done,acc=attempt?S.firstHits/attempt:0,rank=acc>=.97?'SS':acc>=.92?'S':acc>=.84?'A':acc>=.72?'B':acc>=.58?'C':'D',bonus=0,rewards=[];
  if(!uniq.length){bonus+=90;S.coin+=15;rewards.push('NO MISS +90 XP / ◈15')}if(S.best>=10){bonus+=50;S.coin+=8;rewards.push('10 COMBO +50 XP / ◈8')}
  if(P.daily.q>=30&&P.daily.revenge>=5&&P.daily.prod>=8&&!P.daily.rewarded){bonus+=250;S.coin+=50;P.daily.rewarded=true;rewards.push('DAILY ALL CLEAR +250 XP / ◈50')}
  S.xp+=bonus;P.xp+=bonus;P.coin+=S.coin-coinBefore;beep(acc>=.72?'resultGood':'resultLow');save();window.DOPACloud?.flush?.();renderZoneStats();$('game').classList.add('hidden');$('profile').classList.remove('hidden');let list=uniq.map(x=>`<div class="mistake"><b>${esc(orig(x,S.lang))}</b>　${esc(jp(x))}　<span class="small">${getW(x)?.nemesis?'NEMESIS':''}</span></div>`).join('');
