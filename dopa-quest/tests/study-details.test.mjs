@@ -7,10 +7,10 @@ const load=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url
 const taxonomy=load('study-taxonomy-v1.json'),details=load('study-details-pilot-v1.json');
 const decks={burmese:load('burmese.json'),shan:[...load('shan-1.json'),...load('shan-2.json')]};
 const engine=create(taxonomy,details,decks),clone=x=>structuredClone(x);
-test('pilot has 416 exact reviewed existing IDs and 77 stable middle categories',()=>{
+test('pilot has 625 exact reviewed existing IDs and 77 stable middle categories',()=>{
  assert.equal(engine.mediums.size,77);
- assert.equal(Object.keys(details.cards.burmese).length,246);
- assert.equal(Object.keys(details.cards.shan).length,170);
+ assert.equal(Object.keys(details.cards.burmese).length,331);
+ assert.equal(Object.keys(details.cards.shan).length,294);
  for(const l of ['shan','burmese']){
   const majors=load(l+'-categories-v1.json').cards;
   for(const x of decks[l]){
@@ -28,7 +28,7 @@ test('no filters retain every old card, including unclassified entries',()=>{
 });
 test('medium and cross-cutting tags intersect; POS is never a tag substitute',()=>{
  const body=decks.burmese.filter(x=>engine.matches(x,'burmese',{medium:'03.01',tag:'feature:body_part'}));
- assert.equal(body.length,40);
+ assert.equal(body.length,50);
  assert.equal(decks.burmese.filter(x=>engine.matches(x,'burmese',{medium:'03.01',tag:'feature:consumable'})).length,0);
  assert.ok(body.every(x=>x.japanese_core===engine.annotation(x,'burmese').gloss));
 });
@@ -70,7 +70,7 @@ test('body/food/tool pilots provide non-colliding four choices in both direction
 });
 test('sparse medium cannot provide four choices and must not borrow other domains',()=>{
  const pool=decks.shan.filter(x=>engine.matches(x,'shan',{medium:'11.04'}));
- assert.equal(pool.length,1);assert.equal(getDistractors(pool[0],pool,'shan','toJP').length,0);
+ assert.equal(pool.length,3);assert.equal(getDistractors(pool[0],pool,'shan','toJP').length,2);
  assert.match(game,/四択に十分な語がありません/);
 });
 
@@ -83,4 +83,14 @@ test('explicit reviewed synonym conflicts prevent alternative correct television
   assert.ok(!getDistractors(old,pool,'burmese',dir).some(x=>x.id===first.id));
  }
  assert.equal(engine.canContrast(first,{...old,japanese_core:'新しい意味'},'burmese'),true);
+});
+
+test('three-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
+ for(const l of ['shan','burmese']){
+  const c=details.coverage[l];assert.equal(c.untriaged,0);
+  assert.equal(c.scope_candidates,c.classified+c.review_pending);
+  assert.equal(c.classified,Object.keys(details.cards[l]).length);
+ }
+ assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,894);
+ assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,269);
 });

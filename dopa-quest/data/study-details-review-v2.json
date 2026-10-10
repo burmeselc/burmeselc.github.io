@@ -4073,6 +4073,1425 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "インターネット"
+      },
+      "bur:1409415067149": {
+        "word": "အဖုတ်",
+        "gloss": "女性器、まんこ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "女性器、まんこ"
+      },
+      "bur:1427592903873": {
+        "word": "လီး",
+        "gloss": "陰茎；ちんこ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "陰茎；ちんこ"
+      },
+      "bur:1519782186744": {
+        "word": "သည်းခြေအိတ်",
+        "gloss": "胆嚢",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "胆嚢"
+      },
+      "bur:1522771697243": {
+        "word": "ယောနိ",
+        "gloss": "膣（正式・医学的）",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "膣（正式・医学的）"
+      },
+      "bur:1537910035977": {
+        "word": "ခြေချောင်း",
+        "gloss": "足の指",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "足の指"
+      },
+      "bur:1537966562665": {
+        "word": "လက်ညှိုး",
+        "gloss": "人差し指",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "人差し指"
+      },
+      "bur:1537967105561": {
+        "word": "လက်ခလယ်",
+        "gloss": "中指",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "中指"
+      },
+      "bur:1537967144448": {
+        "word": "လက်သူကြွယ်",
+        "gloss": "薬指",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "薬指"
+      },
+      "bur:1537967262832": {
+        "word": "လက်သန်း",
+        "gloss": "小指",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小指"
+      },
+      "bur:1566519601255": {
+        "word": "မုတ်ဆိတ်",
+        "gloss": "あごひげ、ひげ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "あごひげ、ひげ"
+      },
+      "bur:1409420254594": {
+        "word": "လိုး",
+        "gloss": "性交する、やる",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "性交する、やる"
+      },
+      "bur:1423652779236": {
+        "word": "လျက်",
+        "gloss": "舐める",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "舐める"
+      },
+      "bur:1510193291882": {
+        "word": "အီးပေါက်",
+        "gloss": "おならをする",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "おならをする"
+      },
+      "bur:1558375719093": {
+        "word": "မျက်တောင်ခတ်",
+        "gloss": "まばたきする",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "まばたきする"
+      },
+      "bur:1560606938033": {
+        "word": "ထွေး",
+        "gloss": "唾を吐く",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "唾を吐く"
+      },
+      "bur:1558376275771": {
+        "word": "မျက်ရည်",
+        "gloss": "涙",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "涙"
+      },
+      "bur:1535065948763": {
+        "word": "နားဖာချေး",
+        "gloss": "耳垢",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "耳垢"
+      },
+      "bur:1561321608391": {
+        "word": "သွေးပေါင်",
+        "gloss": "血圧",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "血圧"
+      },
+      "bur:1519420062777": {
+        "word": "ညောင်း",
+        "gloss": "凝っている、痛む（首など）",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "凝っている、痛む（首など）"
+      },
+      "bur:1570975459073": {
+        "word": "အရက်နာကျ",
+        "gloss": "二日酔いである",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "二日酔いである"
+      },
+      "bur:1403369518455": {
+        "word": "ကျန်းမာရေး",
+        "gloss": "健康",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "健康"
+      },
+      "bur:1519706508837": {
+        "word": "အသည်းရောင်ရောဂါ",
+        "gloss": "肝炎",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "肝炎"
+      },
+      "bur:1522916524434": {
+        "word": "သွေးတိုးရောဂါ",
+        "gloss": "高血圧",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "高血圧"
+      },
+      "bur:1564423709094": {
+        "word": "အဝလွန်ရောဂါ",
+        "gloss": "肥満、肥満症",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "肥満、肥満症"
+      },
+      "bur:1583843806495": {
+        "word": "ရောဂါပိုး",
+        "gloss": "病原体；ウイルス；細菌",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "病原体；ウイルス；細菌"
+      },
+      "bur:1525111999788": {
+        "word": "သူနာပြု",
+        "gloss": "看護師",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "看護師"
+      },
+      "bur:1423656709173": {
+        "word": "အူချို",
+        "gloss": "ソーセージ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ソーセージ"
+      },
+      "bur:1423656789929": {
+        "word": "ကမ္ဗလာသီး",
+        "gloss": "ザボン、ポメロ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ザボン、ポメロ"
+      },
+      "bur:1423656879883": {
+        "word": "ချောကလက်",
+        "gloss": "チョコレート",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チョコレート"
+      },
+      "bur:1444686607726": {
+        "word": "ပဲ",
+        "gloss": "豆；エンドウ豆",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "豆；エンドウ豆"
+      },
+      "bur:1444686838503": {
+        "word": "အခွံမာသီး",
+        "gloss": "木の実、ナッツ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木の実、ナッツ"
+      },
+      "bur:1447281541222": {
+        "word": "ကန်ဇွန်းရွက်",
+        "gloss": "空芯菜",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "空芯菜"
+      },
+      "bur:1453227285162": {
+        "word": "စတော်ဗယ်ရီသီး",
+        "gloss": "イチゴ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "イチゴ"
+      },
+      "bur:1453228799819": {
+        "word": "ကန်စွန်းဥ",
+        "gloss": "サツマイモ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サツマイモ"
+      },
+      "bur:1453861077018": {
+        "word": "နံပြား",
+        "gloss": "ナン、インド風の平たいパン",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ナン、インド風の平たいパン"
+      },
+      "bur:1453896774398": {
+        "word": "မုန်ညင်း",
+        "gloss": "からし菜、漬けからし菜",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "からし菜、漬けからし菜"
+      },
+      "bur:1453913694678": {
+        "word": "တို့ဟူး",
+        "gloss": "豆腐",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "豆腐"
+      },
+      "bur:1453913819746": {
+        "word": "ကိုက်လန်",
+        "gloss": "カイラン、芥藍",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カイラン、芥藍"
+      },
+      "bur:1454587529758": {
+        "word": "ခရုဆီ",
+        "gloss": "オイスターソース",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "オイスターソース"
+      },
+      "bur:1456924729304": {
+        "word": "ဒိန်ခဲ",
+        "gloss": "チーズ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チーズ"
+      },
+      "bur:1462444318235": {
+        "word": "ဂေါ်ဖီ",
+        "gloss": "キャベツ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キャベツ"
+      },
+      "bur:1462444405960": {
+        "word": "ငရုတ်ပွ",
+        "gloss": "ピーマン、パプリカ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ピーマン、パプリカ"
+      },
+      "bur:1473404590127": {
+        "word": "ဒညင်းသီး",
+        "gloss": "ジンコール豆",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ジンコール豆"
+      },
+      "bur:1473405662146": {
+        "word": "ပင်မှည့်သီး",
+        "gloss": "パッションフルーツ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "パッションフルーツ"
+      },
+      "bur:1473406307182": {
+        "word": "မန်ကျည်းသီး",
+        "gloss": "タマリンド",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "タマリンド"
+      },
+      "bur:1473406424211": {
+        "word": "ချဉ်စော်ကားသီး",
+        "gloss": "カリンに似た酸味のある果実（Chaenomeles cathayensis）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カリンに似た酸味のある果実（Chaenomeles cathayensis）"
+      },
+      "bur:1487726372519": {
+        "word": "နံနံပင်",
+        "gloss": "コリアンダー、パクチー",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コリアンダー、パクチー"
+      },
+      "bur:1487726416040": {
+        "word": "ဂျုံ",
+        "gloss": "小麦",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小麦"
+      },
+      "bur:1487726547477": {
+        "word": "မုန့်တီ",
+        "gloss": "モンティー（米麺）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "モンティー（米麺）"
+      },
+      "bur:1488212380886": {
+        "word": "ပီစာ",
+        "gloss": "ピザ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ピザ"
+      },
+      "bur:1490867038626": {
+        "word": "ကုလားပဲ",
+        "gloss": "ひよこ豆",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ひよこ豆"
+      },
+      "bur:1491425889805": {
+        "word": "ပဲလုံး",
+        "gloss": "エンドウ豆",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "エンドウ豆"
+      },
+      "bur:1498927424289": {
+        "word": "ဆီဆမ်း",
+        "gloss": "油をかけた〜（料理の種類）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "油をかけた〜（料理の種類）"
+      },
+      "bur:1498927518092": {
+        "word": "သံလွင်သီး",
+        "gloss": "オリーブ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "オリーブ"
+      },
+      "bur:1498927613103": {
+        "word": "ပူဒီနာရွက်",
+        "gloss": "ミント、ペパーミント／スペアミント",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ミント、ペパーミント／スペアミント"
+      },
+      "bur:1498927710289": {
+        "word": "နှမ်းစေ့",
+        "gloss": "ゴマ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ゴマ"
+      },
+      "bur:1498928033708": {
+        "word": "ပင်စိမ်း",
+        "gloss": "バジル",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バジル"
+      },
+      "bur:1499931375284": {
+        "word": "ကြာဇံ",
+        "gloss": "春雨、極細麺",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "春雨、極細麺"
+      },
+      "bur:1499931622791": {
+        "word": "မုန်လာထုပ်",
+        "gloss": "キャベツ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キャベツ"
+      },
+      "bur:1499931993870": {
+        "word": "နဂါးမောက်သီး",
+        "gloss": "ドラゴンフルーツ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ドラゴンフルーツ"
+      },
+      "bur:1500706101257": {
+        "word": "သခွားမွှေးသီး",
+        "gloss": "ハネデューメロン",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハネデューメロン"
+      },
+      "bur:1503673850846": {
+        "word": "ရှာလကာရည်",
+        "gloss": "酢、ビネガー",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "酢、ビネガー"
+      },
+      "bur:1503913345538": {
+        "word": "ပီကေ",
+        "gloss": "チューインガム",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チューインガム"
+      },
+      "bur:1504747636459": {
+        "word": "ဂျုံမှုန့်",
+        "gloss": "小麦粉",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小麦粉"
+      },
+      "bur:1505863911038": {
+        "word": "သစ်တော်သီး",
+        "gloss": "梨",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "梨"
+      },
+      "bur:1534882958569": {
+        "word": "ဆာတေး",
+        "gloss": "サテー、串焼き",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サテー、串焼き"
+      },
+      "bur:1537909559640": {
+        "word": "ဆီချက်",
+        "gloss": "油と揚げタマネギ／ニンニクで作る料理",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "油と揚げタマネギ／ニンニクで作る料理"
+      },
+      "bur:1542126771204": {
+        "word": "ပဲနီကလေး",
+        "gloss": "レンズ豆",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "レンズ豆"
+      },
+      "bur:1551533414135": {
+        "word": "မုန်ညှင်းဖြူ",
+        "gloss": "白菜",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "白菜"
+      },
+      "bur:1554276172343": {
+        "word": "အုန်းနို့",
+        "gloss": "ココナッツミルク",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ココナッツミルク"
+      },
+      "bur:1555420699638": {
+        "word": "စောင်းလျားပင်",
+        "gloss": "スターフルーツ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スターフルーツ"
+      },
+      "bur:1561321130637": {
+        "word": "ချယ်ရီ",
+        "gloss": "サクランボ、チェリー",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サクランボ、チェリー"
+      },
+      "bur:1566519635135": {
+        "word": "ဆမွန်ငါး",
+        "gloss": "サケ、サーモン",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サケ、サーモン"
+      },
+      "bur:1418855568197": {
+        "word": "ဆုံကျည်",
+        "gloss": "臼",
+        "medium": "06.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "臼"
+      },
+      "bur:1418855657649": {
+        "word": "ကျည်ပွေ့",
+        "gloss": "杵",
+        "medium": "06.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "杵"
+      },
+      "bur:1533984545981": {
+        "word": "ဖောက်တံ",
+        "gloss": "栓抜き",
+        "medium": "06.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "栓抜き"
+      },
+      "bur:1453726206122": {
+        "word": "ကဖေး",
+        "gloss": "カフェ",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "カフェ"
+      },
+      "bur:1454258421836": {
+        "word": "နံနက်စာ",
+        "gloss": "朝食",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "朝食"
+      },
+      "bur:1456924775784": {
+        "word": "မေနူ",
+        "gloss": "メニュー",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "メニュー"
+      },
+      "bur:1457176294114": {
+        "word": "စားသောက်ဆိုင်",
+        "gloss": "レストラン、飲食店",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "レストラン、飲食店"
+      },
+      "bur:1404085109941": {
+        "word": "ငရုတ်သီး မထည့်ပါနဲ့။",
+        "gloss": "唐辛子を入れないでください。",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "唐辛子を入れないでください。"
+      },
+      "bur:1454067877727": {
+        "word": "အီ",
+        "gloss": "脂っこい、こってりしている（食物）",
+        "medium": "06.05",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "脂っこい、こってりしている（食物）"
+      },
+      "bur:1398091557836": {
+        "word": "ခွေ",
+        "gloss": "巻き、リール（テープ等）",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "巻き、リール（テープ等）"
+      },
+      "bur:1519786683390": {
+        "word": "လက်တံ",
+        "gloss": "取っ手、ハンドル、ノブ",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "取っ手、ハンドル、ノブ"
+      },
+      "bur:1477426290164": {
+        "word": "ကြွပ်ကြွပ်အိတ်",
+        "gloss": "ビニール袋",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビニール袋"
       }
     },
     "shan": {
@@ -6851,6 +8270,2042 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "ラジオ局、放送局"
+      },
+      "shn:1783945287619": {
+        "word": "မွႆတႃ",
+        "gloss": "まつげ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "まつげ"
+      },
+      "shn:1783945287622": {
+        "word": "မၢၵ်ႇၵၢဝ်ႈ",
+        "gloss": "ふくらはぎ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ふくらはぎ"
+      },
+      "shn:1783945287794": {
+        "word": "သႆႈ",
+        "gloss": "腸、はらわた",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "腸、はらわた"
+      },
+      "shn:1783945287921": {
+        "word": "ၶူၼ်ႁူဝ်",
+        "gloss": "髪の毛",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "髪の毛"
+      },
+      "shn:1783945287930": {
+        "word": "ၶွပ်ႈတိၼ်",
+        "gloss": "足首",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "足首"
+      },
+      "shn:1783945288029": {
+        "word": "ၽူမ်",
+        "gloss": "髪、頭髪",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "髪、頭髪"
+      },
+      "shn:1783945288078": {
+        "word": "ႁူဝ်ၶဝ်ႇ",
+        "gloss": "膝、膝関節",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "膝、膝関節"
+      },
+      "shn:1783945288242": {
+        "word": "တႃမိုဝ်း",
+        "gloss": "指の関節",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "指の関節"
+      },
+      "shn:1783945288354": {
+        "word": "ပၢႆမိုဝ်း",
+        "gloss": "指先",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "指先"
+      },
+      "shn:1783945288437": {
+        "word": "မၢၵ်ႇတႃ",
+        "gloss": "目",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "目"
+      },
+      "shn:1783945288461": {
+        "word": "မႂ်ႁူ",
+        "gloss": "外耳、耳たぶ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "外耳、耳たぶ"
+      },
+      "shn:1783945288693": {
+        "word": "သီႇသူပ်း",
+        "gloss": "唇",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "唇"
+      },
+      "shn:1783945288716": {
+        "word": "သဵၼ်ႈၶူၼ်ႁူဝ်",
+        "gloss": "髪の毛（一本の筋）",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "髪の毛（一本の筋）"
+      },
+      "shn:1783945288925": {
+        "word": "ၵၢပ်ႇၼဵပ်ႉမိုဝ်း",
+        "gloss": "爪",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "爪"
+      },
+      "shn:1783945288929": {
+        "word": "ၵၢဝ်ႈ",
+        "gloss": "ふくらはぎ",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ふくらはぎ"
+      },
+      "shn:1783945289019": {
+        "word": "ၶဵဝ်ႈငႃး",
+        "gloss": "犬歯",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "犬歯"
+      },
+      "shn:1783945289126": {
+        "word": "ၼင်ႁူဝ်",
+        "gloss": "頭皮",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "頭皮"
+      },
+      "shn:1783945289141": {
+        "word": "ၼမ်ႉလိူတ်ႈ",
+        "gloss": "血、血液",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "血、血液"
+      },
+      "shn:1783945289261": {
+        "word": "ႁိူၵ်ႇ",
+        "gloss": "歯茎",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "歯茎"
+      },
+      "shn:1783945289273": {
+        "word": "ႁူဝ်ဝႃႇ",
+        "gloss": "肩",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "肩"
+      },
+      "shn:1783945289275": {
+        "word": "ႁူဝ်ၼဝ်ႇ",
+        "gloss": "下腹部",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "body_part"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "下腹部"
+      },
+      "shn:1783945287322": {
+        "word": "ၶီႈမုၵ်ႈ",
+        "gloss": "鼻水、鼻くそ",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鼻水、鼻くそ"
+      },
+      "shn:1783945287833": {
+        "word": "ၵိူဝ်ႇ",
+        "gloss": "恥部の垢",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "恥部の垢"
+      },
+      "shn:1783945287911": {
+        "word": "ၶီႈတႃ",
+        "gloss": "目やに",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "目やに"
+      },
+      "shn:1783945287995": {
+        "word": "ၼမ်ႉလိူင်",
+        "gloss": "傷口からの薄く黄色い分泌液、膿汁",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "傷口からの薄く黄色い分泌液、膿汁"
+      },
+      "shn:1783945289142": {
+        "word": "ၼမ်ႉလီ",
+        "gloss": "胆汁",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "胆汁"
+      },
+      "shn:1783945289182": {
+        "word": "ၼႃႈလိူၼ်",
+        "gloss": "月経、生理",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "月経、生理"
+      },
+      "shn:1783945289230": {
+        "word": "ၽၢႆႈဢွၼ်ႇ",
+        "gloss": "尿",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尿"
+      },
+      "shn:1783945289243": {
+        "word": "ၽႅပ်ႉတႃ",
+        "gloss": "まばたきをする",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "まばたきをする"
+      },
+      "shn:1783945289134": {
+        "word": "ၼမ်ႉတႃယိုင်ႈႁူၺ်ႇ",
+        "gloss": "目に涙を浮かべる",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "目に涙を浮かべる"
+      },
+      "shn:1783945287376": {
+        "word": "ၸႂ်ၵပ်ႉ",
+        "gloss": "息苦しい、胸が締め付けられる；（煙などで）息が詰まる；あえぐ",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "息苦しい、胸が締め付けられる；（煙などで）息が詰まる；あえぐ"
+      },
+      "shn:1783945287469": {
+        "word": "ငိုၼ်ႈ",
+        "gloss": "出っ歯である（ၶဵဝ်ႈငိုၼ်ႈ など）",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "出っ歯である（ၶဵဝ်ႈငိုၼ်ႈ など）"
+      },
+      "shn:1783945287503": {
+        "word": "တွင်ႉပိၵ်ႉ",
+        "gloss": "便秘である",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "便秘である"
+      },
+      "shn:1783945287522": {
+        "word": "တႃမွတ်ႇ",
+        "gloss": "盲目である、失明している",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "盲目である、失明している"
+      },
+      "shn:1783945287582": {
+        "word": "ပၢင်ႈၵီႈ",
+        "gloss": "脾腫（脾臓の肥大）がある",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "脾腫（脾臓の肥大）がある"
+      },
+      "shn:1783945287656": {
+        "word": "ယူႇလီၵိၼ်ဝၢၼ်",
+        "gloss": "元気である、健康である",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "元気である、健康である"
+      },
+      "shn:1783945288765": {
+        "word": "ဢမ်ႇလီၸႂ်",
+        "gloss": "気分が悪い、病気である、不調である",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "気分が悪い、病気である、不調である"
+      },
+      "shn:1783945289158": {
+        "word": "ၼုၼ်း",
+        "gloss": "衰弱する、疲れ果てる（疲労、病気、薬の影響など） （語源等：ビルマ語）",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "衰弱する、疲れ果てる（疲労、病気、薬の影響など） （語源等：ビルマ語）"
+      },
+      "shn:1783945287519": {
+        "word": "တၢႆလိုမ်း",
+        "gloss": "気絶する、意識を失う；昏睡状態になる",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "気絶する、意識を失う；昏睡状態になる"
+      },
+      "shn:1783945287573": {
+        "word": "ပဵၼ်ငၢၼ်း",
+        "gloss": "激しい病気や痙攣を起こす",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "激しい病気や痙攣を起こす"
+      },
+      "shn:1783945287791": {
+        "word": "သႃႇမႃး",
+        "gloss": "病気が治る、快復する",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "病気が治る、快復する"
+      },
+      "shn:1783945288206": {
+        "word": "တွင်ႉလူႉ",
+        "gloss": "慢性的な下痢をする",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "慢性的な下痢をする"
+      },
+      "shn:1783945288207": {
+        "word": "တွင်ႉၵႂႃႇ",
+        "gloss": "下痢をする",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "下痢をする"
+      },
+      "shn:1783945288208": {
+        "word": "တွင်ႉၶူပ်း",
+        "gloss": "赤痢にかかる",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "赤痢にかかる"
+      },
+      "shn:1783945288245": {
+        "word": "တႃၸဵပ်း",
+        "gloss": "眼病を患う、目が痛む",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "眼病を患う、目が痛む"
+      },
+      "shn:1783945288281": {
+        "word": "ထူၺ်ႈၸႂ်ၵပ်ႉ",
+        "gloss": "呼吸が困難になる、息苦しい",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "呼吸が困難になる、息苦しい"
+      },
+      "shn:1783945289115": {
+        "word": "ၸႂ်သၼ်ႇၸႂ်ဝႆ",
+        "gloss": "動悸がする、胸がドキドキする",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "動悸がする、胸がドキドキする"
+      },
+      "shn:1783945288166": {
+        "word": "တုမ်ႇၸဵပ်း",
+        "gloss": "痛む腫れ、炎症",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "痛む腫れ、炎症"
+      },
+      "shn:1783945288220": {
+        "word": "တၢင်းယူႇလီ",
+        "gloss": "健康",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "健康"
+      },
+      "shn:1783945288221": {
+        "word": "တၢင်းယွမ်",
+        "gloss": "痩せていること、細身（体格について）",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "痩せていること、細身（体格について）"
+      },
+      "shn:1783945288583": {
+        "word": "လူမ်းၼၢဝ်",
+        "gloss": "熱、発熱",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "熱、発熱"
+      },
+      "shn:1783945289175": {
+        "word": "ၼၢဝ်ၼူၵ်ႉ",
+        "gloss": "マラリア",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "マラリア"
+      },
+      "shn:1783945287625": {
+        "word": "မၢၼ်ႇတႃ",
+        "gloss": "眼鏡",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "眼鏡"
+      },
+      "shn:1783945288877": {
+        "word": "ၵူၼ်းပဵၼ်",
+        "gloss": "病人、患者",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "病人、患者"
+      },
+      "shn:1783945288910": {
+        "word": "ၵျၢမ်းယႃႈယႃ",
+        "gloss": "医学書",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "医学書"
+      },
+      "shn:1783945287755": {
+        "word": "သမ်းယႃ",
+        "gloss": "注射を受ける",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "注射を受ける"
+      },
+      "shn:1783945287756": {
+        "word": "သမ်းၶဵမ်",
+        "gloss": "注射する",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "注射する"
+      },
+      "shn:1783945288939": {
+        "word": "ၵႂႃႇၸူးမေႃယႃ",
+        "gloss": "医者に行く、診察を受ける",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "medicine"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "医者に行く、診察を受ける"
+      },
+      "shn:1783945287844": {
+        "word": "ၵူၼ်းတၢႆ",
+        "gloss": "死人、死者",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "死人、死者"
+      },
+      "shn:1783945289073": {
+        "word": "ၸရႃႇ",
+        "gloss": "老い、老年",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "老い、老年"
+      },
+      "shn:1783945288177": {
+        "word": "တူၵ်းလုၵ်ႈ",
+        "gloss": "流産する",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "流産する"
+      },
+      "shn:1783945288236": {
+        "word": "တၢႆလိပ်း",
+        "gloss": "変死する、不自然な死（暴力などによる死）",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "変死する、不自然な死（暴力などによる死）"
+      },
+      "shn:1783945288237": {
+        "word": "တၢႆၸဝ်ႉ",
+        "gloss": "早くに亡くなる、早世する",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "早くに亡くなる、早世する"
+      },
+      "shn:1783945288532": {
+        "word": "လပ်းတႃလိုမ်းမိူင်း",
+        "gloss": "亡くなる、他界する",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "亡くなる、他界する"
+      },
+      "shn:1783945288606": {
+        "word": "လွၼ်ႇ",
+        "gloss": "崩御する、示寂する（高僧などの死）",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "崩御する、示寂する（高僧などの死）"
+      },
+      "shn:1783945288853": {
+        "word": "ၵိူတ်ႇလဵင်ႉ",
+        "gloss": "出産する、産む",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "出産する、産む"
+      },
+      "shn:1783945288252": {
+        "word": "တႅင်ၸိင်",
+        "gloss": "大キュウリ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大キュウリ"
+      },
+      "shn:1783945288371": {
+        "word": "ပႃႁႅင်ႈ",
+        "gloss": "魚の干物、塩辛い干魚",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "魚の干物、塩辛い干魚"
+      },
+      "shn:1783945288441": {
+        "word": "မၢၵ်ႇမႆႉမၢၵ်ႇတွၵ်ႇ",
+        "gloss": "あらゆる種類の果物",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "あらゆる種類の果物"
+      },
+      "shn:1783945288442": {
+        "word": "မၢၵ်ႇဝၢၼ်",
+        "gloss": "スイートライム、オレンジ",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スイートライム、オレンジ"
+      },
+      "shn:1783945288733": {
+        "word": "သၢၼ်ၶဝ်ႈ",
+        "gloss": "精米、白米の粒",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "精米、白米の粒"
+      },
+      "shn:1783945288829": {
+        "word": "ဢႅမ်",
+        "gloss": "搗（つ）く前の発酵大豆（納豆の類）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "搗（つ）く前の発酵大豆（納豆の類）"
+      },
+      "shn:1783945288974": {
+        "word": "ၶဝ်ႈမုၼ်းလၢမ်",
+        "gloss": "竹筒で調理した米粉と糖蜜の菓子",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "竹筒で調理した米粉と糖蜜の菓子"
+      },
+      "shn:1783945288977": {
+        "word": "ၶဝ်ႈၵွႆ",
+        "gloss": "キビ（黍）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キビ（黍）"
+      },
+      "shn:1783945288981": {
+        "word": "ၶဝ်ႈႁႅင်ႈ",
+        "gloss": "乾燥米、ほしいい（糒）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "乾燥米、ほしいい（糒）"
+      },
+      "shn:1783945289145": {
+        "word": "ၼမ်ႉၽိတ်ႉ",
+        "gloss": "唐辛子をすりつぶした調味料（ナムプリック）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "唐辛子をすりつぶした調味料（ナムプリック）"
+      },
+      "shn:1783945289151": {
+        "word": "ၼိူဝ်ႉသႃႈ",
+        "gloss": "ラープ（挽き肉と野菜の和え物料理）",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ラープ（挽き肉と野菜の和え物料理）"
+      },
+      "shn:1783945289232": {
+        "word": "ၽၵ်းမီႇႁေႃ",
+        "gloss": "ニンニク",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ニンニク"
+      },
+      "shn:1783945288945": {
+        "word": "ၵႃႇၽီႇ",
+        "gloss": "コーヒー",
+        "medium": "06.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "consumable"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コーヒー"
+      },
+      "shn:1783945288197": {
+        "word": "တဵၵ်းၵိၼ်",
+        "gloss": "無理やり食べさせる、強制的に食べる（自発的または脅迫下で）",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "無理やり食べさせる、強制的に食べる（自発的または脅迫下で）"
+      },
+      "shn:1783945288703": {
+        "word": "သူတ်ႉ",
+        "gloss": "すする、飲む、（スープなどを）スプーンで食べる",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "すする、飲む、（スープなどを）スプーンで食べる"
+      },
+      "shn:1783945288854": {
+        "word": "ၵိၼ်ဝၢၼ်",
+        "gloss": "美味しく食べる、食が進む",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "美味しく食べる、食が進む"
+      },
+      "shn:1783945288857": {
+        "word": "ၵိၼ်ၼူမ်း",
+        "gloss": "おっぱいを飲む、授乳する",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "おっぱいを飲む、授乳する"
+      },
+      "shn:1783945288903": {
+        "word": "ၵဵဝ်ႉ",
+        "gloss": "噛む、咀嚼する",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "噛む、咀嚼する"
+      },
+      "shn:1783945288343": {
+        "word": "ပွႆးၵိၼ်",
+        "gloss": "宴会、会食",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宴会、会食"
+      },
+      "shn:1783945288621": {
+        "word": "လၢႆးၵိၼ်",
+        "gloss": "食べ方、飲食の指示",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "食べ方、飲食の指示"
+      },
+      "shn:1783945288979": {
+        "word": "ၶဝ်ႈၶမ်ႈ",
+        "gloss": "夕食、晩ご飯",
+        "medium": "06.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "夕食、晩ご飯"
+      },
+      "shn:1783945288521": {
+        "word": "ယၢၵ်ႇ",
+        "gloss": "飢える、渇く；（食べ物や水がなくて）辛い思いをする",
+        "medium": "06.05",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "飢える、渇く；（食べ物や水がなくて）辛い思いをする"
+      },
+      "shn:1783945288956": {
+        "word": "ၵႄႉ",
+        "gloss": "味気ない、味が薄い、風味に欠ける",
+        "medium": "06.05",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "味気ない、味が薄い、風味に欠ける"
+      },
+      "shn:1783945285303": {
+        "word": "မၢၵ်ႇၵွင်ႈ",
+        "gloss": "銃弾",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "銃弾"
+      },
+      "shn:1783945285939": {
+        "word": "ၵၢင်ႇ",
+        "gloss": "弓；弩（いしゆみ）",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "弓；弩（いしゆみ）"
+      },
+      "shn:1783945287056": {
+        "word": "တၢဝ်",
+        "gloss": "ナイフ、剣、刀",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ナイフ、剣、刀"
+      },
+      "shn:1783945287864": {
+        "word": "ၵွင်ႈၸၢၵ်ႈ",
+        "gloss": "機関銃",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "機関銃"
+      },
+      "shn:1783945288444": {
+        "word": "မၢၵ်ႇၵွင်ႈၸိုၼ်းယၢမ်း",
+        "gloss": "弾薬、散弾",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "弾薬、散弾"
+      },
+      "shn:1783945288844": {
+        "word": "ၵိမ်းႁႆး",
+        "gloss": "ハサミ",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ハサミ"
+      },
+      "shn:1783945288901": {
+        "word": "ၵဵင်းသၢမ်ၶႃ",
+        "gloss": "三脚、三本足の台",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "三脚、三本足の台"
+      },
+      "shn:1783945288913": {
+        "word": "ၵွင်ႈပွတ်း",
+        "gloss": "ピストル、短銃",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ピストル、短銃"
+      },
+      "shn:1783945284396": {
+        "word": "မႆႉ",
+        "gloss": "木、木材；竹",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "木、木材；竹"
+      },
+      "shn:1783945288587": {
+        "word": "လေႃးႁႃႇ",
+        "gloss": "五金（金、銀、銅、鉄、鉛）",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "五金（金、銀、銅、鉄、鉛）"
+      },
+      "shn:1783945288737": {
+        "word": "သၢႆလဵၵ်း",
+        "gloss": "鉄の線、鉄の鎖",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鉄の線、鉄の鎖"
+      },
+      "shn:1783945288997": {
+        "word": "ၶီႈၽိုင်ႈ",
+        "gloss": "蜜蝋（みつろう）",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "material"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "蜜蝋（みつろう）"
+      },
+      "shn:1783945285356": {
+        "word": "ၸီး",
+        "gloss": "穴を開ける、貫通させる",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "穴を開ける、貫通させる"
+      },
+      "shn:1783945287892": {
+        "word": "ၶတ်းသေႃး",
+        "gloss": "鍵をかける",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鍵をかける"
+      },
+      "shn:1783945288300": {
+        "word": "ထႅပ်း",
+        "gloss": "ナイフで切り落とす、切り離す、切断する",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ナイフで切り落とす、切り離す、切断する"
+      },
+      "shn:1783945288413": {
+        "word": "မူင်ႇ",
+        "gloss": "穴を開ける、貫通させる",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "穴を開ける、貫通させる"
+      },
+      "shn:1783945288541": {
+        "word": "လိဝ်",
+        "gloss": "（ロープの）束をねじる",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（ロープの）束をねじる"
+      },
+      "shn:1783945288544": {
+        "word": "လိုမ်ႉမႄး",
+        "gloss": "修理する、繕う",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "修理する、繕う"
+      },
+      "shn:1783945288831": {
+        "word": "ၵင်ႈၽႃ",
+        "gloss": "建物の側面を（壁として）覆う",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "建物の側面を（壁として）覆う"
+      },
+      "shn:1783945288864": {
+        "word": "ၵုၺ်ႉ",
+        "gloss": "てこで持ち上げる、こじ開ける",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "てこで持ち上げる、こじ開ける"
+      },
+      "shn:1783945288988": {
+        "word": "ၶိုၼ်ႈၽၢႆ",
+        "gloss": "堤防やダムを高くする、ダムを補強する（せき止め湖を増やすため）",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "堤防やダムを高くする、ダムを補強する（せき止め湖を増やすため）"
+      },
+      "shn:1783945289294": {
+        "word": "ႁဵတ်းႁိူၼ်း",
+        "gloss": "家を建てる",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "craft"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "家を建てる"
+      },
+      "shn:1783945285340": {
+        "word": "လၢႆႇ",
+        "gloss": "排水路、溝、下水道；水路",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "排水路、溝、下水道；水路"
+      },
+      "shn:1783945286765": {
+        "word": "မိူင်",
+        "gloss": "堰（せき）、堤",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "堰（せき）、堤"
+      },
+      "shn:1783945288319": {
+        "word": "ပူႇတႃႇ",
+        "gloss": "駅、停留所",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "駅、停留所"
+      },
+      "shn:1783945288588": {
+        "word": "လေႃႉဝူဝ်း",
+        "gloss": "牛車",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "牛車"
+      },
+      "shn:1783945288738": {
+        "word": "သၢႆႁၢင်",
+        "gloss": "尻がい（馬具）",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尻がい（馬具）"
+      },
+      "shn:1783945288942": {
+        "word": "ၵႃးၸၢင်ႈ",
+        "gloss": "賃貸車、タクシー",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "賃貸車、タクシー"
+      },
+      "shn:1783945288991": {
+        "word": "ၶိူင်ႈလေႃႉ",
+        "gloss": "荷車や馬車の備品",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "荷車や馬車の備品"
+      },
+      "shn:1783945289223": {
+        "word": "ၽၢင်ယၼ်",
+        "gloss": "鐙（あぶみ）",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鐙（あぶみ）"
+      },
+      "shn:1783945289259": {
+        "word": "ႁိူဝ်းသၢင်းၽေႃးပၢင်ႇလၢႆႇ",
+        "gloss": "遠洋定期船",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "遠洋定期船"
+      },
+      "shn:1783945289298": {
+        "word": "ႁွင်ႈလၢႆႇ",
+        "gloss": "排水路、溝、下水道",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "排水路、溝、下水道"
+      },
+      "shn:1783945289284": {
+        "word": "ႁေႃႈလူင်း",
+        "gloss": "運転して下る",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "運転して下る"
+      },
+      "shn:1783945288249": {
+        "word": "တႄႇလီႇဝီးသျိၼ်း",
+        "gloss": "テレビ",
+        "medium": "11.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "テレビ"
+      },
+      "shn:1783945289107": {
+        "word": "ၸၢၵ်ႈၼပ်ႉ",
+        "gloss": "加算機、電卓",
+        "medium": "11.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "加算機、電卓"
       }
     }
   },

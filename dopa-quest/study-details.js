@@ -49,7 +49,7 @@
    function canContrast(a,b,l){
     return !(annotation(a,l)&&annotation(b,l)&&conflicts[l].get(a.id)?.has(b.id));
    }
-   return {taxonomy,mediums,annotation,matches,canContrast};
+   return {taxonomy,mediums,annotation,matches,canContrast,coverage:metadata.coverage||{}};
   }
  };
  root.DOPAStudyDetails=API;

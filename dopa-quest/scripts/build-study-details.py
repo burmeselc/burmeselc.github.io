@@ -33,6 +33,17 @@ def build():
     for l,groups in out['choice_conflicts'].items():
         for group in groups:
             assert len(set(group['ids']))>=2 and all(id in out['cards'][l]for id in group['ids'])
+    holds=read('study-details-holds-v1.json')['records']
+    coverage={}
+    for l,deck in decks.items():
+        sem=read(f'{l}-categories-v1.json')['cards']
+        scope={id for id in deck if sem[id][0]in ['03','06','11'] and sem[id][1]in ['P','R']}
+        assigned=set(out['cards'][l]);held={r['card_id']for r in holds if r['language']==l}
+        assert not assigned&held and assigned|held==scope,(l,len(scope),len(assigned),len(held))
+        coverage[l]={'scope':'legacy-category-eligible-03-06-11','scope_candidates':len(scope),
+            'classified':len(assigned),'review_pending':len(held),'untriaged':len(scope-assigned-held),
+            'other_classic_cards':len(deck)-len(scope)}
+    out['coverage']=coverage
     out['counts']={l:len(c)for l,c in out['cards'].items()}
     out['medium_counts']={l:dict(sorted(Counter(a['medium']for a in cards.values()).items()))for l,cards in out['cards'].items()}
     (ROOT/'data'/'study-details-pilot-v1.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')

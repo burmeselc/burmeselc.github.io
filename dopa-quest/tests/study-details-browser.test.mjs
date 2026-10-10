@@ -109,7 +109,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/246件/);
+  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/331件/);
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
