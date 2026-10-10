@@ -2,19 +2,36 @@
 (function(root){
   'use strict';
   let audio=null, master=null, compressor=null, lastKind='',lastAt=0;
+  const active=new Set();
   const presets=new Set(['off','quiet','standard','flashy']);
   const ios=()=>/iPad|iPhone|iPod/i.test(navigator.userAgent||'')||
     (navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  const mobile=()=>ios()||/Android|Mobile/i.test(navigator.userAgent||'')||navigator.userAgentData?.mobile===true;
   function musicSafe(){
     // Audio Session API is implemented on recent iOS WebKit but not all browsers.
-    // Fail CLOSED on iOS if we cannot explicitly request audio that mixes with music.
-    const session=navigator.audioSession;
-    if(!session)return !ios();
-    try{session.type='ambient';return session.type==='ambient';}
-    catch(e){return false;}
+    // Fail CLOSED on mobile if we cannot request audio that mixes with music.
+    try{
+      const session=navigator.audioSession;
+      if(!session)return !mobile();
+      session.type='ambient';
+      return session.type==='ambient'&&session.state!=='interrupted';
+    }catch(e){return false;}
   }
+  function stop(){
+    lastKind='';lastAt=0;
+    for(const voice of active){
+      try{
+        voice.env.gain.cancelScheduledValues(audio.currentTime);
+        voice.env.gain.setValueAtTime(0,audio.currentTime);
+        voice.osc.stop(audio.currentTime);
+        voice.osc.disconnect();voice.env.disconnect();
+      }catch(e){}
+    }
+    active.clear();
+  }
+
   function ensureAudio(){
-    if(!musicSafe())return false;
+    if(!musicSafe()){stop();return false;}
     const Ctx=root.AudioContext||root.webkitAudioContext;
     if(!Ctx)return false;
     if(!audio){
@@ -26,22 +43,25 @@
       compressor.attack.value=0.003;
       compressor.release.value=0.12;
       master=audio.createGain();
-      master.gain.value=0.08;
+      master.gain.value=0.14;
       compressor.connect(master);master.connect(audio.destination);
     }
-    if(audio.state==='suspended')audio.resume().catch(()=>{});
+    // A constructor or OS interruption may have changed the session.
+    if(!musicSafe()||audio.state==='closed'||audio.state==='interrupted'){stop();return false;}
+    if(audio.state==='suspended')audio.resume().catch(()=>stop());
     return true;
   }
   // Time-indexed pitches, not recordings: pitches are MIDI notes, times seconds.
   const patterns={
     ok:[[0,76,.12,'sine',.65],[.075,83,.16,'triangle',.55]],
-    bad:[[0,48,.14,'sine',.33],[.08,44,.15,'triangle',.24]],
+    bad:[[0,55,.11,'sine',.32],[.07,50,.17,'triangle',.25]],
+    bossEnter:[[0,43,.10,'triangle',.34],[.12,43,.15,'sine',.30]],
     combo3:[[0,76,.12,'triangle',.42],[.085,80,.14,'triangle',.45],[.18,83,.20,'sine',.52]],
     combo5:[[0,72,.14,'triangle',.40],[.095,76,.15,'triangle',.48],[.19,79,.16,'triangle',.50],[.29,84,.28,'sine',.54]],
     combo10:[[0,72,.12,'triangle',.50],[.09,76,.13,'triangle',.45],[.18,79,.12,'triangle',.50],[.27,84,.14,'triangle',.50],[.38,88,.30,'sine',.62],[.38,76,.30,'triangle',.20]],
-    boss:[[0,36,.18,'sawtooth',.25],[.08,55,.25,'triangle',.39],[.17,62,.28,'triangle',.40],[.28,67,.32,'triangle',.43],[.35,74,.37,'sine',.55]],
+    boss:[[0,43,.15,'triangle',.30],[.08,55,.25,'triangle',.39],[.17,62,.28,'triangle',.40],[.28,67,.32,'triangle',.43],[.35,74,.37,'sine',.55]],
     seal:[[0,79,.09,'sine',.40],[.085,83,.09,'sine',.45],[.18,86,.10,'sine',.47],[.30,91,.30,'sine',.50]],
-    nemesis:[[0,48,.14,'sawtooth',.22],[.09,67,.15,'triangle',.4],[.20,72,.20,'triangle',.4],[.31,79,.22,'triangle',.44],[.46,84,.45,'sine',.56]],
+    nemesis:[[0,48,.14,'triangle',.28],[.09,67,.15,'triangle',.4],[.20,72,.20,'triangle',.4],[.31,79,.22,'triangle',.44],[.46,84,.45,'sine',.56]],
     levelup:[[0,67,.09,'triangle',.38],[.09,72,.11,'triangle',.42],[.20,76,.15,'triangle',.45],[.34,79,.22,'sine',.49],[.52,84,.35,'sine',.52]],
     rival:[[0,60,.12,'triangle',.32],[.11,69,.20,'triangle',.44],[.24,76,.26,'sine',.48]],
     resultGood:[[0,72,.15,'triangle',.42],[.15,76,.15,'triangle',.46],[.30,79,.17,'triangle',.49],[.45,84,.46,'sine',.53],[.45,72,.42,'triangle',.22]],
@@ -56,36 +76,50 @@
     env.gain.setValueAtTime(0,start);
     env.gain.linearRampToValueAtTime(Math.max(0.0001,level*scale),start+0.012);
     env.gain.exponentialRampToValueAtTime(0.0001,start+Math.max(0.032,duration));
+    const voice={osc,env};active.add(voice);
+    osc.onended=()=>{active.delete(voice);osc.disconnect();env.disconnect();};
     osc.connect(env);env.connect(compressor);
     osc.start(start);osc.stop(start+Math.max(0.045,duration)+0.02);
   }
   function play(kind,opts={}){
     const preset=presets.has(opts.preset)?opts.preset:'standard';
-    const volume=Math.max(0,Math.min(100,Number(opts.volume??30)));
-    if(preset==='off'||volume===0)return false;
+    const numeric=Number(opts.volume??30);
+    const volume=Number.isFinite(numeric)?Math.max(0,Math.min(100,numeric)):0;
+    if(preset==='off'||volume===0){stop();return false;}
     const nowMs=Date.now();
-    if(kind===lastKind&&nowMs-lastAt<85)return false;
-    if(!patterns[kind])return false;
+    if(!Object.prototype.hasOwnProperty.call(patterns,kind))return false;
     try{
       if(!ensureAudio())return false;
-      lastAt=nowMs;lastKind=kind;
+      if(kind===lastKind&&nowMs-lastAt<85)return false;
+      // Replace the previous cue, including its scheduled tail; never stack auditions.
+      stop();lastAt=nowMs;lastKind=kind;
       const density=preset==='quiet'?.48:preset==='standard'?.78:1;
       const scale=(volume/100)*density;
       const notes=patterns[kind];
-      const selected=preset==='quiet'?notes.slice(0,Math.min(2,notes.length)):
-        preset==='standard'?notes.filter((_,i)=>i<4):notes;
+      // Keep the musical resolution in every preset. Quiet is an abbreviated motif.
+      const end=Math.max(...notes.map(n=>n[0]));
+      const selected=preset==='quiet'&&notes.length>2?
+        [notes[0],notes.find(n=>n[0]===end)].map((n,i)=>[i*.10,n[1],Math.min(n[2],.18),n[3],n[4]]):notes;
       const now=audio.currentTime+0.012;
-      for(const [t,p,d,w,a] of selected)tone(p,t,d,w,a,now,scale);
+      for(const [t,p,d,w,a] of selected){
+        tone(p,t,d,w,a,now,scale);
+        // A soft octave bell adds sparkle without extending the cue or raising its main voice.
+        if(preset==='flashy'&&kind!=='bad'&&kind!=='bossEnter'&&t===end)
+          tone(p+12,t,Math.min(d,.16),'sine',a*.18,now,scale);
+      }
       return true;
-    }catch(e){return false}
+    }catch(e){stop();return false}
   }
   function status(){
-    if(ios()&&!navigator.audioSession)return 'iOSの音楽との共存設定を確認できないため、効果音は自動で無効になります。';
-    if(navigator.audioSession){
-      try{return navigator.audioSession.type==='ambient'?'ほかの音楽と混ぜる ambient モード':'試聴時に ambient モードを要求します';}
-      catch(e){return '音声セッションを確認できません'}
-    }
-    return 'この環境では ambient 指定に未対応。ブラウザ音声を使用します（音楽との共存は端末で要確認）。';
+    try{
+      const session=navigator.audioSession;
+      if(!session&&mobile())return 'このモバイル環境では音楽との共存設定を確認できないため、効果音は自動で無効になります。';
+      if(session)return session.type==='ambient'?
+        '音楽と混ぜる設定です。Apple Music・Spotifyとの実機共存は未確認です。':
+        '試聴時に音楽と混ぜる設定を要求します。指定できない場合は無音になります。';
+      return 'ブラウザの効果音を使用します。ほかの音楽との共存は端末で要確認です。';
+    }catch(e){return '音楽との共存設定を確認できないため、効果音は無効になります。';}
   }
-  root.DOPASound={play,status,patterns:Object.keys(patterns)};
+  root.document?.addEventListener('visibilitychange',()=>{if(root.document.hidden)stop();});
+  root.DOPASound={play,stop,status,patterns:Object.keys(patterns)};
 })(window);

@@ -145,6 +145,7 @@ function beep(kind){
 function refreshSoundControls(){
  normalizeSoundPrefs();
  const preset=$('sfxPreset'),volume=$('sfxVolume'),value=$('sfxVolumeValue'),status=$('sfxSessionStatus');
+ if(!P.sound||P.sfxVolume===0)window.DOPASound?.stop?.();
  if(preset)preset.value=P.sfxStyle;
  if(volume)volume.value=String(P.sfxVolume);
  if(value)value.textContent=P.sfxVolume+'%';
@@ -186,7 +187,7 @@ function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
  if(q.typed){S.options=[];$('typedAnswer').value='';$('typedAnswer').placeholder='原語の綴りを入力';$('typedAnswer').lang=l==='shan'?'shn':'my';$('typedAnswer').disabled=false;$('typedSubmit').disabled=false;$('typedSubmit').onclick=submitTyped;setTimeout(()=>$('typedAnswer').focus(),50)}
  else{let opts=shuffle([x,...distractors(x,S.pool,l,q.dir)]);S.options=opts;opts.forEach((o,i)=>{let b=document.createElement('button');b.className='choice';b.dataset.correct=o.id===x.id?'1':'0';b.dataset.itemid=o.id;b.dataset.key=i+1;b.textContent=q.dir==='fromJP'?orig(o,l):jp(o);b.onclick=()=>answer(b,o.id===x.id,false,o);$('choices').appendChild(b)})}
- if(q.isBoss){banner(w.nemesis?'☠ NEMESIS BOSS':q.isRival?'⚔ RIVAL BOSS':'⚠ BOSS WAVE');beep('boss')}
+ if(q.isBoss){banner(w.nemesis?'☠ NEMESIS BOSS':q.isRival?'⚔ RIVAL BOSS':'⚠ BOSS WAVE');beep('bossEnter')}
  updateHUD();startTimer();if(q.dir==='listen')setTimeout(()=>{if(S.cur===q&&!q.answered)playSpeech(x)},180)}
 function renderMastery(w){let s=stage(w);$('mastery').innerHTML=[0,1,2,3,4].map(i=>`<i class="rankdot ${i<=s?'on':''}"></i>`).join('')+`<span class="rankname">${STAGES[s]}</span>`;
  let skills=[['rec','文字→意味'],['prod','意味→文字4択'],['spell','綴り入力'],['listen','聴解（合成音声）']];$('subskill').innerHTML=skills.map(([k,t])=>`<div class="skill ${k}"><div class="skilltop"><span>${t}</span><b>${w[k]||0}/6</b></div><div class="bar"><div style="width:${(w[k]||0)/6*100}%"></div></div></div>`).join('')}
@@ -205,10 +206,10 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
  let gain=Math.round((q.retry?8:14)*mult*comboMult*(w.nemesis?1.6:1));if(ev.sealed){gain+=35;S.seals++;banner('✦ SEALED +35','seal')}if(ev.nemesisKilled){gain+=80;S.nemKills++;S.coin+=12;banner('☠ NEMESIS PURGED +80','seal')}if(rivalKills){gain+=70*rivalKills;S.coin+=10*rivalKills;banner('⚔ RIVAL CLEARED','seal')}
  S.xp+=gain;P.xp+=gain;S.coin+=q.isBoss?5:1;if(btn)btn.classList.add('correct');$('feedback').className='feedback on';$('feedback').innerHTML=`<div class="hit">${q.typed?'SPELL CLEAR':q.retry?'REVENGE COMPLETE':'PERFECT HIT'} <span class="gain">+${gain} XP</span></div>${(!q.retry&&!ev.credited)?'<div class="small">短期練習：XP獲得。熟練度は復習期限後に上昇します。</div>':''}${feedbackDetail(x,false)}`;
  floatXP('+'+gain+' XP',btn||$('card'));
- let fx=ev.nemesisKilled?'nemesis':ev.sealed?'seal':q.isBoss?'boss':
+ let fx=ev.nemesisKilled?'nemesis':ev.sealed?'seal':rivalKills?'rival':q.isBoss?'boss':
    lvInfo(P.xp).lv>levelBefore?'levelup':
    S.combo===10?'combo10':S.combo===5?'combo5':S.combo===3?'combo3':
-   rivalKills?'rival':'ok';
+   'ok';
  beep(fx);vibe(16);if(ev.after>ev.before)toast(`${STAGES[ev.before]} → ${STAGES[ev.after]}`)}
  else{S.miss++;S.combo=0;S.mistakes.push(x);let nem=applyWrong(q);if(btn)btn.classList.add('wrong');if(!q.typed)[...$('choices').children].forEach(b=>{if(b.dataset.correct==='1')b.classList.add('correct')});
  if(selected){let r=recordConfusion(x,selected);if(r&&r.confusions===2)banner('⚔ RIVAL UNLOCKED','nem')}

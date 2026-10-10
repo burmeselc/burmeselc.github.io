@@ -9,6 +9,7 @@ The entire sound design is synthesized with the Web Audio API in `sound-fx.js`; 
 - Correct: bright two-note chime.
 - Incorrect: subtle low descending cue.
 - COMBO 3 / COMBO 5 / COMBO 10: increasingly rich ascending sequences.
+- BOSS entrance: short two-hit warning, distinct from victory.
 - BOSS success: short low hit followed by a victory chord.
 - First mastery seal: shimmering notes.
 - NEMESIS defeat / RIVAL win: distinctive victory sequences.
@@ -20,8 +21,8 @@ All are brief (under approximately 1.2 seconds). The game emits a **single prior
 ## Preserve other audio
 
 - On an Apple mobile browser, request `navigator.audioSession.type='ambient'` **before creating** an `AudioContext`. Repeat the policy check on every effect.
-- If an iOS environment cannot verify the ambient setting, deliberately **suppress new SFX** instead of risking background music interruption.
-- On browsers without the Audio Session API outside iOS, Web Audio continues as normal; coexistence still depends on the operating system.
+- If any mobile environment (including iOS or Android) cannot verify the ambient setting, deliberately **suppress new SFX** instead of risking background music interruption.
+- On desktop browsers without the Audio Session API, Web Audio continues as normal; coexistence still depends on the operating system. Unconfirmed mobile environments stay silent.
 - No `playback`, `transient-solo` or hidden looping audio workaround, no new background music, no MediaSession changes.
 - Silent-mode playback is **not** guaranteed. Existing optional speech-synthesis/TTS is separate and may independently interrupt other music; this change does not alter TTS behavior.
 - Audio session APIs express intent but do **not** establish that Apple Music or Spotify will never stop; test Safari and the actual preferred iPhone browser with each app actively playing music.
@@ -41,3 +42,13 @@ All are brief (under approximately 1.2 seconds). The game emits a **single prior
 4. Check volume balance with Bluetooth earbuds, wired audio and iPhone speaker if applicable; preview default is 30%, not maximum.
 5. Test OFF, quiet, standard and flashy, and ensure the existing SOUND header button still toggles sound.
 6. Export/restore a SAVE file; ensure current vocabulary review history is preserved.
+
+## Follow-up tuning (2026-10-10)
+
+- Standard plays complete motifs instead of removing their resolution. Quiet compresses a cue to its first and final pitch; flashy adds brief, soft octave bell layers.
+- Increase the common output gain from 0.08 to 0.14, keeping default volume at 30%; remove harsh sawtooth attacks and bring the miss cue into a more audible register. Actual perceived loudness still requires human audition.
+- A new cue cancels the preceding cue and queued tails. MUTE, OFF, zero volume and page hiding stop active voices; completed voices disconnect their nodes.
+- Reject non-finite volume, throwing session accessors, refused ambient settings and interrupted sessions. Recheck policy after context creation and before each cue.
+- RIVAL completion takes precedence over routine boss/combo cues; each answer still emits one cue. Boss appearance uses a separate warning.
+- All 13 cues have audition buttons. Card data, scoring, profile key and learning history are unchanged.
+- Actual iPhone + Apple Music/Spotify coexistence and listening quality remain UNVERIFIED. CI checks control flow and desktop Chromium behavior only. Do not merge without device acceptance.
