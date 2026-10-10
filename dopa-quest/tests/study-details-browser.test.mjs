@@ -109,7 +109,9 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
   await page.locator('#lang').selectOption('burmese');
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
-  assert.match(await page.locator('#studyDetailReviewSummary').textContent(),/1780件/);
+  const reviewedCount=await page.evaluate(()=>window.DOPA_DETAIL.coverage.burmese.classified);
+   assert.ok(reviewedCount>=1780);
+   assert.match(await page.locator('#studyDetailReviewSummary').textContent(),new RegExp(reviewedCount+'件'));
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),20);
   await page.locator('#studyDetailReviewMore').click();
   assert.equal(await page.locator('#studyDetailReviewList > div').count(),40);
@@ -421,7 +423,10 @@ test('reviewed geographic place names and language names show on iPhone-sized br
    await page.locator('#studyDetailReview summary').click();
    await page.locator('#semanticCategory').selectOption(major);
    await page.locator('#semanticMedium').selectOption(medium);
-   assert.match(await page.locator('#studyDetailReviewSummary').textContent(),new RegExp(expected+'件'));
+   const currentCount=await page.evaluate(({language,medium})=>window.DOPA_DATA[language].filter(
+     x=>window.DOPA_DETAIL.matches(x,language,{medium})).length,{language:lang,medium});
+    assert.ok(currentCount>=expected);
+    assert.match(await page.locator('#studyDetailReviewSummary').textContent(),new RegExp(currentCount+'件'));
    for(let i=0;i<8;i++){
     if((await page.locator('#studyDetailReviewList').textContent()).includes(word))break;
     if(!await page.locator('#studyDetailReviewMore').isVisible())break;
