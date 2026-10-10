@@ -36,7 +36,10 @@ test('mobile: new flashcard ratings complete daily milestones, home streak persi
   assert.equal(await page.locator('#dashMissionCount').textContent(),'2 / 3 達成');
   assert.equal(await page.locator('#dashMissionRows .dopa-mission.done').count(),2);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-  await page.reload();await page.waitForFunction(()=>!!window.DOPA_DASHBOARD);
+  await page.reload();
+  await page.waitForFunction(()=>!!window.DOPA_DASHBOARD&&!!window.DOPA_FLASH_UI&&!!window.DOPA_SYNC_API?.snapshot);
+  const saved=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
+  assert.equal(saved.dailyStats.days[windowDateKey(saved.dailyStats.days)].uniqueWords.length,5);
   await page.locator('[data-dopa-route="home"]').click();
   assert.equal(await page.locator('#dashStreak').textContent(),'1日');
   assert.equal(await page.locator('#dashMissionCount').textContent(),'2 / 3 達成');
