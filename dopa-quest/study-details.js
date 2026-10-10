@@ -126,6 +126,70 @@
    }
    return next;
   },
+  // A reviewed overlay may correct a major-domain assignment without rewriting old maps or cards.
+  extendMajorCorrections(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-major-correction-review-v1'||
+      batch.scope!=='known-33-legacy-major-mismatches'||
+      batch.production_applied!==false||batch.legacy_major_map_changed!==false||
+      batch.original_cards_modified!==0)
+    throw Error('Unsupported major correction batch');
+   const mediums=new Map((taxonomy.categories||[]).flatMap(cat=>cat.children.map(x=>[x.id,cat.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const next={...base,cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    coverage:{...base.coverage},counts:{...base.counts},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],shan:[...(base.choice_conflicts?.shan||[])]},
+    major_corrections:{burmese:{...(base.major_corrections?.burmese||{})},
+     shan:{...(base.major_corrections?.shan||{})}}};
+   const expected={burmese:15,shan:18};
+   for(const lang of ['burmese','shan']){
+    const rows=batch.cards?.[lang],counts=batch.counts?.[lang];
+    if(!Array.isArray(rows)||rows.length!==expected[lang]||!counts||
+       rows.length!==counts.total||!semantic?.[lang]?.cards)
+      throw Error('Incomplete major correction inventory '+lang);
+    const originals=new Map(decks[lang].map(x=>[x.id,x]));
+    const seen=new Set(),glosses=new Map();let added=0;
+    for(const r of rows){
+     const card=originals.get(r.id),legacy=semantic[lang].cards[r.id];
+     if(!card||seen.has(r.id)||base.cards[lang][r.id]||next.major_corrections[lang][r.id]||
+        card[lang]!==r.word||card.japanese_core!==r.gloss||card.english!==r.english||
+        legacy?.[0]!==r.existing_major||!['P','R'].includes(legacy?.[1]))
+      throw Error('Stale major correction entry '+r.id);
+     seen.add(r.id);
+     if(r.status==='needs-source-review'){
+      if(r.proposed_medium!==null||r.tags!==null||!r.reason)
+       throw Error('Invalid held major correction');
+      continue;
+     }
+     const dest=mediums.get(r.proposed_medium);
+     if(r.status!=='gloss-reviewed-pilot-candidate'||!dest||dest===r.existing_major||
+        !r.tags||Object.keys(r.tags).length!==axes.size)
+      throw Error('Invalid major correction candidate');
+     for(const [axis,values] of axes){
+      const tags=r.tags[axis];
+      if(!Array.isArray(tags)||new Set(tags).size!==tags.length||
+         tags.some(v=>!values.has(v)))throw Error('Invalid major correction tag');
+     }
+     next.cards[lang][r.id]={word:r.word,gloss:r.gloss,medium:r.proposed_medium,
+      tags:r.tags,review_status:'gloss-reviewed-pilot',evidence:r.gloss};
+     next.major_corrections[lang][r.id]={from:r.existing_major,to:dest};
+     next.medium_counts[lang][r.proposed_medium]=(next.medium_counts[lang][r.proposed_medium]||0)+1;
+     const list=glosses.get(r.gloss)||[];list.push(r.id);glosses.set(r.gloss,list);
+     added++;
+    }
+    if(added!==counts.candidates||rows.length-added!==counts.held)
+     throw Error('Major correction counts mismatch');
+    for(const ids of glosses.values())if(ids.length>1)next.choice_conflicts[lang].push({
+      ids,reason:'同一定義を持つ大分類補正語を誤答にしない。'});
+    next.coverage[lang]={...base.coverage[lang],
+     classified:base.coverage[lang].classified+added,
+     review_pending:base.coverage[lang].review_pending-added};
+    if(next.coverage[lang].review_pending<0)throw Error('Invalid remaining major correction holds');
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
@@ -144,6 +208,22 @@
      for(const axis of axes.keys())if(!Array.isArray(a.tags[axis])||a.tags[axis].some(t=>!axes.get(axis).has(t)))throw Error('Unknown tag value');
      cards[l].set(id,a);
     }
+   }
+   const corrected={shan:new Map(),burmese:new Map()};
+   for(const lang of ['shan','burmese']){
+    for(const [id,value] of Object.entries(metadata.major_corrections?.[lang]||{})){
+     const annotation=cards[lang].get(id),source=decks[lang].find(x=>x.id===id);
+     if(!annotation||!source||!value||value.from===value.to||
+        value.to!==annotation.medium.slice(0,2)||
+        (source.semantic_major&&source.semantic_major!==value.from)||
+        (source.semantic_status&&!['P','R'].includes(source.semantic_status)))
+      throw Error('Invalid effective major correction '+id);
+     corrected[lang].set(id,value);
+    }
+   }
+   function majorFor(x,l){
+    const correction=corrected[l]?.get(x.id);
+    return correction&&annotation(x,l)?correction.to:x.semantic_major;
    }
    const conflicts={shan:new Map(),burmese:new Map()};
    for(const l of ['shan','burmese'])for(const group of metadata.choice_conflicts?.[l]||[]){
@@ -173,7 +253,7 @@
    function canContrast(a,b,l){
     return !(annotation(a,l)&&annotation(b,l)&&conflicts[l].get(a.id)?.has(b.id));
    }
-   return {taxonomy,mediums,annotation,matches,canContrast,coverage:metadata.coverage||{}};
+   return {taxonomy,mediums,annotation,matches,canContrast,majorFor,coverage:metadata.coverage||{}};
   }
  };
  root.DOPAStudyDetails=API;
