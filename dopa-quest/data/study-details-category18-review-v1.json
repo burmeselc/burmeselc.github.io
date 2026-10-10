@@ -1,0 +1,1245 @@
+{
+  "schema": "dopa-category18-review-queue-v1",
+  "scope": "legacy-major-18-P-or-R",
+  "basis": "existing-japanese-gloss-only; not verified against original dictionaries",
+  "production_applied": false,
+  "existing_cards_modified": 0,
+  "cards": {
+    "burmese": [
+      {
+        "id": "bur:1397344268099",
+        "word": "မျိုး",
+        "gloss": "種類、型、カテゴリー",
+        "medium": "18.03",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1398084494551",
+        "word": "အန္တရာယ်",
+        "gloss": "危険；害、危害",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "bur:1398091624287",
+        "word": "အမျိုးမျိုး",
+        "gloss": "さまざまな種類、いろいろ",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1403374674320",
+        "word": "လိုအပ်",
+        "gloss": "必要とする、必要である",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1404563419462",
+        "word": "ပြဿနာ",
+        "gloss": "問題、トラブル",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1404564661823",
+        "word": "တခြားကြောင့်",
+        "gloss": "別の目的で、ほかの理由で",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1435349370840",
+        "word": "ရည်ရွယ်ချက်",
+        "gloss": "主題；目的、意図",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "bur:1439693472913",
+        "word": "အစီအစဉ်",
+        "gloss": "計画、プログラム、予定",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1447060457111",
+        "word": "မတော်တဆ",
+        "gloss": "うっかり、偶然に",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1449158140485",
+        "word": "ကံမကောင်းသဖြင့်",
+        "gloss": "残念ながら、不幸にも",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1450466788106",
+        "word": "အသေးစိတ်",
+        "gloss": "詳細",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1455472001499",
+        "word": "တမင်",
+        "gloss": "わざと、故意に",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1459471077798",
+        "word": "ကဏ္ဍ",
+        "gloss": "節、部門、セクション",
+        "medium": "18.03",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1464262346814",
+        "word": "စိန်ခေါ်မှု",
+        "gloss": "挑戦、課題",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1485441895458",
+        "word": "နောက်တစ်မျိုး",
+        "gloss": "別のやり方で、違うふうに",
+        "medium": "18.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1505864519200",
+        "word": "စီမံကိန်း",
+        "gloss": "プロジェクト、計画",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1519706618775",
+        "word": "အထွေထွေ",
+        "gloss": "一般的なもの；雑多なもの",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "bur:1522501605144",
+        "word": "အရေး",
+        "gloss": "事柄、案件、問題",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1533984335068",
+        "word": "ဒုက္ခ",
+        "gloss": "苦しみ、苦痛、困難",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1551534758700",
+        "word": "သက်သက်",
+        "gloss": "わざと、故意に",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1561321272947",
+        "word": "စနစ်",
+        "gloss": "制度、システム",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1562416318155",
+        "word": "အကြောင်း",
+        "gloss": "理由、事情",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "bur:1564424359036",
+        "word": "စီစဉ်",
+        "gloss": "計画する、整理する、企画する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "bur:1566518535222",
+        "word": "ရှုပ်ရှုပ်ထွေးထွေးတွေ",
+        "gloss": "面倒事、混乱した物事",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      }
+    ],
+    "shan": [
+      {
+        "id": "shn:1783945284216",
+        "word": "ၽွၼ်းလီ",
+        "gloss": "メリット、利益、恩恵",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945284260",
+        "word": "ပွင်",
+        "gloss": "考慮する、意図する、世話をする、利益を図る；計画する、組織する、監督する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945284281",
+        "word": "ငဝ်ႈ",
+        "gloss": "根源、根元、土台、起源",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945284284",
+        "word": "ယိူင်းဢၢၼ်း",
+        "gloss": "目指す、意図する、目標を立てる",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "mental"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945284288",
+        "word": "ထၢတ်ႈ",
+        "gloss": "元素、四大（物質・非物質を問わず構成要素）；四大元素：ထၢတ်ႈလိၼ်（地）、ထၢတ်ႈၼမ်ႉ（水）、ထၢတ်ႈၽႆး（火）、ထၢတ်ႈလူမ်း（風）；本質的属性、性質；仏舎利（神仏の遺骨）；霊廟、仏塔 （語源等：ビルマ語）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945284321",
+        "word": "လွင်ႈတၢင်း",
+        "gloss": "理由、原因、関連事項；手法、手段",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945284422",
+        "word": "သႅၼ်း",
+        "gloss": "種類、型、等級",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945284445",
+        "word": "ငဝ်းလၢႆး",
+        "gloss": "状況、情勢、事態",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945284515",
+        "word": "လွၵ်းလၢႆး",
+        "gloss": "方法、手法、コツ、様式",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945284559",
+        "word": "ၵႄႈလိတ်ႈ",
+        "gloss": "解く、ほどく；解決策を見つける、解明する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945284615",
+        "word": "ပွင်ႇဝႃႈ",
+        "gloss": "意味する、～という意味である",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945284673",
+        "word": "ၸႂ်ႈ",
+        "gloss": "その通りである、正しい（事実や発言について）",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945284796",
+        "word": "ႁွႆး",
+        "gloss": "線、跡、痕跡；前例、原因、理由",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945284879",
+        "word": "ၵၢမ်ႇ",
+        "gloss": "行い；業（カルマ）、宿命、運命（語源：パーリ語）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945284943",
+        "word": "ပုၼ်ႈတႃႇ",
+        "gloss": "～のために、～の目的で",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945284996",
+        "word": "ဢၢင်ႈ",
+        "gloss": "目指す、意図する、ある対象に心を向ける",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "mental"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945285007",
+        "word": "ငူပ်ႉ",
+        "gloss": "（皿などで）蓋をする；平伏する（危険から逃れるためなどに地面に突っ伏す）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945285016",
+        "word": "ဢီႇ",
+        "gloss": "若い娘への一般的な呼称（話し手の優位性を示す）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285021",
+        "word": "ၶၢင်ႈ",
+        "gloss": "（物体の）側面、脇、横",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285108",
+        "word": "ယိူင်းမၢႆ",
+        "gloss": "標的を狙う、目標を定める",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285141",
+        "word": "ၸွမ်သိုၵ်းလူင်",
+        "gloss": "中将",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285180",
+        "word": "လၢႆးႁဵတ်း",
+        "gloss": "作り方、手順、指示",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285234",
+        "word": "ရၢင်း",
+        "gloss": "底、基礎、根源",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285238",
+        "word": "ဝႆႉၸႂ်",
+        "gloss": "心を落ち着ける、決心する；注意を払う；恨みを抱く",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945285288",
+        "word": "ၺွင်ႇ",
+        "gloss": "ガジュマル、菩提樹の類",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285308",
+        "word": "လွင်ႈတၢင်းမၼ်း",
+        "gloss": "理由、原因、関連事項；手法、手順",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945285467",
+        "word": "ၸွမ်သိုၵ်း",
+        "gloss": "少将",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285634",
+        "word": "လၵ်းထၢၼ်",
+        "gloss": "証拠、根拠、証人",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285681",
+        "word": "ပဵၼ်ၵႂႃႇ",
+        "gloss": "行けるようになる、行く機会を得る",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285686",
+        "word": "မၢၵ်ႇလေႃႉ",
+        "gloss": "車輪；あらゆる種類のホイール",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945285726",
+        "word": "ငၢမ်ႇ",
+        "gloss": "平等な、等しい、～と同じくらいの、目的に十分な、広い",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285812",
+        "word": "မီးၽေး",
+        "gloss": "有害な、危険な",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285832",
+        "word": "သဵတ်ႈ",
+        "gloss": "値切る、安くする；（好みが）うるさい、自分の条件でしか受け入れない",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945285901",
+        "word": "မၢင်ႇ",
+        "gloss": "狙う、楽しみたいと願う、心を向ける",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945285959",
+        "word": "ၸွမ်ႁၢၼ်",
+        "gloss": "将軍、総司令官",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286122",
+        "word": "တီႈယိူင်း",
+        "gloss": "標的、的",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286170",
+        "word": "လွၵ်းပိူင်",
+        "gloss": "体系、システム、仕組み",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286179",
+        "word": "ဝၢင်းၸႂ်",
+        "gloss": "安心する、心を落ち着ける",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286219",
+        "word": "ၶဵၼ်လူင်",
+        "gloss": "重大な危険",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286226",
+        "word": "ၶႄး",
+        "gloss": "〜かもしれない（可能性を表す助詞）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286291",
+        "word": "ပဵၼ်ႁဵတ်း",
+        "gloss": "～できるようになる、～する機会を得る",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286310",
+        "word": "မူႇပိူင်",
+        "gloss": "本来の形、元の姿",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286341",
+        "word": "လွတ်ႈၽေး",
+        "gloss": "危難を逃れる、無事である",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286345",
+        "word": "လၢႆးၸႂ်ႉ",
+        "gloss": "使い方、使用説明",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286396",
+        "word": "ၶေႃႈဢၢင်ႈ",
+        "gloss": "提案、意図",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286433",
+        "word": "ႁႂ်ႈမႃး",
+        "gloss": "来させる、呼び寄せる",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286486",
+        "word": "မိုတ်း",
+        "gloss": "充満させる、浸透させる；香りを染み込ませる；いぶす（蜂の巣など）；煙で追う（家畜から虫を追い払うなど）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945286547",
+        "word": "သိူၵ်ႈသမ်ႇ",
+        "gloss": "共通点を持つ、関わりを持つ",
+        "medium": "18.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286643",
+        "word": "ၸႂ်ထိုင်",
+        "gloss": "恋しく思う、寂しく思う、～がいないのを惜しむ、切望する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286713",
+        "word": "တၢင်းဢၼ်",
+        "gloss": "状況、事実；[名詞化接辞]",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945286762",
+        "word": "ပႅၵ်ႉ",
+        "gloss": "特殊な形の鉄や石のお守り；1チャットの100分の1；ペニー",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945286779",
+        "word": "မွင်ႈ",
+        "gloss": "（鍬や槍などの）柄を差し込む穴、ヒ",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286786",
+        "word": "မႅင်းမူၼ်း",
+        "gloss": "イエバエ、軍隊に付き従う略奪団",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286826",
+        "word": "လုၼ်ႇ",
+        "gloss": "超える、凌駕する；（危険などを）脱する、免れる",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945286834",
+        "word": "လွင်ႈလၢႆး",
+        "gloss": "原因、動機",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286862",
+        "word": "သုၼ်ႇပဵၼ်",
+        "gloss": "機会、チャンス",
+        "medium": "18.04",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945286874",
+        "word": "သၢၵ်ႈသေႇ",
+        "gloss": "証人、証言、証拠；基準",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945286963",
+        "word": "ၸိူဝ်ႉၼႆ",
+        "gloss": "このように、こうした方法で",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945286965",
+        "word": "ၸုၼ်ႉ",
+        "gloss": "捨てる、諦める、見捨てる；命をかける、危険を冒す",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945287052",
+        "word": "တၢင်ႇမဵဝ်း",
+        "gloss": "別の種類",
+        "medium": "18.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287054",
+        "word": "တၢင်ႇၸိူဝ်ႉ",
+        "gloss": "別の種類",
+        "medium": "18.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287086",
+        "word": "ပွင်သၢင်ႈ",
+        "gloss": "考慮する、意図する、世話をする、利益を図る、組織する、監督する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287255",
+        "word": "ဢဵၼ်းဢၢၼ်း",
+        "gloss": "目指す、意図する、目標を立てる",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [
+            "mental"
+          ],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287265",
+        "word": "ဢၼ်လီဢၢမ်း",
+        "gloss": "素晴らしいもの、驚くべきこと、奇跡",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287276",
+        "word": "ၵိူဝ်ၸဵမ်း",
+        "gloss": "食塩",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287373",
+        "word": "ၸွမ်ပွင်သိုၵ်း",
+        "gloss": "大将",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287424",
+        "word": "ၽႃႇဝၼႃႇ",
+        "gloss": "瞑想、修習（語源等：パーリ語）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287429",
+        "word": "ၽႅၵ်ႇ",
+        "gloss": "種類が異なる（ပိူင်ႈ と共に ၽႅၵ်ႈပိူင်း としてのみ用いられる）",
+        "medium": "18.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": [
+            "bound_usage"
+          ]
+        }
+      },
+      {
+        "id": "shn:1783945287516",
+        "word": "တၢင်ႇဢၼ်",
+        "gloss": "別のもの",
+        "medium": "18.02",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "relation"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945287521",
+        "word": "တၼ်းၶူဝ်း",
+        "gloss": "力、元素の持つ力",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287707",
+        "word": "လွင်ႈၵႂၢမ်း",
+        "gloss": "言い分、根拠；事件、訴訟",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945287718",
+        "word": "လၢႆးသႅၼ်ႉ",
+        "gloss": "武術の技、剣術、武器を振ること",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287719",
+        "word": "လၵ်းၵၢၼ်",
+        "gloss": "プロジェクト、計画（立案や目的などの）；思想、主義、原理（例：政治的主義 လၵ်းၵၢၼ်ပၢႆးမိူင်း）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945287768",
+        "word": "သုတ်ႈမႃး",
+        "gloss": "近づく、こちらへ寄る",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945287821",
+        "word": "ဢၵျွင်း",
+        "gloss": "前件、原因、理由；〜に関する事柄",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945287827",
+        "word": "ဢႅင်ႇ",
+        "gloss": "側面が膨らんだやや浅い容器や鍋、盆",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288015",
+        "word": "ၼၵႃး",
+        "gloss": "ナーガ、龍神 （語源等：ビルマ語）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288050",
+        "word": "ၽႅတ်ႈ",
+        "gloss": "墨つぼなどの紐を使って直線で印をつける",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288081",
+        "word": "ႁူဝ်ႁၢၼ်",
+        "gloss": "二等兵、一等兵",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288205",
+        "word": "တွင်ႈလၢႆးမွၵ်ႇ",
+        "gloss": "木に彫る（特に花模様）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288213",
+        "word": "တွၵ်ႇၸပ်း",
+        "gloss": "吊るす、または（家の側面に板を張るなどして）固定する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945288223",
+        "word": "တၢင်းဢၢၼ်း",
+        "gloss": "目的、意図",
+        "medium": "18.01",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945288283",
+        "word": "ထဵၵ်း",
+        "gloss": "怖がらせるために突然大声で叫ぶ",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288365",
+        "word": "ပၼ်ၽေး",
+        "gloss": "害を及ぼす、危険をもたらす",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288378",
+        "word": "ပႅင်ႇသေ",
+        "gloss": "～の他に、～を除いて",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288384",
+        "word": "မိင်ႇ",
+        "gloss": "コウモリ",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288387",
+        "word": "မိုဝ်းလီ",
+        "gloss": "狙いが正確である（射撃など）；器用である",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945288402",
+        "word": "မိူၼ်ႇမိုင်",
+        "gloss": "本来の目的から注意が逸れる；何も考えずにじっと見つめる",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "mixed-or-cross-scope-definition"
+      },
+      {
+        "id": "shn:1783945288495",
+        "word": "ယီး",
+        "gloss": "サンバル（シカの一種）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288608",
+        "word": "လွႆသဝ်မိူင်း",
+        "gloss": "須弥山（しゅみせん）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288652",
+        "word": "ဝၢဝ်း",
+        "gloss": "見栄えを良くする、着飾る",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288667",
+        "word": "ဝႄႈၽေး",
+        "gloss": "難を逃れる、危険を避ける",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288680",
+        "word": "သမ်ႇမႃႇ",
+        "gloss": "真理、正道、正義",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288718",
+        "word": "သွင်ႈ",
+        "gloss": "（退色を防ぐために溶液に）浸す",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288804",
+        "word": "ဢွင်ႇပႄႉ",
+        "gloss": "打ち勝つ、征服する、勝利する、目的を達成する",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288813",
+        "word": "ဢၼ်လိူဝ်",
+        "gloss": "余り、過剰、残り物",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288849",
+        "word": "ၵိုၵ်းၵမ်ႇၽႃႇ",
+        "gloss": "山や海など、この世に不変・永続的に存在する物事",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288873",
+        "word": "ၵူၺ်ႈရၶႅင်ႇ",
+        "gloss": "普及している皮の薄いバナナ（ラカイン・バナナ）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945288894",
+        "word": "ၵူႈၸိူဝ်ႉၵူႈပိူင်",
+        "gloss": "あらゆる種類；すべて",
+        "medium": "18.03",
+        "status": "gloss-reviewed-pilot-candidate",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        }
+      },
+      {
+        "id": "shn:1783945289080",
+        "word": "ၸိူဝ်ႉၼၼ်",
+        "gloss": "そのように、あのような方法で",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945289220",
+        "word": "ၽွၼ်းၸႃႉ",
+        "gloss": "デメリット、不利益、害",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945289255",
+        "word": "ႁိုၵ်း",
+        "gloss": "深い割れ目、峡谷（石灰岩地帯の雨による浸食で生じたもの）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      },
+      {
+        "id": "shn:1783945289308",
+        "word": "ႁၢၼ်ႈ",
+        "gloss": "足が不自由である、びっこを引く（特に痺れによるもの）",
+        "medium": null,
+        "status": "needs-source-review",
+        "reason": "definition-requires-review"
+      }
+    ]
+  },
+  "counts": {
+    "burmese": {
+      "total": 24,
+      "candidates": 12,
+      "held": 12
+    },
+    "shan": {
+      "total": 103,
+      "candidates": 16,
+      "held": 87
+    }
+  }
+}
