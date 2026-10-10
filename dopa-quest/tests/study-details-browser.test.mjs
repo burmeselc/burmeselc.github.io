@@ -50,6 +50,10 @@ test('sparse medium blocks launch; clearing filters restores all vocabulary',asy
   const page=await browser.newPage();await ready(page);
   await page.locator('#studyDetailControls summary').click();
   await page.locator('#semanticMedium').selectOption('06.02');
+  await page.locator('.tab[data-mode="due"]').click();
+  await page.locator('#start').click();
+  assert.match(await page.locator('#toast').textContent(),/期限到来の復習語/);
+  await page.locator('.tab[data-mode="campaign"]').click();
   await page.locator('#start').click();
   assert.equal(await page.locator('#game').isVisible(),false);
   assert.match(await page.locator('#toast').textContent(),/四択に十分/);
