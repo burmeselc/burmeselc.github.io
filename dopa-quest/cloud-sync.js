@@ -66,7 +66,7 @@ async function restore(m,account=uid){
   const localBefore=snapshot(),localFingerprint=hash(JSON.stringify(localBefore));
   const p=await download(m,account);
   if(uid!==account)return;
-  if(hash(JSON.stringify(snapshot()))!==localFingerprint||!$('game').classList.contains('hidden')||!$('flashcardPanel')?.classList.contains('hidden')){
+  if(hash(JSON.stringify(snapshot()))!==localFingerprint||!$('game').classList.contains('hidden')||!$('flashcardPanel')?.classList.contains('hidden')||!$('vocabPanel')?.classList.contains('hidden')){
     showConflict('読込中またはプレイ中の進捗を保護しました');return;
   }
   if(hasProgress(localBefore))await recoveryStorage(true,{savedAt:new Date().toISOString(),profile:localBefore});
