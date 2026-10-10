@@ -647,6 +647,90 @@
    }
    return next;
   },
+  extendNext500(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-next-500-first-pass-v1'||
+      batch?.source_main!=='44ead908b34ef37bba19dfb4324d0c2acb336611'||
+      batch.independent_dictionary_verified!==false||
+      batch.counts?.audited!==500||batch.counts?.selected!==33||
+      batch.counts?.held!==467||batch.counts?.major_corrections!==31||
+      batch.counts?.burmese_selected!==0||batch.counts?.shan_selected!==33||
+      !Array.isArray(batch.audited_records)||batch.audited_records.length!==500||
+      !Array.isArray(batch.accepted)||batch.accepted.length!==33)
+    throw Error('Unsupported 500-card review');
+   if(base.counts?.burmese!==2205||base.counts?.shan!==2702||
+      base.coverage?.burmese?.review_pending+base.coverage?.shan?.review_pending!==1561)
+    throw Error('500-card review requires 4907 classified parents');
+   const allowed=new Map((taxonomy.categories||[]).flatMap(c=>c.children.map(m=>[m.id,c.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const decksById={burmese:new Map(decks.burmese.map(x=>[x.id,x])),
+     shan:new Map(decks.shan.map(x=>[x.id,x]))};
+   const audited=new Map(),accepted=new Map();
+   for(const row of batch.audited_records){
+    const lang=row.language,source=decksById[lang]?.get(row.id),status=semantic?.[lang]?.cards?.[row.id];
+    if(audited.has(row.id)||!source||base.cards?.[lang]?.[row.id]||
+       source[lang]!==row.word||source.japanese_core!==row.japanese_core||
+       source.english!==row.english||status?.[0]!==row.legacy_major||
+       !['P','R'].includes(status?.[1])||row.independent_dictionary_verified!==false||
+       !['held-for-source-review','gloss-reviewed-pilot-candidate'].includes(row.current_review_status))
+     throw Error('Stale audited source '+row.id);
+    audited.set(row.id,row);
+   }
+   for(const row of batch.accepted){
+    const audit=audited.get(row.id),lang=row.language;
+    if(!audit||accepted.has(row.id)||audit.current_review_status!=='gloss-reviewed-pilot-candidate'||
+       audit.proposed_medium!==row.medium||!allowed.has(row.medium)||
+       row.legacy_major!==audit.legacy_major||
+       row.major_correction!==(allowed.get(row.medium)!==row.legacy_major)||
+       row.word!==audit.word||row.gloss!==audit.japanese_core||
+       row.english!==audit.english||
+       row.independent_dictionary_verified!==false||
+       row.review_status!=='gloss-reviewed-pilot-candidate'||!row.tags||
+       Object.keys(row.tags).length!==axes.size)
+     throw Error('Stale selected 500-card candidate '+row.id);
+    for(const [axis,values] of axes){
+     const tags=row.tags[axis];
+     if(!Array.isArray(tags)||tags.length!==new Set(tags).size||
+        tags.some(t=>!values.has(t)))throw Error('Invalid 500-card tag');
+    }
+    accepted.set(row.id,row);
+   }
+   if([...audited.values()].filter(x=>x.current_review_status==='gloss-reviewed-pilot-candidate').length!==33||
+      [...accepted.values()].filter(x=>x.major_correction).length!==31)
+    throw Error('Inconsistent 500-card review');
+   const next={...base,
+    cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    coverage:{...base.coverage},counts:{...base.counts},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    major_corrections:{burmese:{...(base.major_corrections?.burmese||{})},
+      shan:{...(base.major_corrections?.shan||{})}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],
+      shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const ids=new Set();
+    for(const row of batch.accepted.filter(x=>x.language===lang)){
+     next.cards[lang][row.id]={word:row.word,gloss:row.gloss,medium:row.medium,
+       tags:row.tags,review_status:'gloss-reviewed-pilot',evidence:row.gloss};
+     next.medium_counts[lang][row.medium]=(next.medium_counts[lang][row.medium]||0)+1;
+     ids.add(row.id);
+     if(row.major_correction){
+      if(next.major_corrections[lang][row.id])throw Error('Duplicated major correction');
+      next.major_corrections[lang][row.id]={from:row.legacy_major,to:allowed.get(row.medium)};
+     }
+    }
+    const groups=new Map();
+    for(const [id,row] of Object.entries(next.cards[lang])){
+     const g=groups.get(row.gloss)||[];g.push(id);groups.set(row.gloss,g);
+    }
+    for(const g of groups.values())if(g.length>1&&g.some(x=>ids.has(x)))
+     next.choice_conflicts[lang].push({ids:g,reason:'同じ日本語義を誤答として混在させない'});
+    next.coverage[lang]={...base.coverage[lang],
+      classified:base.coverage[lang].classified+ids.size,
+      review_pending:base.coverage[lang].review_pending-ids.size};
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
