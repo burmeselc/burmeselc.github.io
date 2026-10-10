@@ -229,9 +229,12 @@
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
   game.onload=()=>{
-    const flashUI=document.createElement('script');flashUI.src='./flashcards-ui.js';
+    const flashUI=document.createElement('script');flashUI.src='./flashcards-ui.js';flashUI.async=false;
     flashUI.onerror=()=>{console.warn('Optional flashcard UI unavailable; existing QUEST is unaffected')};
     document.body.appendChild(flashUI);
+    const vocabUI=document.createElement('script');vocabUI.src='./vocabulary-ui.js';vocabUI.async=false;
+    vocabUI.onerror=()=>{console.warn('Vocabulary library unavailable; existing learning is unaffected')};
+    document.body.appendChild(vocabUI);
     // Preview/CDN origins must never run production cloud sign-in or sync.
     if(window.DOPA_FIREBASE_CONFIG?.projectId&&location.hostname==='burmeselc.github.io'){
       const s=document.createElement('script');s.type='module';s.src='./cloud-sync.js';
