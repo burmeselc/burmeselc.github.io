@@ -190,6 +190,73 @@
    }
    return next;
   },
+  // Extends existing reviewed metadata with exact source-matched geographic and language names.
+  extendPlaceLanguage(taxonomy,base,batch,decks,semantic){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-place-language-review-v1'||
+      batch.scope!=='selected-existing-09-13-held-parent-cards'||
+      batch.production_applied!==false||batch.original_cards_modified!==0)
+     throw Error('Unsupported place-language batch');
+   const mediums=new Map((taxonomy.categories||[]).flatMap(cat=>cat.children.map(m=>[m.id,cat.id])));
+   if(mediums.get('09.05')!=='09'||mediums.get('13.05')!=='13')
+     throw Error('Missing place/language categories');
+   const small=new Map([['09.05.01','09.05'],['09.05.02','09.05'],['09.05.03','09.05']]);
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const next={...base,cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    coverage:{...base.coverage},counts:{...base.counts},
+    medium_counts:{burmese:{...base.medium_counts.burmese},shan:{...base.medium_counts.shan}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],
+     shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const records=batch.cards?.[lang],expected=lang==='burmese'?59:27;
+    if(!Array.isArray(records)||records.length!==expected||
+       batch.counts?.[lang]!==expected||!semantic?.[lang]?.cards)
+     throw Error('Invalid place-language count '+lang);
+    const originals=new Map(decks[lang].map(x=>[x.id,x])),seen=new Set();
+    const byGloss=new Map();
+    for(const r of records){
+     const x=originals.get(r.id),sem=semantic[lang].cards[r.id];
+     if(!x||seen.has(r.id)||base.cards[lang][r.id]||
+        x[lang]!==r.word||x.japanese_core!==r.gloss||x.english!==r.english||
+        sem?.[0]!==r.legacy_major||!['P','R'].includes(sem?.[1])||
+        r.review_status!=='gloss-reviewed-pilot-candidate'||
+        mediums.get(r.medium)!==r.legacy_major||
+        !['09.05','13.05'].includes(r.medium)||
+        (r.medium==='09.05'&&small.get(r.proposed_small)!=='09.05')||
+        (r.medium==='13.05'&&r.proposed_small!==null))
+       throw Error('Stale place-language card '+r.id);
+     seen.add(r.id);
+     if(!r.tags||Object.keys(r.tags).length!==axes.size)
+       throw Error('Invalid place-language tag axes');
+     for(const [axis,allowed] of axes){
+      const vals=r.tags[axis];
+      if(!Array.isArray(vals)||new Set(vals).size!==vals.length||
+         vals.some(v=>!allowed.has(v)))throw Error('Invalid place-language tag '+r.id);
+     }
+     next.cards[lang][r.id]={word:r.word,gloss:r.gloss,medium:r.medium,tags:r.tags,
+      review_status:'gloss-reviewed-pilot',evidence:r.gloss};
+     next.medium_counts[lang][r.medium]=(next.medium_counts[lang][r.medium]||0)+1;
+     const matches=byGloss.get(r.gloss)||[];matches.push(r.id);byGloss.set(r.gloss,matches);
+    }
+    for(const [gloss,ids] of byGloss)if(ids.length>1)next.choice_conflicts[lang].push({
+     ids,reason:'同一訳語の地名・言語名は誤答の候補にしない。'});
+    const alias=batch.alias_groups?.[lang];
+    if(!Array.isArray(alias))throw Error('Missing place-language aliases');
+    for(const ids of alias){
+     if(!Array.isArray(ids)||ids.length<2||new Set(ids).size!==ids.length||
+        ids.some(id=>!seen.has(id)))
+      throw Error('Invalid place-language alias group');
+     next.choice_conflicts[lang].push({ids,reason:'別称・旧称など同一地名の重複解答を防ぐ。'});
+    }
+    const previous=base.coverage[lang];
+    if(!previous||previous.review_pending<expected)
+      throw Error('Review coverage exhausted');
+    next.coverage[lang]={...previous,classified:previous.classified+expected,
+     review_pending:previous.review_pending-expected};
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
