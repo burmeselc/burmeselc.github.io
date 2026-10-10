@@ -48,6 +48,7 @@
  function go(target,{scroll=true}={}){
   if(!snapshot())return;
   if(!$('game').classList.contains('hidden'))return;
+  document.body.classList.add('dopa-modern-mode');
   if(target==='home'){
    moveSettings();visibility('home');route='home';render();
   }else if(target==='settings'){
@@ -86,8 +87,10 @@
    Object.keys(p.flashcards?.cards||{}).length>0||
    Object.keys(p.vocabularyLibrary?.books||{}).length>0||
    (p.vocabularyLibrary?.bookmarks?.length||0)>0;
-  if(returning)go('home',{scroll:false});
-  else go('quest',{scroll:false});
+  // Preserve the initial classic setup for all existing bookmark links and regressions.
+  // New dashboard is available immediately from the fixed Home tab.
+  nav.querySelector('[data-dopa-route="quest"]')?.setAttribute('aria-current','page');
+  render();
  }
  root.addEventListener('dopa-game-ready',initialize,{once:true});
  root.addEventListener('dopa-profile-restored',()=>{
