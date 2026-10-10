@@ -1,0 +1,56 @@
+{
+  "schema": "dopa-small-category-proposals-v1",
+  "status": "design-only",
+  "policy": "No assignment, filters or drill-down until sense/source review and UI support; zero or one term permitted; four-choice pool rules are separate.",
+  "categories": [
+    {
+      "id": "12.05.01",
+      "medium": "12.05",
+      "label": "小説・散文",
+      "scope": "小説・短編・エッセイ等",
+      "status": "design-only"
+    },
+    {
+      "id": "12.05.02",
+      "medium": "12.05",
+      "label": "物語・説話",
+      "scope": "昔話・説話・フィクション・神話の叙述",
+      "status": "design-only"
+    },
+    {
+      "id": "12.05.03",
+      "medium": "12.05",
+      "label": "詩歌",
+      "scope": "詩・詩の節・韻文",
+      "status": "design-only"
+    },
+    {
+      "id": "12.05.04",
+      "medium": "12.05",
+      "label": "文学一般・諺",
+      "scope": "文学の総称・諺・成句",
+      "status": "design-only"
+    },
+    {
+      "id": "09.05.01",
+      "medium": "09.05",
+      "label": "国名",
+      "scope": "国家・国の名称",
+      "status": "design-only"
+    },
+    {
+      "id": "09.05.02",
+      "medium": "09.05",
+      "label": "都市・集落名",
+      "scope": "都市・町・村の名称",
+      "status": "design-only"
+    },
+    {
+      "id": "09.05.03",
+      "medium": "09.05",
+      "label": "地域・行政地名",
+      "scope": "地域・行政上の地理的名称",
+      "status": "design-only"
+    }
+  ]
+}
