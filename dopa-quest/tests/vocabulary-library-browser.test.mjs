@@ -13,6 +13,7 @@ test('Mobile Shan search → bookmark → custom book → four-rating session �
   const page=await ctx.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
   await ready(page);
   await page.locator('#vocabOpen').click();
+  await page.locator('#vocabScope').selectOption('filtered');
   assert.equal(await page.locator('#vocabPanel').isVisible(),true);
   assert.ok(await page.locator('#vocabList .vocab-row').count()<=40);
   const first=await page.locator('#vocabList [data-action="bookmark"]').first().getAttribute('data-id');
