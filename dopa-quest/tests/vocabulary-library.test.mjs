@@ -4,7 +4,7 @@ import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),L=require('../vocabulary-library.js');
 const allowed=new Set(['shn:1','shn:2','bur:1']);
 test('legacy profile remains unchanged when saved collections are initialized',()=>{
- const words={'shn:1':{rec:3,prod:2,wrong:1}},flashcards:{version:1,cards:{'shn:1':{recognition:{state:'review',dueAt:1000}}}};
+ const words={'shn:1':{rec:3,prod:2,wrong:1}},flashcards={version:1,cards:{'shn:1':{recognition:{state:'review',dueAt:1000}}}};
  const profile={words,flashcards,rivals:{abc:{confusions:2}}};
  const before=JSON.stringify({words,flashcards,rivals:profile.rivals});
  assert.deepEqual(L.ensure(profile),{version:1,bookmarks:[],books:{}});
