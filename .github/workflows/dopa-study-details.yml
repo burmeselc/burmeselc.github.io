@@ -44,4 +44,5 @@ jobs:
             dopa-study-details-clothing-mobile.png
             dopa-study-details-psych-mobile.png
             dopa-study-details-law-mobile.png
+            dopa-study-details-religion-mobile.png
           if-no-files-found: ignore

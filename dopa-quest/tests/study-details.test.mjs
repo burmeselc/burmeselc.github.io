@@ -7,10 +7,10 @@ const load=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url
 const taxonomy=load('study-taxonomy-v1.json'),details=load('study-details-pilot-v1.json');
 const decks={burmese:load('burmese.json'),shan:[...load('shan-1.json'),...load('shan-2.json')]};
 const engine=create(taxonomy,details,decks),clone=x=>structuredClone(x);
-test('pilot has 1990 exact reviewed existing IDs and 77 stable middle categories',()=>{
+test('pilot has 2434 exact reviewed existing IDs and 77 stable middle categories',()=>{
  assert.equal(engine.mediums.size,77);
- assert.equal(Object.keys(details.cards.burmese).length,875);
- assert.equal(Object.keys(details.cards.shan).length,1115);
+ assert.equal(Object.keys(details.cards.burmese).length,1134);
+ assert.equal(Object.keys(details.cards.shan).length,1300);
  for(const l of ['shan','burmese']){
   const majors=load(l+'-categories-v1.json').cards;
   for(const x of decks[l]){
@@ -57,7 +57,7 @@ const getDistractors=new Function('window','orig','jp','glossOverlap','pos','ind
  x=>x.game_pos,(x,l)=>Number(l==='shan'?x.rank:x.order),x=>x,()=>[],{}
 );
 test('reviewed middle categories provide non-colliding four choices in both directions',()=>{
- for(const l of ['shan','burmese'])for(const medium of ['01.01','01.02','01.03','02.01','02.02','03.01','04.01','04.02','04.04','05.01','05.02','05.03','05.04','06.01','07.01','08.01','08.02','09.01','09.02','09.03','09.04','10.01','10.02','10.03','10.04','11.03']){
+ for(const l of ['shan','burmese'])for(const medium of ['01.01','01.02','01.03','02.01','02.02','03.01','04.01','04.02','04.04','05.01','05.02','05.03','05.04','06.01','07.01','08.01','08.02','09.01','09.02','09.03','09.04','10.01','10.02','10.03','10.04','11.03','12.01','12.02','12.03','12.04','13.01','13.02','13.03','13.04']){
   const pool=decks[l].filter(x=>engine.matches(x,l,{medium}));
   assert.ok(pool.length>=4);
   for(const item of pool)for(const dir of ['toJP','fromJP']){
@@ -85,14 +85,14 @@ test('explicit reviewed synonym conflicts prevent alternative correct television
  assert.equal(engine.canContrast(first,{...old,japanese_core:'新しい意味'},'burmese'),true);
 });
 
-test('eleven-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
+test('thirteen-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
  for(const l of ['shan','burmese']){
   const c=details.coverage[l];assert.equal(c.untriaged,0);
   assert.equal(c.scope_candidates,c.classified+c.review_pending);
   assert.equal(c.classified,Object.keys(details.cards[l]).length);
  }
- assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,3036);
- assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,1046);
+ assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,3764);
+ assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,1330);
 });
 
 test('etymology annotation does not turn two sapphire cards into different answers',()=>{
@@ -135,4 +135,27 @@ test('production does not imply agriculture and per-sense rarity does not apply 
  const repayment=decks.shan.find(x=>x.id==='shn:1783945287002');
  assert.equal(engine.annotation(repayment,'shan'),null);
  assert.ok(engine.matches(repayment,'shan'));
+});
+
+test('religious and general parent meanings stay held; Pali translation is not itself religion',()=>{
+ for(const [lang,id] of [['burmese','bur:1409404167752'],['burmese','bur:1479418868657'],['shan','shn:1783945284047'],['shan','shn:1783945284735'],['shan','shn:1783945288690']]){
+  const x=decks[lang].find(x=>x.id===id);assert.ok(x);
+  assert.equal(engine.annotation(x,lang),null);assert.ok(engine.matches(x,lang));
+ }
+ const commentary=decks.shan.find(x=>x.id==='shn:1783945287035');
+ const translation=decks.shan.find(x=>x.id==='shn:1783945288822');
+ assert.ok(engine.matches(commentary,'shan',{tag:'field:religion'}));
+ assert.ok(engine.matches(translation,'shan',{medium:'13.03',tag:'field:linguistics'}));
+ assert.equal(engine.matches(translation,'shan',{tag:'field:religion'}),false);
+});
+test('language records preserve letters and explicit register without guessing from POS',()=>{
+ const letter=decks.burmese.find(x=>x.id==='bur:1512609954621');
+ assert.ok(engine.matches(letter,'burmese',{medium:'13.02',tag:'field:linguistics'}));
+ const address=decks.shan.find(x=>x.id==='shn:1783945287158');
+ const vulgar=decks.shan.find(x=>x.id==='shn:1783945287879');
+ const song=decks.shan.find(x=>x.id==='shn:1783945285748');
+ assert.ok(engine.matches(address,'shan',{medium:'13.01',tag:'usage:polite'}));
+ assert.ok(engine.matches(vulgar,'shan',{medium:'13.01',tag:'usage:vulgar'}));
+ assert.ok(engine.matches(song,'shan',{medium:'12.03',tag:'field:music'}));
+ assert.equal(engine.matches(song,'shan',{tag:'field:religion'}),false);
 });

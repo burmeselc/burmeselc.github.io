@@ -14739,6 +14739,4193 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "無料である"
+      },
+      "bur:1396101821839": {
+        "word": "ရွှေတိဂုံဘုရား",
+        "gloss": "シュエダゴン・パゴダ",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シュエダゴン・パゴダ"
+      },
+      "bur:1397413812906": {
+        "word": "ဘုန်းကြီးကျောင်း",
+        "gloss": "僧院、寺",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧院、寺"
+      },
+      "bur:1398608835124": {
+        "word": "သရဲ",
+        "gloss": "幽霊",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "幽霊"
+      },
+      "bur:1401376497019": {
+        "word": "ကိုရင်",
+        "gloss": "沙弥、少年僧（おおむね6〜19歳）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "沙弥、少年僧（おおむね6〜19歳）"
+      },
+      "bur:1401376681117": {
+        "word": "ဦးဇင်း",
+        "gloss": "僧侶",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧侶"
+      },
+      "bur:1401377036352": {
+        "word": "ဘုန်းကြီး",
+        "gloss": "僧院の高位僧、僧院長格の僧",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧院の高位僧、僧院長格の僧"
+      },
+      "bur:1401377088108": {
+        "word": "ဒကာ(မ)",
+        "gloss": "在家信者（男女；僧侶からの呼称）、施主・寄進者",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "在家信者（男女；僧侶からの呼称）、施主・寄進者"
+      },
+      "bur:1404078486086": {
+        "word": "ဘာသာရေး",
+        "gloss": "宗教",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教"
+      },
+      "bur:1404078515725": {
+        "word": "ကိုးကွယ်",
+        "gloss": "崇拝する；（宗教を）信仰する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "崇拝する；（宗教を）信仰する"
+      },
+      "bur:1404682614644": {
+        "word": "ဆွမ်း",
+        "gloss": "仏・僧侶に供える食事",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏・僧侶に供える食事"
+      },
+      "bur:1409421095558": {
+        "word": "သီလရှင်",
+        "gloss": "尼僧",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尼僧"
+      },
+      "bur:1418858252425": {
+        "word": "နတ်",
+        "gloss": "ナッ（精霊、民間信仰の神霊）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ナッ（精霊、民間信仰の神霊）"
+      },
+      "bur:1418858358001": {
+        "word": "စေတီ",
+        "gloss": "仏塔、パゴダ、寺院",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏塔、パゴダ、寺院"
+      },
+      "bur:1418858574241": {
+        "word": "ပုထိုး",
+        "gloss": "ストゥーパ、仏塔",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ストゥーパ、仏塔"
+      },
+      "bur:1418858707151": {
+        "word": "ရှိခိုး",
+        "gloss": "礼拝する、拝む、祈る",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "礼拝する、拝む、祈る"
+      },
+      "bur:1423653848581": {
+        "word": "ဗုဒ္ဓ",
+        "gloss": "仏陀、ブッダ",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏陀、ブッダ"
+      },
+      "bur:1423655130269": {
+        "word": "နိဗ္ဗန်",
+        "gloss": "涅槃、ニルヴァーナ",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "涅槃、ニルヴァーナ"
+      },
+      "bur:1440462898672": {
+        "word": "ဘုရားကျောင်း",
+        "gloss": "教会",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教会"
+      },
+      "bur:1440463064781": {
+        "word": "ဗလီ",
+        "gloss": "モスク",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "モスク"
+      },
+      "bur:1440463118271": {
+        "word": "မွတ်စလင်",
+        "gloss": "ムスリム、イスラム教徒",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ムスリム、イスラム教徒"
+      },
+      "bur:1440463170345": {
+        "word": "တရားထိုင်",
+        "gloss": "瞑想する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "瞑想する"
+      },
+      "bur:1449251333934": {
+        "word": "ခရစ်ယာန်သမ္မာကျမ်း",
+        "gloss": "聖書",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "聖書"
+      },
+      "bur:1455787501190": {
+        "word": "သာသနာ",
+        "gloss": "宗教的使命、布教",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教的使命、布教"
+      },
+      "bur:1456799389040": {
+        "word": "အစ္စလာမ်",
+        "gloss": "イスラム教",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "イスラム教"
+      },
+      "bur:1477426376028": {
+        "word": "ဂျူးဘုရားကျောင်း",
+        "gloss": "シナゴーグ、ユダヤ教会堂",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シナゴーグ、ユダヤ教会堂"
+      },
+      "bur:1478266380662": {
+        "word": "လူထွက်",
+        "gloss": "還俗する、僧侶をやめ在家になる",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "還俗する、僧侶をやめ在家になる"
+      },
+      "bur:1480461478876": {
+        "word": "ရေသပ္ပါယ်",
+        "gloss": "仏像や仏塔を水で清める",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏像や仏塔を水で清める"
+      },
+      "bur:1480461756206": {
+        "word": "ဥပုသ်စောင့်",
+        "gloss": "仏教の八戒を守る",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏教の八戒を守る"
+      },
+      "bur:1480672527442": {
+        "word": "ကိုင်းရှိုင်း",
+        "gloss": "敬虔である、信心深い",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "敬虔である、信心深い"
+      },
+      "bur:1487296118545": {
+        "word": "ဘုရားစင်",
+        "gloss": "祭壇、仏壇",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "祭壇、仏壇"
+      },
+      "bur:1489364696250": {
+        "word": "သံဃာ",
+        "gloss": "サンガ、僧伽、仏教僧団",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サンガ、僧伽、仏教僧団"
+      },
+      "bur:1500705835202": {
+        "word": "ဘာသာမဲ့",
+        "gloss": "無神論者",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "無神論者"
+      },
+      "bur:1503913697813": {
+        "word": "ဓမ္မရုံး",
+        "gloss": "仏教コミュニティセンター",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏教コミュニティセンター"
+      },
+      "bur:1511825243750": {
+        "word": "ရသေ့",
+        "gloss": "隠者、修行僧",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "隠者、修行僧"
+      },
+      "bur:1560605833862": {
+        "word": "ဟိန္ဒူ",
+        "gloss": "ヒンドゥー、ヒンドゥー教徒",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヒンドゥー、ヒンドゥー教徒"
+      },
+      "bur:1565746116188": {
+        "word": "နတ်သမီး",
+        "gloss": "天使（女性）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "天使（女性）"
+      },
+      "bur:1566518936342": {
+        "word": "နရက် / ငရဲ ",
+        "gloss": "地獄",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地獄"
+      },
+      "bur:1570976326996": {
+        "word": "ရှင်လောင်း",
+        "gloss": "得度前の少年、見習い僧になる予定の者",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "得度前の少年、見習い僧になる予定の者"
+      },
+      "bur:1409403279926": {
+        "word": "ရိုးရာ",
+        "gloss": "慣習、伝統（一般）",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "慣習、伝統（一般）"
+      },
+      "bur:1432341823546": {
+        "word": "သင်္ကြန်",
+        "gloss": "ティンジャン、水かけ祭り（ビルマ正月）",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ティンジャン、水かけ祭り（ビルマ正月）"
+      },
+      "bur:1442440906233": {
+        "word": "အရိုးကျ",
+        "gloss": "伝統的である、昔ながらである",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "伝統的である、昔ながらである"
+      },
+      "bur:1450466830500": {
+        "word": "ပွဲတော်",
+        "gloss": "祭り、祝祭",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "祭り、祝祭"
+      },
+      "bur:1512344838551": {
+        "word": "အသုဘ",
+        "gloss": "葬式、葬儀",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "葬式、葬儀"
+      },
+      "bur:1512609126128": {
+        "word": "သင်္ဂြိုဟ်",
+        "gloss": "死者を埋葬する",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "死者を埋葬する"
+      },
+      "bur:1522683265287": {
+        "word": "အီစတာပွဲတော်",
+        "gloss": "イースター",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "イースター"
+      },
+      "bur:1397343019262": {
+        "word": "ပုံ",
+        "gloss": "絵、写真、図",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "絵、写真、図"
+      },
+      "bur:1398089198551": {
+        "word": "ဂီတ",
+        "gloss": "音楽",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "音楽"
+      },
+      "bur:1398089217028": {
+        "word": "သီချင်း",
+        "gloss": "歌",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "歌"
+      },
+      "bur:1400452339226": {
+        "word": "က",
+        "gloss": "踊る",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "踊る"
+      },
+      "bur:1404563258527": {
+        "word": "ပန်းချီ(ကာ)",
+        "gloss": "絵画、絵",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "絵画、絵"
+      },
+      "bur:1404563314186": {
+        "word": "ပန်းပု",
+        "gloss": "彫刻",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "彫刻"
+      },
+      "bur:1409414338107": {
+        "word": "စန္ဒရား",
+        "gloss": "ピアノ",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ピアノ"
+      },
+      "bur:1418253786770": {
+        "word": "အိုးစည်",
+        "gloss": "太鼓",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "太鼓"
+      },
+      "bur:1453942611143": {
+        "word": "ပုလွေ",
+        "gloss": "笛、フルート",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "笛、フルート"
+      },
+      "bur:1460249800528": {
+        "word": "ကြေးစည်",
+        "gloss": "三角形の真鍮製ゴング",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "三角形の真鍮製ゴング"
+      },
+      "bur:1460250028704": {
+        "word": "တူရိယာ",
+        "gloss": "楽器",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "楽器"
+      },
+      "bur:1466001167325": {
+        "word": "ရုပ်တု",
+        "gloss": "像、彫像",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "像、彫像"
+      },
+      "bur:1490917703561": {
+        "word": "အဆိုတော်",
+        "gloss": "歌手",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "歌手"
+      },
+      "bur:1508805629148": {
+        "word": "ဂီတာ",
+        "gloss": "ギター",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ギター"
+      },
+      "bur:1531260377528": {
+        "word": "အနုပညာ",
+        "gloss": "芸術、美術",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "芸術、美術"
+      },
+      "bur:1570976190915": {
+        "word": "ဆိုင်းဝိုင်း",
+        "gloss": "サインワイン（ミャンマー伝統打楽器合奏）",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サインワイン（ミャンマー伝統打楽器合奏）"
+      },
+      "bur:1398088987440": {
+        "word": "ရုပ်ရှင်",
+        "gloss": "映画",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "映画"
+      },
+      "bur:1398089042184": {
+        "word": "ရုပ်ရှင်ရုံ",
+        "gloss": "映画館",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "映画館"
+      },
+      "bur:1398089148499": {
+        "word": "အားကစား",
+        "gloss": "スポーツ、運動",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スポーツ、運動"
+      },
+      "bur:1398089543045": {
+        "word": "ကစား",
+        "gloss": "遊ぶ、競技する",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "遊ぶ、競技する"
+      },
+      "bur:1403371875850": {
+        "word": "ဘောလုံး",
+        "gloss": "サッカー、フットボール",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "サッカー、フットボール"
+      },
+      "bur:1409404038897": {
+        "word": "ဝါသနာ",
+        "gloss": "趣味",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "趣味"
+      },
+      "bur:1452646039319": {
+        "word": "ဖဲ",
+        "gloss": "トランプ、カード",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トランプ、カード"
+      },
+      "bur:1453914173406": {
+        "word": "ကြက်တောင်",
+        "gloss": "バドミントン",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バドミントン"
+      },
+      "bur:1453914259654": {
+        "word": "ထီပေါက်",
+        "gloss": "宝くじに当たる",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宝くじに当たる"
+      },
+      "bur:1458438138245": {
+        "word": "ဇာတ်ကား",
+        "gloss": "映画",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "映画"
+      },
+      "bur:1460250303781": {
+        "word": "(ချား)ရဟတ်",
+        "gloss": "観覧車",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "観覧車"
+      },
+      "bur:1463052646666": {
+        "word": "ခြင်းလုံး",
+        "gloss": "チンロン（籐球を用いるビルマの球技）",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チンロン（籐球を用いるビルマの球技）"
+      },
+      "bur:1467845289712": {
+        "word": "စစ်တုရင်",
+        "gloss": "チェス",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チェス"
+      },
+      "bur:1489364940490": {
+        "word": "လျှောစီး",
+        "gloss": "スキーをする",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スキーをする"
+      },
+      "bur:1504747964067": {
+        "word": "စကားထာ",
+        "gloss": "なぞなぞ、謎",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "なぞなぞ、謎"
+      },
+      "bur:1537910540754": {
+        "word": "ကစားနည်း",
+        "gloss": "遊び方、ゲーム",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "遊び方、ゲーム"
+      },
+      "bur:1551535393248": {
+        "word": "ပဟေဠိ",
+        "gloss": "ジグソーパズル、パズル",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ジグソーパズル、パズル"
+      },
+      "bur:1554640014151": {
+        "word": "ချန်ပီယံ",
+        "gloss": "チャンピオン",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チャンピオン"
+      },
+      "bur:1554641104226": {
+        "word": "အားကစားပွဲ",
+        "gloss": "スポーツの試合",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スポーツの試合"
+      },
+      "bur:1554641230112": {
+        "word": "ဂိမ်း",
+        "gloss": "ゲーム",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ゲーム"
+      },
+      "bur:1394980402635": {
+        "word": "ဆောရီးပဲနော်။",
+        "gloss": "すみません",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "すみません"
+      },
+      "bur:1394980583039": {
+        "word": "ထပ်ပြောပါအုံး။",
+        "gloss": "もう一度言ってください",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "もう一度言ってください"
+      },
+      "bur:1394980737542": {
+        "word": "ပြော",
+        "gloss": "言う、話す",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言う、話す"
+      },
+      "bur:1395257851336": {
+        "word": "ကျေးဇူးပဲ။",
+        "gloss": "ありがとう",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ありがとう"
+      },
+      "bur:1395258002830": {
+        "word": "ကျေးဇူးတင်ပါတယ်။",
+        "gloss": "どうもありがとうございます",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "どうもありがとうございます"
+      },
+      "bur:1395258072267": {
+        "word": "သွားမယ်နော်။",
+        "gloss": "さようなら〔直訳：行きますね〕",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "さようなら〔直訳：行きますね〕"
+      },
+      "bur:1403369324824": {
+        "word": "ရှင်းပြ",
+        "gloss": "説明する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "説明する"
+      },
+      "bur:1403372338314": {
+        "word": "စကားပြော",
+        "gloss": "話す、会話する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "話す、会話する"
+      },
+      "bur:1403732543931": {
+        "word": "မေးခွန်း",
+        "gloss": "質問",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "質問"
+      },
+      "bur:1403732599455": {
+        "word": "အဖြေ",
+        "gloss": "答え、解答",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "答え、解答"
+      },
+      "bur:1403732621954": {
+        "word": "ဖြေ",
+        "gloss": "答える、解答する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "答える、解答する"
+      },
+      "bur:1404685179030": {
+        "word": "ပြန်ပေးပါ။",
+        "gloss": "（私のために）訳してください。",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（私のために）訳してください。"
+      },
+      "bur:1418858596650": {
+        "word": "ရွတ်",
+        "gloss": "唱える、朗誦する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "唱える、朗誦する"
+      },
+      "bur:1427591024835": {
+        "word": "တာ့တာ",
+        "gloss": "バイバイ",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "バイバイ"
+      },
+      "bur:1434936290741": {
+        "word": "တိုးတိုး",
+        "gloss": "小声で、ひそひそと",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小声で、ひそひそと"
+      },
+      "bur:1439516524908": {
+        "word": "အော်(ဟစ်)",
+        "gloss": "大声で叫ぶ",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大声で叫ぶ"
+      },
+      "bur:1460255139117": {
+        "word": "...အတင်းပြော",
+        "gloss": "〜について陰口・噂話をする",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "〜について陰口・噂話をする"
+      },
+      "bur:1461862828699": {
+        "word": "ဆွေးနွေး",
+        "gloss": "議論する、話し合う",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "議論する、話し合う"
+      },
+      "bur:1465299083529": {
+        "word": "အပြန်အလှန်စကား",
+        "gloss": "対話、ダイアローグ",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "対話、ダイアローグ"
+      },
+      "bur:1473405271224": {
+        "word": "မိန့်ခွန်း(ပြော)",
+        "gloss": "演説；演説する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "演説；演説する"
+      },
+      "bur:1487785711238": {
+        "word": "ကျိန်ဆို",
+        "gloss": "誓う、宣誓する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "誓う、宣誓する"
+      },
+      "bur:1519420112157": {
+        "word": "အာလူးဖုတ်",
+        "gloss": "雑談する、だべる",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雑談する、だべる"
+      },
+      "bur:1560606663822": {
+        "word": "အင်တာဗျူး",
+        "gloss": "インタビュー",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "インタビュー"
+      },
+      "bur:1570495408299": {
+        "word": "ရောက်တတ်ရာရာ",
+        "gloss": "とりとめなく話す、話題なく話す",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "とりとめなく話す、話題なく話す"
+      },
+      "bur:1395614921509": {
+        "word": "ဖတ်",
+        "gloss": "読む",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "読む"
+      },
+      "bur:1395615724602": {
+        "word": "ရေး",
+        "gloss": "書く",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書く"
+      },
+      "bur:1396103969245": {
+        "word": "စာအုပ်",
+        "gloss": "本",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "本"
+      },
+      "bur:1397252937243": {
+        "word": "မြေပုံ",
+        "gloss": "地図",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地図"
+      },
+      "bur:1397253079631": {
+        "word": "ဘောပင်",
+        "gloss": "ペン",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ペン"
+      },
+      "bur:1397253119098": {
+        "word": "ခဲတံ",
+        "gloss": "鉛筆",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鉛筆"
+      },
+      "bur:1397343090369": {
+        "word": "အဘိဓာန်",
+        "gloss": "辞書",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "辞書"
+      },
+      "bur:1397343141039": {
+        "word": "စက္ကူ",
+        "gloss": "紙",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "紙"
+      },
+      "bur:1398089256470": {
+        "word": "အက္ခရာ",
+        "gloss": "文字体系、アルファベット",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文字体系、アルファベット"
+      },
+      "bur:1398090993817": {
+        "word": "ပို့စကဒ်",
+        "gloss": "絵葉書、ポストカード",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "絵葉書、ポストカード"
+      },
+      "bur:1398091344982": {
+        "word": "စာအိတ်",
+        "gloss": "封筒",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "封筒"
+      },
+      "bur:1398091363812": {
+        "word": "စာရေးစက္ကူ",
+        "gloss": "便箋、筆記用紙",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "便箋、筆記用紙"
+      },
+      "bur:1398608308220": {
+        "word": "ဗျည်း",
+        "gloss": "子音",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "子音"
+      },
+      "bur:1398608531760": {
+        "word": "သရ",
+        "gloss": "母音",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "母音"
+      },
+      "bur:1401378499582": {
+        "word": "စာရင်း",
+        "gloss": "一覧、リスト、名簿",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "一覧、リスト、名簿"
+      },
+      "bur:1404084932407": {
+        "word": "မှတ်တမ်း",
+        "gloss": "文書；記録、登録簿",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文書；記録、登録簿"
+      },
+      "bur:1404688177899": {
+        "word": "အမည်",
+        "gloss": "名前、名称",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "名前、名称"
+      },
+      "bur:1409403208259": {
+        "word": "စာတမ်း",
+        "gloss": "論文、論説；モノグラフ",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "論文、論説；モノグラフ"
+      },
+      "bur:1409403968759": {
+        "word": "မိတ္တူကူး",
+        "gloss": "コピーする、複写する",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "コピーする、複写する"
+      },
+      "bur:1409404300124": {
+        "word": "ပုံနှိပ်",
+        "gloss": "印刷する",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "印刷する"
+      },
+      "bur:1418253965419": {
+        "word": "မင်",
+        "gloss": "インク",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "インク"
+      },
+      "bur:1454435421946": {
+        "word": "စာသား",
+        "gloss": "本文、テキスト、文章",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "本文、テキスト、文章"
+      },
+      "bur:1456925143809": {
+        "word": "စာမျက်နှာ",
+        "gloss": "ページ、頁",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ページ、頁"
+      },
+      "bur:1465987725254": {
+        "word": "ရေးမှတ်",
+        "gloss": "書き留める、記録する",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書き留める、記録する"
+      },
+      "bur:1481505321146": {
+        "word": "မှတ်စု",
+        "gloss": "メモ、ノート",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "メモ、ノート"
+      },
+      "bur:1481850599194": {
+        "word": "စာရွက်",
+        "gloss": "紙一枚、用紙",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "紙一枚、用紙"
+      },
+      "bur:1542126071971": {
+        "word": "မှတ်စုစာအုပ်",
+        "gloss": "ノート、メモ帳",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ノート、メモ帳"
+      },
+      "bur:1554639958284": {
+        "word": "ဒီပနီ",
+        "gloss": "学位論文、ディサーテーション",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学位論文、ディサーテーション"
+      },
+      "bur:1560606698503": {
+        "word": "စာလုံးပေါင်း",
+        "gloss": "綴る、スペルを書く",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "綴る、スペルを書く"
+      },
+      "bur:1564423260632": {
+        "word": "ဖောင့်",
+        "gloss": "フォント",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "フォント"
+      },
+      "bur:1512609954621": {
+        "word": "ကကြီး",
+        "gloss": "ビルマ文字「က」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「က」"
+      },
+      "bur:1512610063687": {
+        "word": "ခခွေး",
+        "gloss": "ビルマ文字「ခ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ခ」"
+      },
+      "bur:1512610110626": {
+        "word": "ဂငယ်",
+        "gloss": "ビルマ文字「ဂ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဂ」"
+      },
+      "bur:1512610182663": {
+        "word": "ဃကြီး",
+        "gloss": "ビルマ文字「ဃ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဃ」"
+      },
+      "bur:1512610232114": {
+        "word": "င",
+        "gloss": "ビルマ文字「င」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「င」"
+      },
+      "bur:1512610263159": {
+        "word": "သဝေထိုး",
+        "gloss": "ビルマ文字「ေ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ေ」"
+      },
+      "bur:1512610351444": {
+        "word": "ရေးချ",
+        "gloss": "ビルマ文字「ာ／ါ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ာ／ါ」"
+      },
+      "bur:1512610429945": {
+        "word": "ဝိုက်ချ",
+        "gloss": "ビルマ文字「ာ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ာ」"
+      },
+      "bur:1512610529039": {
+        "word": "မောက်ချ",
+        "gloss": "ビルマ文字「ါ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ါ」"
+      },
+      "bur:1512610580292": {
+        "word": "ဝစ္စနှစ်လုံးပေါက်",
+        "gloss": "ビルマ語声調記号「း」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ語声調記号「း」"
+      },
+      "bur:1512610751125": {
+        "word": "စလုံး",
+        "gloss": "ビルマ文字「စ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「စ」"
+      },
+      "bur:1512610800664": {
+        "word": "ဆလိမ်",
+        "gloss": "ビルマ文字「ဆ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဆ」"
+      },
+      "bur:1512610856883": {
+        "word": "ဇကွဲ",
+        "gloss": "ビルマ文字「ဇ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဇ」"
+      },
+      "bur:1512610907341": {
+        "word": "ဈမျဥ်းဆွဲ",
+        "gloss": "ビルマ文字「ဈ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဈ」"
+      },
+      "bur:1512611012968": {
+        "word": "ညကြီး",
+        "gloss": "ビルマ文字「ည」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ည」"
+      },
+      "bur:1512611065867": {
+        "word": "ဥကလေး",
+        "gloss": "ビルマ文字「ဥ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဥ」"
+      },
+      "bur:1512611116902": {
+        "word": "လုံးကြီးတင်",
+        "gloss": "ビルマ母音記号「ိ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ母音記号「ိ」"
+      },
+      "bur:1512611210882": {
+        "word": "လုံးကြီးတင်ဆန်ခတ်",
+        "gloss": "ビルマ母音記号「ီ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ母音記号「ီ」"
+      },
+      "bur:1512611291653": {
+        "word": "တချောင်းငင်",
+        "gloss": "ビルマ母音記号「ု」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ母音記号「ု」"
+      },
+      "bur:1512611377262": {
+        "word": "နှစ်ချောင်းငင်",
+        "gloss": "ビルマ母音記号「ူ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ母音記号「ူ」"
+      },
+      "bur:1512611464600": {
+        "word": "အသတ်",
+        "gloss": "ビルマ語の殺母音記号「်」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ語の殺母音記号「်」"
+      },
+      "bur:1521459436418": {
+        "word": "ဋသန်လျင်းချိတ်",
+        "gloss": "ビルマ文字「ဋ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဋ」"
+      },
+      "bur:1521459763263": {
+        "word": "ဌဝမ်းဘဲ",
+        "gloss": "ビルマ文字「ဌ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဌ」"
+      },
+      "bur:1521459923246": {
+        "word": "ဍရင်ကောက်",
+        "gloss": "ビルマ文字「ဍ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဍ」"
+      },
+      "bur:1521459996955": {
+        "word": "ဎရေမှုတ်",
+        "gloss": "ビルマ文字「ဎ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဎ」"
+      },
+      "bur:1521460112577": {
+        "word": "ဏကြီး",
+        "gloss": "ビルマ文字「ဏ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဏ」"
+      },
+      "bur:1521460323406": {
+        "word": "အောက်ကမြစ်",
+        "gloss": "ビルマ語声調記号「့」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ語声調記号「့」"
+      },
+      "bur:1521460401569": {
+        "word": "ရေးချရှေ့ထိုး",
+        "gloss": "ビルマ文字記号「ာ်／ါ်」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「ာ်／ါ်」"
+      },
+      "bur:1521562361876": {
+        "word": "သေးသေးတင်",
+        "gloss": "ビルマ文字記号「ံ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「ံ」"
+      },
+      "bur:1521562638437": {
+        "word": "နောက်ပစ်",
+        "gloss": "ビルマ母音記号「ဲ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ母音記号「ဲ」"
+      },
+      "bur:1521562683624": {
+        "word": "ကင်းစီး",
+        "gloss": "ビルマ文字記号「င်္」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「င်္」"
+      },
+      "bur:1521562761971": {
+        "word": "ယပင့်",
+        "gloss": "ビルマ文字記号「ျ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「ျ」"
+      },
+      "bur:1521562807184": {
+        "word": "ရရစ်",
+        "gloss": "ビルマ文字記号「ြ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「ြ」"
+      },
+      "bur:1521562863092": {
+        "word": "ဝဆွဲ",
+        "gloss": "ビルマ文字記号「ွ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「ွ」"
+      },
+      "bur:1521562917148": {
+        "word": "ဟထိုး",
+        "gloss": "ビルマ文字記号「ှ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字記号「ှ」"
+      },
+      "bur:1522502300064": {
+        "word": "တဝမ်းပူ",
+        "gloss": "ビルマ文字「တ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「တ」"
+      },
+      "bur:1522502385321": {
+        "word": "ထဆင်ထူး",
+        "gloss": "ビルマ文字「ထ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ထ」"
+      },
+      "bur:1522502448370": {
+        "word": "ဒထွေး",
+        "gloss": "ビルマ文字「ဒ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဒ」"
+      },
+      "bur:1522502506516": {
+        "word": "ဓအောက်ခြိုက်",
+        "gloss": "ビルマ文字「ဓ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဓ」"
+      },
+      "bur:1522502681868": {
+        "word": "နငယ်",
+        "gloss": "ビルマ文字「န」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「န」"
+      },
+      "bur:1530491239546": {
+        "word": "ပစောက်",
+        "gloss": "ビルマ文字「ပ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ပ」"
+      },
+      "bur:1530491371972": {
+        "word": "ဖဦးထုပ်",
+        "gloss": "ビルマ文字「ဖ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဖ」"
+      },
+      "bur:1530491445516": {
+        "word": "ဗထက်ခြိုက်",
+        "gloss": "ビルマ文字「ဗ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဗ」"
+      },
+      "bur:1530491541417": {
+        "word": "ဘကုန်း",
+        "gloss": "ビルマ文字「ဘ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဘ」"
+      },
+      "bur:1530491701072": {
+        "word": "ယပက်လက်",
+        "gloss": "ビルマ文字「ယ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ယ」"
+      },
+      "bur:1530491755929": {
+        "word": "ရကောက်",
+        "gloss": "ビルマ文字「ရ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ရ」"
+      },
+      "bur:1530491842014": {
+        "word": "လ(ငယ်)",
+        "gloss": "ビルマ文字「လ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「လ」"
+      },
+      "bur:1530491967738": {
+        "word": "သ",
+        "gloss": "ビルマ文字「သ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「သ」"
+      },
+      "bur:1530491996164": {
+        "word": "ဟ",
+        "gloss": "ビルマ文字「ဟ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဟ」"
+      },
+      "bur:1530492031228": {
+        "word": "ဠကြီး",
+        "gloss": "ビルマ文字「ဠ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဠ」"
+      },
+      "bur:1530492209730": {
+        "word": "ဝ(လုံး)",
+        "gloss": "ビルマ文字「ဝ」",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ビルマ文字「ဝ」"
+      },
+      "bur:1394493358179": {
+        "word": "ဓါတ်ပုံ",
+        "gloss": "写真",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "写真"
+      },
+      "bur:1397253007053": {
+        "word": "သတင်းစာ",
+        "gloss": "新聞",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "新聞"
+      },
+      "bur:1418860654314": {
+        "word": "အီးမေးလ်",
+        "gloss": "電子メール、Eメール",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "電子メール、Eメール"
+      },
+      "bur:1444688217420": {
+        "word": "သတင်း",
+        "gloss": "ニュース、知らせ",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ニュース、知らせ"
+      },
+      "bur:1444688901080": {
+        "word": "ကြေညာ",
+        "gloss": "発表する、宣言する",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "発表する、宣言する"
+      },
+      "bur:1457048162625": {
+        "word": "မဂ္ဂဇင်း",
+        "gloss": "雑誌、マガジン",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "雑誌、マガジン"
+      },
+      "bur:1460255400127": {
+        "word": "ကြော်ငြာ",
+        "gloss": "広告、CM",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "広告、CM"
+      },
+      "bur:1463563267145": {
+        "word": "ဂျာနယ်",
+        "gloss": "ジャーナル、雑誌",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ジャーナル、雑誌"
+      },
+      "bur:1481505599531": {
+        "word": "အယ်ဒီတာ",
+        "gloss": "編集者",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "編集者"
+      },
+      "bur:1481505718650": {
+        "word": "ဆောင်းပါး",
+        "gloss": "新聞記事",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "新聞記事"
+      },
+      "bur:1487786550313": {
+        "word": "ဖော်ပြမှု",
+        "gloss": "声明、発言",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "声明、発言"
+      },
+      "bur:1487788132175": {
+        "word": "ထုတ်ပြန်",
+        "gloss": "公布する、発表する",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "公布する、発表する"
+      },
+      "bur:1511823837677": {
+        "word": "အကျဥ်း",
+        "gloss": "要約、あらすじ",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "要約、あらすじ"
+      },
+      "bur:1522500304511": {
+        "word": "ဘီဘီစီ",
+        "gloss": "BBC",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "BBC"
+      },
+      "bur:1522500992927": {
+        "word": "အကြောင်းကြားစာ",
+        "gloss": "正式な報告書、通知書",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": [
+            "formal"
+          ]
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "正式な報告書、通知書"
+      },
+      "bur:1551533693250": {
+        "word": "ဒီဗွီဒီ",
+        "gloss": "DVD",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "DVD"
+      },
+      "bur:1570975961556": {
+        "word": "စာတန်းထိုး",
+        "gloss": "字幕",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "字幕"
+      },
+      "bur:1395615388457": {
+        "word": "လေ့လာ",
+        "gloss": "学ぶ、研究する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学ぶ、研究する"
+      },
+      "bur:1396104755883": {
+        "word": "ကျောင်းသား",
+        "gloss": "男子学生、学生",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "男子学生、学生"
+      },
+      "bur:1397415206058": {
+        "word": "ဆရာ",
+        "gloss": "先生、教師",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "先生、教師"
+      },
+      "bur:1397418305110": {
+        "word": "နက္ခတ္တဗေဒ",
+        "gloss": "天文学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "天文学"
+      },
+      "bur:1398085558004": {
+        "word": "သင်ခန်းစာ",
+        "gloss": "授業、課、レッスン",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "授業、課、レッスン"
+      },
+      "bur:1398085727800": {
+        "word": "သဒ္ဒါ",
+        "gloss": "文法",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文法"
+      },
+      "bur:1398085750395": {
+        "word": "ဝါကျ",
+        "gloss": "文、センテンス",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文、センテンス"
+      },
+      "bur:1398088442767": {
+        "word": "ကျောင်း",
+        "gloss": "学校",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学校"
+      },
+      "bur:1398088467323": {
+        "word": "တက္ကသိုလ်",
+        "gloss": "大学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大学"
+      },
+      "bur:1398088530600": {
+        "word": "စာသင်ခန်း",
+        "gloss": "教室",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教室"
+      },
+      "bur:1398088709123": {
+        "word": "စာကြည့်တိုက်",
+        "gloss": "図書館",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "図書館"
+      },
+      "bur:1398088896439": {
+        "word": "စာအုပ်ဆိုင်",
+        "gloss": "書店、本屋",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書店、本屋"
+      },
+      "bur:1400452497249": {
+        "word": "လေ့ကျင့်",
+        "gloss": "練習する、訓練する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "練習する、訓練する"
+      },
+      "bur:1400453033218": {
+        "word": "ကျောင်းသူ",
+        "gloss": "女子学生、生徒（女性）",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "女子学生、生徒（女性）"
+      },
+      "bur:1401372893893": {
+        "word": "ဝေါဟာရ",
+        "gloss": "語彙",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "語彙"
+      },
+      "bur:1401386080229": {
+        "word": "ဘာသာဗေဒပညာရှင်",
+        "gloss": "言語学者",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言語学者"
+      },
+      "bur:1401389259678": {
+        "word": "သုတေသန",
+        "gloss": "研究",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "研究"
+      },
+      "bur:1401389716360": {
+        "word": "ပါရဂူဘွဲ့",
+        "gloss": "博士号、PhD",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "博士号、PhD"
+      },
+      "bur:1403732514465": {
+        "word": "ပညာရေး",
+        "gloss": "教育",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教育"
+      },
+      "bur:1404083481576": {
+        "word": "သင်္ချာ",
+        "gloss": "数学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "数学"
+      },
+      "bur:1404563354495": {
+        "word": "သင်တန်း",
+        "gloss": "講座、コース、授業",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "講座、コース、授業"
+      },
+      "bur:1404684998023": {
+        "word": "စာမေးပွဲ",
+        "gloss": "試験、テスト",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "試験、テスト"
+      },
+      "bur:1423656487510": {
+        "word": "ဒေသိယစကား",
+        "gloss": "方言",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "方言"
+      },
+      "bur:1423656986879": {
+        "word": "ရူပဗေဒ",
+        "gloss": "物理学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "物理学"
+      },
+      "bur:1432342093233": {
+        "word": "ကြိယာ",
+        "gloss": "動詞",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "動詞"
+      },
+      "bur:1432342218287": {
+        "word": "နာမ်",
+        "gloss": "名詞",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "名詞"
+      },
+      "bur:1432342244463": {
+        "word": "နာမဝိသေသန",
+        "gloss": "形容詞",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "形容詞"
+      },
+      "bur:1432342899958": {
+        "word": "သီအိုရီ",
+        "gloss": "理論",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "理論"
+      },
+      "bur:1445132107947": {
+        "word": "ကျမ်းကြီးကြပ်သူ",
+        "gloss": "指導教員、監督者",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "指導教員、監督者"
+      },
+      "bur:1453308930943": {
+        "word": "သိပ္ပံ",
+        "gloss": "科学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "科学"
+      },
+      "bur:1453829531740": {
+        "word": "ကျောင်းဝင်း",
+        "gloss": "キャンパス、校庭",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "キャンパス、校庭"
+      },
+      "bur:1453913372199": {
+        "word": "ရိုးရိုးဘွဲ့",
+        "gloss": "学士号",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学士号"
+      },
+      "bur:1453913425196": {
+        "word": "ပါမောက္ခ",
+        "gloss": "教授",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教授"
+      },
+      "bur:1454257810872": {
+        "word": "မူလတန်းကျောင်း",
+        "gloss": "小学校",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小学校"
+      },
+      "bur:1454257947564": {
+        "word": "အထက်တန်းကျောင်း",
+        "gloss": "高校",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "高校"
+      },
+      "bur:1454435257624": {
+        "word": "ပထဝီဝင်",
+        "gloss": "地理学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "地理学"
+      },
+      "bur:1456268318085": {
+        "word": "မိခင်ဘာသာ",
+        "gloss": "母語、母国語",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "母語、母国語"
+      },
+      "bur:1457176033581": {
+        "word": "ဟောပြော",
+        "gloss": "講演する、講義する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "講演する、講義する"
+      },
+      "bur:1460249755340": {
+        "word": "အိမ်စာ",
+        "gloss": "宿題",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宿題"
+      },
+      "bur:1461163693782": {
+        "word": "ဗန်းစကား",
+        "gloss": "俗語、スラング",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "俗語、スラング"
+      },
+      "bur:1462445052975": {
+        "word": "မနုဿဗေဒ",
+        "gloss": "人類学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "人類学"
+      },
+      "bur:1472528593218": {
+        "word": "အဓိပ္ပါယ်",
+        "gloss": "意味",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "意味"
+      },
+      "bur:1473404904507": {
+        "word": "ပါ(မောက္ခ)ချုပ်",
+        "gloss": "学長、総長；校長",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学長、総長；校長"
+      },
+      "bur:1477426104431": {
+        "word": "ဝပ်ရှော့",
+        "gloss": "ワークショップ",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ワークショップ"
+      },
+      "bur:1481505826926": {
+        "word": "အထူးပြု",
+        "gloss": "専攻する、専門とする",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "専攻する、専門とする"
+      },
+      "bur:1481849363313": {
+        "word": "ကျောင်းပြေး",
+        "gloss": "学校をさぼる",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学校をさぼる"
+      },
+      "bur:1481849476026": {
+        "word": "ခိုးချား",
+        "gloss": "試験でカンニングする、他人の答案を写す",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "試験でカンニングする、他人の答案を写す"
+      },
+      "bur:1486420990949": {
+        "word": "လေသံ",
+        "gloss": "アクセント、話し方の調子",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "アクセント、話し方の調子"
+      },
+      "bur:1486847777729": {
+        "word": "သွန်သင်",
+        "gloss": "教える、教導する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教える、教導する"
+      },
+      "bur:1487726879125": {
+        "word": "ကြိယာဝိသေသန",
+        "gloss": "副詞",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "副詞"
+      },
+      "bur:1487892632449": {
+        "word": "ဝါကျပိုင်း",
+        "gloss": "節、clause",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "節、clause"
+      },
+      "bur:1490916596377": {
+        "word": "စကားသံဖွဲ့ပုံ",
+        "gloss": "音韻論",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "音韻論"
+      },
+      "bur:1490917021496": {
+        "word": "ဝါကျဖွဲ့ပုံ",
+        "gloss": "統語論",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "統語論"
+      },
+      "bur:1519420839095": {
+        "word": "ဇီဝဗေဒ",
+        "gloss": "生物学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "生物学"
+      },
+      "bur:1519420907504": {
+        "word": "ဓာတုဗေဒ",
+        "gloss": "化学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "化学"
+      },
+      "bur:1522499244729": {
+        "word": "ရှေးဟောင်းသုတေသန",
+        "gloss": "考古学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "考古学"
       }
     },
     "shan": {
@@ -33724,6 +37911,2951 @@
         },
         "review_status": "gloss-reviewed-pilot",
         "evidence": "財宝、宝庫、蓄えられた物品（語源等：パーリ語）"
+      },
+      "shn:1783945284181": {
+        "word": "ၽြႃး",
+        "gloss": "神、仏、崇拝対象",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "神、仏、崇拝対象"
+      },
+      "shn:1783945284518": {
+        "word": "ၵွင်းမူး",
+        "gloss": "パゴダ、仏塔",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "パゴダ、仏塔"
+      },
+      "shn:1783945284666": {
+        "word": "ပွႆးသၢင်ႇလွင်း",
+        "gloss": "得度祭（ポイ・サン・ロン）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "得度祭（ポイ・サン・ロン）"
+      },
+      "shn:1783945284782": {
+        "word": "သႃႇသၼႃႇ",
+        "gloss": "宗教、教え、仏教の教え",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教、教え、仏教の教え"
+      },
+      "shn:1783945284930": {
+        "word": "တၵႃႇ",
+        "gloss": "在家信者；僧侶への布施者、功徳を積む者",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "在家信者；僧侶への布施者、功徳を積む者"
+      },
+      "shn:1783945284933": {
+        "word": "ရႁၢၼ်း",
+        "gloss": "比丘（びく）、僧侶",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "比丘（びく）、僧侶"
+      },
+      "shn:1783945285003": {
+        "word": "ၽီ",
+        "gloss": "精霊、ナッ（善悪問わず超自然的な存在）、天使",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "精霊、ナッ（善悪問わず超自然的な存在）、天使"
+      },
+      "shn:1783945285106": {
+        "word": "မုၼ်ၸဝ်ႈ",
+        "gloss": "僧侶、比丘",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧侶、比丘"
+      },
+      "shn:1783945285351": {
+        "word": "ၵျွင်းၽြႃး",
+        "gloss": "礼拝堂、祠（寺院の形をした小さな建物）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "礼拝堂、祠（寺院の形をした小さな建物）"
+      },
+      "shn:1783945285550": {
+        "word": "ၸဝ်ႈၸၢင်း",
+        "gloss": "僧侶",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧侶"
+      },
+      "shn:1783945285598": {
+        "word": "ၵျွင်းလူင်",
+        "gloss": "僧院の本堂、仏像が安置されている最も神聖な場所",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧院の本堂、仏像が安置されている最も神聖な場所"
+      },
+      "shn:1783945285621": {
+        "word": "တၢင်းလီ",
+        "gloss": "功徳、徳、善業の報い（クソ）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "功徳、徳、善業の報い（クソ）"
+      },
+      "shn:1783945286202": {
+        "word": "ၵျွင်းမုၼ်ၸဝ်ႈ",
+        "gloss": "僧院、お寺",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "僧院、お寺"
+      },
+      "shn:1783945286773": {
+        "word": "မုၼ်ၸၢင်း",
+        "gloss": "現代の僧侶、中位の階級の僧侶",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "現代の僧侶、中位の階級の僧侶"
+      },
+      "shn:1783945286860": {
+        "word": "သိူဝ်ႈမိူင်း",
+        "gloss": "霊木（村の精霊が宿る木）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "霊木（村の精霊が宿る木）"
+      },
+      "shn:1783945286979": {
+        "word": "ၺီႉ",
+        "gloss": "宗教的目的のために寄付を集める",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教的目的のために寄付を集める"
+      },
+      "shn:1783945287087": {
+        "word": "ပွင်သႃႇသၼႃႇ",
+        "gloss": "宗教に奉仕する、または布教する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教に奉仕する、または布教する"
+      },
+      "shn:1783945287425": {
+        "word": "ၽႃႇသႃႇႁိၼ်ႇတူႇ",
+        "gloss": "ヒンドゥー教",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ヒンドゥー教"
+      },
+      "shn:1783945287611": {
+        "word": "မူးၸႃး",
+        "gloss": "（霊などに対して）崇める、敬い信頼する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（霊などに対して）崇める、敬い信頼する"
+      },
+      "shn:1783945287676": {
+        "word": "ရသေး",
+        "gloss": "苦行者、隠者",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "苦行者、隠者"
+      },
+      "shn:1783945287829": {
+        "word": "ၵပ်ႈပီႇ",
+        "gloss": "（僧侶が自分で行うことが許されない雑務などを）僧侶に代わって奉仕する（語源等：Pali）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（僧侶が自分で行うことが許されない雑務などを）僧侶に代わって奉仕する（語源等：Pali）"
+      },
+      "shn:1783945287960": {
+        "word": "ၸွင်ႈၶမ်း",
+        "gloss": "金色の傘（王族や僧侶が特別な儀式で使用）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "金色の傘（王族や僧侶が特別な儀式で使用）"
+      },
+      "shn:1783945287968": {
+        "word": "ၸၢတ်ႈၼႃႈ",
+        "gloss": "来世",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "来世"
+      },
+      "shn:1783945288182": {
+        "word": "တူၼ်ႈတၢင်းလူႇ",
+        "gloss": "お供え物（一般に尖塔型をしている）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "お供え物（一般に尖塔型をしている）"
+      },
+      "shn:1783945288193": {
+        "word": "တေႇဝတၢတ်ႈ",
+        "gloss": "提婆達多（デーヴァダッタ、ブッダの敵対者）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "提婆達多（デーヴァダッタ、ブッダの敵対者）"
+      },
+      "shn:1783945288194": {
+        "word": "တေႇဝႃႇ",
+        "gloss": "精霊、神、天人（人間より優れた天界の存在）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "精霊、神、天人（人間より優れた天界の存在）"
+      },
+      "shn:1783945288247": {
+        "word": "တႃႇၼႃႉ",
+        "gloss": "ダーナ（布施、贈り物）、宗教的な供物",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ダーナ（布施、贈り物）、宗教的な供物"
+      },
+      "shn:1783945288394": {
+        "word": "မိူင်းသၢင်",
+        "gloss": "梵天界、高位の天上界",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "梵天界、高位の天上界"
+      },
+      "shn:1783945288638": {
+        "word": "ဝတ်ႉဝႃး",
+        "gloss": "寺院、僧院",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "寺院、僧院"
+      },
+      "shn:1783945288675": {
+        "word": "သပိတ်ႈ",
+        "gloss": "鉄鉢（てっぱつ）、托鉢の鉢",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鉄鉢（てっぱつ）、托鉢の鉢"
+      },
+      "shn:1783945288679": {
+        "word": "သမ်းဢၢင်း",
+        "gloss": "幾何学模様の魔除けの刺青を入れる",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "幾何学模様の魔除けの刺青を入れる"
+      },
+      "shn:1783945288704": {
+        "word": "သူးတိူင်ႇ",
+        "gloss": "祈る",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "祈る"
+      },
+      "shn:1783945288743": {
+        "word": "သႃႇသၼႃႇဝဝ်း",
+        "gloss": "宗教が衰退する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教が衰退する"
+      },
+      "shn:1783945288744": {
+        "word": "သႃႇသၼႃႇႁိူဝ်ႈ",
+        "gloss": "宗教が繁栄する、興隆する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宗教が繁栄する、興隆する"
+      },
+      "shn:1783945288834": {
+        "word": "ၵမ်သိၼ်",
+        "gloss": "安息日（ポヤデー）を遵守する、宗教的義務として断食する",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "安息日（ポヤデー）を遵守する、宗教的義務として断食する"
+      },
+      "shn:1783945288838": {
+        "word": "ၵမ်ႇမထၢၼ်း",
+        "gloss": "業処（瞑想のために繰り返される宗教的句、40種類ある）、瞑想の祈り（語源等：Pali）",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "業処（瞑想のために繰り返される宗教的句、40種類ある）、瞑想の祈り（語源等：Pali）"
+      },
+      "shn:1783945289015": {
+        "word": "ၶဵင်ႇၽြႃး",
+        "gloss": "仏壇、祭壇",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏壇、祭壇"
+      },
+      "shn:1783945289094": {
+        "word": "ၸေႇတီႇ",
+        "gloss": "仏塔、パゴダ",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "仏塔、パゴダ"
+      },
+      "shn:1783945289177": {
+        "word": "ၼၢႆးၶၢဝ်",
+        "gloss": "尼僧",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尼僧"
+      },
+      "shn:1783945289203": {
+        "word": "ၽီပႂ်ႉတူဝ်",
+        "gloss": "守護天使",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "守護天使"
+      },
+      "shn:1783945289204": {
+        "word": "ၽီလိၼ်",
+        "gloss": "土地の神、大地の守護霊",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "土地の神、大地の守護霊"
+      },
+      "shn:1783945289283": {
+        "word": "ႁေႃၽီ",
+        "gloss": "精霊（ナッ）を祀る祠",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "精霊（ナッ）を祀る祠"
+      },
+      "shn:1783945285860": {
+        "word": "ၽိင်ႈငႄႈ",
+        "gloss": "伝統、文化",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "伝統、文化"
+      },
+      "shn:1783945285900": {
+        "word": "မသႃႇ",
+        "gloss": "葬儀（語源等：ビルマ語）",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "葬儀（語源等：ビルマ語）"
+      },
+      "shn:1783945287581": {
+        "word": "ပွႆးၶွပ်ႈၶူပ်ႇ",
+        "gloss": "記念祭、周年行事",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "記念祭、周年行事"
+      },
+      "shn:1783945287587": {
+        "word": "ပႃႇႁဵဝ်ႈ",
+        "gloss": "墓地、葬儀場",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "墓地、葬儀場"
+      },
+      "shn:1783945287915": {
+        "word": "ၶုမ်ပႃႇႁဵဝ်ႈ",
+        "gloss": "墓、墓穴",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "墓、墓穴"
+      },
+      "shn:1783945288465": {
+        "word": "မႃႇသႃႇ",
+        "gloss": "葬式、葬儀",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "葬式、葬儀"
+      },
+      "shn:1783945288726": {
+        "word": "သၢင်းၶႅင်း",
+        "gloss": "墓地、葬儀場、火葬場",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "墓地、葬儀場、火葬場"
+      },
+      "shn:1783945289082": {
+        "word": "ၸုင်း",
+        "gloss": "棺の覆い、外棺",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "棺の覆い、外棺"
+      },
+      "shn:1783945285122": {
+        "word": "ပေး",
+        "gloss": "口琴（こうきん）",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "口琴（こうきん）"
+      },
+      "shn:1783945285748": {
+        "word": "မႅတ်ႈ",
+        "gloss": "（祭りなどで）交互に・掛け合いで歌う（カレン族の歌舞についてよく使われる）",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（祭りなどで）交互に・掛け合いで歌う（カレン族の歌舞についてよく使われる）"
+      },
+      "shn:1783945287553": {
+        "word": "ပဝ်ႇပီႇ",
+        "gloss": "笛を吹く",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "笛を吹く"
+      },
+      "shn:1783945288093": {
+        "word": "ႁဵတ်းၵႂၢမ်း",
+        "gloss": "歌う",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "歌う"
+      },
+      "shn:1783945288271": {
+        "word": "ထုတ်ႇႁၢင်ႈ",
+        "gloss": "像を描き出す、模写する",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "像を描き出す、模写する"
+      },
+      "shn:1783945288422": {
+        "word": "မေႃၵႃႈ",
+        "gloss": "踊りが上手い",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "property"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "踊りが上手い"
+      },
+      "shn:1783945288591": {
+        "word": "လဵတ်းတိင်ႇ",
+        "gloss": "竪琴や弦楽器を弾く",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "竪琴や弦楽器を弾く"
+      },
+      "shn:1783945288885": {
+        "word": "ၵူၼ်းၵႃႈ",
+        "gloss": "ダンサー",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ダンサー"
+      },
+      "shn:1783945289110": {
+        "word": "ၸၼ်းတယႃး",
+        "gloss": "ピアノ",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [
+            "music"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ピアノ"
+      },
+      "shn:1783945285632": {
+        "word": "လဵၼ်ႈႁႅင်း",
+        "gloss": "運動する、トレーニングする、ジムで鍛える",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "運動する、トレーニングする、ジムで鍛える"
+      },
+      "shn:1783945286041": {
+        "word": "လဵၼ်ႈၼမ်ႉ",
+        "gloss": "水遊びをする、水上スポーツをする",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "水遊びをする、水上スポーツをする"
+      },
+      "shn:1783945287048": {
+        "word": "တၢင်းလဵၼ်ႈ",
+        "gloss": "遊び道具、おもちゃ",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "遊び道具、おもちゃ"
+      },
+      "shn:1783945287717": {
+        "word": "လၢႆးလဵၼ်ႈ",
+        "gloss": "遊び方、ゲームのルール；競技、スポーツ",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "遊び方、ゲームのルール；競技、スポーツ"
+      },
+      "shn:1783945287848": {
+        "word": "ၵူၼ်းလဵၼ်ႈႁႅင်း",
+        "gloss": "スポーツ選手、アスリート",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "スポーツ選手、アスリート"
+      },
+      "shn:1783945288445": {
+        "word": "မၢၵ်ႇၵွပ်ႉ",
+        "gloss": "ゴルフ、ゴルフボール",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ゴルフ、ゴルフボール"
+      },
+      "shn:1783945288592": {
+        "word": "လဵၼ်ႈၽၢႆႉ",
+        "gloss": "トランプやドミノをする",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "トランプやドミノをする"
+      },
+      "shn:1783945283887": {
+        "word": "လၢတ်ႈ",
+        "gloss": "話す、言う、語る",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "話す、言う、語る"
+      },
+      "shn:1783945284112": {
+        "word": "ႁွင်ႉ",
+        "gloss": "呼ぶ、叫ぶ、召喚する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "呼ぶ、叫ぶ、召喚する"
+      },
+      "shn:1783945284195": {
+        "word": "ထၢမ်",
+        "gloss": "尋ねる、質問する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尋ねる、質問する"
+      },
+      "shn:1783945284745": {
+        "word": "ဢုပ်ႇၵုမ်",
+        "gloss": "改まって相談する、協議する；議論する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "改まって相談する、協議する；議論する"
+      },
+      "shn:1783945284784": {
+        "word": "ၶေႃႈထၢမ်",
+        "gloss": "質問",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "質問"
+      },
+      "shn:1783945284813": {
+        "word": "လၢတ်ႈၵႂၢမ်း",
+        "gloss": "話す、言葉を話す",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "話す、言葉を話す"
+      },
+      "shn:1783945284814": {
+        "word": "လၢတ်ႈၼႄ",
+        "gloss": "説明する、指摘する、打ち明ける",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "説明する、指摘する、打ち明ける"
+      },
+      "shn:1783945284969": {
+        "word": "သွပ်ႉ",
+        "gloss": "囁く",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "囁く"
+      },
+      "shn:1783945285022": {
+        "word": "ၶႆႈၼႄ",
+        "gloss": "語る、述べる、物語る",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "語る、述べる、物語る"
+      },
+      "shn:1783945285092": {
+        "word": "ၶေႃႈတွပ်ႇ",
+        "gloss": "回答、返答",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "回答、返答"
+      },
+      "shn:1783945285102": {
+        "word": "တၢင်ႇလၢတ်ႈ",
+        "gloss": "発言する、陳述する（正式な会議などで）",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": [
+            "formal"
+          ]
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "発言する、陳述する（正式な会議などで）"
+      },
+      "shn:1783945285162": {
+        "word": "ၵုမ်",
+        "gloss": "集まって話す、談議・相談する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "集まって話す、談議・相談する"
+      },
+      "shn:1783945285339": {
+        "word": "လၢတ်ႈတေႃႇ",
+        "gloss": "話しかける、話をする",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "話しかける、話をする"
+      },
+      "shn:1783945285441": {
+        "word": "တွပ်ႇလၢတ်ႈ",
+        "gloss": "答える、返事をする",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "答える、返事をする"
+      },
+      "shn:1783945285475": {
+        "word": "တွပ်ႇဝႃႈ",
+        "gloss": "答える、返事をする",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "答える、返事をする"
+      },
+      "shn:1783945285941": {
+        "word": "ၵႂၢမ်းသင်ႇ",
+        "gloss": "助言、忠告；別れの言葉、送別の辞",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "助言、忠告；別れの言葉、送別の辞"
+      },
+      "shn:1783945286137": {
+        "word": "ပီႈၼွင်ႉႁဝ်းၶႃႈ",
+        "gloss": "皆様（会議などでの丁寧な呼びかけ）",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "conventional_expression"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": [
+            "polite"
+          ]
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "皆様（会議などでの丁寧な呼びかけ）"
+      },
+      "shn:1783945286397": {
+        "word": "ၶေႃႈၸီႉသင်ႇ",
+        "gloss": "指示、命令",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "指示、命令"
+      },
+      "shn:1783945286399": {
+        "word": "ၶႃႉ",
+        "gloss": "中傷する、悪口を言う",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "中傷する、悪口を言う"
+      },
+      "shn:1783945286534": {
+        "word": "လၢတ်ႈထိုင်",
+        "gloss": "言いつける、密告する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言いつける、密告する"
+      },
+      "shn:1783945286753": {
+        "word": "ပၢဝ်ႇ",
+        "gloss": "呼ぶ、召喚する、呼びかける",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "呼ぶ、召喚する、呼びかける"
+      },
+      "shn:1783945286878": {
+        "word": "သႅၼ်ႇ",
+        "gloss": "大声で叫ぶ、悲鳴を上げる",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大声で叫ぶ、悲鳴を上げる"
+      },
+      "shn:1783945286921": {
+        "word": "ၵၢဝ်ႇ",
+        "gloss": "苦情を言う、不満を述べる（再発防止を期待して）",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "苦情を言う、不満を述べる（再発防止を期待して）"
+      },
+      "shn:1783945287045": {
+        "word": "တွပ်ႇထဵင်",
+        "gloss": "無礼に言い返す、口論する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "無礼に言い返す、口論する"
+      },
+      "shn:1783945287158": {
+        "word": "လဝ်ႈလၢတ်ႈ",
+        "gloss": "（目上の人に）申し述べる、報告する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": [
+            "polite"
+          ]
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（目上の人に）申し述べる、報告する"
+      },
+      "shn:1783945287210": {
+        "word": "သင်ႇၵႂၢမ်း",
+        "gloss": "伝言を頼む、言づてをする",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "伝言を頼む、言づてをする"
+      },
+      "shn:1783945287372": {
+        "word": "ၸွပ်ႇထၢမ်",
+        "gloss": "尋問する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尋問する"
+      },
+      "shn:1783945287505": {
+        "word": "တွပ်ႇၵႄႈ",
+        "gloss": "無礼に言い返す、言い争う",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "無礼に言い返す、言い争う"
+      },
+      "shn:1783945287584": {
+        "word": "ပၼ်ၸိုဝ်ႈ",
+        "gloss": "名付ける、命名する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "名付ける、命名する"
+      },
+      "shn:1783945287715": {
+        "word": "လၢတ်ႈၵႂၢမ်းတႆး",
+        "gloss": "シャン語を話す",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "シャン語を話す"
+      },
+      "shn:1783945287750": {
+        "word": "ဝႃႈဢွၵ်ႇ",
+        "gloss": "口に出す、言葉にする、表現する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "口に出す、言葉にする、表現する"
+      },
+      "shn:1783945287879": {
+        "word": "ၵႂၢမ်းလိူင်း",
+        "gloss": "卑語、無作法な言葉",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": [
+            "vulgar"
+          ]
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "卑語、無作法な言葉"
+      },
+      "shn:1783945288095": {
+        "word": "ႁဵၵ်ႈ",
+        "gloss": "言う、呼ぶ、名付ける",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言う、呼ぶ、名付ける"
+      },
+      "shn:1783945288179": {
+        "word": "တူၵ်ႇယွၼ်း",
+        "gloss": "願いを述べる；頼む、乞う",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "願いを述べる；頼む、乞う"
+      },
+      "shn:1783945288201": {
+        "word": "တွင်းပၢၼ်ႇ",
+        "gloss": "懇願する、謝罪する；許しを請う",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "懇願する、謝罪する；許しを請う"
+      },
+      "shn:1783945288615": {
+        "word": "လၢတ်ႈၶိတ်ႈလၢတ်ႈပၢႆႇ",
+        "gloss": "言葉巧みに話す",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言葉巧みに話す"
+      },
+      "shn:1783945288666": {
+        "word": "ဝႃႈသႂ်ႇ",
+        "gloss": "怒鳴りつける；厳しく非難する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "怒鳴りつける；厳しく非難する"
+      },
+      "shn:1783945288721": {
+        "word": "သွပ်ႉသႅပ်ႉ",
+        "gloss": "ひそひそ話す",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ひそひそ話す"
+      },
+      "shn:1783945288787": {
+        "word": "ဢုပ်ႇၵၼ်",
+        "gloss": "会話する",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "会話する"
+      },
+      "shn:1783945288931": {
+        "word": "ၵၢႆႇၵႂၢမ်း",
+        "gloss": "言葉を繋ぎ合わせる",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言葉を繋ぎ合わせる"
+      },
+      "shn:1783945289124": {
+        "word": "ၸႅတ်ႈ ထၢမ်",
+        "gloss": "尋問する、取り調べる",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尋問する、取り調べる"
+      },
+      "shn:1783945284027": {
+        "word": "ပပ်ႉ",
+        "gloss": "折り本（アコーディオン状に折られた筆記用の長い紙）；本",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "折り本（アコーディオン状に折られた筆記用の長い紙）；本"
+      },
+      "shn:1783945284259": {
+        "word": "ပပ်ႉလိၵ်ႈ",
+        "gloss": "本、書籍（文学など）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "本、書籍（文学など）"
+      },
+      "shn:1783945284361": {
+        "word": "တႅမ်ႈလိၵ်ႈ",
+        "gloss": "文字を書く、手紙をしたためる",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文字を書く、手紙をしたためる"
+      },
+      "shn:1783945284531": {
+        "word": "လူင်းလၢႆးမိုဝ်း",
+        "gloss": "署名する、サインをする",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "署名する、サインをする"
+      },
+      "shn:1783945284741": {
+        "word": "တူၺ်းလိၵ်ႈ",
+        "gloss": "黙読する、本を読む",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "黙読する、本を読む"
+      },
+      "shn:1783945284794": {
+        "word": "ၸေႈ",
+        "gloss": "紙",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "紙"
+      },
+      "shn:1783945284878": {
+        "word": "ဢၢၼ်ႇလိၵ်ႈ",
+        "gloss": "読む、音読する（学者のように）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "読む、音読する（学者のように）"
+      },
+      "shn:1783945285146": {
+        "word": "တူဝ်လိၵ်ႈ",
+        "gloss": "文字、アルファベット、子音",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文字、アルファベット、子音"
+      },
+      "shn:1783945285740": {
+        "word": "ပပ်ႉမၢႆ",
+        "gloss": "ノート、メモ帳",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ノート、メモ帳"
+      },
+      "shn:1783945286457": {
+        "word": "တႅမ်ႈမၢႆဝႆႉ",
+        "gloss": "記録に留める、覚え書きをする、メモを取る",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "記録に留める、覚え書きをする、メモを取る"
+      },
+      "shn:1783945286465": {
+        "word": "ပပ်ႉႁဵၼ်း",
+        "gloss": "学習本、教科書",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学習本、教科書"
+      },
+      "shn:1783945286522": {
+        "word": "လိၵ်ႈမွၵ်ႇ",
+        "gloss": "招待状",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "招待状"
+      },
+      "shn:1783945286750": {
+        "word": "ပေႃႉလိၵ်ႈ",
+        "gloss": "印刷する、タイプを打つ",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "印刷する、タイプを打つ"
+      },
+      "shn:1783945286906": {
+        "word": "ၵူး",
+        "gloss": "転写する、写す、コピーする（ၵူႈလိၵ်ႈ）（語源：ビルマ語）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "転写する、写す、コピーする（ၵူႈလိၵ်ႈ）（語源：ビルマ語）"
+      },
+      "shn:1783945287035": {
+        "word": "တီႇၵႃႇ",
+        "gloss": "複注、ティーカー（パーリ語経典の註釈書に対する更なる註釈）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "religion"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "複注、ティーカー（パーリ語経典の註釈書に対する更なる註釈）"
+      },
+      "shn:1783945287445": {
+        "word": "ႁူႉလိၵ်ႈ",
+        "gloss": "文字が読める、学問がある",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文字が読める、学問がある"
+      },
+      "shn:1783945287449": {
+        "word": "ႁဵတ်းလိၵ်ႈ",
+        "gloss": "書く、執筆する（手紙など）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書く、執筆する（手紙など）"
+      },
+      "shn:1783945287541": {
+        "word": "ထုတ်ႇလိၵ်ႈ",
+        "gloss": "執筆する、翻訳する、本を書き写す",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "執筆する、翻訳する、本を書き写す"
+      },
+      "shn:1783945287561": {
+        "word": "ပိၼ်ႇလိၵ်ႈ",
+        "gloss": "文学作品を翻訳する",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文学作品を翻訳する"
+      },
+      "shn:1783945287753": {
+        "word": "ဝႆႉလိၵ်ႈ",
+        "gloss": "書面で契約する；書面で苦情を申し立てる",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "書面で契約する；書面で苦情を申し立てる"
+      },
+      "shn:1783945287826": {
+        "word": "ဢႄတၢင်ႇ",
+        "gloss": "子音の上に記号「ႄ」を置く（ဢႅဝ် という単語のように）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "子音の上に記号「ႄ」を置く（ဢႅဝ် という単語のように）"
+      },
+      "shn:1783945287924": {
+        "word": "ၶေႃႈၼမ်း",
+        "gloss": "序文、前書き",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "序文、前書き"
+      },
+      "shn:1783945288216": {
+        "word": "တွၼ်ႈလိၵ်ႈ",
+        "gloss": "段落、章の節",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "段落、章の節"
+      },
+      "shn:1783945288524": {
+        "word": "ယၵ်းၸမ်ႈ",
+        "gloss": "（シャン語の声調記号 ႈ ）中平声",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "（シャン語の声調記号 ႈ ）中平声"
+      },
+      "shn:1783945288562": {
+        "word": "လိၵ်ႈတုၵ်းယွၼ်း",
+        "gloss": "依頼状、請願書",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "依頼状、請願書"
+      },
+      "shn:1783945288563": {
+        "word": "လိၵ်ႈတၢင်ႇ",
+        "gloss": "閲覧のために提出された文書、申請書",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "閲覧のために提出された文書、申請書"
+      },
+      "shn:1783945288564": {
+        "word": "လိၵ်ႈလၢတ်ႈ",
+        "gloss": "散文（詩的な著作である လိၵ်ႈႁေႃး に対して）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "散文（詩的な著作である လိၵ်ႈႁေႃး に対して）"
+      },
+      "shn:1783945288566": {
+        "word": "လိၵ်ႈၽိတ်ႈ",
+        "gloss": "招待状",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "招待状"
+      },
+      "shn:1783945288594": {
+        "word": "လွင်ႈပိုၼ်းတူဝ်",
+        "gloss": "自叙伝",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "自叙伝"
+      },
+      "shn:1783945288774": {
+        "word": "ဢိတ်ႇလိၵ်ႈ",
+        "gloss": "印刷する",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "印刷する"
+      },
+      "shn:1783945288798": {
+        "word": "ဢေတၢင်ႇ",
+        "gloss": "子音の上に記号「ေ」を置く（ဢဵၼ် という単語のように）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "子音の上に記号「ေ」を置く（ဢဵၼ် という単語のように）"
+      },
+      "shn:1783945288836": {
+        "word": "ၵမ်ၸိုၼ်း",
+        "gloss": "鉛筆",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "tool"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "鉛筆"
+      },
+      "shn:1783945288932": {
+        "word": "ၵၢႆႇၶိုၼ်း",
+        "gloss": "符号 ( ႆ ) の名称",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "符号 ( ႆ ) の名称"
+      },
+      "shn:1783945289070": {
+        "word": "ၸမ်ႈၼိူဝ်",
+        "gloss": "随生記（アヌスヴァーラ、末尾のm音の代わりの記号）",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "随生記（アヌスヴァーラ、末尾のm音の代わりの記号）"
+      },
+      "shn:1783945289072": {
+        "word": "ၸရၢင်း",
+        "gloss": "登録簿、帳簿、リスト",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "登録簿、帳簿、リスト"
+      },
+      "shn:1783945289192": {
+        "word": "ၽတ်းဢၢၼ်ႇ",
+        "gloss": "読む",
+        "medium": "13.02",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "読む"
+      },
+      "shn:1783945283972": {
+        "word": "ၶၢဝ်ႇ",
+        "gloss": "ニュース、便り",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ニュース、便り"
+      },
+      "shn:1783945284046": {
+        "word": "ၽူႈတွႆႇႁွၵ်ႈ",
+        "gloss": "伝令官、布告者、アナウンサー",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "伝令官、布告者、アナウンサー"
+      },
+      "shn:1783945284920": {
+        "word": "ပိုၼ်ၽႄႈ",
+        "gloss": "配布する、発行する、公表する（ニュースや通知など）",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "配布する、発行する、公表する（ニュースや通知など）"
+      },
+      "shn:1783945285465": {
+        "word": "ၶၢဝ်ႇငၢဝ်း",
+        "gloss": "ニュース、知らせ",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ニュース、知らせ"
+      },
+      "shn:1783945285759": {
+        "word": "သူင်ႇလိၵ်ႈ",
+        "gloss": "手紙を送る",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "手紙を送る"
+      },
+      "shn:1783945286550": {
+        "word": "သူင်ႇၶၢဝ်ႇ",
+        "gloss": "知らせを伝える、ニュースを送る",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "知らせを伝える、ニュースを送る"
+      },
+      "shn:1783945286602": {
+        "word": "ၵၢၼ်ပိုၼ်ၽၢဝ်ႇ",
+        "gloss": "宣伝、布告、公告",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "宣伝、布告、公告"
+      },
+      "shn:1783945287095": {
+        "word": "ပၼ်ၶၢဝ်ႇ",
+        "gloss": "ニュースを伝える、報告する",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "ニュースを伝える、報告する"
+      },
+      "shn:1783945287548": {
+        "word": "ထၢတ်ႈပုင်ႇ",
+        "gloss": "写真 （語源等：ビルマ語）",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "写真 （語源等：ビルマ語）"
+      },
+      "shn:1783945287904": {
+        "word": "ၶိုၼ်းလၢတ်ႈ",
+        "gloss": "語る、報告する；再び言う",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "語る、報告する；再び言う"
+      },
+      "shn:1783945288567": {
+        "word": "လိၵ်ႈၽိုၼ်ၶၢဝ်ႇ",
+        "gloss": "新聞、会報、ジャーナル",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "新聞、会報、ジャーナル"
+      },
+      "shn:1783945288822": {
+        "word": "ဢၼၢၵ်ႈ",
+        "gloss": "説明、翻訳、解釈（通常はパーリ語からの翻訳）",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "説明、翻訳、解釈（通常はパーリ語からの翻訳）"
+      },
+      "shn:1783945289196": {
+        "word": "ၽိုၼ်လိၵ်ႈၽိုၼ်လၢႆး",
+        "gloss": "文芸記事、刊行物",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "文芸記事、刊行物"
+      },
+      "shn:1783945289197": {
+        "word": "ၽိုၼ်ၶၢဝ်ႇ",
+        "gloss": "新聞、会報",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "新聞、会報"
+      },
+      "shn:1783945289198": {
+        "word": "ၽိုၼ်ၸေႈ",
+        "gloss": "チラシ、リーフレット",
+        "medium": "13.03",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "チラシ、リーフレット"
+      },
+      "shn:1783945283956": {
+        "word": "သွၼ်",
+        "gloss": "学ぶ、習得する；教える、訓練する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学ぶ、習得する；教える、訓練する"
+      },
+      "shn:1783945283982": {
+        "word": "ႁဵၼ်း",
+        "gloss": "学ぶ、勉強する、知識を得る",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学ぶ、勉強する、知識を得る"
+      },
+      "shn:1783945284012": {
+        "word": "လုၵ်ႈႁဵၼ်း",
+        "gloss": "学習者、研修生、生徒",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学習者、研修生、生徒"
+      },
+      "shn:1783945284022": {
+        "word": "လူလိၵ်ႈ",
+        "gloss": "通読する、読む",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "通読する、読む"
+      },
+      "shn:1783945284128": {
+        "word": "ႁူင်းႁဵၼ်း",
+        "gloss": "学校",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学校"
+      },
+      "shn:1783945284369": {
+        "word": "ၶူးသွၼ်",
+        "gloss": "教師、講師",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教師、講師"
+      },
+      "shn:1783945284421": {
+        "word": "သွၼ်လိၵ်ႈ",
+        "gloss": "読み書きを学ぶ、勉強する；授業をする",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "読み書きを学ぶ、勉強する；授業をする"
+      },
+      "shn:1783945284434": {
+        "word": "သွၼ်ပၼ်",
+        "gloss": "教える、指導する；しつける",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教える、指導する；しつける"
+      },
+      "shn:1783945284500": {
+        "word": "ပၢင်သွၼ်",
+        "gloss": "講習会、教育の場",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "講習会、教育の場"
+      },
+      "shn:1783945284899": {
+        "word": "တပႄး",
+        "gloss": "弟子、門下生、生徒",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "弟子、門下生、生徒"
+      },
+      "shn:1783945285080": {
+        "word": "ပၢႆးသၢႆ",
+        "gloss": "科学、学術",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "科学、学術"
+      },
+      "shn:1783945285091": {
+        "word": "ၶူၼ်ႉၶႂႃႉ",
+        "gloss": "調査する、究明する、研究する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "調査する、究明する、研究する"
+      },
+      "shn:1783945285417": {
+        "word": "သွၼ်ဢဝ်",
+        "gloss": "勉強して知識や技術を身につける",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "勉強して知識や技術を身につける"
+      },
+      "shn:1783945285855": {
+        "word": "ၼမ်ႉၵႂၢမ်း",
+        "gloss": "言葉の順序、語順",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言葉の順序、語順"
+      },
+      "shn:1783945286285": {
+        "word": "ထၢမ်တူၺ်း",
+        "gloss": "尋ねる、調査する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "尋ねる、調査する"
+      },
+      "shn:1783945286556": {
+        "word": "သွၼ်လၢတ်ႈ",
+        "gloss": "話し方を教える（子供やオウムなど）",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "話し方を教える（子供やオウムなど）"
+      },
+      "shn:1783945286918": {
+        "word": "ၵွၼ်းႁူင်းႁဵၼ်း",
+        "gloss": "校長",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "校長"
+      },
+      "shn:1783945287256": {
+        "word": "ဢွင်ႇလိၵ်ႈ",
+        "gloss": "試験に合格する（学校のテストなど）",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "試験に合格する（学校のテストなど）"
+      },
+      "shn:1783945287309": {
+        "word": "ၵႂႃႇႁူင်းႁဵၼ်း",
+        "gloss": "学校に行く、登校する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学校に行く、登校する"
+      },
+      "shn:1783945287777": {
+        "word": "သြႃႇသမႃး",
+        "gloss": "教師、先生",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "human"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "教師、先生"
+      },
+      "shn:1783945287862": {
+        "word": "ၵျၢၵ်ႈလိၵ်ႈ",
+        "gloss": "学ぶ、暗記する",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学ぶ、暗記する"
+      },
+      "shn:1783945288071": {
+        "word": "ႁူင်းႁဵၼ်းၸၼ်ႉငဝ်ႈ",
+        "gloss": "小学校",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "小学校"
+      },
+      "shn:1783945288119": {
+        "word": "ငိူၼ်ႈၵႂၢမ်း",
+        "gloss": "言葉の痕跡、言語の起源",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "言葉の痕跡、言語の起源"
+      },
+      "shn:1783945288348": {
+        "word": "ပၢင်ႁဵၼ်း",
+        "gloss": "学舎、学習センター、教室",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "学舎、学習センター、教室"
+      },
+      "shn:1783945288674": {
+        "word": "သတ်ႈတႃႇ",
+        "gloss": "分節音；文法",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "分節音；文法"
+      },
+      "shn:1783945288723": {
+        "word": "သွၼ်ဢၢၼ်ႇ",
+        "gloss": "読み方を学ぶ；暗記するために繰り返す；数を数えることを学ぶ",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "読み方を学ぶ；暗記するために繰り返す；数を数えることを学ぶ"
+      },
+      "shn:1783945289267": {
+        "word": "ႁူင်းႁဵၼ်းၸၼ်ႉၸွမ်",
+        "gloss": "大学",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot",
+        "evidence": "大学"
       }
     }
   },
@@ -33758,6 +40890,8 @@
     "08",
     "09",
     "10",
-    "11"
+    "11",
+    "12",
+    "13"
   ]
 }
