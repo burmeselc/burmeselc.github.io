@@ -1,5 +1,5 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261011-v1';
+const CACHE_NAME = 'dopa-quest-static-20261011-v2';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
@@ -8,7 +8,8 @@ const APP_SHELL = [
   './flashcards.js','./vocabulary-library.js','./daily-progress.js',
   './dashboard.js','./bootstrap.js','./game.js',
   './flashcards-ui.js','./vocabulary-ui.js','./cloud-sync.js',
-  './icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png'
+  './icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png',
+  './fonts/padauk-myanmar-400.woff2','./fonts/padauk-myanmar-700.woff2'
 ];
 
 self.addEventListener('install', event => {
@@ -32,7 +33,7 @@ self.addEventListener('fetch', event => {
   // Never intercept Firebase, Google sign-in, third-party resources, or other projects.
   if (url.origin !== scope.origin || !url.pathname.startsWith(scope.pathname)) return;
   const navigation = request.mode === 'navigate';
-  if (!navigation && !/\.(?:html|js|json|png|webmanifest)$/.test(url.pathname)) return;
+  if (!navigation && !/\.(?:html|js|json|png|webmanifest|woff2)$/.test(url.pathname)) return;
   // Network-first: on successful visits this includes vocabulary shards, so a fully
   // loaded deck can be reused without connectivity. No user progress is stored here.
   event.respondWith((async () => {
