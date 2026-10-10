@@ -110,19 +110,49 @@ body.dopa-modern-mode #flashcardPanel.dopa-play-viewport .flash-ratings{position
 /* Only an active flashcard session uses the immersive viewport. */
 body.dopa-flash-playing #dopaNav{display:none}
 body.dopa-modern-mode #flashcardPanel:not(.hidden):not(:has(#flashStage:not(.hidden))){margin-bottom:calc(80px + env(safe-area-inset-bottom,0px))}
+
+/* Daily missions and honest history (no retrospective reconstruction). */
+.dopa-dash-note{font-size:12px;line-height:1.65;color:#afc0d7;margin:10px 2px}
+.dopa-daily-area{margin-top:14px;border-top:1px solid #2b3855;padding-top:15px}
+.dopa-daily-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:15px}
+.dopa-daily-head span{font-size:11px;color:#afc0d7}
+.dopa-daily-rows{display:grid;gap:9px;margin:10px 0}
+.dopa-mission{padding:11px 12px;border:1px solid #33425e;border-radius:13px;background:#0e192d;display:flex;gap:10px;align-items:center}
+.dopa-mission.done{border-color:#4c9a88;background:#0e2726}
+.dopa-mission-icon{font-size:18px;color:#6cdfba;flex-shrink:0}
+.dopa-mission-main{min-width:0;flex:1}
+.dopa-mission-main b{display:block;font-size:13px}
+.dopa-mission-main small{display:block;color:#9facbf;font-size:11px;margin-top:4px}
+.dopa-mission-reward{font-size:11px;font-weight:700;color:#ffd66b;white-space:nowrap}
+.dopa-mission-bar{height:4px;border-radius:99px;background:#080d18;margin-top:7px;overflow:hidden}
+.dopa-mission-bar>div{height:100%;background:linear-gradient(90deg,#8b6cff,#45edff)}
+.dopa-week-bars{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px;margin:14px 0}
+.dopa-week-day{min-width:0;text-align:center;color:#b7c5d9;font-size:10px}
+.dopa-week-bar{height:44px;border:1px solid #283b58;border-radius:8px;background:#0a1224;display:flex;align-items:end;overflow:hidden;margin-bottom:5px}
+.dopa-week-bar>i{display:block;width:100%;min-height:0;background:linear-gradient(0deg,#866aff,#45e2f1);border-radius:6px 6px 0 0}
+.dopa-week-day.done .dopa-week-bar{border-color:#51bfa4}
+@media(max-width:420px){.dopa-dash-stat strong{font-size:20px}.dopa-week-bars{gap:4px}}
 </style></head><body><div class="app"><header><div class="brand"><div class="logo">D</div><div><h1>DOPA QUEST v6.2</h1><div class="subtitle">MEMORY ARCADE / QUALITY UPDATE</div></div></div><div style="display:flex;gap:6px"><button class="pill" id="backupBtn">SAVE</button><button class="pill" id="loadBtn">LOAD</button><button class="pill" id="soundBtn">♪ SOUND</button><input id="loadFile" type="file" accept="application/json,.json" class="hidden"></div></header><details class="sfx-panel" id="soundSettings"><summary>♪ サウンド演出を試聴・調整</summary><div class="sfx-grid"><label for="sfxPreset">効果音の演出<select id="sfxPreset"><option value="off">OFF（無音）</option><option value="quiet">控へめ</option><option value="standard">標準</option><option value="flashy">派手</option></select></label><label for="sfxVolume">効果音の音量 <span id="sfxVolumeValue">30%</span><input type="range" id="sfxVolume" min="0" max="100" value="30" step="5"></label></div><div class="sfx-buttons"><button type="button" data-sfx-preview="ok">通常正解</button><button type="button" data-sfx-preview="combo3">3 COMBO</button><button type="button" data-sfx-preview="combo5">5 COMBO</button><button type="button" data-sfx-preview="combo10">10 COMBO</button><button type="button" data-sfx-preview="bossEnter">BOSS出現</button><button type="button" data-sfx-preview="boss">BOSS撃破</button><button type="button" data-sfx-preview="seal">熟練度</button><button type="button" data-sfx-preview="nemesis">NEMESIS</button><button type="button" data-sfx-preview="rival">RIVAL撃破</button><button type="button" data-sfx-preview="levelup">LEVEL UP</button><button type="button" data-sfx-preview="resultLow">低得点RESULT</button><button type="button" data-sfx-preview="resultGood">QUEST COMPLETE</button><button type="button" data-sfx-preview="bad">不正解</button></div><p class="sfx-note" id="sfxSessionStatus" aria-live="polite"></p><p class="sfx-note">ゲーム内BGMはありません。モバイル端末ではほかの音楽と混ざる設定を確認できない場合、効果音を自動で無効にします。消音モードでは鳴らないことがあります。Spotify・Apple Musicとの実機検証は別途必要です。</p></details>
 <section class="panel hidden" id="dopaDashboard" aria-label="ホーム">
  <h2 class="dopa-dashboard-title">今日の学習</h2>
  <p class="small">覚える・復習する・少しずつ積み上げる。</p>
  <div class="dopa-dashboard-grid">
   <div class="dopa-dash-stat"><span>復習待ち</span><strong id="dashDue">—</strong><span>カード課題</span></div>
+  <div class="dopa-dash-stat"><span>連続学習</span><strong id="dashStreak">0日</strong><span>5語／日で達成</span></div>
   <div class="dopa-dash-stat"><span>総XP</span><strong id="dashXp">—</strong><span>累計獲得</span></div>
-  <div class="dopa-dash-stat"><span>学習した語</span><strong id="dashSeen">—</strong><span>四択の記録</span></div>
  </div>
  <button id="dashReview" class="primary dopa-dash-main" type="button">今日の復習を始める →</button>
  <p class="small" id="dashStatus" aria-live="polite"></p>
+ <p class="dopa-dash-note" id="dashSeenLabel">四択で学習した語：<b id="dashSeen">—</b>語</p>
  <div class="dopa-dashboard-buttons"><button id="dashQuest" type="button">⚔ クエスト<br><small>四択で語彙を鍛へる</small></button><button id="dashCards" type="button">▣ 単語カード<br><small>自力で想起する</small></button></div>
- <div class="dopa-settings-section"><b>デイリーミッション</b><p class="small">ミッション・連続学習記録は次の更新で実装します。現在の学習履歴には変更を加へません。</p></div>
+ <div class="dopa-daily-area">
+  <div class="dopa-daily-head"><b>デイリーミッション</b><span id="dashMissionCount">0 / 3 達成</span></div>
+  <p class="dopa-dash-note">今日の学習は、四択と単語カードの両方から数へます。同じ語の繰返しでは増えません。</p>
+  <div id="dashMissionRows" class="dopa-daily-rows" aria-live="polite"></div>
+  <div class="dopa-daily-head" style="margin-top:15px"><b>直近7日間</b><span id="dashWeekly">—</span></div>
+  <div id="dashWeekBars" class="dopa-week-bars" aria-label="直近7日間の学習記録"></div>
+  <p class="dopa-dash-note" id="dashHistoryNotice">この機能の導入日以降の学習を記録します。</p>
+ </div>
 </section>
 <section class="panel hidden" id="dopaSettings" aria-label="設定"><h2 class="dopa-dashboard-title">設定・アカウント</h2><div id="dopaAccountSlot"></div><div id="dopaSoundSlot"></div><div id="dopaBackupSlot" class="dopa-settings-actions"></div></section><section id="dopa-v6" class="panel" style="padding:12px;border-color:#34516c">
   <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">
@@ -200,4 +230,4 @@ body.dopa-modern-mode #flashcardPanel:not(.hidden):not(:has(#flashStage:not(.hid
 <button type="button" data-dopa-route="quest"><span class="nav-symbol">⚔</span>クエスト</button>
 <button type="button" data-dopa-route="cards"><span class="nav-symbol">▤</span>カード</button>
 <button type="button" data-dopa-route="library"><span class="nav-symbol">▥</span>単語帳</button>
-</div></nav><div class="toast" id="toast"></div><script src="./firebase-config.js" defer></script><script src="./sound-fx.js" defer></script><script src="./study-details.js" defer></script><script src="./flashcards.js" defer></script><script src="./vocabulary-library.js" defer></script><script src="./dashboard.js" defer></script><script src="./bootstrap.js" defer></script></body></html>
+</div></nav><div class="toast" id="toast"></div><script src="./firebase-config.js" defer></script><script src="./sound-fx.js" defer></script><script src="./study-details.js" defer></script><script src="./flashcards.js" defer></script><script src="./vocabulary-library.js" defer></script><script src="./daily-progress.js" defer></script><script src="./dashboard.js" defer></script><script src="./bootstrap.js" defer></script></body></html>
