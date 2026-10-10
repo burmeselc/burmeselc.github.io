@@ -155,6 +155,14 @@
         burmese:burmeseSemantic,shan:shanSemantic
       });
     }catch(e){console.warn('Category 18 pilot unavailable; retaining first 17 domains',e)}
+    try{
+      const reviewResponse=await fetch('./data/study-details-literature-review-v1.json',{cache:'no-cache'});
+      if(!reviewResponse.ok)throw Error('literature review HTTP '+reviewResponse.status);
+      const reviewedBatch=await reviewResponse.json();
+      usableDetails=window.DOPAStudyDetails.extendReviewBatch(taxonomy,usableDetails,reviewedBatch,defaults,{
+        burmese:burmeseSemantic,shan:shanSemantic
+      });
+    }catch(e){console.warn('Literature/history review batch unavailable; retaining preceding details',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
