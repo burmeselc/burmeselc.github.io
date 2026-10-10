@@ -53,7 +53,7 @@ test('reviewed IDs, bilingual source glosses, 18 majors and 82 medium taxonomy r
     newIDs.add(row.id);
     assert.equal(engine.annotation(src,lang)?.medium,row.medium);
     assert.equal(engine.matches(src,lang,{medium:row.medium}),true);
-    assert.equal(engine.majorFor(src,lang),mids.get(row.medium));
+    assert.equal(engine.majorFor({...src,semantic_major:sem[0],semantic_status:sem[1]},lang),mids.get(row.medium));
     assert.equal(row.major_correction,mids.get(row.medium)!==sem[0]);
     if(row.major_correction)
      assert.deepEqual(final.major_corrections[lang][row.id],{from:sem[0],to:mids.get(row.medium)});
