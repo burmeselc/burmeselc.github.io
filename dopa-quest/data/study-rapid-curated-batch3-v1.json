@@ -1,0 +1,3818 @@
+{
+  "schema": "dopa-rapid-curated-batch3-v1",
+  "source_main": "174a29cedbfe77d6aa0343f6345833e9e32408f7",
+  "original_dictionary_verified": false,
+  "existing_cards_modified": 0,
+  "scope": "previously-unassigned-P-R-parent-cards-selected-from-bulk-278-proposals",
+  "basis": "semantic reading of stored Japanese and English glosses; independently verifying original lexicographic sources remains outstanding",
+  "counts": {
+    "proposals": 244,
+    "classified": 184,
+    "deferred": 60,
+    "burmese": 26,
+    "shan": 158,
+    "major_corrections": 131
+  },
+  "medium_counts": {
+    "01.01": 1,
+    "01.02": 2,
+    "01.03": 2,
+    "02.01": 4,
+    "02.02": 7,
+    "03.01": 6,
+    "03.02": 6,
+    "03.03": 3,
+    "03.04": 2,
+    "03.05": 1,
+    "04.01": 2,
+    "04.02": 1,
+    "04.03": 3,
+    "04.04": 2,
+    "05.01": 13,
+    "05.02": 3,
+    "05.04": 2,
+    "06.01": 6,
+    "06.03": 1,
+    "06.05": 1,
+    "07.01": 1,
+    "07.02": 2,
+    "07.03": 1,
+    "08.01": 2,
+    "08.02": 8,
+    "08.03": 1,
+    "08.04": 3,
+    "09.01": 1,
+    "09.02": 3,
+    "09.03": 2,
+    "09.04": 3,
+    "09.05": 5,
+    "10.02": 4,
+    "10.03": 1,
+    "10.04": 1,
+    "11.01": 4,
+    "11.02": 1,
+    "11.03": 3,
+    "12.01": 6,
+    "12.02": 3,
+    "12.03": 1,
+    "12.04": 5,
+    "12.06": 1,
+    "13.01": 4,
+    "13.04": 2,
+    "14.01": 5,
+    "14.02": 1,
+    "14.03": 2,
+    "15.01": 4,
+    "15.02": 2,
+    "15.03": 1,
+    "15.04": 5,
+    "16.01": 8,
+    "16.02": 7,
+    "16.03": 1,
+    "16.04": 5,
+    "17.01": 3,
+    "17.06": 1,
+    "17.07": 2,
+    "18.02": 1
+  },
+  "cards": {
+    "burmese": [
+      {
+        "id": "bur:1418859529357",
+        "word": "အာကာသယာဉ်",
+        "gloss": "宇宙船",
+        "english": "spaceship",
+        "legacy_major": "01",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1423654775394",
+        "word": "ရေညှိ",
+        "gloss": "海藻",
+        "english": "seaweed",
+        "legacy_major": "01",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1479418973217",
+        "word": "ရေပက်",
+        "gloss": "水をかける",
+        "english": "to splash water",
+        "legacy_major": "01",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1409408677918",
+        "word": "ထရံ",
+        "gloss": "竹編みの壁",
+        "english": "wall (made of bamboo matting)",
+        "legacy_major": "02",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1418855356266",
+        "word": "ငံပြာရည်",
+        "gloss": "魚醤、ナンプラー",
+        "english": "fish sauce",
+        "legacy_major": "02",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1418857110081",
+        "word": "ငါးပိ",
+        "gloss": "魚・エビの発酵ペースト、ンガピ",
+        "english": "shrimp paste",
+        "legacy_major": "02",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1453743099147",
+        "word": "ခြင်ထောင်",
+        "gloss": "蚊帳",
+        "english": "mosquito net",
+        "legacy_major": "02",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1456268247833",
+        "word": "သွေးစပ်",
+        "gloss": "混血の、異なる血統が混じった",
+        "english": "of mixed blood",
+        "legacy_major": "03",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1398090902336",
+        "word": "အလို",
+        "gloss": "必要、欲求",
+        "english": "need, desire (noun)",
+        "legacy_major": "04",
+        "medium": "04.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1470489383086",
+        "word": "ခုတ်",
+        "gloss": "切り刻む、斬る",
+        "english": "to hack, chop",
+        "legacy_major": "06",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1400455182772",
+        "word": "အနားယူ",
+        "gloss": "休む、休息する",
+        "english": "to take a rest",
+        "legacy_major": "08",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1403733017746",
+        "word": "နိုင်ငံသား",
+        "gloss": "国民、市民",
+        "english": "citizen (of a country)",
+        "legacy_major": "09",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1439693064469",
+        "word": "အမျိုးသားနေ့",
+        "gloss": "国民の日、ナショナル・デー",
+        "english": "National Day",
+        "legacy_major": "09",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1459472033951",
+        "word": "ဦးထင်ကျော်",
+        "gloss": "ティン・チョー（ミャンマー元大統領）",
+        "english": "Htin Kyaw (former president of Myanmar, 2016–2018)",
+        "legacy_major": "09",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1418855464776",
+        "word": "ခြံ",
+        "gloss": "庭、果樹園",
+        "english": "garden, orchard",
+        "legacy_major": "10",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1423654380021",
+        "word": "ပြိုင်",
+        "gloss": "競争する、競う",
+        "english": "to compete",
+        "legacy_major": "12",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1427593377498",
+        "word": "စိတ်ဓာတ်",
+        "gloss": "士気、気力、精神",
+        "english": "morale, spirit",
+        "legacy_major": "12",
+        "medium": "04.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1442438458933",
+        "word": "ထုတ်လုပ်သူ",
+        "gloss": "プロデューサー、製作者（映画など）",
+        "english": "producer (of a movie)",
+        "legacy_major": "12",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1398086798631",
+        "word": "တစ်ယောက်တည်း",
+        "gloss": "一人で",
+        "english": "alone",
+        "legacy_major": "14",
+        "medium": "14.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1397415120642",
+        "word": "မြစ်",
+        "gloss": "川（大きい）",
+        "english": "river (big)",
+        "legacy_major": "15",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1418855623937",
+        "word": "ငရုတ်ကောင်း",
+        "gloss": "黒こしょう",
+        "english": "black pepper",
+        "legacy_major": "15",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1560606875098",
+        "word": "ကြက်ခြေနီ",
+        "gloss": "赤十字",
+        "english": "Red Cross",
+        "legacy_major": "15",
+        "medium": "09.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1394981441841",
+        "word": "-လို",
+        "gloss": "副詞化接尾辞「〜のように、〜語で」",
+        "english": "adverbializing suffix",
+        "legacy_major": "17",
+        "medium": "17.07",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1403371715242",
+        "word": "ငယ်ငယ်တောက",
+        "gloss": "（私・あなた等が）幼いころ",
+        "english": "when (I, you...) was young",
+        "legacy_major": "17",
+        "medium": "14.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "bur:1423654405784",
+        "word": "-စွာ",
+        "gloss": "副詞化接尾辞",
+        "english": "adverbializer (literary style)",
+        "legacy_major": "17",
+        "medium": "17.07",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "bur:1481336496883",
+        "word": "အနာဂတ်",
+        "gloss": "未来",
+        "english": "future",
+        "legacy_major": "17",
+        "medium": "14.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      }
+    ],
+    "shan": [
+      {
+        "id": "shn:1783945285453",
+        "word": "လမ်ႇ",
+        "gloss": "深い（地面の穴など）",
+        "english": "be deep (as a hole made in the ground)",
+        "legacy_major": "01",
+        "medium": "15.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287384",
+        "word": "ၼမ်ႉယၢတ်ႇ",
+        "gloss": "（功徳として捧げる）献水",
+        "english": "water poured as a religious act, libation",
+        "legacy_major": "01",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287535",
+        "word": "ထတ်းၼမ်ႉ",
+        "gloss": "水を濾す、濾過する",
+        "english": "strain, filter water",
+        "legacy_major": "01",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287634",
+        "word": "မႃႇၼၢတ်ႈ",
+        "gloss": "魔王マーラ（宇宙の下層を支配する強力な悪霊）",
+        "english": "powerful evil spirit, who has power over all the lower parts of the universe （語源等：Pali）",
+        "legacy_major": "01",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287868",
+        "word": "ၵွၵ်းၼမ်ႉ",
+        "gloss": "水杓、水汲みカップ",
+        "english": "water dipper, water cup",
+        "legacy_major": "01",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288108",
+        "word": "ႁႅင်းလူမ်း",
+        "gloss": "風力",
+        "english": "strength of the wind",
+        "legacy_major": "01",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288198",
+        "word": "တဵၵ်းၼမ်ႉ",
+        "gloss": "水を汲む",
+        "english": "dip up, draw water (as from a well)",
+        "legacy_major": "01",
+        "medium": "08.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288426",
+        "word": "မေႃႈၼမ်ႉ",
+        "gloss": "水瓶",
+        "english": "water pot or jar",
+        "legacy_major": "01",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289009",
+        "word": "ၶူၵ်ႉၼမ်ႉ",
+        "gloss": "水車、水臼",
+        "english": "water mill",
+        "legacy_major": "01",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289085",
+        "word": "ၸုပ်ႉၼမ်ႉ",
+        "gloss": "水に浸して湿らせる",
+        "english": "moisten by putting into water",
+        "legacy_major": "01",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285888",
+        "word": "တႅတ်ႈ",
+        "gloss": "（風で草が倒れるように）押し潰される、平らになる",
+        "english": "be pressed, flattened, crushed, as grass by the wind, လူမ်ႉတႅတ်ႈ",
+        "legacy_major": "02",
+        "medium": "16.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286863",
+        "word": "သူၼ်မွၵ်ႇ",
+        "gloss": "花園、フラワーガーデン",
+        "english": "flower garden",
+        "legacy_major": "02",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286916",
+        "word": "ၵွင်ႉငူး",
+        "gloss": "蛇の毒",
+        "english": "venom from a snake",
+        "legacy_major": "02",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287992",
+        "word": "ၼမ်ႉပႃ",
+        "gloss": "魚醤、ナンプラー",
+        "english": "fish sauce",
+        "legacy_major": "02",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288149",
+        "word": "တိင်ႇတုမ်း",
+        "gloss": "竹の皮を弦にした竹製ハープ",
+        "english": "harp made of bamboo using the outer layer for strings",
+        "legacy_major": "02",
+        "medium": "12.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288491",
+        "word": "ယိုတ်ႈယႂ်ႇ",
+        "gloss": "成長する、大人になる",
+        "english": "grow, be grown (as a child into a youth)",
+        "legacy_major": "02",
+        "medium": "03.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288728",
+        "word": "သၢတ်ႇၽိဝ်",
+        "gloss": "竹の外皮で編んだござ",
+        "english": "mat made of the outer part of the bamboo",
+        "legacy_major": "02",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285731",
+        "word": "တဵင်ႇ",
+        "gloss": "頭の上に載せて運ぶ",
+        "english": "carry on the head",
+        "legacy_major": "03",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286483",
+        "word": "မဝ်းယႃႈ",
+        "gloss": "薬物で酔う",
+        "english": "be intoxicated with a drug",
+        "legacy_major": "03",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287102",
+        "word": "မိတ်ႈသုၺ်း",
+        "gloss": "腰に差す片刃の短剣",
+        "english": "single-edged dagger worn at the waist",
+        "legacy_major": "03",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287281",
+        "word": "ၵူမ်ႈ",
+        "gloss": "かがむ、頭や体を下げる",
+        "english": "stoop, bow head and body",
+        "legacy_major": "03",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287453",
+        "word": "ႁွပ်ႇဢုမ်ႈ",
+        "gloss": "腕で支える、抱える、腰にのせて運ぶ",
+        "english": "support or carry on one or both arms, carry on the hip",
+        "legacy_major": "03",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287928",
+        "word": "ၶွင်း",
+        "gloss": "頭、責任者（語源等：ビルマ語）",
+        "english": "head (as a person in charge) （語源等：Burmese）",
+        "legacy_major": "03",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288549",
+        "word": "လိူတ်ႈႁူဝ်ၸႂ်",
+        "gloss": "心の血（わが子を指す愛称）",
+        "english": "heart's blood, i.e., one's own child (an affectionate term for a child)",
+        "legacy_major": "03",
+        "medium": "05.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288990",
+        "word": "ၶိူင်",
+        "gloss": "膝や腰に巻く紐やワイヤーの飾り（シャン州の少数民族が着用）",
+        "english": "knee or waist ornaments of coils of cord or wire (worn by some ethnic groups in the Shan State)",
+        "legacy_major": "03",
+        "medium": "07.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289012",
+        "word": "ၶေႃးမေႃႈ",
+        "gloss": "壺の首の部分",
+        "english": "neck of a pot",
+        "legacy_major": "03",
+        "medium": "15.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289054",
+        "word": "ၶႃၵဵင်း",
+        "gloss": "三脚の足",
+        "english": "leg of a tripod",
+        "legacy_major": "03",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289081",
+        "word": "ၸုင်မိုဝ်း",
+        "gloss": "手を引いて導く",
+        "english": "lead by holding the hand",
+        "legacy_major": "03",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289269",
+        "word": "ႁူမ်ႇၼႃႈ",
+        "gloss": "顔を覆う（ベールなどで）",
+        "english": "cover the face (as with a veil)",
+        "legacy_major": "03",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285297",
+        "word": "တၢင်းၶႆႈၸႂ်",
+        "gloss": "思考、思いやり、配慮",
+        "english": "thought, thoughtfulness, consideration",
+        "legacy_major": "04",
+        "medium": "04.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945284328",
+        "word": "ႁွင်ႉဝႃႈ",
+        "gloss": "人に呼びかける、〜という名前で呼ぶ、〜と呼ばれる",
+        "english": "call to a person, call by name, be called",
+        "legacy_major": "05",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284781",
+        "word": "သုၼ်ႇလႆႈၵူၼ်း",
+        "gloss": "人権",
+        "english": "human rights",
+        "legacy_major": "05",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284850",
+        "word": "ၵေႃႉၼၼ်ႉ",
+        "gloss": "あの人",
+        "english": "that person",
+        "legacy_major": "05",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945284977",
+        "word": "ၼၢင်းၽီ",
+        "gloss": "女神",
+        "english": "female spiritual being, goddess",
+        "legacy_major": "05",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285019",
+        "word": "ၵေႃႉၼႆႉ",
+        "gloss": "この人",
+        "english": "this person",
+        "legacy_major": "05",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945285317",
+        "word": "ၵၢၼ်ၸိူဝ်ႉၸၢတ်ႈ",
+        "gloss": "民族運動、ナショナルムーブメント",
+        "english": "national movement, ethnic movement",
+        "legacy_major": "05",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286125",
+        "word": "တူဝ်ၵူၼ်း",
+        "gloss": "人間の体、人体",
+        "english": "human body",
+        "legacy_major": "05",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286562",
+        "word": "သၼ်ႇဝႆ",
+        "gloss": "老人のようにヨロヨロと震える",
+        "english": "tremble and shake unsteadily like an old man",
+        "legacy_major": "05",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286672",
+        "word": "ႁီ",
+        "gloss": "女性器、陰門",
+        "english": "female private parts, labia pudenda",
+        "legacy_major": "05",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286894",
+        "word": "ဢဵင်း",
+        "gloss": "真新しい（မႂ်ႇ と共に使われ、子供に対してのみ使われる）",
+        "english": "be brand new [used only with မႂ်ႇ , used only of children]",
+        "legacy_major": "05",
+        "medium": "15.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287493",
+        "word": "တူး",
+        "gloss": "（男児の）性器",
+        "english": "genitalia of a male child (used of children)",
+        "legacy_major": "05",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287569",
+        "word": "ပေႃႈၶၢမ်ႇ",
+        "gloss": "得度式の施主（見習い僧の費用の面倒を見る養父、代父のような存在）",
+        "english": "man who bears the expense of a boy entering the novitiate or the priesthood and thereby becomes his second father (as a godfather)",
+        "legacy_major": "05",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287946",
+        "word": "ၸဝ်ႈႁဝ်းၶႃႈ",
+        "gloss": "尊称（身分の高い人に対して用いる）",
+        "english": "term of respect used in addressing persons of higher rank",
+        "legacy_major": "05",
+        "medium": "17.06",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288335",
+        "word": "ပွင်ၼႃႈႁိူၼ်း",
+        "gloss": "家族の世話をする、家計（家事）の責任を負う",
+        "english": "care for one's family, undertake household responsibilities",
+        "legacy_major": "05",
+        "medium": "05.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945284696",
+        "word": "ထၢၼ်",
+        "gloss": "オウギヤシ、砂糖ヤシ",
+        "english": "sugar palm, toddy palm",
+        "legacy_major": "06",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286303",
+        "word": "မဝ်းလဝ်ႈ",
+        "gloss": "酒に酔う",
+        "english": "be intoxicated with alcohol",
+        "legacy_major": "06",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287387",
+        "word": "ၼမ်ႉသူမ်ႈ",
+        "gloss": "酸味のある液体",
+        "english": "sour liquid",
+        "legacy_major": "06",
+        "medium": "06.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288042",
+        "word": "ၽၵ်ႉ",
+        "gloss": "細かく刻む、叩き切る",
+        "english": "mince, chop",
+        "legacy_major": "06",
+        "medium": "06.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288542",
+        "word": "လိဝ်း",
+        "gloss": "顔をしかめる（酸っぱいものを食べた時など）",
+        "english": "wrinkle the face (as when tasting something sour)",
+        "legacy_major": "06",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288714",
+        "word": "သဵင်ဝၢၼ်",
+        "gloss": "甘い音、心地よい声",
+        "english": "sweet sound",
+        "legacy_major": "06",
+        "medium": "15.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287096",
+        "word": "ပႂ်း",
+        "gloss": "覆う、着る、身につける",
+        "english": "cover with, dress, wear",
+        "legacy_major": "07",
+        "medium": "07.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286066",
+        "word": "ဢၢပ်ႇၼမ်ႉ",
+        "gloss": "洗う、入浴する、体を水で洗う",
+        "english": "wash, bathe, as the body with water",
+        "legacy_major": "08",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287819",
+        "word": "ဢၢပ်ႇ",
+        "gloss": "洗う、入浴する、体を水で洗う",
+        "english": "wash, bathe, as the body with water",
+        "legacy_major": "08",
+        "medium": "03.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288589",
+        "word": "လေႉ",
+        "gloss": "練習する、習慣にする",
+        "english": "practice, have the habit of doing",
+        "legacy_major": "08",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288597",
+        "word": "လွင်ႈယူႇလွင်ႈၵိၼ်",
+        "gloss": "暮らしぶり、生活手段",
+        "english": "way of living, livelihood",
+        "legacy_major": "08",
+        "medium": "08.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945283898",
+        "word": "ၵူၼ်းမိူင်း",
+        "gloss": "国民、市民",
+        "english": "person from a particular country, citizen, citizens",
+        "legacy_major": "09",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284050",
+        "word": "ၵူၼ်းဝၢၼ်ႈ",
+        "gloss": "村人",
+        "english": "village people, villager",
+        "legacy_major": "09",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285753",
+        "word": "ဝေႃး",
+        "gloss": "王室用などの輿（こし）",
+        "english": "state palanquin",
+        "legacy_major": "09",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285982",
+        "word": "တေႃႇလူင်",
+        "gloss": "シャン州の統治者、領主（尊称）",
+        "english": "ruling prince in the Shan State, reverential",
+        "legacy_major": "09",
+        "medium": "09.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286032",
+        "word": "လိုဝ်ႉ",
+        "gloss": "ルー族（シャン州とラオスの国境付近に住むタイ系民族）",
+        "english": "Lü (name for a Tai racial group from the border areas of Shan State and Laos,",
+        "legacy_major": "09",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286324",
+        "word": "ယူၼ်း",
+        "gloss": "ユーン族（シャン州とタイの国境付近の人々）、時としてラーオ族",
+        "english": "Yon (people from the regions in the border area between Shan State and Thailand), sometimes Lao",
+        "legacy_major": "09",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287199",
+        "word": "ဝၢၼ်ႈၼွၵ်ႈၼႃးပၢင်ႇ",
+        "gloss": "農村地帯、田舎",
+        "english": "rural area, country side",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287740",
+        "word": "ဝၢၼ်ႈၼွၵ်ႈ",
+        "gloss": "田舎の村",
+        "english": "country village",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945289287",
+        "word": "ႁဵတ်းဝၢတ်ႈ",
+        "gloss": "義務や職務を遂行する",
+        "english": "perform duty, obligation",
+        "legacy_major": "09",
+        "medium": "09.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945285783",
+        "word": "ႁိူဝ်ႉ",
+        "gloss": "疲れる、疲労する（労働や運動で）",
+        "english": "be weary, tired, fatigued with labor or exercise",
+        "legacy_major": "10",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285919",
+        "word": "လဵင်း",
+        "gloss": "財産、商品、衣類（ၶူဝ်း と共に ၶူဝ်းလဵင်း として使用）",
+        "english": "property, goods, clothing [used with ၶူဝ်း , ၶူဝ်းလဵင်း ]",
+        "legacy_major": "10",
+        "medium": "10.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286893",
+        "word": "ဢူးယဵၼ်ႇ",
+        "gloss": "果樹園、花園、庭園",
+        "english": "enclosure of fruit trees, or flowers, orchard, garden, （語源等：Pali）",
+        "legacy_major": "10",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945289043",
+        "word": "ၶၢႆတူဝ်",
+        "gloss": "体を売る、売春する",
+        "english": "sell one's body, prostitute oneself",
+        "legacy_major": "10",
+        "medium": "10.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286421",
+        "word": "ႁိင်ႇ",
+        "gloss": "鈴、鐘（金属製）",
+        "english": "bell of metal",
+        "legacy_major": "11",
+        "medium": "11.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287254",
+        "word": "ဢူႉ",
+        "gloss": "朽ちている、腐っている（木材のように）",
+        "english": "be decayed, rotten (as wood),",
+        "legacy_major": "11",
+        "medium": "15.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284115",
+        "word": "ၽႃး",
+        "gloss": "低木の一種（その葉を精霊に捧げる、 မွၵ်ႇ と共に用いられる）",
+        "english": "kind of shrub, whose leaves are offered to the spirits [used with မွၵ်ႇ ]",
+        "legacy_major": "12",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284431",
+        "word": "ထုင်း",
+        "gloss": "先例、やり方、慣習、伝統、作法 （語源等：Burmese）",
+        "english": "precedent, way, custom, tradition, manner （語源等：Burmese）",
+        "legacy_major": "12",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945284654",
+        "word": "ပၢင်ပွႆး",
+        "gloss": "祭り会場、催し物会場",
+        "english": "fairground, place where a celebration takes place",
+        "legacy_major": "12",
+        "medium": "12.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945285909",
+        "word": "ယွၵ်ႇ",
+        "gloss": "からかう、冗談を言う、いたずらする",
+        "english": "play, joke, banter, play tricks",
+        "legacy_major": "12",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286948",
+        "word": "ၶေႉၶဵင်ႇ",
+        "gloss": "競い合う、競争する",
+        "english": "contend in rivalry, compete",
+        "legacy_major": "12",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287594",
+        "word": "မင်းၸႅၼ်ႇ",
+        "gloss": "統治者や役人の歴史（語源等：ビルマ語）",
+        "english": "history of rulers and officials （語源等：Burmese）",
+        "legacy_major": "12",
+        "medium": "12.06",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287648",
+        "word": "ယဝ်ႉယွၵ်ႇ",
+        "gloss": "からかう、冗談を言う",
+        "english": "tease playfully, joke, banter",
+        "legacy_major": "12",
+        "medium": "12.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288677",
+        "word": "သပျေႇ",
+        "gloss": "フトモモ科の木（サジャなど）、その葉は仏教の供物として使われる",
+        "english": "eugenia tree, whose leaves are used as a religious offering （語源等：Burmese）",
+        "legacy_major": "12",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284222",
+        "word": "လဵပ်ႈႁဵၼ်း",
+        "gloss": "研究する、視察する、見学する（任務に就く前などに）",
+        "english": "study, make an observation (as before taking on an assignment)",
+        "legacy_major": "13",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287432",
+        "word": "ႁပ်ႉတွၼ်ႈ",
+        "gloss": "歓迎する、うやうやしく挨拶する",
+        "english": "welcome, greet ceremoniously",
+        "legacy_major": "13",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287520",
+        "word": "တၵ်ႉလၢတ်ႈ",
+        "gloss": "直接会って挨拶する",
+        "english": "greet one another personally",
+        "legacy_major": "13",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287680",
+        "word": "လမ်ႈ",
+        "gloss": "（東部方言で）家",
+        "english": "eastern dialect house",
+        "legacy_major": "13",
+        "medium": "08.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288904",
+        "word": "ၵဵၵ်ႉ",
+        "gloss": "門、検問所、衛兵所（語源：英語）",
+        "english": "gate, sentinel post （語源等：English）",
+        "legacy_major": "13",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287922",
+        "word": "ၶူႇ",
+        "gloss": "ハンセン病の（語源等：ビルマ語）",
+        "english": "be leprous, （語源等：Burmese）",
+        "legacy_major": "13",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287066",
+        "word": "ထၢတ်ႈတေႃႇ",
+        "gloss": "仏舎利、釈迦の遺骨 （語源等：ビルマ語）",
+        "english": "relics of the Buddha's body （語源等：Burmese）",
+        "legacy_major": "13",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287100",
+        "word": "မင်းသႃး",
+        "gloss": "王子（語源等：ビルマ語）",
+        "english": "prince, （語源等：Burmese）",
+        "legacy_major": "13",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287414",
+        "word": "ၽေႃႉ",
+        "gloss": "コルク（語源等：ビルマ語）",
+        "english": "cork, （語源等：Burmese）",
+        "legacy_major": "13",
+        "medium": "11.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288284",
+        "word": "ထွင်ႉ",
+        "gloss": "角（かど）、コーナー （語源等：ビルマ語）",
+        "english": "corner, （語源等：Burmese）",
+        "legacy_major": "13",
+        "medium": "14.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284597",
+        "word": "ၵူဝ်း",
+        "gloss": "頼る、依存する（語源：ビルマ語）",
+        "english": "depend on （語源等：Burmese）",
+        "legacy_major": "13",
+        "medium": "16.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285155",
+        "word": "ဝဵင်းၼမ်ႉၶမ်း",
+        "gloss": "ナムカム（中国国境近くの町）",
+        "english": "Namkham (town near the Chinese border )",
+        "legacy_major": "14",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285353",
+        "word": "ၶႃႇ",
+        "gloss": "囲炉裏の上に吊るす枠（肉などを燻製にするためのもの）",
+        "english": "frame, as frame suspended over the fireplace for smoking meat, etc.",
+        "legacy_major": "14",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285410",
+        "word": "ပၼ်ဝႆႉ",
+        "gloss": "（人や場所に）預ける、託す",
+        "english": "commit for keeping to some person or place",
+        "legacy_major": "14",
+        "medium": "16.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286067",
+        "word": "ဢၼ်လဵဝ်ၵၼ်",
+        "gloss": "まったく同一のもの",
+        "english": "one and the same thing",
+        "legacy_major": "14",
+        "medium": "18.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286087",
+        "word": "ၶၢႆႉတီႈ",
+        "gloss": "場所を移る、移転する",
+        "english": "change place, relocate",
+        "legacy_major": "14",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286264",
+        "word": "တိုင်း",
+        "gloss": "水の深い場所（山の流れが穏やかになった淵など）",
+        "english": "deep place in a body of water (as in the bend of a mountain stream where the water is calm)",
+        "legacy_major": "14",
+        "medium": "01.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286768",
+        "word": "မိူင်းၵုတ်ႈ",
+        "gloss": "モゴク（ルビーやサファイアの鉱山で知られるモンミッ南方の地）",
+        "english": "Möng Gut, or Mogok in Burmese (a Shan principality south of Möng Mit, known for its ruby and sapphire mines)",
+        "legacy_major": "14",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287344",
+        "word": "ၶၼ်ႇထႃႇ",
+        "gloss": "色身（しきしん）、五蘊（ごうん）からなる身体（語源等：パーリ語）",
+        "english": "living animal body (as the aggregate of the five elements or attributes of being), （語源等：Pali）",
+        "legacy_major": "14",
+        "medium": "12.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287576",
+        "word": "ပွင်ႈမႆႉ",
+        "gloss": "竹の節の間",
+        "english": "part between two joints of a bamboo",
+        "legacy_major": "14",
+        "medium": "15.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287852",
+        "word": "ၵူၼ်းၼွၵ်ႈ",
+        "gloss": "外部の人、余所者",
+        "english": "outside person, outsider",
+        "legacy_major": "14",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288143",
+        "word": "တပ်ႉၽွမ်ႉႁူမ်ႈ",
+        "gloss": "連合軍、統一戦線",
+        "english": "allied troops, united front (as troops)",
+        "legacy_major": "14",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288203",
+        "word": "တွင်ႇဢူႇ",
+        "gloss": "タウングー（ペグー北方の町）",
+        "english": "Taungoo (a town north of Pegu) （語源等：Burmese）",
+        "legacy_major": "14",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288336",
+        "word": "ပွင်ႈတိၼ်",
+        "gloss": "足の指の関節の間",
+        "english": "parts between the joints of the toes",
+        "legacy_major": "14",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288337",
+        "word": "ပွင်ႈမိုဝ်း",
+        "gloss": "指の関節の間",
+        "english": "parts between the joints of the fingers",
+        "legacy_major": "14",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288612",
+        "word": "လွႆႉ",
+        "gloss": "百（金銭）",
+        "english": "hundred (as money)",
+        "legacy_major": "14",
+        "medium": "14.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945289234",
+        "word": "ၽၵ်းၵုမ်ႇ",
+        "gloss": "フウチョウボクの一種（三枚葉のギョリュウバイ）",
+        "english": "three-leaved caper",
+        "legacy_major": "14",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945284268",
+        "word": "ဝူင်း",
+        "gloss": "（天体の）輝き、光輝、光輪",
+        "english": "brightness, brilliancy of a heavenly body,",
+        "legacy_major": "15",
+        "medium": "15.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945284816",
+        "word": "သိူဝ်ၽိူၵ်ႇ",
+        "gloss": "白虎",
+        "english": "white tiger",
+        "legacy_major": "15",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285818",
+        "word": "ယၢင်းၽိူၵ်ႇ",
+        "gloss": "白カレン族",
+        "english": "White Karen",
+        "legacy_major": "15",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286027",
+        "word": "ယၢင်းလႅင်",
+        "gloss": "赤カレン族、カヤー族、カレンニー族",
+        "english": "Red Karen, Kayah, Karenni",
+        "legacy_major": "15",
+        "medium": "05.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286385",
+        "word": "ၵႅဝ်း",
+        "gloss": "（目に）白い膜ができる、白内障になる（တႃၵႅဝ်း）",
+        "english": "have a white film or cataract form on the eye, တႃၵႅဝ်း",
+        "legacy_major": "15",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286498",
+        "word": "မၼ်းၵွင်",
+        "gloss": "皮の非常に薄いサツマイモ",
+        "english": "very thin-skinned sweet potato",
+        "legacy_major": "15",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286670",
+        "word": "ႁိုင်ၼၢၼ်း",
+        "gloss": "（時間が）長い、久しい",
+        "english": "be long in time, whether past or future",
+        "legacy_major": "15",
+        "medium": "14.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286731",
+        "word": "ထေႃး",
+        "gloss": "象で荷物を運ぶために使う細長い籠、グイトー",
+        "english": "long, narrow basket used for carrying merchandise on an elephant, ၵူၺ်ထေႃး",
+        "legacy_major": "15",
+        "medium": "11.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286818",
+        "word": "လိၼ်လႅင်",
+        "gloss": "ベンガラ、赤土",
+        "english": "red ochre, red earth",
+        "legacy_major": "15",
+        "medium": "01.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286954",
+        "word": "ၶၢမ်",
+        "gloss": "白ナツメ",
+        "english": "white jujube, မၢၵ်ႇၶၢမ်",
+        "legacy_major": "15",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286993",
+        "word": "ၼႃႈၼမ်",
+        "gloss": "顔が広い、友人が多い（良い意味では如才ない、悪い意味では奔放な）",
+        "english": "have many friends (used in a good sense, as of a clever person, or in a bad sense, as of a promiscuous person)",
+        "legacy_major": "15",
+        "medium": "15.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287231",
+        "word": "သၢႆတႃလီ",
+        "gloss": "視力が良い",
+        "english": "be sharp-sighted, have good eyesight",
+        "legacy_major": "15",
+        "medium": "03.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287242",
+        "word": "ဢိုင်",
+        "gloss": "底が四角で上が丸い大きな編みかご",
+        "english": "large wicker basket, four cornered at the bottom and round at the top",
+        "legacy_major": "15",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287533",
+        "word": "ထင်ၵိၼ်",
+        "gloss": "長い時間をかけて食べる",
+        "english": "be a long time in eating",
+        "legacy_major": "15",
+        "medium": "14.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287589",
+        "word": "ပႄႉၵိၼ်",
+        "gloss": "威張る、主人ぶる（小さい子をいじめる大きな子のように）、いじめる",
+        "english": "domineer, play the master (as a big boy with little ones), bully",
+        "legacy_major": "15",
+        "medium": "05.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287618",
+        "word": "မွႆ",
+        "gloss": "体の短い毛（脇毛など）",
+        "english": "short hair about parts of the body (as in the armpits)",
+        "legacy_major": "15",
+        "medium": "03.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287961",
+        "word": "ၸွင်ႈၽိူၵ်ႇ",
+        "gloss": "白い傘",
+        "english": "white umbrella",
+        "legacy_major": "15",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287978",
+        "word": "ၸႂ်ပွတ်း",
+        "gloss": "怒りっぽい、気が短い、すぐへそを曲げる",
+        "english": "be irritable, easily offended, short-tempered",
+        "legacy_major": "15",
+        "medium": "04.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288014",
+        "word": "ၼၵ်းၸႂ်",
+        "gloss": "悩む、心が重い",
+        "english": "be distressed, heavy-hearted",
+        "legacy_major": "15",
+        "medium": "04.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288139",
+        "word": "တင်ႈၸႂ်တင်ႈၶေႃး",
+        "gloss": "強い決意を持つ、心に決める",
+        "english": "be strong, determined in one's feelings",
+        "legacy_major": "15",
+        "medium": "04.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288243",
+        "word": "တႃမူဝ်း",
+        "gloss": "目がかすむ、視力が悪い",
+        "english": "be unable to see clearly, have bad eyesight",
+        "legacy_major": "15",
+        "medium": "03.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288447",
+        "word": "မၢၵ်ႇၶၢမ်",
+        "gloss": "白ナツメ、野生のスグリ",
+        "english": "white jujube, wild gooseberry",
+        "legacy_major": "15",
+        "medium": "02.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288645",
+        "word": "ဝူဝ်းၵႃ",
+        "gloss": "真っ黒な毛色の牛",
+        "english": "ox of rich black color",
+        "legacy_major": "15",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288646",
+        "word": "ဝူၺ်",
+        "gloss": "長い柄のついた水杓",
+        "english": "water dipper having a long handle,",
+        "legacy_major": "15",
+        "medium": "08.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288673",
+        "word": "ဝႆႉၸႂ်ၶႅင်",
+        "gloss": "強い意志を持つ、動じない、肝を据える",
+        "english": "have strong feelings, be unshaken, have a strong stomach",
+        "legacy_major": "15",
+        "medium": "04.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288976",
+        "word": "ၶဝ်ႈသႅင်",
+        "gloss": "黒米、黒もち米",
+        "english": "black kind of rice, black glutinous rice",
+        "legacy_major": "15",
+        "medium": "06.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289100",
+        "word": "ၸၢင်ႉ ၽိူၵ်ႇ",
+        "gloss": "白象",
+        "english": "white elephant",
+        "legacy_major": "15",
+        "medium": "02.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285337",
+        "word": "လိုဝ်းလင်",
+        "gloss": "名声を得る、有名な、名高い",
+        "english": "acquire notoriety, fame, be famous, well-known",
+        "legacy_major": "16",
+        "medium": "15.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285503",
+        "word": "ၶိုၼ်ႈႁူင်းႁဵၼ်း",
+        "gloss": "通学する、学校に行く",
+        "english": "go attend school, go to one's school,",
+        "legacy_major": "16",
+        "medium": "13.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945285924",
+        "word": "လႅင်းသႂ်",
+        "gloss": "澄み切っている、清らかな光を放つ",
+        "english": "be clear, give a pure light (as early morning)",
+        "legacy_major": "16",
+        "medium": "15.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286011",
+        "word": "ပႃးၵႂႃႇ",
+        "gloss": "連れて行く、一緒に行く",
+        "english": "accompany, be with in going",
+        "legacy_major": "16",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286013",
+        "word": "ပႅင်းၸင်း",
+        "gloss": "嫌悪感を抱く、恨みを持つ",
+        "english": "cherish a dislike of a person, hold a grudge",
+        "legacy_major": "16",
+        "medium": "04.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945286060",
+        "word": "ဢဝ်ၵႂႃႇ",
+        "gloss": "持って行く、運び去る",
+        "english": "take and go, take away, carry away",
+        "legacy_major": "16",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286853",
+        "word": "သင်ႇလၢတ်ႈ",
+        "gloss": "指示を与える、指図する",
+        "english": "give instructions, direct by instructions",
+        "legacy_major": "16",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287446",
+        "word": "ႁဵတ်းတူဝ်",
+        "gloss": "尊大ぶる、気取る、根拠のないふりをする",
+        "english": "be assuming, put on airs, make baseless pretensions",
+        "legacy_major": "16",
+        "medium": "05.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287700",
+        "word": "လူမ်းယဵၼ်",
+        "gloss": "穏やかである、風が止まる、凪ぐ",
+        "english": "be calm, without wind, lull",
+        "legacy_major": "16",
+        "medium": "01.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945287725",
+        "word": "လႆႈလိၵ်ႈ",
+        "gloss": "手紙を受け取る",
+        "english": "receive a letter, ႁပ်ႉလႆႈလိၵ်ႈ",
+        "legacy_major": "16",
+        "medium": "16.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945287817",
+        "word": "ဢွၼ်ၵႂႃႇ",
+        "gloss": "先導して行く、導いて連れて行く",
+        "english": "take the lead in going, lead and go, lead to go",
+        "legacy_major": "16",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288314",
+        "word": "ပူၵ်ႈ",
+        "gloss": "（鍬などで）耕す、打つ",
+        "english": "strike forward and downward (as in hoeing), hoe",
+        "legacy_major": "16",
+        "medium": "10.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288363",
+        "word": "ပၼ်သူး",
+        "gloss": "恩賞を与える、報奨を与える",
+        "english": "confer a favor, give a reward",
+        "legacy_major": "16",
+        "medium": "16.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288478",
+        "word": "မႅၼ်း",
+        "gloss": "突き出ている、突出した",
+        "english": "stick up or out, be protuberant",
+        "legacy_major": "16",
+        "medium": "15.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288637",
+        "word": "လႆႈၼႃႈ",
+        "gloss": "励まされる、寵愛を受ける、特権を得る",
+        "english": "receive encouragement, obtain favor, be privileged",
+        "legacy_major": "16",
+        "medium": "16.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288672",
+        "word": "ဝႆႉၵၢင်",
+        "gloss": "番所を置く、衛兵を配置する",
+        "english": "establish a sentry or guard station",
+        "legacy_major": "16",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288689",
+        "word": "သိူၼ်ႈ",
+        "gloss": "無能である、賢くない",
+        "english": "be somewhat incapable, not clever in mind (and show it by action)",
+        "legacy_major": "16",
+        "medium": "15.04",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288772",
+        "word": "ဢဝ်ၽူဝ်",
+        "gloss": "夫を持つ、結婚する",
+        "english": "take a husband, get married",
+        "legacy_major": "16",
+        "medium": "05.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945288940",
+        "word": "ၵႂႃႇၸႂ်း",
+        "gloss": "訪問する、お見舞いに行く",
+        "english": "visit,",
+        "legacy_major": "16",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945288960",
+        "word": "ၵႅတ်းၶူၼ်ႁူဝ်",
+        "gloss": "散髪する、髪を切る",
+        "english": "cut the hair",
+        "legacy_major": "16",
+        "medium": "07.03",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289088",
+        "word": "ၸူဝ်းၵႂႃႇ",
+        "gloss": "誘って連れて行く、行くように仕向ける",
+        "english": "persuade to follow, tempt to go,",
+        "legacy_major": "16",
+        "medium": "16.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945289102",
+        "word": "ၸၢတ်ႇ",
+        "gloss": "撒き散らす、放り投げる、種をまく",
+        "english": "scatter, throw about, sow seed",
+        "legacy_major": "16",
+        "medium": "16.02",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945284854",
+        "word": "ႁင်းၵူၺ်း",
+        "gloss": "再帰代名詞に似ているが、動作が主語によって一切の助けを借りずに行われていることを示す",
+        "english": "similar to the reflexive pronoun, but denoting that the action is being done by the subject without any assistance, used with a personal pronoun, as",
+        "legacy_major": "17",
+        "medium": "17.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945285664",
+        "word": "ႁင်းမၼ်း",
+        "gloss": "彼自身で、彼自身の力で、それ自身の力で",
+        "english": "by himself, on his own, on its own",
+        "legacy_major": "17",
+        "medium": "17.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      },
+      {
+        "id": "shn:1783945286899",
+        "word": "ဢၼႃႇၵၢတ်ႈ",
+        "gloss": "未来、将来",
+        "english": "future, futurity （語源等：Pali）",
+        "legacy_major": "17",
+        "medium": "14.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": true
+      },
+      {
+        "id": "shn:1783945289246",
+        "word": "ႁင်းမၼ်းၵူၺ်း",
+        "gloss": "彼一人だけで、独力で、単独で",
+        "english": "only by himself, by himself alone, alone on his own, on its very own",
+        "legacy_major": "17",
+        "medium": "17.01",
+        "tags": {
+          "semantic_type": [],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "original_dictionary_verified": false,
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "source_basis": "Japanese gloss and embedded English definition, selected by meaning rather than keyword-match",
+        "major_correction": false
+      }
+    ]
+  },
+  "deferred_keyword_candidates": [
+    {
+      "id": "shn:1783945284185",
+      "suggested_by_keywords": "01.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286966",
+      "suggested_by_keywords": "01.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286009",
+      "suggested_by_keywords": "02.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1506461960054",
+      "suggested_by_keywords": "03.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284210",
+      "suggested_by_keywords": "03.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284795",
+      "suggested_by_keywords": "03.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285044",
+      "suggested_by_keywords": "03.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286390",
+      "suggested_by_keywords": "03.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286985",
+      "suggested_by_keywords": "03.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287361",
+      "suggested_by_keywords": "03.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284493",
+      "suggested_by_keywords": "04.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1453830303133",
+      "suggested_by_keywords": "05.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286085",
+      "suggested_by_keywords": "05.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287703",
+      "suggested_by_keywords": "05.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287805",
+      "suggested_by_keywords": "05.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945288781",
+      "suggested_by_keywords": "05.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285165",
+      "suggested_by_keywords": "06.03",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285858",
+      "suggested_by_keywords": "06.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1403374524495",
+      "suggested_by_keywords": "07.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284704",
+      "suggested_by_keywords": "08.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284707",
+      "suggested_by_keywords": "08.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286293",
+      "suggested_by_keywords": "08.03",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1480673316125",
+      "suggested_by_keywords": "09.03",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1498926775361",
+      "suggested_by_keywords": "09.05",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285935",
+      "suggested_by_keywords": "09.05",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286578",
+      "suggested_by_keywords": "09.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287710",
+      "suggested_by_keywords": "09.03",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945288522",
+      "suggested_by_keywords": "09.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945288622",
+      "suggested_by_keywords": "10.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1479418868657",
+      "suggested_by_keywords": "12.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284130",
+      "suggested_by_keywords": "12.05",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287903",
+      "suggested_by_keywords": "12.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1394981479872",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284004",
+      "suggested_by_keywords": "13.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284507",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285660",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286284",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286995",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287064",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945287857",
+      "suggested_by_keywords": "13.05",
+      "decision": "hold",
+      "reason": "etymology_or_dialect_annotation_is_not_language_name",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285535",
+      "suggested_by_keywords": "14.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285878",
+      "suggested_by_keywords": "14.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945289313",
+      "suggested_by_keywords": "14.02",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1396908311292",
+      "suggested_by_keywords": "15.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945283949",
+      "suggested_by_keywords": "15.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286721",
+      "suggested_by_keywords": "15.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1481851451722",
+      "suggested_by_keywords": "16.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285823",
+      "suggested_by_keywords": "16.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945288467",
+      "suggested_by_keywords": "16.01",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1397413954870",
+      "suggested_by_keywords": "17.07",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945286508",
+      "suggested_by_keywords": "17.07",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945285634",
+      "suggested_by_keywords": "18.04",
+      "decision": "hold",
+      "reason": "keyword_pattern_does_not_establish_unique_semantic_scope",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1404084354159",
+      "suggested_by_keywords": "14.01",
+      "decision": "hold",
+      "reason": "cross_scope_parent_definition",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "bur:1398091624287",
+      "suggested_by_keywords": "18.03",
+      "decision": "hold",
+      "reason": "category18_prior_explicit_source_review_hold",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284744",
+      "suggested_by_keywords": "05.02",
+      "decision": "hold",
+      "reason": "kinship_and_nonkinship_usage_not_separated",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284329",
+      "suggested_by_keywords": "14.04",
+      "decision": "hold",
+      "reason": "cross_scope_parent_definition",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284492",
+      "suggested_by_keywords": "18.04",
+      "decision": "hold",
+      "reason": "detailed_scope_requires_definition_review",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284725",
+      "suggested_by_keywords": "16.01",
+      "decision": "hold",
+      "reason": "detailed_scope_requires_definition_review",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284422",
+      "suggested_by_keywords": "18.03",
+      "decision": "hold",
+      "reason": "category18_prior_explicit_source_review_hold",
+      "independent_dictionary_verified": false
+    },
+    {
+      "id": "shn:1783945284943",
+      "suggested_by_keywords": "18.01",
+      "decision": "hold",
+      "reason": "category18_prior_explicit_source_review_hold",
+      "independent_dictionary_verified": false
+    }
+  ]
+}
