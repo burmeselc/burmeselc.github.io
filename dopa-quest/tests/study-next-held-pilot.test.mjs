@@ -77,7 +77,7 @@ test('a stale source, tag, domain or claimed deferral fails closed',()=>{
   ()=>extendNextHeld(taxonomy,prior,bad,original,semantic),re);};
  check(x=>x.cards.burmese[0].english+=' altered',/Stale next held/);
  check(x=>x.cards.shan[0].tags.feature=['nonexistent'],/Invalid next held tag/);
- check(x=>x.cards.burmese[0].medium='13.01',/Invalid next held pilot entry/);
+ check(x=>x.cards.burmese[0].medium='13.01',/Invalid next held category totals/);
  check(x=>x.cards.shan.push(copy(x.cards.burmese[0])),/inventory mismatch/);
  check(x=>{x.deferred[0].medium='13.01';},/Invalid next held deferred/);
  check(x=>{x.cards.shan[0].id=x.cards.shan[1].id;},/Stale next held/);
