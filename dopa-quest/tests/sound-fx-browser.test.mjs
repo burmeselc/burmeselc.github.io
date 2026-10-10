@@ -11,8 +11,7 @@ test('Chromium mobile sound settings preview, persistence and classic Shan gamep
    await page.waitForFunction(()=>window.DOPA_SYNC_API?.snapshot&&window.DOPASound?.play);
    await page.locator('#soundSettings summary').click();
    await page.locator('#sfxPreset').selectOption('flashy');
-   await page.locator('#sfxVolume').fill('40');
-   await page.locator('#sfxVolume').dispatchEvent('input');
+   await page.locator('#sfxVolume').evaluate(el=>{el.value='40';el.dispatchEvent(new Event('input',{bubbles:true}))});
    const value=await page.evaluate(()=>({profile:JSON.parse(localStorage.getItem('dopaQuestV5_profile')),caption:document.querySelector('#sfxVolumeValue').textContent}));
    assert.equal(value.profile.sfxStyle,'flashy');
    assert.equal(value.profile.sfxVolume,40);
