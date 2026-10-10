@@ -50,7 +50,7 @@ test('33 conservative parent annotations preserve choice safety and previous cov
  for(const row of batch.accepted){
   const x=decks[row.language].find(z=>z.id===row.id);
   assert.equal(engine.annotation(x,row.language)?.medium,row.medium);
-  assert.equal(engine.majorFor(x,row.language),row.medium.slice(0,2));
+  assert.equal(engine.majorFor({...x,semantic_major:semantic[row.language].cards[x.id][0],semantic_status:semantic[row.language].cards[x.id][1]},row.language),row.medium.slice(0,2));
   assert.equal(engine.annotation({...x,japanese_core:'tampered'},row.language),null);
   for(const y of decks[row.language])if(y.id!==x.id&&y.japanese_core===x.japanese_core&&engine.annotation(y,row.language))
    assert.equal(engine.canContrast(x,y,row.language),false);
