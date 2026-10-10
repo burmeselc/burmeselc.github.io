@@ -62,7 +62,7 @@ test('seven small-category drafts are unique, nested, optional and never forced 
  assert.equal(new Set(small.categories.map(x=>x.id)).size,7);
  for(const sub of small.categories){
   assert.equal(sub.status,'design-only');
-  assert.ok(/^\\d{2}\\.\\d{2}\\.\\d{2}$/.test(sub.id));
+  assert.ok(/^\d{2}\.\d{2}\.\d{2}$/.test(sub.id));
   assert.equal(sub.id.slice(0,5),sub.medium);
   assert.ok(engine.mediums.has(sub.medium));
   assert.equal(sub.id in metadata.medium_counts.shan,false);
