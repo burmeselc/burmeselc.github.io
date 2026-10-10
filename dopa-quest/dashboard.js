@@ -68,6 +68,12 @@
    visibility('quest');route='library';
    if(root.DOPA_VOCAB_UI)root.DOPA_VOCAB_UI.open();
   }
+  // The card/library panels are launched after the quest layout is reset.
+  // Reflect the actual destination, never the temporary quest route.
+  nav.querySelectorAll('[data-dopa-route]').forEach(button=>{
+   if(button.dataset.dopaRoute===target)button.setAttribute('aria-current','page');
+   else button.removeAttribute('aria-current');
+  });
   if(scroll)root.scrollTo?.({top:0,behavior:'instant'});
  }
  function initialize(){
