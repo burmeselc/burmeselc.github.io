@@ -538,6 +538,115 @@
    }
    return next;
   },
+  // 728 existing parents examined; 547 accepted provisionally and 181 held.
+  extendParent728(taxonomy,base,batch,decks,semantic,priorQueue){
+   if(base?.schema!=='dopa-study-details-pilot-v1'||
+      batch?.schema!=='dopa-current-parent-728-review-batch-v1'||
+      batch?.source_main!=='75f1036c5d0453590702d7b71a3ff08efa15ae0b'||
+      priorQueue?.schema!=='dopa-current-vocab-fast-sweep-v2'||
+      batch.independent_dictionary_verified!==false||batch.existing_cards_modified!==0||
+      batch.counts?.audited!==728||batch.counts?.classified!==547||
+      batch.counts?.deferred!==181||batch.counts?.burmese!==372||
+      batch.counts?.shan!==175||batch.counts?.burmese_deferred!==56||
+      batch.counts?.shan_deferred!==125||batch.counts?.major_corrections!==351)
+    throw Error('Unsupported 728-parent review source');
+   if(base.counts?.burmese!==1833||base.counts?.shan!==2527||
+      base.coverage?.burmese?.review_pending+base.coverage?.shan?.review_pending!==2108)
+    throw Error('728-parent review requires previous 4360 classified cards');
+   const media=new Map((taxonomy.categories||[]).flatMap(c=>
+     (c.children||[]).map(m=>[m.id,c.id])));
+   const axes=new Map((taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+   const original={burmese:new Map(decks.burmese.map(x=>[x.id,x])),
+    shan:new Map(decks.shan.map(x=>[x.id,x]))};
+   const approved={burmese:[],shan:[]},seen=new Set(),meds={};
+   let corrections=0;
+   for(const lang of ['burmese','shan']){
+    const list=priorQueue.remaining_pr_parent_records?.filter(x=>x.language===lang);
+    const selected=lang==='burmese'?428:300;
+    if(!Array.isArray(list)||list.length<selected||
+       batch.cards?.[lang]?.length!==(lang==='burmese'?372:175)||
+       batch.deferred?.[lang]?.length!==(lang==='burmese'?56:125))
+     throw Error('728-parent queue or language counts mismatch');
+    const reviewIds=new Set(list.slice(0,selected).map(x=>x.id));
+    const byId=new Map(list.slice(0,selected).map(x=>[x.id,x]));
+    for(const row of [...batch.cards[lang],...batch.deferred[lang]]){
+     const source=original[lang].get(row.id),sem=semantic?.[lang]?.cards?.[row.id],queue=byId.get(row.id);
+     if(!reviewIds.has(row.id)||seen.has(row.id)||!source||!queue||
+        base.cards?.[lang]?.[row.id]||!['P','R'].includes(sem?.[1])||
+        sem[0]!==queue.legacy_major||sem[0]!==row.legacy_major||
+        row.independent_dictionary_verified!==false||
+        source[lang]!==row.word||source.japanese_core!==row.gloss||
+        source.english!==row.english)
+      throw Error('Stale 728-parent review entry '+row.id);
+     seen.add(row.id);
+     if(row.review_status==='requires-dictionary-or-sense-review'){
+      if(batch.cards[lang].includes(row)||!row.reason||
+         queue.next_action!=='needs_independent_lexicon_review'&&
+         row.reason!==queue.next_action)
+       throw Error('Invalid 728-parent hold '+row.id);
+      continue;
+     }
+     if(row.review_status!=='gloss-reviewed-pilot-candidate'||
+        queue.next_action!=='needs_independent_lexicon_review'||
+        !media.has(row.medium)||!row.tags||
+        row.major_correction!==(row.legacy_major!==media.get(row.medium))||
+        Object.keys(row.tags).length!==axes.size)
+      throw Error('Invalid 728-parent classification '+row.id);
+     for(const [axis,allowed] of axes){
+      const values=row.tags[axis];
+      if(!Array.isArray(values)||new Set(values).size!==values.length||
+         values.some(v=>!allowed.has(v)))
+       throw Error('Invalid 728-parent tag '+row.id);
+     }
+     approved[lang].push(row);meds[row.medium]=(meds[row.medium]||0)+1;
+     if(row.major_correction)corrections++;
+    }
+    for(const id of reviewIds)if(!seen.has(id))throw Error('Missing 728-parent audit '+id);
+   }
+   if(seen.size!==728||corrections!==351||
+      Object.keys(meds).length!==Object.keys(batch.medium_counts||{}).length||
+      Object.entries(meds).some(([m,n])=>batch.medium_counts[m]!==n)||
+      Object.entries(batch.medium_counts||{}).some(([m,n])=>meds[m]!==n))
+    throw Error('728-parent distribution invalid');
+   const next={...base,
+    cards:{burmese:{...base.cards.burmese},shan:{...base.cards.shan}},
+    counts:{...base.counts},coverage:{...base.coverage},
+    medium_counts:{burmese:{...base.medium_counts.burmese},
+      shan:{...base.medium_counts.shan}},
+    major_corrections:{burmese:{...(base.major_corrections?.burmese||{})},
+      shan:{...(base.major_corrections?.shan||{})}},
+    choice_conflicts:{burmese:[...(base.choice_conflicts?.burmese||[])],
+      shan:[...(base.choice_conflicts?.shan||[])]}};
+   for(const lang of ['burmese','shan']){
+    const added=new Set();
+    for(const row of approved[lang]){
+     next.cards[lang][row.id]={word:row.word,gloss:row.gloss,medium:row.medium,
+      tags:row.tags,review_status:'gloss-reviewed-pilot',evidence:row.gloss};
+     next.medium_counts[lang][row.medium]=(next.medium_counts[lang][row.medium]||0)+1;
+     added.add(row.id);
+     if(row.major_correction){
+      if(next.major_corrections[lang][row.id])
+       throw Error('Duplicate 728-parent major correction '+row.id);
+      next.major_corrections[lang][row.id]={from:row.legacy_major,
+       to:media.get(row.medium)};
+     }
+    }
+    const glosses=new Map();
+    for(const [id,x] of Object.entries(next.cards[lang])){
+     const same=glosses.get(x.gloss)||[];same.push(id);glosses.set(x.gloss,same);
+    }
+    for(const ids of glosses.values())if(ids.length>1&&ids.some(x=>added.has(x)))
+     next.choice_conflicts[lang].push({ids,reason:'同一日本語義を互ひの誤答選択肢にしない'});
+    const c=base.coverage[lang];
+    next.coverage[lang]={...c,classified:c.classified+added.size,
+     review_pending:c.review_pending-added.size};
+    if(next.coverage[lang].review_pending<0||
+       next.coverage[lang].classified+next.coverage[lang].review_pending!==c.scope_candidates)
+     throw Error('728-parent study coverage mismatch');
+    next.counts[lang]=Object.keys(next.cards[lang]).length;
+   }
+   return next;
+  },
   create(taxonomy,metadata,decks){
    if(taxonomy?.schema!=='dopa-study-taxonomy-v1'||metadata?.schema!=='dopa-study-details-pilot-v1')throw Error('Unsupported detail schema');
    const mediums=new Map(),axes=new Map();
