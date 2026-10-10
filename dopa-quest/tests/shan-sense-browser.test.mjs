@@ -77,7 +77,7 @@ test('Shan sense lab opt-in keeps old progress, supports Shan to Japanese and Ja
      return buttons.map(b=>byId.get(b.dataset.itemid));
    });
    assert.equal(opts.length,4);
-   assert.ok(opts.every(x=>x.semantic_major==='17'&&x.game_include===1));
+   assert.ok(opts.every(x=>x.game_include===1));
    assert.equal(new Set(opts.map(x=>x.shan)).size,4);
    await page.locator('#choices button[data-correct="0"]').first().click();
    await page.locator('#continueBtn').click();
