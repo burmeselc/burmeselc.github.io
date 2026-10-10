@@ -1,0 +1,273 @@
+{
+  "schema": "dopa-held-next-pilot-v1",
+  "scope": "original-held-09-13-pr25-audited",
+  "original_decks_unchanged": true,
+  "original_dictionary_verified": false,
+  "optional_runtime_pilot": true,
+  "source_basis": "PR #25 bilingual source-gloss audit; source dictionary and speaker verification pending; no original source/gloss rewrites",
+  "counts": {
+    "audited": 15,
+    "classified": 11,
+    "held": 4,
+    "burmese": 6,
+    "shan": 5
+  },
+  "cards": {
+    "burmese": [
+      {
+        "id": "bur:1432342945541",
+        "word": "အက်စ်ပဲရန်တို",
+        "gloss": "エスペラント",
+        "english": "Esperanto",
+        "legacy_major": "13",
+        "medium": "13.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [
+            "linguistics"
+          ],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1396908763156",
+        "word": "သတ်",
+        "gloss": "殺す",
+        "english": "to kill",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1442441146520",
+        "word": "ရန်သူ",
+        "gloss": "敵",
+        "english": "enemy",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1444687663358",
+        "word": "တိုက်ခိုက်",
+        "gloss": "攻撃する",
+        "english": "to attack",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1572911736386",
+        "word": "ကျူးကျော်",
+        "gloss": "侵入する、侵略する",
+        "english": "to trespass, invade",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "bur:1404084434454",
+        "word": "ငြိမ်းချမ်းရေး",
+        "gloss": "平和",
+        "english": "peace",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "state"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      }
+    ],
+    "shan": [
+      {
+        "id": "shn:1783945287672",
+        "word": "ယၼ်ႇၵုင်ႇ",
+        "gloss": "ラングーン、ヤンゴン",
+        "english": "Rangoon; Yangon (as presently known),",
+        "legacy_major": "09",
+        "medium": "09.05",
+        "tags": {
+          "semantic_type": [
+            "entity"
+          ],
+          "feature": [
+            "spatial"
+          ],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945286685",
+        "word": "ႁႅမ်တၢႆ",
+        "gloss": "殺害する、しとめる",
+        "english": "kill, slay,",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945286883",
+        "word": "ဢဝ်တၢႆ",
+        "gloss": "殺す、殺害する",
+        "english": "kill, murder",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945286960",
+        "word": "ၶႃႈၸႂ်",
+        "gloss": "殺す",
+        "english": "kill",
+        "legacy_major": "09",
+        "medium": "09.04",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      },
+      {
+        "id": "shn:1783945285795",
+        "word": "ထဵင်ၵၼ်",
+        "gloss": "反論する、互いに議論する",
+        "english": "contradict, argue with one another",
+        "legacy_major": "13",
+        "medium": "13.01",
+        "tags": {
+          "semantic_type": [
+            "event"
+          ],
+          "feature": [],
+          "field": [],
+          "usage": []
+        },
+        "review_status": "gloss-reviewed-pilot-candidate",
+        "original_dictionary_verified": false
+      }
+    ]
+  },
+  "deferred": [
+    {
+      "id": "shn:1783945288522",
+      "word": "ယၢၼ်ႇသူႇ",
+      "gloss": "敵 （語源等：Burmese）",
+      "english": "enemy, also （語源等：Burmese）",
+      "legacy_major": "09",
+      "medium": null,
+      "tags": null,
+      "review_status": "needs-source-review",
+      "original_dictionary_verified": false,
+      "reason": "English gloss ends in 'also'; boundary between meaning and borrowing note unverified"
+    },
+    {
+      "id": "shn:1783945286254",
+      "word": "ႁွင်ႉသႅၼ်ႇ",
+      "gloss": "叫ぶ、怒鳴る",
+      "english": "scream, yell, also",
+      "legacy_major": "13",
+      "medium": null,
+      "tags": null,
+      "review_status": "needs-source-review",
+      "original_dictionary_verified": false,
+      "reason": "English gloss ends in 'also'; possible unrecorded continuation"
+    },
+    {
+      "id": "shn:1783945286408",
+      "word": "ၸၼ်ၸႂ်",
+      "gloss": "説得する、そそのかす、促す",
+      "english": "persuade, instigate, urge",
+      "legacy_major": "13",
+      "medium": null,
+      "tags": null,
+      "review_status": "needs-source-review",
+      "original_dictionary_verified": false,
+      "reason": "Persuade / instigate / urge may involve nonverbal actions, outside the narrow 13.01 speech scope"
+    },
+    {
+      "id": "shn:1783945286612",
+      "word": "ၶိုၼ်းဝႃႈ",
+      "gloss": "言い直す、再び言う、また",
+      "english": "say again, also",
+      "legacy_major": "13",
+      "medium": null,
+      "tags": null,
+      "review_status": "needs-source-review",
+      "original_dictionary_verified": false,
+      "reason": "Say again and also may be distinct lexical or grammatical senses; do not classify whole parent"
+    }
+  ]
+}
