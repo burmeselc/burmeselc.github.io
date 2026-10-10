@@ -7,10 +7,10 @@ const load=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url
 const taxonomy=load('study-taxonomy-v1.json'),details=load('study-details-pilot-v1.json');
 const decks={burmese:load('burmese.json'),shan:[...load('shan-1.json'),...load('shan-2.json')]};
 const engine=create(taxonomy,details,decks),clone=x=>structuredClone(x);
-test('pilot has 2434 exact reviewed existing IDs and 77 stable middle categories',()=>{
+test('pilot has 3141 exact reviewed existing IDs and 77 stable middle categories',()=>{
  assert.equal(engine.mediums.size,77);
- assert.equal(Object.keys(details.cards.burmese).length,1134);
- assert.equal(Object.keys(details.cards.shan).length,1300);
+ assert.equal(Object.keys(details.cards.burmese).length,1404);
+ assert.equal(Object.keys(details.cards.shan).length,1737);
  for(const l of ['shan','burmese']){
   const majors=load(l+'-categories-v1.json').cards;
   for(const x of decks[l]){
@@ -57,7 +57,7 @@ const getDistractors=new Function('window','orig','jp','glossOverlap','pos','ind
  x=>x.game_pos,(x,l)=>Number(l==='shan'?x.rank:x.order),x=>x,()=>[],{}
 );
 test('reviewed middle categories provide non-colliding four choices in both directions',()=>{
- for(const l of ['shan','burmese'])for(const medium of ['01.01','01.02','01.03','02.01','02.02','03.01','04.01','04.02','04.04','05.01','05.02','05.03','05.04','06.01','07.01','08.01','08.02','09.01','09.02','09.03','09.04','10.01','10.02','10.03','10.04','11.03','12.01','12.02','12.03','12.04','13.01','13.02','13.03','13.04']){
+ for(const l of ['shan','burmese'])for(const medium of ['01.01','01.02','01.03','02.01','02.02','03.01','04.01','04.02','04.04','05.01','05.02','05.03','05.04','06.01','07.01','08.01','08.02','09.01','09.02','09.03','09.04','10.01','10.02','10.03','10.04','11.03','12.01','12.02','12.03','12.04','13.01','13.02','13.03','13.04','14.01','14.02','14.03','14.04','15.01','15.02','15.03','15.04']){
   const pool=decks[l].filter(x=>engine.matches(x,l,{medium}));
   assert.ok(pool.length>=4);
   for(const item of pool)for(const dir of ['toJP','fromJP']){
@@ -85,14 +85,14 @@ test('explicit reviewed synonym conflicts prevent alternative correct television
  assert.equal(engine.canContrast(first,{...old,japanese_core:'新しい意味'},'burmese'),true);
 });
 
-test('thirteen-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
+test('fifteen-domain initial review accounts for every eligible legacy card without declaring holds resolved',()=>{
  for(const l of ['shan','burmese']){
   const c=details.coverage[l];assert.equal(c.untriaged,0);
   assert.equal(c.scope_candidates,c.classified+c.review_pending);
   assert.equal(c.classified,Object.keys(details.cards[l]).length);
  }
- assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,3764);
- assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,1330);
+ assert.equal(details.coverage.shan.scope_candidates+details.coverage.burmese.scope_candidates,4951);
+ assert.equal(details.coverage.shan.review_pending+details.coverage.burmese.review_pending,1810);
 });
 
 test('etymology annotation does not turn two sapphire cards into different answers',()=>{
@@ -158,4 +158,30 @@ test('language records preserve letters and explicit register without guessing f
  assert.ok(engine.matches(vulgar,'shan',{medium:'13.01',tag:'usage:vulgar'}));
  assert.ok(engine.matches(song,'shan',{medium:'12.03',tag:'field:music'}));
  assert.equal(engine.matches(song,'shan',{tag:'field:religion'}),false);
+});
+
+test("equivalent number forms cannot become one another's distractors in either direction",()=>{
+ for(const [lang,aId,bId] of [['burmese','bur:1387848732838','bur:1388200652785'],['shan','shn:1783945284809','shn:1783945286984']]){
+  const a=decks[lang].find(x=>x.id===aId),b=decks[lang].find(x=>x.id===bId);
+  const pool=decks[lang].filter(x=>engine.matches(x,lang,{medium:'14.03'}));
+  assert.ok(a&&b);assert.equal(engine.canContrast(a,b,lang),false);
+  for(const dir of ['toJP','fromJP']){
+   assert.ok(!getDistractors(a,pool,lang,dir).some(x=>x.id===bId));
+   assert.ok(!getDistractors(b,pool,lang,dir).some(x=>x.id===aId));
+  }
+ }
+});
+test('physical and figurative parents stay held, while calendar, number and sacred appearance remain distinct',()=>{
+ for(const [lang,id] of [['burmese','bur:1396908311292'],['burmese','bur:1409403340059'],['burmese','bur:1404084354159'],['shan','shn:1783945285127'],['shan','shn:1783945287596'],['shan','shn:1783945287280']]){
+  const x=decks[lang].find(x=>x.id===id);assert.ok(x);
+  assert.equal(engine.annotation(x,lang),null);assert.ok(engine.matches(x,lang));
+ }
+ const sacred=decks.burmese.find(x=>x.id==='bur:1409400300134');
+ assert.ok(engine.matches(sacred,'burmese',{medium:'15.02',tag:'field:religion'}));
+ const number=decks.burmese.find(x=>x.id==='bur:1389833619388');
+ assert.ok(engine.matches(number,'burmese',{medium:'14.03'}));
+ assert.equal(engine.matches(number,'burmese',{tag:'usage:bound_usage'}),false);
+ const timePool=decks.shan.filter(x=>engine.matches(x,'shan',{medium:'14.01',tag:'feature:temporal'}));
+ assert.ok(timePool.length>80);
+ assert.ok(timePool.every(x=>engine.annotation(x,'shan').medium==='14.01'));
 });
