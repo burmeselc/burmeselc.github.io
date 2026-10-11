@@ -1,0 +1,56 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "batch": 9,
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_files": [
+    {
+      "file": "shan-extra-pack-5.json",
+      "slice_zero_based": [
+        0,
+        1000
+      ],
+      "count": 1000,
+      "rank_span": [
+        13481,
+        14480
+      ]
+    }
+  ],
+  "source_count": 1000,
+  "source_rank_span": [
+    13481,
+    14480
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v9.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "previous_review_manifest": "shan-extra-semantic-review-manifest-v8.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-9a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-9b.json",
+      "count": 500
+    }
+  ],
+  "stats": {
+    "source_count": 1000,
+    "rank_start": 13481,
+    "rank_end": 14480,
+    "primary_provisional": 377,
+    "other": {
+      "no-supported-category-cue": 489,
+      "single-cue-provisional": 377,
+      "ambiguous-multiple-category-cues": 42,
+      "pending-sense-boundary": 92
+    },
+    "semicolon_parents": 92,
+    "segmentation_fragments": 190,
+    "feature_tag_candidates": 24,
+    "field_tag_candidates": 15,
+    "usage_tag_candidates": 0,
+    "semantic_type_candidates": 0
+  },
+  "notes": "Strict machine-proposal-unverified, no approved sense IDs; semicolon boundary candidates remain unverified, original cards / sources / game / sync / history unchanged."
+}
