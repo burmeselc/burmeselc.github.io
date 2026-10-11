@@ -141,7 +141,11 @@
   // The legacy profile loader temporarily unhides setup/profile. Restore the
   // current modern route immediately, without replacing saved learning data.
   // Cloud restore can happen while the user is looking at Settings or Home.
-  if(route==='home'||route==='settings')go(route,{scroll:false});
+  if(route==='home'||route==='settings'){
+   moveSettings();
+   visibility(route);
+   if(route==='home')render();
+  }
   else if(route==='quest')visibility('quest');
   else if(route==='cards'||route==='library'){
    // Keep a visible study/library panel rather than exposing legacy setup.
