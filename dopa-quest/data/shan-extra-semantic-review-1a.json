@@ -1214,8 +1214,8 @@
   "source_gloss": "二つの対生する鳥足状の葉を持つシダ",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "02",
+  "primary_medium": "02.02",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -1232,17 +1232,10 @@
      "シダ",
      "葉を"
     ]
-   },
-   {
-    "medium": "16.02",
-    "major": "16",
-    "evidence": [
-     "持つ"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -3005,8 +2998,8 @@
   "source_gloss": "文法書（特にパーリ語の）",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "13",
+  "primary_medium": "13.02",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -3022,17 +3015,10 @@
     "evidence": [
      "文法書"
     ]
-   },
-   {
-    "medium": "15.04",
-    "major": "15",
-    "evidence": [
-     "特に"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -4088,8 +4074,8 @@
   "source_gloss": "女性に乱暴する（強姦する）",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "09",
+  "primary_medium": "09.03",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -4098,9 +4084,17 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [],
+  "category_candidates": [
+   {
+    "medium": "09.03",
+    "major": "09",
+    "evidence": [
+     "強姦する"
+    ]
+   }
+  ],
   "segmentation_candidates": [],
-  "review_status": "no-supported-category-cue",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -4457,8 +4451,8 @@
   "source_gloss": "行ったり来たりする",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "16",
+  "primary_medium": "16.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -4467,9 +4461,17 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [],
+  "category_candidates": [
+   {
+    "medium": "16.01",
+    "major": "16",
+    "evidence": [
+     "行ったり来たり"
+    ]
+   }
+  ],
   "segmentation_candidates": [],
-  "review_status": "no-supported-category-cue",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -4975,8 +4977,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に",
-     "極めて"
+     "^非常に"
     ]
    }
   ],
@@ -8749,7 +8750,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -9063,8 +9064,8 @@
   "source_gloss": "また（股）、二股（分離点がငႅမ်ႈのような鋭角ではなく曲線を描き、長い歯を持つもの。工業製品について用いる）",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "12",
+  "primary_medium": "12.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -9080,17 +9081,10 @@
     "evidence": [
      "業"
     ]
-   },
-   {
-    "medium": "16.02",
-    "major": "16",
-    "evidence": [
-     "持つ"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -10463,7 +10457,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -10484,7 +10478,7 @@
       "medium": "15.04",
       "major": "15",
       "evidence": [
-       "非常に"
+       "^非常に"
       ]
      }
     ],
@@ -11961,7 +11955,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -12777,8 +12771,8 @@
   "source_gloss": "（光が）燦然と、非常にまばゆく",
   "pos_source": "副詞",
   "sense_id": null,
-  "primary_major": "15",
-  "primary_medium": "15.04",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -12787,17 +12781,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "15.04",
-    "major": "15",
-    "evidence": [
-     "非常に"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -13244,7 +13230,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -13258,7 +13244,7 @@
       "medium": "15.04",
       "major": "15",
       "evidence": [
-       "非常に"
+       "^非常に"
       ]
      }
     ],
@@ -13828,7 +13814,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -15230,7 +15216,6 @@
     "medium": "16.02",
     "major": "16",
     "evidence": [
-     "持つ",
      "持ち上"
     ]
    },
@@ -15252,7 +15237,6 @@
       "medium": "16.02",
       "major": "16",
       "evidence": [
-       "持つ",
        "持ち上"
       ]
      },
@@ -15600,8 +15584,8 @@
   "source_gloss": "密通する、他人の妻や娘と不適切な関係を持つ",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.02",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -15610,17 +15594,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.02",
-    "major": "16",
-    "evidence": [
-     "持つ"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -16671,13 +16647,6 @@
      "価値がある",
      "値がつく"
     ]
-   },
-   {
-    "medium": "18.04",
-    "major": "18",
-    "evidence": [
-     "価値がある"
-    ]
    }
   ],
   "segmentation_candidates": [],
@@ -17507,7 +17476,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -17529,7 +17498,7 @@
       "medium": "15.04",
       "major": "15",
       "evidence": [
-       "非常に"
+       "^非常に"
       ]
      }
     ],
@@ -18692,8 +18661,8 @@
   "source_gloss": "三白眼である、白目が非常に目立つ",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "16",
+  "primary_medium": "16.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -18704,13 +18673,6 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "15.04",
-    "major": "15",
-    "evidence": [
-     "非常に"
-    ]
-   },
-   {
     "medium": "16.01",
     "major": "16",
     "evidence": [
@@ -18719,7 +18681,7 @@
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -19732,8 +19694,7 @@
     "medium": "16.02",
     "major": "16",
     "evidence": [
-     "覆う",
-     "被せる"
+     "^覆う"
     ]
    },
    {
@@ -19754,8 +19715,7 @@
       "medium": "16.02",
       "major": "16",
       "evidence": [
-       "覆う",
-       "被せる"
+       "^覆う"
       ]
      }
     ],
@@ -20056,8 +20016,8 @@
   "source_gloss": "（非常に弱い ဢူၼ်ႈ と共に使われる）",
   "pos_source": "副詞",
   "sense_id": null,
-  "primary_major": "15",
-  "primary_medium": "15.04",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -20066,17 +20026,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "15.04",
-    "major": "15",
-    "evidence": [
-     "非常に"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
