@@ -11,7 +11,7 @@
     "shan-extra-semantic-cue-rules-v5.json",
     "shan-extra-semantic-cue-rules-v6.json"
   ],
-  "rule_basis": "v6 82-category cues plus rank 11481–12480 contextual false-positive audit. Guard kana substring collisions: むかご/かご, 言葉/葉, スイカ/イカ, 振る舞う/舞う, コーヒースプーン/コーヒー, 家庭用品/庭, 太鼓腹/太鼓 and location/abstract modifiers. All conclusions remain machine-proposals and not human-validated senses.",
+  "rule_basis": "v6 82-category cues plus rank 11481–12480 contextual false-positive audit. Guard kana substring collisions: むかご/かご, 言葉/葉, スイカ/イカ, 振る舞う/舞う, コーヒースプーン/コーヒー, 家庭用品/庭, 太鼓腹/太鼓 and location/abstract modifiers. All conclusions remain machine-proposals and not human-validated senses. Second-pass corrections: resolve ambiguous lips-biting as operation, watermelon as fruit/plant, eggplant seedling as botany; keep homograph-based and referent-context ambiguity unapproved.",
   "matching_policy": "Match stripped Japanese core gloss (nonnested fullwidth parentheses discarded); suppression patterns match intact core gloss. English definition is provenance only. Evidence is the literal matched cue with regex metacharacters escaped.",
   "conflict_policy": "Select one provisional medium only with exactly one supported rule and no semicolon; otherwise keep primary null. Source semicolons are segmentation hypotheses, not verified senses. Do not issue sense IDs.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -49,7 +49,7 @@
     {
       "id": "sem-02.02",
       "medium_id": "02.02",
-      "pattern": "ハマオモト|シダ|バナナ|チャンパカ|金鳳木|野草|草木|樹木|植物|花弁|花びら|花粉|球根|^葉を|葉が|根っこ|木の枝|木の葉|玉ねぎ|樹液|ナツメヤシ|アンチャール|トマト|稲の株|水苔|もやし|シカクマメ|藪|果樹|苗|綿|ケシ|サトウキビ|月桂樹|桑の木|パイナップル|カジノキ|コルクの木|オウギヤシ|竹の皮|籾殻|ディル|キャラウェイ|リンドウ|^藻$|酵母|トウモロコシ|黄ひよこ豆|ジュウロクササゲ|樹皮|チョロギ|ササゲ|ひよこ豆|豆の粒|^ココナッツ|^キャベツ$|^ニオイアヤメ|^赤い睡蓮|^スイレン|^ニチニチソウ|^パダウの花|^ダリア|^オシロイバナ|^サツマイモ|^キンマの葉|^ナツメグ|^オクラ|^ゴーヤ|^ハトムギ|^マンゴスチン|^蕪（|^オレンジの種|^ひこばえ|^アニスの種|^トケイソウ|^ケシ$|^プランテイン|^大枝|^藍（アイ）の木|^パパイヤの木|^クサギの葉|^ビンロウ樹|^キワタ|^つる植物の一種|^藍（アイ）の木|^キワタ|^貝葉（ばいよう）の木|^ビンロウ樹|^カンゾウ|^ジャガイモの小さなむかご|^ひよこ豆の一種|^ナスの苗|^豆の芽",
+      "pattern": "ハマオモト|シダ|バナナ|チャンパカ|金鳳木|野草|草木|樹木|植物|花弁|花びら|花粉|球根|^葉を|葉が|根っこ|木の枝|木の葉|玉ねぎ|樹液|ナツメヤシ|アンチャール|トマト|稲の株|水苔|もやし|シカクマメ|藪|果樹|苗|綿|ケシ|サトウキビ|月桂樹|桑の木|パイナップル|カジノキ|コルクの木|オウギヤシ|竹の皮|籾殻|ディル|キャラウェイ|リンドウ|^藻$|酵母|トウモロコシ|黄ひよこ豆|ジュウロクササゲ|樹皮|チョロギ|ササゲ|ひよこ豆|豆の粒|^ココナッツ|^キャベツ$|^ニオイアヤメ|^赤い睡蓮|^スイレン|^ニチニチソウ|^パダウの花|^ダリア|^オシロイバナ|^サツマイモ|^キンマの葉|^ナツメグ|^オクラ|^ゴーヤ|^ハトムギ|^マンゴスチン|^蕪（|^オレンジの種|^ひこばえ|^アニスの種|^トケイソウ|^ケシ$|^プランテイン|^大枝|^藍（アイ）の木|^パパイヤの木|^クサギの葉|^ビンロウ樹|^キワタ|^つる植物の一種|^藍（アイ）の木|^キワタ|^貝葉（ばいよう）の木|^ビンロウ樹|^カンゾウ|^ジャガイモの小さなむかご|^ひよこ豆の一種|^ナスの苗|^豆の芽|^赤い種のあるスイカ",
       "mode": "japanese-core-lexical-cue-with-context-guards-v7"
     },
     {
@@ -427,7 +427,7 @@
     {
       "id": "sem-16.02",
       "medium_id": "16.02",
-      "pattern": "繋ぎ合わせ|混ぜ合わせ|握る|掴む|つかむ|引っ張る|押す|^引く|結ぶ|巻き付|揺らす|^振る|^切る|置く|持ち上|浸す|噛む|接触|つなぐ|接続する|投げる|放る|隠す|見つける|打つ|突き刺す|突き通す|こすれる|ぶつかる|掘る|挟む|押し込む|打ち込む|^覆う|^被せる|^掴んで|^突き刺され|^混ぜて|^握る|^広げる|^引っ張る|^遮る|^繋ぐ|^すりつぶす|^こすり砕く|^梱包|^包みを作る|^研ぐ|^縒り合わせ|^こねる|^揉む|^掘り出す|^火を吹く|^ぴしゃりと叩く|^水をせき止める|^すくい取って|^密封する|^ぴしゃりと叩く",
+      "pattern": "繋ぎ合わせ|混ぜ合わせ|握る|掴む|つかむ|引っ張る|押す|^引く|結ぶ|巻き付|揺らす|^振る|^切る|置く|持ち上|浸す|噛む|接触|つなぐ|接続する|投げる|放る|隠す|見つける|打つ|突き刺す|突き通す|こすれる|ぶつかる|掘る|挟む|押し込む|打ち込む|^覆う|^被せる|^掴んで|^突き刺され|^混ぜて|^握る|^広げる|^引っ張る|^遮る|^繋ぐ|^すりつぶす|^こすり砕く|^梱包|^包みを作る|^研ぐ|^縒り合わせ|^こねる|^揉む|^掘り出す|^火を吹く|^ぴしゃりと叩く|^水をせき止める|^すくい取って|^密封する|^ぴしゃりと叩く|^唇を噛む",
       "mode": "japanese-core-lexical-cue-with-context-guards-v7"
     },
     {
@@ -1116,11 +1116,6 @@
       "reason": "Buddhist canon, not educational action"
     },
     {
-      "medium_id": "14.01",
-      "when": "^長い間|^しばらく留まる",
-      "reason": "Safe temporal cues, no duplicate suppression"
-    },
-    {
       "medium_id": "14.02",
       "when": "^失血で気が遠くなる|^自動車整備工場|^寝る場所を|^唇を噛む|^（犬が）悲しげ",
       "reason": "遠く / location are contextual"
@@ -1156,11 +1151,6 @@
       "reason": "Head turn physiological gesture; preserve distinct conflict as needed"
     },
     {
-      "medium_id": "16.02",
-      "when": "^唇を噛む|^契約を結ぶ|^拳で打つ|^ふくらはぎの",
-      "reason": "Body gesture / law / sports generic motion may be secondary"
-    },
-    {
       "medium_id": "16.03",
       "when": "^木が倒れる音|^雷の跡、落雷|^ひよこ豆の一種",
       "reason": "Change is contextual to sounds/stories/plant kinds"
@@ -1169,6 +1159,16 @@
       "medium_id": "18.03",
       "when": "^腕全体$|^村全体|^ふくらはぎの膨らんだ部分|^教科書の解説部分",
       "reason": "Bare part-whole in description/aggregate, not lexical relation"
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^契約を結ぶ|^拳で打つ|^ふくらはぎの",
+      "reason": "Contract and boxing actions held or resolved by lexical category, not generic operate/move."
+    },
+    {
+      "medium_id": "02.04",
+      "when": "^ナスの苗",
+      "reason": "Seedling is a plant referent, not farming/breeding activity."
     }
   ],
   "tag_rules": [
