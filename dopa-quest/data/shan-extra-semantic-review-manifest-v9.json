@@ -38,11 +38,11 @@
     "source_count": 1000,
     "rank_start": 13481,
     "rank_end": 14480,
-    "primary_provisional": 374,
+    "primary_provisional": 377,
     "other": {
-      "no-supported-category-cue": 491,
-      "single-cue-provisional": 374,
-      "ambiguous-multiple-category-cues": 43,
+      "no-supported-category-cue": 489,
+      "single-cue-provisional": 377,
+      "ambiguous-multiple-category-cues": 42,
       "pending-sense-boundary": 92
     },
     "semicolon_parents": 92,
