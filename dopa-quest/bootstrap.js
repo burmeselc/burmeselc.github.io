@@ -281,6 +281,18 @@
       }catch(e){console.warn('Second 500 review unavailable; keeping previous 4940 classifications',e)}
     }catch(e){console.warn('Next 500 review unavailable; keeping previous 4907 classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
+    // Read-only machine proposals for original extra Shan parent cards.
+    // Errors disable only this optional sidecar; never replace any user card or progress.
+    try{
+      if(!window.DOPAExtraProvisional)throw Error('Provisional classifier unavailable');
+      const shards=await Promise.all([1,2,3,4].map(async i=>{
+        const res=await fetch('./data/shan-extra-single-proposals-'+i+'.json',{cache:'no-cache'});
+        if(!res.ok)throw Error('provisional shard '+i+' HTTP '+res.status);
+        return res.json();
+      }));
+      window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(window.DOPA_DETAIL,shards,window.DOPA_DATA);
+    }catch(e){console.warn('Unverified extra Shan categories unavailable; normal play unaffected',e)}
+
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
