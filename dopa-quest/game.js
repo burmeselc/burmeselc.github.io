@@ -59,10 +59,17 @@ function updateShanSenseControl(){
 }
 
 function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.semantic_major}
+// A published category proposal is not an approved lexical sense and never
+// changes semantic_status='U' on the original extra card.
+function categoryCandidateAllowed(x,l){
+ return ['P','R'].includes(x.semantic_status)||
+  (l==='shan'&&Number(x.rank)>5480&&
+   window.DOPA_DETAIL?.annotation?.(x,l)?.review_status==='machine-proposal-unverified');
+}
 function domainEligible(x,l){
  const control=$('semanticCategory');
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
-  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&['P','R'].includes(x.semantic_status));
+  (effectiveMajor(x,l)===control.value&&categoryCandidateAllowed(x,l));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
@@ -78,13 +85,13 @@ function updateSemanticCategories(){
  }
  let options='<option value="all">全カテゴリ（従来どおり）</option>';
  for(const [id,name] of Object.entries(labels)){
-   const count=activeDeck(l).filter(x=>effectiveMajor(x,l)===id&&['P','R'].includes(x.semantic_status)&&String(x.game_include??'1')!=='0').length;
+   const count=activeDeck(l).filter(x=>effectiveMajor(x,l)===id&&categoryCandidateAllowed(x,l)&&String(x.game_include??'1')!=='0').length;
    options+='<option value="'+esc(id)+'">'+esc(id+' '+name+'（'+count+'語）')+'</option>';
  }
  select.innerHTML=options;
  select.value=labels[old]?old:'all';select.disabled=false;
  if(notice)notice.textContent=l==='shan'?
-   'シャン語分類は暫定版。多義1,242項目と訳語不足31項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。':
+   'シャン語分類は暫定版。追加語彙の単一カテゴリ機械候補 '+(window.DOPA_DETAIL?.extraProvisional?.count||0).toLocaleString()+'件を含みます（語義未検証）。競合・語義境界保留・根拠不足はカテゴリ限定から除外し、全カテゴリでは利用可能です。':
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 // Detailed study filters are session settings; they never rewrite profile/history data.
@@ -138,7 +145,7 @@ function renderDetailReview(){
  summary.textContent='分類済みの語を確認（'+rows.length+'件・エリア指定前）';
  list.innerHTML=rows.slice(0,detailReviewLimit).map(x=>{
   const a=engine.annotation(x,l),labels=Object.entries(a.tags).flatMap(([axis,values])=>values.map(v=>engine.taxonomy.tag_labels[axis][v]));
-  return '<div style="padding:8px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere"><b>'+esc(orig(x,l))+'</b><div>'+esc(jp(x))+'</div><div class="small">'+esc(engine.mediums.get(a.medium).label+' ／ '+labels.join('・'))+'</div></div>';
+  return '<div style="padding:8px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere"><b>'+esc(orig(x,l))+'</b><div>'+esc(jp(x))+'</div><div class="small">'+esc(engine.mediums.get(a.medium).label+' ／ '+labels.join('・')+(a.provisional_only?'〔機械暫定〕':''))+'</div></div>';
  }).join('')||'<p class="small">この条件の詳細分類済みカードはありません。</p>';
  more.classList.toggle('hidden',rows.length<=detailReviewLimit);
  more.textContent='続きを表示（残り '+Math.max(0,rows.length-detailReviewLimit)+'件）';
