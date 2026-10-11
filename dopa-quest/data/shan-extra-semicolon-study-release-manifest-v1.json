@@ -1,0 +1,27 @@
+{
+  "schema": "dopa-shan-extra-semicolon-provisional-release-manifest-v1",
+  "date_jst": "2026-10-12",
+  "release_criterion": "user-approved low-confidence studying with on-device editorial notes; lexical analysis not validated",
+  "source_files": [
+    "shan-extra-semicolon-queue-1-3.json",
+    "shan-extra-semicolon-queue-4-6.json",
+    "shan-extra-semicolon-queue-7-9.json",
+    "shan-extra-semicolon-queue-10-12.json"
+  ],
+  "source_count": 983,
+  "source_fragment_count": 2098,
+  "category_candidate_assigned": 607,
+  "not_enough_cue_uncategorized": 376,
+  "provisional_prior": 4949,
+  "total_annotated_after_release": 5932,
+  "total_categorized_after_release": 5556,
+  "remaining_other_held": 47,
+  "remaining_no_cue_general": 5526,
+  "source_text_changed": 0,
+  "card_ids_changed": 0,
+  "learned_history_changed": 0,
+  "approved_new_senses": 0,
+  "review_status": "machine-proposal-unverified",
+  "boundary_status": "semicolon-unverified",
+  "fallback": "if optional shard missing or invalid, prior 4949 remain"
+}

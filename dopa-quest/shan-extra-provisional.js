@@ -5,10 +5,11 @@
  const SCHEMA='dopa-shan-extra-single-proposals-v1';
  const SECOND_SCHEMA='dopa-shan-extra-multiple-proposals-v1';
  const FINAL65_SCHEMA='dopa-shan-extra-final65-proposals-v1';
+ const SEMICOLON_SCHEMA='dopa-shan-extra-semicolon-study-release-v1';
  const groups=[[1,2,3],[4,5,6],[7,8,9],[10,11,12]];
  const sourceCounts=[3000,3000,3000,2505];
  const expectedSingles=[1560,1029,1014,756];
- function attach(engine,shards,decks,secondPassShard=null,final65Shard=null){
+ function attach(engine,shards,decks,secondPassShard=null,final65Shard=null,semicolonShard=null){
   if(!engine||!Array.isArray(shards)||shards.length!==4||!Array.isArray(decks?.shan))
    throw Error('Missing provisional Shan category inputs');
   const byId=new Map(decks.shan.map(card=>[card.id,card]));
@@ -99,7 +100,43 @@
       tags,review_status:'machine-proposal-unverified',provisional_only:true}));
    }
   }
-  if(proposals.size!==(4359+(secondPassShard===null?0:572)+(final65Shard===null?0:18)))
+  // Provisional semicolon parents are still ONE ORIGINAL CARD each; no sense splitting.
+  // No-cue parents receive a visible review flag without an invented category.
+  if(semicolonShard!==null){
+   const shard=semicolonShard;
+   if(final65Shard===null||shard?.schema!==SEMICOLON_SCHEMA||
+      shard.status!=='machine-proposal-unverified'||shard.approved_senses!==false||
+      shard.source_count!==983||shard.study_entries!==983||
+      shard.categorized_with_cue!==607||shard.uncategorized_need_review!==376||
+      shard.source_gloss_preserved!==true||shard.sense_split_approved!==false||
+      shard.provisional_boundary!=='semicolon-unverified'||
+      !Array.isArray(shard.cards)||shard.cards.length!==983)
+    throw Error('Invalid semicolon provisional shard');
+   let categorized=0;
+   for(const row of shard.cards){
+    if(!Array.isArray(row)||row.length!==6)throw Error('Invalid semicolon provisional row');
+    const [id,rank,shan,gloss,medium,tags]=row,source=byId.get(id);
+    if(typeof id!=='string'||proposals.has(id)||!Number.isInteger(rank)||
+       rank<5481||rank>16985||!source||source.id!==id||
+       source.rank!==rank||source.shan!==shan||source.japanese_core!==gloss||
+       source.semantic_status!=='U'||!(medium===null||mediums.has(medium))||
+       !tags||typeof tags!=='object'||Array.isArray(tags)||
+       Object.keys(tags).length!==axes.size)
+      throw Error('Stale semicolon provisional source '+id);
+    for(const [axis,accepted] of axes){
+     const values=tags[axis];
+     if(!Array.isArray(values)||new Set(values).size!==values.length||
+        values.some(v=>!accepted.has(v)))throw Error('Invalid semicolon tag '+id);
+    }
+    if(medium!==null)categorized++;
+    proposals.set(id,Object.freeze({word:shan,gloss,rank,medium,tags,
+      review_status:'machine-proposal-unverified',provisional_only:true,
+      boundary_unverified:true,classification_confidence:'low',
+      category_basis:medium===null?'insufficient-cue':'first-explicit-cue'}));
+   }
+   if(categorized!==607)throw Error('Invalid semicolon categorized count');
+  }
+  if(proposals.size!==(4359+(secondPassShard===null?0:572)+(final65Shard===null?0:18)+(semicolonShard===null?0:983)))
    throw Error('Incomplete Shan provisional proposal set');
   function annotation(card,lang){
    const a=lang==='shan'&&card&&proposals.get(card.id);
@@ -119,12 +156,16 @@
   }
   function majorFor(card,lang){
    const a=annotation(card,lang);
-   return a?.provisional_only?a.medium.slice(0,2):engine.majorFor(card,lang);
+   return a?.provisional_only?(a.medium?a.medium.slice(0,2):null):engine.majorFor(card,lang);
   }
   return {...engine,annotation,matches,majorFor,
     extraProvisional:{count:proposals.size,source_count:11505,
       original_single_count:4359,multiple_review_count:secondPassShard===null?0:572,
       final65_review_count:final65Shard===null?0:18,
+      semicolon_review_count:semicolonShard===null?0:983,
+      semicolon_categorized_count:semicolonShard===null?0:607,
+      semicolon_needs_category_count:semicolonShard===null?0:376,
+      categorized_count:proposals.size-(semicolonShard===null?0:376),
       editorial_review:'machine-proposal-unverified',approved_senses:false}};
  }
  const api={attach};
