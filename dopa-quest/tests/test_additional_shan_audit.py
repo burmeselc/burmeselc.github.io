@@ -100,22 +100,22 @@ class CsvAdditionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             file = Path(folder) / "anki_shan_jpn.csv"
             file.write_text(
-                '1. ၵင်ႈ, 【動詞】 前段、後段 [first, second]\\n'
+                '1. တီႈ, 【動詞】 前段、後段 [first, second]\\n'
                 '2. ၵတ်း, 【形容詞】 寒い [cold]\\n'
                 '2: ၵတ်း, 【動詞】 噛む [bite, chew]\\n',
                 encoding="utf-8"
             )
             rows = AUDIT.read_numbered_anki(file)
             self.assertEqual(len(rows), 3)
-            self.assertEqual(rows[0], ["ၵင်ႈ", " 【動詞】 前段、後段 [first, second]", "1"])
+            self.assertEqual(rows[0], ["တီႈ", " 【動詞】 前段、後段 [first, second]", "1"])
             self.assertEqual(rows[1][2], rows[2][2])
             report = AUDIT.audit_rows(rows, self.parents, self.senses, 0, 1)
             self.assertEqual(report["counts"]["source_rows"], 3)
             self.assertEqual(report["counts"]["by_status"]["existing-form-review"], 1)
-            self.assertEqual(report["counts"]["by_status"]["new-form-candidate"], 1)
+            self.assertEqual(report["counts"]["by_status"]["new-form-candidate"], 2)
             self.assertEqual(report["counts"]["by_status"]["new-form-candidate"]+
                              report["counts"]["by_status"]["existing-form-review"]+
-                             report["counts"]["by_status"]["hold-incomplete"],2)
+                             report["counts"]["by_status"]["hold-incomplete"],3)
 
 
 if __name__ == "__main__":
