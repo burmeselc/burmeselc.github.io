@@ -79,3 +79,5 @@ jobs:
           node --test dopa-quest/tests/shan-extra-single-proposals.test.mjs
       - name: Verify all 637 Shan multi-category conflict triage records
         run: node --test dopa-quest/tests/shan-extra-multiple-review.test.mjs
+      - name: Verify second-pass Shan multiple-category candidates and 65 held records
+        run: node --test dopa-quest/tests/shan-extra-multiple-round2.test.mjs
