@@ -7,7 +7,8 @@ const card={id:'shn:anki:test',rank:12345,shan:'ၵိၼ်',japanese_core:'食
 function fixture(){
  const entries=new Map(),storage={getItem:k=>entries.has(k)?entries.get(k):null,
   setItem:(k,v)=>entries.set(k,v)};
- return {entries,storage,api:createStore(storage,()=>1791800000000,()=>'unique')};
+ let nextId=0;
+ return {entries,storage,api:createStore(storage,()=>1791800000000,()=>String(++nextId))};
 }
 test('local notes preserve source snapshots and are isolated from progress',()=>{
  const {api,entries}=fixture();
