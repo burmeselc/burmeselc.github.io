@@ -59,10 +59,12 @@ function updateShanSenseControl(){
 }
 
 function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.semantic_major}
+function provisionalSingle(x,l){return l==='shan'&&window.DOPA_DETAIL?.annotation?.(x,l)?.provisional_only===true}
+function categoryEligible(x,l){return ['P','R'].includes(x.semantic_status)||provisionalSingle(x,l)}
 function domainEligible(x,l){
  const control=$('semanticCategory');
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
-  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&['P','R'].includes(x.semantic_status));
+  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&(['P','R'].includes(x.semantic_status)||(typeof window!=='undefined'&&l==='shan'&&window.DOPA_DETAIL?.annotation?.(x,l)?.provisional_only===true)));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
@@ -78,13 +80,13 @@ function updateSemanticCategories(){
  }
  let options='<option value="all">全カテゴリ（従来どおり）</option>';
  for(const [id,name] of Object.entries(labels)){
-   const count=activeDeck(l).filter(x=>effectiveMajor(x,l)===id&&['P','R'].includes(x.semantic_status)&&String(x.game_include??'1')!=='0').length;
+   const count=activeDeck(l).filter(x=>effectiveMajor(x,l)===id&&categoryEligible(x,l)&&String(x.game_include??'1')!=='0').length;
    options+='<option value="'+esc(id)+'">'+esc(id+' '+name+'（'+count+'語）')+'</option>';
  }
  select.innerHTML=options;
  select.value=labels[old]?old:'all';select.disabled=false;
  if(notice)notice.textContent=l==='shan'?
-   'シャン語分類は暫定版。多義1,242項目と訳語不足31項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。':
+   (window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。競合・保留語は全カテゴリから学習できます。':
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 // Detailed study filters are session settings; they never rewrite profile/history data.
@@ -125,7 +127,7 @@ function updateDetailFilters(){
  }).join('');
  tag.value=tagIds.has(oldTag)?oldTag:'all';
  const count=deck.filter(x=>engine.matches(x,l,detailFilters())).length;
- if(notice)notice.textContent='既存語彙の一部を試験分類。訳語による確認で、原辞書の照合は未完了です。'+
+ if(notice)notice.textContent='詳細分類は試験版。追加シャン語の単一候補は機械提案（未検証）で、原辞書との照合・語義確定は未完了です。'+
   (engine.coverage?.[l]?(engine.coverage[l].major_ids||['03','06','11']).length+'領域の従来カテゴリ対象 '+engine.coverage[l].scope_candidates+'件：分類済み '+engine.coverage[l].classified+'、保留 '+engine.coverage[l].review_pending+'。':'')+
   (detailFilterActive()?'絞り込み '+count+'件（エリア指定前）。四択に足りない語は開始時に除外します。':'このデッキで詳細分類済み '+annotated.length+'件。未分類の語も限定しなければ学べます。');
  detailReviewLimit=20;renderDetailReview();
@@ -138,7 +140,7 @@ function renderDetailReview(){
  summary.textContent='分類済みの語を確認（'+rows.length+'件・エリア指定前）';
  list.innerHTML=rows.slice(0,detailReviewLimit).map(x=>{
   const a=engine.annotation(x,l),labels=Object.entries(a.tags).flatMap(([axis,values])=>values.map(v=>engine.taxonomy.tag_labels[axis][v]));
-  return '<div style="padding:8px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere"><b>'+esc(orig(x,l))+'</b><div>'+esc(jp(x))+'</div><div class="small">'+esc(engine.mediums.get(a.medium).label+' ／ '+labels.join('・'))+'</div></div>';
+  return '<div style="padding:8px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere"><b>'+esc(orig(x,l))+'</b><div>'+esc(jp(x))+'</div><div class="small">'+esc(engine.mediums.get(a.medium).label+' ／ '+(a.provisional_only?'暫定・機械提案（未検証） ／ ':'')+labels.join('・'))+'</div></div>';
  }).join('')||'<p class="small">この条件の詳細分類済みカードはありません。</p>';
  more.classList.toggle('hidden',rows.length<=detailReviewLimit);
  more.textContent='続きを表示（残り '+Math.max(0,rows.length-detailReviewLimit)+'件）';
