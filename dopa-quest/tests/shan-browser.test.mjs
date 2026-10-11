@@ -13,7 +13,7 @@ test('Shan domain-only four-choice session on Chromium mobile viewport and progr
   await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
   await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
-  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===13480&&window.DOPA_SEMANTIC_READY_BY_LANG?.shan===true);
+  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===15980&&window.DOPA_SEMANTIC_READY_BY_LANG?.shan===true);
   assert.equal(await page.locator('#lang').inputValue(),'shan');
   assert.equal(await page.locator('#semanticCategory option').count(),19);
   await page.locator('#semanticCategory').selectOption('06');
@@ -40,7 +40,7 @@ test('Shan domain-only four-choice session on Chromium mobile viewport and progr
   await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
   await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
-  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===13480);
+  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===15980);
   const persisted=await page.evaluate(()=>JSON.parse(localStorage.getItem('dopaQuestV5_profile')||'null'));
   assert.equal(persisted.totalQ,saved.totalQ);
   await page.locator('#lang').selectOption('burmese');
@@ -59,7 +59,7 @@ test('missing Shan sidecar disables only Shan categories and does not break Burm
   await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
   await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
-  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===13480);
+  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===15980);
   assert.equal(await page.locator('#semanticCategory').isDisabled(),true);
   await page.locator('#direction').selectOption('toJP');
   await page.locator('#start').click();
