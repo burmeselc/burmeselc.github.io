@@ -48,6 +48,8 @@
    'ブックマーク'+bookmarks.size+'件・'+targetLabel+active.size+'件。'+
    '「学習対象外」と表示された語は一覧に残りますが、単語カードには出題されません。';
   const detail=root.DOPA_DETAIL;
+  const reviewCounts=new Map();
+  try{if(lang==='shan')for(const n of root.DOPA_EDITORIAL_NOTES?.list?.()||[])reviewCounts.set(n.parent_card_id,(reviewCounts.get(n.parent_card_id)||0)+1)}catch(e){console.warn('Editorial notes unavailable',e)}
   $('vocabList').innerHTML=cards.slice(0,shown).map(x=>{
    const a=detail?.annotation(x,lang);
    const category=a?detail.mediums.get(a.medium)?.label:'';
@@ -62,6 +64,7 @@
     ' class="'+(saved?'vocab-marked':'')+'" aria-pressed="'+saved+'">'+(saved?'★ 保存':'☆ 保存')+'</button>'+
     (target==='bookmarks'?'':'<button type="button" data-action="target" '+attrs+
     ' class="'+(member?'vocab-marked':'')+'" aria-pressed="'+member+'">'+(member?'登録済':'＋ 登録')+'</button>')+
+    (lang==='shan'?'<button type="button" data-action="editorial" '+attrs+'>校閲メモ'+(reviewCounts.has(x.parent_card_id||x.parent_id||x.id)?' ('+reviewCounts.get(x.parent_card_id||x.parent_id||x.id)+')':'')+'</button>':'')+
     '</div></div>';
   }).join('')||'<p class="vocab-status">該当する語はありません。検索条件や語義別設定を確認してください。</p>';
   $('vocabMore').classList.toggle('hidden',shown>=cards.length);
@@ -91,6 +94,11 @@
  $('vocabList').addEventListener('click',e=>{
   const button=e.target.closest('button[data-action]');if(!button)return;
   try{
+   if(button.dataset.action==='editorial'){
+    const {allDeck,lang}=context(),selected=allDeck.find(x=>x.id===button.dataset.id);
+    if(lang!=='shan'||!selected||!root.DOPA_EDITORIAL_UI?.open(selected))throw Error('校閲メモ画面を利用できません');
+    return;
+   }
    const action=button.dataset.action==='bookmark'?'bookmark':$('vocabTarget').value;
    api.vocabularyAction(action,{id:button.dataset.id});
    refresh();
