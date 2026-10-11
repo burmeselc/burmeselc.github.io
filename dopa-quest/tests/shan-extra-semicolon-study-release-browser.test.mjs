@@ -48,3 +48,38 @@ test('absent semicolon shard retains prior 4,949 reviewed without altering decks
   assert.deepEqual(out,{count:4949,semicolon:0,total:16985});
  }finally{await browser.close()}
 });
+
+// Every proposed category can temporarily be absent in a machine-review sidecar.
+// Rendering those cards must never interrupt gameplay, XP, or auto/explicit advance.
+test('unclassified Shan proposals remain playable through successive correct answers',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(URL,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===16985&&window.DOPA_SYNC_API?.snapshot);
+  await page.locator('[data-dopa-route="quest"]').click();
+  await page.locator('#zone').selectOption('extra');
+  await page.locator('#direction').selectOption('toJP');
+  await page.locator('#slowCorrect').check();
+  await page.evaluate(()=>{
+   const e=window.DOPA_DETAIL,original=e.annotation.bind(e);
+   e.annotation=(card,lang)=>{
+    const a=original(card,lang);
+    return lang==='shan'&&a?.provisional_only?
+      {...a,medium:null,proposed_medium:null,review_status:'uncategorized-needs-review'}:a;
+   };
+  });
+  await page.locator('#start').click();
+  await page.locator('#game:not(.hidden)').waitFor();
+  for(let i=0;i<5;i++){
+   const choices=page.locator('#choices button:not([disabled])');
+   await choices.first().waitFor();
+   assert.equal(await choices.count(),4);
+   await page.locator('#choices button[data-correct="1"]').click();
+   await page.locator('#continueBtn').click();
+  }
+  assert.equal(await page.evaluate(()=>window.DOPA_SYNC_API.snapshot().totalQ),5);
+  assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});
