@@ -119,6 +119,8 @@
   $('flashFaceTip').textContent=flipped?'タップして問題に戻す':'タップして答へを見る';
   $('flashReveal').classList.toggle('hidden',flipped);
   $('flashRatings').classList.toggle('hidden',!flipped);
+  // The note entry lives outside the flip button and never advances SRS grading.
+  $('flashEditorialOpen').classList.toggle('hidden',!flipped||session.lang!=='shan'||!root.DOPA_EDITORIAL_UI?.open);
   if(flipped)for(const btn of $('flashRatings').querySelectorAll('button')){
    const state=engine.entry(api.flashcardContext().flashcards.cards,current.id,session.direction);
    btn.querySelector('span').textContent=engine.labelDue(state,btn.dataset.flashRating);
@@ -188,6 +190,10 @@
  $('flashStart').addEventListener('click',start);
  $('flashFace').addEventListener('click',flip);
  $('flashReveal').addEventListener('click',flip);
+ $('flashEditorialOpen').addEventListener('click',()=>{
+  if(!session||!current||!flipped||session.lang!=='shan')return;
+  root.DOPA_EDITORIAL_UI?.open?.(current);
+ });
  $('flashRatings').querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>rate(btn.dataset.flashRating)));
  ['flashScope','flashDirection','flashCount','flashNewLimit','flashReviewLimit','flashCollection'].forEach(id=>
   $(id).addEventListener('change',()=>{

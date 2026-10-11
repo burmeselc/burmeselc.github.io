@@ -99,3 +99,5 @@ jobs:
           node --check dopa-quest/editorial-notes.js
           node --check dopa-quest/editorial-notes-ui.js
           node --test dopa-quest/tests/editorial-notes.test.mjs dopa-quest/tests/shan-extra-19-taxonomy-repair.test.mjs
+      - name: Verify v6.3 editorial entry and unchanged learning schema
+        run: node --test dopa-quest/tests/editorial-notes-study-entry.test.mjs
