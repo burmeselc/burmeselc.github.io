@@ -93,3 +93,34 @@ test('sense inventory, categories, user progress, and offline shell remain indep
  assert.match(sw,/OPTIONAL_PACKS\.map\(path=>cache\.add\(path\)\.catch/);
  assert.match(sw,/learning-stats\.js/);
 });
+
+test('sampled four-choice alternatives in both directions never collide by Japanese gloss',()=>{
+ const source=readFileSync(new URL('../game.js',import.meta.url),'utf8');
+ const a=source.indexOf('function glossParts('),b=source.indexOf('function zones(',a);
+ const c=source.indexOf('function distractors('),d=source.indexOf('function beep(',c);
+ assert.ok(a>=0&&b>a&&c>=0&&d>c);
+ const helpers=source.slice(a,b)+source.slice(c,d);
+ const exec=new Function('pool','targets',`
+ const jp=x=>x.japanese_core||x.japanese||x.english||'';
+ const orig=(x,l)=>l==='shan'?x.shan:x.burmese;
+ const shuffle=x=>x;
+ const rivalsFor=()=>[];
+ const byId={};
+ ${helpers}
+ let checked=0;
+ for(const x of targets){
+   for(const dir of ['toJP','fromJP']){
+     const options=distractors(x,pool,'shan',dir);
+     if(options.length!==3)throw Error('fewer than three distractors for '+x.id);
+     if(options.some(y=>glossOverlap(x,y)))throw Error('gloss collision at '+x.id);
+     const label=y=>dir==='toJP'?jp(y):orig(y,'shan');
+     if(new Set(options.map(label)).size!==3)throw Error('repeated answer label for '+x.id);
+     checked++;
+   }
+ }
+ return checked;
+ `);
+ const all=[...original,...pilot,...pack2];
+ const sampled=[...pilot.filter((_,i)=>i%35===0),...pack2.filter((_,i)=>i%35===0)];
+ assert.equal(exec(all,sampled),sampled.length*2);
+});
