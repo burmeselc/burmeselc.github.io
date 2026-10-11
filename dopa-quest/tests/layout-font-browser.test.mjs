@@ -9,6 +9,8 @@ for(const height of [667,844]){
   try{
    const page=await browser.newPage({viewport:{width:375,height},isMobile:true,hasTouch:true});
    await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
    await page.waitForFunction(()=>!!window.DOPA_FLASH_UI&&!!window.DOPA_SYNC_API?.snapshot);
    await page.locator('#lang').selectOption('shan');
    await page.locator('#direction').selectOption('toJP');
@@ -53,6 +55,8 @@ test('Flashcards select Shan typography only on original-script face',async()=>{
  try{
   const page=await browser.newPage({viewport:{width:375,height:844},isMobile:true,hasTouch:true});
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_FLASH_UI&&!!window.DOPA_SYNC_API?.snapshot);
   await page.locator('#lang').selectOption('shan');
   await page.locator('#flashOpen').click();
