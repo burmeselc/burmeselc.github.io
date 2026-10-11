@@ -8,6 +8,8 @@ test('bulk-reviewed optional detail browsing on iPhone preserves default learnin
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const errors=[];page.on('pageerror',x=>errors.push(x.message));
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot&&!!window.DOPA_DETAIL);
   const s=await page.evaluate(()=>{
    const d=window.DOPA_DETAIL,words=window.DOPA_DATA;
