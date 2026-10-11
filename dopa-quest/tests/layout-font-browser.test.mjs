@@ -59,6 +59,7 @@ test('Flashcards select Shan typography only on original-script face',async()=>{
   await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_FLASH_UI&&!!window.DOPA_SYNC_API?.snapshot);
   await page.locator('#lang').selectOption('shan');
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#flashOpen').click();
   await page.locator('#flashScope').selectOption('new');
   await page.locator('#flashStart').click();
