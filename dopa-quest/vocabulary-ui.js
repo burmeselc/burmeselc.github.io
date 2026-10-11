@@ -54,11 +54,15 @@
    const a=detail?.annotation(x,lang);
    const category=a?detail.mediums.get(a.medium)?.label:'';
    const status=String(x.game_include??'1')==='0'?'学習対象外':'';
+   const reviewLabel=a?.review_status==='held-category-repair'?'分類候補の修正保留':
+    a?.review_status==='held-sense-boundary'?'意味境界の確認保留':
+    a?.review_status==='uncategorized-needs-review'?'根拠不足・未分類（原典確認待ち）':
+    a?.provisional_only?'暫定・機械提案（未検証）':'';
    const original=word(x,lang),jp=gloss(x),saved=bookmarks.has(x.id),member=active.has(x.id);
    const attrs='data-id="'+html(x.id)+'"';
    return '<div class="vocab-row"><div class="vocab-main"><div class="vocab-word">'+html(original)+'</div>'+
     '<div class="vocab-gloss">'+html(jp)+'</div><div class="vocab-meta">'+
-    html([x.game_pos||x.pos||'',category||x.semantic_major&&('領域 '+x.semantic_major)||'未分類',a?.provisional_only?'暫定・機械提案（未検証）':'',a?.boundary_unverified?(a.medium?'語義境界未検証・低確度':'語義境界未検証・分類根拠なし'):'',status].filter(Boolean).join(' ／ '))+
+    html([x.game_pos||x.pos||'',category||x.semantic_major&&('領域 '+x.semantic_major)||'未分類',reviewLabel,a?.boundary_unverified?(a.medium?'語義境界未検証・低確度':'語義境界未検証・分類根拠なし'):'',status].filter(Boolean).join(' ／ '))+
     (x.english?'<div>'+html(x.english)+'</div>':'')+'</div></div>'+
     '<div class="vocab-row-actions"><button type="button" data-action="bookmark" '+attrs+
     ' class="'+(saved?'vocab-marked':'')+'" aria-pressed="'+saved+'">'+(saved?'★ 保存':'☆ 保存')+'</button>'+
