@@ -41,6 +41,16 @@
       "source_sha256": "1aa74d2d3c6cef6535a8f41925eb945a05cd51a6a31244ed525776172aae1bd7",
       "pack_sha256": "ff5bc29cc86151889735c279fb9ccb2d24ea4ea5d1fda7dda25ff1ba3f11508e",
       "review_basis": "source-gloss-pilot; independent linguistic review pending"
+    },
+    {
+      "key": "pack-5",
+      "file": "shan-extra-pack-5.json",
+      "expected_count": 2500,
+      "start_rank": 13481,
+      "end_rank": 15980,
+      "source_sha256": "1aa74d2d3c6cef6535a8f41925eb945a05cd51a6a31244ed525776172aae1bd7",
+      "pack_sha256": "10862ca31b4c78f1db20b08e14717b3bbf525d7bfdb4891f8eb7844a865f04f1",
+      "review_basis": "source-gloss-pilot; independent linguistic review pending"
     }
   ]
 }
