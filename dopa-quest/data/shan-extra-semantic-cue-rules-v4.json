@@ -8,7 +8,7 @@
     "shan-extra-semantic-cue-rules-v2.json",
     "shan-extra-semantic-cue-rules-v3.json"
   ],
-  "rule_basis": "Inherit 82 v3 Japanese lexical cue rules, add target-specific cues and contextual suppressions. Avoid mythic-animal, illness/weather, clothing/bread, occupation/instrument, culture/modifier, color/simile and parenthetical-example collisions. This is an unverified provisional cue audit, not human lexical approval.",
+  "rule_basis": "Inherit 82 v3 Japanese lexical cue rules, add target-specific cues and contextual suppressions. Avoid mythic-animal, illness/weather, clothing/bread, occupation/instrument, culture/modifier, color/simile and parenthetical-example collisions. This is an unverified provisional cue audit, not human lexical approval. Targeted audit after initial 1,000-row draft corrected brush/tool, tongs/craft, plant blooming/general change, travel/spatial adjunct, sunbathing/astronomy, physical impairment/generic pulling, and negative completeness/existence.",
   "matching_policy": "Match stripped Japanese core gloss (nonnested fullwidth parentheses discarded); suppression patterns match intact core gloss. English definition is provenance only. Evidence is the literal matched cue with regex metacharacters escaped.",
   "conflict_policy": "Primary provisional cue only when exactly one medium rule matches AND no semicolon; otherwise primary is null and all candidates retained. Semicolon splits are hypotheses and issue no sense IDs.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -52,7 +52,7 @@
     {
       "id": "sem-02.03",
       "medium_id": "02.03",
-      "pattern": "種子|芽が|芽を|発芽|生育|繁殖|開花|孵化|幼虫|成長する植物|花が咲く|枯れる|つぼみ|芽吹|しおれ|毎年実をつける|未熟な|発育不全|^新芽を出す|^落葉する|^完全に成長する|^たわわに実る",
+      "pattern": "種子|芽が|芽を|発芽|生育|繁殖|開花|孵化|幼虫|成長する植物|花が咲く|枯れる|つぼみ|芽吹|しおれ|毎年実をつける|未熟な|発育不全|^新芽を出す|^落葉する|^完全に成長する|^たわわに実る|^ほころびる、咲き始める|^ほころびる、芽吹き始める",
       "mode": "japanese-core-lexical-cue-with-context-guards-v4"
     },
     {
@@ -76,7 +76,7 @@
     {
       "id": "sem-03.03",
       "medium_id": "03.03",
-      "pattern": "病気|病んだ|痛み|痛む|頭痛|腰痛|発疹|梅毒|性病|麻痺|痺れ|痺れる|病状|かゆ|腫れ|腫れる|膿瘍|怪我|負傷|治癒|ヘルニア|脱腸|にきび|吹き出物|失明|斜視|目がくら|目が回|しびれ|障害のある|不自由な|潰瘍|コレラ|おでき|水っぽい膿|肥満|かじかむ|発熱|水ぶくれ|ハンセン病|患者|発育不全|夜盲症|盲目|目が見えない|くぼんでいる|窒息|下痢|便秘|青あざ|打ち身|出血を伴う|傷（|^天然痘|^てんかん|^おたふく風邪|^血液疾患|^糖尿病|^淋病|^湿疹|^歯肉炎|^中耳炎|^感染症|^擦りむける|^便秘|^痩せ細って|^悪寒|^乾いた咳|^空咳|^顎が強張る|^破傷風",
+      "pattern": "病気|病んだ|痛み|痛む|頭痛|腰痛|発疹|梅毒|性病|麻痺|痺れ|痺れる|病状|かゆ|腫れ|腫れる|膿瘍|怪我|負傷|治癒|ヘルニア|脱腸|にきび|吹き出物|失明|斜視|目がくら|目が回|しびれ|障害のある|不自由な|潰瘍|コレラ|おでき|水っぽい膿|肥満|かじかむ|発熱|水ぶくれ|ハンセン病|患者|発育不全|夜盲症|盲目|目が見えない|くぼんでいる|窒息|下痢|便秘|青あざ|打ち身|出血を伴う|傷（|^天然痘|^てんかん|^おたふく風邪|^血液疾患|^糖尿病|^淋病|^湿疹|^歯肉炎|^中耳炎|^感染症|^擦りむける|^便秘|^痩せ細って|^悪寒|^乾いた咳|^空咳|^顎が強張る|^破傷風|^足が不自由である",
       "mode": "japanese-core-lexical-cue-with-context-guards-v4"
     },
     {
@@ -154,7 +154,7 @@
     {
       "id": "sem-06.03",
       "medium_id": "06.03",
-      "pattern": "煮る|焼く|炒める|蒸す|茹でる|調理|料理する|漬ける|乾燥させる|保存食|揚げる|炊く|粉に挽く|蒸留|酒造|漬け込む|マリネにする|発酵|醸造|調理場|^混ぜて|^焼く|^炒める|^肉を燻製にする|^燻す|^料理のレシピ|^調理法",
+      "pattern": "煮る|焼く|炒める|蒸す|茹でる|調理|料理する|漬ける|乾燥させる|保存食|揚げる|炊く|粉に挽く|蒸留|酒造|漬け込む|マリネにする|発酵|醸造|調理場|^混ぜて|^焼く|^炒める|^肉を燻製にする|^燻す|^料理のレシピ|^調理法|^茶を淹れる",
       "mode": "japanese-core-lexical-cue-with-context-guards-v4"
     },
     {
@@ -274,7 +274,7 @@
     {
       "id": "sem-11.01",
       "medium_id": "11.01",
-      "pattern": "機械|装置|工具|器具|機器|電気|モーター|発電|コピー機|レシーバー|音声受信機|ガジェット|銅鑼を吊るす棒|繋ぎ綱|支柱|針先|焼きごて|ふるい|金網|ナイフの鞘|槍の穂先|グレーダー|石筆のホルダー|錠、鍵|唐臼|天秤棒|ふいご|レンチ|スパナ|木槌|ノミ|クレーン|ブルドーザー|昇降機|ロードローラー|芝刈り機|^錨|魚捕り器|タイプライター|照明スイッチ|^錐（|^ドリル|^鋲（|^のこぎり|^ナイフ|^鎌|^鉈（|^鉋（|^レーダー|^宇宙ロケット|^馬の轡|^牛の轡|^刀の鞘",
+      "pattern": "機械|装置|工具|器具|機器|電気|モーター|発電|コピー機|レシーバー|音声受信機|ガジェット|銅鑼を吊るす棒|繋ぎ綱|支柱|針先|焼きごて|ふるい|金網|ナイフの鞘|槍の穂先|グレーダー|石筆のホルダー|錠、鍵|唐臼|天秤棒|ふいご|レンチ|スパナ|木槌|ノミ|クレーン|ブルドーザー|昇降機|ロードローラー|芝刈り機|^錨|魚捕り器|タイプライター|照明スイッチ|^錐（|^ドリル|^鋲（|^のこぎり|^ナイフ|^鎌|^鉈（|^鉋（|^レーダー|^宇宙ロケット|^馬の轡|^牛の轡|^刀の鞘|^鍛冶屋のやっとこ|^中国人が筆記に用いる小さな筆|^家畜の首にかける木製の襟",
       "mode": "japanese-core-lexical-cue-with-context-guards-v4"
     },
     {
@@ -412,13 +412,13 @@
     {
       "id": "sem-15.04",
       "medium_id": "15.04",
-      "pattern": "程度|もっと|比較的|優れた|劣った|同等|安い|高価|低価格|格安|平凡|珍しい|奇妙|風変わり|価値がある|値がつく|過度に|極端に|^極めて|^すごく|^特に|^重要な|^高く評価する|^無事に|^悪くない|^優秀|^非常に古い|^窮屈な|^混雑した",
+      "pattern": "程度|もっと|比較的|優れた|劣った|同等|安い|高価|低価格|格安|平凡|珍しい|奇妙|風変わり|価値がある|値がつく|過度に|極端に|^極めて|^すごく|^特に|^重要な|^高く評価する|^無事に|^悪くない|^優秀|^非常に古い|^窮屈な|^混雑した|^どっちつかずの、不完全な",
       "mode": "japanese-core-lexical-cue-with-context-guards-v4"
     },
     {
       "id": "sem-16.01",
       "medium_id": "16.01",
-      "pattern": "^立つ|座る|^歩く|^走る|跳ね回|転が|滑り落|浮遊|浮か|^飛ぶ|止まる|寝転ぶ|よろめ|ふらつ|腰をかがめ|転倒する|片足で飛び跳ねる|飛び跳ね|近づく|近寄る|跳躍|立ち止ま|曲がる|羽ばたく|行ったり来たり|^うろちょろする|^動き回る|^ぴょんぴょん跳ねる|^片足で跳ね|^しゃがむ|^かがむ|^伏せる|^逆立ち|^とんぼ返り|^飛び散る|^滴る|^震える|^揺れ動く|^立ち去る|^出発する|^歩き回る|^跳び上がる|^真っ逆さまに|^前後に揺れる|^押し寄せる",
+      "pattern": "^立つ|座る|^歩く|^走る|跳ね回|転が|滑り落|浮遊|浮か|^飛ぶ|止まる|寝転ぶ|よろめ|ふらつ|腰をかがめ|転倒する|片足で飛び跳ねる|飛び跳ね|近づく|近寄る|跳躍|立ち止ま|曲がる|羽ばたく|行ったり来たり|^うろちょろする|^動き回る|^ぴょんぴょん跳ねる|^片足で跳ね|^しゃがむ|^かがむ|^伏せる|^逆立ち|^とんぼ返り|^飛び散る|^滴る|^震える|^揺れ動く|^立ち去る|^出発する|^歩き回る|^跳び上がる|^真っ逆さまに|^前後に揺れる|^押し寄せる|^遠くへ跳ぶ|^肩車する",
       "mode": "japanese-core-lexical-cue-with-context-guards-v4"
     },
     {
@@ -561,6 +561,56 @@
       "medium_id": "18.01",
       "when": "^なぜ|^どうして",
       "reason": "Interrogative not causal nominal"
+    },
+    {
+      "medium_id": "01.04",
+      "when": "^日を浴びる、日光浴",
+      "reason": "Sunbathing is an activity, not an astronomical phenomenon."
+    },
+    {
+      "medium_id": "02.04",
+      "when": "^家畜の首にかける木製の襟",
+      "reason": "Yoke is an implement, not livestock."
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^ゆっくり慎重に行く",
+      "reason": "Cautious walking manner is not necessarily disposition."
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^鍛冶屋のやっとこ",
+      "reason": "Anvil/tongs are tools, not manufacturing action."
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^肩車する",
+      "reason": "Carrying a child on shoulders is not transportation technology."
+    },
+    {
+      "medium_id": "13.02",
+      "when": "^中国人が筆記に用いる小さな筆",
+      "reason": "Referent is the stylus/brush, not an act of writing."
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^遠くへ跳ぶ",
+      "reason": "Motion distance is an adjunct, not lexical location."
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^足が不自由である|^茶を淹れる|^肩車する",
+      "reason": "Substring pulling or soaking does not define the referred event."
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^ほころびる、咲き始める|^ほころびる、芽吹き始める|^喧嘩する、誤解が生じる",
+      "reason": "Biological bloom and abstract misunderstandings require separate caution."
+    },
+    {
+      "medium_id": "16.04",
+      "when": "^どっちつかずの、不完全な",
+      "reason": "Negated completeness is not existence/possession."
     }
   ],
   "tag_rules": [
