@@ -85,7 +85,7 @@ test('one answer cue, separate boss entrance, immediate mute and preserved progr
        // next prompt. Confirm either transition without losing the audio signal.
        try{
         await page.waitForFunction(()=>document.querySelector('#continueBtn')||
-         document.querySelector('#choices button:not([disabled])'),{timeout:6500});
+         document.querySelector('#choices button:not([disabled])'),null,{timeout:6500});
        }catch(err){
         const details=await page.evaluate(()=>({
          round:document.querySelector('#qstat')?.textContent,
