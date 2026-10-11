@@ -111,7 +111,7 @@ def load_queue(path: Path) -> tuple[list[dict[str, str]], list[str]]:
         reader = csv.DictReader(f)
         names = reader.fieldnames or []
         required = {
-            "index", "source_headword_nfc", "source_entry_count",
+            "source_headword_nfc", "source_entry_count",
             "raw_pos_labels", "source_japanese_candidates",
             "primary_review_reason", "decision", "approved_gloss",
             "approved_pos", "sense_split", "major_categories",
@@ -120,6 +120,12 @@ def load_queue(path: Path) -> tuple[list[dict[str, str]], list[str]]:
         if not required.issubset(names):
             raise ValueError(f"review queue columns missing: {sorted(required - set(names))}")
         rows = list(reader)
+    if "index" not in names:
+        # The original private CSV has no index column: use a review-only
+        # ordinal derived from the source row order, never as a card ID.
+        for ordinal, item in enumerate(rows):
+            item["index"] = str(ordinal)
+        names = ["index", *names]
     if len(rows) != 1211:
         raise ValueError(f"expected 1211 unique forms; got {len(rows)}")
     counts = Counter(r["primary_review_reason"] for r in rows)

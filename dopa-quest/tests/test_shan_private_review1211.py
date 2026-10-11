@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Offline regression checks for the private Shan review preparation script."""
 import importlib.util
+import csv
+import tempfile
 from pathlib import Path
 import unittest
 
@@ -80,6 +82,26 @@ class TestReviewProposals(unittest.TestCase):
         self.assertEqual(units, [])
         self.assertEqual(len(held), 1)
         self.assertEqual(held[0]["status"], "unresolved-boundary")
+    def test_source_csv_without_index_is_accepted(self):
+        records = []
+        for reason, n in tool.EXPECTED_REASONS.items():
+            for j in range(n):
+                rec = row("noun", "語", reason)
+                rec.pop("index")  # Real private CSV has no synthetic index.
+                rec["source_headword_nfc"] = "ၵ" + str(len(records))
+                records.append(rec)
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "private-source.csv"
+            with path.open("w", encoding="utf-8-sig", newline="") as stream:
+                writer = csv.DictWriter(stream, fieldnames=list(records[0]))
+                writer.writeheader()
+                writer.writerows(records)
+            checked, header = tool.load_queue(path)
+        self.assertEqual(len(checked), 1211)
+        self.assertEqual(checked[0]["index"], "0")
+        self.assertEqual(checked[-1]["index"], "1210")
+        self.assertEqual(header[0], "index")
+
 
 if __name__ == "__main__":
     unittest.main()
