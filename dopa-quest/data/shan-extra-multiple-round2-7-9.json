@@ -2,7 +2,7 @@
   "schema": "dopa-shan-extra-multiple-review-round2-proposals-v1",
   "source_queue": "shan-extra-multiple-review-7-9.json",
   "status": "provisional-candidates-not-deployed",
-  "count": 79,
+  "count": 78,
   "entries": [
     {
       "parent_card_id": "shn:anki:3216957fd922fe83",
@@ -976,36 +976,6 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "語義中心を「事実・可能性・抽象概念」に暫定配置（対応手掛かり：独立）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
-      "source_confirmation_required": true,
-      "editorial_review": "machine-proposal-unverified",
-      "sense_id": null,
-      "pos_candidate": null,
-      "publishable_as_approved_sense": false
-    },
-    {
-      "parent_card_id": "shn:anki:f5d25e7ca07a6704",
-      "rank": 13084,
-      "shan": "လွႆဢုၼ်ႈ",
-      "source_gloss": "樹木のない、丸い頂の山",
-      "source_definition": "【名詞】 樹木のない、丸い頂の山 [round-topped mountain without trees]",
-      "source_record_ids": [
-        "anki_shan_jpn.csv:16139"
-      ],
-      "selected_medium": "15.01",
-      "selected_label": "形・大きさ・構造",
-      "selected_original_cues": [
-        "丸い"
-      ],
-      "other_original_cues": [
-        {
-          "medium": "02.02",
-          "evidence": [
-            "樹木"
-          ]
-        }
-      ],
-      "judgement": "provisional-lexical-center-not-validated",
-      "rationale": "語義中心を「形・大きさ・構造」に暫定配置（対応手掛かり：丸い）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
