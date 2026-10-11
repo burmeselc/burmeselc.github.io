@@ -1,0 +1,4102 @@
+{
+  "schema": "dopa-shan-extra-multiple-cue-review-queue-v1",
+  "status": "editorial-triage-not-approved",
+  "source_rank_span": [
+    11481,
+    14480
+  ],
+  "source_batched": [
+    7,
+    8,
+    9
+  ],
+  "count": 100,
+  "triaged_proposals": 12,
+  "pending": 88,
+  "entries": [
+    {
+      "parent_card_id": "shn:anki:3216957fd922fe83",
+      "rank": 11487,
+      "shan": "ၶႃႈၸဝ်ႈ ၽြႃး",
+      "source_gloss": "寺男、パゴダの奉仕者",
+      "source_definition": "\"【名詞】 寺男、パゴダの奉仕者 [pagoda slave,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3667"
+      ],
+      "source_row": 3667,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "寺男"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "寺男"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:be6f3e829f3e4bb5",
+      "rank": 11490,
+      "shan": "ၶႄးၽျႅတ်ႈ",
+      "source_gloss": "消しゴム（語源等：ビルマ語）",
+      "source_definition": "\"【名詞】 消しゴム（語源等：ビルマ語） [eraser, （語源等：Burmese）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3692"
+      ],
+      "source_row": 3692,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "08.02",
+          "major": "08",
+          "evidence": [
+            "消しゴム"
+          ]
+        },
+        {
+          "medium": "13.02",
+          "major": "13",
+          "evidence": [
+            "消しゴム"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:71bc76ef5496bd50",
+      "rank": 11500,
+      "shan": "ၶႅၼ်တၢင်းၵိၼ်",
+      "source_gloss": "（病気やケチさのせいで）食事を制限する、食べさせないようにする",
+      "source_definition": "\"【動詞】 （病気やケチさのせいで）食事を制限する、食べさせないようにする [prevent one form eating, whether on account of sickness or from penuriousness]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3772"
+      ],
+      "source_row": 3772,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "食事"
+          ]
+        },
+        {
+          "medium": "06.04",
+          "major": "06",
+          "evidence": [
+            "食事を制限する"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "06.04",
+        "reason": "食事は目的語であり、摂取を制限する行為が中心。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4d32a1ecb9bfafac",
+      "rank": 11516,
+      "shan": "ငိုၼ်းၶၼ်တေႃႈ",
+      "source_gloss": "条件付きで支払われる金（身代金や口止め料など）",
+      "source_definition": "\"【名詞】 条件付きで支払われる金（身代金や口止め料など） [money that is paid on a condition (as ransom or blackmail)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3903"
+      ],
+      "source_row": 3903,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "支払"
+          ]
+        },
+        {
+          "medium": "18.01",
+          "major": "18",
+          "evidence": [
+            "条件"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "10.04",
+        "reason": "金銭・支払いが中心で、条件付きは修飾情報。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7f733eb96b258e25",
+      "rank": 11571,
+      "shan": "ၸရေးတႅမ်ႈလိၵ်ႈ",
+      "source_gloss": "著述家、作家",
+      "source_definition": "【名詞】 著述家、作家 [writer of books]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4302"
+      ],
+      "source_row": 4302,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "著述家"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "著述家"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "著述家"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:fd65d8b5b4bd5411",
+      "rank": 11577,
+      "shan": "ၸဝ်ႈႁႆႈၸဝ်ႈသူၼ်",
+      "source_gloss": "農家、園芸・畑作の従事者",
+      "source_definition": "\"【名詞】 農家、園芸・畑作の従事者 [owner, cultivator of a garden or upland field, peasants]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4342"
+      ],
+      "source_row": 4342,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "農家、園芸"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "農家、園芸"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:917f48dd9d1512c6",
+      "rank": 11580,
+      "shan": "ၸဝ်ႈသႅင်ႇၵၢတ်ႇ",
+      "source_gloss": "食料雑貨店主、市場の売り手",
+      "source_definition": "\"【名詞】 食料雑貨店主、市場の売り手 [grocer, seller (as in the market)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4366"
+      ],
+      "source_row": 4366,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "食料雑貨店主"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "市場"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "10.01",
+        "reason": "食料雑貨店主・売り手という職業人を指す。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:70b1199c207a1b29",
+      "rank": 11599,
+      "shan": "ၸိူၼ်းၸၢႆႉ",
+      "source_gloss": "傾く、同じ方向に曲がる（木の二本の枝が並行でない状態など）",
+      "source_definition": "\"【動詞】 傾く、同じ方向に曲がる（木の二本の枝が並行でない状態など） [incline, bend in the same direction, not parallel (as two branches of a tree), ၸိူၼ်း ၸၢႆႉၸေၵၼ်]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4535"
+      ],
+      "source_row": 4535,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "方向"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "曲がる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "16.01",
+        "reason": "曲がる・傾くという変位が中心で、方向は修飾。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aeb0265ad3781f37",
+      "rank": 11628,
+      "shan": "ၸေႈၶမ်းသိူင်း",
+      "source_gloss": "金箔を挟むための紙",
+      "source_definition": "【名詞】 金箔を挟むための紙 [paper used to keep gold leaf separate]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4771"
+      ],
+      "source_row": 4771,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "金箔"
+          ]
+        },
+        {
+          "medium": "15.02",
+          "major": "15",
+          "evidence": [
+            "金箔"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "挟む"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a8b0f19f462d1ab6",
+      "rank": 11671,
+      "shan": "ၸၢၵ်ႈသႂ်ႇထၢတ်ႈသီႇ",
+      "source_gloss": "ガソリンポンプ",
+      "source_definition": "\"【名詞】 ガソリンポンプ [gas pump,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5097"
+      ],
+      "source_row": 5097,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "11.01",
+          "major": "11",
+          "evidence": [
+            "ガソリンポンプ"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "ガソリン"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "11.01",
+        "reason": "ガソリンポンプという装置を指し、ガソリンは対象物。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:bdb98b33269e2e33",
+      "rank": 11690,
+      "shan": "ၸႂ်တွတ်ႇ",
+      "source_gloss": "脈打つ、鼓動する",
+      "source_definition": "\"【動詞】 脈打つ、鼓動する [beat, pulsate, as the heart, have the heart beat]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5274"
+      ],
+      "source_row": 5274,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "脈打つ"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "打つ"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "03.02",
+        "reason": "身体機能としての脈拍・鼓動であり、汎用動詞『打つ』の一致は副次的。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:045497e57849fbf5",
+      "rank": 11735,
+      "shan": "သမ်ႇပပ်ႉပလႃႇပႃႉဝႃႇၸႃႇ",
+      "source_gloss": "離間語、他人の幸福を損なう不適切な言葉",
+      "source_definition": "\"【名詞】 離間語、他人の幸福を損なう不適切な言葉 [language destructive of the happiness of others （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5576"
+      ],
+      "source_row": 5576,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "幸福"
+          ]
+        },
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "言葉"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "13.01",
+        "reason": "指示対象は言葉で、『幸福』は説明内の目的語。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:50f77581a5dc3178",
+      "rank": 11743,
+      "shan": "သဝ်လူင်",
+      "source_gloss": "棟木を支える太い主柱",
+      "source_definition": "\"【名詞】 棟木を支える太い主柱 [large post which supports the ridge of a roof]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5623"
+      ],
+      "source_row": 5623,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "棟木"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "太い"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "08.01",
+        "reason": "指示対象は建物を支える主柱で、太いは形容。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:fb197a5ae515c2cc",
+      "rank": 11807,
+      "shan": "သွၼ်သူပ်း",
+      "source_gloss": "口頭で教える、口伝えで覚える",
+      "source_definition": "\"【動詞】 口頭で教える、口伝えで覚える [teach verbally, learn orally]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6081"
+      ],
+      "source_row": 6081,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "覚える"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "教える"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:030adc1b514cca53",
+      "rank": 11875,
+      "shan": "သႃႉလၢမ်း",
+      "source_gloss": "推測する、見積もる、計算する",
+      "source_definition": "\"【動詞】 推測する、見積もる、計算する [guess, estimate, calculate]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6776"
+      ],
+      "source_row": 6776,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "推測する"
+          ]
+        },
+        {
+          "medium": "11.05",
+          "major": "11",
+          "evidence": [
+            "見積も"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:706a38d18a3f9017",
+      "rank": 11905,
+      "shan": "တင်ႈၶဝ်ႈတင်ႈၽၵ်း",
+      "source_gloss": "食事の準備をする、料理をする",
+      "source_definition": "【動詞】 食事の準備をする、料理をする [place food for eating, cook food]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7004"
+      ],
+      "source_row": 7004,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "食事"
+          ]
+        },
+        {
+          "medium": "06.04",
+          "major": "06",
+          "evidence": [
+            "食事の準備をする"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "06.04",
+        "reason": "料理する・食事を準備する行為であり、食事は目的語。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:1822b334b259c215",
+      "rank": 11927,
+      "shan": "တိဝ်ႈႁိဝ်ႈ",
+      "source_gloss": "片手で持ち上げて重さを測る",
+      "source_definition": "【動詞】 片手で持ち上げて重さを測る [lift up with one hand in order to guess the weight of something]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7177"
+      ],
+      "source_row": 7177,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "11.05",
+          "major": "11",
+          "evidence": [
+            "重さ"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "持ち上"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "11.05",
+        "reason": "目的は重さを測ることで、持ち上げるのは方法。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:93977d65d4a2f162",
+      "rank": 11945,
+      "shan": "တိူင်းၵပ်း",
+      "source_gloss": "比較する、共に測定する",
+      "source_definition": "\"【動詞】 比較する、共に測定する [compare together, measure together]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7289"
+      ],
+      "source_row": 7289,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "11.05",
+          "major": "11",
+          "evidence": [
+            "測定"
+          ]
+        },
+        {
+          "medium": "18.02",
+          "major": "18",
+          "evidence": [
+            "比較する"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:73b81aebbcf64e02",
+      "rank": 11952,
+      "shan": "တိူၵ်ႈႁိူၼ်း",
+      "source_gloss": "アパート、集合住宅",
+      "source_definition": "\"【名詞】 アパート、集合住宅 [apartment building,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7337"
+      ],
+      "source_row": 7337,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7a.json",
+      "category_candidates": [
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "住宅"
+          ]
+        },
+        {
+          "medium": "18.03",
+          "major": "18",
+          "evidence": [
+            "集合"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "08.01",
+        "reason": "集合住宅・アパートという建物名で、集合は文字列一致。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:de55a134b440dd5e",
+      "rank": 12005,
+      "shan": "တူၵ်းၶိုင်ႈ",
+      "source_gloss": "中途半端になる、半分終わる（仕事や旅など）",
+      "source_definition": "\"【動詞】 中途半端になる、半分終わる（仕事や旅など） [be half finished (as a piece of work, journey, etc.)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7718"
+      ],
+      "source_row": 7718,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "14.03",
+          "major": "14",
+          "evidence": [
+            "半分"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "終わる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a2780015540f1b13",
+      "rank": 12020,
+      "shan": "တူၼ်ႈမၢၵ်ႇၶိူဝ်",
+      "source_gloss": "ナスの苗",
+      "source_definition": "\"【名詞】 ナスの苗 [plant of eggplant]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7826"
+      ],
+      "source_row": 7826,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "ナスの苗"
+          ]
+        },
+        {
+          "medium": "02.04",
+          "major": "02",
+          "evidence": [
+            "苗"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b41d5ca587a92558",
+      "rank": 12027,
+      "shan": "တေႃလႅမ်",
+      "source_gloss": "尖った切り株、水中の障害物",
+      "source_definition": "\"【名詞】 尖った切り株、水中の障害物 [sharp stump, snag]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7876"
+      ],
+      "source_row": 7876,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "切り株"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "尖った"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "provisional-single-category",
+        "proposed_primary_medium": "01.01",
+        "reason": "切り株という物が中心で、尖ったは形状の修飾。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ae3fa3d9426431d7",
+      "rank": 12034,
+      "shan": "တေႃႈဝႃႈၼၼ်ၵေႃႈ",
+      "source_gloss": "たとえそうであっても、しかしながら",
+      "source_definition": "\"【接続詞】 たとえそうであっても、しかしながら [conjunction】 although, nevertheless]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7930"
+      ],
+      "source_row": 7930,
+      "pos_source": "接続詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "17.03",
+          "major": "17",
+          "evidence": [
+            "たとえそうで"
+          ]
+        },
+        {
+          "medium": "17.04",
+          "major": "17",
+          "evidence": [
+            "たとえそうで"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:16d161c377938ad0",
+      "rank": 12083,
+      "shan": "တၢင်းမၢင်ႈမီး",
+      "source_gloss": "繁栄、富、財産",
+      "source_definition": "\"【名詞】 繁栄、富、財産 [prosperity, riches, wealth]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8316"
+      ],
+      "source_row": 8316,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "財産"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "繁栄"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:92fd34e1ba059a3d",
+      "rank": 12104,
+      "shan": "တၢၼ်ႉၵိုတ်း",
+      "source_gloss": "止まる、しばらく留まる",
+      "source_definition": "\"【動詞】 止まる、しばらく留まる [stop, remain for a little while]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8466"
+      ],
+      "source_row": 8466,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "14.01",
+          "major": "14",
+          "evidence": [
+            "しばらく"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "止まる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0d2456984af82653",
+      "rank": 12120,
+      "shan": "တႃၽေႉယႅမ်ႉယႅမ်ႉ",
+      "source_gloss": "まぶたの痛みで頻繁に目を閉じる",
+      "source_definition": "\"【動詞】 まぶたの痛みで頻繁に目を閉じる [close the eyes often on account of soreness of the eyelids]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8585"
+      ],
+      "source_row": 8585,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "痛み"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "閉じる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4fc0ce44d2723301",
+      "rank": 12192,
+      "shan": "ထူဝ်ႇယႅမ်း",
+      "source_gloss": "ひよこ豆の一種",
+      "source_definition": "【名詞】 ひよこ豆の一種 [a variety of chick peas]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9129"
+      ],
+      "source_row": 9129,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "ひよこ豆"
+          ]
+        },
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "ひよこ豆"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4d0ff14699770340",
+      "rank": 12200,
+      "shan": "ထေႃယႄး",
+      "source_gloss": "心地よく説得力のある口調で話す",
+      "source_definition": "【動詞】 心地よく説得力のある口調で話す [speak in pleasant persuasive tones]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9177"
+      ],
+      "source_row": 9177,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "説得"
+          ]
+        },
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "話す"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:defe66e0833507b4",
+      "rank": 12362,
+      "shan": "ပိုတ်းၵုၺ်",
+      "source_gloss": "弓の弦で綿を打つ（綿打ち）",
+      "source_definition": "【動詞】 弓の弦で綿を打つ（綿打ち） [dress cotton with a bowstring]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10510"
+      ],
+      "source_row": 10510,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "綿"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "打つ"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:190f1c0ed4111086",
+      "rank": 12366,
+      "shan": "ပိုၼ်းၼႃႈလိၼ်",
+      "source_gloss": "地理、大地の物語",
+      "source_definition": "\"【名詞】 地理、大地の物語 [geography, story of the earth,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10545"
+      ],
+      "source_row": 10545,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "大地"
+          ]
+        },
+        {
+          "medium": "12.05",
+          "major": "12",
+          "evidence": [
+            "物語"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7d709589a3a01a36",
+      "rank": 12375,
+      "shan": "ပိူၵ်ႇၵႅပ်ႇ",
+      "source_gloss": "籾殻、搗いた米の殻",
+      "source_definition": "\"【名詞】 籾殻、搗いた米の殻 [chaff, husks of pounded rice]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10612"
+      ],
+      "source_row": 10612,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "籾殻"
+          ]
+        },
+        {
+          "medium": "10.02",
+          "major": "10",
+          "evidence": [
+            "籾"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7f5de0379ec96719",
+      "rank": 12413,
+      "shan": "ပူၺ်ႇလၢၼ်ႈ",
+      "source_gloss": "（煮すぎなどで）非常に柔らかい、形が崩れるほど柔らかい",
+      "source_definition": "【動詞】 （煮すぎなどで）非常に柔らかい、形が崩れるほど柔らかい [be very soft and yielding (as over-cooked vegetables)]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10889"
+      ],
+      "source_row": 10889,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "柔らか"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "崩れる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:750fe3312a65f2f0",
+      "rank": 12437,
+      "shan": "ပဵၼ်လၼ်",
+      "source_gloss": "鼠径（そけい）部に腫瘍ができる、リンパ節が腫れる",
+      "source_definition": "\"【動詞】 鼠径（そけい）部に腫瘍ができる、リンパ節が腫れる [have a tumor in the groins, have swollen glands]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11080"
+      ],
+      "source_row": 11080,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "03.01",
+          "major": "03",
+          "evidence": [
+            "鼠径部"
+          ]
+        },
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "腫れ"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f77a554196705e9b",
+      "rank": 12466,
+      "shan": "ပွႆးၵိၼ်ၶႅၵ်ႇ",
+      "source_gloss": "結婚披露宴、結婚式",
+      "source_definition": "\"【名詞】 結婚披露宴、結婚式 [wedding, wedding ceremony]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11294"
+      ],
+      "source_row": 11294,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-7b.json",
+      "category_candidates": [
+        {
+          "medium": "05.03",
+          "major": "05",
+          "evidence": [
+            "結婚"
+          ]
+        },
+        {
+          "medium": "12.02",
+          "major": "12",
+          "evidence": [
+            "結婚式"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5459e593dfead50b",
+      "rank": 12491,
+      "shan": "ပၼ်ငိုၼ်းထႆႇ",
+      "source_gloss": "身代金を払う、買い戻す",
+      "source_definition": "\"【動詞】 身代金を払う、買い戻す [give money in order to redeem something, pay ransom money]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11500"
+      ],
+      "source_row": 11500,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "09.04",
+          "major": "09",
+          "evidence": [
+            "身代金を払う"
+          ]
+        },
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "身代金を払う"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:de874bef735b8041",
+      "rank": 12495,
+      "shan": "ပၼ်ၺၢၼ်ႇ",
+      "source_gloss": "助言する、案を出す",
+      "source_definition": "\"【動詞】 助言する、案を出す [suggest an idea or plan]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11522"
+      ],
+      "source_row": 11522,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "助言する"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "助言する"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2247533e3573e8d6",
+      "rank": 12517,
+      "shan": "ပႃႇမွၵ်ႉၶႃႉ",
+      "source_gloss": "教授、博士",
+      "source_definition": "\"【名詞】 教授、博士 [teacher at a university, professor; person with a doctorate degree （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11668"
+      ],
+      "source_row": 11668,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "教授、博士"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "教授、博士"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "教授、博士"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c0024a4f4690ae19",
+      "rank": 12534,
+      "shan": "ၽင်ႇသုတ်း",
+      "source_gloss": "堤防の突き出た部分",
+      "source_definition": "\"【名詞】 堤防の突き出た部分 [projection of a bank]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11813"
+      ],
+      "source_row": 11813,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "01.02",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f4ec92e4352042ba",
+      "rank": 12546,
+      "shan": "ၽိုၼ်ႉမိူင်း",
+      "source_gloss": "国や政府に反旗を翻す、叛逆する",
+      "source_definition": "\"【動詞】 国や政府に反旗を翻す、叛逆する [rebel, revolt against one's country or government]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11915"
+      ],
+      "source_row": 11915,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "09.02",
+          "major": "09",
+          "evidence": [
+            "政府"
+          ]
+        },
+        {
+          "medium": "09.04",
+          "major": "09",
+          "evidence": [
+            "国や政府に反旗を翻す"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aeb195a167deac36",
+      "rank": 12579,
+      "shan": "ၽူႈတႅမ်ႈပပ်ႉ",
+      "source_gloss": "著作家、著者",
+      "source_definition": "\"【名詞】 著作家、著者 [writer of books, author]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12153"
+      ],
+      "source_row": 12153,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "著作家、著者"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "著作家、著者"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f2e2d6c60c092f0e",
+      "rank": 12610,
+      "shan": "ၽၵ်းမီႇ",
+      "source_gloss": "玉ねぎ",
+      "source_definition": "\"【名詞】 玉ねぎ [onions]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12426"
+      ],
+      "source_row": 12426,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "玉ねぎ"
+          ]
+        },
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "玉ねぎ"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:29a460153e299217",
+      "rank": 12616,
+      "shan": "ၽၼ်းႁႆႈ",
+      "source_gloss": "焼畑農業のために木や藪を切り開く",
+      "source_definition": "\"【動詞】 焼畑農業のために木や藪を切り開く [clear land of trees or brushwood for hill farming]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12464"
+      ],
+      "source_row": 12464,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "藪"
+          ]
+        },
+        {
+          "medium": "10.02",
+          "major": "10",
+          "evidence": [
+            "焼畑農業のために木や藪を切り開く"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8b8d6b13e29f91c9",
+      "rank": 12642,
+      "shan": "ၽႅတ်ႈႁွႆး",
+      "source_gloss": "定規や線で真っ直ぐな跡をつける",
+      "source_definition": "\"【動詞】 定規や線で真っ直ぐな跡をつける [mark with a straight line by means of a line or rule]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12642"
+      ],
+      "source_row": 12642,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "11.01",
+          "major": "11",
+          "evidence": [
+            "定規"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "真っ直ぐ"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2e16341fd61fc8d6",
+      "rank": 12722,
+      "shan": "မဵင်ႈ",
+      "source_gloss": "近づく、（突進前の水牛のように）首を横にかしげる",
+      "source_definition": "\"【動詞】 近づく、（突進前の水牛のように）首を横にかしげる [go near, bend the head down sidewise, as a buffalo preparing to charge, also]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13348"
+      ],
+      "source_row": 13348,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "近づく"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "近づく"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:d5a5c543487520e2",
+      "rank": 12755,
+      "shan": "မၢတ်ႈပီႈၼွင်ႉ",
+      "source_gloss": "見なす、親族を識別する",
+      "source_definition": "\"【動詞】 見なす、親族を識別する [regard, know one's relatives]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13573"
+      ],
+      "source_row": 13573,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "見なす"
+          ]
+        },
+        {
+          "medium": "05.02",
+          "major": "05",
+          "evidence": [
+            "親族"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:40f491fc0dc906c1",
+      "rank": 12841,
+      "shan": "မႅမ်ႉ",
+      "source_gloss": "縮む、内側に引き込まれる",
+      "source_definition": "\"【動詞】 縮む、内側に引き込まれる [be shrunken, drawn under]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:14135"
+      ],
+      "source_row": 14135,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "内側"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "縮む"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "縮む"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b0a03d8d6a6a78fa",
+      "rank": 12899,
+      "shan": "ယဵဝ်ႈၵၼ်ႈ",
+      "source_gloss": "排尿困難、尿トラブル",
+      "source_definition": "\"【動詞】 排尿困難、尿トラブル [have strangury, urinary problem]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:14625"
+      ],
+      "source_row": 14625,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8a.json",
+      "category_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "排尿"
+          ]
+        },
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "排尿困難"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5d99828d61053a64",
+      "rank": 13073,
+      "shan": "လွင်ႈသဝ်းၶေႃး",
+      "source_gloss": "独立、自律",
+      "source_definition": "\"【名詞】 独立、自律 [independence, autonomy]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16034"
+      ],
+      "source_row": 16034,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "16.04",
+          "major": "16",
+          "evidence": [
+            "独立"
+          ]
+        },
+        {
+          "medium": "18.04",
+          "major": "18",
+          "evidence": [
+            "独立"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f5d25e7ca07a6704",
+      "rank": 13084,
+      "shan": "လွႆဢုၼ်ႈ",
+      "source_gloss": "樹木のない、丸い頂の山",
+      "source_definition": "【名詞】 樹木のない、丸い頂の山 [round-topped mountain without trees]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16139"
+      ],
+      "source_row": 16139,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "樹木"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "丸い"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:9fe5585bf338e746",
+      "rank": 13128,
+      "shan": "လႃႈၽႃႉလႃႈၽီ",
+      "source_gloss": "（稲植えに関して）時期が遅くなりすぎて雨が降り始めている",
+      "source_definition": "\"【動詞】（稲植えに関して）時期が遅くなりすぎて雨が降り始めている [be so late that rains have come (relating to rice planting)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16476"
+      ],
+      "source_row": 16476,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "01.03",
+          "major": "01",
+          "evidence": [
+            "雨が"
+          ]
+        },
+        {
+          "medium": "14.01",
+          "major": "14",
+          "evidence": [
+            "時期"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:80d84ab78bf9ae1f",
+      "rank": 13131,
+      "shan": "လႄႇႁႃၼွၼ်း",
+      "source_gloss": "適切な場所や方法かどうかに関わらず、どこででも眠る",
+      "source_definition": "\"【動詞】 適切な場所や方法かどうかに関わらず、どこででも眠る [sleep at any place or in any manner, whether appropriate or not]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16500"
+      ],
+      "source_row": 16500,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "眠る"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "場所"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:69c68b6ae888cf43",
+      "rank": 13152,
+      "shan": "ဝိူင်း",
+      "source_gloss": "境界、範囲、制限",
+      "source_definition": "\"【名詞】 境界、範囲、制限 [boundary, limit]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16692"
+      ],
+      "source_row": 16692,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "境界"
+          ]
+        },
+        {
+          "medium": "14.04",
+          "major": "14",
+          "evidence": [
+            "範囲"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:39a64da77177cb14",
+      "rank": 13179,
+      "shan": "ဝဵၵ်ႉသူၼ်",
+      "source_gloss": "庭を鍬で掘る",
+      "source_definition": "\"【動詞】 庭を鍬で掘る [dig in a garden with a hoe]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16881"
+      ],
+      "source_row": 16881,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "10.02",
+          "major": "10",
+          "evidence": [
+            "庭を鍬で掘る"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "掘る"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ac7f6f2a331b8e70",
+      "rank": 13182,
+      "shan": "ဝွပ်ႈဝႅပ်ႈ",
+      "source_gloss": "かさが減る、縮む",
+      "source_definition": "\"【動詞】 かさが減る、縮む [diminish in size, shrink, become small (as vegetables in cooking)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16902"
+      ],
+      "source_row": 16902,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "かさが減る、縮む"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "縮む"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f8217d22c1549767",
+      "rank": 13191,
+      "shan": "ဝႂ်ၶႂၢင်း",
+      "source_gloss": "あらゆる種類の許可証",
+      "source_definition": "\"【名詞】 あらゆる種類の許可証 [any kind of permit]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17127"
+      ],
+      "source_row": 17127,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "09.03",
+          "major": "09",
+          "evidence": [
+            "許可証"
+          ]
+        },
+        {
+          "medium": "17.01",
+          "major": "17",
+          "evidence": [
+            "あらゆる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2b4d32807fb06ac0",
+      "rank": 13250,
+      "shan": "ႁူင်းလုမ်းလႃးတူၼ်ႈမႆႉ",
+      "source_gloss": "温室、植物園、苗圃",
+      "source_definition": "\"【名詞】 温室、植物園、苗圃 [noun place where special care is given to plants, green house, nursery for plants]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17625"
+      ],
+      "source_row": 17625,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "植物"
+          ]
+        },
+        {
+          "medium": "02.04",
+          "major": "02",
+          "evidence": [
+            "苗"
+          ]
+        },
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "温室"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e144e814332b245e",
+      "rank": 13255,
+      "shan": "ႁူမ်ႈဝႃႈၼၼ်သေၵေႃႈ",
+      "source_gloss": "たとえそうであっても",
+      "source_definition": "\"【接続詞】 たとえそうであっても [although]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17672"
+      ],
+      "source_row": 17672,
+      "pos_source": "接続詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "17.03",
+          "major": "17",
+          "evidence": [
+            "たとえそうで"
+          ]
+        },
+        {
+          "medium": "17.04",
+          "major": "17",
+          "evidence": [
+            "たとえそうで"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ab3b46dc964a4530",
+      "rank": 13460,
+      "shan": "ဢၼ်တႅၵ်ႈတၢင်းယႂ်ႇလိုၵ်ႉ",
+      "source_gloss": "容積や容量の尺度、体積の単位",
+      "source_definition": "\"【名詞】 容積や容量の尺度、体積の単位 [measure of bulk and capacity, unit of volume]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:19490"
+      ],
+      "source_row": 19490,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-8b.json",
+      "category_candidates": [
+        {
+          "medium": "11.05",
+          "major": "11",
+          "evidence": [
+            "尺度"
+          ]
+        },
+        {
+          "medium": "14.03",
+          "major": "14",
+          "evidence": [
+            "単位"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:113dc821e8e734cc",
+      "rank": 13484,
+      "shan": "ၵတီႉဢမ်ႇမီး",
+      "source_gloss": "約束を破る、不誠実である",
+      "source_definition": "\"【動詞】 約束を破る、不誠実である [break a promise or pledge, be faithless]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:22"
+      ],
+      "source_row": 22,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "約束を破る"
+          ]
+        },
+        {
+          "medium": "09.03",
+          "major": "09",
+          "evidence": [
+            "約束を破る"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f47f71503503098c",
+      "rank": 13491,
+      "shan": "ၵပ်းၵၢမ်း",
+      "source_gloss": "並べて置く、並んでいる",
+      "source_definition": "\"【動詞】 並べて置く、並んでいる [place side by side, be side by side]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:70"
+      ],
+      "source_row": 70,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "14.04",
+          "major": "14",
+          "evidence": [
+            "並べて置く"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "置く"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8b97fda0012e9815",
+      "rank": 13494,
+      "shan": "ၵပ်ႉလီၵပ်ႉငၢမ်း",
+      "source_gloss": "隙間なく詰まっている、完全に詰め込まれている",
+      "source_definition": "\"【動詞】 隙間なく詰まっている、完全に詰め込まれている [be completely filled, completely stuffed]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:88"
+      ],
+      "source_row": 88,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "16.04",
+          "major": "16",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:fa0ffe9af762c382",
+      "rank": 13500,
+      "shan": "ၵမ်းပၢတ်ႈ",
+      "source_gloss": "（編み物の仕切りなどに付ける）細い縁取り、衣類の縁など",
+      "source_definition": "【名詞】 （編み物の仕切りなどに付ける）細い縁取り、衣類の縁など [narrow border which is attached to woven-work partitions, border of a garment, etc.]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:136"
+      ],
+      "source_row": 136,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "07.01",
+          "major": "07",
+          "evidence": [
+            "衣類"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "細い"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:afbcd8b1a6261edc",
+      "rank": 13512,
+      "shan": "ၵဝ်းမႄႈယိင်း",
+      "source_gloss": "女性を口説く、求愛する",
+      "source_definition": "\"【動詞】 女性を口説く、求愛する [persuade a woman, court]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:213"
+      ],
+      "source_row": 213,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "女性を口説く、求愛する"
+          ]
+        },
+        {
+          "medium": "05.03",
+          "major": "05",
+          "evidence": [
+            "女性を口説く、求愛する"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ed682fc991608c5f",
+      "rank": 13521,
+      "shan": "ၵိမ်းတွင်း",
+      "source_gloss": "湯沸かし用の真鍮製の容器",
+      "source_definition": "\"【名詞】 湯沸かし用の真鍮製の容器 [brass vessel for heating water]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:274"
+      ],
+      "source_row": 274,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "08.02",
+          "major": "08",
+          "evidence": [
+            "湯沸かし用の真鍮製の容器"
+          ]
+        },
+        {
+          "medium": "11.01",
+          "major": "11",
+          "evidence": [
+            "湯沸かし用"
+          ]
+        },
+        {
+          "medium": "11.02",
+          "major": "11",
+          "evidence": [
+            "真鍮"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5c8e59b967e6955c",
+      "rank": 13535,
+      "shan": "ၵိူဝ်သၢႆး",
+      "source_gloss": "粗塩、大粒の塩",
+      "source_definition": "\"【名詞】 粗塩、大粒の塩 [salt in large crystals]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:383"
+      ],
+      "source_row": 383,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "粗塩"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "粗塩"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0eb03f23859a17da",
+      "rank": 13553,
+      "shan": "ၵီႈမွၵ်ႇၵီႈၼႄ",
+      "source_gloss": "説明する、解き明かす",
+      "source_definition": "\"【動詞】 説明する、解き明かす [explain, disclose the meaning]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:493"
+      ],
+      "source_row": 493,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "説明する"
+          ]
+        },
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "説明する、解き明かす"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0346cc355ddf08ba",
+      "rank": 13573,
+      "shan": "ၵူင်ႇၵၢဝ်ၵၢဝ်ၵၢင်ယႂ်း",
+      "source_gloss": "クモの巣を張る",
+      "source_definition": "【動詞】 クモの巣を張る [spin a spider's web]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:631"
+      ],
+      "source_row": 631,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "02.01",
+          "major": "02",
+          "evidence": [
+            "クモの巣を張る"
+          ]
+        },
+        {
+          "medium": "02.03",
+          "major": "02",
+          "evidence": [
+            "クモの巣を張る"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8ba152df1c9c2752",
+      "rank": 13577,
+      "shan": "ၵူဝ်ႇၸလႄႇ",
+      "source_gloss": "代理人、代表者（語源：ビルマ語）",
+      "source_definition": "\"【名詞】 代理人、代表者（語源：ビルマ語） [agent, representative, （語源等：Burmese）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:673"
+      ],
+      "source_row": 673,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "代理人"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "代理人、代表者"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:24c724af7fcfecf2",
+      "rank": 13579,
+      "shan": "ၵူၺ်ႁၢပ်ႇ",
+      "source_gloss": "天秤棒で担ぐためのかご",
+      "source_definition": "【名詞】 天秤棒で担ぐためのかご [porter basket]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:688"
+      ],
+      "source_row": 688,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "08.02",
+          "major": "08",
+          "evidence": [
+            "天秤棒で担ぐためのかご"
+          ]
+        },
+        {
+          "medium": "11.01",
+          "major": "11",
+          "evidence": [
+            "天秤棒"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f6673f12a5a6bab6",
+      "rank": 13590,
+      "shan": "ၵူၼ်းၶၢႆၶူဝ်းၸွမ်းတၢင်း",
+      "source_gloss": "露天商、行商人",
+      "source_definition": "\"【名詞】 露天商、行商人 [street seller, hawker]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:755"
+      ],
+      "source_row": 755,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "露天商、行商人"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "露天商、行商人"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:196341ed6b076b1e",
+      "rank": 13592,
+      "shan": "ၵူၼ်းၽၢႆႇၼႂ်း",
+      "source_gloss": "スパイ、内部の者",
+      "source_definition": "\"【名詞】 スパイ、内部の者 [spy, also]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:768"
+      ],
+      "source_row": 768,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "スパイ、内部の者"
+          ]
+        },
+        {
+          "medium": "09.04",
+          "major": "09",
+          "evidence": [
+            "スパイ、内部の者"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f34e66555969a089",
+      "rank": 13594,
+      "shan": "ၵူၼ်းၸိုဝ်ႈဢွၵ်ႇသဵင်ဢွၵ်ႇ",
+      "source_gloss": "著名人、有名な人",
+      "source_definition": "\"【名詞】 著名人、有名な人 [celebrated person, noted person]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:780"
+      ],
+      "source_row": 780,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "著名人、有名な人"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "著名人、有名な人"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5bc2201d01576b38",
+      "rank": 13595,
+      "shan": "ၵူၼ်းၸၢင်ႈၵႃႈ",
+      "source_gloss": "ダンサー、職業舞踊手",
+      "source_definition": "\"【名詞】 ダンサー、職業舞踊手 [dancer, professional dancer]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:782"
+      ],
+      "source_row": 782,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "ダンサー、職業舞踊手"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "ダンサー、職業舞踊手"
+          ]
+        },
+        {
+          "medium": "12.03",
+          "major": "12",
+          "evidence": [
+            "ダンサー、職業舞踊手"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7f46c05af49ff935",
+      "rank": 13611,
+      "shan": "ၵူၼ်းႁဵတ်းမၢၵ်ႇလေႃႉ",
+      "source_gloss": "車輪製作職人",
+      "source_definition": "【名詞】 車輪製作職人 [wheelwright]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:870"
+      ],
+      "source_row": 870,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "車輪製作職人"
+          ]
+        },
+        {
+          "medium": "11.02",
+          "major": "11",
+          "evidence": [
+            "車輪製作職人"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ea3fbd03f3357169",
+      "rank": 13626,
+      "shan": "ၵူၼ်းသွၼ်ၵၢၼ်",
+      "source_gloss": "見習い、徒弟",
+      "source_definition": "\"【名詞】 見習い、徒弟 [person training to do a certain kind of work, apprentice]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:964"
+      ],
+      "source_row": 964,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "見習い"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "見習い"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b446b1d88a88b5c0",
+      "rank": 13632,
+      "shan": "ၵူၼ်ႇလူမ်ႉ",
+      "source_gloss": "崩れ落ちる、倒れる",
+      "source_definition": "【動詞】 崩れ落ちる、倒れる [fall down, crumble and fall]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1006"
+      ],
+      "source_row": 1006,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "崩れ落ちる"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "倒れる"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8108424bb913b5db",
+      "rank": 13638,
+      "shan": "ၵေးၸေႇ",
+      "source_gloss": "平たい金属製のゴング（円形または三角形）",
+      "source_definition": "\"【名詞】 平たい金属製のゴング（円形または三角形） [flat metal gong, circular or triangular, see]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1062"
+      ],
+      "source_row": 1062,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "11.02",
+          "major": "11",
+          "evidence": [
+            "金属"
+          ]
+        },
+        {
+          "medium": "12.03",
+          "major": "12",
+          "evidence": [
+            "平たい金属製のゴング"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8278cc94ac980cae",
+      "rank": 13662,
+      "shan": "ၵျၢမ်းၽိင်ႈ",
+      "source_gloss": "慣習法、規則の記録",
+      "source_definition": "【名詞】 慣習法、規則の記録 [record of customs and rules]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1257"
+      ],
+      "source_row": 1257,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "09.03",
+          "major": "09",
+          "evidence": [
+            "慣習法、規則の記録"
+          ]
+        },
+        {
+          "medium": "12.02",
+          "major": "12",
+          "evidence": [
+            "慣習"
+          ]
+        },
+        {
+          "medium": "13.02",
+          "major": "13",
+          "evidence": [
+            "記録"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b8abae25d7d23d88",
+      "rank": 13701,
+      "shan": "ၵွႆႈတႅင်ႇလၢတ်ႈ",
+      "source_gloss": "ゆっくり慎重に話す",
+      "source_definition": "\"【動詞】 ゆっくり慎重に話す [speak slowly and carefully]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1527"
+      ],
+      "source_row": 1527,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "慎重"
+          ]
+        },
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "話す"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b61b2ddd8942c1c5",
+      "rank": 13711,
+      "shan": "ၵၢပ်ႈမႂ်ႇပၢၼ်မႂ်ႇ",
+      "source_gloss": "新時代、新紀元、現代",
+      "source_definition": "\"【名詞】 新時代、新紀元、現代 [new period, new era; modern time]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1613"
+      ],
+      "source_row": 1613,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "12.06",
+          "major": "12",
+          "evidence": [
+            "新時代"
+          ]
+        },
+        {
+          "medium": "14.01",
+          "major": "14",
+          "evidence": [
+            "新時代"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e0d6b64767fb2413",
+      "rank": 13771,
+      "shan": "ၵႅပ်ႇၵႄႇ",
+      "source_gloss": "籾殻の粗い部分（製粉時に取り除かれるもの）",
+      "source_definition": "\"【名詞】 籾殻の粗い部分（製粉時に取り除かれるもの） [coarser part of the husks which is rubbed off in the mill]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2050"
+      ],
+      "source_row": 2050,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "籾殻"
+          ]
+        },
+        {
+          "medium": "10.02",
+          "major": "10",
+          "evidence": [
+            "籾"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "粗い"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:6ce496277f84d4d0",
+      "rank": 13780,
+      "shan": "ၵႅမ်း",
+      "source_gloss": "掴む、保持する",
+      "source_definition": "\"【動詞】 掴む、保持する [take hold of,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2128"
+      ],
+      "source_row": 2128,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "掴む"
+          ]
+        },
+        {
+          "medium": "16.04",
+          "major": "16",
+          "evidence": [
+            "保持"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3a34166f81301e05",
+      "rank": 13785,
+      "shan": "ၵႅၼ်ႇၶႅၼ်း",
+      "source_gloss": "生活が豊かである、商売が繁盛している",
+      "source_definition": "\"【動詞】 生活が豊かである、商売が繁盛している [be prosperous in life, especially in business]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2169"
+      ],
+      "source_row": 2169,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "08.04",
+          "major": "08",
+          "evidence": [
+            "生活"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "商売"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2e24c724a913add0",
+      "rank": 13849,
+      "shan": "ၶိူင်ႈသႂၢင်းသဵင်",
+      "source_gloss": "録音装置、テープレコーダー",
+      "source_definition": "\"【名詞】 録音装置、テープレコーダー [sound recording device, tape recorder]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2631"
+      ],
+      "source_row": 2631,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "11.01",
+          "major": "11",
+          "evidence": [
+            "装置"
+          ]
+        },
+        {
+          "medium": "13.03",
+          "major": "13",
+          "evidence": [
+            "録音装置"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c638fdd2329f5dbb",
+      "rank": 13871,
+      "shan": "ၶုၵ်ႉၸႂ်လႆႈၶႆႈၸႂ်ထူပ်း",
+      "source_gloss": "思い出し、懐かしみ、恋しく思う",
+      "source_definition": "\"【動詞】 思い出し、懐かしみ、恋しく思う [bring to mind, be nostalgic for, miss and long for,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2793"
+      ],
+      "source_row": 2793,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9a.json",
+      "category_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "思い出し、懐かしみ"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "思い出"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:37f23676bbd1bcca",
+      "rank": 14019,
+      "shan": "ငိုၼ်းဝေႃႇ",
+      "source_gloss": "純銀",
+      "source_definition": "\"【名詞】 純銀 [pure silver, also]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3919"
+      ],
+      "source_row": 3919,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "純銀"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "純銀"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:12688792b40c8821",
+      "rank": 14025,
+      "shan": "ငိူဝ်ႈထူၼ်ႈႁူဝ်",
+      "source_gloss": "極めて愚かな",
+      "source_definition": "\"【形容詞】 極めて愚かな [exceedingly stupid]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3959"
+      ],
+      "source_row": 3959,
+      "pos_source": "形容詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "愚か"
+          ]
+        },
+        {
+          "medium": "15.04",
+          "major": "15",
+          "evidence": [
+            "極めて"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:249a623de7980310",
+      "rank": 14055,
+      "shan": "ငႃးမူတၼ်",
+      "source_gloss": "お守りとして使われる猪の硬い牙",
+      "source_definition": "【名詞】 お守りとして使われる猪の硬い牙 [solid tusk of boar used as a charm]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4177"
+      ],
+      "source_row": 4177,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "03.01",
+          "major": "03",
+          "evidence": [
+            "牙"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "お守り"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0f877ecc75c60073",
+      "rank": 14058,
+      "shan": "ငႅဝ်",
+      "source_gloss": "怖がる（一人でいる時など）、恐れる、臆病な",
+      "source_definition": "\"【動詞】 怖がる（一人でいる時など）、恐れる、臆病な [fear (as a person alone); have a dread of something, be timid, less than]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4201"
+      ],
+      "source_row": 4201,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "恐れ"
+          ]
+        },
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "臆病"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:de31fd237b62553f",
+      "rank": 14096,
+      "shan": "ၸိူဝ်ႉလဝ်ႈ",
+      "source_gloss": "酒造り用の酵母、ビール酵母、麦芽",
+      "source_definition": "\"【名詞】 酒造り用の酵母、ビール酵母、麦芽 [yeast used in making liquor, brewer's yeast, malt]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4515"
+      ],
+      "source_row": 4515,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "酵母"
+          ]
+        },
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "酵母"
+          ]
+        },
+        {
+          "medium": "06.03",
+          "major": "06",
+          "evidence": [
+            "酒造"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aa03efe343e19e59",
+      "rank": 14318,
+      "shan": "သူႉတႃႉ",
+      "source_gloss": "情報、知識",
+      "source_definition": "\"【名詞】 情報、知識 [information, knowledge, （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6166"
+      ],
+      "source_row": 6166,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "13.03",
+          "major": "13",
+          "evidence": [
+            "情報"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "知識"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c9f970f07cb0adc3",
+      "rank": 14329,
+      "shan": "သဵတ်ႈၸႃႇ",
+      "source_gloss": "真実、誠実（嘘 မူႉသႃႇ の対義語）",
+      "source_definition": "\"【名詞】 真実、誠実（嘘 မူႉသႃႇ の対義語） [truth (as opposed to falsehood) မူႉသႃႇ （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6264"
+      ],
+      "source_row": 6264,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "誠実"
+          ]
+        },
+        {
+          "medium": "18.04",
+          "major": "18",
+          "evidence": [
+            "真実"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:efcfbbaf69b6b873",
+      "rank": 14337,
+      "shan": "သွင်ႇတၢမ်ႇ",
+      "source_gloss": "罰金・罰則を支払う",
+      "source_definition": "\"【動詞】 罰金・罰則を支払う [pay fine, penalty]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6322"
+      ],
+      "source_row": 6322,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "09.03",
+          "major": "09",
+          "evidence": [
+            "罰金"
+          ]
+        },
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "支払"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b8e9a18b69ca9d69",
+      "rank": 14352,
+      "shan": "သၢင်ႇပုင်းလူင်",
+      "source_gloss": "文字の組み合わせ表、綴り字の教科書",
+      "source_definition": "\"【名詞】 文字の組み合わせ表、綴り字の教科書 [combination of the letters of the alphabet, spelling book,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6467"
+      ],
+      "source_row": 6467,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "13.02",
+          "major": "13",
+          "evidence": [
+            "文字"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "教科書"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e43a704e5caf3d08",
+      "rank": 14374,
+      "shan": "သႃႇသၼႃႇပႅင်ႇ",
+      "source_gloss": "最高位の宗教指導者、法王",
+      "source_definition": "\"【名詞】 最高位の宗教指導者、法王 [pontifex maximus, chief ecclesiastical ruler]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6767"
+      ],
+      "source_row": 6767,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "09.01",
+          "major": "09",
+          "evidence": [
+            "指導者"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "宗教"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f2ddd9dae0cc2dbc",
+      "rank": 14379,
+      "shan": "သႅင်ႁုင်",
+      "source_gloss": "模造宝石、ペースト",
+      "source_definition": "\"【名詞】 模造宝石、ペースト [paste in imitation of a precious stone]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6807"
+      ],
+      "source_row": 6807,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "11.02",
+          "major": "11",
+          "evidence": [
+            "模造宝石"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "模造宝石"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ee29802c900619f7",
+      "rank": 14380,
+      "shan": "သႅင်မႁူႇရႃႇလႅင်",
+      "source_gloss": "紅玉髄（カーネリアン）",
+      "source_definition": "\"【名詞】 紅玉髄（カーネリアン） [cornelian]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6818"
+      ],
+      "source_row": 6818,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "11.02",
+          "major": "11",
+          "evidence": [
+            "玉髄"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "玉髄"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7346abefeb6dac08",
+      "rank": 14396,
+      "shan": "ၺၢပ်ႈၵမ်ႉၽဝႃႇ",
+      "source_gloss": "得度式の儀式文を唱える",
+      "source_definition": "【動詞】 得度式の儀式文を唱える [read the service at the consecration of a Buddhist monk]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6932"
+      ],
+      "source_row": 6932,
+      "pos_source": "動詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "得度式"
+          ]
+        },
+        {
+          "medium": "12.02",
+          "major": "12",
+          "evidence": [
+            "得度式"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:77d1e8c5ff68c9a5",
+      "rank": 14429,
+      "shan": "တူဝ် တိုင်ႇ",
+      "source_gloss": "昆虫の幼虫",
+      "source_definition": "【名詞】 昆虫の幼虫 [larva of an insect]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7186"
+      ],
+      "source_row": 7186,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "02.01",
+          "major": "02",
+          "evidence": [
+            "昆虫"
+          ]
+        },
+        {
+          "medium": "02.03",
+          "major": "02",
+          "evidence": [
+            "幼虫"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3184f6f6a454c9b9",
+      "rank": 14438,
+      "shan": "တိုဝ်ႉတႃႈ",
+      "source_gloss": "渡船場、堤防",
+      "source_definition": "\"【名詞】 渡船場、堤防 [landing place of a ferry, levee]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7246"
+      ],
+      "source_row": 7246,
+      "pos_source": "名詞",
+      "source_review_file": "dopa-quest/data/shan-extra-semantic-review-9b.json",
+      "category_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "01.02",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        }
+      ],
+      "segmentation_candidates": [],
+      "assessment": {
+        "status": "held-for-lexical-review",
+        "proposed_primary_medium": null,
+        "reason": "複数候補の語義論的関係と説明中の誤一致を検討する必要があるため保留。",
+        "needs_source_confirmation": true
+      },
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    }
+  ]
+}
