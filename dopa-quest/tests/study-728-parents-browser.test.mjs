@@ -8,6 +8,8 @@ test('500+ provisional new parent classifications and old history remain usable 
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot&&!!window.DOPA_DETAIL);
   const got=await page.evaluate(()=>{
    const d=window.DOPA_DETAIL,p=window.DOPA_DATA;
