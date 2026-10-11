@@ -61,7 +61,7 @@ test('iOS UA without audioSession produces no audio context instead of risking i
 test('one answer cue, separate boss entrance, immediate mute and preserved progress',async()=>{
  const browser=await chromium.launch({headless:true});
  try{
-   const page=await browser.newPage();await page.goto(BASE,{waitUntil:'domcontentloaded'});
+   const page=await browser.newPage(),browserErrors=[];page.on('pageerror',e=>browserErrors.push(e.stack||e.message));await page.goto(BASE,{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>window.DOPA_SYNC_API?.snapshot&&window.DOPASound?.play);
    await page.evaluate(()=>{
      window.soundCalls=[];window.stopCalls=0;
@@ -83,8 +83,21 @@ test('one answer cue, separate boss entrance, immediate mute and preserved progr
      if(i<4){
        // Some sessions legitimately require explicit acknowledgement before the
        // next prompt. Confirm either transition without losing the audio signal.
-       await page.waitForFunction(()=>document.querySelector('#continueBtn')||
-        document.querySelector('#choices button:not([disabled])'));
+       try{
+        await page.waitForFunction(()=>document.querySelector('#continueBtn')||
+         document.querySelector('#choices button:not([disabled])'),{timeout:6500});
+       }catch(err){
+        const details=await page.evaluate(()=>({
+         round:document.querySelector('#qstat')?.textContent,
+         choices:[...document.querySelectorAll('#choices button')].map(b=>({disabled:b.disabled,correct:b.dataset.correct})),
+         continue:!!document.querySelector('#continueBtn'),
+         feedback:document.querySelector('#feedback')?.textContent?.slice(0,300),
+         gameHidden:document.querySelector('#game')?.classList.contains('hidden'),
+         resultHidden:document.querySelector('#result')?.classList.contains('hidden'),
+         slowCorrect:document.querySelector('#slowCorrect')?.checked
+        }));
+        throw Error('Quest stalled at index '+i+': '+JSON.stringify({details,browserErrors}));
+       }
        if(await page.locator('#continueBtn').count())await page.locator('#continueBtn').click();
        await page.locator('#choices button:not([disabled])').first().waitFor();
      }
