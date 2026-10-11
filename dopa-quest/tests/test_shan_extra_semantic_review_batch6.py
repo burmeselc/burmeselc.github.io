@@ -210,7 +210,7 @@ class ShanExtraSemanticBatch6Tests(unittest.TestCase):
         self.assertEqual(m["previous_review_manifest"],
                          "shan-extra-semantic-review-manifest-v5.json")
         self.assertEqual([x["count"] for x in m["parts"]], [500, 500])
-        self.assertEqual(m["rules_file"], "shan-extra-semantic-cue-rules-v5.json")
+        self.assertEqual(m["rules_file"], "shan-extra-semantic-cue-rules-v6.json")
         counts = dict(Counter(r["review_status"] for r in self.rows))
         s = m["stats"]
         self.assertEqual(s["other"], counts)
