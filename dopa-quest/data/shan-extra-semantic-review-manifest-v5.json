@@ -29,17 +29,17 @@
     "source_count": 1000,
     "rank_start": 9481,
     "rank_end": 10480,
-    "primary_provisional": 321,
+    "primary_provisional": 322,
     "other": {
-      "no-supported-category-cue": 554,
-      "single-cue-provisional": 321,
+      "no-supported-category-cue": 553,
+      "single-cue-provisional": 322,
       "ambiguous-multiple-category-cues": 32,
       "pending-sense-boundary": 93
     },
     "semicolon_parents": 93,
     "segmentation_fragments": 196,
-    "feature_tag_candidates": 19,
-    "field_tag_candidates": 10,
+    "feature_tag_candidates": 21,
+    "field_tag_candidates": 14,
     "usage_tag_candidates": 0,
     "semantic_type_candidates": 1
   },
