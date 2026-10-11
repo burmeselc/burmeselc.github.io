@@ -330,6 +330,17 @@
           }
         }
       }
+      // Extend the 5,932 previous editorial annotations with 1,500 source-
+      // preserving general review states.  Missing or invalid data is optional.
+      if(semicolon!==null){
+        try{
+          const res=await fetch('./data/shan-extra-general-review-batch1-v1.json',{cache:'no-cache'});
+          if(!res.ok)throw Error('general-review HTTP '+res.status);
+          const generalReview=await res.json();
+          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(
+            baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65,semicolon,generalReview);
+        }catch(e){console.warn('General 1,500-card review unavailable; previous annotations retained',e)}
+      }
     }catch(e){console.warn('Unverified extra Shan categories unavailable; normal play unaffected',e)}
 
   }catch(e){console.warn('Optional detailed filters unavailable',e)}

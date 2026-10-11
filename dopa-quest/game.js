@@ -86,7 +86,7 @@ function updateSemanticCategories(){
  select.innerHTML=options;
  select.value=labels[old]?old:'all';select.disabled=false;
  if(notice)notice.textContent=l==='shan'?
-   (window.DOPA_DETAIL?.extraProvisional?.semicolon_review_count===983?'シャン語：追加語彙5,932件に暫定校閲表示（うちカテゴリ候補5,556件、分類根拠なし376件）。セミコロン境界983件は機械提案・未検証・語義未確定。':window.DOPA_DETAIL?.extraProvisional?.count===4949?'シャン語：追加語彙の単一候補4,359件、複数競合572件、保留再校閲18件（合計4,949件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4931?'シャン語：追加語彙の単一候補4,359件と複数競合再校閲572件（合計4,931件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。複数競合の追加分は現在利用できません。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。未解決の競合・境界保留語は全カテゴリから学習できます。':
+   (window.DOPA_DETAIL?.extraProvisional?.semicolon_review_count===983?('シャン語：追加語彙'+window.DOPA_DETAIL.extraProvisional.count.toLocaleString('ja-JP')+'件に暫定校閲表示（カテゴリ候補'+window.DOPA_DETAIL.extraProvisional.categorized_count.toLocaleString('ja-JP')+'件、分類根拠なし'+(window.DOPA_DETAIL.extraProvisional.semicolon_needs_category_count+window.DOPA_DETAIL.extraProvisional.general_uncategorized_count).toLocaleString('ja-JP')+'件、個別保留'+(window.DOPA_DETAIL.extraProvisional.held_review_count||0)+'件）。セミコロン境界983件は機械提案・未検証・語義未確定。'):window.DOPA_DETAIL?.extraProvisional?.count===4949?'シャン語：追加語彙の単一候補4,359件、複数競合572件、保留再校閲18件（合計4,949件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4931?'シャン語：追加語彙の単一候補4,359件と複数競合再校閲572件（合計4,931件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。複数競合の追加分は現在利用できません。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。未解決の競合・境界保留語は全カテゴリから学習できます。':
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 // Detailed study filters are session settings; they never rewrite profile/history data.
@@ -136,7 +136,7 @@ function renderDetailReview(){
  const list=$('studyDetailReviewList'),summary=$('studyDetailReviewSummary'),more=$('studyDetailReviewMore');
  if(!list||!summary||!more)return;
  const engine=window.DOPA_DETAIL,l=$('lang').value;
- const rows=engine&&DOMAIN_READY_BY_LANG[l]?activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l)&&engine.annotation(x,l)):[];
+ const rows=engine&&DOMAIN_READY_BY_LANG[l]?activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l)&&engine.mediums.has(engine.annotation(x,l)?.medium)):[];
  summary.textContent='分類済みの語を確認（'+rows.length+'件・エリア指定前）';
  list.innerHTML=rows.slice(0,detailReviewLimit).map(x=>{
   const a=engine.annotation(x,l),labels=Object.entries(a.tags).flatMap(([axis,values])=>values.map(v=>engine.taxonomy.tag_labels[axis][v]));

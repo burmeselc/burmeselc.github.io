@@ -1,5 +1,5 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261012-semicolon-release-v6';
+const CACHE_NAME = 'dopa-quest-static-20261012-general-review-v7';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
@@ -27,7 +27,8 @@ const OPTIONAL_PACKS = [
   './data/shan-extra-single-proposals-4.json',
   './data/shan-extra-multiple-proposals-1.json',
   './data/shan-extra-final65-proposals-v1.json',
-  './data/shan-extra-semicolon-study-release-v1.json'
+  './data/shan-extra-semicolon-study-release-v1.json',
+  './data/shan-extra-general-review-batch1-v1.json'
 ];
 
 self.addEventListener('install', event => {

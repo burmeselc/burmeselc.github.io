@@ -23,9 +23,10 @@ test('983 semicolon source glosses tagged, 607 provisional categories, 376 revie
   });
   assert.equal(data.total,16985);assert.equal(data.extra,11505);
   assert.deepEqual([data.reviewed,data.categorized,data.uncategorized],[983,607,376]);
-  assert.equal(data.summary.count,5932);assert.equal(data.summary.categorized_count,5556);
+  assert.equal(data.summary.count,5932+data.summary.general_review_count+(data.summary.held_review_count||0));
+  assert.equal(data.summary.categorized_count,5556+data.summary.general_categorized_count);
   assert.equal(data.summary.approved_senses,false);
-  assert.match(await page.locator('#semanticCategoryNotice').textContent(),/5,556件.*376件/);
+  assert.match(await page.locator('#semanticCategoryNotice').textContent(),new RegExp(data.summary.categorized_count.toLocaleString('ja-JP')+'件.*'+(376+data.summary.general_uncategorized_count).toLocaleString('ja-JP')+'件'));
   await page.locator('[data-dopa-route="library"]').click();
   await page.locator('#vocabSearch').fill(data.exact[0].gloss);
   const line=page.locator('#vocabList .vocab-row').first();
