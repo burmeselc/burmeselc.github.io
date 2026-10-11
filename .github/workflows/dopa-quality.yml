@@ -31,3 +31,5 @@ jobs:
 
       - name: Verify Shan master ledger provenance and source parsing
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_master_ledger.py' -v
+      - name: Validate non-destructive Shan 1,211-form review proposals
+        run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_private_review1211.py' -v
