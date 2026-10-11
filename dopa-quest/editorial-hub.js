@@ -39,8 +39,11 @@
  document.body.appendChild(wrapper);
  const $=id=>document.getElementById(id);
  let previousFocus=null,previousOverflow='',limit=50;
+ let deckRef=null,deckById=new Map();
  function cardFor(n){
-  return (root.DOPA_DATA?.shan||[]).find(c=>c.id===n.parent_card_id)||
+  const deck=root.DOPA_DATA?.shan||null;
+  if(deck!==deckRef){deckRef=deck;deckById=new Map((deck||[]).map(c=>[c.id,c]))}
+  return deckById.get(n.parent_card_id)||
    {id:n.parent_card_id,shan:n.shan_source,japanese_core:n.gloss_snapshot,rank:n.source_rank};
  }
  function machineFor(n){
