@@ -1,5 +1,5 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261012-editorial-notes-v4';
+const CACHE_NAME = 'dopa-quest-static-20261012-v6-3-editorial-links-v5';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',

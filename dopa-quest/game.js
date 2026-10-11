@@ -270,8 +270,19 @@ function clearTimer(){if(S.timer){clearInterval(S.timer);S.timer=null}}
 function startTimer(){clearTimer();let speed=$('speed').value;if(speed==='normal'||S.cur.typed){$('timestat').textContent='∞';S.start=performance.now();return}let sec=speed==='rush'?10:6;if(S.cur.isBoss)sec=Math.max(4,sec-1);let end=performance.now()+sec*1000;S.start=performance.now();S.timer=setInterval(()=>{let rem=Math.max(0,end-performance.now());$('timestat').textContent=(rem/1000).toFixed(1);if(!rem){clearTimer();answer(null,false,true,null)}},90)}
 function normalizedOriginal(v){return String(v||'').normalize('NFC').replace(/[\s\u200b\u200c\u200d\u2060]+/g,'').trim()}
 function submitTyped(){if(!$('typedAnswer').value.trim())return;let ans=normalizedOriginal($('typedAnswer').value),want=normalizedOriginal(orig(S.cur.x,S.lang)),ok=ans===want;answer(null,ok,false,null)}
-function feedbackDetail(x,full=true){return `<div class="detail"><b lang="${S.lang==='shan'?'shn':'my'}">${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
+function feedbackDetail(x,full=true){return `<div class="detail"><b lang="${S.lang==='shan'?'shn':'my'}">${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}${S.lang==='shan'&&window.DOPA_EDITORIAL_UI?.open?'<button type="button" class="flag" id="questEditorialOpen">語彙を校閲・メモ</button>':''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
 function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x),lang:S.lang,flaggedAt:new Date().toISOString()};save();toast('校閲候補として記録しました（SAVEで書き出せます）');let b=$('reportIssue');if(b)b.disabled=true}
+function openQuestEditorial(x){
+ if(S.lang!=='shan'||!S.cur?.answered||S.cur.x?.id!==x.id)return;
+ if(!window.DOPA_EDITORIAL_UI?.open?.(x))return;
+ // If the user begins reviewing a correct answer, pause the short auto-advance.
+ // Mount the existing manual Continue action rather than mutating progress.
+ clearTimeout(nextTimeout);nextTimeout=null;
+ if(!$('continueBtn')){
+  $('feedback').insertAdjacentHTML('beforeend','<button type="button" class="next-question" id="continueBtn">次の問題へ</button>');
+  $('continueBtn').onclick=next;mountQuestContinue();
+ }
+}
 function registerRivalWin(x){let active=rivalsFor(x),result=0;for(let r of active){let other=r.a===x.id?r.b:r.a;if(!S.options?.some(y=>y.id===other))continue;r.wins=(r.wins||0)+1;if(r.wins>=4&&!r.cleared){r.cleared=true;result++}}return result}
 function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.answered=true;clearTimer();$('questDock').classList.remove('hidden');if(q.typed){$('typedAnswer').disabled=true;$('typedSubmit').disabled=true}else{[...$('choices').children].forEach(b=>b.disabled=true)};
  let x=q.x,w=W(x),coinBefore=S.coin,memoryCredit=false;if(!q.retry){S.done++;P.daily.q++;P.totalQ++}let mult=q.isBoss?2:1,comboMult=Math.min(2.5,1+Math.floor(S.combo/3)*.25);
@@ -298,7 +309,9 @@ function answer(btn,ok,timeout,selected){let q=S.cur;if(!q||q.answered)return;q.
    S.xp+=dailyBonus;
  }
  P.coin+=S.coin-coinBefore;
- $('reportIssue').onclick=()=>markIssue(x);renderMastery(W(x));updateHUD();save();if(ok){
+ $('reportIssue').onclick=()=>markIssue(x);
+ if($('questEditorialOpen'))$('questEditorialOpen').onclick=()=>openQuestEditorial(x);
+ renderMastery(W(x));updateHUD();save();if(ok){
    const explain=()=>{
      clearTimeout(nextTimeout);
      if(!$('continueBtn')){
