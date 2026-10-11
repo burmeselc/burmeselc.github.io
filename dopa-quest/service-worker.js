@@ -1,10 +1,10 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261011-shan-pack6-v1';
+const CACHE_NAME = 'dopa-quest-static-20261011-shan-single-provisional-v1';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
   './data/shan-1.json','./data/shan-2.json','./data/burmese.json',
-  './firebase-config.js','./sound-fx.js','./study-details.js',
+  './firebase-config.js','./sound-fx.js','./study-details.js','./shan-extra-provisional.js',
   './flashcards.js','./vocabulary-library.js','./daily-progress.js','./learning-stats.js',
   './dashboard.js','./bootstrap.js','./game.js',
   './flashcards-ui.js','./vocabulary-ui.js','./cloud-sync.js',
@@ -20,7 +20,11 @@ const OPTIONAL_PACKS = [
   './data/shan-extra-pack-3.json',
   './data/shan-extra-pack-4.json',
   './data/shan-extra-pack-5.json',
-  './data/shan-extra-pack-6.json'
+  './data/shan-extra-pack-6.json',
+  './data/shan-extra-single-proposals-1.json',
+  './data/shan-extra-single-proposals-2.json',
+  './data/shan-extra-single-proposals-3.json',
+  './data/shan-extra-single-proposals-4.json'
 ];
 
 self.addEventListener('install', event => {
