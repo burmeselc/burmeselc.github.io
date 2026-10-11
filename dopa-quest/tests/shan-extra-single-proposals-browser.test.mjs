@@ -30,8 +30,7 @@ test('single Shan proposals usable in category UI without overwriting parent car
   await page.locator('[data-dopa-route="quest"]').click();
   await page.locator('#semanticCategory').selectOption('02');
   assert.match(await page.locator('#semanticCategory option:checked').textContent(),/02/);
-  await page.locator('#studyDetailControls > summary').click();
-  await page.locator('#semanticMedium').selectOption('02.02');
+  assert.equal(await page.locator('#semanticMedium option[value="02.02"]').count(),1);
   assert.match(await page.locator('#studyDetailNotice').textContent(),/未検証/);
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
