@@ -413,7 +413,8 @@ window.DOPA_SYNC_API = {
     renderProfile();renderZoneStats();refreshSoundControls();
     if($('slowCorrect'))$('slowCorrect').checked=!!P.slowCorrect;
     $('result').classList.add('hidden');$('game').classList.add('hidden');
-    $('setup').classList.remove('hidden');$('profile').classList.remove('hidden');
+    // Profile replacement must not force obsolete setup panels over Home/Settings.
+    // Dashboard routing owns visibility after restoration.
     window.dispatchEvent(new Event('dopa-profile-restored'));
   }
 };
