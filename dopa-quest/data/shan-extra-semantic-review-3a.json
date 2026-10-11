@@ -2333,8 +2333,8 @@
   "pos_source": "名詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "01",
-  "primary_medium": "01.04",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -2350,10 +2350,17 @@
     "evidence": [
      "宇宙"
     ]
+   },
+   {
+    "medium": "11.01",
+    "major": "11",
+    "evidence": [
+     "^宇宙ロケット"
+    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "ambiguous-multiple-category-cues",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -4684,8 +4691,8 @@
   "pos_source": "副詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "16",
+  "primary_medium": "16.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -4696,13 +4703,6 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "01.01",
-    "major": "01",
-    "evidence": [
-     "地面"
-    ]
-   },
-   {
     "medium": "16.01",
     "major": "16",
     "evidence": [
@@ -4711,7 +4711,7 @@
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -10425,8 +10425,7 @@
     "medium": "01.01",
     "major": "01",
     "evidence": [
-     "大地",
-     "地面"
+     "大地"
     ]
    }
   ],
@@ -16116,8 +16115,8 @@
   "pos_source": "動詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "01",
-  "primary_medium": "01.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -16126,17 +16125,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "01.01",
-    "major": "01",
-    "evidence": [
-     "地面"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -19098,8 +19089,8 @@
   "pos_source": "名詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "02",
+  "primary_medium": "02.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -19115,17 +19106,10 @@
     "evidence": [
      "^クマバチ"
     ]
-   },
-   {
-    "medium": "11.01",
-    "major": "11",
-    "evidence": [
-     "バチ"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
