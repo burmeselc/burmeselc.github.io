@@ -1,0 +1,69 @@
+/* DOPA QUEST: strictly provisional, source-preserving Shan extra category sidecar.
+   These are unverified machine proposals, not reviewed senses or edited card data. */
+(function(root){
+ 'use strict';
+ const SCHEMA='dopa-shan-extra-single-proposals-v1';
+ const groups=[[1,2,3],[4,5,6],[7,8,9],[10,11,12]];
+ const sourceCounts=[3000,3000,3000,2505];
+ const expectedSingles=[1560,1029,1014,756];
+ function attach(engine,shards,decks){
+  if(!engine||!Array.isArray(shards)||shards.length!==4||!Array.isArray(decks?.shan))
+   throw Error('Missing provisional Shan category inputs');
+  const byId=new Map(decks.shan.map(card=>[card.id,card]));
+  const axes=new Map((engine.taxonomy.tag_axes||[]).map(a=>[a.axis,new Set(a.values)]));
+  const proposals=new Map(),mediums=engine.mediums;
+  for(let i=0;i<shards.length;i++){
+   const shard=shards[i];
+   if(shard?.schema!==SCHEMA||shard.status!=='machine-proposal-unverified'||
+      shard.approved_senses!==false||JSON.stringify(shard.batches)!==JSON.stringify(groups[i])||
+      shard.source_count!==sourceCounts[i]||shard.single_count!==expectedSingles[i]||
+      !Array.isArray(shard.cards)||shard.cards.length!==expectedSingles[i])
+    throw Error('Invalid provisional shard '+(i+1));
+   for(const row of shard.cards){
+    if(!Array.isArray(row)||row.length!==6)throw Error('Invalid provisional row');
+    const [id,rank,shan,gloss,medium,tags]=row;
+    const source=byId.get(id);
+    if(typeof id!=='string'||proposals.has(id)||!Number.isInteger(rank)||
+       rank<5481||rank>16985||!source||source.id!==id||
+       source.rank!==rank||source.shan!==shan||source.japanese_core!==gloss||
+       source.semantic_status!=='U'||!mediums.has(medium)||
+       !tags||typeof tags!=='object'||Array.isArray(tags)||
+       Object.keys(tags).length!==axes.size)throw Error('Stale provisional source '+id);
+    for(const [axis,accepted] of axes){
+     const values=tags[axis];
+     if(!Array.isArray(values)||new Set(values).size!==values.length||
+        values.some(v=>!accepted.has(v)))throw Error('Invalid provisional tag '+id);
+    }
+    proposals.set(id,Object.freeze({word:shan,gloss,rank,medium,
+      tags,review_status:'machine-proposal-unverified',provisional_only:true}));
+   }
+  }
+  if(proposals.size!==4359)throw Error('Incomplete single-category proposal set');
+  function annotation(card,lang){
+   const a=lang==='shan'&&card&&proposals.get(card.id);
+   return a&&card.rank===a.rank&&card.shan===a.word&&card.japanese_core===a.gloss?
+     a:engine.annotation(card,lang);
+  }
+  function matches(card,lang,filters={}){
+   const medium=filters.medium||'all',tag=filters.tag||'all';
+   if(medium==='all'&&tag==='all')return true;
+   const a=annotation(card,lang);
+   if(!a||medium!=='all'&&a.medium!==medium)return false;
+   if(tag!=='all'){
+    const [axis,value]=tag.split(':');
+    if(!value||!a.tags[axis]?.includes(value))return false;
+   }
+   return true;
+  }
+  function majorFor(card,lang){
+   const a=annotation(card,lang);
+   return a?.provisional_only?a.medium.slice(0,2):engine.majorFor(card,lang);
+  }
+  return {...engine,annotation,matches,majorFor,
+    extraProvisional:{count:proposals.size,source_count:11505,
+      editorial_review:'machine-proposal-unverified',approved_senses:false}};
+ }
+ const api={attach};
+ root.DOPAExtraProvisional=api;
+ if(typeof module!=='undefined'&&module.exports)module.exports=api;
+})(typeof window!=='undefined'?window:globalThis);
