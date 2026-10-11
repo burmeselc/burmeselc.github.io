@@ -1,0 +1,56 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "batch": 10,
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_files": [
+    {
+      "file": "shan-extra-pack-5.json",
+      "slice_zero_based": [
+        1000,
+        2000
+      ],
+      "count": 1000,
+      "rank_span": [
+        14481,
+        15480
+      ]
+    }
+  ],
+  "source_count": 1000,
+  "source_rank_span": [
+    14481,
+    15480
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v10.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "previous_review_manifest": "shan-extra-semantic-review-manifest-v9.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-10a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-10b.json",
+      "count": 500
+    }
+  ],
+  "stats": {
+    "source_count": 1000,
+    "rank_start": 14481,
+    "rank_end": 15480,
+    "primary_provisional": 300,
+    "other": {
+      "no-supported-category-cue": 596,
+      "single-cue-provisional": 300,
+      "ambiguous-multiple-category-cues": 35,
+      "pending-sense-boundary": 69
+    },
+    "semicolon_parents": 69,
+    "segmentation_fragments": 147,
+    "feature_tag_candidates": 18,
+    "field_tag_candidates": 12,
+    "usage_tag_candidates": 0,
+    "semantic_type_candidates": 1
+  },
+  "notes": "Strict machine-proposal-unverified; no approved sense IDs. Source semicolons are segmentation hypotheses. Source cards, provenance, learning history, 16,985 total, runtime and UI are unchanged."
+}
