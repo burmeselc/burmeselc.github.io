@@ -14,7 +14,7 @@
     "shan-extra-semantic-cue-rules-v8.json",
     "shan-extra-semantic-cue-rules-v9.json"
   ],
-  "rule_basis": "Inherited v9 lexical cue system; batch 10 review adds strict anchored lexical-head cues for botany, legal detention, numerals, plants and food, and suppresses misleading substrings, contextual participants, headless similes and instrumental modifiers (ヒョウタン≠ヒョウ, ヘビウリ≠ヘビ, パンノキ≠パン, ストライキ≠軍事). Multiple matches and semicolon partitions remain unapproved.",
+  "rule_basis": "Inherited v9 lexical cue system; batch 10 review adds strict anchored lexical-head cues for botany, legal detention, numerals, plants and food, and suppresses misleading substrings, contextual participants, headless similes and instrumental modifiers (ヒョウタン≠ヒョウ, ヘビウリ≠ヘビ, パンノキ≠パン, ストライキ≠軍事). Multiple matches and semicolon partitions remain unapproved. Second precision pass: suppress incidental steam-cooking, weather/place and figurative chaining, preserve death/lifespan head.",
   "matching_policy": "Match Japanese core with nonnested fullwidth parenthetical exemplifications removed; source-preserving English is provenance only. Apply medium-scoped context suppressions on intact gloss; evidence records the escaped literal cue. Boundary splits are hypotheses.",
   "conflict_policy": "Use one provisional medium only for single supported unsuppressed match without semicolon. Never select on contested evidence or infer lexical sense boundaries; retain null and no sense IDs.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -94,7 +94,7 @@
     {
       "id": "sem-03.05",
       "medium_id": "03.05",
-      "pattern": "生まれる|出生|死亡|死期|死ぬ|亡くなる|赤ん坊|乳児|幼児|成人する|育児|老化|成年に達する|妊娠|出産|老年|腐乱死体|死体|死にかけた|^老年|^腐乱死体|^死体|^葬列|^生き返る|^（少女の乳房が）膨らみ始める|^膨らみ始める|^未婚の娘|^子供時代、幼少期|^妊娠している",
+      "pattern": "生まれる|出生|死亡|死期|死ぬ|亡くなる|赤ん坊|乳児|幼児|成人する|育児|老化|成年に達する|妊娠|出産|老年|腐乱死体|死体|死にかけた|^老年|^腐乱死体|^死体|^葬列|^生き返る|^（少女の乳房が）膨らみ始める|^膨らみ始める|^未婚の娘|^子供時代、幼少期|^妊娠している|^天寿を全うする",
       "mode": "japanese-core-lexical-cue-with-context-guards-v10"
     },
     {
@@ -1722,6 +1722,46 @@
       "medium_id": "18.03",
       "when": "^肉付きが良い",
       "reason": "Bodily build is not a part-whole operator"
+    },
+    {
+      "medium_id": "01.01",
+      "when": "^ジャングルや無人の地の真っ只中にいる",
+      "reason": "Jungle is circumstantial place, not type of landform"
+    },
+    {
+      "medium_id": "03.04",
+      "when": "^樹皮を石鹸の実と共に洗髪",
+      "reason": "Shampoo used in botanical tree description, not the denotation"
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^退屈や怠惰で体を伸ばす",
+      "reason": "Reference to boredom is contextual to bodily stretching"
+    },
+    {
+      "medium_id": "06.03",
+      "when": "^米を蒸す際に上の桶の底に挿入するヒョウタン",
+      "reason": "Steam-cooking is contextual to gourd/utensil"
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^（魚やウナギ用の）簗|^衣類用の籠",
+      "reason": "Clothes modify basket, not garment"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^天寿を全うする",
+      "reason": "Time span incidental to death/long life"
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^詩や歌、あるいは淀みない話でつなぐ",
+      "reason": "Poetic chaining is not manipulation of objects"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^電流、光を発生させる要素",
+      "reason": "Electricity generation describes component, not event"
     }
   ],
   "tag_rules": [
