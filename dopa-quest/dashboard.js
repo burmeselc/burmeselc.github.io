@@ -86,6 +86,77 @@
    const el=$(id);if(el)backup.appendChild(el);
   }
  }
+ function organizeLearningControls(){
+  // Move existing control nodes, never clone them: IDs, listeners, learning state
+  // and compatibility with older saved profiles remain unchanged.
+  const quest=$('setup'),controls=quest?.querySelector(':scope > .controls');
+  if(controls&&!$('dopaQuestBasics')){
+   const blocks=[...controls.children];
+   const take=id=>blocks.find(el=>el.contains($(id)));
+   const section=(tag,id,title,hint)=>{
+    const wrapper=document.createElement(tag);
+    wrapper.id=id;wrapper.className='wide dopa-setting-section';
+    const heading=document.createElement('h3');heading.textContent=title;
+    wrapper.appendChild(heading);
+    if(hint){const note=document.createElement('p');note.className='dopa-setting-note';note.textContent=hint;wrapper.appendChild(note)}
+    return wrapper;
+   };
+   const intro=document.createElement('div');intro.className='dopa-config-intro';
+   intro.innerHTML='<h2>クエスト設定</h2><p>まず出題範囲と方向を選び、すぐに学習を始められます。</p>';
+   quest.insertBefore(intro,quest.querySelector('.tabs'));
+   const basics=section('section','dopaQuestBasics','基本条件','言語・出題数・方向・学習する語の範囲');
+   const basicsGrid=document.createElement('div');basicsGrid.className='controls';
+   for(const id of ['lang','roundSize','direction','zone','semanticCategory']){
+    const node=take(id);if(node)basicsGrid.appendChild(node);
+   }
+   basics.appendChild(basicsGrid);
+   controls.appendChild(basics);
+   const start=take('start');if(start){start.classList.add('dopa-quest-start');controls.appendChild(start)}
+   const advanced=document.createElement('details');
+   advanced.className='wide dopa-setting-details';advanced.id='questAdvancedSettings';
+   const summary=document.createElement('summary');summary.textContent='詳細設定・絞込みを開く';
+   advanced.appendChild(summary);
+   const advancedGrid=document.createElement('div');advancedGrid.className='controls';
+   for(const id of ['speed','answerMode','includeAudio','slowCorrect','studyDetailControls','shanSenseMode','vocabOpen','flashOpen']){
+    const node=take(id);if(node)advancedGrid.appendChild(node);
+   }
+   advanced.appendChild(advancedGrid);controls.appendChild(advanced);
+   const modeHelp=$('modeHelp');if(modeHelp){
+    modeHelp.classList.add('dopa-mode-description');
+    quest.querySelector('.tabs')?.after(modeHelp);
+   }
+   const zones=$('zoneStats');if(zones){
+    const d=document.createElement('details');d.id='questZoneStats';d.className='dopa-setting-details';
+    const sm=document.createElement('summary');sm.textContent='エリア別の学習状況';
+    d.appendChild(sm);d.appendChild(zones);controls.after(d);
+   }
+  }
+  const cards=$('flashConfig')?.querySelector(':scope > .flash-config');
+  if(cards&&!$('dopaFlashBasics')){
+   const blocks=[...cards.children];
+   const take=id=>blocks.find(el=>el.contains($(id)));
+   const basic=document.createElement('section');basic.id='dopaFlashBasics';
+   basic.className='wide dopa-setting-section';
+   basic.innerHTML='<h3>単語カードの学習条件</h3><p class="dopa-setting-note">復習の種類・出題方向・単語帳を選びます。</p>';
+   const grid=document.createElement('div');grid.className='flash-config';
+   for(const id of ['flashScope','flashDirection','flashCollection','flashCount']){
+    const node=take(id);if(node)grid.appendChild(node);
+   }
+   basic.appendChild(grid);cards.appendChild(basic);
+   const advanced=document.createElement('details');advanced.id='flashAdvancedSettings';
+   advanced.className='wide dopa-setting-details';
+   const summary=document.createElement('summary');summary.textContent='1日の学習上限を設定';
+   advanced.appendChild(summary);
+   const advancedGrid=document.createElement('div');advancedGrid.className='flash-config';
+   for(const id of ['flashNewLimit','flashReviewLimit']){
+    const node=take(id);if(node)advancedGrid.appendChild(node);
+   }
+   advanced.appendChild(advancedGrid);cards.appendChild(advanced);
+   const hint=document.createElement('p');hint.className='flash-caption dopa-setting-note';
+   hint.textContent='「学習画面の絞込み」はクエスト設定の言語・エリア・カテゴリを使ひます。';
+   basic.appendChild(hint);
+  }
+ }
  function go(target,{scroll=true}={}){
   if(!snapshot())return;
   if(!$('game').classList.contains('hidden'))return;
@@ -114,6 +185,7 @@
  function initialize(){
   const p=snapshot();
   if(!p)return;
+  organizeLearningControls();
   nav.querySelectorAll('[data-dopa-route]').forEach(btn=>btn.addEventListener('click',()=>go(btn.dataset.dopaRoute)));
   $('flashExit')?.addEventListener('click',()=>{if(route==='cards'){route='quest';visibility('quest')}});
   $('vocabExit')?.addEventListener('click',()=>{if(route==='library'){route='quest';visibility('quest')}});
