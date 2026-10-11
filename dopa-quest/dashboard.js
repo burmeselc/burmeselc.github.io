@@ -5,7 +5,7 @@
  const ids=['dopaDashboard','dopaSettings','setup','profile','dopa-v6','flashcardPanel','vocabPanel','game','result'];
  const dashboard=$('dopaDashboard'),nav=$('dopaNav');
  if(!dashboard||!nav)return;
- let route='quest',settingsMoved=false;
+ let route='home',settingsMoved=false;
  function snapshot(){return root.DOPA_SYNC_API?.snapshot?.()||null}
  function dueCount(p){
   const now=Date.now();let n=0;
@@ -18,11 +18,14 @@
  }
  function render(){
   const p=snapshot();if(!p)return;
-  $('dashDue').textContent=dueCount(p).toLocaleString();
+  const due=dueCount(p);
+  $('dashDue').textContent=due.toLocaleString();
+  $('dashReview').textContent=due?'▶ 復習待ち '+due.toLocaleString()+'枚を学ぶ':'▶ 新しい単語カードを学ぶ';
   $('dashXp').textContent=Math.max(0,Number(p.xp)||0).toLocaleString();
   $('dashSeen').textContent=Object.keys(p.words||{}).length.toLocaleString();
   if(root.DOPA_DAILY){
    const d=root.DOPA_DAILY.summary(p);
+   $('dashToday').textContent='今日 '+d.distinctToday+'語学習 ・ 自力で想起 '+d.rememberedToday+'語';
    $('dashStreak').textContent=d.streak+'日';
    $('dashMissionCount').textContent=d.missions.filter(m=>m.completed).length+' / '+d.missions.length+' 達成';
    const rows=$('dashMissionRows');rows.replaceChildren();
@@ -118,7 +121,7 @@
   $('dashCards').addEventListener('click',()=>go('cards'));
   $('dashReview').addEventListener('click',()=>{
    go('cards');
-   if(root.DOPA_FLASH_UI&&$('flashScope'))$('flashScope').value='due';
+   if(root.DOPA_FLASH_UI&&$('flashScope'))$('flashScope').value=dueCount(snapshot())?'due':'new';
    $('flashScope')?.dispatchEvent(new Event('change'));
   });
   const header=$('soundBtn')?.closest('header');
@@ -128,15 +131,10 @@
    header.appendChild(button);button.addEventListener('click',()=>go('settings'));
   }
   for(const p of ['game','flashcardPanel'])$(p)?.classList.add('dopa-play-viewport');
-  // Legacy e2e tests start with a clean profile. Existing learners see the new home.
-  const returning=Object.keys(p.words||{}).length>0||
-   Object.keys(p.flashcards?.cards||{}).length>0||
-   Object.keys(p.vocabularyLibrary?.books||{}).length>0||
-   (p.vocabularyLibrary?.bookmarks?.length||0)>0;
-  // Preserve the initial classic setup for all existing bookmark links and regressions.
-  // New dashboard is available immediately from the fixed Home tab.
-  nav.querySelector('[data-dopa-route="quest"]')?.setAttribute('aria-current','page');
-  render();
+  // Always land on the dashboard: no legacy setup flash after cold starts or
+  // profile restoration. Classic quest controls remain available via the Quest tab.
+  go('home',{scroll:false});
+  document.body.classList.add('dopa-ui-ready');
  }
  root.addEventListener('dopa-game-ready',initialize,{once:true});
  root.addEventListener('dopa-profile-restored',()=>{
