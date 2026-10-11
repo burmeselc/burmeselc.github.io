@@ -28,3 +28,6 @@ jobs:
       - run: node --check dopa-quest/service-worker.js
       - name: Check incoming Shan CSV audit is read-only and lossless
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_additional_shan_audit.py' -v
+
+      - name: Verify Shan master ledger provenance and source parsing
+        run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_master_ledger.py' -v
