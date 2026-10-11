@@ -77,14 +77,18 @@
   });
  }
  function moveSettings(){
-  if(settingsMoved)return;settingsMoved=true;
-  const account=$('dopa-v6'),sound=$('soundSettings');
-  if(account)$('dopaAccountSlot').appendChild(account);
-  if(sound)$('dopaSoundSlot').appendChild(sound);
-  const backup=$('dopaBackupSlot');
-  for(const id of ['backupBtn','loadBtn','soundBtn','loadFile']){
+  if(settingsMoved)return;
+  const backup=$('dopaBackupSlot'),soundSlot=$('dopaSoundSlot'),soundActions=$('dopaSoundActions');
+  // Only move original nodes. Do not re-create file pickers, Firebase buttons,
+  // status regions or sound controls: their registered listeners survive.
+  if(!backup||!soundSlot||!soundActions)return;
+  const sound=$('soundSettings');
+  if(sound)soundSlot.appendChild(sound);
+  for(const id of ['backupBtn','loadBtn','loadFile']){
    const el=$(id);if(el)backup.appendChild(el);
   }
+  const mute=$('soundBtn');if(mute)soundActions.appendChild(mute);
+  settingsMoved=true;
  }
  function organizeLearningControls(){
   // Move existing control nodes, never clone them: IDs, listeners, learning state
