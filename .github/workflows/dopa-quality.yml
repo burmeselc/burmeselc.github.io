@@ -36,3 +36,6 @@ jobs:
 
       - name: Check 1,000 Shan source-preserving semantic candidate records
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_extra_semantic_review.py' -v
+
+      - name: Validate second 1,000 Shan semantic review candidates
+        run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_extra_semantic_review_batch2.py' -v
