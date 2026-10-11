@@ -4738,8 +4738,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "06",
+    "primary_medium": "06.03",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -4750,13 +4750,6 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "06.01",
-        "major": "06",
-        "evidence": [
-          "料理"
-        ]
-      },
-      {
         "medium": "06.03",
         "major": "06",
         "evidence": [
@@ -4765,7 +4758,7 @@
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -9468,8 +9461,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "08",
+    "primary_medium": "08.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -9478,9 +9471,17 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [],
+    "category_candidates": [
+      {
+        "medium": "08.02",
+        "major": "08",
+        "evidence": [
+          "天灯"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -9600,8 +9601,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "08",
-    "primary_medium": "08.01",
+    "primary_major": "13",
+    "primary_medium": "13.04",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -9621,8 +9622,8 @@
     ],
     "category_candidates": [
       {
-        "medium": "08.01",
-        "major": "08",
+        "medium": "13.04",
+        "major": "13",
         "evidence": [
           "宗教学校"
         ]
@@ -12730,8 +12731,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "14",
-    "primary_medium": "14.02",
+    "primary_major": "13",
+    "primary_medium": "13.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -12742,8 +12743,8 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "14.02",
-        "major": "14",
+        "medium": "13.02",
+        "major": "13",
         "evidence": [
           "地図"
         ]
@@ -17803,8 +17804,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "08",
+    "primary_medium": "08.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -17813,9 +17814,17 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [],
+    "category_candidates": [
+      {
+        "medium": "08.02",
+        "major": "08",
+        "evidence": [
+          "個人の食事と飲み物を入れる容器"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
