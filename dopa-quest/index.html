@@ -474,6 +474,11 @@ body:not(.dopa-ui-ready) #dopaBoot{
   <p class="dopa-settings-help">SAVEで学習履歴をファイルへ保存し、LOADで保存したファイルを読み込みます。別端末への移行や同期前の保全に利用して下さい。</p>
   <div id="dopaBackupSlot" class="dopa-settings-actions"></div>
  </section>
+ <section class="dopa-settings-group" id="dopaSettingsEditorial" aria-labelledby="dopaEditorialHeading">
+  <h3 id="dopaEditorialHeading">校閲メモ管理</h3>
+  <p class="dopa-settings-help">学習中につけた疑義をまとめて検索し、機械候補と比較できます。メモは端末内のみ保存し、学習履歴や辞書原文には反映しません。</p>
+  <div class="dopa-settings-actions"><button class="pill" id="editorialHubOpen" type="button">校閲メモ一覧・検索・復元</button></div>
+ </section>
  <section class="dopa-settings-group" id="dopaSettingsVocabulary" aria-labelledby="dopaVocabularyHeading">
   <h3 id="dopaVocabularyHeading">語彙データ</h3>
   <div class="dopa-settings-status" id="dataBadge" aria-live="polite">デッキ確認中…</div>
@@ -555,7 +560,7 @@ body:not(.dopa-ui-ready) #dopaBoot{
 <button type="button" data-dopa-route="quest"><span class="nav-symbol">⚔</span>クエスト</button>
 <button type="button" data-dopa-route="cards"><span class="nav-symbol">▤</span>カード</button>
 <button type="button" data-dopa-route="library"><span class="nav-symbol">▥</span>単語帳</button>
-</div></nav><div class="toast" id="toast"></div><script src="./firebase-config.js" defer></script><script src="./sound-fx.js" defer></script><script src="./study-details.js" defer></script><script src="./shan-extra-provisional.js" defer></script><script src="./flashcards.js" defer></script><script src="./vocabulary-library.js" defer></script><script src="./editorial-notes.js" defer></script><script src="./editorial-notes-ui.js" defer></script><script src="./daily-progress.js" defer></script><script src="./learning-stats.js" defer></script><script src="./dashboard.js" defer></script><script src="./bootstrap.js" defer></script>
+</div></nav><div class="toast" id="toast"></div><script src="./firebase-config.js" defer></script><script src="./sound-fx.js" defer></script><script src="./study-details.js" defer></script><script src="./shan-extra-provisional.js" defer></script><script src="./flashcards.js" defer></script><script src="./vocabulary-library.js" defer></script><script src="./editorial-notes.js" defer></script><script src="./editorial-notes-ui.js" defer></script><script src="./editorial-hub.js" defer></script><script src="./daily-progress.js" defer></script><script src="./learning-stats.js" defer></script><script src="./dashboard.js" defer></script><script src="./bootstrap.js" defer></script>
 <script>
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || (location.hostname === '127.0.0.1' && new URLSearchParams(location.search).has('pwa-test')))) {
   window.addEventListener('load', () => {
