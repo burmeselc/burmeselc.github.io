@@ -76,7 +76,7 @@ test('missing final65 delta retains 4,931 earlier provisional classifications',a
  const browser=await chromium.launch({headless:true});
  try{
   const page=await browser.newPage({viewport:{width:375,height:667},isMobile:true,hasTouch:true});
-  await page.route(/shan-extra-final65-proposals-v1\\.json/,r=>r.abort());
+  await page.route(/shan-extra-final65-proposals-v1\.json/,r=>r.abort());
   await page.goto(URL,{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
   const result=await page.evaluate(()=>({count:window.DOPA_DETAIL.extraProvisional?.count,final65:window.DOPA_DETAIL.extraProvisional?.final65_review_count}));
