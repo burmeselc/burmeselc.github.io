@@ -61,5 +61,25 @@ class TestReviewProposals(unittest.TestCase):
         self.assertEqual(after["tags"], "")
 
 
+    def test_align_two_source_entries_without_minting_sense_ids(self):
+        record = row("名詞 | 動詞", "雪 | 降る", "multi-entry", 2)
+        record["source_rows"] = "100 | 101"
+        units, held = tool.source_entry_candidates([record])
+        self.assertEqual(len(units), 2)
+        self.assertEqual(held, [])
+        self.assertEqual([u["source_row"] for u in units], ["100", "101"])
+        self.assertEqual([u["source_pos_label"] for u in units], ["名詞", "動詞"])
+        self.assertEqual([u["source_gloss_candidate"] for u in units], ["雪", "降る"])
+        self.assertNotIn("sense_id", units[0])
+        self.assertIn("not a verified lexical sense", units[0]["status"])
+
+    def test_mismatch_is_withheld_and_never_silently_split(self):
+        record = row("名詞", "雪 | 降る", "multi-entry", 2)
+        record["source_rows"] = "100 | 101"
+        units, held = tool.source_entry_candidates([record])
+        self.assertEqual(units, [])
+        self.assertEqual(len(held), 1)
+        self.assertEqual(held[0]["status"], "unresolved-boundary")
+
 if __name__ == "__main__":
     unittest.main()
