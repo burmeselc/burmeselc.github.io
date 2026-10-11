@@ -100,9 +100,9 @@ class CsvAdditionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             file = Path(folder) / "anki_shan_jpn.csv"
             file.write_text(
-                '1. တီႈ, 【動詞】 前段、後段 [first, second]\\n'
-                '2. ၵတ်း, 【形容詞】 寒い [cold]\\n'
-                '2: ၵတ်း, 【動詞】 噛む [bite, chew]\\n',
+                '1. တီႈ, 【動詞】 前段、後段 [first, second]\n'
+                '2. ၵတ်း, 【形容詞】 寒い [cold]\n'
+                '2: ၵတ်း, 【動詞】 噛む [bite, chew]\n',
                 encoding="utf-8"
             )
             rows = AUDIT.read_numbered_anki(file)
