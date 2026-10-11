@@ -96,6 +96,27 @@ class CsvAdditionTests(unittest.TestCase):
             self.assertEqual(rows[2][3], "余分な列")
             self.assertEqual(AUDIT.column_index("原語", rows[0]), 1)
 
+    def test_actual_numbered_anki_layout_keeps_definition_commas_and_serial_collisions(self):
+        with tempfile.TemporaryDirectory() as folder:
+            file = Path(folder) / "anki_shan_jpn.csv"
+            file.write_text(
+                '1. ၵင်ႈ, 【動詞】 前段、後段 [first, second]\\n'
+                '2. ၵတ်း, 【形容詞】 寒い [cold]\\n'
+                '2: ၵတ်း, 【動詞】 噛む [bite, chew]\\n',
+                encoding="utf-8"
+            )
+            rows = AUDIT.read_numbered_anki(file)
+            self.assertEqual(len(rows), 3)
+            self.assertEqual(rows[0], ["ၵင်ႈ", " 【動詞】 前段、後段 [first, second]", "1"])
+            self.assertEqual(rows[1][2], rows[2][2])
+            report = AUDIT.audit_rows(rows, self.parents, self.senses, 0, 1)
+            self.assertEqual(report["counts"]["source_rows"], 3)
+            self.assertEqual(report["counts"]["by_status"]["existing-form-review"], 1)
+            self.assertEqual(report["counts"]["by_status"]["new-form-candidate"], 1)
+            self.assertEqual(report["counts"]["by_status"]["new-form-candidate"]+
+                             report["counts"]["by_status"]["existing-form-review"]+
+                             report["counts"]["by_status"]["hold-incomplete"],2)
+
 
 if __name__ == "__main__":
     unittest.main()
