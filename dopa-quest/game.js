@@ -64,7 +64,7 @@ function categoryEligible(x,l){return ['P','R'].includes(x.semantic_status)||pro
 function domainEligible(x,l){
  const control=$('semanticCategory');
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
-  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&categoryEligible(x,l));
+  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&(['P','R'].includes(x.semantic_status)||(typeof window!=='undefined'&&l==='shan'&&window.DOPA_DETAIL?.annotation?.(x,l)?.provisional_only===true)));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
