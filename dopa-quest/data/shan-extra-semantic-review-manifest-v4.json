@@ -25,16 +25,16 @@
     "source_count": 1000,
     "rank_start": 8481,
     "rank_end": 9480,
-    "primary_provisional": 331,
+    "primary_provisional": 329,
     "other": {
-      "ambiguous-multiple-category-cues": 56,
-      "single-cue-provisional": 331,
-      "no-supported-category-cue": 533,
+      "ambiguous-multiple-category-cues": 55,
+      "single-cue-provisional": 329,
+      "no-supported-category-cue": 536,
       "pending-sense-boundary": 80
     },
     "semicolon_parents": 80,
     "segmentation_fragments": 165,
-    "feature_tag_candidates": 43,
+    "feature_tag_candidates": 44,
     "field_tag_candidates": 21,
     "usage_tag_candidates": 1,
     "semantic_type_candidates": 2
