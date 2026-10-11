@@ -3981,36 +3981,19 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.02",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
       "feature": [],
-      "field": [
-        "literature"
-      ],
+      "field": [],
       "usage": []
     },
-    "tag_evidence": [
-      {
-        "axis": "field",
-        "value": "literature",
-        "cue": "詩",
-        "pattern": "^物語|^文学|^詩|^語り部"
-      }
-    ],
-    "category_candidates": [
-      {
-        "medium": "16.02",
-        "major": "16",
-        "evidence": [
-          "つなぐ"
-        ]
-      }
-    ],
+    "tag_evidence": [],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -12927,16 +12910,25 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "02",
+    "primary_medium": "02.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
-      "feature": [],
+      "feature": [
+        "plant"
+      ],
       "field": [],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "feature",
+        "value": "plant",
+        "cue": "樹",
+        "pattern": "^プランテイン|^苗|^樹|^花|^シダ|^芽吹|^大枝|^木の|^竹|^植物|^落葉|^藍（アイ）の木|^キワタ|^貝葉（ばいよう）の木|^ビンロウ樹|^カンゾウ"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "02.02",
@@ -12944,17 +12936,10 @@
         "evidence": [
           "樹皮"
         ]
-      },
-      {
-        "medium": "03.04",
-        "major": "03",
-        "evidence": [
-          "石鹸"
-        ]
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -13425,36 +13410,19 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "06",
-    "primary_medium": "06.03",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
-      "feature": [
-        "consumable"
-      ],
+      "feature": [],
       "field": [],
       "usage": []
     },
-    "tag_evidence": [
-      {
-        "axis": "feature",
-        "value": "consumable",
-        "cue": "米",
-        "pattern": "^米|^ご飯|^パン(?!ツ)|^砂糖|^ナツメグ|^塩|^肉|^プランテイン|^酸っぱいキノコ|^ご飯"
-      }
-    ],
-    "category_candidates": [
-      {
-        "medium": "06.03",
-        "major": "06",
-        "evidence": [
-          "蒸す"
-        ]
-      }
-    ],
+    "tag_evidence": [],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -14154,8 +14122,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "03",
+    "primary_medium": "03.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -14171,17 +14139,10 @@
         "evidence": [
           "あくび"
         ]
-      },
-      {
-        "medium": "04.04",
-        "major": "04",
-        "evidence": [
-          "怠惰"
-        ]
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
