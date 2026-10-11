@@ -33,3 +33,6 @@ jobs:
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_master_ledger.py' -v
       - name: Validate non-destructive Shan 1,211-form review proposals
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_private_review1211.py' -v
+
+      - name: Check 1,000 Shan source-preserving semantic candidate records
+        run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_extra_semantic_review.py' -v
