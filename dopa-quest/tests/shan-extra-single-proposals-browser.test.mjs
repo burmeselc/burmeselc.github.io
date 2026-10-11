@@ -22,7 +22,7 @@ test('single Shan proposals usable in category UI without overwriting parent car
     summary:window.DOPA_DETAIL.extraProvisional,count:window.DOPA_DETAIL.extraProvisional?.count,multipleCount:window.DOPA_DETAIL.extraProvisional?.multiple_review_count,final65Count:window.DOPA_DETAIL.extraProvisional?.final65_review_count,statuses,final65:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5821),'shan'),reviewed:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5484),'shan'),heldUncategorized:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5569),'shan')?.medium==null};
   });
   assert.equal(data.total,16985);assert.equal(data.addition,11505);
-  assert.equal(data.count,5932+data.summary.general_review_count+data.summary.held_review_count);assert.equal(data.originalStatus,'U');
+  assert.equal(data.count,5932+data.summary.general_review_count+(data.summary.held_review_count||0));assert.equal(data.originalStatus,'U');
   assert.equal(data.annotation.medium,'02.02');assert.equal(data.annotation.provisional_only,true);
   assert.equal(data.major,'02');
   assert.equal(data.multipleCount,572);
