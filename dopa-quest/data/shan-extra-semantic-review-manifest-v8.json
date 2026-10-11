@@ -1,0 +1,56 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "batch": 8,
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_files": [
+    {
+      "file": "shan-extra-pack-4.json",
+      "slice_zero_based": [
+        1500,
+        2500
+      ],
+      "count": 1000,
+      "rank_span": [
+        12481,
+        13480
+      ]
+    }
+  ],
+  "source_count": 1000,
+  "source_rank_span": [
+    12481,
+    13480
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v8.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "previous_review_manifest": "shan-extra-semantic-review-manifest-v7.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-8a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-8b.json",
+      "count": 500
+    }
+  ],
+  "stats": {
+    "source_count": 1000,
+    "rank_start": 12481,
+    "rank_end": 13480,
+    "primary_provisional": 314,
+    "other": {
+      "single-cue-provisional": 314,
+      "no-supported-category-cue": 581,
+      "ambiguous-multiple-category-cues": 24,
+      "pending-sense-boundary": 81
+    },
+    "semicolon_parents": 81,
+    "segmentation_fragments": 177,
+    "feature_tag_candidates": 18,
+    "field_tag_candidates": 7,
+    "usage_tag_candidates": 0,
+    "semantic_type_candidates": 0
+  },
+  "notes": "Non-destructive machine-proposed parent-card classification ledger. Semicolon gloss fragments remain unverified; no game/runtime/UI/history/sync changes."
+}
