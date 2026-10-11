@@ -51,3 +51,6 @@ jobs:
 
       - name: Validate sixth Shan semantic review batch (1,000 parents across packs)
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_extra_semantic_review_batch6.py' -v
+
+      - name: Validate seventh Shan semantic review batch (1,000 parents)
+        run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_extra_semantic_review_batch7.py' -v
