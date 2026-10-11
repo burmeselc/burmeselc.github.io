@@ -19,14 +19,18 @@ test('single Shan proposals usable in category UI without overwriting parent car
    }
    return {total:deck.length,addition:window.DOPA_EXTRA_COUNT,originalStatus:x.semantic_status,
     sourceGloss:x.japanese_core,annotation:a,major:window.DOPA_DETAIL.majorFor(x,'shan'),
-    count:window.DOPA_DETAIL.extraProvisional?.count,statuses};
+    count:window.DOPA_DETAIL.extraProvisional?.count,multipleCount:window.DOPA_DETAIL.extraProvisional?.multiple_review_count,statuses,reviewed:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5484),'shan'),held:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5569),'shan')?.provisional_only||false};
   });
   assert.equal(data.total,16985);assert.equal(data.addition,11505);
-  assert.equal(data.count,4359);assert.equal(data.originalStatus,'U');
+  assert.equal(data.count,4931);assert.equal(data.originalStatus,'U');
   assert.equal(data.annotation.medium,'02.02');assert.equal(data.annotation.provisional_only,true);
   assert.equal(data.major,'02');
-  assert.deepEqual(data.statuses,{'machine-proposal-unverified':4359});
-  assert.match(await page.locator('#semanticCategoryNotice').textContent(),/4,359件.*未検証/);
+  assert.equal(data.multipleCount,572);
+  assert.equal(data.reviewed?.medium,'12.01');
+  assert.equal(data.reviewed?.provisional_only,true);
+  assert.equal(data.held,false);
+  assert.deepEqual(data.statuses,{'machine-proposal-unverified':4931});
+  assert.match(await page.locator('#semanticCategoryNotice').textContent(),/4,931件.*未検証/);
   await page.locator('[data-dopa-route="quest"]').click();
   await page.locator('#semanticCategory').selectOption('02');
   assert.match(await page.locator('#semanticCategory option:checked').textContent(),/02/);
@@ -45,5 +49,22 @@ test('missing proposal shard retains regular app and existing classifications',a
   assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),16985);
   assert.equal(await page.evaluate(()=>window.DOPA_DETAIL?.extraProvisional?.count||0),0);
   assert.equal(await page.locator('#semanticCategory').isDisabled(),false);
+ }finally{await browser.close()}
+});
+
+test('missing new multiple-cue shard retains 4,359 original provisional classifications',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:375,height:667},isMobile:true,hasTouch:true});
+  await page.route(/shan-extra-multiple-proposals-1\.json/,r=>r.abort());
+  await page.goto(URL,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  const counts=await page.evaluate(()=>({
+   total:window.DOPA_DATA.shan.length,
+   count:window.DOPA_DETAIL.extraProvisional?.count,
+   extended:window.DOPA_DETAIL.extraProvisional?.multiple_review_count
+  }));
+  assert.deepEqual(counts,{total:16985,count:4359,extended:0});
+  assert.match(await page.locator('#semanticCategoryNotice').textContent(),/4,359件.*未検証/);
  }finally{await browser.close()}
 });

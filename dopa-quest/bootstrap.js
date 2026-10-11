@@ -290,7 +290,20 @@
         if(!res.ok)throw Error('provisional shard '+i+' HTTP '+res.status);
         return res.json();
       }));
-      window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(window.DOPA_DETAIL,shards,window.DOPA_DATA);
+      // Keep the original 4,359 eligible when the optional 572-case delta is unavailable.
+      const baseEngine=window.DOPA_DETAIL;
+      let reviewedMulti=null;
+      try{
+        const res=await fetch('./data/shan-extra-multiple-proposals-1.json',{cache:'no-cache'});
+        if(!res.ok)throw Error('multiple-cue shard HTTP '+res.status);
+        reviewedMulti=await res.json();
+      }catch(e){console.warn('Multiple-cue provisional delta unavailable; 4,359 original proposals retained',e)}
+      try{
+        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti);
+      }catch(e){
+        console.warn('Multiple-cue provisional delta invalid; 4,359 original proposals retained',e);
+        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA);
+      }
     }catch(e){console.warn('Unverified extra Shan categories unavailable; normal play unaffected',e)}
 
   }catch(e){console.warn('Optional detailed filters unavailable',e)}

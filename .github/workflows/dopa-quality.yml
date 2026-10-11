@@ -81,3 +81,7 @@ jobs:
         run: node --test dopa-quest/tests/shan-extra-multiple-review.test.mjs
       - name: Verify second-pass Shan multiple-category candidates and 65 held records
         run: node --test dopa-quest/tests/shan-extra-multiple-round2.test.mjs
+      - name: Verify Shan multi-cue provisional release safety and 4,931 total proposals
+        run: |
+          node --check dopa-quest/shan-extra-provisional.js
+          node --test dopa-quest/tests/shan-extra-multiple-proposals-release.test.mjs
