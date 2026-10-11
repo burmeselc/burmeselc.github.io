@@ -1,0 +1,43 @@
+{
+ "schema": "dopa-shan-semantic-review-manifest-v1",
+ "batch": 3,
+ "status": "provisional-do-not-deploy-as-reviewed-cards",
+ "source_file": "shan-extra-pack-2.json",
+ "source_count": 1000,
+ "source_rank_span": [
+  7481,
+  8480
+ ],
+ "rules_file": "shan-extra-semantic-cue-rules-v3.json",
+ "taxonomy_file": "study-taxonomy-v1.json",
+ "previous_review_manifest": "shan-extra-semantic-review-manifest-v2.json",
+ "parts": [
+  {
+   "file": "shan-extra-semantic-review-3a.json",
+   "count": 500
+  },
+  {
+   "file": "shan-extra-semantic-review-3b.json",
+   "count": 500
+  }
+ ],
+ "stats": {
+  "source_count": 1000,
+  "rank_start": 7481,
+  "rank_end": 8480,
+  "primary_provisional": 541,
+  "other": {
+   "single-cue-provisional": 541,
+   "ambiguous-multiple-category-cues": 70,
+   "pending-sense-boundary": 72,
+   "no-supported-category-cue": 317
+  },
+  "semicolon_parents": 72,
+  "segmentation_fragments": 152,
+  "feature_tag_candidates": 59,
+  "field_tag_candidates": 37,
+  "usage_tag_candidates": 3,
+  "semantic_type_candidates": 2
+ },
+ "notes": "All 1,000 source parents processed. Provisional Japanese cue matching, NOT approved lexical senses. No source/ID edits and no publishable sense IDs. Multi-category and semicolon candidates remain unclassified."
+}
