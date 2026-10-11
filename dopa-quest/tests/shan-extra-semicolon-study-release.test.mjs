@@ -77,5 +77,5 @@ test('983 low-confidence annotations are reversible; fallbacks and collisions ar
  assert.throws(()=>attach(engine,singles,{shan:source},multi,final65,falseCategory),/Stale semicolon/);
  const invalid=structuredClone(delta);invalid.cards[0][5].usage=['not-real'];
  assert.throws(()=>attach(engine,singles,{shan:source},multi,final65,invalid),/Invalid semicolon tag/);
- assert.throws(()=>attach(engine,singles,{shan:source},null,final65,delta),/Invalid semicolon provisional shard/);
+ assert.throws(()=>attach(engine,singles,{shan:source},null,final65,delta),/Invalid final65 provisional shard/);
 });
