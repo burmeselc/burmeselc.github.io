@@ -2988,8 +2988,8 @@
   "source_gloss": "前世の業、過去の行い",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "12",
+  "primary_medium": "12.06",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -3000,13 +3000,6 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
-   },
-   {
     "medium": "12.06",
     "major": "12",
     "evidence": [
@@ -3015,7 +3008,7 @@
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -5662,13 +5655,6 @@
     "evidence": [
      "監督者"
     ]
-   },
-   {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
    }
   ],
   "segmentation_candidates": [
@@ -5676,15 +5662,7 @@
     "segment_ordinal": 1,
     "gloss_fragment": "業務管理者",
     "source_split_delimiter": "； or ;",
-    "category_candidates": [
-     {
-      "medium": "12.01",
-      "major": "12",
-      "evidence": [
-       "業"
-      ]
-     }
-    ],
+    "category_candidates": [],
     "tag_candidates": {
      "semantic_type": [],
      "feature": [],
@@ -6286,8 +6264,8 @@
   "source_gloss": "焼畑農業のために土地を切り開く",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "10",
+  "primary_medium": "10.02",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -6303,17 +6281,10 @@
     "evidence": [
      "農業"
     ]
-   },
-   {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -13902,8 +13873,8 @@
   "source_gloss": "修了証書、卒業証書",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": "12",
-  "primary_medium": "12.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -13912,17 +13883,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
