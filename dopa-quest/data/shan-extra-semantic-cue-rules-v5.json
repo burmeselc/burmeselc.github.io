@@ -9,7 +9,7 @@
     "shan-extra-semantic-cue-rules-v3.json",
     "shan-extra-semantic-cue-rules-v4.json"
   ],
-  "rule_basis": "v4 82-category Japanese cues with strict v5 context guards derived from rank 9481–10480. Remove substring false positives (spangles/bread, suitcase/suit, glazing/medication, rods/book, reason clauses), suppress contextual modifiers, handle mythic, sleep, occupational and tool conflicts conservatively. Many uncued entries remain null; this is NOT human-certified lexical review.",
+  "rule_basis": "v4 82-category Japanese cues with strict v5 context guards derived from rank 9481–10480. Remove substring false positives (spangles/bread, suitcase/suit, glazing/medication, rods/book, reason clauses), suppress contextual modifiers, handle mythic, sleep, occupational and tool conflicts conservatively. Many uncued entries remain null; this is NOT human-certified lexical review. Second-pass fixes: isolated ノミ held for chisel/flea homonymy; 釉薬壺→household object; 銀錠 not door lock; puberty vs generic change; sugarcane press machine vs crop; short calendar year vs physical size.",
   "matching_policy": "Match stripped Japanese core gloss (nonnested fullwidth parentheses discarded); suppression patterns match intact core gloss. English definition is provenance only. Evidence is the literal matched cue with regex metacharacters escaped.",
   "conflict_policy": "When no unique supporting medium category, or any semicolon, primary is null; store alternatives only. A semicolon can be a gloss segmentation proposal and is never automatically a verified sense.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -89,7 +89,7 @@
     {
       "id": "sem-03.05",
       "medium_id": "03.05",
-      "pattern": "生まれる|出生|死亡|死期|死ぬ|亡くなる|赤ん坊|乳児|幼児|成人する|育児|老化|成年に達する|妊娠|出産|老年|腐乱死体|死体|死にかけた|^老年|^腐乱死体|^死体|^葬列|^生き返る|^（少女の乳房が）膨らみ始める",
+      "pattern": "生まれる|出生|死亡|死期|死ぬ|亡くなる|赤ん坊|乳児|幼児|成人する|育児|老化|成年に達する|妊娠|出産|老年|腐乱死体|死体|死にかけた|^老年|^腐乱死体|^死体|^葬列|^生き返る|^（少女の乳房が）膨らみ始める|^膨らみ始める",
       "mode": "japanese-core-lexical-cue-with-context-guards-v5"
     },
     {
@@ -275,7 +275,7 @@
     {
       "id": "sem-11.01",
       "medium_id": "11.01",
-      "pattern": "機械|装置|工具|器具|機器|電気|モーター|発電|コピー機|レシーバー|音声受信機|ガジェット|銅鑼を吊るす棒|繋ぎ綱|支柱|針先|焼きごて|ふるい|金網|ナイフの鞘|槍の穂先|グレーダー|石筆のホルダー|錠、鍵|唐臼|天秤棒|ふいご|レンチ|スパナ|木槌|ノミ|クレーン|ブルドーザー|昇降機|ロードローラー|芝刈り機|^錨|魚捕り器|タイプライター|照明スイッチ|^錐（|^ドリル|^鋲（|^のこぎり|^ナイフ|^鎌|^鉈（|^鉋（|^レーダー|^宇宙ロケット|^馬の轡|^牛の轡|^刀の鞘|^鍛冶屋のやっとこ|^中国人が筆記に用いる小さな筆|^家畜の首にかける木製の襟|^重しや罠に使う丸太|^ノミ$",
+      "pattern": "機械|装置|工具|器具|機器|電気|モーター|発電|コピー機|レシーバー|音声受信機|ガジェット|銅鑼を吊るす棒|繋ぎ綱|支柱|針先|焼きごて|ふるい|金網|ナイフの鞘|槍の穂先|グレーダー|石筆のホルダー|錠、鍵|唐臼|天秤棒|ふいご|レンチ|スパナ|木槌|ノミ|クレーン|ブルドーザー|昇降機|ロードローラー|芝刈り機|^錨|魚捕り器|タイプライター|照明スイッチ|^錐（|^ドリル|^鋲（|^のこぎり|^ナイフ|^鎌|^鉈（|^鉋（|^レーダー|^宇宙ロケット|^馬の轡|^牛の轡|^刀の鞘|^鍛冶屋のやっとこ|^中国人が筆記に用いる小さな筆|^家畜の首にかける木製の襟|^重しや罠に使う丸太|^ノミ$|^サトウキビ絞り機|^綿繰り機",
       "mode": "japanese-core-lexical-cue-with-context-guards-v5"
     },
     {
@@ -371,7 +371,7 @@
     {
       "id": "sem-14.01",
       "medium_id": "14.01",
-      "pattern": "一昨日|昨日|今日|明日|時刻表|スケジュール|まもなく|しばらく|間もなく|瞬間|時間|期間|早朝|毎年|月日|今始まった|暦年|カレンダー|丸一年|次回|飢饉の時代|^即座に|^その後|^夜中|^深夜|^夕暮れ|^日が暮れる|^常に|^いつでも|^新時代|^新紀元|^時代|^一昨年|^週末|^時期|^かつて|^その当時|^月曜日|^シャン暦|^（暦上の）短い年|^暦上の短い年",
+      "pattern": "一昨日|昨日|今日|明日|時刻表|スケジュール|まもなく|しばらく|間もなく|瞬間|時間|期間|早朝|毎年|月日|今始まった|暦年|カレンダー|丸一年|次回|飢饉の時代|^即座に|^その後|^夜中|^深夜|^夕暮れ|^日が暮れる|^常に|^いつでも|^新時代|^新紀元|^時代|^一昨年|^週末|^時期|^かつて|^その当時|^月曜日|^シャン暦|^（暦上の）短い年|^暦上の短い年|^短い年",
       "mode": "japanese-core-lexical-cue-with-context-guards-v5"
     },
     {
@@ -694,11 +694,6 @@
       "reason": "Building is not head referent."
     },
     {
-      "medium_id": "08.02",
-      "when": "^コップいっぱいである|^釉薬をかけた壺",
-      "reason": "Volume predicate/finished artifact ambiguity."
-    },
-    {
       "medium_id": "09.04",
       "when": "^戦争難民",
       "reason": "Refugee is not military act."
@@ -802,6 +797,21 @@
       "medium_id": "18.03",
       "when": "^壺の膨らんだ部分|^オールやパドルの水かき部分",
       "reason": "Part-of cue may be contextual to object."
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^コップいっぱいである|^銀の棒、銀錠",
+      "reason": "Noun denotation is full-cup predicate or silver bullion, not container or lock"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^ノミ$",
+      "reason": "Isolated Japanese ノミ is homonymous: chisel versus flea. No unique lexical evidence"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^（少女の乳房が）膨らみ始める",
+      "reason": "Pubertal development is biological growth, not generic change"
     }
   ],
   "tag_rules": [
@@ -823,7 +833,7 @@
     {
       "axis": "feature",
       "value": "body_part",
-      "pattern": "^唇|^顎|^頭蓋|^肩|^目尻|^手首|^陰毛|^歯肉|^ふくらはぎ"
+      "pattern": "^唇|^顎|^頭蓋|^肩|^目尻|^手首|^陰毛|^歯肉|^ふくらはぎ|^膝裏$|^身体$"
     },
     {
       "axis": "feature",
@@ -883,7 +893,7 @@
     {
       "axis": "field",
       "value": "medicine",
-      "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風"
+      "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風|^黄疸|^消化器疾患|^まぶたがひどく炎症"
     },
     {
       "axis": "field",
@@ -918,7 +928,7 @@
     {
       "axis": "field",
       "value": "linguistics",
-      "pattern": "^音韻|^助数詞|^言語|^子音|^語彙|^閉口音"
+      "pattern": "^音韻|^助数詞|^言語|^子音|^語彙|^閉口音|^略記する|^音節"
     },
     {
       "axis": "field",
