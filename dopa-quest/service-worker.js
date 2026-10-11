@@ -1,5 +1,5 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261012-shan-multiple-provisional-v2';
+const CACHE_NAME = 'dopa-quest-static-20261012-shan-final65-delta-v3';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
@@ -25,7 +25,8 @@ const OPTIONAL_PACKS = [
   './data/shan-extra-single-proposals-2.json',
   './data/shan-extra-single-proposals-3.json',
   './data/shan-extra-single-proposals-4.json',
-  './data/shan-extra-multiple-proposals-1.json'
+  './data/shan-extra-multiple-proposals-1.json',
+  './data/shan-extra-final65-proposals-v1.json'
 ];
 
 self.addEventListener('install', event => {

@@ -298,11 +298,24 @@
         if(!res.ok)throw Error('multiple-cue shard HTTP '+res.status);
         reviewedMulti=await res.json();
       }catch(e){console.warn('Multiple-cue provisional delta unavailable; 4,359 original proposals retained',e)}
+      let final65=null;
+      if(reviewedMulti!==null){
+        try{
+          const res=await fetch('./data/shan-extra-final65-proposals-v1.json',{cache:'no-cache'});
+          if(!res.ok)throw Error('final65 delta HTTP '+res.status);
+          final65=await res.json();
+        }catch(e){console.warn('Final65 provisional delta unavailable; prior 4,931 proposals retained',e)}
+      }
       try{
-        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti);
+        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65);
       }catch(e){
-        console.warn('Multiple-cue provisional delta invalid; 4,359 original proposals retained',e);
-        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA);
+        console.warn('Final65 or multiple-cue provisional delta invalid; attempting earlier classifications',e);
+        try{
+          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti);
+        }catch(previousError){
+          console.warn('Multiple-cue provisional delta invalid; 4,359 original proposals retained',previousError);
+          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA);
+        }
       }
     }catch(e){console.warn('Unverified extra Shan categories unavailable; normal play unaffected',e)}
 
