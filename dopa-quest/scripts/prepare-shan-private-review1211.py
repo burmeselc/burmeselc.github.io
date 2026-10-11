@@ -146,6 +146,82 @@ def out_of_git(path: Path) -> bool:
     return not any((parent / ".git").exists() for parent in (directory, *directory.parents))
 
 
+
+def source_entry_candidates(rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+    """Align source ROWS, source POS and glosses, never assign a lexical sense ID.
+
+    ' | ' is only interpreted when all three columns have the exact recorded
+    entry count. Every mismatch is withheld rather than guessed.
+    """
+    units, unresolved = [], []
+    for r in rows:
+        if r["primary_review_reason"] != "multi-entry":
+            continue
+        count = int(r["source_entry_count"])
+        segments = [r[k].split(" | ") for k in (
+            "source_rows", "raw_pos_labels", "source_japanese_candidates"
+        )]
+        if any(len(s) != count for s in segments):
+            unresolved.append({
+                "index": r["index"], "shan": r["source_headword_nfc"],
+                "recorded_count": count,
+                "source_rows_count": len(segments[0]),
+                "pos_count": len(segments[1]), "gloss_count": len(segments[2]),
+                "status": "unresolved-boundary",
+            })
+            continue
+        for position, (source_row, label, gloss) in enumerate(zip(*segments), 1):
+            units.append({
+                "parent_review_index": r["index"],
+                "shan_nfc": r["source_headword_nfc"],
+                "source_row": source_row,
+                "source_pos_label": label,
+                "source_gloss_candidate": gloss,
+                "entry_ordinal": position,
+                "status": "structural-candidate; not a verified lexical sense",
+            })
+    return units, unresolved
+
+
+def export_structural_subqueues(rows: list[dict[str, str]], out: Path,
+                                columns: list[str]) -> dict[str, int]:
+    """Private review sheets. Candidate statuses never authorize publishing."""
+    units, unresolved = source_entry_candidates(rows)
+    unit_columns = (
+        "parent_review_index", "shan_nfc", "source_row", "source_pos_label",
+        "source_gloss_candidate", "entry_ordinal", "status"
+    )
+    write_csv(out / "shan-review-multi-source-units.csv", units, list(unit_columns))
+    unresolved_columns = (
+        "index", "shan", "recorded_count", "source_rows_count",
+        "pos_count", "gloss_count", "status"
+    )
+    write_csv(out / "shan-review-unresolved-source-boundaries.csv",
+              unresolved, list(unresolved_columns))
+    short_gloss = [
+        r for r in rows if r["primary_review_reason"] == "gloss-length"
+        and len(r["source_japanese_candidates"]) == 1
+    ]
+    write_csv(out / "shan-review-one-character-gloss-candidates.csv",
+              short_gloss, columns)
+    for label, filename in (
+        ("1-exact-label-proposal", "shan-review-exact-pos-proposals.csv"),
+        ("2-descriptive-predicate-proposal", "shan-review-descriptive-pos-proposals.csv"),
+        ("3-multiple-source-entries", "shan-review-multiple-source-parents.csv"),
+        ("4-missing-source-pos", "shan-review-missing-pos-holds.csv"),
+    ):
+        write_csv(out / filename,
+                  [r for r in rows if r["review_bucket"] == label], columns)
+    write_csv(out / "shan-review-variant-reference-holds.csv",
+              [r for r in rows if r["primary_review_reason"] == "variant-reference"],
+              columns)
+    return {
+        "multi_entry_source_units_not_verified_senses": len(units),
+        "unresolved_segment_boundaries": len(unresolved),
+        "one_character_gloss_candidate_forms": len(short_gloss),
+    }
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--queue", type=Path, required=True)
@@ -179,6 +255,7 @@ def main() -> None:
         "sense_or_variant_merges": 0,
         "batches": chunks,
     }
+    summary["additional_structural_counts"] = export_structural_subqueues(enriched, args.out_dir, export_columns)
     (args.out_dir / "shan-review-1211-summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in summary.items() if k != "batches"}, ensure_ascii=False))
