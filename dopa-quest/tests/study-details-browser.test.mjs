@@ -125,6 +125,7 @@ test('review list reveals reviewed definitions and refreshes with the filters',a
  try{
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});await ready(page);
   await page.locator('#lang').selectOption('burmese');
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#studyDetailControls summary').first().click();
   await page.locator('#studyDetailReview summary').click();
   const reviewedCount=await page.evaluate(()=>window.DOPA_DETAIL.coverage.burmese.classified);
