@@ -9,6 +9,10 @@ test('dashboard routes preserve IDs, quiz progress and current flashcards',async
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(URL,{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>!!window.DOPA_DASHBOARD&&!!window.DOPA_SYNC_API?.snapshot&&!!window.DOPA_FLASH_UI);
+  assert.equal(await page.locator('#dopaDashboard').isVisible(),true);
+  assert.equal(await page.locator('#setup').isVisible(),false);
+  assert.equal(await page.locator('#dopaBoot').isVisible(),false);
+  assert.equal(await page.locator('[data-dopa-route="home"]').getAttribute('aria-current'),'page');
   const old=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
   await page.locator('[data-dopa-route="home"]').click();
   assert.equal(await page.locator('#dopaDashboard').isVisible(),true);
