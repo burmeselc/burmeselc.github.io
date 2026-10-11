@@ -56,7 +56,7 @@ test('missing new multiple-cue shard retains 4,359 original provisional classifi
  const browser=await chromium.launch({headless:true});
  try{
   const page=await browser.newPage({viewport:{width:375,height:667},isMobile:true,hasTouch:true});
-  await page.route(/shan-extra-multiple-proposals-1\\.json/,r=>r.abort());
+  await page.route(/shan-extra-multiple-proposals-1\.json/,r=>r.abort());
   await page.goto(URL,{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
   const counts=await page.evaluate(()=>({
