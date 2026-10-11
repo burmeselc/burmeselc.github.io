@@ -1,0 +1,44 @@
+{
+  "schema": "dopa-shan-anki-master-ledger-v1",
+  "generated_from_main_sha": "46494662b448fa746207f6ebac43b33e83f3b018",
+  "counts": {
+    "source_rows": 19637,
+    "source_distinct_forms": 18196,
+    "original_parents": 5480,
+    "original_senses": 7290,
+    "original_forms_in_anki": 5480,
+    "new_form_candidates_all": 12716,
+    "already_published_new_forms": 1000,
+    "new_forms_unpublished": 11716,
+    "published_rows_joined_ids": 2,
+    "published_rows_ids_pending_offline": 998,
+    "source_serial_collision_rows": 10,
+    "source_serial_colliding_values": 5,
+    "multi_entry_source_headwords": 1071,
+    "single_entry_unpublished_clean_candidates": 10719,
+    "next_pack_shortlist": 2000,
+    "relation_counts": {
+      "unpublished-new-form-candidate": 11940,
+      "existing-form-sense-or-paraphrase-review": 170,
+      "published-extra-1000": 1000,
+      "existing-gloss-string-exact": 6471,
+      "existing-form-pos-difference-review": 56
+    },
+    "historical_category_changes": 399,
+    "historic_source_only_not_current_main": true,
+    "current_parent_categories_available": true,
+    "taxonomy_validated": true,
+    "live_data_modified": false,
+    "source_analyzed_sha256": "1aa74d2d3c6cef6535a8f41925eb945a05cd51a6a31244ed525776172aae1bd7"
+  },
+  "interpretation": {
+    "word_form_identity": "NFC + surrounding-space trim only",
+    "source_record_key": "anki-row:<physical source line>; serial is NOT unique",
+    "existing_gloss_string_exact": "Only string equality; linguistic identity not established",
+    "existing_form_review": "Potential new sense, paraphrase, POS distinction, spelling variation or other; undecided",
+    "historical_classification": "Never silently promoted to currently deployed classification",
+    "new_sense_category": "Unassigned until independently reviewed",
+    "selected_next_pack": "2,000 source-based unapproved candidates, not active cards",
+    "pilot_missing_id": "If offline serial fallback was used, rerun in the repository to match all 1,000 existing stable IDs"
+  }
+}
