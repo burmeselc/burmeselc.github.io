@@ -10,6 +10,7 @@ test('Chromium mobile sound settings preview, persistence and classic Shan gamep
    const page=await ctx.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(BASE,{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>window.DOPA_SYNC_API?.snapshot&&window.DOPASound?.play);
+   await page.locator('#dopaSettingsOpen').click();
    await page.locator('#soundSettings summary').click();
    await page.locator('#sfxPreset').selectOption('flashy');
    await page.locator('#sfxVolume').evaluate(el=>{el.value='40';el.dispatchEvent(new Event('input',{bubbles:true}))});
@@ -29,6 +30,7 @@ test('Chromium mobile sound settings preview, persistence and classic Shan gamep
    assert.equal(await page.locator('#sfxPreset').inputValue(),'flashy');
    assert.equal(await page.locator('#sfxVolume').inputValue(),'40');
    assert.equal(await page.locator('#semanticCategory option').count(),19);
+   await page.locator('[data-dopa-route="quest"]').click();
    await page.locator('#direction').selectOption('toJP');
    await page.locator('#start').click();
    await page.locator('#game:not(.hidden)').waitFor();
@@ -66,6 +68,7 @@ test('one answer cue, separate boss entrance, immediate mute and preserved progr
      window.DOPASound.play=(kind)=>{window.soundCalls.push(kind);return true};
      window.DOPASound.stop=()=>window.stopCalls++;
    });
+   await page.locator('[data-dopa-route="quest"]').click();
    await page.locator('.tab[data-mode="free"]').click();
    await page.locator('#direction').selectOption('toJP');
    await page.locator('#roundSize').selectOption('10');

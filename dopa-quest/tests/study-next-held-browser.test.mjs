@@ -9,6 +9,8 @@ test('mobile optional new held categories load without modifying scores or withh
   const errors=[];
   page.on('pageerror',e=>errors.push(e.message));
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot&&!!window.DOPA_DETAIL);
   const details=await page.evaluate(()=>{
    const d=window.DOPA_DETAIL,deck=window.DOPA_DATA,find=(l,id)=>deck[l].find(x=>x.id===id);

@@ -4,6 +4,8 @@ import {chromium} from 'playwright';
 const URL=process.env.DOPA_TEST_URL||'http://127.0.0.1:8123/dopa-quest/';
 async function ready(page){
  await page.goto(URL,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
  await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.flashcardContext&&!!window.DOPA_FLASH_UI);
 }
 test('Shan four-button flashcards persist without crediting existing QUEST',async()=>{
@@ -31,7 +33,9 @@ test('Shan four-button flashcards persist without crediting existing QUEST',asyn
   assert.equal(snap.flashcards.cards[ids[0]].recognition.lastRating,'good');
   assert.deepEqual(snap.words,old.words);
   assert.equal(snap.totalQ,old.totalQ);
-  await page.reload();await page.waitForFunction(()=>!!window.DOPA_FLASH_UI);
+  await page.reload();
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();await page.waitForFunction(()=>!!window.DOPA_FLASH_UI);
   snap=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
   assert.ok(snap.flashcards.cards[ids[0]].recognition.dueAt>Date.now());
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
