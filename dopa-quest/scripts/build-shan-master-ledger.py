@@ -26,7 +26,7 @@ BASE = Path(__file__).resolve().parents[1]
 SERIAL_RE = re.compile(r'^\s*(\d+)\s*[.:]\s*(.*)$')
 POS_RE = re.compile(r'【([^】]{1,30})】')
 VARIANT_RE = re.compile(r'別形|異形|異表記|別表記|別綴|異綴|の別名|alternate form|alternative form|variant of|see also', re.I)
-GLOSS_EN_RE = re.compile(r'\s+\[(?=[A-Za-z])')
+GLOSS_EN_RE = re.compile(r'\s+\[(?=(?:【[^】]+】\s*)?[A-Za-z])')
 POS_LABELS = ('名詞','動詞','形容詞','副詞','前置詞','代名詞','助数詞','接続詞','感動詞','助詞','接頭辞','接尾辞','数詞','固有名詞')
 
 
