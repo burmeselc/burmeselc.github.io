@@ -136,7 +136,7 @@ function renderDetailReview(){
  const list=$('studyDetailReviewList'),summary=$('studyDetailReviewSummary'),more=$('studyDetailReviewMore');
  if(!list||!summary||!more)return;
  const engine=window.DOPA_DETAIL,l=$('lang').value;
- const rows=engine&&DOMAIN_READY_BY_LANG[l]?activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l)&&engine.annotation(x,l)):[];
+ const rows=engine&&DOMAIN_READY_BY_LANG[l]?activeDeck(l).filter(x=>String(x.game_include??'1')!=='0'&&studyEligible(x,l)&&engine.mediums.has(engine.annotation(x,l)?.medium)):[];
  summary.textContent='分類済みの語を確認（'+rows.length+'件・エリア指定前）';
  list.innerHTML=rows.slice(0,detailReviewLimit).map(x=>{
   const a=engine.annotation(x,l),labels=Object.entries(a.tags).flatMap(([axis,values])=>values.map(v=>engine.taxonomy.tag_labels[axis][v]));
