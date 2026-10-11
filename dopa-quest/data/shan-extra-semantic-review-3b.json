@@ -4371,8 +4371,8 @@
   "pos_source": "名詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "07",
-  "primary_medium": "07.01",
+  "primary_major": "14",
+  "primary_medium": "14.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -4383,10 +4383,10 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "07.01",
-    "major": "07",
+    "medium": "14.01",
+    "major": "14",
     "evidence": [
-     "カティナ衣"
+     "^シャン暦"
     ]
    }
   ],
@@ -10078,8 +10078,8 @@
   "pos_source": "名詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "01",
-  "primary_medium": "01.04",
+  "primary_major": "14",
+  "primary_medium": "14.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -10090,10 +10090,10 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "01.04",
-    "major": "01",
+    "medium": "14.01",
+    "major": "14",
     "evidence": [
-     "月曜日"
+     "^月曜日"
     ]
    }
   ],
@@ -15855,8 +15855,8 @@
   "pos_source": "動詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "06",
-  "primary_medium": "06.03",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -15865,17 +15865,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "06.03",
-    "major": "06",
-    "evidence": [
-     "粉砕"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -16858,13 +16850,6 @@
     ]
    },
    {
-    "medium": "14.04",
-    "major": "14",
-    "evidence": [
-     "密集"
-    ]
-   },
-   {
     "medium": "16.02",
     "major": "16",
     "evidence": [
@@ -17080,8 +17065,8 @@
   "pos_source": "動詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "14",
-  "primary_medium": "14.02",
+  "primary_major": "16",
+  "primary_medium": "16.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -17092,10 +17077,10 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "14.02",
-    "major": "14",
+    "medium": "16.01",
+    "major": "16",
     "evidence": [
-     "前後"
+     "^前後に揺れる"
     ]
    }
   ],
@@ -18734,8 +18719,8 @@
   "pos_source": "動詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "14",
-  "primary_medium": "14.04",
+  "primary_major": "16",
+  "primary_medium": "16.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -18746,10 +18731,10 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "14.04",
-    "major": "14",
+    "medium": "16.01",
+    "major": "16",
     "evidence": [
-     "密集"
+     "^押し寄せる"
     ]
    }
   ],
