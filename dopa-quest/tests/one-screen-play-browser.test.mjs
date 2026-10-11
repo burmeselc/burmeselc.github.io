@@ -4,6 +4,8 @@ import {chromium} from 'playwright';
 const BASE=process.env.DOPA_TEST_URL||'http://127.0.0.1:8123/dopa-quest/';
 async function ready(page){
  await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
  await page.waitForFunction(()=>!!window.DOPA_FLASH_UI&&!!window.DOPA_SYNC_API?.snapshot);
 }
 async function dimensions(page,buttonId,scrollId){
