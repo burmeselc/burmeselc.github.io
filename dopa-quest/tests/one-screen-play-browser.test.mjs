@@ -63,6 +63,7 @@ for(const height of [667,844])test('Flashcard long back stays scrollable and rat
   const context=await browser.newContext({viewport:{width:375,height},isMobile:true,hasTouch:true});
   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
   await ready(page);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#flashOpen').click();
   assert.equal(await page.locator('#dopaNav').isVisible(),true,'navigation on setup');
   await page.locator('#flashScope').selectOption('new');
