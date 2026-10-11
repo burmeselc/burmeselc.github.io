@@ -97,7 +97,7 @@ test('only fourth pack available still loads 2,500 new cards',async()=>{
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
-  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-4'],failed:['pilot-1','pack-2','pack-3','pack-5']});
+  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-4'],failed:['pilot-1','pack-2','pack-3','pack-5','pack-6']});
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
@@ -117,7 +117,7 @@ test('only fifth pack is available: 2,500 new words still load',async()=>{
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
-  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-5'],failed:['pilot-1','pack-2','pack-3','pack-4']});
+  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-5'],failed:['pilot-1','pack-2','pack-3','pack-4','pack-6']});
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
