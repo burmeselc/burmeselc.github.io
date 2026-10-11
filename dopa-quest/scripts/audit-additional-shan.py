@@ -16,6 +16,7 @@ from collections import Counter, defaultdict
 import csv
 import hashlib
 import json
+import re
 from pathlib import Path
 import unicodedata
 
@@ -41,6 +42,27 @@ def meaning_key(text: object) -> str:
 def read_csv(path: Path, encoding: str = "utf-8-sig", delimiter: str = ","):
     with path.open("r", encoding=encoding, newline="") as handle:
         return list(csv.reader(handle, delimiter=delimiter))
+
+
+
+def read_numbered_anki(path: Path, encoding: str = "utf-8-sig"):
+    """This source uses '<serial>. <Shan>, <definition>' with unquoted gloss commas.
+
+    CSV readers cannot parse it correctly: punctuation and quote characters
+    inside definitions must be retained by splitting at the FIRST comma.
+    """
+    rows = []
+    pattern = re.compile(r"^\\s*(\\d+)\\s*[.:]\\s*(.*)$")
+    with path.open("r", encoding=encoding, newline="") as handle:
+        for physical, line in enumerate(handle, 1):
+            match = pattern.match(line.strip("\\r\\n"))
+            if not match:
+                raise ValueError(f"Missing numbered headword at physical line {physical}")
+            headword, sep, definition = match.group(2).partition(",")
+            if not sep:
+                raise ValueError(f"Missing first comma at physical line {physical}")
+            rows.append([headword, definition, match.group(1)])
+    return rows
 
 
 def column_index(selector: str, header: list[str] | None) -> int:
@@ -147,7 +169,11 @@ def audit_rows(rows: list[list[str]], parents: list[dict], senses: list[dict],
 
 def run(args: argparse.Namespace) -> dict:
     source = Path(args.source)
-    raw = read_csv(source, encoding=args.encoding, delimiter=args.delimiter)
+    numbered = args.source_format == "anki-numbered"
+    if numbered and args.header_mode != "none":
+        raise ValueError("Numbered Anki format cannot have a column header")
+    raw = (read_numbered_anki(source, encoding=args.encoding) if numbered else
+           read_csv(source, encoding=args.encoding, delimiter=args.delimiter))
     if not raw:
         raise ValueError("Source CSV is empty")
     header = raw[0] if args.header_mode == "first" else None
@@ -165,11 +191,14 @@ def run(args: argparse.Namespace) -> dict:
     if len(parents) != 5480 or len(senses) != 7290:
         raise ValueError("Unexpected baseline vocabulary; stop before auditing")
     result = audit_rows(data, parents, senses, *selectors, first_csv_row=2 if header else 1)
+    if numbered:
+        for row, fields in zip(result["records"], data):
+            row["source_serial"] = int(fields[2])
     result["source"] = {
         "file_name": source.name, "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
         "encoding": args.encoding, "delimiter": args.delimiter, "header_mode": args.header_mode,
         "form_column": args.form_column, "meaning_column": args.meaning_column,
-        "pos_column": args.pos_column,
+        "pos_column": args.pos_column, "source_format": args.source_format,
     }
     return result
 
@@ -183,6 +212,7 @@ def main():
     parser.add_argument("--meaning-column", required=True, help="Japanese gloss: index or header")
     parser.add_argument("--pos-column", help="Optional source POS: index or header")
     parser.add_argument("--header-mode", choices=("first", "none"), default="first")
+    parser.add_argument("--source-format", choices=("csv", "anki-numbered"), default="csv")
     parser.add_argument("--delimiter", default=",")
     parser.add_argument("--encoding", default="utf-8-sig")
     args = parser.parse_args()
