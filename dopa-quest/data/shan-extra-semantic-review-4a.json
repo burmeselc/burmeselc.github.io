@@ -628,8 +628,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "13",
-    "primary_medium": "13.02",
+    "primary_major": "11",
+    "primary_medium": "11.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -649,10 +649,10 @@
     ],
     "category_candidates": [
       {
-        "medium": "13.02",
-        "major": "13",
+        "medium": "11.01",
+        "major": "11",
         "evidence": [
-          "筆記"
+          "中国人が筆記に用いる小さな筆"
         ]
       }
     ],
@@ -1126,8 +1126,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.03",
+    "primary_major": "02",
+    "primary_medium": "02.03",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -1147,10 +1147,10 @@
     ],
     "category_candidates": [
       {
-        "medium": "16.03",
-        "major": "16",
+        "medium": "02.03",
+        "major": "02",
         "evidence": [
-          "始める"
+          "ほころびる、咲き始める"
         ]
       }
     ],
@@ -1611,7 +1611,7 @@
     "pos_candidate": null,
     "sense_id": null,
     "primary_major": "11",
-    "primary_medium": "11.02",
+    "primary_medium": "11.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -1639,10 +1639,10 @@
     ],
     "category_candidates": [
       {
-        "medium": "11.02",
+        "medium": "11.01",
         "major": "11",
         "evidence": [
-          "鍛冶"
+          "鍛冶屋のやっとこ"
         ]
       }
     ],
@@ -5779,34 +5779,36 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "02",
+    "primary_medium": "02.03",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
-      "feature": [],
+      "feature": [
+        "change"
+      ],
       "field": [],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "feature",
+        "value": "change",
+        "cue": "ほころびる",
+        "pattern": "^ほころびる|^芽吹|^枯れ|^朽ち|^壊れ|^変化する|^始まる"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "02.03",
         "major": "02",
         "evidence": [
-          "芽吹"
-        ]
-      },
-      {
-        "medium": "16.03",
-        "major": "16",
-        "evidence": [
-          "始める"
+          "ほころびる、芽吹き始める"
         ]
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -6746,8 +6748,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "14",
-    "primary_medium": "14.02",
+    "primary_major": "16",
+    "primary_medium": "16.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -6767,10 +6769,10 @@
     ],
     "category_candidates": [
       {
-        "medium": "14.02",
-        "major": "14",
+        "medium": "16.01",
+        "major": "16",
         "evidence": [
-          "遠く"
+          "遠くへ跳ぶ"
         ]
       }
     ],
@@ -8259,8 +8261,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "04",
-    "primary_medium": "04.04",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -8269,17 +8271,9 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [
-      {
-        "medium": "04.04",
-        "major": "04",
-        "evidence": [
-          "慎重"
-        ]
-      }
-    ],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -9095,8 +9089,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "02",
-    "primary_medium": "02.04",
+    "primary_major": "11",
+    "primary_medium": "11.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -9107,10 +9101,10 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "02.04",
-        "major": "02",
+        "medium": "11.01",
+        "major": "11",
         "evidence": [
-          "家畜"
+          "家畜の首にかける木製の襟"
         ]
       }
     ],
@@ -15652,8 +15646,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "01",
-    "primary_medium": "01.04",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -15662,17 +15656,9 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [
-      {
-        "medium": "01.04",
-        "major": "01",
-        "evidence": [
-          "日光"
-        ]
-      }
-    ],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
