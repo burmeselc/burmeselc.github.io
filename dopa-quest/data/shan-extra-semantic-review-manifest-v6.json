@@ -1,0 +1,68 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "batch": 6,
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_files": [
+    {
+      "file": "shan-extra-pack-3.json",
+      "slice_zero_based": [
+        2000,
+        2500
+      ],
+      "count": 500,
+      "rank_span": [
+        10481,
+        10980
+      ]
+    },
+    {
+      "file": "shan-extra-pack-4.json",
+      "slice_zero_based": [
+        0,
+        500
+      ],
+      "count": 500,
+      "rank_span": [
+        10981,
+        11480
+      ]
+    }
+  ],
+  "source_count": 1000,
+  "source_rank_span": [
+    10481,
+    11480
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v6.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "previous_review_manifest": "shan-extra-semantic-review-manifest-v5.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-6a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-6b.json",
+      "count": 500
+    }
+  ],
+  "stats": {
+    "source_count": 1000,
+    "rank_start": 10481,
+    "rank_end": 11480,
+    "primary_provisional": 378,
+    "other": {
+      "single-cue-provisional": 378,
+      "no-supported-category-cue": 490,
+      "pending-sense-boundary": 101,
+      "ambiguous-multiple-category-cues": 31
+    },
+    "semicolon_parents": 101,
+    "segmentation_fragments": 214,
+    "feature_tag_candidates": 36,
+    "field_tag_candidates": 22,
+    "usage_tag_candidates": 0,
+    "semantic_type_candidates": 0
+  },
+  "notes": "Non-destructive 1,000-parent provisional Japanese cue records. Raw source and existing card IDs/POS/gloss/provenance immutable. Blank semicolon clauses do not create segment candidates; non-empty clauses are unverified hypotheses with null sense IDs. No game/runtime/history/UI/sync updates."
+}
