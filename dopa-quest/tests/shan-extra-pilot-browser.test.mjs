@@ -15,15 +15,15 @@ async function openWithFailure(patterns=[]){
  return {browser,page,errors};
 }
 
-test('mobile: all 10,980 Shan words including 5,500 pilot additions load, and score is retained',async()=>{
+test('mobile: all 13,480 Shan words including 8,000 pilot additions load, and score is retained',async()=>{
  const {browser,page,errors}=await openWithFailure();
  try{
-  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),10980);
-  assert.equal(await page.evaluate(()=>window.DOPA_EXTRA_COUNT),5500);
+  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),13480);
+  assert.equal(await page.evaluate(()=>window.DOPA_EXTRA_COUNT),8000);
   assert.equal(await page.evaluate(()=>window.DOPA_EXTRA_READY),true);
-  assert.deepEqual(await page.evaluate(()=>window.DOPA_EXTRA_PACK_STATUS.loaded),['pilot-1','pack-2','pack-3']);
+  assert.deepEqual(await page.evaluate(()=>window.DOPA_EXTRA_PACK_STATUS.loaded),['pilot-1','pack-2','pack-3','pack-4']);
   await page.locator('[data-dopa-route="quest"]').click();
-  assert.match(await page.locator('#dataBadge').textContent(),/10,980語/);
+  assert.match(await page.locator('#dataBadge').textContent(),/13,480語/);
   assert.equal(await page.locator('#zone option[value="extra"]').count(),1);
   await page.locator('#zone').selectOption('extra');
   await page.locator('#direction').selectOption('toJP');
@@ -41,49 +41,69 @@ test('mobile: all 10,980 Shan words including 5,500 pilot additions load, and sc
  }finally{await browser.close()}
 });
 
-test('second pack failure preserves first and third packs, original parents and sense cards',async()=>{
+test('second pack failure preserves the first, third and fourth packs and original sense cards',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pack-2.json']);
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     ready:window.DOPA_EXTRA_READY,senses:window.DOPA_DATA.shan_senses.length}));
-  assert.deepEqual(d,{n:8980,count:3500,ready:true,senses:7290});
+  assert.deepEqual(d,{n:11480,count:6000,ready:true,senses:7290});
   assert.deepEqual(await page.evaluate(()=>window.DOPA_EXTRA_PACK_STATUS.failed),['pack-2']);
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
 
-test('first pack failure does not prevent loading the two later packs',async()=>{
+test('first pack failure does not prevent loading all three later packs',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json']);
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     ready:window.DOPA_EXTRA_READY,loaded:window.DOPA_EXTRA_PACK_STATUS.loaded}));
-  assert.deepEqual(d,{n:9980,count:4500,ready:true,loaded:['pack-2','pack-3']});
+  assert.deepEqual(d,{n:12480,count:7000,ready:true,loaded:['pack-2','pack-3','pack-4']});
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
 
-test('third pack failure preserves the original 8,480 Shan cards',async()=>{
+test('third pack failure preserves old and fourth packs',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pack-3.json']);
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     ready:window.DOPA_EXTRA_READY,loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
-  assert.deepEqual(d,{n:8480,count:3000,ready:true,loaded:['pilot-1','pack-2'],failed:['pack-3']});
+  assert.deepEqual(d,{n:10980,count:5500,ready:true,loaded:['pilot-1','pack-2','pack-4'],failed:['pack-3']});
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
 
-test('first and second missing still loads third pack',async()=>{
+test('first and second missing still loads third and fourth packs',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json','shan-extra-pack-2.json']);
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
-  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-3'],failed:['pilot-1','pack-2']});
+  assert.deepEqual(d,{n:10480,count:5000,loaded:['pack-3','pack-4'],failed:['pilot-1','pack-2']});
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
 
-test('all three packs missing leaves the baseline 5,480-card learning mode usable',async()=>{
+test('fourth pack failure leaves the previously deployed 10,980-card game working',async()=>{
+ const {browser,page,errors}=await openWithFailure(['shan-extra-pack-4.json']);
+ try{
+  const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
+    loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
+  assert.deepEqual(d,{n:10980,count:5500,loaded:['pilot-1','pack-2','pack-3'],failed:['pack-4']});
+  assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});
+
+test('only fourth pack available still loads 2,500 new cards',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json','shan-extra-pack-2.json','shan-extra-pack-3.json']);
+ try{
+  const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
+    loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
+  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-4'],failed:['pilot-1','pack-2','pack-3']});
+  assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});
+
+test('all four packs missing leaves the baseline 5,480-card learning mode usable',async()=>{
+ const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json','shan-extra-pack-2.json','shan-extra-pack-3.json','shan-extra-pack-4.json']);
  try{
   const result=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,
     senses:window.DOPA_DATA.shan_senses.length,available:window.DOPA_EXTRA_READY}));
