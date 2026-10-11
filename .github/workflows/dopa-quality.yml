@@ -77,3 +77,5 @@ jobs:
           node --check dopa-quest/game.js
           node --check dopa-quest/vocabulary-ui.js
           node --test dopa-quest/tests/shan-extra-single-proposals.test.mjs
+      - name: Verify all 637 Shan multi-category conflict triage records
+        run: node --test dopa-quest/tests/shan-extra-multiple-review.test.mjs
