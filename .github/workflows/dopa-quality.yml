@@ -85,3 +85,6 @@ jobs:
         run: |
           node --check dopa-quest/shan-extra-provisional.js
           node --test dopa-quest/tests/shan-extra-multiple-proposals-release.test.mjs
+
+      - name: Verify all 65 remaining Shan multi-cue editorial dispositions
+        run: node --test dopa-quest/tests/shan-extra-final65-review.test.mjs
