@@ -1,0 +1,2248 @@
+{
+  "schema": "dopa-shan-extra-multiple-review-held-after-round2-v1",
+  "source_main_before_round2": "fc69189a8925dd7eeae3ce24b3741e4dba155434",
+  "status": "held-not-deployed",
+  "count": 65,
+  "entries": [
+    {
+      "parent_card_id": "shn:anki:c35d4168d7d27db8",
+      "rank": 5498,
+      "shan": "ၵိုတ်းငဝ်ၵဝ်ႉ",
+      "source_gloss": "意気消沈して、あるいは失望して立ち止まる",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:306"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "意気消沈",
+            "失望"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "止まる",
+            "立ち止ま"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "止まる"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f51d1c221eccc2d7",
+      "rank": 5531,
+      "shan": "ၵူၼ်းႁူမ်ႈၵၼ်",
+      "source_gloss": "パートナー、株主",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:852"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "株主"
+          ]
+        },
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "株主"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:1924d5bd2460825c",
+      "rank": 5569,
+      "shan": "ၵၢင်တွင်ႉႁွင်ႈသႆႈ",
+      "source_gloss": "本心、体の内部",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1537"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.01",
+          "major": "03",
+          "evidence": [
+            "体の内部"
+          ]
+        },
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "本心"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3297d592e322d8d8",
+      "rank": 5702,
+      "shan": "ငူင်ႇ",
+      "source_gloss": "曲がる、屈曲する、歪む",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4025"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "屈曲",
+            "歪む"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "曲がる"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b7d57977e33fcf53",
+      "rank": 5751,
+      "shan": "ၸၢတ်ႈၵႃႈ",
+      "source_gloss": "芝居、劇、演劇作品",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5006"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "12.03",
+          "major": "12",
+          "evidence": [
+            "芝居",
+            "演劇",
+            "芝居",
+            "演劇"
+          ]
+        },
+        {
+          "medium": "12.05",
+          "major": "12",
+          "evidence": [
+            "作品"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:cdf116fa86697929",
+      "rank": 5764,
+      "shan": "ၸႃႇၸႂ်",
+      "source_gloss": "共感する、相手の立場に立って考える",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5277"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "共感"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "考える",
+            "考え"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a3236b78ad7c491c",
+      "rank": 5783,
+      "shan": "သရေႇၶိုၼ်ႈ",
+      "source_gloss": "名声が高まる、評判が良くなる",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5598"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "名声が高まる"
+          ]
+        },
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "声"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:53f61771cc7a0f77",
+      "rank": 5821,
+      "shan": "သြႃႇပိင်းတေႃး",
+      "source_gloss": "医師、伝統的な治療師",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6300"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.04",
+          "major": "03",
+          "evidence": [
+            "治療",
+            "医師",
+            "治療師"
+          ]
+        },
+        {
+          "medium": "12.02",
+          "major": "12",
+          "evidence": [
+            "伝統"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:bb369b8eaffcda32",
+      "rank": 5833,
+      "shan": "သၢၼ်လၢႆးသွင်",
+      "source_gloss": "綾織りで編む（二本おきに上下させる）",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6551"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "11.02",
+          "major": "11",
+          "evidence": [
+            "編む"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "上下"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0f1a8c379c071e4c",
+      "rank": 5888,
+      "shan": "တူဝ်ဢမ်ႇလၢႆ",
+      "source_gloss": "妊娠している",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7678"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        },
+        {
+          "medium": "03.05",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a10cb4688d7e2a23",
+      "rank": 5921,
+      "shan": "တၢင်းမွင်း",
+      "source_gloss": "希望、期待",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8311"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "希望",
+            "期待"
+          ]
+        },
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "期待",
+            "希望"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0a19305546dd2a0a",
+      "rank": 6018,
+      "shan": "ၼႃႇတႅမ်ႇလိူဝ်",
+      "source_gloss": "～より劣る",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10235"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "17.03",
+          "major": "17",
+          "evidence": [
+            "～より劣る"
+          ]
+        },
+        {
+          "medium": "17.04",
+          "major": "17",
+          "evidence": [
+            "～より劣る"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:9bd9362fe80c03dc",
+      "rank": 6098,
+      "shan": "ပႅပ်ႉၸပ်း",
+      "source_gloss": "物のすぐ後ろに張り付いて身を隠す",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11755"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "後ろ"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "隠す"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:37e7f99a50bec735",
+      "rank": 6099,
+      "shan": "ပႅၵ်ႈပႅၵ်ႈ",
+      "source_gloss": "硬い地面を歩く足音のような音、パタパタ",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11771"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "地面"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "硬い"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "歩く"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5b0fcfc85ac7e560",
+      "rank": 6101,
+      "shan": "ၽင်ႇႁိုၵ်းယၢတ်ႇ",
+      "source_gloss": "そのような堤防の割れ目",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11810"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "01.02",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "17.01",
+          "major": "17",
+          "evidence": [
+            "そのような"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f7d3bcb8e3c0f11f",
+      "rank": 6157,
+      "shan": "မိၵ်ႉသႃႇႁႃယႃႉ",
+      "source_gloss": "友好、親睦、仲間意識",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12962"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "意識"
+          ]
+        },
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "仲間"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f76301802abc3141",
+      "rank": 6161,
+      "shan": "မုင်ႈတၢင်း",
+      "source_gloss": "切望する、（人が来る方向を）じっと見る",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13047"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "見る"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "方向"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f27baddb7eeaca57",
+      "rank": 6192,
+      "shan": "မၢၵ်ႇၵႄ",
+      "source_gloss": "（遊びで打つための）木製のボールや棒",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13597"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "12.04",
+          "major": "12",
+          "evidence": [
+            "遊び"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "打つ"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c6dcaf11c8386bc5",
+      "rank": 6337,
+      "shan": "လၵ်ႉလၵ်ႉလၢမ်ႉလၢမ်ႉ",
+      "source_gloss": "（食事時など歓迎されていない時に）図々しくうろつく",
+      "source_definition": null,
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16420"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "歓迎"
+          ]
+        },
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "食事"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f1a2f9552af3ad1d",
+      "rank": 6523,
+      "shan": "ၵိူတ်ႇၽၢၼ်မၢၼ်းယၢပ်ႇ",
+      "source_gloss": "妊娠や出産の苦難に耐える",
+      "source_definition": "\"【動詞】 妊娠や出産の苦難に耐える [endure the discomforts of pregnancy and childbirth]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:363"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        },
+        {
+          "medium": "03.05",
+          "major": "03",
+          "evidence": [
+            "妊娠",
+            "出産"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e057db9d966e6cb5",
+      "rank": 6531,
+      "shan": "ၵိၼ်ဢပီးၵူၼ်း",
+      "source_gloss": "仲介業（ブローカー）の利益で暮らす",
+      "source_definition": "\"【動詞】 仲介業（ブローカー）の利益で暮らす [live by the gains of a broker, middleman]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:434"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "08.04",
+          "major": "08",
+          "evidence": [
+            "暮らす"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "ブローカー",
+            "仲介業"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "ブローカー",
+            "仲介業"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:03e16b34e708caf0",
+      "rank": 6565,
+      "shan": "ၵႅၼ်ၵူၼ်",
+      "source_gloss": "（シャン族の流儀で）ズボンの裾をできるだけ高くまくり上げる",
+      "source_definition": "\"【動詞】 （シャン族の流儀で）ズボンの裾をできるだけ高くまくり上げる [tuck up the trousers in Shan fashion, by rolling up the trouser legs as high as possible]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:733"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "シャン族"
+          ]
+        },
+        {
+          "medium": "07.01",
+          "major": "07",
+          "evidence": [
+            "ズボン"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:39166ad0fba6b7d4",
+      "rank": 6612,
+      "shan": "ၵေႃႉမိုဝ်ႉ",
+      "source_gloss": "料理人、炊事担当",
+      "source_definition": "\"【名詞】 料理人、炊事担当 [cook, person who cooks]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1122"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "料理"
+          ]
+        },
+        {
+          "medium": "08.03",
+          "major": "08",
+          "evidence": [
+            "炊事"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:6024da369255ee30",
+      "rank": 6628,
+      "shan": "ၵျၢၵ်ႈလႆႈ",
+      "source_gloss": "暗記している、見ずに言える",
+      "source_definition": "【動詞】 暗記している、見ずに言える [know by heart, be able to repeat without a copy]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1277"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "暗記"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "暗記"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a327b7d0b02d3dcd",
+      "rank": 6636,
+      "shan": "ၵွင်ႈၵမ်းၵူႇ",
+      "source_gloss": "石筆のホルダー、柄",
+      "source_definition": "【名詞】 石筆のホルダー、柄 [handle of a steatite pencil]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1343"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "11.01",
+          "major": "11",
+          "evidence": [
+            "石筆のホルダー"
+          ]
+        },
+        {
+          "medium": "13.02",
+          "major": "13",
+          "evidence": [
+            "^石筆"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:cdc6b1483e8365a1",
+      "rank": 6733,
+      "shan": "ၶတ်းဢိုတ်း",
+      "source_gloss": "閉じ込める、鍵をかけて仕舞う",
+      "source_definition": "\"【動詞】 閉じ込める、鍵をかけて仕舞う [lock up]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2240"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "08.02",
+          "major": "08",
+          "evidence": [
+            "鍵"
+          ]
+        },
+        {
+          "medium": "12.03",
+          "major": "12",
+          "evidence": [
+            "舞う"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:bf9939ab7332a135",
+      "rank": 7062,
+      "shan": "သတ်ႈထႃႇ",
+      "source_gloss": "信仰心を持つ、親切な気持ちになる",
+      "source_definition": "\"【動詞】 信仰心を持つ、親切な気持ちになる [be kindly disposed towards, feel kindly to （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5432"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "親切"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "信仰"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:d5b97717f41e5a6e",
+      "rank": 7081,
+      "shan": "သပႃႇပတီႉ",
+      "source_gloss": "議長、代弁者、スポークスパーソン",
+      "source_definition": "\"【名詞】 議長、代弁者、スポークスパーソン [speaker, spokesman, spokesperson （語源等：Burmese）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5553"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "09.01",
+          "major": "09",
+          "evidence": [
+            "^議長",
+            "代弁者"
+          ]
+        },
+        {
+          "medium": "13.03",
+          "major": "13",
+          "evidence": [
+            "スポークスパーソン"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e83e193a6a112cc4",
+      "rank": 7203,
+      "shan": "သႅင်ႇၼိူဝ်ႉ",
+      "source_gloss": "精肉店、肉屋",
+      "source_definition": "\"【名詞】 精肉店、肉屋 [butcher shop, meat store,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6833"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "肉屋"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "精肉店"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3316522711edbd52",
+      "rank": 7259,
+      "shan": "တိူၵ်ႈတႅၵ်း",
+      "source_gloss": "終わる、場所がなくなる",
+      "source_definition": "\"【動詞】 終わる、場所がなくなる [come to an end, terminate (as in a very limited space), run out of space]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7346"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "場所"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "終わる"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4f4a5cc3d11aa0c9",
+      "rank": 7381,
+      "shan": "တၢႆတၢႆ",
+      "source_gloss": "確実に、間違いなく、取り消し不可能な形で（ ၵႂၢမ်းတၢႆတၢႆ 決定的な言葉）",
+      "source_definition": "\"【副詞】 確実に、間違いなく、取り消し不可能な形で（ ၵႂၢမ်းတၢႆတၢႆ 決定的な言葉） [definitely, positively, irrevocably, လၢတ်ႈၵႂၢမ်းတၢႆတၢႆ]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8485"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "言葉"
+          ]
+        },
+        {
+          "medium": "18.04",
+          "major": "18",
+          "evidence": [
+            "可能"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7b463a2919b76448",
+      "rank": 7458,
+      "shan": "ထေႃႇယေႃႇ",
+      "source_gloss": "洗髪剤（シャンプー）を作るのに皮が使われる木",
+      "source_definition": "\"【名詞】 洗髪剤（シャンプー）を作るのに皮が使われる木 [tree the bark of which is used in making a head wash, native shampoo]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9181"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.04",
+          "major": "03",
+          "evidence": [
+            "洗髪剤",
+            "シャンプー"
+          ]
+        },
+        {
+          "medium": "07.03",
+          "major": "07",
+          "evidence": [
+            "洗髪剤",
+            "シャンプー"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c39afca94af5e62d",
+      "rank": 7574,
+      "shan": "ပတိၵ်ႉသၼ်ႇထေႇၵႄႇ",
+      "source_gloss": "妊娠後期である、出産が近い",
+      "source_definition": "\"【動詞】 妊娠後期である、出産が近い [be advanced in pregnancy, be near delivery]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10392"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        },
+        {
+          "medium": "03.05",
+          "major": "03",
+          "evidence": [
+            "妊娠",
+            "出産"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:91b686c423b7830d",
+      "rank": 7588,
+      "shan": "ပိုမ်း",
+      "source_gloss": "手で口へ放り込む（煎りトウモロコシなどの乾物を手で口に運ぶ、ပိုမ်းၵိၼ်）",
+      "source_definition": "\"【動詞】 手で口へ放り込む（煎りトウモロコシなどの乾物を手で口に運ぶ、ပိုမ်းၵိၼ်） [scoop into the mouth with the hand (as anything dry, like parched corn, ပိုမ်းၵိၼ် )]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10517"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "トウモロコシ"
+          ]
+        },
+        {
+          "medium": "11.03",
+          "major": "11",
+          "evidence": [
+            "運ぶ"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c6bbe20bfbafd320",
+      "rank": 7821,
+      "shan": "မဝ်ႇႁၢင်ႈ",
+      "source_gloss": "ありそうにない、期待に反して",
+      "source_definition": "\"【副詞】 ありそうにない、期待に反して [not likely, contrary to reasonable expectation]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12743"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        },
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:37960a1805015e45",
+      "rank": 8146,
+      "shan": "လဵၵ်းဝွၵ်း",
+      "source_gloss": "物を掴むための曲がった鉄具、フック",
+      "source_definition": "【名詞】 物を掴むための曲がった鉄具、フック [crooked iron used for seizing articles]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:15952"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "曲がっ"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "掴む"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:39e3214ca09a1e70",
+      "rank": 8240,
+      "shan": "ဝဵၼ်ႉဝၼ်း",
+      "source_gloss": "一日置く、一日休みを入れる（発熱など）",
+      "source_definition": "\"【動詞】 一日置く、一日休みを入れる（発熱など） [intermit for a day (as fever)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16887"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "発熱"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "置く"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:00c581c46636f9fe",
+      "rank": 8403,
+      "shan": "ဢုင်ႇၼလုင်ႇ",
+      "source_gloss": "白毫：仏陀の額に生えている一本の毛（伸ばすと2キュビットの長さになる）",
+      "source_definition": "\"【名詞】 白毫：仏陀の額に生えている一本の毛（伸ばすと2キュビットの長さになる） [single hair that grows on Buddha's forehead, two cubits long when it is stretched （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:18911"
+      ],
+      "source_queue": "shan-extra-multiple-review-1-3.json",
+      "original_candidates": [
+        {
+          "medium": "11.05",
+          "major": "11",
+          "evidence": [
+            "キュビット"
+          ]
+        },
+        {
+          "medium": "13.02",
+          "major": "13",
+          "evidence": [
+            "本の"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8e199a89107746a4",
+      "rank": 8525,
+      "shan": "ၵိုတ်းၵႂင်",
+      "source_gloss": "迷いや不安から足が止まる、先に進めなくなる",
+      "source_definition": "\"【動詞】 迷いや不安から足が止まる、先に進めなくなる [be unable to proceed from mental uncertainty or fear of advancing]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:311"
+      ],
+      "source_queue": "shan-extra-multiple-review-4-6.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "不安"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "止まる"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:78d9140b209e212f",
+      "rank": 8536,
+      "shan": "ၵိူဝ်းလႆႈၵိၼ်",
+      "source_gloss": "（文字通りには「食べられることを期待する」）利益を期待して頼る",
+      "source_definition": "\"【動詞】 （文字通りには「食べられることを期待する」）利益を期待して頼る [trust in, rely on for one's own profit,; (literally) hope to get to eat]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:388"
+      ],
+      "source_queue": "shan-extra-multiple-review-4-6.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "頼る"
+          ]
+        },
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:05fc5a5ae5515829",
+      "rank": 8655,
+      "shan": "ၵျေးၸူး",
+      "source_gloss": "恩恵、恩義、感謝、慈しみ（語源：ビルマ語）",
+      "source_definition": "【名詞】 恩恵、恩義、感謝、慈しみ（語源：ビルマ語） [grace, favor, kindness, gratitude, （語源等：Burmese）]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1205"
+      ],
+      "source_queue": "shan-extra-multiple-review-4-6.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "慈しみ"
+          ]
+        },
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "感謝"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4b1dc53eb3fcf542",
+      "rank": 9501,
+      "shan": "တူဝ်လူင်",
+      "source_gloss": "妊娠する、身ごもる",
+      "source_definition": "\"【動詞】 妊娠する、身ごもる [conceive, be pregnant]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7685"
+      ],
+      "source_queue": "shan-extra-multiple-review-4-6.json",
+      "original_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        },
+        {
+          "medium": "03.05",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e247d6e2c4dcad67",
+      "rank": 9690,
+      "shan": "ထူဝ်းလၢၵ်ႈသွင်ႇ",
+      "source_gloss": "贈り物を送る、賄賂を贈る",
+      "source_definition": "\"【動詞】 贈り物を送る、賄賂を贈る [give a present, bribe]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9117"
+      ],
+      "source_queue": "shan-extra-multiple-review-4-6.json",
+      "original_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "贈り物"
+          ]
+        },
+        {
+          "medium": "09.03",
+          "major": "09",
+          "evidence": [
+            "賄賂"
+          ]
+        },
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "賄賂"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3665373ac2374df7",
+      "rank": 10153,
+      "shan": "မဝ်းလိူတ်ႈ",
+      "source_gloss": "意識が朦朧とする、ふらつく（頭を強打されたり斬首されたりした時のように）",
+      "source_definition": "\"【動詞】 意識が朦朧とする、ふらつく（頭を強打されたり斬首されたりした時のように） [be delirious, stagger, as a man struck by a heavy blow on the head, or a man decapitated]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12736"
+      ],
+      "source_queue": "shan-extra-multiple-review-4-6.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "意識"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "ふらつ"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aeb0265ad3781f37",
+      "rank": 11628,
+      "shan": "ၸေႈၶမ်းသိူင်း",
+      "source_gloss": "金箔を挟むための紙",
+      "source_definition": "【名詞】 金箔を挟むための紙 [paper used to keep gold leaf separate]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4771"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "金箔"
+          ]
+        },
+        {
+          "medium": "15.02",
+          "major": "15",
+          "evidence": [
+            "金箔"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "挟む"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:190f1c0ed4111086",
+      "rank": 12366,
+      "shan": "ပိုၼ်းၼႃႈလိၼ်",
+      "source_gloss": "地理、大地の物語",
+      "source_definition": "\"【名詞】 地理、大地の物語 [geography, story of the earth,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10545"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "大地"
+          ]
+        },
+        {
+          "medium": "12.05",
+          "major": "12",
+          "evidence": [
+            "物語"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2e16341fd61fc8d6",
+      "rank": 12722,
+      "shan": "မဵင်ႈ",
+      "source_gloss": "近づく、（突進前の水牛のように）首を横にかしげる",
+      "source_definition": "\"【動詞】 近づく、（突進前の水牛のように）首を横にかしげる [go near, bend the head down sidewise, as a buffalo preparing to charge, also]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13348"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "近づく"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "近づく"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f5d25e7ca07a6704",
+      "rank": 13084,
+      "shan": "လွႆဢုၼ်ႈ",
+      "source_gloss": "樹木のない、丸い頂の山",
+      "source_definition": "【名詞】 樹木のない、丸い頂の山 [round-topped mountain without trees]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16139"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "樹木"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "丸い"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2b4d32807fb06ac0",
+      "rank": 13250,
+      "shan": "ႁူင်းလုမ်းလႃးတူၼ်ႈမႆႉ",
+      "source_gloss": "温室、植物園、苗圃",
+      "source_definition": "\"【名詞】 温室、植物園、苗圃 [noun place where special care is given to plants, green house, nursery for plants]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17625"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "植物"
+          ]
+        },
+        {
+          "medium": "02.04",
+          "major": "02",
+          "evidence": [
+            "苗"
+          ]
+        },
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "温室"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8b97fda0012e9815",
+      "rank": 13494,
+      "shan": "ၵပ်ႉလီၵပ်ႉငၢမ်း",
+      "source_gloss": "隙間なく詰まっている、完全に詰め込まれている",
+      "source_definition": "\"【動詞】 隙間なく詰まっている、完全に詰め込まれている [be completely filled, completely stuffed]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:88"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "16.04",
+          "major": "16",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aa03efe343e19e59",
+      "rank": 14318,
+      "shan": "သူႉတႃႉ",
+      "source_gloss": "情報、知識",
+      "source_definition": "\"【名詞】 情報、知識 [information, knowledge, （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6166"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "13.03",
+          "major": "13",
+          "evidence": [
+            "情報"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "知識"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c9f970f07cb0adc3",
+      "rank": 14329,
+      "shan": "သဵတ်ႈၸႃႇ",
+      "source_gloss": "真実、誠実（嘘 မူႉသႃႇ の対義語）",
+      "source_definition": "\"【名詞】 真実、誠実（嘘 မူႉသႃႇ の対義語） [truth (as opposed to falsehood) မူႉသႃႇ （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6264"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "誠実"
+          ]
+        },
+        {
+          "medium": "18.04",
+          "major": "18",
+          "evidence": [
+            "真実"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3184f6f6a454c9b9",
+      "rank": 14438,
+      "shan": "တိုဝ်ႉတႃႈ",
+      "source_gloss": "渡船場、堤防",
+      "source_definition": "\"【名詞】 渡船場、堤防 [landing place of a ferry, levee]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7246"
+      ],
+      "source_queue": "shan-extra-multiple-review-7-9.json",
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "01.02",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:934782c126bf9fcc",
+      "rank": 14576,
+      "shan": "တၢင်းယုမ်ႇမၢတ်ႇ",
+      "source_gloss": "信仰、信頼（人に対するものなど）",
+      "source_definition": "\"【名詞】 信仰、信頼（人に対するものなど） [belief, faith, trust (as in a person)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8250"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "信頼"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "信仰"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:023e5c03266b8718",
+      "rank": 14621,
+      "shan": "တႃႁေႈ",
+      "source_gloss": "斜視である、横目で見る",
+      "source_definition": "\"【動詞】 斜視である、横目で見る [be walleyed, look askance]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8586"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "斜視"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "横目"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:04b8ee11bb34e408",
+      "rank": 14697,
+      "shan": "ထူၺ်းလိုၼ်း",
+      "source_gloss": "末っ子の、最後方の",
+      "source_definition": "【形容詞】 末っ子の、最後方の [the youngest]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9154"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "05.02",
+          "major": "05",
+          "evidence": [
+            "末っ子"
+          ]
+        },
+        {
+          "medium": "14.04",
+          "major": "14",
+          "evidence": [
+            "最後"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e10c010d9fc0ab9d",
+      "rank": 14845,
+      "shan": "ပတိၵ်ႉသၼ်ႇထေႇ",
+      "source_gloss": "受胎、妊娠",
+      "source_definition": "\"【名詞】 受胎、妊娠 （語源等：Pali） [conception, pregnancy （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10391"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        },
+        {
+          "medium": "03.05",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:9fad5aab5aab1d9b",
+      "rank": 14862,
+      "shan": "ပိုင်ႈၵၢပ်ႈ",
+      "source_gloss": "（師、恩人、崇拝対象を）信頼する、頼る、信仰する",
+      "source_definition": "\"【動詞】 （師、恩人、崇拝対象を）信頼する、頼る、信仰する [trust, rely on, depend on, have faith in (as a teacher, benefactor or an object of worship)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10506"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "信頼"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "信仰"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e03e4ad91c9fa130",
+      "rank": 15039,
+      "shan": "ၽိတ်းတၢင်းၵိၼ်",
+      "source_gloss": "体に悪いものを食べる、特定の食べ物でアレルギー反応を起こす",
+      "source_definition": "\"【動詞】 体に悪いものを食べる、特定の食べ物でアレルギー反応を起こす [eat what is hurtful, have an allergic reaction to a particular food]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11859"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "食べ物"
+          ]
+        },
+        {
+          "medium": "06.04",
+          "major": "06",
+          "evidence": [
+            "食べる"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:42f8202c532b9a30",
+      "rank": 15091,
+      "shan": "ၽွၵႇၶီႈၶၢၼ်ႉ",
+      "source_gloss": "愚かで怠惰である、ろくでなしである",
+      "source_definition": "\"【動詞】 愚かで怠惰である、ろくでなしである [be stupid, lazy, good for nothing]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12246"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "愚か"
+          ]
+        },
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "怠惰"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:dbaeca64442a2349",
+      "rank": 15297,
+      "shan": "မၢၼ်းလုၵ်ႈ",
+      "source_gloss": "妊娠する",
+      "source_definition": "\"【動詞】 妊娠する [be pregnant]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13809"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "03.02",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        },
+        {
+          "medium": "03.05",
+          "major": "03",
+          "evidence": [
+            "妊娠"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:388288f1a5177a95",
+      "rank": 15878,
+      "shan": "ဢိူဝ်ႈၼေႃႈ",
+      "source_gloss": "[同意や驚きを表す助詞] 口語",
+      "source_definition": "【感動詞】 [同意や驚きを表す助詞] 口語 [particle expressive of assent or surprise] informal",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:18868"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "驚き"
+          ]
+        },
+        {
+          "medium": "17.02",
+          "major": "17",
+          "evidence": [
+            "助詞"
+          ]
+        }
+      ],
+      "holding_kind": "taxonomy-boundary-unresolved",
+      "reason": "複数の候補領域の間で中心義を確定できないため、原辞書との照合が必要。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8ac26db7e9440c66",
+      "rank": 16332,
+      "shan": "သၢတ်ႇၼိူဝ်ႉ",
+      "source_gloss": "竹の内側で編んだ目の粗いござ",
+      "source_definition": "【名詞】 竹の内側で編んだ目の粗いござ [coarse mat made of the inner part of the bamboo]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6487"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "内側"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "粗い"
+          ]
+        }
+      ],
+      "holding_kind": "missing-lexical-core-category",
+      "reason": "現在の候補カテゴリには訳語の指示対象に相当する中心領域がなく、説明語の一致のみで選ぶのは危険。分類規則または新候補の見直しを要する。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:846475ee9a224747",
+      "rank": 16436,
+      "shan": "တႂ်းၵိူဝ်း",
+      "source_gloss": "利益を期待して信頼する、恩恵を期待する",
+      "source_definition": "\"【動詞】 利益を期待して信頼する、恩恵を期待する [trust in with expectation of advantage, hope for benefit from]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8547"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "信頼"
+          ]
+        },
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aed371dfd9325b48",
+      "rank": 16571,
+      "shan": "ပွင်ႁဵတ်း",
+      "source_gloss": "考慮する、意図する、世話をする、利益を図る、組織する、監督する",
+      "source_definition": "\"【動詞】 考慮する、意図する、世話をする、利益を図る、組織する、監督する [consider, have the intention to do, take care of, minister to the benefit of, organize, supervise]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11159"
+      ],
+      "source_queue": "shan-extra-multiple-review-10-12.json",
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "考慮"
+          ]
+        },
+        {
+          "medium": "09.01",
+          "major": "09",
+          "evidence": [
+            "組織"
+          ]
+        }
+      ],
+      "holding_kind": "possible-multiple-glosses-or-cross-domain",
+      "reason": "日本語訳に複数の語義・言ひ換へ・事例が並び、単義か多義か未確定。原辞書と必要なら用例を照合するまでは単一領域を選ばない。",
+      "editorial_review": "machine-proposal-unverified",
+      "pos_candidate": null,
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    }
+  ]
+}
