@@ -3,7 +3,7 @@
   "based_on_merged_pr": 71,
   "source_queue": "shan-extra-multiple-review-1-3.json",
   "status": "provisional-candidates-not-deployed",
-  "count": 244,
+  "count": 247,
   "entries": [
     {
       "parent_card_id": "shn:anki:e8e10c7fdee3c7cd",
@@ -4637,6 +4637,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:fa1b6f873aaf3ad5",
+      "rank": 7096,
+      "shan": "သိုင်ႇၶူၵ်ႉ",
+      "source_gloss": "唐臼小屋（精米所）",
+      "source_definition": "\"【名詞】 唐臼小屋（精米所） [shed for pounding rice]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5693"
+      ],
+      "selected_medium": "10.02",
+      "selected_label": "農林水産・生産",
+      "selected_original_cues": [
+        "唐臼小屋"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.01",
+          "evidence": [
+            "唐臼"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "中心義（唐臼小屋（精米所））を「農林水産・生産」に結び付ける仮説。原台帳の手掛かりは唐臼小屋。部分一致や周辺説明の対抗候補は採らず、確定には原辞書の追認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:8d50e5a9e266457c",
       "rank": 7099,
       "shan": "သိုဝ်ႉၶဵဝ်",
@@ -4645,21 +4675,21 @@
       "source_record_ids": [
         "anki_shan_jpn.csv:5725"
       ],
-      "selected_medium": "10.02",
-      "selected_label": "農林水産・生産",
+      "selected_medium": "10.03",
+      "selected_label": "商取引・市場",
       "selected_original_cues": [
-        "収穫"
+        "買う"
       ],
       "other_original_cues": [
         {
-          "medium": "10.03",
+          "medium": "10.02",
           "evidence": [
-            "買う"
+            "収穫"
           ]
         }
       ],
       "judgement": "provisional-lexical-center-not-validated",
-      "rationale": "訳語の中心となる対象・事態を「農林水産・生産」に暫定配置。原台帳の対応手掛かり：収穫。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "rationale": "中心義（青田買いをする（収穫前の作物を買う））を「商取引・市場」に結び付ける仮説。原台帳の手掛かりは買う。部分一致や周辺説明の対抗候補は採らず、確定には原辞書の追認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -4854,6 +4884,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:b7ed0e1c92fb6e1b",
+      "rank": 7171,
+      "shan": "သွၵ်ႇၵွႆႈ",
+      "source_gloss": "小指の先までのキュビット",
+      "source_definition": "【名詞】 小指の先までのキュビット [cubit measured from the end of the little finger]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6380"
+      ],
+      "selected_medium": "11.05",
+      "selected_label": "計測・技術操作",
+      "selected_original_cues": [
+        "キュビット"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "03.01",
+          "evidence": [
+            "^小指"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "中心義（小指の先までのキュビット）を「計測・技術操作」に結び付ける仮説。原台帳の手掛かりはキュビット。部分一致や周辺説明の対抗候補は採らず、確定には原辞書の追認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:a73835fdfac14957",
       "rank": 7179,
       "shan": "သၢင်ႇဝၢင်ႇ",
@@ -4939,36 +4999,6 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「植物・菌類」に暫定配置。原台帳の対応手掛かり：豆の粒。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
-      "source_confirmation_required": true,
-      "editorial_review": "machine-proposal-unverified",
-      "sense_id": null,
-      "pos_candidate": null,
-      "publishable_as_approved_sense": false
-    },
-    {
-      "parent_card_id": "shn:anki:e83e193a6a112cc4",
-      "rank": 7203,
-      "shan": "သႅင်ႇၼိူဝ်ႉ",
-      "source_gloss": "精肉店、肉屋",
-      "source_definition": "\"【名詞】 精肉店、肉屋 [butcher shop, meat store,]\"",
-      "source_record_ids": [
-        "anki_shan_jpn.csv:6833"
-      ],
-      "selected_medium": "10.01",
-      "selected_label": "仕事・職業・労働",
-      "selected_original_cues": [
-        "肉屋"
-      ],
-      "other_original_cues": [
-        {
-          "medium": "10.03",
-          "evidence": [
-            "精肉店"
-          ]
-        }
-      ],
-      "judgement": "provisional-lexical-center-not-validated",
-      "rationale": "訳語の中心となる対象・事態を「仕事・職業・労働」に暫定配置。原台帳の対応手掛かり：肉屋。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -5211,6 +5241,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「味・食感・食欲」に暫定配置。原台帳の対応手掛かり：酸っぱい。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:bcf700288685ef74",
+      "rank": 7286,
+      "shan": "တုၵ်းယွၼ်းၼီႈ",
+      "source_gloss": "借金の返済を厳しく催促する、取り立てる",
+      "source_definition": "\"【動詞】 借金の返済を厳しく催促する、取り立てる [ask repeatedly for a debt owed, dun]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7581"
+      ],
+      "selected_medium": "10.04",
+      "selected_label": "貨幣・価格・財産",
+      "selected_original_cues": [
+        "借金"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.04",
+          "evidence": [
+            "促す"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "中心義（借金の返済を厳しく催促する、取り立てる）を「貨幣・価格・財産」に結び付ける仮説。原台帳の手掛かりは借金。部分一致や周辺説明の対抗候補は採らず、確定には原辞書の追認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -6295,6 +6355,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「宗教・信仰・儀礼」に暫定配置。原台帳の対応手掛かり：^布施。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:cc93b74b046427f4",
+      "rank": 7717,
+      "shan": "ပႅင်",
+      "source_gloss": "膨らんでいる、突き出ている",
+      "source_definition": "\"【形容詞】 膨らんでいる、突き出ている [bulge out, protrude; bulging, protruding, as]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11723"
+      ],
+      "selected_medium": "15.01",
+      "selected_label": "形・大きさ・構造",
+      "selected_original_cues": [
+        "^膨らんで"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.04",
+          "evidence": [
+            "^膨らんでいる"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "中心義（膨らんでいる、突き出ている）を「形・大きさ・構造」に結び付ける仮説。原台帳の手掛かりは^膨らんで。部分一致や周辺説明の対抗候補は採らず、確定には原辞書の追認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
