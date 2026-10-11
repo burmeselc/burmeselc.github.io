@@ -1,0 +1,1949 @@
+{
+  "schema": "dopa-shan-semantic-lexical-cue-rules-v10",
+  "status": "provisional-not-lexicographically-reviewed",
+  "taxonomy": "study-taxonomy-v1.json",
+  "scope": "shan-extra-pack-5.json indices 1000–1999 (ranks 14481–15480)",
+  "previous_rules": [
+    "shan-extra-semantic-cue-rules-v1.json",
+    "shan-extra-semantic-cue-rules-v2.json",
+    "shan-extra-semantic-cue-rules-v3.json",
+    "shan-extra-semantic-cue-rules-v4.json",
+    "shan-extra-semantic-cue-rules-v5.json",
+    "shan-extra-semantic-cue-rules-v6.json",
+    "shan-extra-semantic-cue-rules-v7.json",
+    "shan-extra-semantic-cue-rules-v8.json",
+    "shan-extra-semantic-cue-rules-v9.json"
+  ],
+  "rule_basis": "Inherited v9 lexical cue system; batch 10 review adds strict anchored lexical-head cues for botany, legal detention, numerals, plants and food, and suppresses misleading substrings, contextual participants, headless similes and instrumental modifiers (ヒョウタン≠ヒョウ, ヘビウリ≠ヘビ, パンノキ≠パン, ストライキ≠軍事). Multiple matches and semicolon partitions remain unapproved. Second precision pass: suppress incidental steam-cooking, weather/place and figurative chaining, preserve death/lifespan head.",
+  "matching_policy": "Match Japanese core with nonnested fullwidth parenthetical exemplifications removed; source-preserving English is provenance only. Apply medium-scoped context suppressions on intact gloss; evidence records the escaped literal cue. Boundary splits are hypotheses.",
+  "conflict_policy": "Use one provisional medium only for single supported unsuppressed match without semicolon. Never select on contested evidence or infer lexical sense boundaries; retain null and no sense IDs.",
+  "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
+  "rules": [
+    {
+      "id": "sem-01.01",
+      "medium_id": "01.01",
+      "pattern": "砂漠|山脈|山頂|山腹|峡谷|地形|大地|土壌|岩石|岩壁|小石|土砂|斜面|谷底|地層|山間|森林地帯|洞窟|盛り土|畦|堤防|岸|水際|アジア大陸|欧州大陸|山々の間の谷間|山に囲まれた平原|盆地|岩塩|石板|地平線|谷間|切り株|森林|ジャングル|山腹の段丘|^地表$|^絶壁|^断崖|^泥火山|^鉱石|^貴蛇紋石|^白ラテライト|^地平線|^鍾乳石|^低地|^ラテライト|^陶土$|^独峰$",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-01.02",
+      "medium_id": "01.02",
+      "pattern": "河川|河口|小川|大河|渓流|海岸|海辺|砂浜|水源|水流|海水|塩泉|岸辺|水が滴|噴き出す水|堤防|井戸の底|水路|水面|井戸|河岸|水が得られる|^メコン川|^インレー湖|^塩水$|^水滴$|^湧き水|^水位標|^水路|^ガンジス川|^水をせき止める|^ダム$|^増水する|^沼地、湿地|^水垢、藻",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-01.03",
+      "medium_id": "01.03",
+      "pattern": "雨季|乾季|降雨|雨が|雨の|雨風|暴風|台風|吹雪|気温|寒さ|暑さ|天候|気候|季節|干ばつ|^寒い|^寒さ|非常に寒|肌寒|霧雨|日照り|雨宿り|風が|^露、霧|^霧が|^にわか雨|^雲に覆われ|^雨季|^霞んでいる|^熱風|^熱波|^晴れ渡る|^突風|^雨雲|^雨雲に覆われる|^やや寒い、涼しい|^風よけをする",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-01.04",
+      "medium_id": "01.04",
+      "pattern": "太陽|月光|日光|日月|惑星|流星|隕石|星座|雷鳴|落雷|稲妻|雷光|宇宙|地震|日食|月食|天空|黄道十二宮|ゾディアック|雷などの|雷の|全宇宙|稲光|虹の弧|北極星|^月（天体|オリオンの三つ星|流れ星|^北極星|^北斗七星|^おおぐま座|^占星術|^稲光|^下弦の三日|^彗星|^ほうき星",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-02.01",
+      "medium_id": "02.01",
+      "pattern": "ラクダ|ウズラ|スズメバチ|ヒキガエル|アオヘビ|ヘビ|小エビ|イカ|カエル|トカゲ|イノシシ|野鳥|鳥類|昆虫|ダニ|^アリ|ハチ|サル|タヌキ|ヤギ|ウマ|ヒツジ|^ゾウ|ヤスデ|ムカデ|小鶏|犬が|象の|魚の|セキレイ|シャコ|ヨタカ|コイの一種|ライギョ|カモ|シマアジ|寄生虫|触角|羽ばたく|カタツムリ|巻貝|^牛（|^牛$|^亀|ウシガエル|キングコブラ|ヒョウ|ウミガメ|スッポン|ワシミミズク|小さなリス|蝶（|シラミ|雄鶏|雌羊|魚捕り器|動物園|反芻|^野生の黒ネズミ|^チョウゲンボウ|^メンフクロウ|^コノハズク|^カワラバト|^サイの角|^クマバチ|^蚕（|^ジャコウネコ|^ヤモリ|^クジャク|^キングコブラ|^ガガンボ|^カマキリ|^ジャッカル|^カタツムリ|^鳥の巣|^蜜蜂|^貝殻|^蜂の子|^ハチクイ$|^シロアリ|^アブに変化|^アオハブ$|^ヤマネコ|^スイカの一種|^ゾウムシ|^ネズミイルカ|^小魚|^ナマズ|^逆さまの魚|^クモの巣を張る|^ポニーのたてがみ|^昆虫の幼虫",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-02.02",
+      "medium_id": "02.02",
+      "pattern": "ハマオモト|シダ|バナナ|チャンパカ|金鳳木|野草|草木|樹木|植物|花弁|花びら|花粉|球根|^葉を|葉が|根っこ|木の枝|木の葉|玉ねぎ|樹液|ナツメヤシ|アンチャール|トマト|稲の株|水苔|もやし|シカクマメ|藪|果樹|苗|綿|ケシ|サトウキビ|月桂樹|桑の木|パイナップル|カジノキ|コルクの木|オウギヤシ|竹の皮|籾殻|ディル|キャラウェイ|リンドウ|^藻$|酵母|トウモロコシ|黄ひよこ豆|ジュウロクササゲ|樹皮|チョロギ|ササゲ|ひよこ豆|豆の粒|^ココナッツ|^キャベツ$|^ニオイアヤメ|^赤い睡蓮|^スイレン|^ニチニチソウ|^パダウの花|^ダリア|^オシロイバナ|^サツマイモ|^キンマの葉|^ナツメグ|^オクラ|^ゴーヤ|^ハトムギ|^マンゴスチン|^蕪（|^オレンジの種|^ひこばえ|^アニスの種|^トケイソウ|^ケシ$|^プランテイン|^大枝|^藍（アイ）の木|^パパイヤの木|^クサギの葉|^ビンロウ樹|^キワタ|^つる植物の一種|^藍（アイ）の木|^キワタ|^貝葉（ばいよう）の木|^ビンロウ樹|^カンゾウ|^ジャガイモの小さなむかご|^ひよこ豆の一種|^ナスの苗|^豆の芽|^スイカズラ|^魚の葉包み焼き|^玉ねぎ|^バンレイシ|^ナツメヤシの芽|^花や葉の付いた枝|^シナモンの木|^バナナの木|^葯（|^葯$|^パンノキ|^ヘビウリの若芽|^シャン州で一般的な豆",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-02.03",
+      "medium_id": "02.03",
+      "pattern": "種子|芽が|芽を|発芽|生育|繁殖|開花|孵化|幼虫|成長する植物|花が咲く|枯れる|つぼみ|芽吹|しおれ|毎年実をつける|未熟な|発育不全|^新芽を出す|^落葉する|^完全に成長する|^たわわに実る|^ほころびる、咲き始める|^ほころびる、芽吹き始める|^（花のつぼみが）ほころびる|^つぼみがほころびる|^種をまく|^（蜂が）分蜂する|^（鳥が）卵を抱いて孵化|^クモの巣を張る",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-02.04",
+      "medium_id": "02.04",
+      "pattern": "家畜|飼育|養殖|牧草|農作物|水牛|飼い牛|耕牛|苗|飼育家畜",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-03.01",
+      "medium_id": "03.01",
+      "pattern": "骨盤|口腔|口蓋|尾てい骨|手首|太もも|胸骨|臼歯|後頭部|襟足|乳房|腎臓|内臓|背骨|体の内部|鼻中隔|鼻孔|親指|脇腹|背中のこぶ|出っ歯|耳の穴|牙|唾液|つば|乳糜|肉付き|^小指|拳|手足の指|髪の毛|頭髪|こめかみ|耳たぶ|鼻根|陰茎|おちんちん|前歯|門歯|親知らず|ふくらはぎ|大腸|包皮|胃（|^胃$|身体部位|体の側面|歯（|^中指$|^唇（|^サーロイン|^頬ひげ|^もみあげ|^陰毛|^陰核|^頭蓋骨|^肋骨|^瞳孔|^足の甲|^睾丸|^目尻|^脇の下|^歯肉|^鼠径部|^こめかみ|^身体$|^膝裏$|^鎖骨|^脛骨|^盆の窪|^膝裏|^口蓋垂|^二の腕|^腕全体$|^唇を噛む|^鎖骨|^脛骨|^こめかみ$|^臍の後ろにある内臓|^鼻の頭、鼻先|^顎の先|^腎臓$|^肋骨$|^睾丸$|^尻、臀部|^食道、または気管|^蹄（ひづめ）|^魚の背びれ|^ノミの刃",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-03.02",
+      "medium_id": "03.02",
+      "pattern": "眠る|寝る|呼吸|排尿|排便|小便|しゃっくり|あくび|くしゃみ|げっぷ|飲み込む|嚥下|味覚|聴覚|視覚|感覚|鼻を鳴らして嗅ぐ|お腹が鳴る|息を吹き|妊娠|喉に詰まる|むせる|寝言|唾液|吐息|生理現象|目覚める|^授乳する|^まばたき|^汗が噴き出す|^唇を舐める|^鼻で吸う|^視界を遮る|^鳥肌が立つ|^おならが出る|^目に涙を浮かべる|^目を見開く|^目ざとい|^耳が遠い|^うがいをする|^鳥肌が立つ|^脈打つ|^音を聞く|^悪臭を嗅ぐ|^首を振る、頭を向ける|^（目が）かすむ|^（眠気で）目が閉じ|^感覚が鈍くなる|^歯ぎしりする|^喉に詰まる|^喉につかえる|^脈打つ",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-03.03",
+      "medium_id": "03.03",
+      "pattern": "病気|病んだ|痛み|痛む|頭痛|腰痛|発疹|梅毒|性病|麻痺|痺れ|痺れる|病状|かゆ|腫れ|腫れる|膿瘍|怪我|負傷|治癒|ヘルニア|脱腸|にきび|吹き出物|失明|斜視|目がくら|目が回|しびれ|障害のある|不自由な|潰瘍|コレラ|おでき|水っぽい膿|肥満|かじかむ|発熱|水ぶくれ|ハンセン病|患者|発育不全|夜盲症|盲目|目が見えない|くぼんでいる|窒息|下痢|便秘|青あざ|打ち身|出血を伴う|傷（|^天然痘|^てんかん|^おたふく風邪|^血液疾患|^糖尿病|^淋病|^湿疹|^歯肉炎|^中耳炎|^感染症|^擦りむける|^便秘|^痩せ細って|^悪寒|^乾いた咳|^空咳|^顎が強張る|^破傷風|^足が不自由である|^衰弱して|^足の傷|^まぶたがひどく炎症|^黄疸|^消化器疾患|^内出血|^大量に出血|^下血|^胸膜炎|^膨満感|^急病|^心臓麻痺|^寒気がする、発熱|^失血で気が遠くなる|^断末魔のあえぎ|^胸膜炎|^（病気などが）良くなった|^ひどい倦怠感|^百日咳$|^喘息|^内出血|^排尿困難|^アルコール依存症|^健康な人|^失血|^食べ物の変化ですぐにお腹を壊す",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-03.04",
+      "medium_id": "03.04",
+      "pattern": "瀉血|薬剤|医薬|^薬を|投薬|手術|治療|衛生|看護|診察|医師|病院|歯医者|せっけん|石鹸|回復する|薬局|煎じ薬|治療師|脈を診る|皮下注射|注射針|洗髪剤|シャンプー|療養|病気を治す|^医療分野|^皮下注射器|^包帯$|^下剤|^局所麻酔薬|^塗り薬|^軟膏|^対症療法薬|^薬湯|^入浴剤|^診察室",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-03.05",
+      "medium_id": "03.05",
+      "pattern": "生まれる|出生|死亡|死期|死ぬ|亡くなる|赤ん坊|乳児|幼児|成人する|育児|老化|成年に達する|妊娠|出産|老年|腐乱死体|死体|死にかけた|^老年|^腐乱死体|^死体|^葬列|^生き返る|^（少女の乳房が）膨らみ始める|^膨らみ始める|^未婚の娘|^子供時代、幼少期|^妊娠している|^天寿を全うする",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-04.01",
+      "medium_id": "04.01",
+      "pattern": "意気消沈|失望|恐怖|驚き|うれし|嬉し|悲し|喜ぶ|喜び|怒る|怒り|不安|苦悩|悩む|恐れ|楽しい|幸せ|憎む|嫉妬|憂鬱|憧れ|恋しく|共感|愛情|慈しみ|希望|期待|恥ずかし|幸運を得る|名声が高まる|感情を抑える|思いやり|不機嫌|怒りをこらえる|落胆|嫌気|羨む|幸福|安楽|気が晴れ|喜びのキス|羨まし|幸運|^恨み|^心が安らぐ|^怨み|^失望|^後悔する|^自尊心|^羨む|^恥知らず|^慣れる|^悩まされる|^心に苦しみ|^思い出し、懐かしみ",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-04.02",
+      "medium_id": "04.02",
+      "pattern": "記憶|覚える|認識|思い出|意識|潜在意識|考える|考え|知覚|理解|分別|知恵|調べる|検査する|判断|賢い|愚か|聡明|観察|見つめ|見る|視線|横目|信頼|信じ|頼る|試験に落ちる|^賢い|機転の利く|暗記|熟考|考慮|注意深|偏見|理解が悪|無知|視野|^眺める|目の前で|^熟練して|^精通して|^疑う|^半信半疑|^空想|^思い描く|^忘れる|^能力、技能|^推測する|^見当をつける|^推測が当たる|^勘が良い|^凝視する|^助言する|^賢者、博識家|^見なす|^博識な人|^説明する|^知る",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-04.03",
+      "medium_id": "04.03",
+      "pattern": "欲求|望む|願う|願望|欲しい|決意|志が高|決断|意志|企てる|望み|要求する|求める|期待|希望|向上心|決心|欲しがる|欲深い|望ましい結果|^狙う|^目標を定める|^意図する|^貪欲|^願い出る|^自己決定|^探す、捜索する|^探し求める|^女性を口説く、求愛する|^望みが",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-04.04",
+      "medium_id": "04.04",
+      "pattern": "誠実|気質|性格|気性|性向|慎重|臆病|誇り高|傲慢|本心|良心|平凡|恥ずかしそう|下品|粗野|誠実である|無知な人|けちで|怠惰|意気込|^自信が|^自制心|^頑固|^気取る|^尊大|^不誠実である|^嘘つき",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-05.01",
+      "medium_id": "05.01",
+      "pattern": "日本人|外国人|国民|人口|住民|男の人|女の人|子ども|子供|青年|大人|老人|貴族|庶民|人民|部族|集団|仲間|群衆|人々|人間|未亡人|衆生|凡夫|俗人|見知らぬ人|マネージャー|民族グループ|インド人|初心者|追随者|^男の子|有名人|名士|トラブルメーカー|依頼人|孤児|馬丁|ボクサー|クライアント|^知り合い|カヤー族|赤カレン族|中国人|シャン族|少数民族|異教徒|見習い|^スタッフ|^事務員|^自由人|^国外居住者|^政治難民|^中年の独身男性|^女優|^踊り子|^代理人|^管理職|^独身男性$|^戦争難民|^未婚の娘|^追随者|^寺男|^姫、内親王|^著述家|^農家、園芸|^サンダル職人|^見習い僧|^著作家、著者|^教授、博士|^門番|^代理人、代表者|^見習い、徒弟|^著名人、有名な人|^乞食、物乞い|^女の子$|^スパイ、内部の者|^従者、役人の付き人|^ダンサー、職業舞踊手|^僧侶の求めに応じ、あらゆる世話",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-05.02",
+      "medium_id": "05.02",
+      "pattern": "父親|母親|父母|兄弟|姉妹|親族|家族|息子|祖父|祖母|叔父|叔母|相続人|血統|家系|長男|義兄|妻の弟|妻の妹|同じ母から生まれた|末っ子|姻戚|先祖|^幼い弟|^義姉|^継母|^継子|^私生児|^孫の妻|^甥の妻|^伯母（父の姉）|^双子|^親戚",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-05.03",
+      "medium_id": "05.03",
+      "pattern": "恋人|親友|友達|友人|交友|婚姻|結婚|愛し合|伴侶|夫婦|仲良し|ラブレター|恋文|親密|不倫する|他人の妻と関係を持|キスで迎える|^妾（|^愛人|^小妻|^不倫|^結婚する|^嫁ぐ|^抱擁する|^頬にキス|^恋仲になる|^情事をもつ|^女性を口説く、求愛する|^恋人として交際する",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-05.04",
+      "medium_id": "05.04",
+      "pattern": "来客|挨拶|礼儀|歓迎|迎える|礼節|侮辱|謝罪|お礼|感謝|お辞儀|親切|尊敬|助ける|手伝う|援助する|寄付する|説得|勧告|促す|善行|嘘をつく|顔をしかめ|失礼|無礼|謝る|お世辞|^招待する|^差し上げる|^献上する|^贈り物|^お布施|^布施する|^約束を破る|^礼儀作法|^もてなし|^僧侶の求めに応じ、あらゆる世話|^感謝を述べる|^約束を破る",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-06.01",
+      "medium_id": "06.01",
+      "pattern": "ジャスミンライス|赤米|香り米|炒り米|春雨|ヴェルミチェッリ|ブラン・マンジェ|料理|調理済|ご飯|食事|食材|菓子|^パン(?!ツ|チ)|野菜|穀物|果実|ラード|小麦|シャン風ターメリックライス|ジャガイモ|朝食|食べ物|黒胡椒|ナガコショウ|生姜|粗糖|なれずし|^ご飯の|エビの塩辛|ジャガリー|サトウキビ蜜|食費|夕食|^朝食|酵母|イースト|豆の粒|ひよこ豆|カウヤーグ|^サトウキビの煮詰めた汁|^廃糖蜜|^竹筒飯|^ナツメグ|^乾燥唐辛子|^夕食|^砂糖シロップ|^赤身肉|^クリーム、乳脂|^サトウキビの糖蜜|^酸っぱいキノコ|^ジャガリー|^四甘露|^牛脂|^魚の葉包み焼き|^玉ねぎ$|^（通常は豚の）白身肉|^魚の葉包み焼き|^ジャガリー|^魚の背びれ|^粗塩|^朝ご飯|^野菜|^タフィー|^薬味用の小魚の干物",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-06.02",
+      "medium_id": "06.02",
+      "pattern": "飲料|飲み物|ジュース|コーヒー|牛乳|酒好き|酒造所|蒸留所|飲み屋|酒場|^酒造り用の酵母",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-06.03",
+      "medium_id": "06.03",
+      "pattern": "煮る|焼く|炒める|蒸す|茹でる|調理|料理する|漬ける|乾燥させる|保存食|揚げる|炊く|粉に挽く|蒸留|酒造|漬け込む|マリネにする|発酵|醸造|調理場|^混ぜて|^焼く|^炒める|^肉を燻製にする|^燻す|^料理のレシピ|^調理法|^茶を淹れる|^料理のレシピ|^料理の方法、調理法、レシピ|^焼畑農業のために木や藪を切り開く|^病人のために重湯|^酒造り用の酵母",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-06.04",
+      "medium_id": "06.04",
+      "pattern": "食べる|食べ過ぎ|食事する|飲む|食べない|空腹|飲食|断食|飢え|飢饉|ご飯の一口|喉に詰まる|むせる|飲み込む|反芻|^大食漢|^おやつを食べる|^お腹がいっぱい|^お腹が空く|^お腹が空く|^お腹がいっぱい|^コーヒーを飲む|^食事の準備をする|^食事を制限する|^コーヒーを|^食事を始める|^十分に食べて満足する|^人の食べ残しを平らげる",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-06.05",
+      "medium_id": "06.05",
+      "pattern": "味覚|甘い|辛い|塩辛い|酸っぱい|苦い|味が|味の|味わ|味付け|食感|おいしい|美味しい|渋み|食べ物の好み|酸味|渋い|薄味|^濃い味|旨味|^苦味|^刺激的な味|^酸っぱい|^刺激臭",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-07.01",
+      "medium_id": "07.01",
+      "pattern": "衣服|衣類|ズボン|スカート|上着|下着|帽子|靴下|装身具|首飾り|ネックレス|指輪|耳飾り|ジャケット|僧衣|腹帯|毛織|フェルト|座布団|一揃いの服|スーツ(?!ケース)|スリッパ|袖口|カフス|シン（|服（|^服$|毛織物|ラシャ|^織物|^毛糸|^手袋|^フェイスタオル|^テーブルクロス|^おんぶ紐|^未漂白のキャラコ|^軍服|^ハンモック|^サンダル|^草履|^下着、パンツ|^僧侶の肩に掛ける上衣|^スパンコール|^ストッキング、長い靴下|^鎖帷子|^ベルベット|^短パン、ブリーフ|^女性用アクセサリー|^大きな中国の竹編み帽|^袖の細い上着|^真鍮のワイヤーで作られた膝や腰の飾り",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-07.02",
+      "medium_id": "07.02",
+      "pattern": "着る|脱ぐ|着用|衣服をまとう|身につける|靴を履く|着替える|靴を履|服を着|袖に通す",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-07.03",
+      "medium_id": "07.03",
+      "pattern": "理容師|散髪|髪を切る|剃る|化粧|美容|整髪|髪型|爪を切る|爪を整える|洗髪剤|シャンプー|剃髪|^櫛で|^髷（|^頬紅|^ルージュ|^細歯の櫛",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-07.04",
+      "medium_id": "07.04",
+      "pattern": "洗濯|アイロン|衣服を洗|布を洗|衣服を干|裁縫|縫う|繕う|毛織物|布地を|衣服の手入れ|^継ぎ目を折り伏せ縫い|^織る準備",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-08.01",
+      "medium_id": "08.01",
+      "pattern": "家屋|住宅|住居|部屋|天井|屋根|床板|建物|玄関|家を建|台所|階段|居住区|僧院の本堂|庭園|調理場|寺を出る|家の周囲|倉庫|貯蔵庫|^煙突|建物の側面|ザヤッ|玄関廊|^ポーチ|牛舎|屋根の棟|床下の梁|根太|休憩所|避難所|ガレージ|車庫|^庭|^門、ゲート|^突き出し窓|^穀倉|^家の桁|^棟木|^空き家|^邸宅|^軒先|^食堂|^教室|^独房|^児童養護施設|^モスク|^地下穀物倉|^寺院の正面または入り口|^パゴダのアーチ型の入り口|^応接間|^客間|^会議室|^破風板|^ドアの入り口、敷居|^間仕切り|^宗教学校|^温室|^扉のかんぬき|^涅槃堂|^隙間なく詰まっている",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-08.02",
+      "medium_id": "08.02",
+      "pattern": "ベビーベッド|ベッド|椅子|かご|コップ|容器|寝具|食器|家具|生活用品|痰壺|唾入れ|痰台|手臼|杖|ステッキ|箒|^蓋|^覆い|敷物|座布団|洗面器|たらい|土器のカップ|フォーク|書き物机|ティースプーン|壺|机|錠|壁紙|封筒|^輪ゴム|^水汲みバケツ|^腕時計|^鉄鍋|^ティーポット|^やかん|^煙管|^マットレス|^オイルランプ|^柳行李|^懐中電灯|^小さな天秤を入れるための木箱|^刀の鞘|^スーツケース|^重りや銀などを運ぶための袋|^たいまつ|^たいまつ|^ランプ|^天秤の皿|^消しゴム|^コーヒースプーン|^ピッチフォーク|^籠の底を|^座布団|^ランチボックス|^個人の食事と飲み物を入れる容器|^子供を腰にのせて運ぶ|^天灯|^ランプ$|^天秤棒で担ぐためのかご|^湯沸かし用の真鍮製の容器|^クッション、座布団|^書き物机、文机|^綿入りのマットレス",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-08.03",
+      "medium_id": "08.03",
+      "pattern": "家事|片付ける|炊事|整理整頓|皿洗い|洗い物|育児|しまい込む|家事をする|^家事|倉庫に収納",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-08.04",
+      "medium_id": "08.04",
+      "pattern": "日常|暮らし|生活習慣|生活する|日課|生活水準|生活が安泰|^生活|^人の残り物で暮らす",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-09.01",
+      "medium_id": "09.01",
+      "pattern": "組織|団体|法人|理事長|幹事|書記|総裁|組合|委員会|会議|担当者|マネージャー|監督者|^会社|^団体|^組織|^議長|代弁者|ディレクター|^理事|指導者|リーダー|首領|副局長|^管理職|^ゼネラルマネージャー|^スタッフ|^事務員|^代理人|^諮問機関|^評議会|^国会|^議会|^電力会社|^商業局|^クラブ（社交組織）|^法人、株式会社",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-09.02",
+      "medium_id": "09.02",
+      "pattern": "統治者|統治する|国を統治|王族|皇帝|政治|政権|国家|選挙|行政|政府|大臣|領主|民主主義|君臨|王位|領土|国の全域|^指導者|副王|大使|^国、州|国、州|^国を|^共産主義|^国外追放|^強制送還|^官職|^地方行政官|^大使、使節",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-09.03",
+      "medium_id": "09.03",
+      "pattern": "刑務所|刑務|罪人|監獄|看守|裁判|司法|法律|法廷|犯罪|証人|証言|判決|権利|処罰|罰金|許可証|滞在ビザ|起訴|告発|罪|違反|許可を与える|保証する|請け負う|強姦する|旅券|パスポート|^年貢|年度税|賄賂|^抗議|^投獄|懲役刑|判決を下す|権力|契約|^許可|^泥棒$|^盗む$|^懲役刑|^敗訴|^免許|^ライセンス|^召喚状|^所有権|^法典|^制定法|^拘束される|^投獄される|^憲法|^制定法|^相続権|^休暇許可|^所有権証明書|^否認して弁護する|^所有権証明書|^口止め料|^保釈金|^合意書、契約書|^許可する、承認する|^約束を破る|^慣習法、規則の記録|^偽証の罪|^罰金・罰則|^投獄される",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-09.04",
+      "medium_id": "09.04",
+      "pattern": "軍人|兵士|軍勢|軍事|革命|反乱|戦車|銃弾|ライフル|銃剣|火縄銃|兵器|武器|軍隊|戦争|砲弾|侵略|占拠|クーデター|捕虜|軍の階級|准尉|中隊|後衛|主力部隊|小競り合い|連隊|軍営|陣地|秘密警察|ストライキ|射撃|停戦|テロリスト|諜報|剣術|諜報活動|^重砲|砲部隊|戦う|罠銃|番所|^総司令官|^軍用喇叭|^戦って|^戦闘|^軍服|^陰謀|^反撃する|^武装解除する|^国や政府に反旗を翻す|^身代金を払う|^スパイ、内部の者|^短い武器で身を守る",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-09.05",
+      "medium_id": "09.05",
+      "pattern": "地名|国名|都市名|シャン州|^クルンテープ|^バンコク|アジア大陸|ヨーロッパ|欧州|^スリランカ|黄金の三角地帯|^イングランド|^アメリカ$|^中国国籍|^ガンジス川|^オーストラリア$|^国、土地|^国$",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-10.01",
+      "medium_id": "10.01",
+      "pattern": "労働者|整備士|技師|石工|職人|雇われ|作業員|従業員|職業|働く|勤務|雇用|執事|配膳係|店員|ストライキ|解雇|マネージャー|ブローカー|仲介業|馬丁|精米工|肉屋|実業家|賃仕事|^-|^重労働|^熟練工|^親方|^任務|^仕事|^大工$|^農家、園芸|^食料雑貨店主|^著述家|^著作家、著者|^教授、博士|^車輪製作職人|^ダンサー、職業舞踊手|^配管工$|^代理人、代表者|^露天商、行商人|^写真家$|^船の舵取り、操舵手|^建設業者、大工|^仕事を止める、ストライキをする",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-10.02",
+      "medium_id": "10.02",
+      "pattern": "農作物|農業|農耕|耕す|農具|収穫|落ち穂|田畑|田植|稲作|綿繰り|綿の種|農場|養蚕|伐採|刈り跡|鍬|からすき|耕作|稲の刈り跡|田の畦|精米工|唐臼小屋|^農民|牛の囲い|籾|^畝|^稲を刈る|^籾|^糠（|^鎌|^田んぼ|^収穫後の田畑|^刈り株$|^焼畑農業のために木や藪を切り開く|^庭を鍬で掘る|^綿を摘む",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-10.03",
+      "medium_id": "10.03",
+      "pattern": "販売|売る|買う|売り物|商品|商う|商売|取引|市場|輸入|輸出|購入|売却|卸売|商人|掛売り|株主|ガソリンスタンド|ブローカー|仲介業|実業家|クライアント|^市場価格|^肉屋|精肉店|商業|^販売所|^ショッピングセンター|^デパート|^大型商店|^両替する|^入札する|^露天商、行商人|^販売価格",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-10.04",
+      "medium_id": "10.04",
+      "pattern": "借金|負債|財産|資産|価格|値段|代金|紙幣|硬貨|貨幣|貨金|銀貨|金銭|賃金|給料|支払|貢ぎ物|祝儀|金利|クレジットカード|株主|模造金|価値がある|値がつく|お金を引き出す|財布|札入れ|払い戻す|担保|^借りる|貸し借り|銀行家|金貸し|お釣り|賄賂|献金|寄付金|払い戻し金|^偽金|模造銀|年貢|税|^両替|^会計簿|^帳簿|^利害|^報奨|^節約する|^倹約する|^領収書|^仲介料|^利息|^利益を出す|^上前をはねる|^年収、年俸|^純銀$|^未精製の銀塊|^金箔|^年税|^身代金を払う|^販売価格|^純銀$|^休暇許可、公休",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-11.01",
+      "medium_id": "11.01",
+      "pattern": "機械|装置|工具|器具|機器|電気|モーター|発電|コピー機|レシーバー|音声受信機|ガジェット|銅鑼を吊るす棒|繋ぎ綱|支柱|針先|焼きごて|ふるい|金網|ナイフの鞘|槍の穂先|グレーダー|石筆のホルダー|錠、鍵|唐臼|天秤棒|ふいご|レンチ|スパナ|木槌|ノミ|クレーン|ブルドーザー|昇降機|ロードローラー|芝刈り機|^錨|魚捕り器|タイプライター|照明スイッチ|^錐（|^ドリル|^鋲（|^のこぎり|^ナイフ|^鎌|^鉈（|^鉋（|^レーダー|^宇宙ロケット|^馬の轡|^牛の轡|^刀の鞘|^鍛冶屋のやっとこ|^中国人が筆記に用いる小さな筆|^家畜の首にかける木製の襟|^重しや罠に使う丸太|^ノミ$|^サトウキビ絞り機|^綿繰り機|^地面に設置された一連の罠|^罠に使う丸太|^伸線板|^長刀|^大刀|^タイプライター$|^ガソリンポンプ|^コーヒースプーン|^首の曲がった鍬|^爆発装置|^定規|^通信機器|^堤防の突き出た部分|^丸ペンチ|^天秤棒|^木槌|^ノミの刃|^一般的な弓|^単弦の弓|^湯沸かし用",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-11.02",
+      "medium_id": "11.02",
+      "pattern": "石切り|加工|建設|建築|切断|編む|編まれ|鍛冶|細工|磨く|金属|木材|材料|製造|経糸|織り合わせ|楔|真鍮|玉髄|模造宝石|塩化アンモニウム|酸（化学物質）|紙を広げる|遮蔽物|接合する|仕切りを作る|煉瓦|れんが|石板|タイル|木槌|ノミ|^原型|型紙|製紙|^継ぎ目を|^彫像|^彫刻|^鉱石|^生産品|^鉋（|^切り倒す|^柵を作る|^囲いを作る|^漆喰を塗る|^ペンキを塗る|^ほぞ、テノン|^茅（かや）を編む|^車輪製作職人|^煉瓦の欠片",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-11.03",
+      "medium_id": "11.03",
+      "pattern": "自動車|車両|オール|船長|交通|運搬|運ぶ|背負|輸送|道路|道を作る|輿|駕籠|蒸気船|鉄道|線路|空港|飛行場|歩道|荷車|運び去る|^ジープ|乗用車|^バス|乗組員|^船|^錨|^ドック|橋を渡る|飛行機|^交通|輸送車両|荷を降ろす|車庫|^筏（|^車輪|^自転車|^馬車|^運賃カード|^乗車券|^旅程|^市街地の通り|^木製の車輪|^自転車|^ガレージ|^飛行機$|^船を降りる|^子供を腰にのせて運ぶ|^ポニーの轡|^船の舵取り",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-11.04",
+      "medium_id": "11.04",
+      "pattern": "コンピューター|計算機|携帯電話|電話機|通信|電子|インターネット|電波|コピー機|通信機|^新聞|^無線送信機|タイプライター|話中音|ビジー信号|電話|^レーダー|^トランシーバー|^通信|^電信を打つ|^電信を打つ|^電力会社|^タイプライター$|^通信機器|^通信機器",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-11.05",
+      "medium_id": "11.05",
+      "pattern": "キログラム|メートル|計測|測定|量る|測る|見積も|目算|尺度|重量|重さ|ものさし|分量を量|測って|量ってみる|拳の幅|測定単位|キロメートル|^寸法|^長さと幅|キュビット|下げ振り|^垂直線|^1ポンド|^天秤の針|^水位標|^リットル$|^値踏みする|^鑑定する",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-12.01",
+      "medium_id": "12.01",
+      "pattern": "仏教|僧正|僧侶|僧院|安居|自恣|祈願|呪文|宗教|信仰|功徳|護符|神仏|神殿|寺院|精霊|転輪聖王|天界|地獄|来世|輪廻|十戒|五戒|三蔵|仏典|仏弟子|厄払い|不浄を清める|数珠|聖職者|解脱|還俗|呪われる|魔女|祝福する|祈る|御供え|お供え物|儀礼用|^仏教寺院|仏教寺院|^カティナ|^忍辱|^戒律|聖遺物|善趣|^托鉢|^パゴダ|^シュエダゴン|^無常|^業（カルマ|^キンナラ|^呪術|^説教者|^伝道師|^四無量心|^涅槃|^お守り|^仏像|^神託|^ヤッカ|^夜叉|^三宝|^聖者|^阿羅漢|^得度式|^布施|^キンナリー|^占いによって|^仏陀の教え|^幸運を祈って燃やす|^仏伝図|^星形の竹編みの魔除け|^阿毘達磨|^詩的な文体の親書|^寺男|^破戒僧|^三蔵（|^三蔵$|^子供の幽霊|^死者の霊|^悪霊|^餓鬼|^魔法や呪術|^霊視|^憑依|^宗教学校|^涅槃堂|^魔法をかける|^安息日を守る|^吉祥経",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-12.02",
+      "medium_id": "12.02",
+      "pattern": "儀式|祭礼|祭り|慣習|行事|風習|伝統|結婚式|カティナ祭|厄払い|祝い|^お祭り|灯籠流し|花輪|^伝統料理|儀礼|^しきたり|^得度式|^就任式|^戴冠式|^天灯（スカイランタン）|^比丘の具足戒|^凶日に行為を避ける|^誓いの儀式",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-12.03",
+      "medium_id": "12.03",
+      "pattern": "楽団|オーケストラ|音楽|楽器|演奏|舞踊|踊る|^舞う|芝居|演劇|劇場|美術|絵画|ハーモニー|奏でる|音が調和|^画家|絵師|^バイオリン|ケトルドラム|太鼓|ドラムスティック|朗唱される歌|^ラッパ|^黄金のドラ|^ダンス|^コンサート|^鐘、鈴|^操り人形|^彫像|^スパンコール|^ダンサー、職業舞踊手|^平たい金属製のゴング|^銅鑼、金属製|^長い円筒形のビルマ太鼓|^ビルマ太鼓",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-12.04",
+      "medium_id": "12.04",
+      "pattern": "かくれんぼ|ゲーム|遊び|娯楽|競技|賭博|ギャンブル|ギャンブラー|軽業|スポーツ|おもちゃ|コメディアン|軽業師|^ボクサー|^スポーツ|カジノ|^サーカス|^操り人形|^サッカー|^フットボール|^勝負に勝つ|^宝くじ|^富くじ|^目隠し鬼|^闘鶏をさせる|^チェッカー|^おもちゃの銃|^遊びに行く",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-12.05",
+      "medium_id": "12.05",
+      "pattern": "物語|小説|文学|作品|詠む|昔話|説話|詩集|^予言書|^物語|書き物|^伝記|^冒険談",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-12.06",
+      "medium_id": "12.06",
+      "pattern": "歴史|王朝|年代記|古代|過去の出来事|前世|^新時代|^新紀元|^現代|^先祖代々",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-13.01",
+      "medium_id": "13.01",
+      "pattern": "話す|話し|言葉|発言|発話|しゃべる|喋る|尋問|会話|対話|返事|答える|口論|怒鳴る|質問|問い|拝聴|しゃがれ声|噂を立て|証言する|長々と叫ぶ|言い過ぎる|演説|式辞|集まって相談|^反論|言い返す|^喋る|^朗唱|^噂|^呼びかけ|^うめき声|^物語を話す|^言い争う|^つぶやく|^悲鳴|^言い返す|^告げ口をする|^談笑する|^口数が多い|^告げ口をする|^言葉遣いが|^説明する、解き明かす|^他人の話に言葉を挟む|^怒って呪う|^短い言葉|^言葉を説く",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-13.02",
+      "medium_id": "13.02",
+      "pattern": "文法書|書く|執筆|本を書く|文字|符号|音節|読む|読書|筆記|印刷|文書|記録|綴り|スペル|地図|^石筆|^封筒|^書き物|タイプライター|^新聞|文字を|書かれた言葉|^本の|^写し、複製|^記録係|^注釈|^釈義|^会計簿|^段落|^チョーク|^翻訳する|^略記する|^貝葉（ばいよう）文書|^第五声の記号|^消しゴム|^タイプライター$|^フィルム（カメラ用|^紙を（壁などに）貼る|^逆さまに書かれている|^聖なる碑文|^碑文|^文字の組み合わせ表",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-13.03",
+      "medium_id": "13.03",
+      "pattern": "伝言|知らせ|通知|報告|情報|目撃|ニュース|映像|写真|ビデオカメラ|ムービーカメラ|使者|噂を立てられる|^新聞|^諜報活動|^使者|^代弁者|スポークスパーソン|^布告|^宣言|^広告|^ニュースキャスター|^ニュース記者|^公告|^広告|^社説|^写真家$|^録音装置|^通信機器",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-13.04",
+      "medium_id": "13.04",
+      "pattern": "学校|授業|学期|教育|学習|勉強|教える|教科書|知識|教師|生徒|先生|試験|科学|学術|三蔵|^初心者|^見習い|^練習する|鍛錬|^校長|^予言書|暗記|^優秀賞|^教室|^実習室|^学校|^能力|^技能|^化学、化学の研究|^手本にする|^著述家|^教科書の解説部分|^長い音、長音|^教授、博士|^宗教学校|^助言する|^教師（語源|^見習い、徒弟|^著名人、有名な人",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-13.05",
+      "medium_id": "13.05",
+      "pattern": "方言|言語名|言語変種|^方言|^民族語|^パーリ語|^パーリ聖典",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-14.01",
+      "medium_id": "14.01",
+      "pattern": "一昨日|昨日|今日|明日|時刻表|スケジュール|まもなく|しばらく|間もなく|瞬間|時間|期間|早朝|毎年|月日|今始まった|暦年|カレンダー|丸一年|次回|飢饉の時代|^即座に|^その後|^夜中|^深夜|^夕暮れ|^日が暮れる|^常に|^いつでも|^新時代|^新紀元|^時代|^一昨年|^週末|^時期|^かつて|^その当時|^月曜日|^シャン暦|^（暦上の）短い年|^暦上の短い年|^短い年|^先々月|^夜が非常に深まる|^今すぐにも|^長い間|^休暇許可|^しばらく留まる|^子供時代、幼少期|^独身時代|^先々月$|^新時代、新紀元|^授業中、開講期間|^休暇許可、公休",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-14.02",
+      "medium_id": "14.02",
+      "pattern": "上下|左右|方向|遠く|境界|位置|場所|空間|東西|北方|南方|内側|地図|近づく|近寄る|真向かい|領土内|^そこ|^あそこ|^北西|^北東|^南東|^南西|^地平線|^向こう|^入口|^入り口|^前方|^地点|^敷地|^八方位$|^通路、横丁|^隙間なく詰まっている",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-14.03",
+      "medium_id": "14.03",
+      "pattern": "キログラム|メートル|数値|数量|極少量|少量|半分|二倍|何個|何人|数える|単位|1億|基数|第六|瓶一本分|分量を量|^[0-9０-９][0-9０-９,，./／]*$|^一千万|^四分の三|^3/4|測定単位|キロメートル|^十分の一|^分量|^1ポンド|^8分の1|^50パーセント|^[0-9]+([,，.][0-9]+)?$|^リットル$|^グラム$|^数字、数値$",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-14.04",
+      "medium_id": "14.04",
+      "pattern": "一番|順番|順序|並ぶ|並んで|範囲|配列|最初|最後|終点|極限|^互いに|^順番|^一揃い|^先端|^頂点|^各種類|^一重|^次々に並べる|^並べて置く",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-15.01",
+      "medium_id": "15.01",
+      "pattern": "平行四辺形|三角形|丸い|四角|細い|太い|大きい|小さい|曲がっ|分岐|尖った|突出|凸凹|でこぼこ|正方形|縮む|すぼまる|真っ直ぐ|薄くする|平たく|丸まる|尖っている|屈曲|歪む|縞々|^円周|^鈍角|^鋭角|^角または|^平らな|^長い|^短い|^曲がり|^表面、面|^平ら|^窪み|^膨らんで|^円、ループ|^表面が平らでない|^スパンコール|^円、ループ|^湾曲する|^範囲を広げる、拡張する|^首の曲がった鍬|^範囲を広げる|^かさが減る、縮む|^狭い、窮屈|^細くなる|^袖の細い上着",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-15.02",
+      "medium_id": "15.02",
+      "pattern": "薄紫色|外観|見た目|美しい|容姿端麗|ハンサム|輝き|光沢|きらきら|水色|淡い青|朱色|真っ白|^濃い紫色|^紫色|^黒い|^金箔|^真っ黒|^縞|^キラキラ|^光る|^輝く|^まばゆく|^マンゴーの新芽のような赤紫色|^明るい灰色|^真っ青、深緑|^緑色または黄色のトルマリン|^灰色の|^真っ黒な",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-15.03",
+      "medium_id": "15.03",
+      "pattern": "ざらざら|粗い|柔らか|硬い|固い|ぬるぬる|粘り気|滑らか|感触|手触り|質感|泥まみれ|汚れた|濡れる|真鍮|銀紙|塩化アンモニウム|玉髄|模造宝石|樟脳|酸（化学物質）|^岩塩|^煉瓦|^フェルト|^毛織|^水銀|^琥珀|^ガソリン|^ヒマシ油|^松脂|^テレピン油|^石炭|^木炭|^砂の中|^純銀|^粗塩|^汚物、腐った泥|^煉瓦の欠片",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-15.04",
+      "medium_id": "15.04",
+      "pattern": "程度|もっと|比較的|優れた|劣った|同等|安い|高価|低価格|格安|平凡|珍しい|奇妙|風変わり|価値がある|値がつく|過度に|極端に|^極めて|^すごく|^特に|^重要な|^高く評価する|^無事に|^悪くない|^優秀|^非常に古い|^窮屈な|^混雑した|^どっちつかずの、不完全な|^速さ、スピード|^ちょうど良い、十分な|^かなり味が薄い|^極めて愚かな",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-16.01",
+      "medium_id": "16.01",
+      "pattern": "^立つ|座る|^歩く|^走る|跳ね回|転が|滑り落|浮遊|^浮か|^飛ぶ|止まる|寝転ぶ|よろめ|ふらつ|腰をかがめ|転倒する|片足で飛び跳ねる|飛び跳ね|近づく|近寄る|跳躍|立ち止ま|曲がる|羽ばたく|行ったり来たり|^うろちょろする|^動き回る|^ぴょんぴょん跳ねる|^片足で跳ね|^しゃがむ|^かがむ|^伏せる|^逆立ち|^とんぼ返り|^飛び散る|^滴る|^震える|^揺れ動く|^立ち去る|^出発する|^歩き回る|^跳び上がる|^真っ逆さまに|^前後に揺れる|^押し寄せる|^遠くへ跳ぶ|^肩車する|^よちよち歩く|^仰向けに横たわる|^急ぐ|^せかせかする|^忍び足で去る|^こっそり立ち去る|^合流する、出会う|^首を振る、頭を向ける|^山道のカーブ|^渦の周りを回る|^腕を組んで歩く|^足を引きずったり|^滑り落ちる|^手足を地面について|^崩れ落ちる",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-16.02",
+      "medium_id": "16.02",
+      "pattern": "繋ぎ合わせ|混ぜ合わせ|握る|掴む|つかむ|引っ張る|押す|^引く|結ぶ|巻き付|揺らす|^振る|^切る|置く|持ち上|浸す|噛む|接触|つなぐ|接続する|投げる|放る|隠す|見つける|打つ|突き刺す|突き通す|こすれる|ぶつかる|掘る|挟む|押し込む|打ち込む|^覆う|^被せる|^掴んで|^突き刺され|^混ぜて|^握る|^広げる|^引っ張る|^遮る|^繋ぐ|^すりつぶす|^こすり砕く|^梱包|^包みを作る|^研ぐ|^縒り合わせ|^こねる|^揉む|^掘り出す|^火を吹く|^ぴしゃりと叩く|^水をせき止める|^すくい取って|^密封する|^ぴしゃりと叩く|^紙を（壁などに）貼る|^叩く|^掴む|^手で絞る、こねる|^隙間なく詰まっている|^次々に並べる|^ココナッツ（の身）を削る",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-16.03",
+      "medium_id": "16.03",
+      "pattern": "完全に尽き|終わる|変化|変わる|始める|始まる|発生|生じる|消滅|崩れる|倒れる|壊れる|裂ける|割れる|繁栄|成功する|没落する|終点|縮む|閉じる|こぼれる|溢れ出る|失う|^満期を迎える|^終結|^急に起こる|^突然行う|^成就|^完成|^達成|^再建する|^復興|^修復|^出現する|^腐って|^燃え上がる|^壊す|^取り壊す|^砕け散る|^粉砕する|^破壊する|^生まれ変わる|^膨らむ、突出する|^突き出る|^超える|^外す|^崩壊する、倒壊する|^拡張する|^霧雨が降る|^突然起こる、発生する|^世界の終わり|^非常に汚れて色あせた",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-16.04",
+      "medium_id": "16.04",
+      "pattern": "所有|所持|保持|持っている|存在|維持|残る|無い|満ち足り|完全な|許容できる|同意して受け入れる|待つ|猶予する|^豊富である|^全員に行き渡る|^混雑する|^十分にある|^確約する|^堅固な|^備わっている|^満たされている|^膨らんでいる|^自立|^独立|^独立、自律|^隙間なく詰まっている",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.01",
+      "medium_id": "17.01",
+      "pattern": "代名詞|君たち|お前たち|疑問詞|どのような|どうやって|何を|誰が|そのような|あらゆる|どのよう|^これ$|^それ$|^あれ$|^私一人|^そこ、あそこ|^どのくらい|^なぜ|^どうして",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.02",
+      "medium_id": "17.02",
+      "pattern": "格助詞|対格|主格|与格|助詞|前置詞|後置詞|^～のために|^～のゆえに|^〜に従って|^～と一緒に",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.03",
+      "medium_id": "17.03",
+      "pattern": "否定語|時制|アスペクト|完了|進行形|推量|条件法|～より劣る|^たとえそうで|^にもかかわらず",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.04",
+      "medium_id": "17.04",
+      "pattern": "接続詞|談話|焦点|話題化|従属節|譲歩|繰り返して|強調|～より劣る|その他に|それに加えて|^さらに|^たとえそうで|^にもかかわらず|^そもそも|^～だけれども|^しかしながら|^それにもかかわらず|^強意語|^（強調表現）|^それにもかかわらず",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.05",
+      "medium_id": "17.05",
+      "pattern": "助数詞|類別詞|数え方|基数|第六|^四分の三",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.06",
+      "medium_id": "17.06",
+      "pattern": "感動詞|掛け声|呼びかけ|文末詞|丁寧語|挨拶|あいにく",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-17.07",
+      "medium_id": "17.07",
+      "pattern": "接頭辞|接尾辞|派生語|名詞化",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-18.01",
+      "medium_id": "18.01",
+      "pattern": "原因|^理由|目的|条件|もし|正当化|正しいことを示す|^ために遮蔽物|^理由、原因|^自己決定",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-18.02",
+      "medium_id": "18.02",
+      "pattern": "同一|異なる|差異|比較する|比べる|対応|一致|対照|同様に|不変|永続性|^同じ母|^相似|^～に等しい|^～と同じ|^同じ大きさ|^調和する|^同じ大きさである|^似ている|^同調する|^調和する",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-18.03",
+      "medium_id": "18.03",
+      "pattern": "一部|全体|部分|含む|構成|集合|肉付き|^全域|^一揃い|^腕全体$|^部分的に固まる",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    },
+    {
+      "id": "sem-18.04",
+      "medium_id": "18.04",
+      "pattern": "可能性|事実|真実|概念|抽象|原理|理論|実際|永続性|可能|^空（くう|^虚無|^無常の法|^自然の摂理|^事物の理|^因果|^哲学|^源、根本|^自立|^独立|^自由、解放",
+      "mode": "japanese-core-lexical-cue-with-context-guards-v10"
+    }
+  ],
+  "suppressions": [
+    {
+      "medium_id": "01.03",
+      "when": "^悪寒|悪寒が|冷や汗|顎が強張る",
+      "reason": "Bodily chills are not weather"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "キンナリ|キンナラ|想像上の生物",
+      "reason": "Mythical entities are not necessarily animals"
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^マンゴーの新芽のような.+色",
+      "reason": "Color simile is not a plant referent"
+    },
+    {
+      "medium_id": "05.01",
+      "when": "シャン族の|中国人が|日本人が",
+      "reason": "Ethnonym modifying another noun"
+    },
+    {
+      "medium_id": "06.01",
+      "when": "下着|パンツ|ショーツ|パンチ",
+      "reason": "Pan substring collision with clothing"
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^窮屈な|^混雑した",
+      "reason": "Descriptive reference to a room"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "電気技師|通信技師",
+      "reason": "Worker is not a machine"
+    },
+    {
+      "medium_id": "12.02",
+      "when": "伝統的な.+ズボン|伝統的な.+衣類",
+      "reason": "Cultural modifier is not a festival"
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^占いによって|^なぜ|^遠くの物事",
+      "reason": "Spatial adjunct to divination"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^迷いや不安から足が止まる",
+      "reason": "Stopping walking not generic change"
+    },
+    {
+      "medium_id": "18.01",
+      "when": "^なぜ|^どうして",
+      "reason": "Interrogative not causal nominal"
+    },
+    {
+      "medium_id": "01.04",
+      "when": "^日を浴びる、日光浴",
+      "reason": "Sunbathing is an activity, not an astronomical phenomenon."
+    },
+    {
+      "medium_id": "02.04",
+      "when": "^家畜の首にかける木製の襟",
+      "reason": "Yoke is an implement, not livestock."
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^ゆっくり慎重に行く",
+      "reason": "Cautious walking manner is not necessarily disposition."
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^鍛冶屋のやっとこ",
+      "reason": "Anvil/tongs are tools, not manufacturing action."
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^肩車する",
+      "reason": "Carrying a child on shoulders is not transportation technology."
+    },
+    {
+      "medium_id": "13.02",
+      "when": "^中国人が筆記に用いる小さな筆",
+      "reason": "Referent is the stylus/brush, not an act of writing."
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^遠くへ跳ぶ",
+      "reason": "Motion distance is an adjunct, not lexical location."
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^足が不自由である|^茶を淹れる|^肩車する",
+      "reason": "Substring pulling or soaking does not define the referred event."
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^ほころびる、咲き始める|^ほころびる、芽吹き始める|^喧嘩する、誤解が生じる",
+      "reason": "Biological bloom and abstract misunderstandings require separate caution."
+    },
+    {
+      "medium_id": "16.04",
+      "when": "^どっちつかずの、不完全な",
+      "reason": "Negated completeness is not existence/possession."
+    },
+    {
+      "medium_id": "01.04",
+      "when": "^日光にさらす|^太陽を浴びる",
+      "reason": "Sunlight exposure is not astronomy."
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^シロアリに食い荒らされる|^ハチクイ$",
+      "reason": "Agent/species mentioned is not enough to classify event; bee-eater is bird and retained via another cue if any."
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^サトウキビ絞り機|^綿繰り機",
+      "reason": "Crop as modifier of a machine."
+    },
+    {
+      "medium_id": "02.04",
+      "when": "^家畜の首にかける木製の襟",
+      "reason": "A yoke is not livestock."
+    },
+    {
+      "medium_id": "03.01",
+      "when": "^強い恐怖や恥ずかしさを感じる|^拳を見せる",
+      "reason": "Body parts in ancillary descriptions."
+    },
+    {
+      "medium_id": "03.04",
+      "when": "^釉薬をかけた",
+      "reason": "Glaze is not medicine."
+    },
+    {
+      "medium_id": "04.01",
+      "when": "^幸運を祈って燃やす",
+      "reason": "Lucky charm is not an emotion."
+    },
+    {
+      "medium_id": "04.02",
+      "when": "^不適切に行動する|^悲しい考えに耽る",
+      "reason": "Negative thoughtlessness/ancillary cognition in an emotional description."
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^ゆっくり慎重に行く",
+      "reason": "Manner of walking is not personality."
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^子供の世話をする",
+      "reason": "Children being cared for are not the denotation."
+    },
+    {
+      "medium_id": "05.02",
+      "when": "^家族や友人と離れた場所で死ぬ|^家族に対して罪を犯す",
+      "reason": "Family as argument of death or unlawful action."
+    },
+    {
+      "medium_id": "05.03",
+      "when": "^家族や友人と離れた場所で死ぬ|^顔が広い",
+      "reason": "Friends are contextual rather than lexically denoted."
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^スパンコール$|^料理の中から手で|^地下穀物倉",
+      "reason": "Substring and object-context collisions."
+    },
+    {
+      "medium_id": "06.05",
+      "when": "^極度の恐怖を味わう",
+      "reason": "Figurative experiencing fear is not taste."
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^スーツケース",
+      "reason": "Luggage is not a suit."
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^漆喰を塗る|^装飾を施す",
+      "reason": "Building is not head referent."
+    },
+    {
+      "medium_id": "09.04",
+      "when": "^戦争難民",
+      "reason": "Refugee is not military act."
+    },
+    {
+      "medium_id": "10.02",
+      "when": "^木を伐採するような音で|^サトウキビ絞り機|^綿繰り機",
+      "reason": "Simile/machinery, not agricultural action."
+    },
+    {
+      "medium_id": "10.03",
+      "when": "^商業省|^貿易省",
+      "reason": "Government ministry, not trade action."
+    },
+    {
+      "medium_id": "10.04",
+      "when": "^銀錠$",
+      "reason": "Bullion bar is not a padlock or coin."
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^ノミ$|^パゴダのアーチ型の入り口",
+      "reason": "Ambiguous homograph tool and craft-work as incidental decoration."
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^重りや銀などを運ぶための袋",
+      "reason": "Carrying function of bag not transportation action."
+    },
+    {
+      "medium_id": "11.04",
+      "when": "^報道員|^通信員|^ニュースレポーター",
+      "reason": "Communications media professional is not hardware."
+    },
+    {
+      "medium_id": "12.01",
+      "when": "^僧侶の肩に掛ける上衣|^寺院の正面または入り口",
+      "reason": "Religious building context is not necessarily ritual."
+    },
+    {
+      "medium_id": "12.02",
+      "when": "^伝統的な.+上着|^伝統的な.+衣服",
+      "reason": "Traditional modifier not itself festival."
+    },
+    {
+      "medium_id": "13.02",
+      "when": "^（織機で）経糸を分けるための2本の棒|^文字（文学）を教える",
+      "reason": "A counter suffix or teaching action is not a book."
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^あまり寝ない、短時間睡眠|^その後、最後",
+      "reason": "Time as contextual modifier in a habit; ambiguous later/last held."
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^（田畑を見張るための）高い場所|^勢いよく飛び出す、場所|^商品を売る場所",
+      "reason": "A location is contextual for object or activity."
+    },
+    {
+      "medium_id": "14.04",
+      "when": "^水たまりが残る程度|^行政分野、行政の範囲|^（傷口や群衆などが）広範囲",
+      "reason": "Degree/scope in adjective phrase is not lexical sequence."
+    },
+    {
+      "medium_id": "15.01",
+      "when": "^（暦上の）短い年",
+      "reason": "Calendar-year length not geometrical shape."
+    },
+    {
+      "medium_id": "15.03",
+      "when": "^釉薬をかけた壺|^漆喰を塗る",
+      "reason": "Materials referenced in construction/objects require contextual review."
+    },
+    {
+      "medium_id": "16.01",
+      "when": "^目に涙を浮かべる",
+      "reason": "Tear expression not motion."
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^賽（さい）を振る|^生殺与奪の権を握る|^キンマの代わりに噛むのに使われる蔓植物|^宿主の木に巻き付いて枯らす寄生植物",
+      "reason": "Action secondary to game, control, or biological referent."
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^生まれ変わる",
+      "reason": "Reincarnation may be religious; hold mixed."
+    },
+    {
+      "medium_id": "16.04",
+      "when": "^水たまりが残る程度|^その後、最後",
+      "reason": "Persistence is contextual."
+    },
+    {
+      "medium_id": "18.01",
+      "when": "^理由もなく怒鳴りつける|^消化器疾患",
+      "reason": "Casual mentions of reason do not establish abstract causation."
+    },
+    {
+      "medium_id": "18.03",
+      "when": "^壺の膨らんだ部分|^オールやパドルの水かき部分",
+      "reason": "Part-of cue may be contextual to object."
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^コップいっぱいである|^銀の棒、銀錠",
+      "reason": "Noun denotation is full-cup predicate or silver bullion, not container or lock"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^ノミ$",
+      "reason": "Isolated Japanese ノミ is homonymous: chisel versus flea. No unique lexical evidence"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^（少女の乳房が）膨らみ始める",
+      "reason": "Pubertal development is biological growth, not generic change"
+    },
+    {
+      "medium_id": "01.01",
+      "when": "^堤防やダムをさらに高くする",
+      "reason": "Dam construction action, not landform denotation"
+    },
+    {
+      "medium_id": "01.04",
+      "when": "^日向ぼっこをする",
+      "reason": "Exposure to sunshine is not astronomy"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^スズメバチの巣",
+      "reason": "Nest is denoted, not insect species"
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^サンダル職人|^バナナの木が群生している場所",
+      "reason": "Occupational or place denotation, not crop term"
+    },
+    {
+      "medium_id": "03.02",
+      "when": "^寝る場所を作る",
+      "reason": "Bed-making is not sleep physiology"
+    },
+    {
+      "medium_id": "04.01",
+      "when": "^贈り物をもらう、幸運を授かる",
+      "reason": "Receiving gift is not an emotion"
+    },
+    {
+      "medium_id": "04.02",
+      "when": "^料理の中から手で|^人の言葉を繰り返る|^見積もってみる、計算して結果を見る",
+      "reason": "Looking is merely incidental to another denotation"
+    },
+    {
+      "medium_id": "04.03",
+      "when": "^待ちぼうけを食らう、期待が長引く",
+      "reason": "Expecting is context for waiting"
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^市場の徴税官",
+      "reason": "Market as workplace, role is official"
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^料理のレシピ|^ご飯を炊く",
+      "reason": "Recipe/cooking is not dish or ingredients"
+    },
+    {
+      "medium_id": "06.05",
+      "when": "^甘い言葉で手に入れる|^甘いつる植物",
+      "reason": "Sweetness is figurative or modifier"
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^サンダル職人",
+      "reason": "Object modifies a profession"
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^家庭用品",
+      "reason": "Household is not garden"
+    },
+    {
+      "medium_id": "09.03",
+      "when": "^借金の保証人|^権力を掌握する",
+      "reason": "保証人 vs 証人 substring; political power not legal right"
+    },
+    {
+      "medium_id": "09.04",
+      "when": "^ストライキ",
+      "reason": "Labor strike is not necessarily military/security conflict"
+    },
+    {
+      "medium_id": "09.05",
+      "when": "^シャン州南西部の部族",
+      "reason": "Ethnonym geographic adjective not location"
+    },
+    {
+      "medium_id": "10.03",
+      "when": "^市場の徴税官|^商品を売る場所の列",
+      "reason": "Market as background for officer or street"
+    },
+    {
+      "medium_id": "10.04",
+      "when": "^借金の保証人|^市場の徴税官",
+      "reason": "Money is argument of officer/guarantor"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^通信、電気通信",
+      "reason": "Electrical signal technology != machine"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^復興委員会|^混ぜて漬け込む",
+      "reason": "Reconstruction belongs to organization or culinary activity"
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^車輪の形をした隕石",
+      "reason": "Shape comparison not vehicle"
+    },
+    {
+      "medium_id": "12.01",
+      "when": "^僧侶用の台所|^阿毘達磨",
+      "reason": "Monastic building/Abhidhamma relation may be ancillary"
+    },
+    {
+      "medium_id": "12.03",
+      "when": "^用心深く、威厳を持って振る舞う|^自分の利益を伺う、利己的に振る舞う|^厚かましく振る舞う",
+      "reason": "Substring 舞う within 振る舞う does not denote dance"
+    },
+    {
+      "medium_id": "13.02",
+      "when": "^（織機で）経糸を分けるための2本の棒",
+      "reason": "本の substring within 2本の"
+    },
+    {
+      "medium_id": "13.04",
+      "when": "^阿毘達磨",
+      "reason": "Buddhist canon not schooling"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^ぶらぶらする、あちこち歩き回って時間を潰す",
+      "reason": "Time contextual for loitering"
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^寝る場所を作る|^商品を売る場所の列|^獲物を包囲して仕留める場所",
+      "reason": "Place contextual not necessarily lexical spatial function"
+    },
+    {
+      "medium_id": "14.04",
+      "when": "^行政分野|^あらゆる種類の",
+      "reason": "Scope/quantification not linear arrangement"
+    },
+    {
+      "medium_id": "15.01",
+      "when": "^長い柄のついた水杓|^長く細いバナナ|^目が粗く編まれたかご",
+      "reason": "Shape adjective modifies named object"
+    },
+    {
+      "medium_id": "15.04",
+      "when": "^平凡な能力の人へのあだ名",
+      "reason": "Generic degree used to describe epithet"
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^長引く|^激しい長引く頭痛|^用心深く、威厳を持って振る舞う|^自分の利益を伺う、利己的に振る舞う",
+      "reason": "Substring 引く/振る not manipulation"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^復興委員会|^アブに変化する小さな白い昆虫",
+      "reason": "Change is incidental modifier"
+    },
+    {
+      "medium_id": "16.04",
+      "when": "^所有権証明書",
+      "reason": "Document is about ownership; not existential predicate"
+    },
+    {
+      "medium_id": "17.01",
+      "when": "^あらゆる種類のフォーク",
+      "reason": "Quantification modifier not pronoun"
+    },
+    {
+      "medium_id": "18.03",
+      "when": "^家庭用品",
+      "reason": "Part word inside compound not a category"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^赤い種のあるスイカ|^ヤマネコ|^ジャガイモ|^スイカの一種",
+      "reason": "Substring animal cue cannot classify watermelon / wildcat from jungle"
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^他人の財産や功績を羨む|^言葉|^葉を|^青物、葉野菜",
+      "reason": "Bare 葉 cue should not hit 言葉; plant mentioned as context only"
+    },
+    {
+      "medium_id": "03.01",
+      "when": "^拳で打つ|^唇を噛む|^腕全体$|^ふくらはぎの膨らんだ",
+      "reason": "Anatomy sometimes incidental to action/part-whole."
+    },
+    {
+      "medium_id": "03.02",
+      "when": "^失血で気が遠くなる|^道に迷う、方向感覚",
+      "reason": "Sense of direction is not physiology."
+    },
+    {
+      "medium_id": "04.01",
+      "when": "^（犬が）悲しげに遠吠え|^他人の幸福を損なう|^幸運を",
+      "reason": "Emotion is embedded in referent or dependent context, not lexical category"
+    },
+    {
+      "medium_id": "04.02",
+      "when": "^雷の跡、落雷|^鏡に映った自分を見る",
+      "reason": "Belief/contextual seeing not cognitive predicate"
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^破戒僧",
+      "reason": "Monk denotes a religious category, ambiguity retained"
+    },
+    {
+      "medium_id": "05.04",
+      "when": "^戦争を援助|^支える、維持する、援助",
+      "reason": "Support refers to military/generic action, not interpersonal courtesy"
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^ジャガイモの小さなむかご|^ご飯とおかずを食べる",
+      "reason": "Tubers are plants and eating is behavior rather than ingredient"
+    },
+    {
+      "medium_id": "06.02",
+      "when": "^コーヒースプーン|^コーヒーを飲む",
+      "reason": "Object or consumption denotes spoon / drinking instead of beverage"
+    },
+    {
+      "medium_id": "06.05",
+      "when": "^甘い言葉|^甘いつる植物",
+      "reason": "Sweet refers to figurative expression or plants, not taste"
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^衣類や装身具を脱ぐ|^上着の型紙",
+      "reason": "Dressing action / pattern are not garments"
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^家庭用品|^寝る場所を",
+      "reason": "Substrings or space context, not architecture"
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^ジャガイモの小さなむかご|^コーヒースプーン|^（クロスボウの）弦",
+      "reason": "むかご and spoon/weapon do not denote baskets/forks"
+    },
+    {
+      "medium_id": "09.03",
+      "when": "^破戒僧、不道徳|^小さな罪",
+      "reason": "Criminal act context may be secondary; careful only"
+    },
+    {
+      "medium_id": "10.02",
+      "when": "^首の曲がった鍬|^ナスの苗",
+      "reason": "A tool/plant is not farming action"
+    },
+    {
+      "medium_id": "10.04",
+      "when": "^他人の財産や功績を羨む|^家計に悪影響|^財産",
+      "reason": "Property is object of emotion or abstract description; avoid overtrigger"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^コーヒースプーン",
+      "reason": "Spoon is utensil, not machine"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^雷の跡、落雷|^金箔を挟む",
+      "reason": "Metal/building material is contextual"
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^自動車整備工場|^車輪の形をした隕石",
+      "reason": "Repair site or meteorite is not vehicle"
+    },
+    {
+      "medium_id": "11.04",
+      "when": "^タイプライター$",
+      "reason": "Conventional typewriter fits tool/writing, not communications tech exclusively"
+    },
+    {
+      "medium_id": "12.03",
+      "when": "振る舞う|振る舞い|^太鼓腹",
+      "reason": "Substring 舞う is not dance, drum belly not drum"
+    },
+    {
+      "medium_id": "13.02",
+      "when": "^タイプライター$|^金箔を挟む",
+      "reason": "Typewriter is instrument not reading/writing act"
+    },
+    {
+      "medium_id": "13.03",
+      "when": "^大使、使節",
+      "reason": "使者 not news reporter"
+    },
+    {
+      "medium_id": "13.04",
+      "when": "^三蔵（|^三蔵$",
+      "reason": "Buddhist canon, not educational action"
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^失血で気が遠くなる|^自動車整備工場|^寝る場所を|^唇を噛む|^（犬が）悲しげ",
+      "reason": "遠く / location are contextual"
+    },
+    {
+      "medium_id": "14.04",
+      "when": "^範囲を広げる、拡張する|^互いに親切",
+      "reason": "Order/range or reciprocity as incidental to action"
+    },
+    {
+      "medium_id": "15.01",
+      "when": "^長い間|^長い音|^首の曲がった鍬|^ナスの苗",
+      "reason": "Time, phonetics, agricultural tool and plant shape contextual"
+    },
+    {
+      "medium_id": "15.02",
+      "when": "^雷の跡、落雷",
+      "reason": "Lightning is explanatory modifier, not color"
+    },
+    {
+      "medium_id": "15.03",
+      "when": "^木が倒れる音",
+      "reason": "Hard adjective modifying objects in example not tactile lexeme"
+    },
+    {
+      "medium_id": "15.04",
+      "when": "^財産|^価値がある、値打ち",
+      "reason": "Valuation overlap with economics; leave ambiguous"
+    },
+    {
+      "medium_id": "16.01",
+      "when": "^首を振る、頭を向ける",
+      "reason": "Head turn physiological gesture; preserve distinct conflict as needed"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^木が倒れる音|^雷の跡、落雷|^ひよこ豆の一種",
+      "reason": "Change is contextual to sounds/stories/plant kinds"
+    },
+    {
+      "medium_id": "18.03",
+      "when": "^腕全体$|^村全体|^ふくらはぎの膨らんだ部分|^教科書の解説部分",
+      "reason": "Bare part-whole in description/aggregate, not lexical relation"
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^唇を噛む|^契約を結ぶ|^拳で打つ|^ふくらはぎの",
+      "reason": "Body gesture / law / sports generic motion may be secondary"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^長い間|^しばらく留まる",
+      "reason": "Safe temporal cues, no duplicate suppression"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^魚の葉包み焼き|^スイカズラ|^スイカ$|^ナツメヤシの芽",
+      "reason": "Animal/squid substring in botanical or cooked-food referents."
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^魚の葉包み焼き|^ナツメヤシの芽",
+      "reason": "Plant used in food; avoid botany as primary for dish or insect."
+    },
+    {
+      "medium_id": "02.04",
+      "when": "^畑に最初に生え出た穀物の芽",
+      "reason": "Field context not husbandry object."
+    },
+    {
+      "medium_id": "03.01",
+      "when": "^シラミの卵を親指|^髪の中のシラミを親指|^脈打つ",
+      "reason": "Incidental body parts or heartbeat vs body part."
+    },
+    {
+      "medium_id": "03.02",
+      "when": "^妊娠している",
+      "reason": "Pregnancy categorized as life process instead of generic sensation."
+    },
+    {
+      "medium_id": "04.01",
+      "when": "^得るべきものを失う、期待が|^予告なく",
+      "reason": "Emotional expectancy as object in lexical change."
+    },
+    {
+      "medium_id": "04.03",
+      "when": "^得るべきものを失う、期待が",
+      "reason": "Hope is contextual to disappointment, not voluntary action."
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^子供時代、幼少期|^子供を腰にのせて|^子供の幽霊",
+      "reason": "Child as modifier/object not target lexical person."
+    },
+    {
+      "medium_id": "05.02",
+      "when": "^最初の夫",
+      "reason": "Chronology of spouse requires review, avoid unrelated first/ordinal rules."
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^食事を始める|^ランチボックス|^個人の食事と飲み物を入れる|^料理の方法、調理法、レシピ",
+      "reason": "Food as object of action or container."
+    },
+    {
+      "medium_id": "06.02",
+      "when": "^ランチボックス|^個人の食事と飲み物を入れる",
+      "reason": "Drinks are contextual contents of container."
+    },
+    {
+      "medium_id": "06.03",
+      "when": "^焼畑農業のために木や藪を切り開く",
+      "reason": "Slash-and-burn as land use, not cooking."
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^庭を鍬で掘る",
+      "reason": "Garden as locus of cultivation, not residence referent."
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^子供を腰にのせて運ぶ",
+      "reason": "Carry action doesn't denote household furnishing."
+    },
+    {
+      "medium_id": "09.02",
+      "when": "^亡くなった王族の遺体|^王や領主に対する尊称",
+      "reason": "Ruler as contextual of ceremonial object or honorific."
+    },
+    {
+      "medium_id": "09.05",
+      "when": "^天灯（スカイランタン）",
+      "reason": "Region adjective in encyclopedic description not geographic denotation."
+    },
+    {
+      "medium_id": "10.04",
+      "when": "^ランチボックス|^未精製の銀塊",
+      "reason": "Financial category cannot derive from contents of box; silver object may fit material instead."
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^堤防の突き出た部分",
+      "reason": "Embankment is not a mechanical device."
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^（稲植えに関して）|^雷の跡",
+      "reason": "Metals in descriptions not production."
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^路線図、道路地図|^子供を腰にのせて運ぶ",
+      "reason": "Route map or carrying child doesn't denote vehicle."
+    },
+    {
+      "medium_id": "12.01",
+      "when": "^宗教学校",
+      "reason": "School with religious specialization could be primarily education."
+    },
+    {
+      "medium_id": "12.02",
+      "when": "^天灯（スカイランタン）",
+      "reason": "Object mentioned in festival context not itself ritual."
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^子供時代、幼少期|^独身時代",
+      "reason": "Life phases kept as time categories if person cue suppressed."
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^まもなく、近いうちに、そう遠くないうちに|^堤防の突き出た部分",
+      "reason": "Far as temporal comparison or physical part location."
+    },
+    {
+      "medium_id": "14.04",
+      "when": "^畑に最初に生え出た穀物の芽|^食事を始める",
+      "reason": "First used descriptively of farm crop, or temporal onset as verb."
+    },
+    {
+      "medium_id": "15.01",
+      "when": "^織機の布を伸ばす曲がった棒|^長い柄のついた草刈り鎌",
+      "reason": "Shape incidental to tool descriptions."
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^脈打つ、鼓動する|^褒める、お世辞を言う",
+      "reason": "打つ/持ち上げる figurative context."
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^脈打つ、鼓動する|^食事を始める|^（稲植えに関して）時期が遅く",
+      "reason": "Temporal/bodily process instead of generic change."
+    },
+    {
+      "medium_id": "18.01",
+      "when": "^何もしない|^さもしい手段で得る",
+      "reason": "Bare もし in Japanese substring is not conditional."
+    },
+    {
+      "medium_id": "18.03",
+      "when": "^堤防の突き出た部分|^ズボンの尻の部分|^ふっくらした、肉付き|^畑に最初に生え出た",
+      "reason": "Modifier ‘part’ isn't necessarily abstract part-whole meaning."
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^宗教学校",
+      "reason": "School not dwelling"
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^路線図、道路地図",
+      "reason": "Map not spatial adverb"
+    },
+    {
+      "medium_id": "12.01",
+      "when": "^宗教学校",
+      "reason": "Religious modifier not temple"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^魚の背びれ|^スズメバチのように刺す|^ポニーのたてがみ",
+      "reason": "Animal is body-part referent or simile, not zoological lexeme."
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^綿を摘む|^バナナの木の芯",
+      "reason": "Plant is acted-on object or part; head denotation differs."
+    },
+    {
+      "medium_id": "03.01",
+      "when": "^ノミの刃|^魚の背びれ",
+      "reason": "Anatomy-only category not for tool component or fish species modifier."
+    },
+    {
+      "medium_id": "03.03",
+      "when": "^健康な人",
+      "reason": "Healthy person is person referent, not medical condition."
+    },
+    {
+      "medium_id": "04.01",
+      "when": "^遊び心や怒りから|^約束を破る",
+      "reason": "Emotion invoked as motivation; not lexical head referent."
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^約束を破る",
+      "reason": "Broken promise is social/legal action rather than personality cue."
+    },
+    {
+      "medium_id": "06.02",
+      "when": "^酒造り用の酵母",
+      "reason": "Yeast is substance for beverage, not beverage."
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^袖の細い上着",
+      "reason": "Garment is suitable primary; shape contextual."
+    },
+    {
+      "medium_id": "09.01",
+      "when": "^代理人、代表者",
+      "reason": "Occupational representative not necessarily organization leader."
+    },
+    {
+      "medium_id": "09.03",
+      "when": "^休暇許可、公休",
+      "reason": "Vacation leave is temporal/administrative, not necessarily right."
+    },
+    {
+      "medium_id": "09.04",
+      "when": "^おもちゃの銃|^剣術の身のこなし",
+      "reason": "Toy weapon not combat, action requires context."
+    },
+    {
+      "medium_id": "10.01",
+      "when": "^見習い、徒弟",
+      "reason": "An apprentice is a person/occupation but not pedagogical act."
+    },
+    {
+      "medium_id": "10.02",
+      "when": "^鎌をかける",
+      "reason": "Metaphoric idiom is not farming."
+    },
+    {
+      "medium_id": "10.03",
+      "when": "^販売価格",
+      "reason": "Selling modifies the price noun, not a transaction."
+    },
+    {
+      "medium_id": "10.04",
+      "when": "^販売価格",
+      "reason": "Price is financial, preferable if commerce cue suppressed."
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^ノミの刃のなかご|^ノミを叩くため|^真鍮のワイヤー|^木槌",
+      "reason": "Substring craft/material cue incidental to component or object."
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^車輪製作職人|^ポニーの轡",
+      "reason": "Vehicle components and maker are not trips."
+    },
+    {
+      "medium_id": "12.01",
+      "when": "^僧侶の求めに応じ、あらゆる世話|^涅槃堂",
+      "reason": "Religious modifiers of people or building, hold context if competing."
+    },
+    {
+      "medium_id": "12.03",
+      "when": "^袖の細い上着",
+      "reason": "Apparel not arts."
+    },
+    {
+      "medium_id": "13.01",
+      "when": "^不誠実な言葉",
+      "reason": "Language might be primary but character evaluation ambiguous."
+    },
+    {
+      "medium_id": "13.02",
+      "when": "^書き物机、文机",
+      "reason": "Writing desk is furniture, not literary object."
+    },
+    {
+      "medium_id": "13.03",
+      "when": "^鎌をかける",
+      "reason": "Information merely ancillary to idiom."
+    },
+    {
+      "medium_id": "13.04",
+      "when": "^授業中、開講期間",
+      "reason": "Course is contextual to temporal phrase."
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^涅槃堂|^食事をする場所",
+      "reason": "Location of building/act is incidental."
+    },
+    {
+      "medium_id": "14.04",
+      "when": "^直前の句の最後の語|^授業中",
+      "reason": "Last word in poetry, not order adverb."
+    },
+    {
+      "medium_id": "15.01",
+      "when": "^長い円筒形のビルマ太鼓|^袖の細い上着|^短い武器で身を守る",
+      "reason": "Dimensions of tool/garment/weapon incidental to referent."
+    },
+    {
+      "medium_id": "15.03",
+      "when": "^湯沸かし用の真鍮製の容器|^真鍮のワイヤー|^お守りとして使われる猪の硬い牙",
+      "reason": "Material adjective contextual to utensil, ornament, amulet."
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^他人の話に言葉を挟む|^鎌をかける",
+      "reason": "挟む figurative/interrogative; not physical operation."
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^直前の句の最後の語",
+      "reason": "Poetic explanation not an aspectual transition."
+    },
+    {
+      "medium_id": "18.03",
+      "when": "^（冷めたスープのように）部分的に固まる|^籾殻の粗い部分",
+      "reason": "部分 used as adverbial modification, not lexical abstract part."
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^ノミの刃のなかご|^通信機器",
+      "reason": "Tool part or technology, not generic apparatus"
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^ノミの刃のなかご",
+      "reason": "なかご is tang, not a basket"
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^魚の背びれ",
+      "reason": "Fish anatomy, not cuisine"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^鎌をかける",
+      "reason": "Idiomatic phrase not a sickle"
+    },
+    {
+      "medium_id": "13.03",
+      "when": "^通信機器",
+      "reason": "Communication apparatus is technology, not news"
+    },
+    {
+      "medium_id": "06.04",
+      "when": "^喉に詰まる",
+      "reason": "Choking as physiology not eating"
+    },
+    {
+      "medium_id": "17.01",
+      "when": "^僧侶の求めに応じ、あらゆる世話",
+      "reason": "Indefinite quantifier incidental to service agent"
+    },
+    {
+      "medium_id": "12.05",
+      "when": "^書き物机、文机",
+      "reason": "Desk isn't literature"
+    },
+    {
+      "medium_id": "05.03",
+      "when": "^結婚式を執り行う",
+      "reason": "Marriage ceremony, not relationship"
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^船の舵取り、操舵手",
+      "reason": "Steersman denotes human occupation"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^建設業者、大工",
+      "reason": "Occupation rather than construction activity"
+    },
+    {
+      "medium_id": "13.04",
+      "when": "^授業中、開講期間",
+      "reason": "Temporal location in school term"
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^綿を摘む|^ココナッツ（の身）を削る",
+      "reason": "Crop is object of physical action"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^煉瓦の欠片|^真鍮のワイヤーで作られた膝や腰の飾り",
+      "reason": "Material is contextual for fragment/ornament"
+    },
+    {
+      "medium_id": "15.03",
+      "when": "^真鍮のワイヤーで作られた膝や腰の飾り",
+      "reason": "Ornament not generic material"
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^クッション、座布団",
+      "reason": "Household cushion is not garment"
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^人間に慣れる、家畜化される",
+      "reason": "Human as agent context for domestication"
+    },
+    {
+      "medium_id": "12.03",
+      "when": "^写真家$",
+      "reason": "Photography is an occupation instead of generic art"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^ノミを叩くための小さな木槌",
+      "reason": "The tool is not manufacturing"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^休暇許可、公休",
+      "reason": "Leave permission has legal/administrative ambiguity."
+    },
+    {
+      "medium_id": "05.04",
+      "when": "^僧侶の求めに応じ、あらゆる世話",
+      "reason": "Head is attendant/person, not courtesy action."
+    },
+    {
+      "medium_id": "13.03",
+      "when": "^写真家$",
+      "reason": "Photographer is occupation, not report/news entity."
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^米を蒸す際に.+ヒョウタン",
+      "reason": "ヒョウタン is gourd, not leopard"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^ヘビウリの若芽",
+      "reason": "ヘビウリ is a plant, not a snake"
+    },
+    {
+      "medium_id": "02.01",
+      "when": "^薬味用の小魚の干物|^魚の塩辛",
+      "reason": "Fish is ingredient of prepared food"
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^綿入りのマットレス|^精製された柔らかい綿、綿球",
+      "reason": "Plant names as fill or material are contextual; retain other categories"
+    },
+    {
+      "medium_id": "03.01",
+      "when": "^手や拳で頭を叩く|^親指と人差し指で挟む",
+      "reason": "Body part serves as instrument, not head meaning"
+    },
+    {
+      "medium_id": "04.01",
+      "when": "^吉祥経、幸福のきまり",
+      "reason": "Happiness in scripture title is not affect"
+    },
+    {
+      "medium_id": "04.02",
+      "when": "^目の前で|^下を見るために持ち上げる",
+      "reason": "Seeing is contextual rather than cognitive denotation"
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^（足が痛い人が歩くように）慎重に、おそるおそる",
+      "reason": "Manner comparison does not express stable temperament"
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^子供の遊びの一種|^顔を見せる",
+      "reason": "Child or persons contextual to game / showing face"
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^パンノキ|^食べ物の変化ですぐにお腹を壊す",
+      "reason": "パンノキ is tree; food is only causal context of illness"
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^（保管のために）容器に注ぎ入れる|^手や杖で寄りかかる",
+      "reason": "Container and cane are contextual implements"
+    },
+    {
+      "medium_id": "09.01",
+      "when": "^導師、祈祷の指導者",
+      "reason": "Religious guide does not denote secular institution"
+    },
+    {
+      "medium_id": "09.04",
+      "when": "^仕事を止める、ストライキをする",
+      "reason": "Labor strike is not automatically armed conflict"
+    },
+    {
+      "medium_id": "09.05",
+      "when": "^シャン州で一般的な豆",
+      "reason": "Origin modifier does not denote geographical place"
+    },
+    {
+      "medium_id": "10.02",
+      "when": "^木製の鍬",
+      "reason": "Hoe is an implement, not farming activity"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^最初は効くが、後で無効になる薬",
+      "reason": "Sequence contextual to drug effect"
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^米を蒸す際に|^雨の前で薄暗い",
+      "reason": "Spatial relation contextual to activity or weather"
+    },
+    {
+      "medium_id": "14.04",
+      "when": "^最初に飼った動物|^最初は効くが",
+      "reason": "Ordinal modifies denoted thing or activity"
+    },
+    {
+      "medium_id": "15.01",
+      "when": "^長い棒の付いたロケット花火",
+      "reason": "Shape is only descriptive of fireworks"
+    },
+    {
+      "medium_id": "15.03",
+      "when": "^タフィー、サトウキビ",
+      "reason": "Sticky texture modifies confection"
+    },
+    {
+      "medium_id": "16.01",
+      "when": "^下痢が止まる|^頭の回転が鈍く",
+      "reason": "Stop is physiological; rotation is metaphorical"
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^電信を打つ|^文字を打つ、タイピングする",
+      "reason": "Keying/transmitting text is information technology or writing, not physical impact"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^食べ物の変化ですぐにお腹を壊す|^変化（へんげ）の力を持つ悪霊|^繁栄、富、財産",
+      "reason": "Change refers to context/power, not the head sense"
+    },
+    {
+      "medium_id": "18.01",
+      "when": "^竹の芽（筍）から作られた紙",
+      "reason": "Purpose appears only in appended contextual explanation"
+    },
+    {
+      "medium_id": "18.03",
+      "when": "^肉付きが良い",
+      "reason": "Bodily build is not a part-whole operator"
+    },
+    {
+      "medium_id": "01.01",
+      "when": "^ジャングルや無人の地の真っ只中にいる",
+      "reason": "Jungle is circumstantial place, not type of landform"
+    },
+    {
+      "medium_id": "03.04",
+      "when": "^樹皮を石鹸の実と共に洗髪",
+      "reason": "Shampoo used in botanical tree description, not the denotation"
+    },
+    {
+      "medium_id": "04.04",
+      "when": "^退屈や怠惰で体を伸ばす",
+      "reason": "Reference to boredom is contextual to bodily stretching"
+    },
+    {
+      "medium_id": "06.03",
+      "when": "^米を蒸す際に上の桶の底に挿入するヒョウタン",
+      "reason": "Steam-cooking is contextual to gourd/utensil"
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^（魚やウナギ用の）簗|^衣類用の籠",
+      "reason": "Clothes modify basket, not garment"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^天寿を全うする",
+      "reason": "Time span incidental to death/long life"
+    },
+    {
+      "medium_id": "16.02",
+      "when": "^詩や歌、あるいは淀みない話でつなぐ",
+      "reason": "Poetic chaining is not manipulation of objects"
+    },
+    {
+      "medium_id": "16.03",
+      "when": "^電流、光を発生させる要素",
+      "reason": "Electricity generation describes component, not event"
+    }
+  ],
+  "tag_rules": [
+    {
+      "axis": "feature",
+      "value": "human",
+      "pattern": "^外国人|^中国人|^日本人|^子供|^労働者|^技師|^番人|^僧|^演説者|^整備士|^大工$|^地方行政官|^未婚の娘|^追随者|^市場の徴税官"
+    },
+    {
+      "axis": "feature",
+      "value": "animal",
+      "pattern": "^ジャコウネコ|^鶏|^牛|^馬|^猫|^犬|^鳥|^魚|^昆虫|^猿|^象|^亀|^蜂の子|^ハチクイ$|^シロアリ|^スズメバチ"
+    },
+    {
+      "axis": "feature",
+      "value": "plant",
+      "pattern": "^プランテイン|^苗|^樹|^花|^シダ|^芽吹|^大枝|^木の|^竹|^植物|^落葉|^藍（アイ）の木|^キワタ|^貝葉（ばいよう）の木|^ビンロウ樹|^カンゾウ"
+    },
+    {
+      "axis": "feature",
+      "value": "body_part",
+      "pattern": "^唇|^顎|^頭蓋|^肩|^目尻|^手首|^陰毛|^歯肉|^ふくらはぎ|^膝裏$|^身体$|^鎖骨|^脛骨|^口蓋垂|^耳たぶ"
+    },
+    {
+      "axis": "feature",
+      "value": "material",
+      "pattern": "^真鍮|^木材|^塩化|^石炭|^木炭|^琥珀|^ガソリン|^布地|^金属|^陶土|^ラテライト|^金属"
+    },
+    {
+      "axis": "feature",
+      "value": "tool",
+      "pattern": "^工具|^道具|^轡|^刀の鞘|^鍛冶屋のやっとこ|^下げ振り|^ナイフ|^天秤|^伸線板|^長刀|^大刀|^罠に使う"
+    },
+    {
+      "axis": "feature",
+      "value": "consumable",
+      "pattern": "^米|^ご飯|^パン(?!ツ)|^砂糖|^ナツメグ|^塩|^肉|^プランテイン|^酸っぱいキノコ|^ご飯"
+    },
+    {
+      "axis": "feature",
+      "value": "motion",
+      "pattern": "^歩く|^走る|^跳ね|^飛ぶ|^出発|^よろめ|^進む|^腰をかがめ|^急ぐ|^忍び足で去る"
+    },
+    {
+      "axis": "feature",
+      "value": "change",
+      "pattern": "^ほころびる|^芽吹|^枯れ|^朽ち|^壊れ|^変化する|^始まる"
+    },
+    {
+      "axis": "feature",
+      "value": "perception",
+      "pattern": "^視界|^感触|^見る|^聞く|^聴覚|^視覚|^知覚"
+    },
+    {
+      "axis": "feature",
+      "value": "mental",
+      "pattern": "^考える|^思案|^不安|^信頼|^悩む|^愚鈍|^理解|^迷い|^推測する|^見当をつける|^勘が良い"
+    },
+    {
+      "axis": "feature",
+      "value": "social",
+      "pattern": "^約束|^契約|^演説|^感謝|^布施|^規範|^親族"
+    },
+    {
+      "axis": "feature",
+      "value": "spatial",
+      "pattern": "^方向|^上下|^左右|^近く|^遠く|^場所|^位置|^隣り|^地点|^敷地"
+    },
+    {
+      "axis": "feature",
+      "value": "temporal",
+      "pattern": "^時刻|^時間|^しばらく|^一昨日|^昨日|^今日|^明日|^晩成|^先々月|^夜が非常に深まる"
+    },
+    {
+      "axis": "feature",
+      "value": "evaluative",
+      "pattern": "^非常に|^快い|^美しい|^汚らし|^窮屈|^珍しい"
+    },
+    {
+      "axis": "field",
+      "value": "medicine",
+      "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風|^黄疸|^消化器疾患|^まぶたがひどく炎症|^内出血|^大量に出血|^下血|^胸膜炎|^膨満感|^急病"
+    },
+    {
+      "axis": "field",
+      "value": "agriculture",
+      "pattern": "^農業|^収穫|^農民|^稲|^飼育|^田んぼ|^土を耕す|^収穫|^田畑"
+    },
+    {
+      "axis": "field",
+      "value": "religion",
+      "pattern": "^仏陀|^仏像|^僧|^仏教|^寺院|^断食|^占い|^呪術|^宗教|^神|^説教|^キンナリー|^阿毘達磨|^仏教経典"
+    },
+    {
+      "axis": "field",
+      "value": "law",
+      "pattern": "^法律|^裁判|^契約|^判決|^起訴|^税|^憲法|^相続権|^所有権証明書"
+    },
+    {
+      "axis": "field",
+      "value": "commerce",
+      "pattern": "^商売|^取引|^利息|^仲介料|^利益|^賃金|^税|^入札する|^市場の徴税官"
+    },
+    {
+      "axis": "field",
+      "value": "craft",
+      "pattern": "^鍛冶|^柵を作る|^加工|^織物|^彫刻|^ほぞ、テノン|^ペンキを塗る"
+    },
+    {
+      "axis": "field",
+      "value": "music",
+      "pattern": "^調律|^楽器|^音楽|^太鼓|^旋律|^メロディー"
+    },
+    {
+      "axis": "field",
+      "value": "linguistics",
+      "pattern": "^音韻|^助数詞|^言語|^子音|^語彙|^閉口音|^略記する|^音節|^文法|^語彙|^語源"
+    },
+    {
+      "axis": "field",
+      "value": "computing",
+      "pattern": "^コンピュータ|^電子計算|^ソフトウェア"
+    },
+    {
+      "axis": "field",
+      "value": "literature",
+      "pattern": "^物語|^文学|^詩|^語り部"
+    },
+    {
+      "axis": "field",
+      "value": "history",
+      "pattern": "^歴史|^王朝|^古代|^年代記|^歴史、伝記"
+    },
+    {
+      "axis": "usage",
+      "value": "rare",
+      "pattern": "（稀）|まれに使用|稀に使用"
+    },
+    {
+      "axis": "usage",
+      "value": "colloquial",
+      "pattern": "口語|俗語"
+    },
+    {
+      "axis": "usage",
+      "value": "formal",
+      "pattern": "文語|改まった表現"
+    },
+    {
+      "axis": "usage",
+      "value": "polite",
+      "pattern": "丁寧語|敬語"
+    },
+    {
+      "axis": "usage",
+      "value": "vulgar",
+      "pattern": "卑語|卑俗"
+    },
+    {
+      "axis": "usage",
+      "value": "bound_usage",
+      "pattern": "接辞的|接頭辞|接尾辞"
+    },
+    {
+      "axis": "usage",
+      "value": "variant_reference",
+      "pattern": "異形参照|異表記参照"
+    },
+    {
+      "axis": "semantic_type",
+      "value": "grammatical_function",
+      "pattern": "^【助数詞】|^【助詞】|^【接尾辞】|^【接頭辞】|^助数詞|^接尾辞|^接頭辞"
+    },
+    {
+      "axis": "semantic_type",
+      "value": "conventional_expression",
+      "pattern": "^【間投詞】|^【感動詞】"
+    },
+    {
+      "axis": "semantic_type",
+      "value": "quantity",
+      "pattern": "^[0-9０-９][0-9０-９,，./／]*$"
+    }
+  ]
+}
