@@ -1,0 +1,40 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_file": "shan-extra-pilot-1.json",
+  "source_count": 1000,
+  "source_rank_span": [
+    5481,
+    6480
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v1.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-1a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-1b.json",
+      "count": 500
+    }
+  ],
+  "stats": {
+    "source_count": 1000,
+    "rank_start": 5481,
+    "rank_end": 6480,
+    "primary_provisional": 511,
+    "other": {
+      "single-cue-provisional": 511,
+      "no-supported-category-cue": 277,
+      "ambiguous-multiple-category-cues": 133,
+      "pending-sense-boundary": 79
+    },
+    "semicolon_parents": 79,
+    "segmentation_fragments": 173,
+    "feature_tag_candidates": 128,
+    "field_tag_candidates": 40,
+    "usage_tag_candidates": 3
+  },
+  "note": "Categories and tags are lexical-cue candidates only. No sense ID was minted or approved. Semicolon glosses are segmented for human review, without assuming each segment denotes a separate lexical sense. Never overwrite source card IDs or history."
+}
