@@ -9410,8 +9410,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "11",
-    "primary_medium": "11.01",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -9420,17 +9420,9 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [
-      {
-        "medium": "11.01",
-        "major": "11",
-        "evidence": [
-          "鎌"
-        ]
-      }
-    ],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -13197,8 +13189,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "12",
+    "primary_medium": "12.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -13209,13 +13201,6 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "05.03",
-        "major": "05",
-        "evidence": [
-          "結婚"
-        ]
-      },
-      {
         "medium": "12.02",
         "major": "12",
         "evidence": [
@@ -13224,7 +13209,7 @@
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -18233,8 +18218,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "08",
+    "primary_medium": "08.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -18250,17 +18235,10 @@
         "evidence": [
           "書き物机"
         ]
-      },
-      {
-        "medium": "12.05",
-        "major": "12",
-        "evidence": [
-          "書き物"
-        ]
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
