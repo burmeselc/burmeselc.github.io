@@ -10,6 +10,8 @@ test('Shan domain-only four-choice session on Chromium mobile viewport and progr
   const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const page=await context.newPage(),errors=capture(page);
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===5480&&window.DOPA_SEMANTIC_READY_BY_LANG?.shan===true);
   assert.equal(await page.locator('#lang').inputValue(),'shan');
@@ -35,6 +37,8 @@ test('Shan domain-only four-choice session on Chromium mobile viewport and progr
   const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('dopaQuestV5_profile')||'null'));
   assert.ok(saved?.totalQ>=1);
   await page.reload({waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===5480);
   const persisted=await page.evaluate(()=>JSON.parse(localStorage.getItem('dopaQuestV5_profile')||'null'));
@@ -52,6 +56,8 @@ test('missing Shan sidecar disables only Shan categories and does not break Burm
   const page=await browser.newPage(),errors=capture(page);
   await page.route('**/data/shan-categories-v1.json',route=>route.abort());
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===5480);
   assert.equal(await page.locator('#semanticCategory').isDisabled(),true);
@@ -60,6 +66,8 @@ test('missing Shan sidecar disables only Shan categories and does not break Burm
   await page.locator('#game:not(.hidden)').waitFor();
   assert.equal(await page.locator('#choices button').count(),4);
   await page.reload({waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.locator('#lang').selectOption('burmese');
   await page.waitForFunction(()=>window.DOPA_SEMANTIC_READY_BY_LANG?.burmese===true);
