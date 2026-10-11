@@ -91,6 +91,8 @@
   const back=session.direction==='recognition'?japanese(current):original(current,session.lang);
   $('flashFaceHint').textContent=flipped?'解答':'問題';
   $('flashFaceWord').textContent=flipped?back:front;
+  $('flashFaceWord').lang=(flipped?(session.direction==='production'):(session.direction==='recognition'))
+   ?(session.lang==='shan'?'shn':'my'):'ja';
   $('flashFaceWord').classList.toggle('jp',flipped?(session.direction==='recognition'):(session.direction==='production'));
   const extra=[current.game_pos||current.pos||'',current.japanese_note||'',
    current.english&&current.english!==japanese(current)?current.english:''].filter(Boolean);
