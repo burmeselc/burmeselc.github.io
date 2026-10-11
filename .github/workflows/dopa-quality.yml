@@ -26,3 +26,5 @@ jobs:
       - run: node --test dopa-quest/tests/quality.test.mjs
       - run: node --test dopa-quest/tests/pwa.test.mjs
       - run: node --check dopa-quest/service-worker.js
+      - name: Check incoming Shan CSV audit is read-only and lossless
+        run: python3 -m unittest discover -s dopa-quest/tests -p 'test_additional_shan_audit.py' -v
