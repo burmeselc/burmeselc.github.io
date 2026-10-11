@@ -140,8 +140,23 @@
  }
  root.addEventListener('dopa-game-ready',initialize,{once:true});
  root.addEventListener('dopa-profile-restored',()=>{
-  // Restore may replace all counters. Never reconstruct missing historical daily records.
-  if(route==='home')render();
+  // The legacy profile loader temporarily unhides setup/profile. Restore the
+  // current modern route immediately, without replacing saved learning data.
+  // Cloud restore can happen while the user is looking at Settings or Home.
+  if(route==='home'||route==='settings'){
+   moveSettings();
+   visibility(route);
+   if(route==='home')render();
+  }
+  else if(route==='quest')visibility('quest');
+  else if(route==='cards'||route==='library'){
+   // Keep a visible study/library panel rather than exposing legacy setup.
+   // Cloud restore guards against restoring during an active session.
+   const panel=$(route==='cards'?'flashcardPanel':'vocabPanel');
+   if(panel&&!panel.classList.contains('hidden')){
+    $('setup').classList.add('hidden');$('profile').classList.add('hidden');
+   }else visibility('quest');
+  }
  });
  root.DOPA_DASHBOARD={go,render,dueCount};
 })(window);

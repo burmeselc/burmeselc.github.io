@@ -22,6 +22,15 @@ test('dashboard routes preserve IDs, quiz progress and current flashcards',async
   assert.equal(await page.locator('#soundSettings').isVisible(),true);
   assert.equal(await page.locator('#vocabPanel').isVisible(),false);
   assert.equal(await page.locator('#backupBtn').count(),1);
+  // A restored cloud snapshot must not reopen the classic setup over Settings.
+  await page.evaluate(()=>window.DOPA_SYNC_API.restore(window.DOPA_SYNC_API.snapshot()));
+  assert.equal(await page.locator('#dopaSettings').isVisible(),true);
+  assert.equal(await page.locator('#setup').isVisible(),false);
+  assert.equal(await page.locator('#profile').isVisible(),false);
+  await page.locator('[data-dopa-route="home"]').click();
+  await page.evaluate(()=>window.DOPA_SYNC_API.restore(window.DOPA_SYNC_API.snapshot()));
+  assert.equal(await page.locator('#dopaDashboard').isVisible(),true);
+  assert.equal(await page.locator('#setup').isVisible(),false);
   await page.locator('[data-dopa-route="quest"]').click();
   assert.equal(await page.locator('#setup').isVisible(),true);
   await page.locator('[data-dopa-route="cards"]').click();
