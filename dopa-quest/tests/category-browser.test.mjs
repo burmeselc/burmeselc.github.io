@@ -55,7 +55,7 @@ test('Burmese category: four-choice session, persistence, and Shan fallback',asy
   assert.equal(await page.locator('#semanticCategory').isDisabled(),false);
   assert.equal(await page.locator('#semanticCategory option').count(),19);
   assert.equal(await page.locator('#semanticCategory').inputValue(),'all');
-  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),6480);
+  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),8480);
   await page.screenshot({path:'dopa-category-mobile.png',fullPage:true});
   assert.deepEqual(errors,[]);
   await context.close();
