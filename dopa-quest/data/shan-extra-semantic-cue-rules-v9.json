@@ -13,7 +13,7 @@
     "shan-extra-semantic-cue-rules-v7.json",
     "shan-extra-semantic-cue-rules-v8.json"
   ],
-  "rule_basis": "Inheritance from v8 plus Japanese lexical-head checks for ranks 13481–14480. Excludes substring false positives (ノミ/なかご, もし, material/shape and body part modifiers), figurative idioms and similes. Ambiguous and semicolon cases remain null and are not human-reviewed. Second pass: retained 1,000 parents, refined occupational agents, communication equipment, idiom 鎌をかける, writing desk, ceremony, fish anatomy, food/crop modifiers; all proposed status.",
+  "rule_basis": "Inheritance from v8 plus Japanese lexical-head checks for ranks 13481–14480. Excludes substring false positives (ノミ/なかご, もし, material/shape and body part modifiers), figurative idioms and similes. Ambiguous and semicolon cases remain null and are not human-reviewed. Second pass: retained 1,000 parents, refined occupational agents, communication equipment, idiom 鎌をかける, writing desk, ceremony, fish anatomy, food/crop modifiers; all proposed status. Precision fixes: communication equipment→11.04, school term→14.01, monastic attendant→05.01, photographer→occupation.",
   "matching_policy": "Match stripped Japanese core gloss (nonnested fullwidth parentheses discarded); suppression patterns match intact core gloss. English definition is provenance only. Evidence is the literal matched cue with regex metacharacters escaped.",
   "conflict_policy": "Select one provisional medium only with exactly one supported rule and no semicolon; otherwise keep primary null. Source semicolons are segmentation hypotheses, not verified senses. Do not issue sense IDs.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -123,7 +123,7 @@
     {
       "id": "sem-05.01",
       "medium_id": "05.01",
-      "pattern": "日本人|外国人|国民|人口|住民|男の人|女の人|子ども|子供|青年|大人|老人|貴族|庶民|人民|部族|集団|仲間|群衆|人々|人間|未亡人|衆生|凡夫|俗人|見知らぬ人|マネージャー|民族グループ|インド人|初心者|追随者|^男の子|有名人|名士|トラブルメーカー|依頼人|孤児|馬丁|ボクサー|クライアント|^知り合い|カヤー族|赤カレン族|中国人|シャン族|少数民族|異教徒|見習い|^スタッフ|^事務員|^自由人|^国外居住者|^政治難民|^中年の独身男性|^女優|^踊り子|^代理人|^管理職|^独身男性$|^戦争難民|^未婚の娘|^追随者|^寺男|^姫、内親王|^著述家|^農家、園芸|^サンダル職人|^見習い僧|^著作家、著者|^教授、博士|^門番|^代理人、代表者|^見習い、徒弟|^著名人、有名な人|^乞食、物乞い|^女の子$|^スパイ、内部の者|^従者、役人の付き人|^ダンサー、職業舞踊手",
+      "pattern": "日本人|外国人|国民|人口|住民|男の人|女の人|子ども|子供|青年|大人|老人|貴族|庶民|人民|部族|集団|仲間|群衆|人々|人間|未亡人|衆生|凡夫|俗人|見知らぬ人|マネージャー|民族グループ|インド人|初心者|追随者|^男の子|有名人|名士|トラブルメーカー|依頼人|孤児|馬丁|ボクサー|クライアント|^知り合い|カヤー族|赤カレン族|中国人|シャン族|少数民族|異教徒|見習い|^スタッフ|^事務員|^自由人|^国外居住者|^政治難民|^中年の独身男性|^女優|^踊り子|^代理人|^管理職|^独身男性$|^戦争難民|^未婚の娘|^追随者|^寺男|^姫、内親王|^著述家|^農家、園芸|^サンダル職人|^見習い僧|^著作家、著者|^教授、博士|^門番|^代理人、代表者|^見習い、徒弟|^著名人、有名な人|^乞食、物乞い|^女の子$|^スパイ、内部の者|^従者、役人の付き人|^ダンサー、職業舞踊手|^僧侶の求めに応じ、あらゆる世話",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -1368,11 +1368,6 @@
       "reason": "Broken promise is social/legal action rather than personality cue."
     },
     {
-      "medium_id": "05.01",
-      "when": "^僧侶の求めに応じ、あらゆる世話",
-      "reason": "Served monk is recipient, not lexical agent."
-    },
-    {
       "medium_id": "06.02",
       "when": "^酒造り用の酵母",
       "reason": "Yeast is substance for beverage, not beverage."
@@ -1428,11 +1423,6 @@
       "reason": "Vehicle components and maker are not trips."
     },
     {
-      "medium_id": "11.04",
-      "when": "^通信機器",
-      "reason": "Communication equipment more specific than generic technology."
-    },
-    {
       "medium_id": "12.01",
       "when": "^僧侶の求めに応じ、あらゆる世話|^涅槃堂",
       "reason": "Religious modifiers of people or building, hold context if competing."
@@ -1461,11 +1451,6 @@
       "medium_id": "13.04",
       "when": "^授業中、開講期間",
       "reason": "Course is contextual to temporal phrase."
-    },
-    {
-      "medium_id": "14.01",
-      "when": "^授業中、開講期間|^休暇許可、公休",
-      "reason": "School or leave time denotation ambiguous; hold other cues conservatively."
     },
     {
       "medium_id": "14.02",
@@ -1596,6 +1581,21 @@
       "medium_id": "11.02",
       "when": "^ノミを叩くための小さな木槌",
       "reason": "The tool is not manufacturing"
+    },
+    {
+      "medium_id": "14.01",
+      "when": "^休暇許可、公休",
+      "reason": "Leave permission has legal/administrative ambiguity."
+    },
+    {
+      "medium_id": "05.04",
+      "when": "^僧侶の求めに応じ、あらゆる世話",
+      "reason": "Head is attendant/person, not courtesy action."
+    },
+    {
+      "medium_id": "13.03",
+      "when": "^写真家$",
+      "reason": "Photographer is occupation, not report/news entity."
     }
   ],
   "tag_rules": [
