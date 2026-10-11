@@ -3,26 +3,26 @@
   "status": "provisional",
   "taxonomy": "study-taxonomy-v1.json",
   "scope": "pilot-1 rank 5481-6480 first 1000 entries",
-  "rule_basis": "literal Japanese definition cues; NOT linguistically approved categories or senses",
+  "rule_basis": "literal Japanese definition cues; NOT linguistically approved categories or senses; one-character and high-recall low-precision cues excluded; remove etymological parentheses before matching",
   "conflict_policy": "Do not select primary when multiple category rules match; abstain and preserve alternatives. Semicolon clauses are segmentation candidates only.",
   "prohibited": "No writing source cards, no changes to IDs, no historic progress, no silent synonym/sense merging",
   "rules": [
     {
       "id": "sem-01.01",
       "medium_id": "01.01",
-      "pattern": "砂漠|山脈|山頂|山腹|崖|峡谷|地形|大地|土壌|岩石|岩壁|小石|土砂|斜面|谷底|地層|山間",
+      "pattern": "砂漠|山脈|山頂|山腹|峡谷|地形|大地|土壌|岩石|岩壁|小石|土砂|斜面|谷底|地層|山間",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-01.02",
       "medium_id": "01.02",
-      "pattern": "河川|河口|小川|大河|渓流|海岸|海辺|砂浜|水源|水流|池|湖|沼|滝|泉|潮|海水|塩泉",
+      "pattern": "河川|河口|小川|大河|渓流|海岸|海辺|砂浜|水源|水流|海水|塩泉",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-01.03",
       "medium_id": "01.03",
-      "pattern": "雨季|乾季|降雨|雨が|雨の|雨風|暴風|台風|霜|吹雪|気温|寒さ|暑さ|天候|気候|季節|霧|雲|干ばつ",
+      "pattern": "雨季|乾季|降雨|雨が|雨の|雨風|暴風|台風|吹雪|気温|寒さ|暑さ|天候|気候|季節|干ばつ",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -34,13 +34,13 @@
     {
       "id": "sem-02.01",
       "medium_id": "02.01",
-      "pattern": "ラクダ|ウズラ|スズメバチ|ヒキガエル|アオヘビ|ヘビ|小エビ|イカ|カエル|トカゲ|イノシシ|野鳥|鳥類|昆虫|ダニ|アリ|ハチ|サル|タヌキ|ヤギ|ウマ|ヒツジ|ゾウ|象|牛|馬|犬|猫|魚|鳥|獣|虫",
+      "pattern": "ラクダ|ウズラ|スズメバチ|ヒキガエル|アオヘビ|ヘビ|小エビ|イカ|カエル|トカゲ|イノシシ|野鳥|鳥類|昆虫|ダニ|アリ|ハチ|サル|タヌキ|ヤギ|ウマ|ヒツジ|ゾウ",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-02.02",
       "medium_id": "02.02",
-      "pattern": "ハマオモト|シダ|バナナ|チャンパカ|金鳳木|野草|草木|樹木|植物|花弁|花びら|花粉|球根|葉を|葉が|根っこ|木の枝|木の葉|枝分かれ|竹|草|花|木",
+      "pattern": "ハマオモト|シダ|バナナ|チャンパカ|金鳳木|野草|草木|樹木|植物|花弁|花びら|花粉|球根|葉を|葉が|根っこ|木の枝|木の葉",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -58,7 +58,7 @@
     {
       "id": "sem-03.01",
       "medium_id": "03.01",
-      "pattern": "骨盤|口腔|口蓋|尾てい骨|手首|太もも|胸骨|臼歯|後頭部|襟足|乳房|腎臓|内臓|背骨|唇|舌|腰|肩|膝|肘|爪|歯|額|骨|血|腕|指|髪|皮膚|体の内部|喉|胃",
+      "pattern": "骨盤|口腔|口蓋|尾てい骨|手首|太もも|胸骨|臼歯|後頭部|襟足|乳房|腎臓|内臓|背骨|体の内部",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -70,7 +70,7 @@
     {
       "id": "sem-03.03",
       "medium_id": "03.03",
-      "pattern": "病気|病んだ|痛み|痛む|頭痛|腰痛|発疹|梅毒|性病|麻痺|痺れ|痺れる|病状|かゆ|痒|腫れ|腫れる|膿瘍|怪我|負傷|治癒",
+      "pattern": "病気|病んだ|痛み|痛む|頭痛|腰痛|発疹|梅毒|性病|麻痺|痺れ|痺れる|病状|かゆ|腫れ|腫れる|膿瘍|怪我|負傷|治癒",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -118,7 +118,7 @@
     {
       "id": "sem-05.02",
       "medium_id": "05.02",
-      "pattern": "父親|母親|父母|兄弟|姉妹|親族|家族|息子|娘|妻|夫|祖父|祖母|叔父|叔母|相続人",
+      "pattern": "父親|母親|父母|兄弟|姉妹|親族|家族|息子|祖父|祖母|叔父|叔母|相続人",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -136,13 +136,13 @@
     {
       "id": "sem-06.01",
       "medium_id": "06.01",
-      "pattern": "ジャスミンライス|赤米|香り米|炒り米|春雨|ヴェルミチェッリ|ブラン・マンジェ|料理|調理済|ご飯|食事|食材|菓子|パン|野菜|肉|穀物|果実|ラード|餅|小麦|米",
+      "pattern": "ジャスミンライス|赤米|香り米|炒り米|春雨|ヴェルミチェッリ|ブラン・マンジェ|料理|調理済|ご飯|食事|食材|菓子|パン|野菜|穀物|果実|ラード|小麦",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-06.02",
       "medium_id": "06.02",
-      "pattern": "飲料|飲み物|酒|ジュース|茶|コーヒー|牛乳",
+      "pattern": "飲料|飲み物|ジュース|コーヒー|牛乳",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -154,7 +154,7 @@
     {
       "id": "sem-06.04",
       "medium_id": "06.04",
-      "pattern": "食べる|食べ過ぎ|食事する|飲む|食べない|食欲|空腹|食する|飲食|断食",
+      "pattern": "食べる|食べ過ぎ|食事する|飲む|食べない|空腹|食する|飲食|断食",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -166,7 +166,7 @@
     {
       "id": "sem-07.01",
       "medium_id": "07.01",
-      "pattern": "衣服|衣類|ズボン|スカート|上着|下着|帽子|靴下|靴|装身具|首飾り|ネックレス|指輪|耳飾り",
+      "pattern": "衣服|衣類|ズボン|スカート|上着|下着|帽子|靴下|装身具|首飾り|ネックレス|指輪|耳飾り",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -190,13 +190,13 @@
     {
       "id": "sem-08.01",
       "medium_id": "08.01",
-      "pattern": "家屋|住宅|住居|部屋|天井|屋根|床板|柱|壁|建物|玄関|窓|家を建|台所|階段|居住区|僧院の本堂",
+      "pattern": "家屋|住宅|住居|部屋|天井|屋根|床板|建物|玄関|家を建|台所|階段|居住区|僧院の本堂",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-08.02",
       "medium_id": "08.02",
-      "pattern": "ベビーベッド|ベッド|椅子|机|棚|かご|コップ|壺|容器|寝具|食器|箸|皿|鍋|家具|生活用品",
+      "pattern": "ベビーベッド|ベッド|椅子|かご|コップ|容器|寝具|食器|家具|生活用品",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -208,19 +208,19 @@
     {
       "id": "sem-08.04",
       "medium_id": "08.04",
-      "pattern": "日常|毎日|暮らし|生活習慣|生活する|日課",
+      "pattern": "日常|暮らし|生活習慣|生活する|日課",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-09.01",
       "medium_id": "09.01",
-      "pattern": "会社|組織|団体|法人|理事長|幹事|書記|総裁|組合|委員会|会議",
+      "pattern": "組織|団体|法人|理事長|幹事|書記|総裁|組合|委員会|会議",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-09.02",
       "medium_id": "09.02",
-      "pattern": "統治者|統治する|国を統治|王族|皇帝|王|政治|政権|国家|選挙|行政|政府|大臣|領主",
+      "pattern": "統治者|統治する|国を統治|王族|皇帝|政治|政権|国家|選挙|行政|政府|大臣|領主",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -238,7 +238,7 @@
     {
       "id": "sem-09.05",
       "medium_id": "09.05",
-      "pattern": "中国|イギリス|日本|タイ王国|ミャンマー|地名|国名|都市名|シャン州",
+      "pattern": "地名|国名|都市名|シャン州",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -250,7 +250,7 @@
     {
       "id": "sem-10.02",
       "medium_id": "10.02",
-      "pattern": "農作物|農業|農耕|耕す|農具|収穫|落ち穂|田畑|田植|稲作|鍬|犂|綿繰り|綿の種|畑|農場|養蚕|伐採",
+      "pattern": "農作物|農業|農耕|耕す|農具|収穫|落ち穂|田畑|田植|稲作|綿繰り|綿の種|農場|養蚕|伐採",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -274,19 +274,19 @@
     {
       "id": "sem-11.02",
       "medium_id": "11.02",
-      "pattern": "石切り|加工|建設|建築|切断|編む|編まれ|鍛冶|細工|磨く|釘|金属|木材|材料|製造",
+      "pattern": "石切り|加工|建設|建築|切断|編む|編まれ|鍛冶|細工|磨く|金属|木材|材料|製造",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-11.03",
       "medium_id": "11.03",
-      "pattern": "自動車|車両|車|船|オール|櫂|船長|交通|運搬|運ぶ|背負|輸送|行ったり来たり|道路|道を作る|ルート|逃げる",
+      "pattern": "自動車|車両|オール|船長|交通|運搬|運ぶ|背負|輸送|行ったり来たり|道路|道を作る|ルート",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-11.04",
       "medium_id": "11.04",
-      "pattern": "コンピューター|計算機|携帯電話|電話機|通信|電子|インターネット|メディア|電波",
+      "pattern": "コンピューター|計算機|携帯電話|電話機|通信|電子|インターネット|電波",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -298,7 +298,7 @@
     {
       "id": "sem-12.01",
       "medium_id": "12.01",
-      "pattern": "仏教|僧正|僧侶|僧院|安居|自恣|祈願|呪文|宗教|信仰|功徳|護符|神仏|神殿|寺院|精霊|転輪聖王|天界|地獄|来世|輪廻|断食",
+      "pattern": "仏教|僧正|僧侶|僧院|安居|自恣|祈願|呪文|宗教|信仰|功徳|護符|神仏|神殿|寺院|精霊|転輪聖王|天界|地獄|来世|輪廻",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -310,7 +310,7 @@
     {
       "id": "sem-12.03",
       "medium_id": "12.03",
-      "pattern": "楽団|オーケストラ|音楽|楽器|演奏|舞踊|踊る|舞う|芝居|演劇|劇場|美術|絵画|歌",
+      "pattern": "楽団|オーケストラ|音楽|楽器|演奏|舞踊|踊る|舞う|芝居|演劇|劇場|美術|絵画",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -322,7 +322,7 @@
     {
       "id": "sem-12.05",
       "medium_id": "12.05",
-      "pattern": "文法書|物語|小説|詩|文学|作品|詠む|昔話|説話",
+      "pattern": "物語|小説|文学|作品|詠む|昔話|説話",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -346,7 +346,7 @@
     {
       "id": "sem-13.03",
       "medium_id": "13.03",
-      "pattern": "伝言|知らせ|通知|報告|情報|噂|目撃|ニュース|映像|写真|ビデオカメラ|ムービーカメラ",
+      "pattern": "伝言|知らせ|通知|報告|情報|目撃|ニュース|映像|写真|ビデオカメラ|ムービーカメラ",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -358,43 +358,43 @@
     {
       "id": "sem-13.05",
       "medium_id": "13.05",
-      "pattern": "シャン語|ビルマ語|タイ語|パーリ語|方言|言語名|言語変種",
+      "pattern": "方言|言語名|言語変種",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-14.01",
       "medium_id": "14.01",
-      "pattern": "一昨日|昨日|今日|明日|時刻表|スケジュール|まもなく|しばらく|間もなく|瞬間|時間|期間|早朝|夜|朝|季節|毎年|月日|今始まった",
+      "pattern": "一昨日|昨日|今日|明日|時刻表|スケジュール|まもなく|しばらく|間もなく|瞬間|時間|期間|早朝|毎年|月日|今始まった",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-14.02",
       "medium_id": "14.02",
-      "pattern": "上下|左右|方向|前後|遠く|近く|隣|境界|位置|場所|空間|東西|北方|南方|奥|端|内側|外側",
+      "pattern": "上下|左右|方向|前後|遠く|近く|境界|位置|場所|空間|東西|北方|南方|内側|外側",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-14.03",
       "medium_id": "14.03",
-      "pattern": "キログラム|メートル|数値|数量|極少量|少量|半分|二倍|何個|何人|数える|量|単位",
+      "pattern": "キログラム|メートル|数値|数量|極少量|少量|半分|二倍|何個|何人|数える|単位",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-14.04",
       "medium_id": "14.04",
-      "pattern": "一番|順番|順序|並ぶ|並んで|列|範囲|配列|密集|最初|最後|同時",
+      "pattern": "一番|順番|順序|並ぶ|並んで|範囲|配列|密集|最初|最後",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-15.01",
       "medium_id": "15.01",
-      "pattern": "平行四辺形|三角形|丸い|四角|細い|太い|大きい|小さい|形|曲がっ|細長|分岐|尖った|突出|凸凹|でこぼこ",
+      "pattern": "平行四辺形|三角形|丸い|四角|細い|太い|大きい|小さい|曲がっ|細長|分岐|尖った|突出|凸凹|でこぼこ",
       "mode": "japanese-core-lexical-cue"
     },
     {
       "id": "sem-15.02",
       "medium_id": "15.02",
-      "pattern": "薄紫色|色|縞|外観|見た目|美しい|容姿端麗|ハンサム|輝き|光沢|きらきら",
+      "pattern": "薄紫色|外観|見た目|美しい|容姿端麗|ハンサム|輝き|光沢|きらきら",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -430,7 +430,7 @@
     {
       "id": "sem-16.04",
       "medium_id": "16.04",
-      "pattern": "所有|所持|保持|持っている|存在|維持|残る|なくなる|ある|無い",
+      "pattern": "所有|所持|保持|持っている|存在|維持|残る|無い",
       "mode": "japanese-core-lexical-cue"
     },
     {
@@ -478,7 +478,7 @@
     {
       "id": "sem-18.01",
       "medium_id": "18.01",
-      "pattern": "原因|理由|目的|条件|結果として|ために|もし",
+      "pattern": "原因|理由|目的|条件|もし",
       "mode": "japanese-core-lexical-cue"
     },
     {
