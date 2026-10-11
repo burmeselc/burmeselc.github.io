@@ -1,0 +1,68 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "batch": 11,
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_files": [
+    {
+      "file": "shan-extra-pack-5.json",
+      "slice_zero_based": [
+        2000,
+        2500
+      ],
+      "count": 500,
+      "rank_span": [
+        15481,
+        15980
+      ]
+    },
+    {
+      "file": "shan-extra-pack-6.json",
+      "slice_zero_based": [
+        0,
+        500
+      ],
+      "count": 500,
+      "rank_span": [
+        15981,
+        16480
+      ]
+    }
+  ],
+  "source_count": 1000,
+  "source_rank_span": [
+    15481,
+    16480
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v11.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "previous_review_manifest": "shan-extra-semantic-review-manifest-v10.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-11a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-11b.json",
+      "count": 500
+    }
+  ],
+  "stats": {
+    "source_count": 1000,
+    "rank_start": 15481,
+    "rank_end": 16480,
+    "primary_provisional": 314,
+    "other": {
+      "no-supported-category-cue": 547,
+      "single-cue-provisional": 314,
+      "ambiguous-multiple-category-cues": 35,
+      "pending-sense-boundary": 104
+    },
+    "semicolon_parents": 104,
+    "segmentation_fragments": 222,
+    "feature_tag_candidates": 22,
+    "field_tag_candidates": 17,
+    "usage_tag_candidates": 0,
+    "semantic_type_candidates": 0
+  },
+  "notes": "Machine-proposal-unverified only; all parent IDs, Shan spellings, original POS and source provenance preserved. No approved senses. Semicolon boundaries do not imply separate lexical senses; all UI/runtime/card total and learning history untouched."
+}
