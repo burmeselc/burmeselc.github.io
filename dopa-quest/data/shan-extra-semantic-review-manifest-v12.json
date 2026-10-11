@@ -1,0 +1,56 @@
+{
+  "schema": "dopa-shan-semantic-review-manifest-v1",
+  "batch": 12,
+  "status": "provisional-do-not-deploy-as-reviewed-cards",
+  "source_files": [
+    {
+      "file": "shan-extra-pack-6.json",
+      "slice_zero_based": [
+        500,
+        1005
+      ],
+      "count": 505,
+      "rank_span": [
+        16481,
+        16985
+      ]
+    }
+  ],
+  "source_count": 505,
+  "source_rank_span": [
+    16481,
+    16985
+  ],
+  "rules_file": "shan-extra-semantic-cue-rules-v12.json",
+  "taxonomy_file": "study-taxonomy-v1.json",
+  "previous_review_manifest": "shan-extra-semantic-review-manifest-v11.json",
+  "parts": [
+    {
+      "file": "shan-extra-semantic-review-12a.json",
+      "count": 500
+    },
+    {
+      "file": "shan-extra-semantic-review-12b.json",
+      "count": 5
+    }
+  ],
+  "stats": {
+    "source_count": 505,
+    "rank_start": 16481,
+    "rank_end": 16985,
+    "primary_provisional": 144,
+    "other": {
+      "no-supported-category-cue": 298,
+      "single-cue-provisional": 144,
+      "ambiguous-multiple-category-cues": 14,
+      "pending-sense-boundary": 49
+    },
+    "semicolon_parents": 49,
+    "segmentation_fragments": 113,
+    "feature_tag_candidates": 8,
+    "field_tag_candidates": 4,
+    "usage_tag_candidates": 0,
+    "semantic_type_candidates": 1
+  },
+  "notes": "Final 505 source parents. All unverified machine proposals, no approved sense IDs. Segmented texts are only hypotheses. Existing cards, history, 16,985 total and runtime untouched."
+}
