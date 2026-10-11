@@ -1,0 +1,69 @@
+{
+  "schema": "dopa-shan-extra-multiple-review-manifest-v1",
+  "source_head": "ce642c2512b99e4c5ab364cc5da835fe818cb07a",
+  "status": "editorial-triage-not-approved-not-deployed",
+  "total_source_parents": 11505,
+  "conflict_count": 637,
+  "extracted_unique_parent_ids": 637,
+  "triaged_single_category_proposals": 62,
+  "held_for_lexical_review": 575,
+  "other_groups_unchanged": {
+    "single_category_published_provisionally": 4359,
+    "semicolon_boundary_held": 983,
+    "no_supported_category_cue": 5526
+  },
+  "parts": [
+    {
+      "file": "shan-extra-multiple-review-1-3.json",
+      "source_batched": [
+        1,
+        2,
+        3
+      ],
+      "count": 337,
+      "triaged_proposals": 27,
+      "pending": 310
+    },
+    {
+      "file": "shan-extra-multiple-review-4-6.json",
+      "source_batched": [
+        4,
+        5,
+        6
+      ],
+      "count": 118,
+      "triaged_proposals": 13,
+      "pending": 105
+    },
+    {
+      "file": "shan-extra-multiple-review-7-9.json",
+      "source_batched": [
+        7,
+        8,
+        9
+      ],
+      "count": 100,
+      "triaged_proposals": 12,
+      "pending": 88
+    },
+    {
+      "file": "shan-extra-multiple-review-10-12.json",
+      "source_batched": [
+        10,
+        11,
+        12
+      ],
+      "count": 82,
+      "triaged_proposals": 10,
+      "pending": 72
+    }
+  ],
+  "invariants": [
+    "Not a validated part of speech or lexicographic sense",
+    "No independent sense_id, no approved sense, no existing deck mutation",
+    "Provisional 62 cases require lexical confirmation before any public delta",
+    "Remaining 575 are held, not silently assigned to categories",
+    "Keep original rank, shan script, gloss, source record ID and candidate evidence"
+  ],
+  "next": "Continue reviewing held 575 in larger batches. When all 637 have been considered, release only justified proposals through separate guarded PR after CI and browser testing."
+}
