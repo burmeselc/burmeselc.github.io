@@ -173,7 +173,14 @@
  $('flashRatings').querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>rate(btn.dataset.flashRating)));
  ['flashScope','flashDirection','flashCount','flashNewLimit','flashReviewLimit','flashCollection'].forEach(id=>
   $(id).addEventListener('change',updateAvailability));
- root.addEventListener('dopa-profile-restored',()=>{returnToVocabulary=false;exit();const f=api.flashcardContext().flashcards;
+ root.addEventListener('dopa-profile-restored',()=>{
+  // Cloud/LOAD can restore while Home or Settings is open. Calling exit()
+  // unconditionally makes the legacy quest setup visible on top of those views.
+  if(!panels.flash.classList.contains('hidden')){
+   returnToVocabulary=false;
+   exit();
+  }
+  const f=api.flashcardContext().flashcards;
   $('flashNewLimit').value=String(f.settings.newPerDay);
   $('flashReviewLimit').value=String(f.settings.reviewPerDay)});
  root.DOPA_FLASH_UI={open,exit,showConfig};
