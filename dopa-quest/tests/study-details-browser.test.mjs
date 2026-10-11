@@ -4,6 +4,8 @@ import {chromium} from 'playwright';
 const BASE=process.env.DOPA_TEST_URL||'http://127.0.0.1:8123/dopa-quest/';
 async function ready(page){
  await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
  await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
 }
 for(const lang of ['burmese','shan'])for(const dir of ['toJP','fromJP'])test(lang+' medium + tag four choices '+dir,async()=>{
@@ -38,7 +40,9 @@ for(const lang of ['burmese','shan'])for(const dir of ['toJP','fromJP'])test(lan
   const saved=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
   assert.ok(Object.keys(saved.words).length>=1);
   assert.ok(Object.keys(saved.words).every(id=>id.startsWith(lang==='shan'?'shn:':'bur:')));
-  await page.reload();await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
+  await page.reload();
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   assert.equal(await page.locator('#semanticMedium').inputValue(),'all');
   assert.equal(await page.evaluate(()=>window.DOPA_SYNC_API.snapshot().totalQ),saved.totalQ);
   assert.deepEqual(errors,[]);
