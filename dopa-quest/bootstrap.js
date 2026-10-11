@@ -330,16 +330,34 @@
           }
         }
       }
-      // Extend the 5,932 previous editorial annotations with 1,500 source-
-      // preserving general review states.  Missing or invalid data is optional.
+      // Each optional 1,500/1,026-parent shard extends the previous exact-
+      // source state; network or validation failures preserve previous batches.
       if(semicolon!==null){
-        try{
-          const res=await fetch('./data/shan-extra-general-review-batch1-v1.json',{cache:'no-cache'});
-          if(!res.ok)throw Error('general-review HTTP '+res.status);
-          const generalReview=await res.json();
-          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(
-            baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65,semicolon,generalReview);
-        }catch(e){console.warn('General 1,500-card review unavailable; previous annotations retained',e)}
+        const general=[];
+        for(let i=1;i<=4;i++){
+          try{
+            const res=await fetch('./data/shan-extra-general-review-batch'+i+'-v1.json',{cache:'no-cache'});
+            if(!res.ok)throw Error('general-review '+i+' HTTP '+res.status);
+            const next=await res.json();
+            const joined=[...general,next];
+            const extended=window.DOPAExtraProvisional.attach(
+              baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65,semicolon,joined);
+            general.push(next);
+            window.DOPA_DETAIL=extended;
+          }catch(e){
+            console.warn('General Shan review shard '+i+' unavailable; preserving earlier annotations',e);
+            break;
+          }
+        }
+        if(general.length===4){
+          try{
+            const res=await fetch('./data/shan-extra-held47-review-v1.json',{cache:'no-cache'});
+            if(!res.ok)throw Error('held47 HTTP '+res.status);
+            window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(
+              baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65,semicolon,
+              general,await res.json());
+          }catch(e){console.warn('47 held Shan cases unavailable; general review remains accessible',e)}
+        }
       }
     }catch(e){console.warn('Unverified extra Shan categories unavailable; normal play unaffected',e)}
 
