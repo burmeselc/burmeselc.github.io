@@ -8,6 +8,21 @@
   flash:$('flashcardPanel'),config:$('flashConfig'),stage:$('flashStage'),
   finished:$('flashFinished')};
  let session=null,flipped=false,current=null,ratingsLocked=false,returnToVocabulary=false;
+ // Device-only UI preferences. Never write these controls into SRS or cloud profiles.
+ const PREF_KEY='dopa-card-ui-prefs-v1';
+ function readPrefs(){
+  try{const p=JSON.parse(localStorage.getItem(PREF_KEY)||'{}');return p&&typeof p==='object'?p:{}}catch{return {}}
+ }
+ function savePrefs(){
+  try{localStorage.setItem(PREF_KEY,JSON.stringify({
+   scope:$('flashScope').value,direction:$('flashDirection').value,
+   collection:$('flashCollection').value,count:$('flashCount').value
+  }))}catch(e){console.warn('Flashcard UI preferences unavailable',e)}
+ }
+ function selectIfAvailable(id,value){
+  const el=$(id);
+  if(typeof value==='string'&&[...el.options].some(option=>option.value===value))el.value=value;
+ }
  const original=(x,lang)=>String(lang==='shan'?x.shan:x.burmese||'');
  const japanese=x=>String(x.japanese_core||x.japanese||x.english||'');
  const makeOptions=()=>{
@@ -64,12 +79,15 @@
   if(root.DOPA_VOCAB_UI&&returnToVocabulary)$('vocabPanel').classList.add('hidden');
   panels.setup.classList.add('hidden');panels.profile.classList.add('hidden');
   panels.result.classList.add('hidden');panels.flash.classList.remove('hidden');
-  const f=api.flashcardContext().flashcards;
+  const f=api.flashcardContext().flashcards,prefs=readPrefs();
   $('flashDirection').value=f.settings.defaultDirection;
+  selectIfAvailable('flashDirection',prefs.direction);
   $('flashNewLimit').value=String(f.settings.newPerDay);
   $('flashReviewLimit').value=String(f.settings.reviewPerDay);
   $('flashScope').value='due';
-  refreshCollections(options.collection||'filtered');
+  selectIfAvailable('flashScope',prefs.scope);
+  selectIfAvailable('flashCount',prefs.count);
+  refreshCollections(options.collection||prefs.collection||'filtered');
   showConfig();
   if(!candidates().length){$('flashScope').value='new';updateAvailability()}
   panels.flash.scrollIntoView({block:'start'});
@@ -172,7 +190,10 @@
  $('flashReveal').addEventListener('click',flip);
  $('flashRatings').querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>rate(btn.dataset.flashRating)));
  ['flashScope','flashDirection','flashCount','flashNewLimit','flashReviewLimit','flashCollection'].forEach(id=>
-  $(id).addEventListener('change',updateAvailability));
+  $(id).addEventListener('change',()=>{
+   if(['flashScope','flashDirection','flashCount','flashCollection'].includes(id))savePrefs();
+   updateAvailability();
+  }));
  root.addEventListener('dopa-profile-restored',()=>{
   // Cloud/LOAD can restore while Home or Settings is open. Calling exit()
   // unconditionally makes the legacy quest setup visible on top of those views.
