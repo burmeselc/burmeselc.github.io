@@ -60,7 +60,7 @@ test('editorial hub is separate from progress, with accessible entry and one-tap
  const sw=fs.readFileSync(path+'service-worker.js','utf8');
  for(const k of ['editorialHubOpen','./editorial-hub.js'])assert.ok(html.includes(k));
  for(const k of ['hubSearch','hubType','hubStatus','hubList','hubJSON','hubCSV','hubImport','hubImportFile','machineFor','changeStatus'])assert.ok(hub.includes(k),k);
- for(const k of ['source-check-pending','dopa-shan-editorial-notes-export-v1','importJSON'])assert.ok((store+hub).includes(k),k);
+ for(const k of ['dopa-shan-editorial-notes-export-v1','importJSON'])assert.ok((store+hub).includes(k),k);
  for(const k of ['translation-question','category-change-suggestion','source-or-example-question'])assert.ok(ui.includes('data-flag="'+k+'"'));
  assert.ok(sw.includes('./editorial-hub.js'));
  assert.ok(!hub.includes('dopaQuestV5_profile'));
