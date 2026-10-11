@@ -4,6 +4,8 @@ import {chromium} from 'playwright';
 const BASE=process.env.DOPA_TEST_URL||'http://127.0.0.1:8123/dopa-quest/';
 async function ready(page){
  await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
  await page.waitForFunction(()=>!!window.DOPA_VOCAB_UI&&!!window.DOPA_FLASH_UI&&!!window.DOPA_SYNC_API?.vocabularyContext);
 }
 test('Mobile Shan search → bookmark → custom book → four-rating session → reload',async()=>{
@@ -46,6 +48,8 @@ test('Mobile Shan search → bookmark → custom book → four-rating session �
   await page.locator('#flashExit').click();
   assert.equal(await page.locator('#vocabPanel').isVisible(),true);
   await page.reload();
+  await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_VOCAB_UI);
   snapshot=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
   assert.ok(snapshot.vocabularyLibrary.bookmarks.includes(first));
