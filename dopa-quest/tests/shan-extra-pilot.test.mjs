@@ -8,6 +8,7 @@ const get=name=>JSON.parse(readFileSync(path(name),'utf8'));
 const original=[...get('shan-1.json'),...get('shan-2.json')];
 const pilot=get('shan-extra-pilot-1.json');
 const pack2=get('shan-extra-pack-2.json');
+const pack3=get('shan-extra-pack-3.json');
 const manifest=get('shan-extra-manifest-v1.json');
 const originalIds=new Set(original.map(x=>x.id));
 const originalForms=new Set(original.map(x=>x.shan.normalize('NFC')));
@@ -60,15 +61,43 @@ test('second 2,000-word pack has deterministic new IDs, valid source provenance,
  assert.ok(Math.max(...pack2.map(x=>x.source_row))>19500);
 });
 
+test('third 2,500-word source-gloss pack uses stable noncolliding IDs and original provenance',()=>{
+ assert.equal(pack3.length,2500);
+ validatePack(pack3,8481);
+ const priorIds=new Set([...pilot,...pack2].map(x=>x.id));
+ const priorForms=new Set([...pilot,...pack2].map(x=>x.shan));
+ const rows=new Set();
+ for(const c of pack3){
+  assert.ok(!priorIds.has(c.id),'published card IDs must not be overwritten');
+  assert.ok(!priorForms.has(c.shan),'no duplicate additional Shan headwords');
+  assert.equal(c.id,'shn:anki:'+createHash('sha256')
+   .update('dopa-shan-extra-v2\x00'+c.shan,'utf8').digest('hex').slice(0,16));
+  assert.ok(Number.isInteger(c.source_row)&&c.source_row>0&&c.source_row<=19637);
+  assert.ok(!rows.has(c.source_row),'source lines must remain unique');
+  rows.add(c.source_row);
+  assert.ok(c.source_definition?.length>2);
+  assert.ok(c.game_pos?.length>0);
+  assert.ok(!/[A-Za-z一-鿿]/.test(c.shan));
+  assert.ok(!/\[\[|\[[A-Za-z][^\]]*\]/.test(c.japanese_core));
+ }
+ assert.ok(Math.min(...pack3.map(x=>x.source_row))<100);
+ assert.ok(Math.max(...pack3.map(x=>x.source_row))>19500);
+ assert.equal(new Set([...original,...pilot,...pack2,...pack3].map(x=>x.id)).size,10980);
+});
+
 test('manifest references independently validated optional packs and checks published bytes',()=>{
  assert.equal(manifest.schema,'dopa-shan-extra-packs-v1');
  assert.equal(manifest.base_parent_count,5480);
  assert.deepEqual(manifest.packs.map(p=>[p.file,p.expected_count,p.start_rank,p.end_rank]),[
   ['shan-extra-pilot-1.json',1000,5481,6480],
-  ['shan-extra-pack-2.json',2000,6481,8480]
+  ['shan-extra-pack-2.json',2000,6481,8480],
+  ['shan-extra-pack-3.json',2500,8481,10980]
  ]);
  const checksum=createHash('sha256').update(readFileSync(path('shan-extra-pack-2.json'))).digest('hex');
  assert.equal(checksum,manifest.packs[1].pack_sha256);
+ const thirdChecksum=createHash('sha256').update(readFileSync(path('shan-extra-pack-3.json'))).digest('hex');
+ assert.equal(thirdChecksum,manifest.packs[2].pack_sha256);
+ assert.equal(manifest.packs[2].source_sha256,manifest.packs[1].source_sha256);
  assert.equal(manifest.packs[1].source_sha256,'1aa74d2d3c6cef6535a8f41925eb945a05cd51a6a31244ed525776172aae1bd7');
 });
 
@@ -89,6 +118,7 @@ test('sense inventory, categories, user progress, and offline shell remain indep
  const sw=readFileSync(new URL('../service-worker.js',import.meta.url),'utf8');
  assert.match(sw,/shan-extra-pilot-1\.json/);
  assert.match(sw,/shan-extra-pack-2\.json/);
+ assert.match(sw,/shan-extra-pack-3\.json/);
  assert.match(sw,/shan-extra-manifest-v1\.json/);
  assert.match(sw,/OPTIONAL_PACKS\.map\(path=>cache\.add\(path\)\.catch/);
  assert.match(sw,/learning-stats\.js/);
@@ -120,7 +150,7 @@ test('sampled four-choice alternatives in both directions never collide by Japan
  }
  return checked;
  `);
- const all=[...original,...pilot,...pack2];
- const sampled=[...pilot.filter((_,i)=>i%35===0),...pack2.filter((_,i)=>i%35===0)];
+ const all=[...original,...pilot,...pack2,...pack3];
+ const sampled=[...pilot.filter((_,i)=>i%35===0),...pack2.filter((_,i)=>i%35===0),...pack3.filter((_,i)=>i%35===0)];
  assert.equal(exec(all,sampled),sampled.length*2);
 });
