@@ -5153,8 +5153,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "11",
-    "primary_medium": "11.03",
+    "primary_major": "16",
+    "primary_medium": "16.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -5174,10 +5174,10 @@
     ],
     "category_candidates": [
       {
-        "medium": "11.03",
-        "major": "11",
+        "medium": "16.01",
+        "major": "16",
         "evidence": [
-          "背負"
+          "肩車する"
         ]
       }
     ],
@@ -7053,8 +7053,8 @@
     "pos_source": "形容詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.04",
+    "primary_major": "15",
+    "primary_medium": "15.04",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -7065,10 +7065,10 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "16.04",
-        "major": "16",
+        "medium": "15.04",
+        "major": "15",
         "evidence": [
-          "完全な"
+          "どっちつかずの、不完全な"
         ]
       }
     ],
@@ -7844,8 +7844,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.02",
+    "primary_major": "06",
+    "primary_medium": "06.03",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -7856,10 +7856,10 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "16.02",
-        "major": "16",
+        "medium": "06.03",
+        "major": "06",
         "evidence": [
-          "浸す"
+          "茶を淹れる"
         ]
       }
     ],
@@ -8901,8 +8901,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.03",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -8911,17 +8911,9 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [
-      {
-        "medium": "16.03",
-        "major": "16",
-        "evidence": [
-          "生じる"
-        ]
-      }
-    ],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -17112,8 +17104,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.02",
+    "primary_major": "03",
+    "primary_medium": "03.03",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -17124,10 +17116,10 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "16.02",
-        "major": "16",
+        "medium": "03.03",
+        "major": "03",
         "evidence": [
-          "引く"
+          "足が不自由である"
         ]
       }
     ],
