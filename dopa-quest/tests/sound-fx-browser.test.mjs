@@ -80,7 +80,14 @@ test('one answer cue, separate boss entrance, immediate mute and preserved progr
      const added=await page.evaluate(before=>window.soundCalls.slice(before),before);
      assert.equal(added.length,1);
      if(i===4)assert.equal(added[0],'boss');
-     if(i<4)await page.waitForFunction(()=>document.querySelector('#choices button:not([disabled])'));
+     if(i<4){
+       // Some sessions legitimately require explicit acknowledgement before the
+       // next prompt. Confirm either transition without losing the audio signal.
+       await page.waitForFunction(()=>document.querySelector('#continueBtn')||
+        document.querySelector('#choices button:not([disabled])'));
+       if(await page.locator('#continueBtn').count())await page.locator('#continueBtn').click();
+       await page.locator('#choices button:not([disabled])').first().waitFor();
+     }
    }
    const calls=await page.evaluate(()=>window.soundCalls);
    assert.equal(calls.filter(k=>k==='bossEnter').length,1);
