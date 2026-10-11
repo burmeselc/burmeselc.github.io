@@ -1,0 +1,2426 @@
+{
+  "schema": "dopa-shan-extra-multiple-review-round2-proposals-v1",
+  "source_queue": "shan-extra-multiple-review-7-9.json",
+  "status": "provisional-candidates-not-deployed",
+  "count": 79,
+  "entries": [
+    {
+      "parent_card_id": "shn:anki:3216957fd922fe83",
+      "rank": 11487,
+      "shan": "ၶႃႈၸဝ်ႈ ၽြႃး",
+      "source_gloss": "寺男、パゴダの奉仕者",
+      "source_definition": "\"【名詞】 寺男、パゴダの奉仕者 [pagoda slave,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3667"
+      ],
+      "selected_medium": "12.01",
+      "selected_label": "宗教・信仰・儀礼",
+      "selected_original_cues": [
+        "寺男"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "寺男"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「宗教・信仰・儀礼」に暫定配置（対応手掛かり：寺男）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:be6f3e829f3e4bb5",
+      "rank": 11490,
+      "shan": "ၶႄးၽျႅတ်ႈ",
+      "source_gloss": "消しゴム（語源等：ビルマ語）",
+      "source_definition": "\"【名詞】 消しゴム（語源等：ビルマ語） [eraser, （語源等：Burmese）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3692"
+      ],
+      "selected_medium": "08.02",
+      "selected_label": "家具・生活用品",
+      "selected_original_cues": [
+        "消しゴム"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "13.02",
+          "evidence": [
+            "消しゴム"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「家具・生活用品」に暫定配置（対応手掛かり：消しゴム）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7f733eb96b258e25",
+      "rank": 11571,
+      "shan": "ၸရေးတႅမ်ႈလိၵ်ႈ",
+      "source_gloss": "著述家、作家",
+      "source_definition": "【名詞】 著述家、作家 [writer of books]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4302"
+      ],
+      "selected_medium": "10.01",
+      "selected_label": "仕事・職業・労働",
+      "selected_original_cues": [
+        "著述家"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "著述家"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "evidence": [
+            "著述家"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「仕事・職業・労働」に暫定配置（対応手掛かり：著述家）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:fd65d8b5b4bd5411",
+      "rank": 11577,
+      "shan": "ၸဝ်ႈႁႆႈၸဝ်ႈသူၼ်",
+      "source_gloss": "農家、園芸・畑作の従事者",
+      "source_definition": "\"【名詞】 農家、園芸・畑作の従事者 [owner, cultivator of a garden or upland field, peasants]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4342"
+      ],
+      "selected_medium": "10.01",
+      "selected_label": "仕事・職業・労働",
+      "selected_original_cues": [
+        "農家、園芸"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "農家、園芸"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「仕事・職業・労働」に暫定配置（対応手掛かり：農家、園芸）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:fb197a5ae515c2cc",
+      "rank": 11807,
+      "shan": "သွၼ်သူပ်း",
+      "source_gloss": "口頭で教える、口伝えで覚える",
+      "source_definition": "\"【動詞】 口頭で教える、口伝えで覚える [teach verbally, learn orally]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6081"
+      ],
+      "selected_medium": "13.04",
+      "selected_label": "教育・学習・知識",
+      "selected_original_cues": [
+        "教える"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.02",
+          "evidence": [
+            "覚える"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「教育・学習・知識」に暫定配置（対応手掛かり：教える）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:030adc1b514cca53",
+      "rank": 11875,
+      "shan": "သႃႉလၢမ်း",
+      "source_gloss": "推測する、見積もる、計算する",
+      "source_definition": "\"【動詞】 推測する、見積もる、計算する [guess, estimate, calculate]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6776"
+      ],
+      "selected_medium": "04.02",
+      "selected_label": "認知・記憶・注意",
+      "selected_original_cues": [
+        "推測する"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.05",
+          "evidence": [
+            "見積も"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「認知・記憶・注意」に暫定配置（対応手掛かり：推測する）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:93977d65d4a2f162",
+      "rank": 11945,
+      "shan": "တိူင်းၵပ်း",
+      "source_gloss": "比較する、共に測定する",
+      "source_definition": "\"【動詞】 比較する、共に測定する [compare together, measure together]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7289"
+      ],
+      "selected_medium": "18.02",
+      "selected_label": "同一・差異・対応",
+      "selected_original_cues": [
+        "比較する"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.05",
+          "evidence": [
+            "測定"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「同一・差異・対応」に暫定配置（対応手掛かり：比較する）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:de55a134b440dd5e",
+      "rank": 12005,
+      "shan": "တူၵ်းၶိုင်ႈ",
+      "source_gloss": "中途半端になる、半分終わる（仕事や旅など）",
+      "source_definition": "\"【動詞】 中途半端になる、半分終わる（仕事や旅など） [be half finished (as a piece of work, journey, etc.)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7718"
+      ],
+      "selected_medium": "16.03",
+      "selected_label": "変化・発生・消滅",
+      "selected_original_cues": [
+        "終わる"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.03",
+          "evidence": [
+            "半分"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「変化・発生・消滅」に暫定配置（対応手掛かり：終わる）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a2780015540f1b13",
+      "rank": 12020,
+      "shan": "တူၼ်ႈမၢၵ်ႇၶိူဝ်",
+      "source_gloss": "ナスの苗",
+      "source_definition": "\"【名詞】 ナスの苗 [plant of eggplant]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7826"
+      ],
+      "selected_medium": "02.04",
+      "selected_label": "農林・飼育の生物",
+      "selected_original_cues": [
+        "苗"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "ナスの苗"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「農林・飼育の生物」に暫定配置（対応手掛かり：苗）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ae3fa3d9426431d7",
+      "rank": 12034,
+      "shan": "တေႃႈဝႃႈၼၼ်ၵေႃႈ",
+      "source_gloss": "たとえそうであっても、しかしながら",
+      "source_definition": "\"【接続詞】 たとえそうであっても、しかしながら [conjunction】 although, nevertheless]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7930"
+      ],
+      "selected_medium": "17.04",
+      "selected_label": "接続・談話・焦点",
+      "selected_original_cues": [
+        "たとえそうで"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "17.03",
+          "evidence": [
+            "たとえそうで"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「接続・談話・焦点」に暫定配置（対応手掛かり：たとえそうで）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:16d161c377938ad0",
+      "rank": 12083,
+      "shan": "တၢင်းမၢင်ႈမီး",
+      "source_gloss": "繁栄、富、財産",
+      "source_definition": "\"【名詞】 繁栄、富、財産 [prosperity, riches, wealth]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8316"
+      ],
+      "selected_medium": "10.04",
+      "selected_label": "貨幣・価格・財産",
+      "selected_original_cues": [
+        "財産"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.03",
+          "evidence": [
+            "繁栄"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「貨幣・価格・財産」に暫定配置（対応手掛かり：財産）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:92fd34e1ba059a3d",
+      "rank": 12104,
+      "shan": "တၢၼ်ႉၵိုတ်း",
+      "source_gloss": "止まる、しばらく留まる",
+      "source_definition": "\"【動詞】 止まる、しばらく留まる [stop, remain for a little while]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8466"
+      ],
+      "selected_medium": "16.01",
+      "selected_label": "移動・姿勢",
+      "selected_original_cues": [
+        "止まる"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.01",
+          "evidence": [
+            "しばらく"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「移動・姿勢」に暫定配置（対応手掛かり：止まる）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0d2456984af82653",
+      "rank": 12120,
+      "shan": "တႃၽေႉယႅမ်ႉယႅမ်ႉ",
+      "source_gloss": "まぶたの痛みで頻繁に目を閉じる",
+      "source_definition": "\"【動詞】 まぶたの痛みで頻繁に目を閉じる [close the eyes often on account of soreness of the eyelids]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8585"
+      ],
+      "selected_medium": "03.03",
+      "selected_label": "症状・病気・障害",
+      "selected_original_cues": [
+        "痛み"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.03",
+          "evidence": [
+            "閉じる"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「症状・病気・障害」に暫定配置（対応手掛かり：痛み）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4fc0ce44d2723301",
+      "rank": 12192,
+      "shan": "ထူဝ်ႇယႅမ်း",
+      "source_gloss": "ひよこ豆の一種",
+      "source_definition": "【名詞】 ひよこ豆の一種 [a variety of chick peas]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9129"
+      ],
+      "selected_medium": "06.01",
+      "selected_label": "食材・料理",
+      "selected_original_cues": [
+        "ひよこ豆"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "ひよこ豆"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「食材・料理」に暫定配置（対応手掛かり：ひよこ豆）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:4d0ff14699770340",
+      "rank": 12200,
+      "shan": "ထေႃယႄး",
+      "source_gloss": "心地よく説得力のある口調で話す",
+      "source_definition": "【動詞】 心地よく説得力のある口調で話す [speak in pleasant persuasive tones]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9177"
+      ],
+      "selected_medium": "13.01",
+      "selected_label": "発話・対話",
+      "selected_original_cues": [
+        "話す"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.04",
+          "evidence": [
+            "説得"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「発話・対話」に暫定配置（対応手掛かり：話す）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:defe66e0833507b4",
+      "rank": 12362,
+      "shan": "ပိုတ်းၵုၺ်",
+      "source_gloss": "弓の弦で綿を打つ（綿打ち）",
+      "source_definition": "【動詞】 弓の弦で綿を打つ（綿打ち） [dress cotton with a bowstring]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10510"
+      ],
+      "selected_medium": "16.02",
+      "selected_label": "操作・接触",
+      "selected_original_cues": [
+        "打つ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "綿"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「操作・接触」に暫定配置（対応手掛かり：打つ）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7d709589a3a01a36",
+      "rank": 12375,
+      "shan": "ပိူၵ်ႇၵႅပ်ႇ",
+      "source_gloss": "籾殻、搗いた米の殻",
+      "source_definition": "\"【名詞】 籾殻、搗いた米の殻 [chaff, husks of pounded rice]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10612"
+      ],
+      "selected_medium": "02.02",
+      "selected_label": "植物・菌類",
+      "selected_original_cues": [
+        "籾殻"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.02",
+          "evidence": [
+            "籾"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「植物・菌類」に暫定配置（対応手掛かり：籾殻）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7f5de0379ec96719",
+      "rank": 12413,
+      "shan": "ပူၺ်ႇလၢၼ်ႈ",
+      "source_gloss": "（煮すぎなどで）非常に柔らかい、形が崩れるほど柔らかい",
+      "source_definition": "【動詞】 （煮すぎなどで）非常に柔らかい、形が崩れるほど柔らかい [be very soft and yielding (as over-cooked vegetables)]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:10889"
+      ],
+      "selected_medium": "15.03",
+      "selected_label": "材質・物性・感触",
+      "selected_original_cues": [
+        "柔らか"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.03",
+          "evidence": [
+            "崩れる"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「材質・物性・感触」に暫定配置（対応手掛かり：柔らか）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:750fe3312a65f2f0",
+      "rank": 12437,
+      "shan": "ပဵၼ်လၼ်",
+      "source_gloss": "鼠径（そけい）部に腫瘍ができる、リンパ節が腫れる",
+      "source_definition": "\"【動詞】 鼠径（そけい）部に腫瘍ができる、リンパ節が腫れる [have a tumor in the groins, have swollen glands]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11080"
+      ],
+      "selected_medium": "03.03",
+      "selected_label": "症状・病気・障害",
+      "selected_original_cues": [
+        "腫れ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "03.01",
+          "evidence": [
+            "鼠径部"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「症状・病気・障害」に暫定配置（対応手掛かり：腫れ）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f77a554196705e9b",
+      "rank": 12466,
+      "shan": "ပွႆးၵိၼ်ၶႅၵ်ႇ",
+      "source_gloss": "結婚披露宴、結婚式",
+      "source_definition": "\"【名詞】 結婚披露宴、結婚式 [wedding, wedding ceremony]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11294"
+      ],
+      "selected_medium": "12.02",
+      "selected_label": "慣習・祭礼",
+      "selected_original_cues": [
+        "結婚式"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.03",
+          "evidence": [
+            "結婚"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「慣習・祭礼」に暫定配置（対応手掛かり：結婚式）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5459e593dfead50b",
+      "rank": 12491,
+      "shan": "ပၼ်ငိုၼ်းထႆႇ",
+      "source_gloss": "身代金を払う、買い戻す",
+      "source_definition": "\"【動詞】 身代金を払う、買い戻す [give money in order to redeem something, pay ransom money]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11500"
+      ],
+      "selected_medium": "10.04",
+      "selected_label": "貨幣・価格・財産",
+      "selected_original_cues": [
+        "身代金を払う"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.04",
+          "evidence": [
+            "身代金を払う"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「貨幣・価格・財産」に暫定配置（対応手掛かり：身代金を払う）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:de874bef735b8041",
+      "rank": 12495,
+      "shan": "ပၼ်ၺၢၼ်ႇ",
+      "source_gloss": "助言する、案を出す",
+      "source_definition": "\"【動詞】 助言する、案を出す [suggest an idea or plan]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11522"
+      ],
+      "selected_medium": "13.04",
+      "selected_label": "教育・学習・知識",
+      "selected_original_cues": [
+        "助言する"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.02",
+          "evidence": [
+            "助言する"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「教育・学習・知識」に暫定配置（対応手掛かり：助言する）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2247533e3573e8d6",
+      "rank": 12517,
+      "shan": "ပႃႇမွၵ်ႉၶႃႉ",
+      "source_gloss": "教授、博士",
+      "source_definition": "\"【名詞】 教授、博士 [teacher at a university, professor; person with a doctorate degree （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11668"
+      ],
+      "selected_medium": "13.04",
+      "selected_label": "教育・学習・知識",
+      "selected_original_cues": [
+        "教授、博士"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "教授、博士"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "evidence": [
+            "教授、博士"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「教育・学習・知識」に暫定配置（対応手掛かり：教授、博士）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f4ec92e4352042ba",
+      "rank": 12546,
+      "shan": "ၽိုၼ်ႉမိူင်း",
+      "source_gloss": "国や政府に反旗を翻す、叛逆する",
+      "source_definition": "\"【動詞】 国や政府に反旗を翻す、叛逆する [rebel, revolt against one's country or government]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11915"
+      ],
+      "selected_medium": "09.04",
+      "selected_label": "治安・紛争・軍事",
+      "selected_original_cues": [
+        "国や政府に反旗を翻す"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.02",
+          "evidence": [
+            "政府"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「治安・紛争・軍事」に暫定配置（対応手掛かり：国や政府に反旗を翻す）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aeb195a167deac36",
+      "rank": 12579,
+      "shan": "ၽူႈတႅမ်ႈပပ်ႉ",
+      "source_gloss": "著作家、著者",
+      "source_definition": "\"【名詞】 著作家、著者 [writer of books, author]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12153"
+      ],
+      "selected_medium": "10.01",
+      "selected_label": "仕事・職業・労働",
+      "selected_original_cues": [
+        "著作家、著者"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "著作家、著者"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「仕事・職業・労働」に暫定配置（対応手掛かり：著作家、著者）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f2e2d6c60c092f0e",
+      "rank": 12610,
+      "shan": "ၽၵ်းမီႇ",
+      "source_gloss": "玉ねぎ",
+      "source_definition": "\"【名詞】 玉ねぎ [onions]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12426"
+      ],
+      "selected_medium": "02.02",
+      "selected_label": "植物・菌類",
+      "selected_original_cues": [
+        "玉ねぎ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "06.01",
+          "evidence": [
+            "玉ねぎ"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「植物・菌類」に暫定配置（対応手掛かり：玉ねぎ）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:29a460153e299217",
+      "rank": 12616,
+      "shan": "ၽၼ်းႁႆႈ",
+      "source_gloss": "焼畑農業のために木や藪を切り開く",
+      "source_definition": "\"【動詞】 焼畑農業のために木や藪を切り開く [clear land of trees or brushwood for hill farming]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12464"
+      ],
+      "selected_medium": "10.02",
+      "selected_label": "農林水産・生産",
+      "selected_original_cues": [
+        "焼畑農業のために木や藪を切り開く"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "藪"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「農林水産・生産」に暫定配置（対応手掛かり：焼畑農業のために木や藪を切り開く）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8b8d6b13e29f91c9",
+      "rank": 12642,
+      "shan": "ၽႅတ်ႈႁွႆး",
+      "source_gloss": "定規や線で真っ直ぐな跡をつける",
+      "source_definition": "\"【動詞】 定規や線で真っ直ぐな跡をつける [mark with a straight line by means of a line or rule]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:12642"
+      ],
+      "selected_medium": "11.01",
+      "selected_label": "工具・機械・装置",
+      "selected_original_cues": [
+        "定規"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "15.01",
+          "evidence": [
+            "真っ直ぐ"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「工具・機械・装置」に暫定配置（対応手掛かり：定規）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:d5a5c543487520e2",
+      "rank": 12755,
+      "shan": "မၢတ်ႈပီႈၼွင်ႉ",
+      "source_gloss": "見なす、親族を識別する",
+      "source_definition": "\"【動詞】 見なす、親族を識別する [regard, know one's relatives]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13573"
+      ],
+      "selected_medium": "04.02",
+      "selected_label": "認知・記憶・注意",
+      "selected_original_cues": [
+        "見なす"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.02",
+          "evidence": [
+            "親族"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「認知・記憶・注意」に暫定配置（対応手掛かり：見なす）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:40f491fc0dc906c1",
+      "rank": 12841,
+      "shan": "မႅမ်ႉ",
+      "source_gloss": "縮む、内側に引き込まれる",
+      "source_definition": "\"【動詞】 縮む、内側に引き込まれる [be shrunken, drawn under]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:14135"
+      ],
+      "selected_medium": "16.03",
+      "selected_label": "変化・発生・消滅",
+      "selected_original_cues": [
+        "縮む"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.02",
+          "evidence": [
+            "内側"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "evidence": [
+            "縮む"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「変化・発生・消滅」に暫定配置（対応手掛かり：縮む）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b0a03d8d6a6a78fa",
+      "rank": 12899,
+      "shan": "ယဵဝ်ႈၵၼ်ႈ",
+      "source_gloss": "排尿困難、尿トラブル",
+      "source_definition": "\"【動詞】 排尿困難、尿トラブル [have strangury, urinary problem]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:14625"
+      ],
+      "selected_medium": "03.03",
+      "selected_label": "症状・病気・障害",
+      "selected_original_cues": [
+        "排尿困難"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "03.02",
+          "evidence": [
+            "排尿"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「症状・病気・障害」に暫定配置（対応手掛かり：排尿困難）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5d99828d61053a64",
+      "rank": 13073,
+      "shan": "လွင်ႈသဝ်းၶေႃး",
+      "source_gloss": "独立、自律",
+      "source_definition": "\"【名詞】 独立、自律 [independence, autonomy]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16034"
+      ],
+      "selected_medium": "18.04",
+      "selected_label": "事実・可能性・抽象概念",
+      "selected_original_cues": [
+        "独立"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.04",
+          "evidence": [
+            "独立"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「事実・可能性・抽象概念」に暫定配置（対応手掛かり：独立）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f5d25e7ca07a6704",
+      "rank": 13084,
+      "shan": "လွႆဢုၼ်ႈ",
+      "source_gloss": "樹木のない、丸い頂の山",
+      "source_definition": "【名詞】 樹木のない、丸い頂の山 [round-topped mountain without trees]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16139"
+      ],
+      "selected_medium": "15.01",
+      "selected_label": "形・大きさ・構造",
+      "selected_original_cues": [
+        "丸い"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "樹木"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「形・大きさ・構造」に暫定配置（対応手掛かり：丸い）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:9fe5585bf338e746",
+      "rank": 13128,
+      "shan": "လႃႈၽႃႉလႃႈၽီ",
+      "source_gloss": "（稲植えに関して）時期が遅くなりすぎて雨が降り始めている",
+      "source_definition": "\"【動詞】（稲植えに関して）時期が遅くなりすぎて雨が降り始めている [be so late that rains have come (relating to rice planting)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16476"
+      ],
+      "selected_medium": "14.01",
+      "selected_label": "時間・暦・頻度",
+      "selected_original_cues": [
+        "時期"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "01.03",
+          "evidence": [
+            "雨が"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「時間・暦・頻度」に暫定配置（対応手掛かり：時期）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:80d84ab78bf9ae1f",
+      "rank": 13131,
+      "shan": "လႄႇႁႃၼွၼ်း",
+      "source_gloss": "適切な場所や方法かどうかに関わらず、どこででも眠る",
+      "source_definition": "\"【動詞】 適切な場所や方法かどうかに関わらず、どこででも眠る [sleep at any place or in any manner, whether appropriate or not]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16500"
+      ],
+      "selected_medium": "03.02",
+      "selected_label": "生理・感覚・身体機能",
+      "selected_original_cues": [
+        "眠る"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.02",
+          "evidence": [
+            "場所"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「生理・感覚・身体機能」に暫定配置（対応手掛かり：眠る）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:69c68b6ae888cf43",
+      "rank": 13152,
+      "shan": "ဝိူင်း",
+      "source_gloss": "境界、範囲、制限",
+      "source_definition": "\"【名詞】 境界、範囲、制限 [boundary, limit]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16692"
+      ],
+      "selected_medium": "14.02",
+      "selected_label": "空間・位置・方向",
+      "selected_original_cues": [
+        "境界"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.04",
+          "evidence": [
+            "範囲"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「空間・位置・方向」に暫定配置（対応手掛かり：境界）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:39a64da77177cb14",
+      "rank": 13179,
+      "shan": "ဝဵၵ်ႉသူၼ်",
+      "source_gloss": "庭を鍬で掘る",
+      "source_definition": "\"【動詞】 庭を鍬で掘る [dig in a garden with a hoe]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16881"
+      ],
+      "selected_medium": "10.02",
+      "selected_label": "農林水産・生産",
+      "selected_original_cues": [
+        "庭を鍬で掘る"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.02",
+          "evidence": [
+            "掘る"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「農林水産・生産」に暫定配置（対応手掛かり：庭を鍬で掘る）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ac7f6f2a331b8e70",
+      "rank": 13182,
+      "shan": "ဝွပ်ႈဝႅပ်ႈ",
+      "source_gloss": "かさが減る、縮む",
+      "source_definition": "\"【動詞】 かさが減る、縮む [diminish in size, shrink, become small (as vegetables in cooking)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16902"
+      ],
+      "selected_medium": "16.03",
+      "selected_label": "変化・発生・消滅",
+      "selected_original_cues": [
+        "縮む"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "15.01",
+          "evidence": [
+            "かさが減る、縮む"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「変化・発生・消滅」に暫定配置（対応手掛かり：縮む）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f8217d22c1549767",
+      "rank": 13191,
+      "shan": "ဝႂ်ၶႂၢင်း",
+      "source_gloss": "あらゆる種類の許可証",
+      "source_definition": "\"【名詞】 あらゆる種類の許可証 [any kind of permit]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17127"
+      ],
+      "selected_medium": "09.03",
+      "selected_label": "法・権利・規範",
+      "selected_original_cues": [
+        "許可証"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "17.01",
+          "evidence": [
+            "あらゆる"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「法・権利・規範」に暫定配置（対応手掛かり：許可証）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e144e814332b245e",
+      "rank": 13255,
+      "shan": "ႁူမ်ႈဝႃႈၼၼ်သေၵေႃႈ",
+      "source_gloss": "たとえそうであっても",
+      "source_definition": "\"【接続詞】 たとえそうであっても [although]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17672"
+      ],
+      "selected_medium": "17.04",
+      "selected_label": "接続・談話・焦点",
+      "selected_original_cues": [
+        "たとえそうで"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "17.03",
+          "evidence": [
+            "たとえそうで"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「接続・談話・焦点」に暫定配置（対応手掛かり：たとえそうで）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ab3b46dc964a4530",
+      "rank": 13460,
+      "shan": "ဢၼ်တႅၵ်ႈတၢင်းယႂ်ႇလိုၵ်ႉ",
+      "source_gloss": "容積や容量の尺度、体積の単位",
+      "source_definition": "\"【名詞】 容積や容量の尺度、体積の単位 [measure of bulk and capacity, unit of volume]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:19490"
+      ],
+      "selected_medium": "14.03",
+      "selected_label": "数・数量・単位",
+      "selected_original_cues": [
+        "単位"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.05",
+          "evidence": [
+            "尺度"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「数・数量・単位」に暫定配置（対応手掛かり：単位）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:113dc821e8e734cc",
+      "rank": 13484,
+      "shan": "ၵတီႉဢမ်ႇမီး",
+      "source_gloss": "約束を破る、不誠実である",
+      "source_definition": "\"【動詞】 約束を破る、不誠実である [break a promise or pledge, be faithless]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:22"
+      ],
+      "selected_medium": "05.04",
+      "selected_label": "対人行動・礼節",
+      "selected_original_cues": [
+        "約束を破る"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.03",
+          "evidence": [
+            "約束を破る"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「対人行動・礼節」に暫定配置（対応手掛かり：約束を破る）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f47f71503503098c",
+      "rank": 13491,
+      "shan": "ၵပ်းၵၢမ်း",
+      "source_gloss": "並べて置く、並んでいる",
+      "source_definition": "\"【動詞】 並べて置く、並んでいる [place side by side, be side by side]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:70"
+      ],
+      "selected_medium": "16.02",
+      "selected_label": "操作・接触",
+      "selected_original_cues": [
+        "置く"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.04",
+          "evidence": [
+            "並べて置く"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「操作・接触」に暫定配置（対応手掛かり：置く）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:fa0ffe9af762c382",
+      "rank": 13500,
+      "shan": "ၵမ်းပၢတ်ႈ",
+      "source_gloss": "（編み物の仕切りなどに付ける）細い縁取り、衣類の縁など",
+      "source_definition": "【名詞】 （編み物の仕切りなどに付ける）細い縁取り、衣類の縁など [narrow border which is attached to woven-work partitions, border of a garment, etc.]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:136"
+      ],
+      "selected_medium": "07.01",
+      "selected_label": "衣類・装身具",
+      "selected_original_cues": [
+        "衣類"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "15.01",
+          "evidence": [
+            "細い"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「衣類・装身具」に暫定配置（対応手掛かり：衣類）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:afbcd8b1a6261edc",
+      "rank": 13512,
+      "shan": "ၵဝ်းမႄႈယိင်း",
+      "source_gloss": "女性を口説く、求愛する",
+      "source_definition": "\"【動詞】 女性を口説く、求愛する [persuade a woman, court]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:213"
+      ],
+      "selected_medium": "05.03",
+      "selected_label": "親密・交友関係",
+      "selected_original_cues": [
+        "女性を口説く、求愛する"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.03",
+          "evidence": [
+            "女性を口説く、求愛する"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「親密・交友関係」に暫定配置（対応手掛かり：女性を口説く、求愛する）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ed682fc991608c5f",
+      "rank": 13521,
+      "shan": "ၵိမ်းတွင်း",
+      "source_gloss": "湯沸かし用の真鍮製の容器",
+      "source_definition": "\"【名詞】 湯沸かし用の真鍮製の容器 [brass vessel for heating water]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:274"
+      ],
+      "selected_medium": "08.02",
+      "selected_label": "家具・生活用品",
+      "selected_original_cues": [
+        "湯沸かし用の真鍮製の容器"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.01",
+          "evidence": [
+            "湯沸かし用"
+          ]
+        },
+        {
+          "medium": "11.02",
+          "evidence": [
+            "真鍮"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「家具・生活用品」に暫定配置（対応手掛かり：湯沸かし用の真鍮製の容器）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5c8e59b967e6955c",
+      "rank": 13535,
+      "shan": "ၵိူဝ်သၢႆး",
+      "source_gloss": "粗塩、大粒の塩",
+      "source_definition": "\"【名詞】 粗塩、大粒の塩 [salt in large crystals]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:383"
+      ],
+      "selected_medium": "06.01",
+      "selected_label": "食材・料理",
+      "selected_original_cues": [
+        "粗塩"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "15.03",
+          "evidence": [
+            "粗塩"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「食材・料理」に暫定配置（対応手掛かり：粗塩）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0eb03f23859a17da",
+      "rank": 13553,
+      "shan": "ၵီႈမွၵ်ႇၵီႈၼႄ",
+      "source_gloss": "説明する、解き明かす",
+      "source_definition": "\"【動詞】 説明する、解き明かす [explain, disclose the meaning]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:493"
+      ],
+      "selected_medium": "13.01",
+      "selected_label": "発話・対話",
+      "selected_original_cues": [
+        "説明する、解き明かす"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.02",
+          "evidence": [
+            "説明する"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「発話・対話」に暫定配置（対応手掛かり：説明する、解き明かす）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0346cc355ddf08ba",
+      "rank": 13573,
+      "shan": "ၵူင်ႇၵၢဝ်ၵၢဝ်ၵၢင်ယႂ်း",
+      "source_gloss": "クモの巣を張る",
+      "source_definition": "【動詞】 クモの巣を張る [spin a spider's web]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:631"
+      ],
+      "selected_medium": "02.01",
+      "selected_label": "動物",
+      "selected_original_cues": [
+        "クモの巣を張る"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.03",
+          "evidence": [
+            "クモの巣を張る"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「動物」に暫定配置（対応手掛かり：クモの巣を張る）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8ba152df1c9c2752",
+      "rank": 13577,
+      "shan": "ၵူဝ်ႇၸလႄႇ",
+      "source_gloss": "代理人、代表者（語源：ビルマ語）",
+      "source_definition": "\"【名詞】 代理人、代表者（語源：ビルマ語） [agent, representative, （語源等：Burmese）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:673"
+      ],
+      "selected_medium": "05.01",
+      "selected_label": "人・属性・集団",
+      "selected_original_cues": [
+        "代理人"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.01",
+          "evidence": [
+            "代理人、代表者"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「人・属性・集団」に暫定配置（対応手掛かり：代理人）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:24c724af7fcfecf2",
+      "rank": 13579,
+      "shan": "ၵူၺ်ႁၢပ်ႇ",
+      "source_gloss": "天秤棒で担ぐためのかご",
+      "source_definition": "【名詞】 天秤棒で担ぐためのかご [porter basket]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:688"
+      ],
+      "selected_medium": "08.02",
+      "selected_label": "家具・生活用品",
+      "selected_original_cues": [
+        "天秤棒で担ぐためのかご"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.01",
+          "evidence": [
+            "天秤棒"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「家具・生活用品」に暫定配置（対応手掛かり：天秤棒で担ぐためのかご）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f6673f12a5a6bab6",
+      "rank": 13590,
+      "shan": "ၵူၼ်းၶၢႆၶူဝ်းၸွမ်းတၢင်း",
+      "source_gloss": "露天商、行商人",
+      "source_definition": "\"【名詞】 露天商、行商人 [street seller, hawker]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:755"
+      ],
+      "selected_medium": "10.01",
+      "selected_label": "仕事・職業・労働",
+      "selected_original_cues": [
+        "露天商、行商人"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.03",
+          "evidence": [
+            "露天商、行商人"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「仕事・職業・労働」に暫定配置（対応手掛かり：露天商、行商人）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:196341ed6b076b1e",
+      "rank": 13592,
+      "shan": "ၵူၼ်းၽၢႆႇၼႂ်း",
+      "source_gloss": "スパイ、内部の者",
+      "source_definition": "\"【名詞】 スパイ、内部の者 [spy, also]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:768"
+      ],
+      "selected_medium": "09.04",
+      "selected_label": "治安・紛争・軍事",
+      "selected_original_cues": [
+        "スパイ、内部の者"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "スパイ、内部の者"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「治安・紛争・軍事」に暫定配置（対応手掛かり：スパイ、内部の者）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f34e66555969a089",
+      "rank": 13594,
+      "shan": "ၵူၼ်းၸိုဝ်ႈဢွၵ်ႇသဵင်ဢွၵ်ႇ",
+      "source_gloss": "著名人、有名な人",
+      "source_definition": "\"【名詞】 著名人、有名な人 [celebrated person, noted person]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:780"
+      ],
+      "selected_medium": "05.01",
+      "selected_label": "人・属性・集団",
+      "selected_original_cues": [
+        "著名人、有名な人"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "13.04",
+          "evidence": [
+            "著名人、有名な人"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「人・属性・集団」に暫定配置（対応手掛かり：著名人、有名な人）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:5bc2201d01576b38",
+      "rank": 13595,
+      "shan": "ၵူၼ်းၸၢင်ႈၵႃႈ",
+      "source_gloss": "ダンサー、職業舞踊手",
+      "source_definition": "\"【名詞】 ダンサー、職業舞踊手 [dancer, professional dancer]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:782"
+      ],
+      "selected_medium": "12.03",
+      "selected_label": "音楽・舞踊・美術",
+      "selected_original_cues": [
+        "ダンサー、職業舞踊手"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "ダンサー、職業舞踊手"
+          ]
+        },
+        {
+          "medium": "10.01",
+          "evidence": [
+            "ダンサー、職業舞踊手"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「音楽・舞踊・美術」に暫定配置（対応手掛かり：ダンサー、職業舞踊手）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7f46c05af49ff935",
+      "rank": 13611,
+      "shan": "ၵူၼ်းႁဵတ်းမၢၵ်ႇလေႃႉ",
+      "source_gloss": "車輪製作職人",
+      "source_definition": "【名詞】 車輪製作職人 [wheelwright]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:870"
+      ],
+      "selected_medium": "10.01",
+      "selected_label": "仕事・職業・労働",
+      "selected_original_cues": [
+        "車輪製作職人"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.02",
+          "evidence": [
+            "車輪製作職人"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「仕事・職業・労働」に暫定配置（対応手掛かり：車輪製作職人）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ea3fbd03f3357169",
+      "rank": 13626,
+      "shan": "ၵူၼ်းသွၼ်ၵၢၼ်",
+      "source_gloss": "見習い、徒弟",
+      "source_definition": "\"【名詞】 見習い、徒弟 [person training to do a certain kind of work, apprentice]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:964"
+      ],
+      "selected_medium": "13.04",
+      "selected_label": "教育・学習・知識",
+      "selected_original_cues": [
+        "見習い"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "05.01",
+          "evidence": [
+            "見習い"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「教育・学習・知識」に暫定配置（対応手掛かり：見習い）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b446b1d88a88b5c0",
+      "rank": 13632,
+      "shan": "ၵူၼ်ႇလူမ်ႉ",
+      "source_gloss": "崩れ落ちる、倒れる",
+      "source_definition": "【動詞】 崩れ落ちる、倒れる [fall down, crumble and fall]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1006"
+      ],
+      "selected_medium": "16.03",
+      "selected_label": "変化・発生・消滅",
+      "selected_original_cues": [
+        "倒れる"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.01",
+          "evidence": [
+            "崩れ落ちる"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「変化・発生・消滅」に暫定配置（対応手掛かり：倒れる）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8108424bb913b5db",
+      "rank": 13638,
+      "shan": "ၵေးၸေႇ",
+      "source_gloss": "平たい金属製のゴング（円形または三角形）",
+      "source_definition": "\"【名詞】 平たい金属製のゴング（円形または三角形） [flat metal gong, circular or triangular, see]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1062"
+      ],
+      "selected_medium": "12.03",
+      "selected_label": "音楽・舞踊・美術",
+      "selected_original_cues": [
+        "平たい金属製のゴング"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.02",
+          "evidence": [
+            "金属"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「音楽・舞踊・美術」に暫定配置（対応手掛かり：平たい金属製のゴング）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8278cc94ac980cae",
+      "rank": 13662,
+      "shan": "ၵျၢမ်းၽိင်ႈ",
+      "source_gloss": "慣習法、規則の記録",
+      "source_definition": "【名詞】 慣習法、規則の記録 [record of customs and rules]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1257"
+      ],
+      "selected_medium": "09.03",
+      "selected_label": "法・権利・規範",
+      "selected_original_cues": [
+        "慣習法、規則の記録"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "12.02",
+          "evidence": [
+            "慣習"
+          ]
+        },
+        {
+          "medium": "13.02",
+          "evidence": [
+            "記録"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「法・権利・規範」に暫定配置（対応手掛かり：慣習法、規則の記録）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b8abae25d7d23d88",
+      "rank": 13701,
+      "shan": "ၵွႆႈတႅင်ႇလၢတ်ႈ",
+      "source_gloss": "ゆっくり慎重に話す",
+      "source_definition": "\"【動詞】 ゆっくり慎重に話す [speak slowly and carefully]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1527"
+      ],
+      "selected_medium": "13.01",
+      "selected_label": "発話・対話",
+      "selected_original_cues": [
+        "話す"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.04",
+          "evidence": [
+            "慎重"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「発話・対話」に暫定配置（対応手掛かり：話す）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b61b2ddd8942c1c5",
+      "rank": 13711,
+      "shan": "ၵၢပ်ႈမႂ်ႇပၢၼ်မႂ်ႇ",
+      "source_gloss": "新時代、新紀元、現代",
+      "source_definition": "\"【名詞】 新時代、新紀元、現代 [new period, new era; modern time]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1613"
+      ],
+      "selected_medium": "14.01",
+      "selected_label": "時間・暦・頻度",
+      "selected_original_cues": [
+        "新時代"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "12.06",
+          "evidence": [
+            "新時代"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「時間・暦・頻度」に暫定配置（対応手掛かり：新時代）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e0d6b64767fb2413",
+      "rank": 13771,
+      "shan": "ၵႅပ်ႇၵႄႇ",
+      "source_gloss": "籾殻の粗い部分（製粉時に取り除かれるもの）",
+      "source_definition": "\"【名詞】 籾殻の粗い部分（製粉時に取り除かれるもの） [coarser part of the husks which is rubbed off in the mill]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2050"
+      ],
+      "selected_medium": "02.02",
+      "selected_label": "植物・菌類",
+      "selected_original_cues": [
+        "籾殻"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.02",
+          "evidence": [
+            "籾"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "evidence": [
+            "粗い"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「植物・菌類」に暫定配置（対応手掛かり：籾殻）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:6ce496277f84d4d0",
+      "rank": 13780,
+      "shan": "ၵႅမ်း",
+      "source_gloss": "掴む、保持する",
+      "source_definition": "\"【動詞】 掴む、保持する [take hold of,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2128"
+      ],
+      "selected_medium": "16.02",
+      "selected_label": "操作・接触",
+      "selected_original_cues": [
+        "掴む"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.04",
+          "evidence": [
+            "保持"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「操作・接触」に暫定配置（対応手掛かり：掴む）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3a34166f81301e05",
+      "rank": 13785,
+      "shan": "ၵႅၼ်ႇၶႅၼ်း",
+      "source_gloss": "生活が豊かである、商売が繁盛している",
+      "source_definition": "\"【動詞】 生活が豊かである、商売が繁盛している [be prosperous in life, especially in business]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2169"
+      ],
+      "selected_medium": "10.03",
+      "selected_label": "商取引・市場",
+      "selected_original_cues": [
+        "商売"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "08.04",
+          "evidence": [
+            "生活"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「商取引・市場」に暫定配置（対応手掛かり：商売）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:2e24c724a913add0",
+      "rank": 13849,
+      "shan": "ၶိူင်ႈသႂၢင်းသဵင်",
+      "source_gloss": "録音装置、テープレコーダー",
+      "source_definition": "\"【名詞】 録音装置、テープレコーダー [sound recording device, tape recorder]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2631"
+      ],
+      "selected_medium": "11.01",
+      "selected_label": "工具・機械・装置",
+      "selected_original_cues": [
+        "装置"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "13.03",
+          "evidence": [
+            "録音装置"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「工具・機械・装置」に暫定配置（対応手掛かり：装置）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c638fdd2329f5dbb",
+      "rank": 13871,
+      "shan": "ၶုၵ်ႉၸႂ်လႆႈၶႆႈၸႂ်ထူပ်း",
+      "source_gloss": "思い出し、懐かしみ、恋しく思う",
+      "source_definition": "\"【動詞】 思い出し、懐かしみ、恋しく思う [bring to mind, be nostalgic for, miss and long for,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2793"
+      ],
+      "selected_medium": "04.01",
+      "selected_label": "感情・気分",
+      "selected_original_cues": [
+        "思い出し、懐かしみ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.02",
+          "evidence": [
+            "思い出"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「感情・気分」に暫定配置（対応手掛かり：思い出し、懐かしみ）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:37f23676bbd1bcca",
+      "rank": 14019,
+      "shan": "ငိုၼ်းဝေႃႇ",
+      "source_gloss": "純銀",
+      "source_definition": "\"【名詞】 純銀 [pure silver, also]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3919"
+      ],
+      "selected_medium": "15.03",
+      "selected_label": "材質・物性・感触",
+      "selected_original_cues": [
+        "純銀"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.04",
+          "evidence": [
+            "純銀"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「材質・物性・感触」に暫定配置（対応手掛かり：純銀）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:12688792b40c8821",
+      "rank": 14025,
+      "shan": "ငိူဝ်ႈထူၼ်ႈႁူဝ်",
+      "source_gloss": "極めて愚かな",
+      "source_definition": "\"【形容詞】 極めて愚かな [exceedingly stupid]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3959"
+      ],
+      "selected_medium": "04.02",
+      "selected_label": "認知・記憶・注意",
+      "selected_original_cues": [
+        "愚か"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "15.04",
+          "evidence": [
+            "極めて"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「認知・記憶・注意」に暫定配置（対応手掛かり：愚か）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:249a623de7980310",
+      "rank": 14055,
+      "shan": "ငႃးမူတၼ်",
+      "source_gloss": "お守りとして使われる猪の硬い牙",
+      "source_definition": "【名詞】 お守りとして使われる猪の硬い牙 [solid tusk of boar used as a charm]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4177"
+      ],
+      "selected_medium": "12.01",
+      "selected_label": "宗教・信仰・儀礼",
+      "selected_original_cues": [
+        "お守り"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "03.01",
+          "evidence": [
+            "牙"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「宗教・信仰・儀礼」に暫定配置（対応手掛かり：お守り）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0f877ecc75c60073",
+      "rank": 14058,
+      "shan": "ငႅဝ်",
+      "source_gloss": "怖がる（一人でいる時など）、恐れる、臆病な",
+      "source_definition": "\"【動詞】 怖がる（一人でいる時など）、恐れる、臆病な [fear (as a person alone); have a dread of something, be timid, less than]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4201"
+      ],
+      "selected_medium": "04.01",
+      "selected_label": "感情・気分",
+      "selected_original_cues": [
+        "恐れ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.04",
+          "evidence": [
+            "臆病"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「感情・気分」に暫定配置（対応手掛かり：恐れ）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:de31fd237b62553f",
+      "rank": 14096,
+      "shan": "ၸိူဝ်ႉလဝ်ႈ",
+      "source_gloss": "酒造り用の酵母、ビール酵母、麦芽",
+      "source_definition": "\"【名詞】 酒造り用の酵母、ビール酵母、麦芽 [yeast used in making liquor, brewer's yeast, malt]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4515"
+      ],
+      "selected_medium": "06.03",
+      "selected_label": "調理・保存・包装",
+      "selected_original_cues": [
+        "酒造"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "酵母"
+          ]
+        },
+        {
+          "medium": "06.01",
+          "evidence": [
+            "酵母"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「調理・保存・包装」に暫定配置（対応手掛かり：酒造）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:efcfbbaf69b6b873",
+      "rank": 14337,
+      "shan": "သွင်ႇတၢမ်ႇ",
+      "source_gloss": "罰金・罰則を支払う",
+      "source_definition": "\"【動詞】 罰金・罰則を支払う [pay fine, penalty]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6322"
+      ],
+      "selected_medium": "09.03",
+      "selected_label": "法・権利・規範",
+      "selected_original_cues": [
+        "罰金"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.04",
+          "evidence": [
+            "支払"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「法・権利・規範」に暫定配置（対応手掛かり：罰金）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b8e9a18b69ca9d69",
+      "rank": 14352,
+      "shan": "သၢင်ႇပုင်းလူင်",
+      "source_gloss": "文字の組み合わせ表、綴り字の教科書",
+      "source_definition": "\"【名詞】 文字の組み合わせ表、綴り字の教科書 [combination of the letters of the alphabet, spelling book,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6467"
+      ],
+      "selected_medium": "13.04",
+      "selected_label": "教育・学習・知識",
+      "selected_original_cues": [
+        "教科書"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "13.02",
+          "evidence": [
+            "文字"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「教育・学習・知識」に暫定配置（対応手掛かり：教科書）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e43a704e5caf3d08",
+      "rank": 14374,
+      "shan": "သႃႇသၼႃႇပႅင်ႇ",
+      "source_gloss": "最高位の宗教指導者、法王",
+      "source_definition": "\"【名詞】 最高位の宗教指導者、法王 [pontifex maximus, chief ecclesiastical ruler]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6767"
+      ],
+      "selected_medium": "12.01",
+      "selected_label": "宗教・信仰・儀礼",
+      "selected_original_cues": [
+        "宗教"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.01",
+          "evidence": [
+            "指導者"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「宗教・信仰・儀礼」に暫定配置（対応手掛かり：宗教）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f2ddd9dae0cc2dbc",
+      "rank": 14379,
+      "shan": "သႅင်ႁုင်",
+      "source_gloss": "模造宝石、ペースト",
+      "source_definition": "\"【名詞】 模造宝石、ペースト [paste in imitation of a precious stone]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6807"
+      ],
+      "selected_medium": "11.02",
+      "selected_label": "加工・材料・建設",
+      "selected_original_cues": [
+        "模造宝石"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "15.03",
+          "evidence": [
+            "模造宝石"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「加工・材料・建設」に暫定配置（対応手掛かり：模造宝石）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:ee29802c900619f7",
+      "rank": 14380,
+      "shan": "သႅင်မႁူႇရႃႇလႅင်",
+      "source_gloss": "紅玉髄（カーネリアン）",
+      "source_definition": "\"【名詞】 紅玉髄（カーネリアン） [cornelian]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6818"
+      ],
+      "selected_medium": "15.03",
+      "selected_label": "材質・物性・感触",
+      "selected_original_cues": [
+        "玉髄"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.02",
+          "evidence": [
+            "玉髄"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「材質・物性・感触」に暫定配置（対応手掛かり：玉髄）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7346abefeb6dac08",
+      "rank": 14396,
+      "shan": "ၺၢပ်ႈၵမ်ႉၽဝႃႇ",
+      "source_gloss": "得度式の儀式文を唱える",
+      "source_definition": "【動詞】 得度式の儀式文を唱える [read the service at the consecration of a Buddhist monk]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6932"
+      ],
+      "selected_medium": "12.01",
+      "selected_label": "宗教・信仰・儀礼",
+      "selected_original_cues": [
+        "得度式"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "12.02",
+          "evidence": [
+            "得度式"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「宗教・信仰・儀礼」に暫定配置（対応手掛かり：得度式）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:77d1e8c5ff68c9a5",
+      "rank": 14429,
+      "shan": "တူဝ် တိုင်ႇ",
+      "source_gloss": "昆虫の幼虫",
+      "source_definition": "【名詞】 昆虫の幼虫 [larva of an insect]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:7186"
+      ],
+      "selected_medium": "02.01",
+      "selected_label": "動物",
+      "selected_original_cues": [
+        "昆虫"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.03",
+          "evidence": [
+            "幼虫"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "語義中心を「動物」に暫定配置（対応手掛かり：昆虫）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    }
+  ]
+}
