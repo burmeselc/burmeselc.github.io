@@ -27,6 +27,7 @@ test('single Shan proposals usable in category UI without overwriting parent car
   assert.equal(data.major,'02');
   assert.deepEqual(data.statuses,{'machine-proposal-unverified':4359});
   assert.match(await page.locator('#semanticCategoryNotice').textContent(),/4,359件.*未検証/);
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.locator('#semanticCategory').selectOption('02');
   assert.match(await page.locator('#semanticCategory option:checked').textContent(),/02/);
   await page.locator('#studyDetailControls > summary').click();
