@@ -2,7 +2,7 @@
   "schema": "dopa-shan-extra-multiple-review-round2-proposals-v1",
   "source_queue": "shan-extra-multiple-review-4-6.json",
   "status": "provisional-candidates-not-deployed",
-  "count": 94,
+  "count": 95,
   "entries": [
     {
       "parent_card_id": "shn:anki:5754fa70ec4e636f",
@@ -2770,6 +2770,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "日本語訳の指示対象・中心述語を「空間・位置・方向」に暫定配置（原台帳の根拠語：方向）。修飾情報や他領域との重複を切り離した仮説であり、辞書照合までは未確定。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7ffb2a03d77e7bc2",
+      "rank": 11264,
+      "shan": "ၵႃႈသွမ်ႈ",
+      "source_gloss": "（植え替え用の）苗を育てるために種をまく",
+      "source_definition": "\"【動詞】 （植え替え用の）苗を育てるために種をまく [plant seeds whose sprouts are to be transplanted]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1994"
+      ],
+      "selected_medium": "02.04",
+      "selected_label": "農林・飼育の生物",
+      "selected_original_cues": [
+        "苗"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "苗"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "植え替え用の苗を育てる農業目的の種まきを指すため、植物一般ではなく栽培の意味領域へ暫定配置。原辞書による追認は未了。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
