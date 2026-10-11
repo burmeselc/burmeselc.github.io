@@ -707,8 +707,8 @@
   "pos_source": "動詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -717,17 +717,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.01",
-    "major": "16",
-    "evidence": [
-     "歩く"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -1675,8 +1667,8 @@
   "pos_source": "副詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -1685,17 +1677,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.01",
-    "major": "16",
-    "evidence": [
-     "歩く"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -1712,8 +1696,8 @@
   "pos_source": "副詞",
   "pos_candidate": null,
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -1722,17 +1706,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.01",
-    "major": "16",
-    "evidence": [
-     "歩く"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -8219,7 +8195,7 @@
     "medium": "16.01",
     "major": "16",
     "evidence": [
-     "走る"
+     "^走る"
     ]
    }
   ],
