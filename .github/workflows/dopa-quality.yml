@@ -69,3 +69,11 @@ jobs:
 
       - name: Validate twelfth Shan semantic review batch (505 parents)
         run: python3 -m unittest discover -s dopa-quest/tests -p 'test_shan_extra_semantic_review_batch12.py' -v
+
+      - name: Verify Shan single-category release safety and provenance
+        run: |
+          node --check dopa-quest/shan-extra-provisional.js
+          node --check dopa-quest/bootstrap.js
+          node --check dopa-quest/game.js
+          node --check dopa-quest/vocabulary-ui.js
+          node --test dopa-quest/tests/shan-extra-single-proposals.test.mjs
