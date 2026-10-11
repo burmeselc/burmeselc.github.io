@@ -31,6 +31,12 @@ class LedgerSourceTest(unittest.TestCase):
         self.assertNotEqual(ledger.nfc('A\u200dB'),ledger.nfc('AB'))
         self.assertEqual(ledger.match_gloss('  a   b  '),'a b')
 
+    def test_english_gloss_with_bracketed_pos_label_is_not_japanese(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p=Path(tmp)/'b.csv'
+            p.write_text('1. ၵႂႃႇ, 【動詞】 行く [【verb】 go, travel]\n',encoding='utf-8')
+            self.assertEqual(ledger.parse_anki(p)[0]['japanese_source_candidate'],'行く')
+
     def test_variant_flag_does_not_assume_semantic_identity(self):
         with tempfile.TemporaryDirectory() as tmp:
             p=Path(tmp)/'a.csv'
