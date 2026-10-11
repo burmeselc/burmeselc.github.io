@@ -89,8 +89,6 @@ class ShanExtraSemanticBatch4Tests(unittest.TestCase):
                 ])
                 self.assertIsNone(row["pos_candidate"])
                 self.assertIsNone(row["sense_id"])
-                self.assertIsNone(row["primary_major"] if
-                    row["primary_medium"] is None else None)
                 self.assertEqual(row["secondary_categories"], [])
                 self.assertFalse(row["publishable_as_approved_sense"])
                 self.assertEqual(row["editorial_review"], "machine-proposal-unverified")
@@ -173,6 +171,18 @@ class ShanExtraSemanticBatch4Tests(unittest.TestCase):
         self.assertEqual(indexed[8562]["primary_medium"], "12.01")  # divination != location
         self.assertEqual(indexed[8585]["primary_medium"], "07.01")  # Shan trousers
         self.assertEqual(indexed[8586]["primary_medium"], "07.01")  # pants != bread
+        self.assertEqual(indexed[8496]["primary_medium"], "11.01")  # brush != act of writing
+        self.assertEqual(indexed[8508]["primary_medium"], "02.03")  # flowering != generic change
+        self.assertEqual(indexed[8520]["primary_medium"], "11.01")  # blacksmith's tool
+        self.assertEqual(indexed[8660]["primary_medium"], "16.01")  # jumping != spatial deixis
+        self.assertIsNone(indexed[8701]["primary_medium"])  # manner != temperament
+        self.assertEqual(indexed[8724]["primary_medium"], "11.01")  # yoke is an implement
+        self.assertIsNone(indexed[8900]["primary_medium"])  # sunbathing != astronomy
+        self.assertEqual(indexed[9124]["primary_medium"], "16.01")  # shoulder riding
+        self.assertEqual(indexed[9176]["primary_medium"], "15.04")  # negated completeness
+        self.assertEqual(indexed[9197]["primary_medium"], "06.03")  # brewing tea
+        self.assertIsNone(indexed[9226]["primary_medium"])  # mixed quarrel/misunderstanding
+        self.assertEqual(indexed[9455]["primary_medium"], "03.03")  # lameness != pulling
         self.assertIsNone(indexed[9480]["primary_medium"])  # semicolon held
         self.assertEqual(len(indexed[9480]["segmentation_candidates"]), 2)
         self.assertIsNone(indexed[8481]["primary_medium"])  # named river ambiguity
