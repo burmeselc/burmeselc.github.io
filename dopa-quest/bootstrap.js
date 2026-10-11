@@ -119,8 +119,30 @@
     window.DOPA_DATA.shan_senses=expanded;
     window.DOPA_SENSE_READY=true;
   }catch(e){console.warn('Optional Shan sense lab disabled',e)}
+  // Optional new Shan vocabulary pack. The original 5,480 parents, 7,290 sense
+  // candidates and their category metadata remain intact and keep stable IDs.
+  window.DOPA_EXTRA_READY=false;
+  try{
+    const response=await fetch('./data/shan-extra-pilot-1.json',{cache:'no-cache'});
+    if(!response.ok)throw Error('additional Shan pack HTTP '+response.status);
+    const additions=await response.json();
+    const ids=new Set(window.DOPA_DATA.shan.map(x=>x.id));
+    const forms=new Set(defaults.shan.map(x=>x.shan.normalize('NFC')));
+    if(!Array.isArray(additions)||additions.length!==1000||
+       additions.some(x=>typeof x.id!=='string'||!x.id.startsWith('shn:anki:')||
+        typeof x.shan!=='string'||!x.shan||typeof x.japanese_core!=='string'||
+        !x.japanese_core||x.review_status!=='source-gloss-pilot'||
+        !Number.isInteger(x.rank)||x.rank<5481||ids.has(x.id)||forms.has(x.shan.normalize('NFC')))||
+       new Set(additions.map(x=>x.id)).size!==additions.length||
+       new Set(additions.map(x=>x.shan.normalize('NFC'))).size!==additions.length)
+      throw Error('additional Shan pack integrity check failed');
+    window.DOPA_DATA.shan.push(...additions);
+    window.DOPA_EXTRA_READY=true;
+  }catch(e){
+    console.warn('Optional additional Shan vocabulary unavailable; keeping base deck',e);
+  }
   badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length.toLocaleString()}語 / ビルマ語 ${window.DOPA_DATA.burmese.length.toLocaleString()}語`+
-    (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）');
+    (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）')+(window.DOPA_EXTRA_READY?'（新規1,000語・試験版）':'');
   $('vocabLoad').textContent='デッキを追加・更新';
   $('vocabLoad').onclick=()=>$('vocabFile').click();
   $('vocabFile').onchange=async e=>{

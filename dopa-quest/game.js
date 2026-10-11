@@ -39,7 +39,7 @@ function normalizedGloss(x){return String(jp(x)).normalize('NFKC').replace(/[\s�
 function isUnambiguous(x,l){return (glossLookup[l].get(normalizedGloss(x))||0)===1}
 function pos(x,l){return l==='shan'?(x.game_pos||x.pos||''):(x.game_pos||x.category||x.type_hint||'')}
 function indexOf(x,l){return l==='shan'?Number(x.rank||99999):Number(x.order||99999)}
-function zones(l){if(l==='shan')return[['all','全5,480語',1,5480],['z1','頻度 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–2000',1001,2000],['z6','2001–5480',2001,5480]];return[['all','全2,500語',1,2500],['z1','教材 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–1500',1001,1500],['z6','1501–2500',1501,2500]]}
+function zones(l){if(l==='shan')return[['all','全'+DATA.shan.length.toLocaleString()+'語',1,Number.MAX_SAFE_INTEGER],['z1','頻度 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–2000',1001,2000],['z6','2001–5480',2001,5480],...(DATA.shan.length>5480?[['extra','追加語彙（試験版）',5481,Number.MAX_SAFE_INTEGER]]:[])];return[['all','全2,500語',1,2500],['z1','教材 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–1500',1001,1500],['z6','1501–2500',1501,2500]]}
 const byId = Object.fromEntries([...DATA.shan,...DATA.burmese,...(DATA.shan_senses||[])].map(x=>[x.id,x]));
 const glossLookup={shan:new Map(),burmese:new Map()};
 for(const lang of ['shan','burmese'])for(const x of DATA[lang]){
@@ -55,7 +55,7 @@ function updateShanSenseControl(){
  if(!input)return;
  input.disabled=$('lang').value!=='shan'||!window.DOPA_SENSE_READY;
  if(note)note.textContent=!window.DOPA_SENSE_READY?'語義カードデータを読み込めないため、従来の5,480カードだけを使ひます。':
- '語義別モードでは7,290候補のうち7,241件を出題。同綴りの別語義は同じ四択に出さず、両方向で学べます。新IDの復習履歴は別管理です。';
+ '語義別モードでは既存5,480親語から作成した7,290候補のうち7,241件を出題します。新規追加1,000語は語義別モードに含まれず、通常のシャン語デッキ／追加語彙エリアで学習できます。新IDの復習履歴は別管理です。';
 }
 
 function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.semantic_major}
