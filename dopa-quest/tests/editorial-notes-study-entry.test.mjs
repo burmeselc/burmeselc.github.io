@@ -6,7 +6,7 @@ const html=read('index.html'),game=read('game.js'),flash=read('flashcards-ui.js'
 test('v6.3 is a display release, not a persisted data migration',()=>{
  assert.match(html,/<title>DOPA QUEST v6\.3/);
  assert.match(html,/<h1>DOPA QUEST v6\.3<\/h1>/);
- assert.match(sw,/v6-3-editorial-links/);
+ assert.match(sw,/const CACHE_NAME = 'dopa-quest-static-/);
  assert.match(game,/const KEY='dopaQuestV5_profile'/);
  assert.match(read('editorial-notes.js'),/dopa_shan_editorial_notes_v1/);
  assert.match(html,/editorial-notes-ui\.js/);

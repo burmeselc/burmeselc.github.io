@@ -22,7 +22,7 @@ test('single Shan proposals usable in category UI without overwriting parent car
     count:window.DOPA_DETAIL.extraProvisional?.count,multipleCount:window.DOPA_DETAIL.extraProvisional?.multiple_review_count,final65Count:window.DOPA_DETAIL.extraProvisional?.final65_review_count,statuses,final65:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5821),'shan'),reviewed:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5484),'shan'),held:window.DOPA_DETAIL.annotation(deck.find(c=>c.rank===5569),'shan')?.provisional_only||false};
   });
   assert.equal(data.total,16985);assert.equal(data.addition,11505);
-  assert.equal(data.count,4949);assert.equal(data.originalStatus,'U');
+  assert.equal(data.count,5932);assert.equal(data.originalStatus,'U');
   assert.equal(data.annotation.medium,'02.02');assert.equal(data.annotation.provisional_only,true);
   assert.equal(data.major,'02');
   assert.equal(data.multipleCount,572);
@@ -31,8 +31,8 @@ test('single Shan proposals usable in category UI without overwriting parent car
   assert.equal(data.reviewed?.medium,'12.01');
   assert.equal(data.reviewed?.provisional_only,true);
   assert.equal(data.held,false);
-  assert.deepEqual(data.statuses,{'machine-proposal-unverified':4949});
-  assert.match(await page.locator('#semanticCategoryNotice').textContent(),/4,949件.*未検証/);
+  assert.deepEqual(data.statuses,{'machine-proposal-unverified':5932});
+  assert.match(await page.locator('#semanticCategoryNotice').textContent(),/5,556件.*未検証/);
   await page.locator('[data-dopa-route="quest"]').click();
   await page.locator('#semanticCategory').selectOption('02');
   assert.match(await page.locator('#semanticCategory option:checked').textContent(),/02/);

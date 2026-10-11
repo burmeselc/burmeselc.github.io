@@ -306,15 +306,28 @@
           final65=await res.json();
         }catch(e){console.warn('Final65 provisional delta unavailable; prior 4,931 proposals retained',e)}
       }
-      try{
-        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65);
-      }catch(e){
-        console.warn('Final65 or multiple-cue provisional delta invalid; attempting earlier classifications',e);
+      // Third optional delta: semicolon source glosses remain intact, all 983 are review-marked.
+      let semicolon=null;
+      if(final65!==null){
         try{
-          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti);
+          const res=await fetch('./data/shan-extra-semicolon-study-release-v1.json',{cache:'no-cache'});
+          if(!res.ok)throw Error('semicolon study delta HTTP '+res.status);
+          semicolon=await res.json();
+        }catch(e){console.warn('Semicolon review delta unavailable; retaining 4,949 prior annotations',e)}
+      }
+      try{
+        window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65,semicolon);
+      }catch(e){
+        console.warn('Semicolon, final65, or multiple-cue provisional delta invalid; attempting earlier classifications',e);
+        try{
+          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti,final65);
         }catch(previousError){
-          console.warn('Multiple-cue provisional delta invalid; 4,359 original proposals retained',previousError);
-          window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA);
+          console.warn('Final65 delta invalid; attempting 572 earlier classifications',previousError);
+          try{window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA,reviewedMulti)}
+          catch(multiError){
+           console.warn('Multiple-cue provisional delta invalid; 4,359 original proposals retained',multiError);
+           window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(baseEngine,shards,window.DOPA_DATA);
+          }
         }
       }
     }catch(e){console.warn('Unverified extra Shan categories unavailable; normal play unaffected',e)}

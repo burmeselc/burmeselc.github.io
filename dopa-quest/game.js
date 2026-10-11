@@ -86,7 +86,7 @@ function updateSemanticCategories(){
  select.innerHTML=options;
  select.value=labels[old]?old:'all';select.disabled=false;
  if(notice)notice.textContent=l==='shan'?
-   (window.DOPA_DETAIL?.extraProvisional?.count===4949?'シャン語：追加語彙の単一候補4,359件、複数競合572件、保留再校閲18件（合計4,949件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4931?'シャン語：追加語彙の単一候補4,359件と複数競合再校閲572件（合計4,931件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。複数競合の追加分は現在利用できません。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。未解決の競合・境界保留語は全カテゴリから学習できます。':
+   (window.DOPA_DETAIL?.extraProvisional?.semicolon_review_count===983?'シャン語：追加語彙5,932件に暫定校閲表示（うちカテゴリ候補5,556件、分類根拠なし376件）。セミコロン境界983件は機械提案・未検証・語義未確定。':window.DOPA_DETAIL?.extraProvisional?.count===4949?'シャン語：追加語彙の単一候補4,359件、複数競合572件、保留再校閲18件（合計4,949件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4931?'シャン語：追加語彙の単一候補4,359件と複数競合再校閲572件（合計4,931件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。複数競合の追加分は現在利用できません。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。未解決の競合・境界保留語は全カテゴリから学習できます。':
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 // Detailed study filters are session settings; they never rewrite profile/history data.
@@ -270,7 +270,9 @@ function clearTimer(){if(S.timer){clearInterval(S.timer);S.timer=null}}
 function startTimer(){clearTimer();let speed=$('speed').value;if(speed==='normal'||S.cur.typed){$('timestat').textContent='∞';S.start=performance.now();return}let sec=speed==='rush'?10:6;if(S.cur.isBoss)sec=Math.max(4,sec-1);let end=performance.now()+sec*1000;S.start=performance.now();S.timer=setInterval(()=>{let rem=Math.max(0,end-performance.now());$('timestat').textContent=(rem/1000).toFixed(1);if(!rem){clearTimer();answer(null,false,true,null)}},90)}
 function normalizedOriginal(v){return String(v||'').normalize('NFC').replace(/[\s\u200b\u200c\u200d\u2060]+/g,'').trim()}
 function submitTyped(){if(!$('typedAnswer').value.trim())return;let ans=normalizedOriginal($('typedAnswer').value),want=normalizedOriginal(orig(S.cur.x,S.lang)),ok=ans===want;answer(null,ok,false,null)}
-function feedbackDetail(x,full=true){return `<div class="detail"><b lang="${S.lang==='shan'?'shn':'my'}">${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}${S.lang==='shan'&&window.DOPA_EDITORIAL_UI?.open?'<button type="button" class="flag" id="questEditorialOpen">語彙を校閲・メモ</button>':''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
+function provisionalReviewNotice(x){const a=S.lang==='shan'?window.DOPA_DETAIL?.annotation(x,'shan'):null;
+ return a?.boundary_unverified?'<div class="small">〔語義境界未検証／'+(a.medium?'カテゴリ暫定・低確度':'未分類・校閲待ち')+'〕</div>':''}
+function feedbackDetail(x,full=true){return `<div class="detail"><b lang="${S.lang==='shan'?'shn':'my'}">${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${provisionalReviewNotice(x)}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}${S.lang==='shan'&&window.DOPA_EDITORIAL_UI?.open?'<button type="button" class="flag" id="questEditorialOpen">語彙を校閲・メモ</button>':''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
 function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x),lang:S.lang,flaggedAt:new Date().toISOString()};save();toast('校閲候補として記録しました（SAVEで書き出せます）');let b=$('reportIssue');if(b)b.disabled=true}
 function openQuestEditorial(x){
  if(S.lang!=='shan'||!S.cur?.answered||S.cur.x?.id!==x.id)return;

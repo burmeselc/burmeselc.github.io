@@ -114,6 +114,9 @@
   $('flashFaceWord').classList.toggle('jp',flipped?(session.direction==='recognition'):(session.direction==='production'));
   const extra=[current.game_pos||current.pos||'',current.japanese_note||'',
    current.english&&current.english!==japanese(current)?current.english:''].filter(Boolean);
+  const provisional=session.lang==='shan'?root.DOPA_DETAIL?.annotation(current,'shan'):null;
+  if(flipped&&provisional?.boundary_unverified)
+   extra.push(provisional.medium?'〔語義境界未検証・カテゴリ暫定〕':'〔語義境界未検証・未分類〕');
   $('flashFaceNote').textContent=flipped?extra.join(' ／ '):'';
   $('flashFaceNote').classList.toggle('hidden',!flipped||!extra.length);
   $('flashFaceTip').textContent=flipped?'タップして問題に戻す':'タップして答へを見る';
