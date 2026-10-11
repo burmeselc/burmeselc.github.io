@@ -271,7 +271,14 @@ function startTimer(){clearTimer();let speed=$('speed').value;if(speed==='normal
 function normalizedOriginal(v){return String(v||'').normalize('NFC').replace(/[\s\u200b\u200c\u200d\u2060]+/g,'').trim()}
 function submitTyped(){if(!$('typedAnswer').value.trim())return;let ans=normalizedOriginal($('typedAnswer').value),want=normalizedOriginal(orig(S.cur.x,S.lang)),ok=ans===want;answer(null,ok,false,null)}
 function provisionalReviewNotice(x){const a=S.lang==='shan'?window.DOPA_DETAIL?.annotation(x,'shan'):null;
- return a?.boundary_unverified?'<div class="small">〔語義境界未検証／'+(a.medium?'カテゴリ暫定・低確度':'未分類・校閲待ち')+'〕</div>':''}
+ if(!a?.provisional_only)return '';
+ const text=a.review_status==='held-sense-boundary'?'意味境界保留・語義未承認':
+  a.review_status==='held-category-repair'?'分類修正保留・原典確認待ち':
+  a.review_status==='uncategorized-needs-review'?'根拠不足・未分類・原典確認待ち':
+  a.boundary_unverified?(a.medium?'語義境界未検証・暫定分類':'語義境界未検証・未分類'):
+  '機械提案・未検証';
+ return '<div class="small">〔'+text+'〕</div>';
+}
 function feedbackDetail(x,full=true){return `<div class="detail"><b lang="${S.lang==='shan'?'shn':'my'}">${esc(orig(x,S.lang))}</b>${x.ipa?'　'+esc(x.ipa):''}<br>${esc(jp(x))}${provisionalReviewNotice(x)}${full&&note(x,S.lang)?`<div class="note">${esc(note(x,S.lang))}</div>`:''}${S.lang==='shan'&&window.DOPA_EDITORIAL_UI?.open?'<button type="button" class="flag" id="questEditorialOpen">語彙を校閲・メモ</button>':''}<button type="button" class="flag" id="reportIssue">⚑ この訳・設問を要確認に登録</button></div>`}
 function markIssue(x){P.issues[x.id]={id:x.id,word:orig(x,S.lang),japanese:jp(x),lang:S.lang,flaggedAt:new Date().toISOString()};save();toast('校閲候補として記録しました（SAVEで書き出せます）');let b=$('reportIssue');if(b)b.disabled=true}
 function openQuestEditorial(x){
