@@ -68,8 +68,12 @@ function categoryCandidateAllowed(x,l){
 }
 function domainEligible(x,l){
  const control=$('semanticCategory');
+ // Keep this guard independently evaluable by legacy category regression tests.
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
-  (effectiveMajor(x,l)===control.value&&categoryCandidateAllowed(x,l));
+  (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&
+   (['P','R'].includes(x.semantic_status)||
+    (l==='shan'&&Number(x.rank)>5480&&typeof window!=='undefined'&&
+     window.DOPA_DETAIL?.annotation?.(x,l)?.review_status==='machine-proposal-unverified')));
 }
 function updateSemanticCategories(){
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
