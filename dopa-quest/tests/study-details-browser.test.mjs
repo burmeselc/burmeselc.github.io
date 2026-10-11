@@ -14,6 +14,7 @@ for(const lang of ['burmese','shan'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));await ready(page);
   await page.locator('#lang').selectOption(lang);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#studyDetailControls > summary').click();
   await page.locator('#semanticMedium').selectOption('03.01');
   await page.locator('#semanticTag').selectOption('feature:body_part');
@@ -53,6 +54,7 @@ test('sparse medium blocks launch; clearing filters restores all vocabulary',asy
  try{
   const page=await browser.newPage();await ready(page);
   await page.locator('#lang').selectOption('shan');
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#studyDetailControls > summary').click();
   // Select an actually sparse medium: new reviewed cards may populate former sparse ones.
   const sparse=await page.evaluate(()=>{
@@ -83,6 +85,7 @@ test('major/language/sense switching never leaves incompatible active filters',a
  const browser=await chromium.launch({headless:true});
  try{
   const page=await browser.newPage();await ready(page);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#studyDetailControls > summary').click();
   await page.locator('#semanticMedium').selectOption('03.01');
   await page.locator('#semanticTag').selectOption('feature:body_part');
@@ -146,6 +149,7 @@ for(const lang of ['shan','burmese'])test(lang+' expanded cooking category stays
  try{
   const page=await browser.newPage();await ready(page);
   await page.locator('#lang').selectOption(lang);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#studyDetailControls > summary').click();
   await page.locator('#semanticMedium').selectOption('06.03');
   await page.locator('#direction').selectOption('fromJP');
@@ -173,6 +177,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
  try{
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});await ready(page);
   await page.locator('#lang').selectOption(lang);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#studyDetailControls > summary').click();
   await page.locator('#semanticMedium').selectOption('02.01');
   await page.locator('#semanticTag').selectOption('feature:animal');
@@ -193,6 +198,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   for(const medium of ['07.01','08.01']){
    await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
    await page.locator('#direction').selectOption(dir);
@@ -215,6 +221,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   for(const [medium,tag] of [['04.01','semantic_type:state'],['05.02','feature:human']]){
    await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
    await page.locator('#semanticTag').selectOption(tag);
@@ -238,6 +245,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   for(const [medium,tag] of [['09.03','field:law'],['10.03','field:commerce']]){
    await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
    await page.locator('#semanticTag').selectOption(tag);
@@ -261,6 +269,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   for(const [medium,tag] of [['12.01','field:religion'],['12.03','field:music']]){
    await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
    await page.locator('#semanticTag').selectOption(tag);
@@ -284,6 +293,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   for(const [medium,tag] of [['14.01','feature:temporal'],['15.04','feature:evaluative']]){
    await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
    await page.locator('#semanticTag').selectOption(tag);
@@ -307,6 +317,7 @@ for(const lang of ['shan','burmese'])for(const dir of ['toJP','fromJP'])test(lan
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   for(const [medium,tag] of [['16.01','feature:motion'],['17.01','semantic_type:grammatical_function']]){
    await ready(page);await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
    await page.locator('#semanticTag').selectOption(tag);
@@ -332,6 +343,7 @@ test('reviewed category 18 can make four choices in both languages without chang
    await ready(page);
    assert.equal(await page.evaluate(()=>window.DOPA_DETAIL?.coverage?.[window.document.querySelector('#lang').value]?.major_ids?.at(-1)),'18');
    await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#semanticMedium').selectOption('18.04');
    assert.equal(await page.evaluate(()=>Object.keys(window.DOPA_SYNC_API.snapshot().words).length),0);
@@ -362,6 +374,7 @@ test('literature/history list shows even a single reviewed word and preserves hi
    const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
    await ready(page);
    await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#studyDetailReview summary').click();
    await page.locator('#semanticMedium').selectOption(medium);
@@ -389,6 +402,7 @@ test('major correction overlay changes only effective browse categories and neve
    const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
    await ready(page);
    await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#studyDetailReview summary').click();
    const v=await page.evaluate(({lang,id})=>{
@@ -440,6 +454,7 @@ test('reviewed geographic place names and language names show on iPhone-sized br
    const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
    await ready(page);
    await page.locator('#lang').selectOption(lang);
+   await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
    await page.locator('#studyDetailControls > summary').click();
    await page.locator('#studyDetailReview summary').click();
    await page.locator('#semanticCategory').selectOption(major);
