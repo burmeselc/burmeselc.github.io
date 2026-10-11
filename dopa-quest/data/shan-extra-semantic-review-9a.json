@@ -502,7 +502,7 @@
     "pos_candidate": null,
     "sense_id": null,
     "primary_major": "05",
-    "primary_medium": "05.04",
+    "primary_medium": "05.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -530,7 +530,7 @@
     ],
     "category_candidates": [
       {
-        "medium": "05.04",
+        "medium": "05.01",
         "major": "05",
         "evidence": [
           "僧侶の求めに応じ、あらゆる世話"
@@ -5061,8 +5061,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "10",
+    "primary_medium": "10.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -5078,17 +5078,10 @@
         "evidence": [
           "写真家"
         ]
-      },
-      {
-        "medium": "13.03",
-        "major": "13",
-        "evidence": [
-          "写真"
-        ]
       }
     ],
     "segmentation_candidates": [],
-    "review_status": "ambiguous-multiple-category-cues",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -13850,8 +13843,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "11",
+    "primary_medium": "11.04",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -13860,9 +13853,17 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [],
+    "category_candidates": [
+      {
+        "medium": "11.04",
+        "major": "11",
+        "evidence": [
+          "通信"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -17941,8 +17942,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "14",
+    "primary_medium": "14.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -17951,9 +17952,17 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [],
+    "category_candidates": [
+      {
+        "medium": "14.01",
+        "major": "14",
+        "evidence": [
+          "授業中、開講期間"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
