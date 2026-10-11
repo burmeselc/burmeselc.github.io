@@ -1,0 +1,1588 @@
+{
+  "schema": "dopa-shan-extra-held-review-v1",
+  "status": "held-unverified",
+  "approved_senses": false,
+  "source_preserved": true,
+  "source_count": 47,
+  "category_repair_count": 19,
+  "meaning_boundary_count": 28,
+  "cards": [
+    {
+      "parent_card_id": "shn:anki:c35d4168d7d27db8",
+      "rank": 5498,
+      "shan_original": "ၵိုတ်းငဝ်ၵဝ်ႉ",
+      "japanese_core_original": "意気消沈して、あるいは失望して立ち止まる",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "意気消沈",
+            "失望"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "止まる",
+            "立ち止ま"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "止まる"
+          ]
+        }
+      ],
+      "hold_reason": "意気消沈という感情状態と『立ち止まる』動作が単一比喩なのか、別義なのか判定できない。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:f51d1c221eccc2d7",
+      "rank": 5531,
+      "shan_original": "ၵူၼ်းႁူမ်ႈၵၼ်",
+      "japanese_core_original": "パートナー、株主",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "株主"
+          ]
+        },
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "株主"
+          ]
+        }
+      ],
+      "hold_reason": "パートナーと株主は事業上の関係者として重なるが、人的役割か出資者かで領域が変はる。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:1924d5bd2460825c",
+      "rank": 5569,
+      "shan_original": "ၵၢင်တွင်ႉႁွင်ႈသႆႈ",
+      "japanese_core_original": "本心、体の内部",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "03.01",
+          "major": "03",
+          "evidence": [
+            "体の内部"
+          ]
+        },
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "本心"
+          ]
+        }
+      ],
+      "hold_reason": "本心という抽象義と身体内部という具体義が併記され、語義分割の根拠を要する。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:3297d592e322d8d8",
+      "rank": 5702,
+      "shan_original": "ငူင်ႇ",
+      "japanese_core_original": "曲がる、屈曲する、歪む",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "屈曲",
+            "歪む"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "曲がる"
+          ]
+        }
+      ],
+      "hold_reason": "曲がる動作と歪んだ形状の状態を混同しないため、用例が必要。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:b7d57977e33fcf53",
+      "rank": 5751,
+      "shan_original": "ၸၢတ်ႈၵႃႈ",
+      "japanese_core_original": "芝居、劇、演劇作品",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "12.03",
+          "major": "12",
+          "evidence": [
+            "芝居",
+            "演劇",
+            "芝居",
+            "演劇"
+          ]
+        },
+        {
+          "medium": "12.05",
+          "major": "12",
+          "evidence": [
+            "作品"
+          ]
+        }
+      ],
+      "hold_reason": "演劇という上演芸術と劇作品という文学テキストは二領域に属し得る。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:cdf116fa86697929",
+      "rank": 5764,
+      "shan_original": "ၸႃႇၸႂ်",
+      "japanese_core_original": "共感する、相手の立場に立って考える",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "共感"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "考える",
+            "考え"
+          ]
+        }
+      ],
+      "hold_reason": "共感という感情と相手の立場を推測する認知が、同一事態を表すか区別するか確認が必要。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:a3236b78ad7c491c",
+      "rank": 5783,
+      "shan_original": "သရေႇၶိုၼ်ႈ",
+      "japanese_core_original": "名声が高まる、評判が良くなる",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "名声が高まる"
+          ]
+        },
+        {
+          "medium": "13.01",
+          "major": "13",
+          "evidence": [
+            "声"
+          ]
+        }
+      ],
+      "hold_reason": "名声が高まるという評判の変化であり、感情や単なる発話そのものではない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:0a19305546dd2a0a",
+      "rank": 6018,
+      "shan_original": "ၼႃႇတႅမ်ႇလိူဝ်",
+      "japanese_core_original": "～より劣る",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "17.03",
+          "major": "17",
+          "evidence": [
+            "～より劣る"
+          ]
+        },
+        {
+          "medium": "17.04",
+          "major": "17",
+          "evidence": [
+            "～より劣る"
+          ]
+        }
+      ],
+      "hold_reason": "『〜より劣る』は比較評価の述語で、時制・相や談話接続の標識として扱ふ根拠がない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:37e7f99a50bec735",
+      "rank": 6099,
+      "shan_original": "ပႅၵ်ႈပႅၵ်ႈ",
+      "japanese_core_original": "硬い地面を歩く足音のような音、パタパタ",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "地面"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "硬い"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "歩く"
+          ]
+        }
+      ],
+      "hold_reason": "足音・擬音という音象徴語であり、地形01.01・物性15.03・移動16.01の一致語は各々修飾・発生源に過ぎない。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:5b0fcfc85ac7e560",
+      "rank": 6101,
+      "shan_original": "ၽင်ႇႁိုၵ်းယၢတ်ႇ",
+      "japanese_core_original": "そのような堤防の割れ目",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "01.02",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "17.01",
+          "major": "17",
+          "evidence": [
+            "そのような"
+          ]
+        }
+      ],
+      "hold_reason": "『そのような』の指示内容が欠落してゐるため堤防の割れ目が自然地形か建造物か判断できない。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:f7d3bcb8e3c0f11f",
+      "rank": 6157,
+      "shan_original": "မိၵ်ႉသႃႇႁႃယႃႉ",
+      "japanese_core_original": "友好、親睦、仲間意識",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "意識"
+          ]
+        },
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "仲間"
+          ]
+        }
+      ],
+      "hold_reason": "友好・仲間意識は交友関係の語彙。候補04.02認知や05.01人の集合を自動採用できない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:f76301802abc3141",
+      "rank": 6161,
+      "shan_original": "မုင်ႈတၢင်း",
+      "japanese_core_original": "切望する、（人が来る方向を）じっと見る",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "見る"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "方向"
+          ]
+        }
+      ],
+      "hold_reason": "切望と相手の方向を見続ける事態は比喩と実際の視線移動の別義の可能性がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:03e16b34e708caf0",
+      "rank": 6565,
+      "shan_original": "ၵႅၼ်ၵူၼ်",
+      "japanese_core_original": "（シャン族の流儀で）ズボンの裾をできるだけ高くまくり上げる",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "05.01",
+          "major": "05",
+          "evidence": [
+            "シャン族"
+          ]
+        },
+        {
+          "medium": "07.01",
+          "major": "07",
+          "evidence": [
+            "ズボン"
+          ]
+        }
+      ],
+      "hold_reason": "ズボンの裾をまくる着用動作で、衣類07.01や民族名05.01自体が中心ではない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:39166ad0fba6b7d4",
+      "rank": 6612,
+      "shan_original": "ၵေႃႉမိုဝ်ႉ",
+      "japanese_core_original": "料理人、炊事担当",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "料理"
+          ]
+        },
+        {
+          "medium": "08.03",
+          "major": "08",
+          "evidence": [
+            "炊事"
+          ]
+        }
+      ],
+      "hold_reason": "『料理人、炊事担当』は職業・役割の人間名で、料理06.01や家事08.03だけでは中心を表さない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:cdc6b1483e8365a1",
+      "rank": 6733,
+      "shan_original": "ၶတ်းဢိုတ်း",
+      "japanese_core_original": "閉じ込める、鍵をかけて仕舞う",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "08.02",
+          "major": "08",
+          "evidence": [
+            "鍵"
+          ]
+        },
+        {
+          "medium": "12.03",
+          "major": "12",
+          "evidence": [
+            "舞う"
+          ]
+        }
+      ],
+      "hold_reason": "閉じ込め、施錠する他動的操作で、家具08.02や音楽12.03の候補は語義中心を捉へない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:bf9939ab7332a135",
+      "rank": 7062,
+      "shan_original": "သတ်ႈထႃႇ",
+      "japanese_core_original": "信仰心を持つ、親切な気持ちになる",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "親切"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "信仰"
+          ]
+        }
+      ],
+      "hold_reason": "信仰心と他者への親切さは同義と認め難く、宗教義と対人性向を分ける必要がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:d5b97717f41e5a6e",
+      "rank": 7081,
+      "shan_original": "သပႃႇပတီႉ",
+      "japanese_core_original": "議長、代弁者、スポークスパーソン",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "09.01",
+          "major": "09",
+          "evidence": [
+            "^議長",
+            "代弁者"
+          ]
+        },
+        {
+          "medium": "13.03",
+          "major": "13",
+          "evidence": [
+            "スポークスパーソン"
+          ]
+        }
+      ],
+      "hold_reason": "議長とスポークスパーソンは別の社会的役割であり、原辞書の列挙関係を確かめる必要がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:e83e193a6a112cc4",
+      "rank": 7203,
+      "shan_original": "သႅင်ႇၼိူဝ်ႉ",
+      "japanese_core_original": "精肉店、肉屋",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "10.01",
+          "major": "10",
+          "evidence": [
+            "肉屋"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "major": "10",
+          "evidence": [
+            "精肉店"
+          ]
+        }
+      ],
+      "hold_reason": "精肉店という施設と肉屋という販売者が同一訳に併記され、品詞・指示対象を確認する必要がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:3316522711edbd52",
+      "rank": 7259,
+      "shan_original": "တိူၵ်ႈတႅၵ်း",
+      "japanese_core_original": "終わる、場所がなくなる",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "場所"
+          ]
+        },
+        {
+          "medium": "16.03",
+          "major": "16",
+          "evidence": [
+            "終わる"
+          ]
+        }
+      ],
+      "hold_reason": "『終わる』と『場所がなくなる』は結果状態が異なり、二義なのか拡張義なのか未確定。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:7b463a2919b76448",
+      "rank": 7458,
+      "shan_original": "ထေႃႇယေႃႇ",
+      "japanese_core_original": "洗髪剤（シャンプー）を作るのに皮が使われる木",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "03.04",
+          "major": "03",
+          "evidence": [
+            "洗髪剤",
+            "シャンプー"
+          ]
+        },
+        {
+          "medium": "07.03",
+          "major": "07",
+          "evidence": [
+            "洗髪剤",
+            "シャンプー"
+          ]
+        }
+      ],
+      "hold_reason": "樹皮を洗髪剤に利用する木を指し、衛生03.04や美容07.03は用途に過ぎない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:91b686c423b7830d",
+      "rank": 7588,
+      "shan_original": "ပိုမ်း",
+      "japanese_core_original": "手で口へ放り込む（煎りトウモロコシなどの乾物を手で口に運ぶ、ပိုမ်းၵိၼ်）",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "トウモロコシ"
+          ]
+        },
+        {
+          "medium": "11.03",
+          "major": "11",
+          "evidence": [
+            "運ぶ"
+          ]
+        }
+      ],
+      "hold_reason": "トウモロコシを手から口へ運んで食べる動作であり、植物名・一般運搬ではない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:c6bbe20bfbafd320",
+      "rank": 7821,
+      "shan_original": "မဝ်ႇႁၢင်ႈ",
+      "japanese_core_original": "ありそうにない、期待に反して",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        },
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        }
+      ],
+      "hold_reason": "『ありそうにない』は可能性の判断で、期待という文脈語のみで感情・欲求に置くのは不適当。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:37960a1805015e45",
+      "rank": 8146,
+      "shan_original": "လဵၵ်းဝွၵ်း",
+      "japanese_core_original": "物を掴むための曲がった鉄具、フック",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "曲がっ"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "掴む"
+          ]
+        }
+      ],
+      "hold_reason": "フック・鉤という道具名で、形状15.01や使用法16.02のみでは指示対象を示せない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:39e3214ca09a1e70",
+      "rank": 8240,
+      "shan_original": "ဝဵၼ်ႉဝၼ်း",
+      "japanese_core_original": "一日置く、一日休みを入れる（発熱など）",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "発熱"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "置く"
+          ]
+        }
+      ],
+      "hold_reason": "一日置く・一日休むという時間間隔の操作であり、発熱は例示。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:00c581c46636f9fe",
+      "rank": 8403,
+      "shan_original": "ဢုင်ႇၼလုင်ႇ",
+      "japanese_core_original": "白毫：仏陀の額に生えている一本の毛（伸ばすと2キュビットの長さになる）",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "11.05",
+          "major": "11",
+          "evidence": [
+            "キュビット"
+          ]
+        },
+        {
+          "medium": "13.02",
+          "major": "13",
+          "evidence": [
+            "本の"
+          ]
+        }
+      ],
+      "hold_reason": "仏陀の白毫という宗教的図像・伝承上の身体的特徴。測定単位や文字表現の一致は本質ではない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:8e199a89107746a4",
+      "rank": 8525,
+      "shan_original": "ၵိုတ်းၵႂင်",
+      "japanese_core_original": "迷いや不安から足が止まる、先に進めなくなる",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "不安"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "止まる"
+          ]
+        }
+      ],
+      "hold_reason": "不安による心理状態と歩行停止が一つの比喩表現か、二種類の述語解釈か未確定。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:78d9140b209e212f",
+      "rank": 8536,
+      "shan_original": "ၵိူဝ်းလႆႈၵိၼ်",
+      "japanese_core_original": "（文字通りには「食べられることを期待する」）利益を期待して頼る",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "頼る"
+          ]
+        },
+        {
+          "medium": "04.03",
+          "major": "04",
+          "evidence": [
+            "期待"
+          ]
+        }
+      ],
+      "hold_reason": "『食べられることを期待する』は直訳説明であり、中心義の頼る行為・利得への期待を辞書で確認する必要がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:05fc5a5ae5515829",
+      "rank": 8655,
+      "shan_original": "ၵျေးၸူး",
+      "japanese_core_original": "恩恵、恩義、感謝、慈しみ（語源：ビルマ語）",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "慈しみ"
+          ]
+        },
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "感謝"
+          ]
+        }
+      ],
+      "hold_reason": "恩義・感謝・慈しみは評価対象・感情・対人行為が異なり得る。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:e247d6e2c4dcad67",
+      "rank": 9690,
+      "shan_original": "ထူဝ်းလၢၵ်ႈသွင်ႇ",
+      "japanese_core_original": "贈り物を送る、賄賂を贈る",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "05.04",
+          "major": "05",
+          "evidence": [
+            "贈り物"
+          ]
+        },
+        {
+          "medium": "09.03",
+          "major": "09",
+          "evidence": [
+            "賄賂"
+          ]
+        },
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "賄賂"
+          ]
+        }
+      ],
+      "hold_reason": "贈り物と賄賂は倫理・法的区別を含む。文脈差か同一語の二義か確認が必要。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:3665373ac2374df7",
+      "rank": 10153,
+      "shan_original": "မဝ်းလိူတ်ႈ",
+      "japanese_core_original": "意識が朦朧とする、ふらつく（頭を強打されたり斬首されたりした時のように）",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "意識"
+          ]
+        },
+        {
+          "medium": "16.01",
+          "major": "16",
+          "evidence": [
+            "ふらつ"
+          ]
+        }
+      ],
+      "hold_reason": "意識の朦朧・ふらつきは症状・障害であり、認知一般や姿勢動作とは異なる。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:aeb0265ad3781f37",
+      "rank": 11628,
+      "shan_original": "ၸေႈၶမ်းသိူင်း",
+      "japanese_core_original": "金箔を挟むための紙",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "10.04",
+          "major": "10",
+          "evidence": [
+            "金箔"
+          ]
+        },
+        {
+          "medium": "15.02",
+          "major": "15",
+          "evidence": [
+            "金箔"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "挟む"
+          ]
+        }
+      ],
+      "hold_reason": "金箔を挟む紙という加工資材を指す。金銭10.04や色15.02、挟む行為16.02は周辺要素。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:190f1c0ed4111086",
+      "rank": 12366,
+      "shan_original": "ပိုၼ်းၼႃႈလိၼ်",
+      "japanese_core_original": "地理、大地の物語",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "大地"
+          ]
+        },
+        {
+          "medium": "12.05",
+          "major": "12",
+          "evidence": [
+            "物語"
+          ]
+        }
+      ],
+      "hold_reason": "『地理』という学術知識分野の名である可能性が高いが、末尾の『大地の物語』が語義か説明か確認を要する。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:f5d25e7ca07a6704",
+      "rank": 13084,
+      "shan_original": "လွႆဢုၼ်ႈ",
+      "japanese_core_original": "樹木のない、丸い頂の山",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "樹木"
+          ]
+        },
+        {
+          "medium": "15.01",
+          "major": "15",
+          "evidence": [
+            "丸い"
+          ]
+        }
+      ],
+      "hold_reason": "指示対象は樹木の少ない丸頂の山という地形。既存候補は植生と形状の修飾にのみ反応。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:2b4d32807fb06ac0",
+      "rank": 13250,
+      "shan_original": "ႁူင်းလုမ်းလႃးတူၼ်ႈမႆႉ",
+      "japanese_core_original": "温室、植物園、苗圃",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "02.02",
+          "major": "02",
+          "evidence": [
+            "植物"
+          ]
+        },
+        {
+          "medium": "02.04",
+          "major": "02",
+          "evidence": [
+            "苗"
+          ]
+        },
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "温室"
+          ]
+        }
+      ],
+      "hold_reason": "温室（建物）・植物園（施設）・苗圃（栽培場）という複数の指示対象が混在する。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:8b97fda0012e9815",
+      "rank": 13494,
+      "shan_original": "ၵပ်ႉလီၵပ်ႉငၢမ်း",
+      "japanese_core_original": "隙間なく詰まっている、完全に詰め込まれている",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "08.01",
+          "major": "08",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "major": "16",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        },
+        {
+          "medium": "16.04",
+          "major": "16",
+          "evidence": [
+            "隙間なく詰まっている"
+          ]
+        }
+      ],
+      "hold_reason": "『詰まった状態』と『詰め込む操作』の能動・結果状態差を確認する必要がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:aa03efe343e19e59",
+      "rank": 14318,
+      "shan_original": "သူႉတႃႉ",
+      "japanese_core_original": "情報、知識",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "13.03",
+          "major": "13",
+          "evidence": [
+            "情報"
+          ]
+        },
+        {
+          "medium": "13.04",
+          "major": "13",
+          "evidence": [
+            "知識"
+          ]
+        }
+      ],
+      "hold_reason": "情報と知識は情報伝達13.03と学習知識13.04をまたぐ。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:c9f970f07cb0adc3",
+      "rank": 14329,
+      "shan_original": "သဵတ်ႈၸႃႇ",
+      "japanese_core_original": "真実、誠実（嘘 မူႉသႃႇ の対義語）",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "誠実"
+          ]
+        },
+        {
+          "medium": "18.04",
+          "major": "18",
+          "evidence": [
+            "真実"
+          ]
+        }
+      ],
+      "hold_reason": "真実という命題的概念と誠実という性向が並び、多義の可能性が高い。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:3184f6f6a454c9b9",
+      "rank": 14438,
+      "shan_original": "တိုဝ်ႉတႃႈ",
+      "japanese_core_original": "渡船場、堤防",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "01.01",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        },
+        {
+          "medium": "01.02",
+          "major": "01",
+          "evidence": [
+            "堤防"
+          ]
+        }
+      ],
+      "hold_reason": "渡船場と堤防が同じ構造物を指すのか、並列する別義か未確定。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:934782c126bf9fcc",
+      "rank": 14576,
+      "shan_original": "တၢင်းယုမ်ႇမၢတ်ႇ",
+      "japanese_core_original": "信仰、信頼（人に対するものなど）",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "信頼"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "信仰"
+          ]
+        }
+      ],
+      "hold_reason": "宗教的信仰と人への信頼が併記され、文脈別のカテゴリー所属を要検証。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:023e5c03266b8718",
+      "rank": 14621,
+      "shan_original": "တႃႁေႈ",
+      "japanese_core_original": "斜視である、横目で見る",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "03.03",
+          "major": "03",
+          "evidence": [
+            "斜視"
+          ]
+        },
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "横目"
+          ]
+        }
+      ],
+      "hold_reason": "斜視という身体状態と横目で見る行為の対応関係が未確定。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:04b8ee11bb34e408",
+      "rank": 14697,
+      "shan_original": "ထူၺ်းလိုၼ်း",
+      "japanese_core_original": "末っ子の、最後方の",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "05.02",
+          "major": "05",
+          "evidence": [
+            "末っ子"
+          ]
+        },
+        {
+          "medium": "14.04",
+          "major": "14",
+          "evidence": [
+            "最後"
+          ]
+        }
+      ],
+      "hold_reason": "末っ子という親族関係と最後方という位置・順序は分割候補。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:9fad5aab5aab1d9b",
+      "rank": 14862,
+      "shan_original": "ပိုင်ႈၵၢပ်ႈ",
+      "japanese_core_original": "（師、恩人、崇拝対象を）信頼する、頼る、信仰する",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "信頼"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "major": "12",
+          "evidence": [
+            "信仰"
+          ]
+        }
+      ],
+      "hold_reason": "頼る・信頼する・信仰するの対象によって宗教的／非宗教的解釈が変はる。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:e03e4ad91c9fa130",
+      "rank": 15039,
+      "shan_original": "ၽိတ်းတၢင်းၵိၼ်",
+      "japanese_core_original": "体に悪いものを食べる、特定の食べ物でアレルギー反応を起こす",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "06.01",
+          "major": "06",
+          "evidence": [
+            "食べ物"
+          ]
+        },
+        {
+          "medium": "06.04",
+          "major": "06",
+          "evidence": [
+            "食べる"
+          ]
+        }
+      ],
+      "hold_reason": "食物によるアレルギー反応という疾患・症状を中心とする可能性。『体に悪いものを食べる』との語義同一性を要検証。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:42f8202c532b9a30",
+      "rank": 15091,
+      "shan_original": "ၽွၵႇၶီႈၶၢၼ်ႉ",
+      "japanese_core_original": "愚かで怠惰である、ろくでなしである",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "愚か"
+          ]
+        },
+        {
+          "medium": "04.04",
+          "major": "04",
+          "evidence": [
+            "怠惰"
+          ]
+        }
+      ],
+      "hold_reason": "愚かという認知評価と怠惰という性向評価の重なりを検証する必要がある。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:388288f1a5177a95",
+      "rank": 15878,
+      "shan_original": "ဢိူဝ်ႈၼေႃႈ",
+      "japanese_core_original": "[同意や驚きを表す助詞] 口語",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.01",
+          "major": "04",
+          "evidence": [
+            "驚き"
+          ]
+        },
+        {
+          "medium": "17.02",
+          "major": "17",
+          "evidence": [
+            "助詞"
+          ]
+        }
+      ],
+      "hold_reason": "同意・驚きを表す助詞は感動・応答など談話機能であり、格・項標識17.02ではない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:8ac26db7e9440c66",
+      "rank": 16332,
+      "shan_original": "သၢတ်ႇၼိူဝ်ႉ",
+      "japanese_core_original": "竹の内側で編んだ目の粗いござ",
+      "review_status": "held-category-repair",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "14.02",
+          "major": "14",
+          "evidence": [
+            "内側"
+          ]
+        },
+        {
+          "medium": "15.03",
+          "major": "15",
+          "evidence": [
+            "粗い"
+          ]
+        }
+      ],
+      "hold_reason": "竹で編んだござという敷物・生活用品で、位置14.02や触感15.03は指示対象ではない。",
+      "review_flags": [
+        "source-check-pending",
+        "category-repair-pending"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    },
+    {
+      "parent_card_id": "shn:anki:aed371dfd9325b48",
+      "rank": 16571,
+      "shan_original": "ပွင်ႁဵတ်း",
+      "japanese_core_original": "考慮する、意図する、世話をする、利益を図る、組織する、監督する",
+      "review_status": "held-sense-boundary",
+      "classification_confidence": "none",
+      "proposed_medium": null,
+      "original_candidates": [
+        {
+          "medium": "04.02",
+          "major": "04",
+          "evidence": [
+            "考慮"
+          ]
+        },
+        {
+          "medium": "09.01",
+          "major": "09",
+          "evidence": [
+            "組織"
+          ]
+        }
+      ],
+      "hold_reason": "考慮・意図・世話・組織・監督と対象領域が多岐にわたるため、単一分類は不適切。",
+      "review_flags": [
+        "source-check-pending",
+        "sense-boundary-unverified"
+      ],
+      "source_dictionary_verified": false,
+      "sense_split_approved": false
+    }
+  ]
+}
