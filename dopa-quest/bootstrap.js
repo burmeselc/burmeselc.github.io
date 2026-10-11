@@ -119,30 +119,64 @@
     window.DOPA_DATA.shan_senses=expanded;
     window.DOPA_SENSE_READY=true;
   }catch(e){console.warn('Optional Shan sense lab disabled',e)}
-  // Optional new Shan vocabulary pack. The original 5,480 parents, 7,290 sense
-  // candidates and their category metadata remain intact and keep stable IDs.
-  window.DOPA_EXTRA_READY=false;
+  // Optional additional Shan source-gloss packs. Each pack is independently atomic:
+  // an unavailable or invalid pack must NEVER discard the original deck or other packs.
+  // IDs, existing parent/sense cards, user SAVE and cloud progress are unchanged.
+  window.DOPA_EXTRA_READY=false; // backwards-compatible signal: any extra pack loaded
+  window.DOPA_EXTRA_COUNT=0;
+  window.DOPA_EXTRA_PACK_STATUS={loaded:[],failed:[],manifest_fallback:false};
+  let extraManifest=null;
   try{
-    const response=await fetch('./data/shan-extra-pilot-1.json',{cache:'no-cache'});
-    if(!response.ok)throw Error('additional Shan pack HTTP '+response.status);
-    const additions=await response.json();
-    const ids=new Set(window.DOPA_DATA.shan.map(x=>x.id));
-    const forms=new Set(defaults.shan.map(x=>x.shan.normalize('NFC')));
-    if(!Array.isArray(additions)||additions.length!==1000||
-       additions.some(x=>typeof x.id!=='string'||!x.id.startsWith('shn:anki:')||
-        typeof x.shan!=='string'||!x.shan||typeof x.japanese_core!=='string'||
-        !x.japanese_core||x.review_status!=='source-gloss-pilot'||
-        !Number.isInteger(x.rank)||x.rank<5481||ids.has(x.id)||forms.has(x.shan.normalize('NFC')))||
-       new Set(additions.map(x=>x.id)).size!==additions.length||
-       new Set(additions.map(x=>x.shan.normalize('NFC'))).size!==additions.length)
-      throw Error('additional Shan pack integrity check failed');
-    window.DOPA_DATA.shan.push(...additions);
-    window.DOPA_EXTRA_READY=true;
+    const response=await fetch('./data/shan-extra-manifest-v1.json',{cache:'no-cache'});
+    if(!response.ok)throw Error('extra manifest HTTP '+response.status);
+    extraManifest=await response.json();
+    const p=extraManifest?.packs;
+    if(extraManifest.schema!=='dopa-shan-extra-packs-v1'||
+       extraManifest.base_parent_count!==5480||
+       !Array.isArray(p)||p.length<1||p.length>12||
+       p[0].file!=='shan-extra-pilot-1.json'||p[0].expected_count!==1000||
+       p[0].start_rank!==5481||p[0].end_rank!==6480||
+       p.some((x,i)=>!x||typeof x.key!=='string'||!/^shan-extra-(?:pilot-1|pack-[0-9]+)\.json$/.test(x.file)||
+         !Number.isSafeInteger(x.expected_count)||x.expected_count<1||x.expected_count>3000||
+         !Number.isSafeInteger(x.start_rank)||x.start_rank<5481||
+         !Number.isSafeInteger(x.end_rank)||x.end_rank-x.start_rank+1!==x.expected_count||
+         p.some((other,j)=>j<i&&(other.file===x.file||other.key===x.key||
+           !(other.end_rank<x.start_rank||x.end_rank<other.start_rank)))))
+      throw Error('invalid extra Shan manifest');
   }catch(e){
-    console.warn('Optional additional Shan vocabulary unavailable; keeping base deck',e);
+    console.warn('Extra manifest unavailable; falling back to original 1,000-word pilot',e);
+    window.DOPA_EXTRA_PACK_STATUS.manifest_fallback=true;
+    extraManifest={packs:[{key:'pilot-1',file:'shan-extra-pilot-1.json',
+      expected_count:1000,start_rank:5481,end_rank:6480}]};
   }
+  for(const pack of extraManifest.packs){
+    try{
+      const response=await fetch('./data/'+pack.file,{cache:'no-cache'});
+      if(!response.ok)throw Error(pack.file+' HTTP '+response.status);
+      const additions=await response.json();
+      const ids=new Set(window.DOPA_DATA.shan.map(x=>x.id));
+      const forms=new Set(window.DOPA_DATA.shan.map(x=>x.shan.normalize('NFC')));
+      if(!Array.isArray(additions)||additions.length!==pack.expected_count||
+         additions.some((x,i)=>!x||typeof x.id!=='string'||!/^shn:anki:[0-9a-f]{16}$/.test(x.id)||
+           typeof x.shan!=='string'||!x.shan||x.shan!==x.shan.normalize('NFC')||
+           typeof x.japanese_core!=='string'||x.japanese_core.length<2||
+           x.japanese_core.length>80||x.review_status!=='source-gloss-pilot'||
+           x.semantic_status!=='U'||x.game_include!==1||
+           x.rank!==pack.start_rank+i||ids.has(x.id)||forms.has(x.shan.normalize('NFC')))||
+         new Set(additions.map(x=>x.id)).size!==additions.length||
+         new Set(additions.map(x=>x.shan)).size!==additions.length)
+        throw Error('additional Shan pack integrity check failed: '+pack.file);
+      window.DOPA_DATA.shan.push(...additions);
+      window.DOPA_EXTRA_COUNT+=additions.length;
+      window.DOPA_EXTRA_PACK_STATUS.loaded.push(pack.key);
+    }catch(e){
+      window.DOPA_EXTRA_PACK_STATUS.failed.push(pack.key);
+      console.warn('Optional Shan pack failed; other decks remain usable: '+pack.file,e);
+    }
+  }
+  window.DOPA_EXTRA_READY=window.DOPA_EXTRA_COUNT>0;
   badge.textContent=`シャン語 ${window.DOPA_DATA.shan.length.toLocaleString()}語 / ビルマ語 ${window.DOPA_DATA.burmese.length.toLocaleString()}語`+
-    (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）')+(window.DOPA_EXTRA_READY?'（新規1,000語・試験版）':'');
+    (usingDemo?'（デモ）':valid(uploaded)?'（既定＋追加分）':'（既定デッキ）')+(window.DOPA_EXTRA_READY?'（新規'+window.DOPA_EXTRA_COUNT.toLocaleString()+'語・試験版）':'');
   $('vocabLoad').textContent='デッキを追加・更新';
   $('vocabLoad').onclick=()=>$('vocabFile').click();
   $('vocabFile').onchange=async e=>{
