@@ -24,7 +24,6 @@
     "medium": "05.01",
     "major": "05",
     "evidence": [
-     "担当者",
      "マネージャー"
     ]
    },
@@ -2478,8 +2477,8 @@
   "source_gloss": "統括する、権限を持つ",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.02",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -2488,17 +2487,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.02",
-    "major": "16",
-    "evidence": [
-     "持つ"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -4493,8 +4484,8 @@
   "source_gloss": "祝福する",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "12",
+  "primary_medium": "12.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -4510,17 +4501,10 @@
     "evidence": [
      "祝福する"
     ]
-   },
-   {
-    "medium": "12.02",
-    "major": "12",
-    "evidence": [
-     "祝福する"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -4879,7 +4863,7 @@
   "pos_source": "前置詞",
   "sense_id": null,
   "primary_major": "17",
-  "primary_medium": "17.01",
+  "primary_medium": "17.04",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -4890,10 +4874,11 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "17.01",
+    "medium": "17.04",
     "major": "17",
     "evidence": [
-     "それ"
+     "その他に",
+     "それに加えて"
     ]
    }
   ],
@@ -5916,7 +5901,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -7940,8 +7925,8 @@
   "source_gloss": "山芋の花（非常に香りが良い）",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": "15",
-  "primary_medium": "15.04",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -7950,17 +7935,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "15.04",
-    "major": "15",
-    "evidence": [
-     "非常に"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -8883,7 +8860,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -8954,8 +8931,8 @@
   "source_gloss": "感情を抑える、思いやりを持つ",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.02",
+  "primary_major": "04",
+  "primary_medium": "04.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -8974,10 +8951,11 @@
   ],
   "category_candidates": [
    {
-    "medium": "16.02",
-    "major": "16",
+    "medium": "04.01",
+    "major": "04",
     "evidence": [
-     "持つ"
+     "感情を抑える",
+     "思いやり"
     ]
    }
   ],
@@ -10150,7 +10128,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -10980,8 +10958,8 @@
   "source_gloss": "脇にそれる、進路が曲がる、曲がりくねった",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "16",
+  "primary_medium": "16.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -10997,17 +10975,10 @@
     "evidence": [
      "曲がる"
     ]
-   },
-   {
-    "medium": "17.01",
-    "major": "17",
-    "evidence": [
-     "それ"
-    ]
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -13645,7 +13616,7 @@
     "medium": "15.04",
     "major": "15",
     "evidence": [
-     "非常に"
+     "^非常に"
     ]
    }
   ],
@@ -15170,13 +15141,6 @@
     "evidence": [
      "家を建"
     ]
-   },
-   {
-    "medium": "16.02",
-    "major": "16",
-    "evidence": [
-     "持つ"
-    ]
    }
   ],
   "segmentation_candidates": [
@@ -15206,15 +15170,7 @@
     "segment_ordinal": 2,
     "gloss_fragment": "所帯を持つ",
     "source_split_delimiter": "； or ;",
-    "category_candidates": [
-     {
-      "medium": "16.02",
-      "major": "16",
-      "evidence": [
-       "持つ"
-      ]
-     }
-    ],
+    "category_candidates": [],
     "tag_candidates": {
      "semantic_type": [],
      "feature": [],
@@ -15571,8 +15527,8 @@
   "source_gloss": "球形の殻を持つ巻貝またはカタツムリ",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.02",
+  "primary_major": "02",
+  "primary_medium": "02.01",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -15583,10 +15539,11 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "16.02",
-    "major": "16",
+    "medium": "02.01",
+    "major": "02",
     "evidence": [
-     "持つ"
+     "カタツムリ",
+     "巻貝"
     ]
    }
   ],
@@ -17313,8 +17270,8 @@
   "source_gloss": "蓋、覆い（器の蓋など）、覆うもの",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.02",
+  "primary_major": "08",
+  "primary_medium": "08.02",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -17325,10 +17282,10 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "16.02",
-    "major": "16",
+    "medium": "08.02",
+    "major": "08",
     "evidence": [
-     "覆う"
+     "^蓋"
     ]
    }
   ],
