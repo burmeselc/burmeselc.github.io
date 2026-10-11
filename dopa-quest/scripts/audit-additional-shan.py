@@ -52,10 +52,10 @@ def read_numbered_anki(path: Path, encoding: str = "utf-8-sig"):
     inside definitions must be retained by splitting at the FIRST comma.
     """
     rows = []
-    pattern = re.compile(r"^\\s*(\\d+)\\s*[.:]\\s*(.*)$")
+    pattern = re.compile(r"^\s*(\d+)\s*[.:]\s*(.*)$")
     with path.open("r", encoding=encoding, newline="") as handle:
         for physical, line in enumerate(handle, 1):
-            match = pattern.match(line.strip("\\r\\n"))
+            match = pattern.match(line.strip("\r\n"))
             if not match:
                 raise ValueError(f"Missing numbered headword at physical line {physical}")
             headword, sep, definition = match.group(2).partition(",")
