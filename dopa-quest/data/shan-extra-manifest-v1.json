@@ -1,0 +1,26 @@
+{
+  "schema": "dopa-shan-extra-packs-v1",
+  "language": "shan",
+  "base_parent_count": 5480,
+  "mode": "opt-in-source-gloss-pilot",
+  "notes": "These are additional parent cards, not 18/82 semantic assignments nor validated dictionary senses. Stable IDs and prior saved progress are unchanged.",
+  "packs": [
+    {
+      "key": "pilot-1",
+      "file": "shan-extra-pilot-1.json",
+      "expected_count": 1000,
+      "start_rank": 5481,
+      "end_rank": 6480
+    },
+    {
+      "key": "pack-2",
+      "file": "shan-extra-pack-2.json",
+      "expected_count": 2000,
+      "start_rank": 6481,
+      "end_rank": 8480,
+      "source_sha256": "1aa74d2d3c6cef6535a8f41925eb945a05cd51a6a31244ed525776172aae1bd7",
+      "pack_sha256": "b4fbc629bb3767631a96ad60fd87edb7b5d8503bc936fe7576d34eb4b4932fbb",
+      "review_basis": "source-gloss-pilot; independent linguistic review pending"
+    }
+  ]
+}
