@@ -185,7 +185,7 @@ class ShanExtraSemanticBatch12Tests(unittest.TestCase):
             16504: None,     # coconut flesh unresolved
             16505: "12.01", # nirvana
             16620: "01.03", # rain
-            16985: None,     # coughing phrase lacks supported head cue; held until review
+            16985: "03.03", # explicitly recognized cough symptom; no guessing of sense
         }
         for rank, medium in expected.items():
             with self.subTest(rank=rank):
