@@ -3,10 +3,11 @@
 (function(root){
  'use strict';
  const SCHEMA='dopa-shan-extra-single-proposals-v1';
+ const SECOND_SCHEMA='dopa-shan-extra-multiple-proposals-v1';
  const groups=[[1,2,3],[4,5,6],[7,8,9],[10,11,12]];
  const sourceCounts=[3000,3000,3000,2505];
  const expectedSingles=[1560,1029,1014,756];
- function attach(engine,shards,decks){
+ function attach(engine,shards,decks,secondPassShard=null){
   if(!engine||!Array.isArray(shards)||shards.length!==4||!Array.isArray(decks?.shan))
    throw Error('Missing provisional Shan category inputs');
   const byId=new Map(decks.shan.map(card=>[card.id,card]));
@@ -38,7 +39,38 @@
       tags,review_status:'machine-proposal-unverified',provisional_only:true}));
    }
   }
-  if(proposals.size!==4359)throw Error('Incomplete single-category proposal set');
+
+  // Independently reviewed multi-cue proposals: additive and optional.
+  // A missing or corrupt optional shard must never alter the original 4,359.
+  if(secondPassShard!==null){
+   const shard=secondPassShard;
+   if(shard?.schema!==SECOND_SCHEMA||shard.status!=='machine-proposal-unverified'||
+      shard.approved_senses!==false||shard.source_count!==637||
+      shard.single_count!==572||shard.held_count!==65||
+      !Array.isArray(shard.cards)||shard.cards.length!==572)
+    throw Error('Invalid multiple-cue provisional shard');
+   for(const row of shard.cards){
+    if(!Array.isArray(row)||row.length!==6)throw Error('Invalid multiple-cue provisional row');
+    const [id,rank,shan,gloss,medium,tags]=row;
+    const source=byId.get(id);
+    if(typeof id!=='string'||proposals.has(id)||!Number.isInteger(rank)||
+       rank<5481||rank>16985||!source||source.id!==id||
+       source.rank!==rank||source.shan!==shan||source.japanese_core!==gloss||
+       source.semantic_status!=='U'||!mediums.has(medium)||
+       !tags||typeof tags!=='object'||Array.isArray(tags)||
+       Object.keys(tags).length!==axes.size)
+     throw Error('Stale multiple-cue provisional source '+id);
+    for(const [axis,accepted] of axes){
+     const values=tags[axis];
+     if(!Array.isArray(values)||new Set(values).size!==values.length||
+        values.some(v=>!accepted.has(v)))throw Error('Invalid multiple-cue tag '+id);
+    }
+    proposals.set(id,Object.freeze({word:shan,gloss,rank,medium,
+      tags,review_status:'machine-proposal-unverified',provisional_only:true}));
+   }
+  }
+  if(proposals.size!==(4359+(secondPassShard===null?0:572)))
+   throw Error('Incomplete Shan provisional proposal set');
   function annotation(card,lang){
    const a=lang==='shan'&&card&&proposals.get(card.id);
    return a&&card.rank===a.rank&&card.shan===a.word&&card.japanese_core===a.gloss?
@@ -61,6 +93,7 @@
   }
   return {...engine,annotation,matches,majorFor,
     extraProvisional:{count:proposals.size,source_count:11505,
+      original_single_count:4359,multiple_review_count:secondPassShard===null?0:572,
       editorial_review:'machine-proposal-unverified',approved_senses:false}};
  }
  const api={attach};
