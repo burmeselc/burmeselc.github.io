@@ -1,9 +1,9 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261011-shan-extra-v1';
+const CACHE_NAME = 'dopa-quest-static-20261011-shan-pack2-v1';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
-  './data/shan-1.json','./data/shan-2.json','./data/burmese.json','./data/shan-extra-pilot-1.json',
+  './data/shan-1.json','./data/shan-2.json','./data/burmese.json',
   './firebase-config.js','./sound-fx.js','./study-details.js',
   './flashcards.js','./vocabulary-library.js','./daily-progress.js','./learning-stats.js',
   './dashboard.js','./bootstrap.js','./game.js',
@@ -12,8 +12,20 @@ const APP_SHELL = [
   './fonts/padauk-myanmar-400.woff2','./fonts/padauk-myanmar-700.woff2'
 ];
 
+// Optional packs may be unavailable temporarily. Never fail the shell cache as a result.
+const OPTIONAL_PACKS = [
+  './data/shan-extra-manifest-v1.json',
+  './data/shan-extra-pilot-1.json',
+  './data/shan-extra-pack-2.json'
+];
+
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));
+  event.waitUntil(caches.open(CACHE_NAME).then(async cache => {
+    await cache.addAll(APP_SHELL);
+    await Promise.all(OPTIONAL_PACKS.map(path=>cache.add(path).catch(err=>{
+      console.warn('Optional offline Shan pack not cached: '+path,err);
+    })));
+  }));
 });
 
 self.addEventListener('activate', event => {

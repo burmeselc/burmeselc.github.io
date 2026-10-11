@@ -55,7 +55,7 @@ function updateShanSenseControl(){
  if(!input)return;
  input.disabled=$('lang').value!=='shan'||!window.DOPA_SENSE_READY;
  if(note)note.textContent=!window.DOPA_SENSE_READY?'語義カードデータを読み込めないため、従来の5,480カードだけを使ひます。':
- '語義別モードでは既存5,480親語から作成した7,290候補のうち7,241件を出題します。新規追加1,000語は語義別モードに含まれず、通常のシャン語デッキ／追加語彙エリアで学習できます。新IDの復習履歴は別管理です。';
+ '語義別モードでは既存5,480親語から作成した7,290候補のうち7,241件を出題します。新規追加語彙は語義別モードに含まれず、通常のシャン語デッキ／追加語彙エリアで学習できます。新IDの復習履歴は別管理です。';
 }
 
 function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.semantic_major}

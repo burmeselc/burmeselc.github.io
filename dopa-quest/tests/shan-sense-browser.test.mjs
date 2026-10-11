@@ -110,7 +110,7 @@ test('sense inventory failure leaves classic Shan and the 18 category lessons op
   await page.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
   await page.locator('[data-dopa-route="quest"]').click();
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
-   await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===6480);
+   await page.waitForFunction(()=>window.DOPA_DATA?.shan?.length===8480);
    assert.equal(await page.locator('#shanSenseMode').isDisabled(),true);
    assert.equal(await page.locator('#semanticCategory option').count(),19);
    await page.locator('#semanticCategory').selectOption('06');
