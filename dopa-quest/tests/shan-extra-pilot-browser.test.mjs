@@ -15,15 +15,15 @@ async function openWithFailure(patterns=[]){
  return {browser,page,errors};
 }
 
-test('mobile: all 8,480 Shan words including 3,000 pilot additions load, and score is retained',async()=>{
+test('mobile: all 10,980 Shan words including 5,500 pilot additions load, and score is retained',async()=>{
  const {browser,page,errors}=await openWithFailure();
  try{
-  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),8480);
-  assert.equal(await page.evaluate(()=>window.DOPA_EXTRA_COUNT),3000);
+  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),10980);
+  assert.equal(await page.evaluate(()=>window.DOPA_EXTRA_COUNT),5500);
   assert.equal(await page.evaluate(()=>window.DOPA_EXTRA_READY),true);
-  assert.deepEqual(await page.evaluate(()=>window.DOPA_EXTRA_PACK_STATUS.loaded),['pilot-1','pack-2']);
+  assert.deepEqual(await page.evaluate(()=>window.DOPA_EXTRA_PACK_STATUS.loaded),['pilot-1','pack-2','pack-3']);
   await page.locator('[data-dopa-route="quest"]').click();
-  assert.match(await page.locator('#dataBadge').textContent(),/8,480語/);
+  assert.match(await page.locator('#dataBadge').textContent(),/10,980語/);
   assert.equal(await page.locator('#zone option[value="extra"]').count(),1);
   await page.locator('#zone').selectOption('extra');
   await page.locator('#direction').selectOption('toJP');
@@ -41,29 +41,49 @@ test('mobile: all 8,480 Shan words including 3,000 pilot additions load, and sco
  }finally{await browser.close()}
 });
 
-test('second pack failure preserves original pilot, 5,480 parents and sense cards',async()=>{
+test('second pack failure preserves first and third packs, original parents and sense cards',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pack-2.json']);
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     ready:window.DOPA_EXTRA_READY,senses:window.DOPA_DATA.shan_senses.length}));
-  assert.deepEqual(d,{n:6480,count:1000,ready:true,senses:7290});
+  assert.deepEqual(d,{n:8980,count:3500,ready:true,senses:7290});
   assert.deepEqual(await page.evaluate(()=>window.DOPA_EXTRA_PACK_STATUS.failed),['pack-2']);
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
 
-test('first pack failure does not prevent independently loading the 2,000-card second pack',async()=>{
+test('first pack failure does not prevent loading the two later packs',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json']);
  try{
   const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
     ready:window.DOPA_EXTRA_READY,loaded:window.DOPA_EXTRA_PACK_STATUS.loaded}));
-  assert.deepEqual(d,{n:7480,count:2000,ready:true,loaded:['pack-2']});
+  assert.deepEqual(d,{n:9980,count:4500,ready:true,loaded:['pack-2','pack-3']});
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
 
-test('both packs missing leaves the baseline 5,480-card learning mode usable',async()=>{
+test('third pack failure preserves the original 8,480 Shan cards',async()=>{
+ const {browser,page,errors}=await openWithFailure(['shan-extra-pack-3.json']);
+ try{
+  const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
+    ready:window.DOPA_EXTRA_READY,loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
+  assert.deepEqual(d,{n:8480,count:3000,ready:true,loaded:['pilot-1','pack-2'],failed:['pack-3']});
+  assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});
+
+test('first and second missing still loads third pack',async()=>{
  const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json','shan-extra-pack-2.json']);
+ try{
+  const d=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,count:window.DOPA_EXTRA_COUNT,
+    loaded:window.DOPA_EXTRA_PACK_STATUS.loaded,failed:window.DOPA_EXTRA_PACK_STATUS.failed}));
+  assert.deepEqual(d,{n:7980,count:2500,loaded:['pack-3'],failed:['pilot-1','pack-2']});
+  assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});
+
+test('all three packs missing leaves the baseline 5,480-card learning mode usable',async()=>{
+ const {browser,page,errors}=await openWithFailure(['shan-extra-pilot-1.json','shan-extra-pack-2.json','shan-extra-pack-3.json']);
  try{
   const result=await page.evaluate(()=>({n:window.DOPA_DATA.shan.length,
     senses:window.DOPA_DATA.shan_senses.length,available:window.DOPA_EXTRA_READY}));
