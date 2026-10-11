@@ -1,0 +1,76 @@
+{
+  "schema": "dopa-shan-extra-semicolon-review-manifest-v1",
+  "status": "boundary-diagnostics-only-not-approved-not-deployed",
+  "total_parent_records": 983,
+  "total_candidate_fragments": 2098,
+  "unique_parent_ids": 983,
+  "diagnostic_counts": {
+    "cue-coverage-incomplete": 837,
+    "disjoint-domain-cue-hypothesis": 82,
+    "shared-domain-cue-hypothesis": 64
+  },
+  "source_semantic_batches": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "shards": [
+    {
+      "file": "shan-extra-semicolon-queue-1-3.json",
+      "batches": [
+        1,
+        2,
+        3
+      ],
+      "count": 226,
+      "fragments": 485
+    },
+    {
+      "file": "shan-extra-semicolon-queue-4-6.json",
+      "batches": [
+        4,
+        5,
+        6
+      ],
+      "count": 274,
+      "fragments": 575
+    },
+    {
+      "file": "shan-extra-semicolon-queue-7-9.json",
+      "batches": [
+        7,
+        8,
+        9
+      ],
+      "count": 261,
+      "fragments": 556
+    },
+    {
+      "file": "shan-extra-semicolon-queue-10-12.json",
+      "batches": [
+        10,
+        11,
+        12
+      ],
+      "count": 222,
+      "fragments": 482
+    }
+  ],
+  "instructions": [
+    "The source semicolon is only a boundary hypothesis; do not create any sense ID automatically.",
+    "Cross-domain clues never constitute independent attested senses.",
+    "Preserve Shan, Japanese/English source glosses, source record IDs and rank.",
+    "None of these 983 records is eligible for the first or second provisional category release.",
+    "Distinguish true polysemy, alternative translations, examples and register/construction restrictions before considering incremental publication."
+  ],
+  "next_action": "Conduct semicolon-parent lexical review in batches of 500, beginning with the first 500 stored parents."
+}
