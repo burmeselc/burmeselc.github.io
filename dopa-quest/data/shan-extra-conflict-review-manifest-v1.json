@@ -1,0 +1,78 @@
+{
+  "schema": "dopa-shan-extra-conflict-review-manifest-v1",
+  "status": "review-queue-pending-editorial-decisions",
+  "source_batches": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_parent_count": 11505,
+  "total_conflicting_parents": 637,
+  "shards": [
+    {
+      "file": "shan-extra-conflict-queue-1.json",
+      "batches": [
+        1,
+        2,
+        3
+      ],
+      "count": 337
+    },
+    {
+      "file": "shan-extra-conflict-queue-2.json",
+      "batches": [
+        4,
+        5,
+        6
+      ],
+      "count": 118
+    },
+    {
+      "file": "shan-extra-conflict-queue-3.json",
+      "batches": [
+        7,
+        8,
+        9
+      ],
+      "count": 100
+    },
+    {
+      "file": "shan-extra-conflict-queue-4.json",
+      "batches": [
+        10,
+        11,
+        12
+      ],
+      "count": 82
+    }
+  ],
+  "audit": {
+    "same_major_only": 132,
+    "cross_major": 505,
+    "shared_cue_collisions": 179,
+    "distinct_cues": 458,
+    "three_plus_candidate_media": 59
+  },
+  "review_order": [
+    "Shared-cue collisions and misleading Japanese substring matches",
+    "Multiple candidate media with three or more supported cues",
+    "Cross-major competition with separate lexical heads",
+    "Within-major competition and possible mixed reading"
+  ],
+  "decision_contract": {
+    "initial_status": "pending-conflict-review",
+    "approved_sense_id": null,
+    "initial_primary_medium": null,
+    "release_requirement": "manual or evidence-grounded editorial selection, human-visible provisional label, source immutable"
+  },
+  "notes": "These 637 records are not classified by having a queue. No original card, source text, history or production taxonomy altered."
+}
