@@ -2,7 +2,7 @@
   "schema": "dopa-shan-extra-multiple-review-round2-proposals-v1",
   "source_queue": "shan-extra-multiple-review-7-9.json",
   "status": "provisional-candidates-not-deployed",
-  "count": 78,
+  "count": 79,
   "entries": [
     {
       "parent_card_id": "shn:anki:3216957fd922fe83",
@@ -700,6 +700,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "語義中心を「教育・学習・知識」に暫定配置（対応手掛かり：教授、博士）。残る候補は用例・材料・属性・共起要素又は重複領域の可能性があるため辞書再照合を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c0024a4f4690ae19",
+      "rank": 12534,
+      "shan": "ၽင်ႇသုတ်း",
+      "source_gloss": "堤防の突き出た部分",
+      "source_definition": "\"【名詞】 堤防の突き出た部分 [projection of a bank]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:11813"
+      ],
+      "selected_medium": "01.01",
+      "selected_label": "地形・地質",
+      "selected_original_cues": [
+        "堤防"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "01.02",
+          "evidence": [
+            "堤防"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「堤防の突き出た部分」の指示対象が「地形・地質」に属すと暫定判断。原辞書再照合までは未確定。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
