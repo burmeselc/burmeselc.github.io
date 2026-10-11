@@ -13,7 +13,7 @@
     "shan-extra-semantic-cue-rules-v7.json",
     "shan-extra-semantic-cue-rules-v8.json"
   ],
-  "rule_basis": "Inheritance from v8 plus Japanese lexical-head checks for ranks 13481–14480. Excludes substring false positives (ノミ/なかご, もし, material/shape and body part modifiers), figurative idioms and similes. Ambiguous and semicolon cases remain null and are not human-reviewed.",
+  "rule_basis": "Inheritance from v8 plus Japanese lexical-head checks for ranks 13481–14480. Excludes substring false positives (ノミ/なかご, もし, material/shape and body part modifiers), figurative idioms and similes. Ambiguous and semicolon cases remain null and are not human-reviewed. Second pass: retained 1,000 parents, refined occupational agents, communication equipment, idiom 鎌をかける, writing desk, ceremony, fish anatomy, food/crop modifiers; all proposed status.",
   "matching_policy": "Match stripped Japanese core gloss (nonnested fullwidth parentheses discarded); suppression patterns match intact core gloss. English definition is provenance only. Evidence is the literal matched cue with regex metacharacters escaped.",
   "conflict_policy": "Select one provisional medium only with exactly one supported rule and no semicolon; otherwise keep primary null. Source semicolons are segmentation hypotheses, not verified senses. Do not issue sense IDs.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -75,7 +75,7 @@
     {
       "id": "sem-03.02",
       "medium_id": "03.02",
-      "pattern": "眠る|寝る|呼吸|排尿|排便|小便|しゃっくり|あくび|くしゃみ|げっぷ|飲み込む|嚥下|味覚|聴覚|視覚|感覚|鼻を鳴らして嗅ぐ|お腹が鳴る|息を吹き|妊娠|喉に詰まる|むせる|寝言|唾液|吐息|生理現象|目覚める|^授乳する|^まばたき|^汗が噴き出す|^唇を舐める|^鼻で吸う|^視界を遮る|^鳥肌が立つ|^おならが出る|^目に涙を浮かべる|^目を見開く|^目ざとい|^耳が遠い|^うがいをする|^鳥肌が立つ|^脈打つ|^音を聞く|^悪臭を嗅ぐ|^首を振る、頭を向ける|^（目が）かすむ|^（眠気で）目が閉じ|^感覚が鈍くなる|^歯ぎしりする|^喉に詰まる|^喉につかえる",
+      "pattern": "眠る|寝る|呼吸|排尿|排便|小便|しゃっくり|あくび|くしゃみ|げっぷ|飲み込む|嚥下|味覚|聴覚|視覚|感覚|鼻を鳴らして嗅ぐ|お腹が鳴る|息を吹き|妊娠|喉に詰まる|むせる|寝言|唾液|吐息|生理現象|目覚める|^授乳する|^まばたき|^汗が噴き出す|^唇を舐める|^鼻で吸う|^視界を遮る|^鳥肌が立つ|^おならが出る|^目に涙を浮かべる|^目を見開く|^目ざとい|^耳が遠い|^うがいをする|^鳥肌が立つ|^脈打つ|^音を聞く|^悪臭を嗅ぐ|^首を振る、頭を向ける|^（目が）かすむ|^（眠気で）目が閉じ|^感覚が鈍くなる|^歯ぎしりする|^喉に詰まる|^喉につかえる|^脈打つ",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -177,7 +177,7 @@
     {
       "id": "sem-07.01",
       "medium_id": "07.01",
-      "pattern": "衣服|衣類|ズボン|スカート|上着|下着|帽子|靴下|装身具|首飾り|ネックレス|指輪|耳飾り|ジャケット|僧衣|腹帯|毛織|フェルト|座布団|一揃いの服|スーツ(?!ケース)|スリッパ|袖口|カフス|シン（|服（|^服$|毛織物|ラシャ|^織物|^毛糸|^手袋|^フェイスタオル|^テーブルクロス|^おんぶ紐|^未漂白のキャラコ|^軍服|^ハンモック|^サンダル|^草履|^下着、パンツ|^僧侶の肩に掛ける上衣|^スパンコール|^ストッキング、長い靴下|^鎖帷子|^ベルベット|^短パン、ブリーフ|^女性用アクセサリー|^大きな中国の竹編み帽|^袖の細い上着",
+      "pattern": "衣服|衣類|ズボン|スカート|上着|下着|帽子|靴下|装身具|首飾り|ネックレス|指輪|耳飾り|ジャケット|僧衣|腹帯|毛織|フェルト|座布団|一揃いの服|スーツ(?!ケース)|スリッパ|袖口|カフス|シン（|服（|^服$|毛織物|ラシャ|^織物|^毛糸|^手袋|^フェイスタオル|^テーブルクロス|^おんぶ紐|^未漂白のキャラコ|^軍服|^ハンモック|^サンダル|^草履|^下着、パンツ|^僧侶の肩に掛ける上衣|^スパンコール|^ストッキング、長い靴下|^鎖帷子|^ベルベット|^短パン、ブリーフ|^女性用アクセサリー|^大きな中国の竹編み帽|^袖の細い上着|^真鍮のワイヤーで作られた膝や腰の飾り",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -207,7 +207,7 @@
     {
       "id": "sem-08.02",
       "medium_id": "08.02",
-      "pattern": "ベビーベッド|ベッド|椅子|かご|コップ|容器|寝具|食器|家具|生活用品|痰壺|唾入れ|痰台|手臼|杖|ステッキ|箒|^蓋|^覆い|敷物|座布団|洗面器|たらい|土器のカップ|フォーク|書き物机|ティースプーン|壺|机|錠|壁紙|封筒|^輪ゴム|^水汲みバケツ|^腕時計|^鉄鍋|^ティーポット|^やかん|^煙管|^マットレス|^オイルランプ|^柳行李|^懐中電灯|^小さな天秤を入れるための木箱|^刀の鞘|^スーツケース|^重りや銀などを運ぶための袋|^たいまつ|^たいまつ|^ランプ|^天秤の皿|^消しゴム|^コーヒースプーン|^ピッチフォーク|^籠の底を|^座布団|^ランチボックス|^個人の食事と飲み物を入れる容器|^子供を腰にのせて運ぶ|^天灯|^ランプ$|^天秤棒で担ぐためのかご|^湯沸かし用の真鍮製の容器|^クッション、座布団",
+      "pattern": "ベビーベッド|ベッド|椅子|かご|コップ|容器|寝具|食器|家具|生活用品|痰壺|唾入れ|痰台|手臼|杖|ステッキ|箒|^蓋|^覆い|敷物|座布団|洗面器|たらい|土器のカップ|フォーク|書き物机|ティースプーン|壺|机|錠|壁紙|封筒|^輪ゴム|^水汲みバケツ|^腕時計|^鉄鍋|^ティーポット|^やかん|^煙管|^マットレス|^オイルランプ|^柳行李|^懐中電灯|^小さな天秤を入れるための木箱|^刀の鞘|^スーツケース|^重りや銀などを運ぶための袋|^たいまつ|^たいまつ|^ランプ|^天秤の皿|^消しゴム|^コーヒースプーン|^ピッチフォーク|^籠の底を|^座布団|^ランチボックス|^個人の食事と飲み物を入れる容器|^子供を腰にのせて運ぶ|^天灯|^ランプ$|^天秤棒で担ぐためのかご|^湯沸かし用の真鍮製の容器|^クッション、座布団|^書き物机、文机",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -255,13 +255,13 @@
     {
       "id": "sem-10.01",
       "medium_id": "10.01",
-      "pattern": "労働者|整備士|技師|石工|職人|雇われ|作業員|従業員|職業|働く|勤務|雇用|執事|配膳係|店員|ストライキ|解雇|マネージャー|ブローカー|仲介業|馬丁|精米工|肉屋|実業家|賃仕事|^-|^重労働|^熟練工|^親方|^任務|^仕事|^大工$|^農家、園芸|^食料雑貨店主|^著述家|^著作家、著者|^教授、博士|^車輪製作職人|^ダンサー、職業舞踊手|^配管工$|^代理人、代表者|^露天商、行商人|^写真家$",
+      "pattern": "労働者|整備士|技師|石工|職人|雇われ|作業員|従業員|職業|働く|勤務|雇用|執事|配膳係|店員|ストライキ|解雇|マネージャー|ブローカー|仲介業|馬丁|精米工|肉屋|実業家|賃仕事|^-|^重労働|^熟練工|^親方|^任務|^仕事|^大工$|^農家、園芸|^食料雑貨店主|^著述家|^著作家、著者|^教授、博士|^車輪製作職人|^ダンサー、職業舞踊手|^配管工$|^代理人、代表者|^露天商、行商人|^写真家$|^船の舵取り、操舵手|^建設業者、大工",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
       "id": "sem-10.02",
       "medium_id": "10.02",
-      "pattern": "農作物|農業|農耕|耕す|農具|収穫|落ち穂|田畑|田植|稲作|綿繰り|綿の種|農場|養蚕|伐採|刈り跡|鍬|からすき|耕作|稲の刈り跡|田の畦|精米工|唐臼小屋|^農民|牛の囲い|籾|^畝|^稲を刈る|^籾|^糠（|^鎌|^田んぼ|^収穫後の田畑|^刈り株$|^焼畑農業のために木や藪を切り開く|^庭を鍬で掘る",
+      "pattern": "農作物|農業|農耕|耕す|農具|収穫|落ち穂|田畑|田植|稲作|綿繰り|綿の種|農場|養蚕|伐採|刈り跡|鍬|からすき|耕作|稲の刈り跡|田の畦|精米工|唐臼小屋|^農民|牛の囲い|籾|^畝|^稲を刈る|^籾|^糠（|^鎌|^田んぼ|^収穫後の田畑|^刈り株$|^焼畑農業のために木や藪を切り開く|^庭を鍬で掘る|^綿を摘む",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -321,7 +321,7 @@
     {
       "id": "sem-12.03",
       "medium_id": "12.03",
-      "pattern": "楽団|オーケストラ|音楽|楽器|演奏|舞踊|踊る|^舞う|芝居|演劇|劇場|美術|絵画|ハーモニー|奏でる|音が調和|^画家|絵師|^バイオリン|ケトルドラム|太鼓|ドラムスティック|朗唱される歌|^ラッパ|^黄金のドラ|^ダンス|^コンサート|^鐘、鈴|^操り人形|^彫像|^スパンコール|^ダンサー、職業舞踊手|^平たい金属製のゴング|^銅鑼、金属製|^長い円筒形のビルマ太鼓",
+      "pattern": "楽団|オーケストラ|音楽|楽器|演奏|舞踊|踊る|^舞う|芝居|演劇|劇場|美術|絵画|ハーモニー|奏でる|音が調和|^画家|絵師|^バイオリン|ケトルドラム|太鼓|ドラムスティック|朗唱される歌|^ラッパ|^黄金のドラ|^ダンス|^コンサート|^鐘、鈴|^操り人形|^彫像|^スパンコール|^ダンサー、職業舞踊手|^平たい金属製のゴング|^銅鑼、金属製|^長い円筒形のビルマ太鼓|^ビルマ太鼓",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -429,7 +429,7 @@
     {
       "id": "sem-16.02",
       "medium_id": "16.02",
-      "pattern": "繋ぎ合わせ|混ぜ合わせ|握る|掴む|つかむ|引っ張る|押す|^引く|結ぶ|巻き付|揺らす|^振る|^切る|置く|持ち上|浸す|噛む|接触|つなぐ|接続する|投げる|放る|隠す|見つける|打つ|突き刺す|突き通す|こすれる|ぶつかる|掘る|挟む|押し込む|打ち込む|^覆う|^被せる|^掴んで|^突き刺され|^混ぜて|^握る|^広げる|^引っ張る|^遮る|^繋ぐ|^すりつぶす|^こすり砕く|^梱包|^包みを作る|^研ぐ|^縒り合わせ|^こねる|^揉む|^掘り出す|^火を吹く|^ぴしゃりと叩く|^水をせき止める|^すくい取って|^密封する|^ぴしゃりと叩く|^紙を（壁などに）貼る|^叩く|^掴む|^手で絞る、こねる|^隙間なく詰まっている|^次々に並べる",
+      "pattern": "繋ぎ合わせ|混ぜ合わせ|握る|掴む|つかむ|引っ張る|押す|^引く|結ぶ|巻き付|揺らす|^振る|^切る|置く|持ち上|浸す|噛む|接触|つなぐ|接続する|投げる|放る|隠す|見つける|打つ|突き刺す|突き通す|こすれる|ぶつかる|掘る|挟む|押し込む|打ち込む|^覆う|^被せる|^掴んで|^突き刺され|^混ぜて|^握る|^広げる|^引っ張る|^遮る|^繋ぐ|^すりつぶす|^こすり砕く|^梱包|^包みを作る|^研ぐ|^縒り合わせ|^こねる|^揉む|^掘り出す|^火を吹く|^ぴしゃりと叩く|^水をせき止める|^すくい取って|^密封する|^ぴしゃりと叩く|^紙を（壁などに）貼る|^叩く|^掴む|^手で絞る、こねる|^隙間なく詰まっている|^次々に並べる|^ココナッツ（の身）を削る",
       "mode": "japanese-core-lexical-cue-with-context-guards-v9"
     },
     {
@@ -1273,11 +1273,6 @@
       "reason": "Route map or carrying child doesn't denote vehicle."
     },
     {
-      "medium_id": "11.04",
-      "when": "^通信機器",
-      "reason": "Technology category preferable to generic tool."
-    },
-    {
       "medium_id": "12.01",
       "when": "^宗教学校",
       "reason": "School with religious specialization could be primarily education."
@@ -1378,11 +1373,6 @@
       "reason": "Served monk is recipient, not lexical agent."
     },
     {
-      "medium_id": "06.01",
-      "when": "^魚の背びれ|^粗塩",
-      "reason": "Fish anatomical part and salt substance require distinct classification."
-    },
-    {
       "medium_id": "06.02",
       "when": "^酒造り用の酵母",
       "reason": "Yeast is substance for beverage, not beverage."
@@ -1391,11 +1381,6 @@
       "medium_id": "07.01",
       "when": "^袖の細い上着",
       "reason": "Garment is suitable primary; shape contextual."
-    },
-    {
-      "medium_id": "08.02",
-      "when": "^ノミの刃のなかご",
-      "reason": "Not a basket: なかご is a tang."
     },
     {
       "medium_id": "09.01",
@@ -1431,11 +1416,6 @@
       "medium_id": "10.04",
       "when": "^販売価格",
       "reason": "Price is financial, preferable if commerce cue suppressed."
-    },
-    {
-      "medium_id": "11.01",
-      "when": "^ノミの刃のなかご|^通信機器|^木槌、こん棒",
-      "reason": "Not full tool for a component, technology and club homographs need restraint."
     },
     {
       "medium_id": "11.02",
@@ -1521,6 +1501,101 @@
       "medium_id": "18.03",
       "when": "^（冷めたスープのように）部分的に固まる|^籾殻の粗い部分",
       "reason": "部分 used as adverbial modification, not lexical abstract part."
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^ノミの刃のなかご|^通信機器",
+      "reason": "Tool part or technology, not generic apparatus"
+    },
+    {
+      "medium_id": "08.02",
+      "when": "^ノミの刃のなかご",
+      "reason": "なかご is tang, not a basket"
+    },
+    {
+      "medium_id": "06.01",
+      "when": "^魚の背びれ",
+      "reason": "Fish anatomy, not cuisine"
+    },
+    {
+      "medium_id": "11.01",
+      "when": "^鎌をかける",
+      "reason": "Idiomatic phrase not a sickle"
+    },
+    {
+      "medium_id": "13.03",
+      "when": "^通信機器",
+      "reason": "Communication apparatus is technology, not news"
+    },
+    {
+      "medium_id": "06.04",
+      "when": "^喉に詰まる",
+      "reason": "Choking as physiology not eating"
+    },
+    {
+      "medium_id": "17.01",
+      "when": "^僧侶の求めに応じ、あらゆる世話",
+      "reason": "Indefinite quantifier incidental to service agent"
+    },
+    {
+      "medium_id": "12.05",
+      "when": "^書き物机、文机",
+      "reason": "Desk isn't literature"
+    },
+    {
+      "medium_id": "05.03",
+      "when": "^結婚式を執り行う",
+      "reason": "Marriage ceremony, not relationship"
+    },
+    {
+      "medium_id": "11.03",
+      "when": "^船の舵取り、操舵手",
+      "reason": "Steersman denotes human occupation"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^建設業者、大工",
+      "reason": "Occupation rather than construction activity"
+    },
+    {
+      "medium_id": "13.04",
+      "when": "^授業中、開講期間",
+      "reason": "Temporal location in school term"
+    },
+    {
+      "medium_id": "02.02",
+      "when": "^綿を摘む|^ココナッツ（の身）を削る",
+      "reason": "Crop is object of physical action"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^煉瓦の欠片|^真鍮のワイヤーで作られた膝や腰の飾り",
+      "reason": "Material is contextual for fragment/ornament"
+    },
+    {
+      "medium_id": "15.03",
+      "when": "^真鍮のワイヤーで作られた膝や腰の飾り",
+      "reason": "Ornament not generic material"
+    },
+    {
+      "medium_id": "07.01",
+      "when": "^クッション、座布団",
+      "reason": "Household cushion is not garment"
+    },
+    {
+      "medium_id": "05.01",
+      "when": "^人間に慣れる、家畜化される",
+      "reason": "Human as agent context for domestication"
+    },
+    {
+      "medium_id": "12.03",
+      "when": "^写真家$",
+      "reason": "Photography is an occupation instead of generic art"
+    },
+    {
+      "medium_id": "11.02",
+      "when": "^ノミを叩くための小さな木槌",
+      "reason": "The tool is not manufacturing"
     }
   ],
   "tag_rules": [
