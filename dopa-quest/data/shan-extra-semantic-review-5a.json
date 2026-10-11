@@ -947,11 +947,20 @@
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
-      "feature": [],
+      "feature": [
+        "body_part"
+      ],
       "field": [],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "feature",
+        "value": "body_part",
+        "cue": "身体",
+        "pattern": "^唇|^顎|^頭蓋|^肩|^目尻|^手首|^陰毛|^歯肉|^ふくらはぎ|^膝裏$|^身体$"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "03.01",
@@ -1846,7 +1855,9 @@
         "tag_candidates": {
           "semantic_type": [],
           "feature": [],
-          "field": [],
+          "field": [
+            "medicine"
+          ],
           "usage": []
         },
         "verified_sense_id": null,
@@ -2917,11 +2928,20 @@
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
-      "feature": [],
+      "feature": [
+        "body_part"
+      ],
       "field": [],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "feature",
+        "value": "body_part",
+        "cue": "膝裏",
+        "pattern": "^唇|^顎|^頭蓋|^肩|^目尻|^手首|^陰毛|^歯肉|^ふくらはぎ|^膝裏$|^身体$"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "03.01",
@@ -5857,10 +5877,19 @@
     "tags": {
       "semantic_type": [],
       "feature": [],
-      "field": [],
+      "field": [
+        "medicine"
+      ],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "field",
+        "value": "medicine",
+        "cue": "まぶたがひどく炎症",
+        "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風|^黄疸|^消化器疾患|^まぶたがひどく炎症"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "03.03",
@@ -5989,10 +6018,19 @@
     "tags": {
       "semantic_type": [],
       "feature": [],
-      "field": [],
+      "field": [
+        "medicine"
+      ],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "field",
+        "value": "medicine",
+        "cue": "黄疸",
+        "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風|^黄疸|^消化器疾患|^まぶたがひどく炎症"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "03.03",
@@ -6597,8 +6635,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "08",
-    "primary_medium": "08.02",
+    "primary_major": null,
+    "primary_medium": null,
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -6607,17 +6645,9 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [
-      {
-        "medium": "08.02",
-        "major": "08",
-        "evidence": [
-          "錠"
-        ]
-      }
-    ],
+    "category_candidates": [],
     "segmentation_candidates": [],
-    "review_status": "single-cue-provisional",
+    "review_status": "no-supported-category-cue",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -6845,10 +6875,19 @@
     "tags": {
       "semantic_type": [],
       "feature": [],
-      "field": [],
+      "field": [
+        "linguistics"
+      ],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "field",
+        "value": "linguistics",
+        "cue": "略記する",
+        "pattern": "^音韻|^助数詞|^言語|^子音|^語彙|^閉口音|^略記する|^音節"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "13.02",
@@ -7928,10 +7967,19 @@
     "tags": {
       "semantic_type": [],
       "feature": [],
-      "field": [],
+      "field": [
+        "medicine"
+      ],
       "usage": []
     },
-    "tag_evidence": [],
+    "tag_evidence": [
+      {
+        "axis": "field",
+        "value": "medicine",
+        "cue": "黄疸",
+        "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風|^黄疸|^消化器疾患|^まぶたがひどく炎症"
+      }
+    ],
     "category_candidates": [
       {
         "medium": "03.03",
@@ -12384,8 +12432,8 @@
     "pos_source": "動詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": "16",
-    "primary_medium": "16.03",
+    "primary_major": "03",
+    "primary_medium": "03.05",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -12396,10 +12444,10 @@
     "tag_evidence": [],
     "category_candidates": [
       {
-        "medium": "16.03",
-        "major": "16",
+        "medium": "03.05",
+        "major": "03",
         "evidence": [
-          "始める"
+          "膨らみ始める"
         ]
       }
     ],
@@ -15179,8 +15227,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "14",
+    "primary_medium": "14.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -15189,9 +15237,17 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [],
+    "category_candidates": [
+      {
+        "medium": "14.01",
+        "major": "14",
+        "evidence": [
+          "短い年"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -17095,7 +17151,7 @@
         "axis": "field",
         "value": "medicine",
         "cue": "病気",
-        "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風"
+        "pattern": "^悪寒|^病気|^梅毒|^空咳|^乾いた咳|^医療|^診察|^破傷風|^黄疸|^消化器疾患|^まぶたがひどく炎症"
       }
     ],
     "category_candidates": [
