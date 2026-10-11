@@ -3,7 +3,7 @@
   "based_on_merged_pr": 71,
   "source_queue": "shan-extra-multiple-review-1-3.json",
   "status": "provisional-candidates-not-deployed",
-  "count": 247,
+  "count": 272,
   "entries": [
     {
       "parent_card_id": "shn:anki:e8e10c7fdee3c7cd",
@@ -2963,6 +2963,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:a786389bad886d9a",
+      "rank": 6567,
+      "shan": "ၵူၼ်းၶုတ်းမေႃႇ",
+      "source_gloss": "井戸掘り職人",
+      "source_definition": "【名詞】 井戸掘り職人 [well-driller]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:750"
+      ],
+      "selected_medium": "10.01",
+      "selected_label": "仕事・職業・労働",
+      "selected_original_cues": [
+        "職人"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "01.02",
+          "evidence": [
+            "井戸"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「井戸掘り職人」の中心義を「仕事・職業・労働」と解釈。既存手掛かり：職人。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:440a695fb31f09b8",
       "rank": 6569,
       "shan": "ၵူၼ်းၽိုၵ်း",
@@ -3054,6 +3084,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:4bf2809e00cea417",
+      "rank": 6582,
+      "shan": "ၵူၼ်းႁၼ်ႁူႉ",
+      "source_gloss": "目撃者、証人",
+      "source_definition": "【名詞】 目撃者、証人 [witness,]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:857"
+      ],
+      "selected_medium": "09.03",
+      "selected_label": "法・権利・規範",
+      "selected_original_cues": [
+        "証人"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "13.03",
+          "evidence": [
+            "目撃"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「目撃者、証人」の中心義を「法・権利・規範」と解釈。既存手掛かり：証人。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:bb4a75663a06dfcd",
       "rank": 6584,
       "shan": "ၵူၼ်းႁဵတ်းၵၢၼ်ငၢၼ်း",
@@ -3138,6 +3198,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「仕事・職業・労働」に暫定配置。原台帳の対応手掛かり：精米工。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a65d3ea5b1b2c142",
+      "rank": 6616,
+      "shan": "ၵဵဝ်ႈၶိုၼ်ႈ",
+      "source_gloss": "（つる植物などが）巻き付いて登る",
+      "source_definition": "【動詞】 （つる植物などが）巻き付いて登る [climb (as a creeper)]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1175"
+      ],
+      "selected_medium": "16.02",
+      "selected_label": "操作・接触",
+      "selected_original_cues": [
+        "巻き付"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "植物"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「（つる植物などが）巻き付いて登る」の中心義を「操作・接触」と解釈。既存手掛かり：巻き付。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -3266,6 +3356,38 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:ea8f698fa3d70525",
+      "rank": 6630,
+      "shan": "ၵျႄႇ",
+      "source_gloss": "指導者、リーダー、首領",
+      "source_definition": "【名詞】 指導者、リーダー、首領 [leader, chief,]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1297"
+      ],
+      "selected_medium": "09.01",
+      "selected_label": "制度・組織",
+      "selected_original_cues": [
+        "指導者",
+        "リーダー",
+        "首領"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.02",
+          "evidence": [
+            "^指導者"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「指導者、リーダー、首領」の中心義を「制度・組織」と解釈。既存手掛かり：指導者・リーダー・首領。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:2e8e3bec1d1cd3ce",
       "rank": 6653,
       "shan": "ၵွၼ်ႈၼမ်ႉဢွႆႈ",
@@ -3350,6 +3472,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「時間・暦・頻度」に暫定配置。原台帳の対応手掛かり：^新時代。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:95df8fd0541844cb",
+      "rank": 6667,
+      "shan": "ၵၢဝ်ႉၶိုတ်ႈၵုၺ်",
+      "source_gloss": "綿繰り機",
+      "source_definition": "\"【名詞】 綿繰り機 [machine for cleaning cotton]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1639"
+      ],
+      "selected_medium": "10.02",
+      "selected_label": "農林水産・生産",
+      "selected_original_cues": [
+        "綿繰り"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.02",
+          "evidence": [
+            "綿"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「綿繰り機」の中心義を「農林水産・生産」と解釈。既存手掛かり：綿繰り。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -3480,6 +3632,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:062db555fad429f8",
+      "rank": 6697,
+      "shan": "ၵႂၼ်ႈ",
+      "source_gloss": "（手でノミを回転させて）穴をあける",
+      "source_definition": "\"【動詞】 （手でノミを回転させて）穴をあける [drill a hole by rotating a chisel between the hands,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:1888"
+      ],
+      "selected_medium": "11.02",
+      "selected_label": "加工・材料・建設",
+      "selected_original_cues": [
+        "ノミ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.01",
+          "evidence": [
+            "ノミ"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「（手でノミを回転させて）穴をあける」の中心義を「加工・材料・建設」と解釈。既存手掛かり：ノミ。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:3729491ec8eaad91",
       "rank": 6699,
       "shan": "ၵႂႆၶႅၼ်",
@@ -3540,6 +3722,66 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:221668eb8fb00aa8",
+      "rank": 6709,
+      "shan": "ၵႃႉၶၢႆၸွမ်းၵၢၼ်",
+      "source_gloss": "共同経営や会社組織で商売をする",
+      "source_definition": "\"【動詞】 共同経営や会社組織で商売をする [trade by joining together into a company or partnership]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2013"
+      ],
+      "selected_medium": "10.03",
+      "selected_label": "商取引・市場",
+      "selected_original_cues": [
+        "商売"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.01",
+          "evidence": [
+            "組織"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「共同経営や会社組織で商売をする」の中心義を「商取引・市場」と解釈。既存手掛かり：商売。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b5393142d892a83a",
+      "rank": 6712,
+      "shan": "ၵႄႇၶႅၼ်ႉ",
+      "source_gloss": "年齢のわりに小柄である、発育不全である",
+      "source_definition": "\"【動詞】 年齢のわりに小柄である、発育不全である [be small, stunted for one's age]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2037"
+      ],
+      "selected_medium": "03.03",
+      "selected_label": "症状・病気・障害",
+      "selected_original_cues": [
+        "発育不全"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "02.03",
+          "evidence": [
+            "発育不全"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「年齢のわりに小柄である、発育不全である」の中心義を「症状・病気・障害」と解釈。既存手掛かり：発育不全。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:7f6b304d56c9dce6",
       "rank": 6720,
       "shan": "ၵႅပ်ႇၶဝ်ႈ",
@@ -3563,6 +3805,44 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「植物・菌類」に暫定配置。原台帳の対応手掛かり：籾殻。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:d424ad64c5e2e35b",
+      "rank": 6727,
+      "shan": "ၵႅၼ်ႉ",
+      "source_gloss": "むせる、喉に詰まる、（水などで）窒息しそうになる",
+      "source_definition": "\"【動詞】 むせる、喉に詰まる、（水などで）窒息しそうになる [choke, be almost suffocated with anything (as water), stifle]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2181"
+      ],
+      "selected_medium": "03.03",
+      "selected_label": "症状・病気・障害",
+      "selected_original_cues": [
+        "窒息"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "03.02",
+          "evidence": [
+            "喉に詰まる",
+            "むせる"
+          ]
+        },
+        {
+          "medium": "06.04",
+          "evidence": [
+            "喉に詰まる",
+            "むせる"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「むせる、喉に詰まる、（水などで）窒息しそうになる」の中心義を「症状・病気・障害」と解釈。既存手掛かり：窒息。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -3595,6 +3875,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「食材・料理」に暫定配置。原台帳の対応手掛かり：料理・粗糖・カウヤーグ。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:9cf47137e350ee19",
+      "rank": 6755,
+      "shan": "ၶဝ်ႈဝၢတ်ႈ",
+      "source_gloss": "僧侶が修行や告白のために集まる儀式",
+      "source_definition": "\"【動詞】 僧侶が修行や告白のために集まる儀式 [assemble, as priests for the mutual confession of sins and the performance of certain religious duties, living in booths prepared for the occasion]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:2443"
+      ],
+      "selected_medium": "12.01",
+      "selected_label": "宗教・信仰・儀礼",
+      "selected_original_cues": [
+        "僧侶"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "12.02",
+          "evidence": [
+            "儀式"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「僧侶が修行や告白のために集まる儀式」の中心義を「宗教・信仰・儀礼」と解釈。既存手掛かり：僧侶。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -3754,6 +4064,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「家具・生活用品」に暫定配置。原台帳の対応手掛かり：書き物机・机。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0d0e48a5bcd7ea11",
+      "rank": 6840,
+      "shan": "ၶျၢင်ႉ",
+      "source_gloss": "熟考する、見積もる、計算する（語源等：ビルマ語）",
+      "source_definition": "\"【動詞】 熟考する、見積もる、計算する（語源等：ビルマ語） [calculate in the mind, estimate, compute （語源等：Burmese）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3202"
+      ],
+      "selected_medium": "04.02",
+      "selected_label": "認知・記憶・注意",
+      "selected_original_cues": [
+        "熟考"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.05",
+          "evidence": [
+            "見積も"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「熟考する、見積もる、計算する（語源等：ビルマ語）」の中心義を「認知・記憶・注意」と解釈。既存手掛かり：熟考。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -4037,6 +4377,42 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:c2d8f85f44b60b69",
+      "rank": 6899,
+      "shan": "ၶႆႇမၼ်း",
+      "source_gloss": "（ジャガイモなどの）未熟な小球茎、むかご",
+      "source_definition": "\"【名詞】 （ジャガイモなどの）未熟な小球茎、むかご [small ungrown bulbs of the potato,]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3809"
+      ],
+      "selected_medium": "02.03",
+      "selected_label": "生態・生育・繁殖",
+      "selected_original_cues": [
+        "未熟な"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "06.01",
+          "evidence": [
+            "ジャガイモ"
+          ]
+        },
+        {
+          "medium": "08.02",
+          "evidence": [
+            "かご"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「（ジャガイモなどの）未熟な小球茎、むかご」の中心義を「生態・生育・繁殖」と解釈。既存手掛かり：未熟な。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:b24404e77a833a9a",
       "rank": 6901,
       "shan": "ၶႆႈႁႂ်ႈၽူၼ်မႃး",
@@ -4060,6 +4436,37 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「意志・欲求・動機」に暫定配置。原台帳の対応手掛かり：願う。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:317cfc313dece75c",
+      "rank": 6908,
+      "shan": "ငိုၵ်း",
+      "source_gloss": "鈍い、頭の回転が遅い、理解が悪い",
+      "source_definition": "\"【動詞】 鈍い、頭の回転が遅い、理解が悪い [be not clever, dull, difficult of apprehension]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:3894"
+      ],
+      "selected_medium": "04.02",
+      "selected_label": "認知・記憶・注意",
+      "selected_original_cues": [
+        "理解",
+        "理解が悪"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "16.01",
+          "evidence": [
+            "転が"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「鈍い、頭の回転が遅い、理解が悪い」の中心義を「認知・記憶・注意」と解釈。既存手掛かり：理解・理解が悪。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -4120,6 +4527,37 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「操作・接触」に暫定配置。原台帳の対応手掛かり：取る。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:b4a55d688d241aa3",
+      "rank": 6932,
+      "shan": "ငွၼ်းငွၼ်း",
+      "source_gloss": "非常に（寒さについて。例：非常に寒い）",
+      "source_definition": "\"【副詞】 非常に（寒さについて。例：非常に寒い） [exceedingly, applied to cold, as ၵတ်းငွၼ်းငွၼ်း]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4098"
+      ],
+      "selected_medium": "15.04",
+      "selected_label": "程度・評価・比較",
+      "selected_original_cues": [
+        "^非常に"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "01.03",
+          "evidence": [
+            "寒さ",
+            "非常に寒"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「非常に（寒さについて。例：非常に寒い）」の中心義を「程度・評価・比較」と解釈。既存手掛かり：^非常に。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -4285,6 +4723,42 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:950e914a729bbdb5",
+      "rank": 6971,
+      "shan": "ၸိူဝ်ႈၵိၼ်ၸိုၵ်းၵိၼ်",
+      "source_gloss": "つけで買う、借金をして生活する",
+      "source_definition": "\"【動詞】 つけで買う、借金をして生活する [buy on credit, live by credit]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:4502"
+      ],
+      "selected_medium": "10.04",
+      "selected_label": "貨幣・価格・財産",
+      "selected_original_cues": [
+        "借金"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "08.04",
+          "evidence": [
+            "生活する"
+          ]
+        },
+        {
+          "medium": "10.03",
+          "evidence": [
+            "買う"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「つけで買う、借金をして生活する」の中心義を「貨幣・価格・財産」と解釈。既存手掛かり：借金。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:f9f1ad07f10dc92e",
       "rank": 6989,
       "shan": "ၸူမ်းၸုပ်ႇၸူမ်းၼူမ်",
@@ -4375,6 +4849,37 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「発話・対話」に暫定配置。原台帳の対応手掛かり：言葉。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:02843ffd64b532ff",
+      "rank": 7024,
+      "shan": "ၸၢမ်းၵွင်",
+      "source_gloss": "演奏前に太鼓の音を試す",
+      "source_definition": "【動詞】 演奏前に太鼓の音を試す [try the sound of a drum before playing]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5032"
+      ],
+      "selected_medium": "12.03",
+      "selected_label": "音楽・舞踊・美術",
+      "selected_original_cues": [
+        "演奏",
+        "太鼓"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.02",
+          "evidence": [
+            "前に"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「演奏前に太鼓の音を試す」の中心義を「音楽・舞踊・美術」と解釈。既存手掛かり：演奏・太鼓。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -4637,6 +5142,42 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:57d67d1100e9f018",
+      "rank": 7094,
+      "shan": "သိမ်းဢႃႇၼႃႇ",
+      "source_gloss": "権力を握る、クーデターを起こす",
+      "source_definition": "\"【動詞】 権力を握る、クーデターを起こす [take over authority (as a coup d'etat)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:5675"
+      ],
+      "selected_medium": "09.04",
+      "selected_label": "治安・紛争・軍事",
+      "selected_original_cues": [
+        "クーデター"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "09.03",
+          "evidence": [
+            "権力"
+          ]
+        },
+        {
+          "medium": "16.02",
+          "evidence": [
+            "握る"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「権力を握る、クーデターを起こす」の中心義を「治安・紛争・軍事」と解釈。既存手掛かり：クーデター。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:fa1b6f873aaf3ad5",
       "rank": 7096,
       "shan": "သိုင်ႇၶူၵ်ႉ",
@@ -4787,6 +5328,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「慣習・祭礼」に暫定配置。原台帳の対応手掛かり：儀式。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:254f7a306c396cb6",
+      "rank": 7143,
+      "shan": "သူမ်ႈၼႃႈသူမ်ႈတႃ",
+      "source_gloss": "酸っぱい顔をする、不機嫌そうな顔をする",
+      "source_definition": "\"【動詞】 酸っぱい顔をする、不機嫌そうな顔をする [be sour visaged]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:6089"
+      ],
+      "selected_medium": "04.01",
+      "selected_label": "感情・気分",
+      "selected_original_cues": [
+        "不機嫌"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "06.05",
+          "evidence": [
+            "酸っぱい"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「酸っぱい顔をする、不機嫌そうな顔をする」の中心義を「感情・気分」と解釈。既存手掛かり：不機嫌。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -6029,6 +6600,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:044d7b4b25494884",
+      "rank": 7534,
+      "shan": "ၼူၽႆး ဢႃႇၵႃႇသႃႉ",
+      "source_gloss": "宇宙ロケット",
+      "source_definition": "【名詞】 宇宙ロケット [space rocket]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:9865"
+      ],
+      "selected_medium": "11.01",
+      "selected_label": "工具・機械・装置",
+      "selected_original_cues": [
+        "^宇宙ロケット"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "01.04",
+          "evidence": [
+            "宇宙"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「宇宙ロケット」の中心義を「工具・機械・装置」と解釈。既存手掛かり：^宇宙ロケット。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:af5526df17c976f6",
       "rank": 7556,
       "shan": "ၼႂ်းႁိုဝ်ႉ",
@@ -6514,6 +7115,42 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:c68de127e828b357",
+      "rank": 7845,
+      "shan": "မုင်ႈပႂ်ႉ",
+      "source_gloss": "待ち受ける、期待して待つ",
+      "source_definition": "\"【動詞】 待ち受ける、期待して待つ [look for, wait in expectation, look forward to]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:13044"
+      ],
+      "selected_medium": "04.03",
+      "selected_label": "意志・欲求・動機",
+      "selected_original_cues": [
+        "期待"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.01",
+          "evidence": [
+            "期待"
+          ]
+        },
+        {
+          "medium": "16.04",
+          "evidence": [
+            "待つ"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「待ち受ける、期待して待つ」の中心義を「意志・欲求・動機」と解釈。既存手掛かり：期待。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:89ae724602539478",
       "rank": 7854,
       "shan": "မူပ်းဢဵၼ်",
@@ -6657,6 +7294,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「農林水産・生産」に暫定配置。原台帳の対応手掛かり：籾。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:81627545ae0cf160",
+      "rank": 7969,
+      "shan": "မႅပ်ႇတူမ်း",
+      "source_gloss": "（開いた下着などを）手繰り寄せて閉じる",
+      "source_definition": "\"【動詞】 （開いた下着などを）手繰り寄せて閉じる [gather and cover (as a woman closes an open peticoat)]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:14130"
+      ],
+      "selected_medium": "16.03",
+      "selected_label": "変化・発生・消滅",
+      "selected_original_cues": [
+        "閉じる"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "07.01",
+          "evidence": [
+            "下着"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「（開いた下着などを）手繰り寄せて閉じる」の中心義を「変化・発生・消滅」と解釈。既存手掛かり：閉じる。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -6838,6 +7505,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「工具・機械・装置」に暫定配置。原台帳の対応手掛かり：^レーダー。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a3ecccdc19262f3a",
+      "rank": 8064,
+      "shan": "ရႃႇမၢတ်ႈ",
+      "source_gloss": "菱形の格子の竹垣（高貴な人が通る道や儀式の場所に設置されるもの）",
+      "source_definition": "\"【名詞】 菱形の格子の竹垣（高貴な人が通る道や儀式の場所に設置されるもの） [lattice fence, usually of bamboo constructed with rhombic interstices, and erected by the side of a road passed by great personages, or places where ceremonies are held]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:15063"
+      ],
+      "selected_medium": "12.02",
+      "selected_label": "慣習・祭礼",
+      "selected_original_cues": [
+        "儀式"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.02",
+          "evidence": [
+            "場所"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「菱形の格子の竹垣（高貴な人が通る道や儀式の場所に設置されるもの）」の中心義を「慣習・祭礼」と解釈。既存手掛かり：儀式。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -7216,6 +7913,42 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:7ea978e56a701cf3",
+      "rank": 8245,
+      "shan": "ဝၢင်ႇငိုၼ်း",
+      "source_gloss": "寄付する、献金する（祝宴や宗教的な集まりに）",
+      "source_definition": "\"【動詞】 寄付する、献金する（祝宴や宗教的な集まりに） [give money toward a feast or religious gathering, contribute money]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:16943"
+      ],
+      "selected_medium": "05.04",
+      "selected_label": "対人行動・礼節",
+      "selected_original_cues": [
+        "寄付する"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.04",
+          "evidence": [
+            "献金"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "evidence": [
+            "宗教"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「寄付する、献金する（祝宴や宗教的な集まりに）」の中心義を「対人行動・礼節」と解釈。既存手掛かり：寄付する。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:cd5d57e85c231c90",
       "rank": 8277,
       "shan": "ႁိူၵ်ႇႁုၼ်ႈ",
@@ -7269,6 +8002,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「建物・住空間」に暫定配置。原台帳の対応手掛かり：ガレージ。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3b3c9972f95018fe",
+      "rank": 8327,
+      "shan": "ႁဵတ်းဢလေႉ",
+      "source_gloss": "練習する、習慣を身につける",
+      "source_definition": "【動詞】 練習する、習慣を身につける [practice, acquire a habit]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:17939"
+      ],
+      "selected_medium": "13.04",
+      "selected_label": "教育・学習・知識",
+      "selected_original_cues": [
+        "^練習する"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "07.02",
+          "evidence": [
+            "身につける"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「練習する、習慣を身につける」の中心義を「教育・学習・知識」と解釈。既存手掛かり：^練習する。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -7449,6 +8212,42 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "訳語の中心となる対象・事態を「発話・対話」に暫定配置。原台帳の対応手掛かり：言葉。他の一致候補は語義の別側面・説明語・文字列一致の可能性があるため、確定には辞書での再照合が必要。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:08b75a003839dba5",
+      "rank": 8421,
+      "shan": "ဢေႃးၵႃႇသႃႉ",
+      "source_gloss": "許可を求めること、許し（仏教の祈りの冒頭で使われる）",
+      "source_definition": "\"【名詞】 許可を求めること、許し（仏教の祈りの冒頭で使われる） [asking for leave, permission (used at the opening in Buddhist prayer) （語源等：Pali）]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:19104"
+      ],
+      "selected_medium": "09.03",
+      "selected_label": "法・権利・規範",
+      "selected_original_cues": [
+        "^許可"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "04.03",
+          "evidence": [
+            "求める"
+          ]
+        },
+        {
+          "medium": "12.01",
+          "evidence": [
+            "仏教"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「許可を求めること、許し（仏教の祈りの冒頭で使われる）」の中心義を「法・権利・規範」と解釈。既存手掛かり：^許可。明示された文脈や修飾語による他候補は暫定的に副次扱ひとし、原辞書の確認を要する。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
