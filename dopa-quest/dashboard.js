@@ -5,7 +5,7 @@
  const ids=['dopaDashboard','dopaSettings','setup','profile','dopa-v6','flashcardPanel','vocabPanel','game','result'];
  const dashboard=$('dopaDashboard'),nav=$('dopaNav');
  if(!dashboard||!nav)return;
- let route='home',settingsMoved=false;
+ let route='home',settingsMoved=false,statDays=7;
  function snapshot(){return root.DOPA_SYNC_API?.snapshot?.()||null}
  function dueCount(p){
   const now=Date.now();let n=0;
@@ -15,6 +15,72 @@
    }
   }
   return n;
+ }
+ function renderInsights(p){
+  const engine=root.DOPA_STATS;
+  if(!engine)return;
+  const data=engine.range(p,statDays),memory=engine.mastery(p);
+  $('statsTotal').textContent=(data.quest+data.cards).toLocaleString();
+  $('statsAttempts').textContent='クエスト '+data.quest.toLocaleString()+' ・ カード '+data.cards.toLocaleString();
+  $('statsDistinct').textContent=data.distinct.toLocaleString();
+  $('statsRemembered').textContent=data.remembered.toLocaleString();
+  $('statsActiveDays').textContent=data.activeDays+'日';
+  $('statsActiveCaption').textContent='対象 '+data.days+'日間';
+  const chart=$('statsBars');chart.replaceChildren();
+  chart.dataset.days=String(statDays);
+  const max=Math.max(1,...data.rows.map(row=>row.quest+row.cards));
+  for(const [i,day] of data.rows.entries()){
+   const cell=document.createElement('div');cell.className='dopa-stat-day';
+   const stack=document.createElement('div');stack.className='dopa-stat-stack';
+   const quest=document.createElement('i'),card=document.createElement('i');
+   quest.className='quest';card.className='card';
+   quest.style.height=(day.quest/max*100)+'%';
+   card.style.height=(day.cards/max*100)+'%';
+   stack.append(quest,card);
+   const label=document.createElement('span');
+   label.textContent=statDays===7?day.date.slice(5).replace('-','/'):
+    (i%5===0||i===statDays-1?day.date.slice(5).replace('-','/'):'·');
+   cell.title=day.date+'：クエスト'+day.quest+'問／カード'+day.cards+'件／異なる語'+day.distinct+'語';
+   cell.append(stack,label);chart.appendChild(cell);
+  }
+  chart.setAttribute('aria-label',statDays+'日間の日別回答・評価数。'+
+   data.rows.map(d=>d.date+' 四択'+d.quest+'回 カード'+d.cards+'件').join('、'));
+  if(statDays===30)chart.scrollLeft=chart.scrollWidth;
+  const accuracy=data.accuracy===null?'保存済みの回答ログがありません':
+   '四択の正答率 '+data.accuracy+'%（この期間の保存ログ '+data.accuracyCount+'回答）';
+  $('statsAccuracy').textContent=accuracy+
+   '。クエストは初回答のみを集計し、カードの自己評価を正答率には含めません。'+
+   (data.limitedLog?' 四択のログは最新最大1,000件に限られます。':'');
+  $('statsStudied').textContent=memory.studied.toLocaleString();
+  $('statsMastered').textContent=memory.mastered.toLocaleString();
+  $('statsNemesis').textContent=memory.nemesis.toLocaleString();
+  $('statsFlashReview').textContent=memory.flash.review.toLocaleString();
+  const grades=$('statsMastery');grades.replaceChildren();
+  for(const [n,name] of ['SEEN','KNOWN','SOLID','MASTERED'].entries()){
+   const cell=document.createElement('div');
+   const title=document.createElement('span');title.textContent=name;
+   const count=document.createElement('b');count.textContent=memory.levels[n+1].toLocaleString();
+   cell.append(title,count);grades.appendChild(cell);
+  }
+  const domainRows=$('statsDomainRows');domainRows.replaceChildren();
+  const groups=engine.domains(p,root.DOPA_DATA,
+   root.DOPA_SEMANTIC_LABELS_BY_LANG,root.DOPA_DETAIL);
+  if(!groups.length){
+   const note=document.createElement('p');note.className='dopa-stat-note';
+   note.textContent='分類済みの語に学習記録がないため、まだ表示する領域はありません。';
+   domainRows.appendChild(note);
+  }
+  for(const group of groups){
+   const row=document.createElement('div');row.className='dopa-domain-row';
+   const title=document.createElement('span');
+   title.textContent=(group.lang==='shan'?'シャン語':'ビルマ語')+'・'+group.major+' '+group.name;
+   const count=document.createElement('b');
+   count.textContent=group.studied+'語（MASTERED '+group.mastered+'）';
+   row.append(title,count);domainRows.appendChild(row);
+  }
+  for(const button of document.querySelectorAll('[data-stat-days]')){
+   button.setAttribute('aria-pressed',String(Number(button.dataset.statDays)===statDays));
+  }
  }
  function render(){
   const p=snapshot();if(!p)return;
@@ -59,6 +125,7 @@
   $('dashStatus').textContent=dueCount(p)?
    '復習期限が到来した単語カードの課題があります。':
    '単語カードの復習待ちはありません。クエストや新規学習を選べます。';
+  renderInsights(p);
  }
  function visibility(target){
   // Exactly one top-level view must be visible. Settings content is nested
@@ -190,6 +257,10 @@
   const p=snapshot();
   if(!p)return;
   organizeLearningControls();
+  document.querySelectorAll('[data-stat-days]').forEach(button=>button.addEventListener('click',()=>{
+   statDays=Number(button.dataset.statDays)===30?30:7;
+   if(route==='home')render();
+  }));
   nav.querySelectorAll('[data-dopa-route]').forEach(btn=>btn.addEventListener('click',()=>go(btn.dataset.dopaRoute)));
   $('flashExit')?.addEventListener('click',()=>{if(route==='cards'){route='quest';visibility('quest')}});
   $('vocabExit')?.addEventListener('click',()=>{if(route==='library'){route='quest';visibility('quest')}});

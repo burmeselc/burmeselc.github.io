@@ -344,6 +344,44 @@ body:not(.dopa-ui-ready) #dopaBoot{
 #dopaSettingsSound .sfx-panel summary{min-height:44px;display:flex;align-items:center;line-height:1.5}
 #dopaSettingsSound .sfx-buttons button{min-height:44px}
 @media(max-width:390px){.dopa-settings-group{padding:11px}.dopa-settings-actions .pill{flex:1 1 auto}}
+
+/* Read-only 7/30-day learning analytics. The chart is native DOM, not canvas. */
+.dopa-insights{border-top:1px solid #34425e;margin-top:18px;padding-top:15px}
+.dopa-insights-head{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.dopa-insights-head h3{font-size:17px;margin:0}
+.dopa-insights h4{font-size:13px;margin:15px 0 8px;color:#dee9f7}
+.dopa-stat-range{display:flex;gap:4px;border-radius:12px;background:#0b1427;padding:3px;border:1px solid #31435d}
+.dopa-stat-range button{padding:8px 11px;font:700 12px system-ui;background:none;border:0;color:#b3c7d9;border-radius:9px;cursor:pointer;min-height:36px}
+.dopa-stat-range button[aria-pressed="true"]{background:#24475d;color:#ecffff}
+.dopa-stat-range button:focus-visible{outline:2px solid #45edff}
+.dopa-insight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:13px}
+.dopa-insight-grid>div{border:1px solid #364864;border-radius:13px;background:#111d31;padding:11px;min-width:0}
+.dopa-insight-grid span,.dopa-insight-grid small{display:block;font-size:11px;color:#a6bad2;line-height:1.45}
+.dopa-insight-grid strong{display:block;font-size:22px;color:#edffff;margin:5px 0}
+.dopa-stat-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;color:#afc1d9}
+.dopa-stat-legend span{display:flex;align-items:center;gap:5px}
+.dopa-stat-legend i{width:10px;height:10px;display:inline-block;border-radius:3px}
+.dopa-stat-legend-quest{background:#6ce1e7}.dopa-stat-legend-card{background:#9279fa}
+.dopa-stat-bars{--stat-bar-size:30px;display:flex;align-items:end;gap:5px;min-height:116px;overflow-x:auto;padding:9px 0 3px;scrollbar-width:thin}
+.dopa-stat-bars[data-days="30"]{--stat-bar-size:16px;gap:4px}
+.dopa-stat-day{flex:1 0 var(--stat-bar-size);min-width:0;max-width:52px;display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;font-size:9px;color:#b4c7dd}
+.dopa-stat-bars[data-days="30"] .dopa-stat-day{flex:0 0 var(--stat-bar-size)}
+.dopa-stat-stack{width:100%;height:87px;background:#0a1426;border:1px solid #344563;border-radius:7px 7px 4px 4px;display:flex;flex-direction:column-reverse;overflow:hidden}
+.dopa-stat-stack i{display:block;width:100%;min-height:0}
+.dopa-stat-stack .quest{background:#6ce1e7;border:0;border-radius:0;padding:0}
+.dopa-stat-stack .card{background:#9279fa;border:0;border-radius:0;padding:0;box-shadow:none;min-height:0}
+.dopa-stat-note{font-size:11px;color:#b3c6dc;line-height:1.65;margin:10px 0}
+.dopa-mastery-breakdown{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;margin:12px 0}
+.dopa-mastery-breakdown div{text-align:center;background:#101b2e;border:1px solid #34425c;padding:8px 3px;border-radius:10px;min-width:0}
+.dopa-mastery-breakdown b{display:block;font-size:18px;margin:4px 0;color:#f5faff}
+.dopa-mastery-breakdown span{font-size:10px;color:#b4c6dd;overflow-wrap:anywhere}
+.dopa-stat-domains{border:1px solid #334461;background:#0e182a;padding:12px;border-radius:13px;margin:14px 0 2px}
+.dopa-stat-domains summary{font-size:13px;font-weight:800;color:#8ee8ef;cursor:pointer;min-height:32px}
+.dopa-domain-rows{display:grid;gap:9px;margin:12px 0}
+.dopa-domain-row{display:flex;justify-content:space-between;gap:10px;font-size:12px;border-bottom:1px solid #27374e;padding-bottom:7px}
+.dopa-domain-row span{min-width:0;overflow-wrap:anywhere}
+.dopa-domain-row b{white-space:nowrap;color:#e9f9fd}
+@media(max-width:390px){.dopa-insight-grid strong{font-size:20px}.dopa-insights h4{font-size:12px}.dopa-mastery-breakdown span{font-size:9px}}
 </style></head><body><div id="dopaBoot" role="status" aria-live="polite">DOPA QUEST<small>語彙データと学習履歴を読込み中…</small></div><div class="app"><header><div class="brand"><div class="logo">D</div><div><h1>DOPA QUEST v6.2</h1><div class="subtitle">MEMORY ARCADE / QUALITY UPDATE</div></div></div><div style="display:flex;gap:6px"><button class="pill" id="backupBtn">SAVE</button><button class="pill" id="loadBtn">LOAD</button><button class="pill" id="soundBtn">♪ SOUND</button><input id="loadFile" type="file" accept="application/json,.json" class="hidden"></div></header><details class="sfx-panel" id="soundSettings"><summary>♪ サウンド演出を試聴・調整</summary><div class="sfx-grid"><label for="sfxPreset">効果音の演出<select id="sfxPreset"><option value="off">OFF（無音）</option><option value="quiet">控へめ</option><option value="standard">標準</option><option value="flashy">派手</option></select></label><label for="sfxVolume">効果音の音量 <span id="sfxVolumeValue">30%</span><input type="range" id="sfxVolume" min="0" max="100" value="30" step="5"></label></div><div class="sfx-buttons"><button type="button" data-sfx-preview="ok">通常正解</button><button type="button" data-sfx-preview="combo3">3 COMBO</button><button type="button" data-sfx-preview="combo5">5 COMBO</button><button type="button" data-sfx-preview="combo10">10 COMBO</button><button type="button" data-sfx-preview="bossEnter">BOSS出現</button><button type="button" data-sfx-preview="boss">BOSS撃破</button><button type="button" data-sfx-preview="seal">熟練度</button><button type="button" data-sfx-preview="nemesis">NEMESIS</button><button type="button" data-sfx-preview="rival">RIVAL撃破</button><button type="button" data-sfx-preview="levelup">LEVEL UP</button><button type="button" data-sfx-preview="resultLow">低得点RESULT</button><button type="button" data-sfx-preview="resultGood">QUEST COMPLETE</button><button type="button" data-sfx-preview="bad">不正解</button></div><p class="sfx-note" id="sfxSessionStatus" aria-live="polite"></p><p class="sfx-note">ゲーム内BGMはありません。モバイル端末ではほかの音楽と混ざる設定を確認できない場合、効果音を自動で無効にします。消音モードでは鳴らないことがあります。Spotify・Apple Musicとの実機検証は別途必要です。</p></details>
 <section class="panel hidden" id="dopaDashboard" aria-label="ホーム">
  <div class="dopa-home-hero"><h2 class="dopa-dashboard-title">今日の学習</h2>
@@ -371,6 +409,38 @@ body:not(.dopa-ui-ready) #dopaBoot{
   <div id="dashWeekBars" class="dopa-week-bars" aria-label="直近7日間の学習記録"></div>
   <p class="dopa-dash-note" id="dashHistoryNotice">この機能の導入日以降の学習を記録します。</p>
  </div>
+ <section class="dopa-insights" aria-labelledby="dopaStatsHeading">
+  <div class="dopa-insights-head">
+   <h3 id="dopaStatsHeading">学習統計</h3>
+   <div class="dopa-stat-range" role="group" aria-label="集計期間">
+    <button type="button" data-stat-days="7" aria-pressed="true">7日間</button>
+    <button type="button" data-stat-days="30" aria-pressed="false">30日間</button>
+   </div>
+  </div>
+  <div class="dopa-insight-grid">
+   <div><span>回答・評価の合計</span><strong id="statsTotal">—</strong><small id="statsAttempts">—</small></div>
+   <div><span>日別学習語数（延べ）</span><strong id="statsDistinct">—</strong><small>日別件数の合計</small></div>
+   <div><span>日別想起語数（延べ）</span><strong id="statsRemembered">—</strong><small>日別件数の合計</small></div>
+   <div><span>学習した日数</span><strong id="statsActiveDays">—</strong><small id="statsActiveCaption">—</small></div>
+  </div>
+  <h4>日別の回答・評価数</h4>
+  <div class="dopa-stat-legend"><span><i class="dopa-stat-legend-quest"></i>クエスト（初回答）</span><span><i class="dopa-stat-legend-card"></i>単語カード（有効な評価）</span></div>
+  <div id="statsBars" class="dopa-stat-bars" role="img" aria-label="日別学習量"></div>
+  <p class="dopa-stat-note" id="statsAccuracy"></p>
+  <p class="dopa-stat-note" id="statsDataNote">日別記録は記録機能導入後の実績のみです。過去の学習量は推定しません。</p>
+  <h4>四択の熟練段階</h4>
+  <div class="dopa-insight-grid dopa-master-grid">
+   <div><span>学習記録のある語</span><strong id="statsStudied">—</strong><small>四択のカードID別</small></div>
+   <div><span>MASTERED</span><strong id="statsMastered">—</strong><small>四択の最高段階</small></div>
+   <div><span>苦手語（NEMESIS）</span><strong id="statsNemesis">—</strong><small>復習対象の目安</small></div>
+   <div><span>カード長期復習</span><strong id="statsFlashReview">—</strong><small>出題方向別の件数</small></div>
+  </div>
+  <div id="statsMastery" class="dopa-mastery-breakdown" aria-label="四択の熟練段階別件数"></div>
+  <details class="dopa-stat-domains"><summary>意味領域別の学習状況</summary>
+   <div id="statsDomainRows" class="dopa-domain-rows"></div>
+   <p class="dopa-stat-note">意味領域の分類が利用可能な語に限ります。語義別の子カードは親語と重複させません。</p>
+  </details>
+ </section>
 </section>
 <section class="panel hidden" id="dopaSettings" aria-label="設定">
  <div class="dopa-settings-intro">
@@ -483,7 +553,7 @@ body:not(.dopa-ui-ready) #dopaBoot{
 <button type="button" data-dopa-route="quest"><span class="nav-symbol">⚔</span>クエスト</button>
 <button type="button" data-dopa-route="cards"><span class="nav-symbol">▤</span>カード</button>
 <button type="button" data-dopa-route="library"><span class="nav-symbol">▥</span>単語帳</button>
-</div></nav><div class="toast" id="toast"></div><script src="./firebase-config.js" defer></script><script src="./sound-fx.js" defer></script><script src="./study-details.js" defer></script><script src="./flashcards.js" defer></script><script src="./vocabulary-library.js" defer></script><script src="./daily-progress.js" defer></script><script src="./dashboard.js" defer></script><script src="./bootstrap.js" defer></script>
+</div></nav><div class="toast" id="toast"></div><script src="./firebase-config.js" defer></script><script src="./sound-fx.js" defer></script><script src="./study-details.js" defer></script><script src="./flashcards.js" defer></script><script src="./vocabulary-library.js" defer></script><script src="./daily-progress.js" defer></script><script src="./learning-stats.js" defer></script><script src="./dashboard.js" defer></script><script src="./bootstrap.js" defer></script>
 <script>
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || (location.hostname === '127.0.0.1' && new URLSearchParams(location.search).has('pwa-test')))) {
   window.addEventListener('load', () => {
