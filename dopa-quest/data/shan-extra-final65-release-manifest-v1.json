@@ -1,0 +1,20 @@
+{
+  "schema": "dopa-shan-extra-final65-release-manifest-v1",
+  "status": "partial-provisional-release-unverified",
+  "source_file": "shan-extra-final65-gloss-review-v1.json",
+  "provisional_delta_file": "shan-extra-final65-proposals-v1.json",
+  "source_count": 65,
+  "additional_provisional": 18,
+  "remaining_held": 47,
+  "remaining_taxonomy_repairs": 19,
+  "remaining_sense_or_boundary": 28,
+  "extra_parent_cards": 11505,
+  "original_single": 4359,
+  "previous_multiple_provisional": 572,
+  "total_provisional_with_delta": 4949,
+  "senses_approved": 0,
+  "editorial_review": "machine-proposal-unverified",
+  "sense_id": null,
+  "publishable_as_approved_sense": false,
+  "next": "Review 19 taxonomy repairs without forcing release; implement independent learning-time editorial notes; then semicolon queue 983"
+}

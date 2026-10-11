@@ -86,7 +86,7 @@ function updateSemanticCategories(){
  select.innerHTML=options;
  select.value=labels[old]?old:'all';select.disabled=false;
  if(notice)notice.textContent=l==='shan'?
-   (window.DOPA_DETAIL?.extraProvisional?.count===4931?'シャン語：追加語彙の単一候補4,359件と複数競合再校閲572件（合計4,931件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。複数競合の追加分は現在利用できません。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。未解決の競合・境界保留語は全カテゴリから学習できます。':
+   (window.DOPA_DETAIL?.extraProvisional?.count===4949?'シャン語：追加語彙の単一候補4,359件、複数競合572件、保留再校閲18件（合計4,949件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4931?'シャン語：追加語彙の単一候補4,359件と複数競合再校閲572件（合計4,931件）を暫定利用中（機械提案・未検証・語義未確定）。':window.DOPA_DETAIL?.extraProvisional?.count===4359?'シャン語：追加語彙の単一カテゴリ機械候補4,359件を暫定利用中（未検証・語義未確定）。複数競合の追加分は現在利用できません。':'シャン語：追加語彙の暫定分類は現在利用できません。')+'既存の多義1,242項目と訳語不足31項目はカテゴリ限定学習から除外。未解決の競合・境界保留語は全カテゴリから学習できます。':
    'ビルマ語分類は暫定版。多義239項目をカテゴリ限定学習から除外（全カテゴリでは利用可能）。';
 }
 // Detailed study filters are session settings; they never rewrite profile/history data.

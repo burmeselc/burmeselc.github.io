@@ -90,3 +90,7 @@ jobs:
 
       - name: Verify all 65 remaining Shan multi-cue editorial dispositions
         run: node --test dopa-quest/tests/shan-extra-final65-review.test.mjs
+      - name: Verify additional 18 provisional classifications, 47 holds, and fallback
+        run: |
+          node --check dopa-quest/shan-extra-provisional.js
+          node --test dopa-quest/tests/shan-extra-final65-release.test.mjs

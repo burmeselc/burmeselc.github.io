@@ -1,0 +1,245 @@
+{
+  "schema": "dopa-shan-extra-final65-proposals-v1",
+  "status": "machine-proposal-unverified",
+  "approved_senses": false,
+  "source_count": 65,
+  "single_count": 18,
+  "held_count": 47,
+  "derivation": "shan-extra-final65-gloss-review-v1.json; original candidates only; lexicographically unverified",
+  "cards": [
+    [
+      "shn:anki:53f61771cc7a0f77",
+      5821,
+      "သြႃႇပိင်းတေႃး",
+      "医師、伝統的な治療師",
+      "03.04",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:bb369b8eaffcda32",
+      5833,
+      "သၢၼ်လၢႆးသွင်",
+      "綾織りで編む（二本おきに上下させる）",
+      "11.02",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:0f1a8c379c071e4c",
+      5888,
+      "တူဝ်ဢမ်ႇလၢႆ",
+      "妊娠している",
+      "03.05",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:a10cb4688d7e2a23",
+      5921,
+      "တၢင်းမွင်း",
+      "希望、期待",
+      "04.03",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:9bd9362fe80c03dc",
+      6098,
+      "ပႅပ်ႉၸပ်း",
+      "物のすぐ後ろに張り付いて身を隠す",
+      "16.02",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:f27baddb7eeaca57",
+      6192,
+      "မၢၵ်ႇၵႄ",
+      "（遊びで打つための）木製のボールや棒",
+      "12.04",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:c6dcaf11c8386bc5",
+      6337,
+      "လၵ်ႉလၵ်ႉလၢမ်ႉလၢမ်ႉ",
+      "（食事時など歓迎されていない時に）図々しくうろつく",
+      "05.04",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:f1a2f9552af3ad1d",
+      6523,
+      "ၵိူတ်ႇၽၢၼ်မၢၼ်းယၢပ်ႇ",
+      "妊娠や出産の苦難に耐える",
+      "03.05",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:e057db9d966e6cb5",
+      6531,
+      "ၵိၼ်ဢပီးၵူၼ်း",
+      "仲介業（ブローカー）の利益で暮らす",
+      "10.03",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:6024da369255ee30",
+      6628,
+      "ၵျၢၵ်ႈလႆႈ",
+      "暗記している、見ずに言える",
+      "04.02",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:a327b7d0b02d3dcd",
+      6636,
+      "ၵွင်ႈၵမ်းၵူႇ",
+      "石筆のホルダー、柄",
+      "11.01",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:4f4a5cc3d11aa0c9",
+      7381,
+      "တၢႆတၢႆ",
+      "確実に、間違いなく、取り消し不可能な形で（ ၵႂၢမ်းတၢႆတၢႆ 決定的な言葉）",
+      "18.04",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:c39afca94af5e62d",
+      7574,
+      "ပတိၵ်ႉသၼ်ႇထေႇၵႄႇ",
+      "妊娠後期である、出産が近い",
+      "03.05",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:4b1dc53eb3fcf542",
+      9501,
+      "တူဝ်လူင်",
+      "妊娠する、身ごもる",
+      "03.05",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:2e16341fd61fc8d6",
+      12722,
+      "မဵင်ႈ",
+      "近づく、（突進前の水牛のように）首を横にかしげる",
+      "16.01",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:e10c010d9fc0ab9d",
+      14845,
+      "ပတိၵ်ႉသၼ်ႇထေႇ",
+      "受胎、妊娠",
+      "03.05",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:dbaeca64442a2349",
+      15297,
+      "မၢၼ်းလုၵ်ႈ",
+      "妊娠する",
+      "03.05",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ],
+    [
+      "shn:anki:846475ee9a224747",
+      16436,
+      "တႂ်းၵိူဝ်း",
+      "利益を期待して信頼する、恩恵を期待する",
+      "04.03",
+      {
+        "semantic_type": [],
+        "feature": [],
+        "field": [],
+        "usage": []
+      }
+    ]
+  ]
+}
