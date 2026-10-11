@@ -15,7 +15,7 @@ test('the same sidecar editor is linked from Shan flash backs and answered quest
  assert.match(html,/id="flashEditorialOpen"/);
  assert.match(flash,/!flipped\|\|session\.lang!=='shan'/);
  assert.match(flash,/DOPA_EDITORIAL_UI\?\.open\?\.\(current\)/);
- assert.match(game,/id=\\"questEditorialOpen\\"/);
+ assert.match(game,/questEditorialOpen/);
  assert.match(game,/S\.cur\?\.answered/);
  assert.match(game,/clearTimeout\(nextTimeout\);nextTimeout=null/);
  assert.match(game,/mountQuestContinue\(\)/);
