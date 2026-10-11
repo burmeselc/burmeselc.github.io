@@ -54,6 +54,7 @@ test('mobile: quest first attempt populates daily history; retry cannot silently
  try{
   const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   await ready(page);
+  await page.locator('[data-dopa-route="quest"]').click();
   await page.locator('#start').click();
   await page.locator('#choices .choice').first().waitFor({state:'visible'});
   const correct=page.locator('#choices .choice[data-correct="1"]');
