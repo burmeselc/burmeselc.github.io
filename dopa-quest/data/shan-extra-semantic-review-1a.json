@@ -2044,8 +2044,8 @@
   "source_gloss": "軽業師、とんぼ返りをする人",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": null,
-  "primary_medium": null,
+  "primary_major": "12",
+  "primary_medium": "12.04",
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -2056,13 +2056,6 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
-   },
-   {
     "medium": "12.04",
     "major": "12",
     "evidence": [
@@ -2072,7 +2065,7 @@
    }
   ],
   "segmentation_candidates": [],
-  "review_status": "ambiguous-multiple-category-cues",
+  "review_status": "single-cue-provisional",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -7789,13 +7782,6 @@
   "tag_evidence": [],
   "category_candidates": [
    {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
-   },
-   {
     "medium": "13.04",
     "major": "13",
     "evidence": [
@@ -9064,8 +9050,8 @@
   "source_gloss": "また（股）、二股（分離点がငႅမ်ႈのような鋭角ではなく曲線を描き、長い歯を持つもの。工業製品について用いる）",
   "pos_source": "名詞",
   "sense_id": null,
-  "primary_major": "12",
-  "primary_medium": "12.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -9074,17 +9060,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "12.01",
-    "major": "12",
-    "evidence": [
-     "業"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -10375,7 +10353,7 @@
     "medium": "16.01",
     "major": "16",
     "evidence": [
-     "立つ"
+     "^立つ"
     ]
    }
   ],
@@ -18661,8 +18639,8 @@
   "source_gloss": "三白眼である、白目が非常に目立つ",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -18671,17 +18649,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.01",
-    "major": "16",
-    "evidence": [
-     "立つ"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
@@ -20084,8 +20054,8 @@
   "source_gloss": "目に見える、目立つ",
   "pos_source": "動詞",
   "sense_id": null,
-  "primary_major": "16",
-  "primary_medium": "16.01",
+  "primary_major": null,
+  "primary_medium": null,
   "secondary_categories": [],
   "tags": {
    "semantic_type": [],
@@ -20094,17 +20064,9 @@
    "usage": []
   },
   "tag_evidence": [],
-  "category_candidates": [
-   {
-    "medium": "16.01",
-    "major": "16",
-    "evidence": [
-     "立つ"
-    ]
-   }
-  ],
+  "category_candidates": [],
   "segmentation_candidates": [],
-  "review_status": "single-cue-provisional",
+  "review_status": "no-supported-category-cue",
   "editorial_review": "machine-proposal-unverified",
   "publishable_as_approved_sense": false
  },
