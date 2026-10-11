@@ -281,6 +281,19 @@
       }catch(e){console.warn('Second 500 review unavailable; keeping previous 4940 classifications',e)}
     }catch(e){console.warn('Next 500 review unavailable; keeping previous 4907 classifications',e)}
     window.DOPA_DETAIL=window.DOPAStudyDetails.create(taxonomy,usableDetails,defaults);
+    // Optional read-only overlay: only unique, unverified single-category extra
+    // proposals. Parent cards, original semantic_status='U' and history remain unchanged.
+    window.DOPA_PROVISIONAL_SINGLE_READY=false;
+    try{
+      const shards=await Promise.all([1,2,3,4].map(async n=>{
+        const response=await fetch('./data/shan-extra-single-proposals-'+n+'.json',{cache:'no-cache'});
+        if(!response.ok)throw Error('provisional shard HTTP '+response.status);
+        return response.json();
+      }));
+      window.DOPA_DETAIL=window.DOPAExtraProvisional.attach(window.DOPA_DETAIL,shards,window.DOPA_DATA);
+      window.DOPA_PROVISIONAL_SINGLE_READY=true;
+    }catch(e){console.warn('Provisional single-category Shan overlay disabled; all original cards remain playable',e)}
+
   }catch(e){console.warn('Optional detailed filters unavailable',e)}
   const game=document.createElement('script');game.src='./game.js';
   game.onerror=()=>{status.textContent='ゲーム本体を読み込めませんでした。'};
