@@ -11,6 +11,7 @@ const pack2=get('shan-extra-pack-2.json');
 const pack3=get('shan-extra-pack-3.json');
 const pack4=get('shan-extra-pack-4.json');
 const pack5=get('shan-extra-pack-5.json');
+const pack6=get('shan-extra-pack-6.json');
 const manifest=get('shan-extra-manifest-v1.json');
 const originalIds=new Set(original.map(x=>x.id));
 const originalForms=new Set(original.map(x=>x.shan.normalize('NFC')));
@@ -137,6 +138,31 @@ test('fifth pack adds 2,500 traceable new Shan forms without overwriting old IDs
  assert.equal(new Set([...original,...prev,...pack5].map(x=>x.id)).size,15980);
 });
 
+test('pack 6 publishes exactly 1,005 clean single-entry forms with immutable identities',()=>{
+ assert.equal(pack6.length,1005);
+ validatePack(pack6,15981);
+ const previous=[...pilot,...pack2,...pack3,...pack4,...pack5];
+ const ids=new Set(previous.map(x=>x.id));
+ const forms=new Set(previous.map(x=>x.shan));
+ const rows=new Set();
+ for(const c of pack6){
+  assert.ok(!ids.has(c.id));
+  assert.ok(!forms.has(c.shan));
+  assert.equal(c.id,'shn:anki:'+createHash('sha256')
+    .update('dopa-shan-extra-v2\x00'+c.shan,'utf8').digest('hex').slice(0,16));
+  assert.ok(Number.isInteger(c.source_row)&&c.source_row>0&&c.source_row<=19637);
+  assert.ok(!rows.has(c.source_row));
+  rows.add(c.source_row);
+  assert.ok(c.source_definition?.length>2);
+  assert.ok(c.game_pos?.length>0);
+  assert.ok(!/[A-Za-z一-鿿]/.test(c.shan));
+  assert.ok(!/\[\[|\[[A-Za-z][^\]]*\]/.test(c.japanese_core));
+ }
+ assert.ok(Math.min(...pack6.map(x=>x.source_row))<100);
+ assert.ok(Math.max(...pack6.map(x=>x.source_row))>19500);
+ assert.equal(new Set([...original,...previous,...pack6].map(x=>x.id)).size,16985);
+});
+
 test('manifest references independently validated optional packs and checks published bytes',()=>{
  assert.equal(manifest.schema,'dopa-shan-extra-packs-v1');
  assert.equal(manifest.base_parent_count,5480);
@@ -145,7 +171,8 @@ test('manifest references independently validated optional packs and checks publ
   ['shan-extra-pack-2.json',2000,6481,8480],
   ['shan-extra-pack-3.json',2500,8481,10980],
   ['shan-extra-pack-4.json',2500,10981,13480],
-  ['shan-extra-pack-5.json',2500,13481,15980]
+  ['shan-extra-pack-5.json',2500,13481,15980],
+  ['shan-extra-pack-6.json',1005,15981,16985]
  ]);
  const checksum=createHash('sha256').update(readFileSync(path('shan-extra-pack-2.json'))).digest('hex');
  assert.equal(checksum,manifest.packs[1].pack_sha256);
@@ -155,6 +182,9 @@ test('manifest references independently validated optional packs and checks publ
  assert.equal(fourthChecksum,manifest.packs[3].pack_sha256);
  const fifthChecksum=createHash('sha256').update(readFileSync(path('shan-extra-pack-5.json'))).digest('hex');
  assert.equal(fifthChecksum,manifest.packs[4].pack_sha256);
+ const sixthChecksum=createHash('sha256').update(readFileSync(path('shan-extra-pack-6.json'))).digest('hex');
+ assert.equal(sixthChecksum,manifest.packs[5].pack_sha256);
+ assert.equal(manifest.packs[5].source_sha256,manifest.packs[4].source_sha256);
  assert.equal(manifest.packs[4].source_sha256,manifest.packs[3].source_sha256);
  assert.equal(manifest.packs[3].source_sha256,manifest.packs[2].source_sha256);
  assert.equal(manifest.packs[2].source_sha256,manifest.packs[1].source_sha256);
@@ -181,6 +211,7 @@ test('sense inventory, categories, user progress, and offline shell remain indep
  assert.match(sw,/shan-extra-pack-3\.json/);
  assert.match(sw,/shan-extra-pack-4\.json/);
  assert.match(sw,/shan-extra-pack-5\.json/);
+ assert.match(sw,/shan-extra-pack-6\.json/);
  assert.match(sw,/shan-extra-manifest-v1\.json/);
  assert.match(sw,/OPTIONAL_PACKS\.map\(path=>cache\.add\(path\)\.catch/);
  assert.match(sw,/learning-stats\.js/);
@@ -212,7 +243,7 @@ test('sampled four-choice alternatives in both directions never collide by Japan
  }
  return checked;
  `);
- const all=[...original,...pilot,...pack2,...pack3,...pack4,...pack5];
- const sampled=[...pilot.filter((_,i)=>i%35===0),...pack2.filter((_,i)=>i%35===0),...pack3.filter((_,i)=>i%35===0),...pack4.filter((_,i)=>i%35===0),...pack5.filter((_,i)=>i%35===0)];
+ const all=[...original,...pilot,...pack2,...pack3,...pack4,...pack5,...pack6];
+ const sampled=[...pilot.filter((_,i)=>i%35===0),...pack2.filter((_,i)=>i%35===0),...pack3.filter((_,i)=>i%35===0),...pack4.filter((_,i)=>i%35===0),...pack5.filter((_,i)=>i%35===0),...pack6.filter((_,i)=>i%35===0)];
  assert.equal(exec(all,sampled),sampled.length*2);
 });
