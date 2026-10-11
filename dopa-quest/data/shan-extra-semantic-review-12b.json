@@ -1,0 +1,155 @@
+[
+  {
+    "parent_card_id": "shn:anki:95ebe509891126e5",
+    "rank": 16981,
+    "shan": "ဢႃႈၽၢတ်ႇ",
+    "source_record_ids": [
+      "anki_shan_jpn.csv:19555"
+    ],
+    "source_row": 19555,
+    "source_gloss": "押し広げる、離す（釘付けされた板同士を離すように）",
+    "source_definition": "\"【動詞】 押し広げる、離す（釘付けされた板同士を離すように） [spread apart (as boards nailed together)]\"",
+    "pos_source": "動詞",
+    "pos_candidate": null,
+    "sense_id": null,
+    "primary_major": null,
+    "primary_medium": null,
+    "secondary_categories": [],
+    "tags": {
+      "semantic_type": [],
+      "feature": [],
+      "field": [],
+      "usage": []
+    },
+    "tag_evidence": [],
+    "category_candidates": [],
+    "segmentation_candidates": [],
+    "review_status": "no-supported-category-cue",
+    "editorial_review": "machine-proposal-unverified",
+    "publishable_as_approved_sense": false
+  },
+  {
+    "parent_card_id": "shn:anki:f681eccef6e46d4a",
+    "rank": 16982,
+    "shan": "ဢႅင်ႈ",
+    "source_record_ids": [
+      "anki_shan_jpn.csv:19577"
+    ],
+    "source_row": 19577,
+    "source_gloss": "腰、腰部、背中の下部",
+    "source_definition": "\"【名詞】 腰、腰部、背中の下部 [loins, waist, small of the back]\"",
+    "pos_source": "名詞",
+    "pos_candidate": null,
+    "sense_id": null,
+    "primary_major": null,
+    "primary_medium": null,
+    "secondary_categories": [],
+    "tags": {
+      "semantic_type": [],
+      "feature": [],
+      "field": [],
+      "usage": []
+    },
+    "tag_evidence": [],
+    "category_candidates": [],
+    "segmentation_candidates": [],
+    "review_status": "no-supported-category-cue",
+    "editorial_review": "machine-proposal-unverified",
+    "publishable_as_approved_sense": false
+  },
+  {
+    "parent_card_id": "shn:anki:f41f10421e218160",
+    "rank": 16983,
+    "shan": "ဢႅပ်ႇပူႉ",
+    "source_record_ids": [
+      "anki_shan_jpn.csv:19596"
+    ],
+    "source_row": 19596,
+    "source_gloss": "キンマ（一服セット）の箱",
+    "source_definition": "\"【名詞】 キンマ（一服セット）の箱 [betel box]\"",
+    "pos_source": "名詞",
+    "pos_candidate": null,
+    "sense_id": null,
+    "primary_major": null,
+    "primary_medium": null,
+    "secondary_categories": [],
+    "tags": {
+      "semantic_type": [],
+      "feature": [],
+      "field": [],
+      "usage": []
+    },
+    "tag_evidence": [],
+    "category_candidates": [],
+    "segmentation_candidates": [],
+    "review_status": "no-supported-category-cue",
+    "editorial_review": "machine-proposal-unverified",
+    "publishable_as_approved_sense": false
+  },
+  {
+    "parent_card_id": "shn:anki:5fe3c38da007c31e",
+    "rank": 16984,
+    "shan": "ဢႅမ်ႉ",
+    "source_record_ids": [
+      "anki_shan_jpn.csv:19607"
+    ],
+    "source_row": 19607,
+    "source_gloss": "控えめに、節約して（蓄えが少ないため。ၵိၼ်「食べる」と共に子供に対して使われる）",
+    "source_definition": "\"【副詞】 控えめに、節約して（蓄えが少ないため。ၵိၼ်「食べる」と共に子供に対して使われる） [sparingly, on account of having a small supply [used with ၵိၼ် , applied to children]]\"",
+    "pos_source": "副詞",
+    "pos_candidate": null,
+    "sense_id": null,
+    "primary_major": null,
+    "primary_medium": null,
+    "secondary_categories": [],
+    "tags": {
+      "semantic_type": [],
+      "feature": [],
+      "field": [],
+      "usage": []
+    },
+    "tag_evidence": [],
+    "category_candidates": [],
+    "segmentation_candidates": [],
+    "review_status": "no-supported-category-cue",
+    "editorial_review": "machine-proposal-unverified",
+    "publishable_as_approved_sense": false
+  },
+  {
+    "parent_card_id": "shn:anki:9315d14cfad2b520",
+    "rank": 16985,
+    "shan": "ဢႆၶႅၵ်းၶႅၵ်း",
+    "source_record_ids": [
+      "anki_shan_jpn.csv:19632"
+    ],
+    "source_row": 19632,
+    "source_gloss": "絶え間なく咳をする",
+    "source_definition": "\"【動詞】 絶え間なく咳をする [cough constantly]\"",
+    "pos_source": "動詞",
+    "pos_candidate": null,
+    "sense_id": null,
+    "primary_major": "03",
+    "primary_medium": "03.03",
+    "secondary_categories": [],
+    "tags": {
+      "semantic_type": [],
+      "feature": [],
+      "field": [],
+      "usage": []
+    },
+    "tag_evidence": [],
+    "category_candidates": [
+      {
+        "medium": "03.03",
+        "major": "03",
+        "evidence": [
+          "絶え間なく咳をする"
+        ]
+      }
+    ],
+    "segmentation_candidates": [],
+    "review_status": "single-cue-provisional",
+    "editorial_review": "machine-proposal-unverified",
+    "publishable_as_approved_sense": false
+  }
+]
