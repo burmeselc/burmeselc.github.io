@@ -12,7 +12,7 @@
     "shan-extra-semantic-cue-rules-v6.json",
     "shan-extra-semantic-cue-rules-v7.json"
   ],
-  "rule_basis": "Extend v7 82 medium Japanese cue rules by rank 12481–13480 referent/part-whole audits. Guards reject Japanese substring accidents (スイカズラ/イカ, 何もしない/もし, food described via animals or plants, incidental child, gold, time, part) while preserving ambiguous and semicolon entries with null sense IDs. This is machine-proposed, not approved editorial review.",
+  "rule_basis": "Extend v7 82 medium Japanese cue rules by rank 12481–13480 referent/part-whole audits. Guards reject Japanese substring accidents (スイカズラ/イカ, 何もしない/もし, food described via animals or plants, incidental child, gold, time, part) while preserving ambiguous and semicolon entries with null sense IDs. This is machine-proposed, not approved editorial review. Second pass: lexical referent corrections for cooked fish, honeysuckle, recipe, school, maps, lunchbox, and lantern.",
   "matching_policy": "Match stripped Japanese core gloss (nonnested fullwidth parentheses discarded); suppression patterns match intact core gloss. English definition is provenance only. Evidence is the literal matched cue with regex metacharacters escaped.",
   "conflict_policy": "Select one provisional medium only with exactly one supported rule and no semicolon; otherwise keep primary null. Source semicolons are segmentation hypotheses, not verified senses. Do not issue sense IDs.",
   "prohibited": "Do not change existing card, source, ID, approved-sense status, learning history, sync, runtime or UI",
@@ -206,7 +206,7 @@
     {
       "id": "sem-08.02",
       "medium_id": "08.02",
-      "pattern": "ベビーベッド|ベッド|椅子|かご|コップ|容器|寝具|食器|家具|生活用品|痰壺|唾入れ|痰台|手臼|杖|ステッキ|箒|^蓋|^覆い|敷物|座布団|洗面器|たらい|土器のカップ|フォーク|書き物机|ティースプーン|壺|机|錠|壁紙|封筒|^輪ゴム|^水汲みバケツ|^腕時計|^鉄鍋|^ティーポット|^やかん|^煙管|^マットレス|^オイルランプ|^柳行李|^懐中電灯|^小さな天秤を入れるための木箱|^刀の鞘|^スーツケース|^重りや銀などを運ぶための袋|^たいまつ|^たいまつ|^ランプ|^天秤の皿|^消しゴム|^コーヒースプーン|^ピッチフォーク|^籠の底を|^座布団|^ランチボックス|^個人の食事と飲み物を入れる容器|^子供を腰にのせて運ぶ",
+      "pattern": "ベビーベッド|ベッド|椅子|かご|コップ|容器|寝具|食器|家具|生活用品|痰壺|唾入れ|痰台|手臼|杖|ステッキ|箒|^蓋|^覆い|敷物|座布団|洗面器|たらい|土器のカップ|フォーク|書き物机|ティースプーン|壺|机|錠|壁紙|封筒|^輪ゴム|^水汲みバケツ|^腕時計|^鉄鍋|^ティーポット|^やかん|^煙管|^マットレス|^オイルランプ|^柳行李|^懐中電灯|^小さな天秤を入れるための木箱|^刀の鞘|^スーツケース|^重りや銀などを運ぶための袋|^たいまつ|^たいまつ|^ランプ|^天秤の皿|^消しゴム|^コーヒースプーン|^ピッチフォーク|^籠の底を|^座布団|^ランチボックス|^個人の食事と飲み物を入れる容器|^子供を腰にのせて運ぶ|^天灯",
       "mode": "japanese-core-lexical-cue-with-context-guards-v8"
     },
     {
@@ -1178,7 +1178,7 @@
     },
     {
       "medium_id": "02.02",
-      "when": "^スイカズラ|^魚の葉包み焼き|^ナツメヤシの芽",
+      "when": "^魚の葉包み焼き|^ナツメヤシの芽",
       "reason": "Plant used in food; avoid botany as primary for dish or insect."
     },
     {
@@ -1218,7 +1218,7 @@
     },
     {
       "medium_id": "06.01",
-      "when": "^魚の葉包み焼き|^食事を始める|^ランチボックス|^個人の食事と飲み物を入れる",
+      "when": "^食事を始める|^ランチボックス|^個人の食事と飲み物を入れる|^料理の方法、調理法、レシピ",
       "reason": "Food as object of action or container."
     },
     {
@@ -1238,7 +1238,7 @@
     },
     {
       "medium_id": "08.02",
-      "when": "^個人の食事と飲み物を入れる容器|^子供を腰にのせて運ぶ",
+      "when": "^子供を腰にのせて運ぶ",
       "reason": "Carry action doesn't denote household furnishing."
     },
     {
@@ -1287,16 +1287,6 @@
       "reason": "Object mentioned in festival context not itself ritual."
     },
     {
-      "medium_id": "13.02",
-      "when": "^路線図、道路地図",
-      "reason": "Cartographic map kept provisional if spatial/documentary collision."
-    },
-    {
-      "medium_id": "13.04",
-      "when": "^宗教学校",
-      "reason": "Religious school is educational institution."
-    },
-    {
       "medium_id": "14.01",
       "when": "^子供時代、幼少期|^独身時代",
       "reason": "Life phases kept as time categories if person cue suppressed."
@@ -1335,6 +1325,21 @@
       "medium_id": "18.03",
       "when": "^堤防の突き出た部分|^ズボンの尻の部分|^ふっくらした、肉付き|^畑に最初に生え出た",
       "reason": "Modifier ‘part’ isn't necessarily abstract part-whole meaning."
+    },
+    {
+      "medium_id": "08.01",
+      "when": "^宗教学校",
+      "reason": "School not dwelling"
+    },
+    {
+      "medium_id": "14.02",
+      "when": "^路線図、道路地図",
+      "reason": "Map not spatial adverb"
+    },
+    {
+      "medium_id": "12.01",
+      "when": "^宗教学校",
+      "reason": "Religious modifier not temple"
     }
   ],
   "tag_rules": [
