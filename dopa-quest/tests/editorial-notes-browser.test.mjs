@@ -9,6 +9,9 @@ test('wordbook review note save, status, export preserve learning profile',async
   const errors=[];p.on('pageerror',e=>errors.push(e.message));
   await p.goto(URL,{waitUntil:'domcontentloaded'});
   await p.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await p.locator('[data-dopa-route="quest"]').click();
+  await p.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
+  await p.waitForFunction(()=>!!window.DOPA_VOCAB_UI&&!!window.DOPA_EDITORIAL_UI);
   const before=await p.evaluate(()=>localStorage.getItem('dopaQuestV5_profile'));
   await p.locator('#vocabOpen').click();
   await p.locator('#vocabList button[data-action=editorial]').first().click();
@@ -36,6 +39,9 @@ test('storage exception reports failure without interrupting wordbook',async()=>
   const p=await b.newPage({viewport:{width:375,height:667},isMobile:true,hasTouch:true});
   await p.goto(URL,{waitUntil:'domcontentloaded'});
   await p.waitForFunction(()=>document.body.classList.contains('dopa-ui-ready'));
+  await p.locator('[data-dopa-route="quest"]').click();
+  await p.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
+  await p.waitForFunction(()=>!!window.DOPA_VOCAB_UI&&!!window.DOPA_EDITORIAL_UI);
   await p.locator('#vocabOpen').click();
   await p.locator('#vocabList button[data-action=editorial]').first().click();
   await p.evaluate(()=>{window.DOPA_EDITORIAL_NOTES.save=()=>{throw Error('QuotaExceeded')}});
