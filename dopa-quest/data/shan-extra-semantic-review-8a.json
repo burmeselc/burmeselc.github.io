@@ -1203,19 +1203,36 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "06",
+    "primary_medium": "06.01",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
-      "feature": [],
+      "feature": [
+        "animal"
+      ],
       "field": [],
       "usage": []
     },
-    "tag_evidence": [],
-    "category_candidates": [],
+    "tag_evidence": [
+      {
+        "axis": "feature",
+        "value": "animal",
+        "cue": "魚",
+        "pattern": "^ジャコウネコ|^鶏|^牛|^馬|^猫|^犬|^鳥|^魚|^昆虫|^猿|^象|^亀|^蜂の子|^ハチクイ$|^シロアリ|^スズメバチ"
+      }
+    ],
+    "category_candidates": [
+      {
+        "medium": "06.01",
+        "major": "06",
+        "evidence": [
+          "魚の葉包み焼き"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
@@ -9042,8 +9059,8 @@
     "pos_source": "名詞",
     "pos_candidate": null,
     "sense_id": null,
-    "primary_major": null,
-    "primary_medium": null,
+    "primary_major": "02",
+    "primary_medium": "02.02",
     "secondary_categories": [],
     "tags": {
       "semantic_type": [],
@@ -9052,9 +9069,17 @@
       "usage": []
     },
     "tag_evidence": [],
-    "category_candidates": [],
+    "category_candidates": [
+      {
+        "medium": "02.02",
+        "major": "02",
+        "evidence": [
+          "スイカズラ"
+        ]
+      }
+    ],
     "segmentation_candidates": [],
-    "review_status": "no-supported-category-cue",
+    "review_status": "single-cue-provisional",
     "editorial_review": "machine-proposal-unverified",
     "publishable_as_approved_sense": false
   },
