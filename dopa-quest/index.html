@@ -323,6 +323,27 @@ body:not(.dopa-ui-ready) #dopaBoot{
 #flashConfig #dopaFlashBasics>.dopa-setting-note{margin:12px 0 0}
 #flashConfig #flashStart{min-height:55px;touch-action:manipulation}
 @media(max-width:390px){.dopa-setting-section{padding:10px}.dopa-setting-details{padding:0 10px}}
+
+/* Settings are separate functional groups, not a second legacy dashboard. */
+#dopaSettings{max-width:760px}
+.dopa-settings-intro{margin-bottom:16px}
+.dopa-settings-intro .dopa-dashboard-title{margin:0 0 6px}
+.dopa-settings-intro p,.dopa-settings-help{font-size:12px;line-height:1.65;color:#b5c6dc;margin:0 0 12px}
+.dopa-settings-group{border:1px solid #334761;border-radius:17px;padding:14px;background:#101b30;margin:12px 0;min-width:0}
+.dopa-settings-group h3{font-size:15px;letter-spacing:.02em;margin:0 0 8px;color:#e8f8ff}
+.dopa-settings-group .dopa-settings-help{margin-bottom:10px}
+.dopa-settings-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.dopa-settings-actions .pill{background:#172c43;color:#ecfaff;border:1px solid #4c6987;border-radius:11px;font-size:13px;font-weight:700;min-height:44px;padding:10px 13px;touch-action:manipulation}
+.dopa-settings-actions button:disabled{opacity:.45;cursor:not-allowed}
+.dopa-settings-actions button:focus-visible,.dopa-settings-group summary:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.dopa-settings-inner{padding:0}
+.dopa-settings-status{font-size:12px;line-height:1.6;color:#c8d9ed;margin:0 0 12px;overflow-wrap:anywhere}
+.dopa-settings-conflict{border:1px solid #b38d4d;background:#2d261b;border-radius:12px;padding:12px;margin-top:12px}
+.dopa-settings-conflict>b{font-size:13px;color:#ffdc8c}
+#dopaSettingsSound .sfx-panel{margin:11px 0 0}
+#dopaSettingsSound .sfx-panel summary{min-height:44px;display:flex;align-items:center;line-height:1.5}
+#dopaSettingsSound .sfx-buttons button{min-height:44px}
+@media(max-width:390px){.dopa-settings-group{padding:11px}.dopa-settings-actions .pill{flex:1 1 auto}}
 </style></head><body><div id="dopaBoot" role="status" aria-live="polite">DOPA QUEST<small>語彙データと学習履歴を読込み中…</small></div><div class="app"><header><div class="brand"><div class="logo">D</div><div><h1>DOPA QUEST v6.2</h1><div class="subtitle">MEMORY ARCADE / QUALITY UPDATE</div></div></div><div style="display:flex;gap:6px"><button class="pill" id="backupBtn">SAVE</button><button class="pill" id="loadBtn">LOAD</button><button class="pill" id="soundBtn">♪ SOUND</button><input id="loadFile" type="file" accept="application/json,.json" class="hidden"></div></header><details class="sfx-panel" id="soundSettings"><summary>♪ サウンド演出を試聴・調整</summary><div class="sfx-grid"><label for="sfxPreset">効果音の演出<select id="sfxPreset"><option value="off">OFF（無音）</option><option value="quiet">控へめ</option><option value="standard">標準</option><option value="flashy">派手</option></select></label><label for="sfxVolume">効果音の音量 <span id="sfxVolumeValue">30%</span><input type="range" id="sfxVolume" min="0" max="100" value="30" step="5"></label></div><div class="sfx-buttons"><button type="button" data-sfx-preview="ok">通常正解</button><button type="button" data-sfx-preview="combo3">3 COMBO</button><button type="button" data-sfx-preview="combo5">5 COMBO</button><button type="button" data-sfx-preview="combo10">10 COMBO</button><button type="button" data-sfx-preview="bossEnter">BOSS出現</button><button type="button" data-sfx-preview="boss">BOSS撃破</button><button type="button" data-sfx-preview="seal">熟練度</button><button type="button" data-sfx-preview="nemesis">NEMESIS</button><button type="button" data-sfx-preview="rival">RIVAL撃破</button><button type="button" data-sfx-preview="levelup">LEVEL UP</button><button type="button" data-sfx-preview="resultLow">低得点RESULT</button><button type="button" data-sfx-preview="resultGood">QUEST COMPLETE</button><button type="button" data-sfx-preview="bad">不正解</button></div><p class="sfx-note" id="sfxSessionStatus" aria-live="polite"></p><p class="sfx-note">ゲーム内BGMはありません。モバイル端末ではほかの音楽と混ざる設定を確認できない場合、効果音を自動で無効にします。消音モードでは鳴らないことがあります。Spotify・Apple Musicとの実機検証は別途必要です。</p></details>
 <section class="panel hidden" id="dopaDashboard" aria-label="ホーム">
  <div class="dopa-home-hero"><h2 class="dopa-dashboard-title">今日の学習</h2>
@@ -351,14 +372,49 @@ body:not(.dopa-ui-ready) #dopaBoot{
   <p class="dopa-dash-note" id="dashHistoryNotice">この機能の導入日以降の学習を記録します。</p>
  </div>
 </section>
-<section class="panel hidden" id="dopaSettings" aria-label="設定"><h2 class="dopa-dashboard-title">設定・アカウント</h2><div id="dopaAccountSlot"></div><div id="dopaSoundSlot"></div><div id="dopaBackupSlot" class="dopa-settings-actions"></div></section><section id="dopa-v6" class="panel" style="padding:12px;border-color:#34516c">
-  <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">
-  <div><b style="color:#45edff">DOPA QUEST · SYNC PREVIEW</b><div class="small" id="dataBadge">デッキ確認中…</div></div>
-  <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="pill" id="vocabLoad">語彙を読込</button><button class="pill" id="cloudLogin">Googleログイン</button><button class="pill" id="cloudSync">同期・更新確認</button><button class="pill" id="cloudRecover">復旧</button><button class="pill" id="cloudLogout">ログアウト</button></div>
+<section class="panel hidden" id="dopaSettings" aria-label="設定">
+ <div class="dopa-settings-intro">
+  <h2 class="dopa-dashboard-title">設定</h2>
+  <p>学習記録の保存や同期、語彙データ、サウンドの設定を管理できます。</p>
+ </div>
+ <section class="dopa-settings-group" id="dopaSettingsAccount" aria-labelledby="dopaAccountHeading">
+  <h3 id="dopaAccountHeading">アカウント</h3>
+  <p class="dopa-settings-help">Googleアカウントへのログインとログアウト。クラウド機能が利用できない環境ではボタンは無効になります。</p>
+  <div id="dopaAccountSlot">
+   <div id="dopa-v6" class="dopa-settings-inner">
+    <div class="dopa-settings-actions"><button class="pill" id="cloudLogin" type="button">Googleログイン</button><button class="pill" id="cloudLogout" type="button">ログアウト</button></div>
+   </div>
   </div>
-  <div class="small" id="cloudStatus" role="status" aria-live="polite" style="margin-top:9px">端末内保存。クラウド同期は未設定です。</div>
-  <div id="cloudConflict" class="hidden" style="margin-top:10px"><b style="color:#ffd66b">同期の競合</b><div class="small">別の端末にも記録があります。操作前に必ず上部のSAVEからバックアップを保存して下さい。</div><button class="pill" id="cloudChooseRemote">クラウド記録を使ふ</button> <button class="pill" id="cloudChooseLocal">この端末の記録を使ふ</button></div>
+ </section>
+ <section class="dopa-settings-group" id="dopaSettingsSync" aria-labelledby="dopaSyncHeading">
+  <h3 id="dopaSyncHeading">クラウド同期・復旧</h3>
+  <p class="dopa-settings-help">別端末との学習記録の同期と、端末に残された復旧用データの確認を行ひます。</p>
+  <div class="dopa-settings-status" id="cloudStatus" role="status" aria-live="polite">端末内保存。クラウド同期は未設定です。</div>
+  <div class="dopa-settings-actions"><button class="pill" id="cloudSync" type="button">同期・更新確認</button><button class="pill" id="cloudRecover" type="button">復旧</button></div>
+  <div id="cloudConflict" class="hidden dopa-settings-conflict" role="alert">
+   <b>同期の競合</b>
+   <p class="dopa-settings-help">別の端末にも記録があります。選択する前に、下の「バックアップ」からSAVEを実行して下さい。</p>
+   <div class="dopa-settings-actions"><button class="pill" id="cloudChooseRemote" type="button">クラウド記録を使ふ</button><button class="pill" id="cloudChooseLocal" type="button">この端末の記録を使ふ</button></div>
+  </div>
+ </section>
+ <section class="dopa-settings-group" id="dopaSettingsBackup" aria-labelledby="dopaBackupHeading">
+  <h3 id="dopaBackupHeading">バックアップ</h3>
+  <p class="dopa-settings-help">SAVEで学習履歴をファイルへ保存し、LOADで保存したファイルを読み込みます。別端末への移行や同期前の保全に利用して下さい。</p>
+  <div id="dopaBackupSlot" class="dopa-settings-actions"></div>
+ </section>
+ <section class="dopa-settings-group" id="dopaSettingsVocabulary" aria-labelledby="dopaVocabularyHeading">
+  <h3 id="dopaVocabularyHeading">語彙データ</h3>
+  <div class="dopa-settings-status" id="dataBadge" aria-live="polite">デッキ確認中…</div>
+  <p class="dopa-settings-help">追加語彙JSONを既存IDに基づき読み込みます。学習記録のSAVE/LOADとは異なる操作です。</p>
+  <div class="dopa-settings-actions"><button class="pill" id="vocabLoad" type="button">語彙を読込</button></div>
   <input type="file" accept=".json,application/json" id="vocabFile" class="hidden" />
+ </section>
+ <section class="dopa-settings-group" id="dopaSettingsSound" aria-labelledby="dopaSoundHeading">
+  <h3 id="dopaSoundHeading">サウンド</h3>
+  <p class="dopa-settings-help">効果音のON/OFF、音量、演出、試聴を設定できます。</p>
+  <div id="dopaSoundActions" class="dopa-settings-actions"></div>
+  <div id="dopaSoundSlot"></div>
+ </section>
 </section><div class="panel" id="profile"><div class="hudrow"><div class="lvl" id="lvl"><b id="lv">LV.1</b></div><div><div style="display:flex;justify-content:space-between"><b id="title">Rookie</b><span class="small" id="xpText"></span></div><div class="bar"><div id="xpBar"></div></div><div class="small" id="masterSummary" style="margin-top:5px"></div></div><div class="money"><b id="coin">◈ 0</b><div class="small">DOPA</div></div></div><div class="questgrid" id="quests"></div></div>
 <div class="panel" id="setup"><div class="tabs"><button class="tab active" data-mode="campaign">CAMPAIGN</button><button class="tab" data-mode="due">DUE RAID</button><button class="tab" data-mode="weak">NEMESIS</button><button class="tab" data-mode="rival">RIVAL DUEL</button><button class="tab" data-mode="free">FREE</button></div><div class="controls"><div><label>言語</label><select id="lang"><option value="shan">シャン語</option><option value="burmese">ビルマ語</option></select></div><div><label>ラウンド</label><select id="roundSize"><option>10</option><option selected>15</option><option>20</option><option>30</option></select></div><div><label>出題方向</label><select id="direction"><option value="adaptive" selected>自動適応</option><option value="toJP">原語 → 日本語</option><option value="fromJP">日本語 → 原語</option><option value="mix">50/50</option><option value="listen">音声→日本語（対応端末のみ）</option></select></div><div><label>速度</label><select id="speed"><option value="normal" selected>NORMAL</option><option value="rush">RUSH 10s</option><option value="hyper">HYPER 6s</option></select></div><div><label>解答形式</label><select id="answerMode"><option value="choice" selected>4択（基本）</option><option value="adaptive">4択＋入力（熟練語）</option><option value="typed">逆引きは文字入力</option></select></div><div><label>音声出題</label><label class="checkline"><input type="checkbox" id="includeAudio"> 対応端末のみ</label></div><div><label>正答後の説明</label><label class="checkline"><input type="checkbox" id="slowCorrect"> 正解後も確認するまで停止（既定OFF）</label></div><div class="wide"><label>エリア</label><select id="zone"></select></div><div class="wide"><label for="semanticCategory">意味領域（シャン語・ビルマ語）</label><select id="semanticCategory"><option value="all">全カテゴリ（従来どおり）</option></select><p class="small" id="semanticCategoryNotice" aria-live="polite"></p></div><div class="wide"><details id="studyDetailControls"><summary>中分類・タグで絞り込む（試験版）</summary><div class="controls" style="margin-top:10px"><div><label for="semanticMedium">中分類</label><select id="semanticMedium"><option value="all">限定しない</option></select></div><div><label for="semanticTag">タグ</label><select id="semanticTag"><option value="all">限定しない</option></select></div><div class="wide"><button type="button" class="pill" id="clearStudyDetails" style="color:var(--text)">中分類・タグを解除</button><p class="small" id="studyDetailNotice" aria-live="polite"></p><details id="studyDetailReview"><summary id="studyDetailReviewSummary">分類済みの語を確認</summary><div id="studyDetailReviewList" style="margin-top:8px"></div><button type="button" class="pill hidden" id="studyDetailReviewMore" style="color:var(--text);margin-top:8px">続きを表示</button></details></div></div></details></div><div class="wide"><label class="checkline"><input type="checkbox" id="shanSenseMode"> シャン語を語義・品詞別に学ぶ（試験版）</label><p class="small" id="shanSenseNotice">元の学習履歴を保護します。多義語の子カードは新しいIDで学習します。</p></div><div class="wide"><button class="secondary flash-entry" id="vocabOpen" type="button">▤ 語彙一覧・単語帳</button><p class="small" style="margin-top:7px">原語・日本語・英語で検索し、ブックマークや自作単語帳に保存できます。</p></div><div class="wide"><button class="secondary flash-entry" id="flashOpen" type="button">▣ 単語カード（4段階復習）</button><p class="small" style="margin-top:7px">現在の言語・頻度帯・カテゴリ・タグを使用。四択の熟練度とは別に記録します。</p></div><div class="wide"><button class="primary" id="start">▶ QUEST START</button></div></div><div class="zonebox" id="zoneStats"></div><p class="small" id="audioNotice" aria-live="polite"></p><p class="small" id="migrateHint"></p><div class="small" id="modeHelp" style="margin-top:9px"></div><p class="small" style="margin-top:8px">v6.1：早期再正答はXPのみ。期限到来後の正答で熟練度が上がります。同義語で逆引きが曖昧な問題は認識問題へ切り替へます。</p></div>
 <section id="vocabPanel" class="panel hidden" aria-label="語彙一覧と自作単語帳">
