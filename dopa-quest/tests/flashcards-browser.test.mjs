@@ -16,6 +16,7 @@ test('Shan four-button flashcards persist without crediting existing QUEST',asyn
   page.on('pageerror',e=>errors.push(e.message));await ready(page);
   const old=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
   assert.equal(Object.keys(old.words).length,0);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#flashOpen').click();
   await page.locator('#flashScope').selectOption('new');
   await page.locator('#flashCount').selectOption('10');
@@ -39,6 +40,7 @@ test('Shan four-button flashcards persist without crediting existing QUEST',asyn
   snap=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
   assert.ok(snap.flashcards.cards[ids[0]].recognition.dueAt>Date.now());
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#flashOpen').click();
   await page.locator('#flashExit').click();
   assert.equal(await page.locator('#setup').isVisible(),true);
@@ -51,6 +53,7 @@ test('Burmese reverse cards exclude ambiguous glosses; profile restore protects 
   const page=await browser.newPage({viewport:{width:375,height:812},isMobile:true,hasTouch:true});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));await ready(page);
   await page.locator('#lang').selectOption('burmese');
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#flashOpen').click();
   await page.locator('#flashScope').selectOption('new');
   await page.locator('#flashDirection').selectOption('production');

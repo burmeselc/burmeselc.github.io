@@ -13,6 +13,7 @@ test('Shan sense lab opt-in keeps old progress, supports Shan to Japanese and Ja
   await page.waitForFunction(()=>!!window.DOPA_SYNC_API?.snapshot);
   await page.waitForFunction(()=>window.DOPA_SENSE_READY&&window.DOPA_DATA?.shan_senses?.length===7290);
   assert.equal(await page.locator('#shanSenseMode').isDisabled(),false);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#shanSenseMode').check();
   await page.locator('#semanticCategory').selectOption('17');
   await page.locator('#direction').selectOption('toJP');

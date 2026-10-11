@@ -14,6 +14,7 @@ test('Mobile Shan search → bookmark → custom book → four-rating session �
   const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const page=await ctx.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
   await ready(page);
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#vocabOpen').click();
   await page.locator('#vocabScope').selectOption('filtered');
   assert.equal(await page.locator('#vocabPanel').isVisible(),true);
@@ -55,6 +56,7 @@ test('Mobile Shan search → bookmark → custom book → four-rating session �
   assert.ok(snapshot.vocabularyLibrary.bookmarks.includes(first));
   assert.ok(snapshot.vocabularyLibrary.books[custom.slice(5)].cards.includes(first));
   assert.equal(snapshot.flashcards.cards[first].recognition.lastRating,'good');
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#vocabOpen').click();
   await page.locator('#vocabView').selectOption(custom);
   assert.equal(await page.locator('#vocabList .vocab-row').count(),1);
@@ -73,11 +75,13 @@ test('Burmese bilingual search and saved-book restore never overwrite old QUEST 
    const x=candidates.find(x=>String(x.english||'').length>=5&&x.game_include!==0);
    return x.english.slice(0,5);
   });
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#vocabOpen').click();
   await page.locator('#vocabSearch').fill(search.toUpperCase());
   assert.ok(await page.locator('#vocabList .vocab-row').count()>0);
   await page.locator('#vocabExit').click();
   await page.locator('#lang').selectOption('burmese');
+  await page.locator('#questAdvancedSettings').evaluate(el=>el.open=true);
   await page.locator('#vocabOpen').click();
   await page.locator('#vocabSearch').fill('');
   const burmese=await page.locator('#vocabList [data-action="bookmark"]').first().getAttribute('data-id');
