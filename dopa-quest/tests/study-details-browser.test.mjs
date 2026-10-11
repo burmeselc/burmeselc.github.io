@@ -114,7 +114,7 @@ for(const path of ['study-details-pilot-v1.json','study-taxonomy-v1.json'])test(
   const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/data/'+path,route=>route.abort());await ready(page);
   assert.equal(await page.locator('#semanticMedium').isDisabled(),true);
-  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),5480);
+  assert.equal(await page.evaluate(()=>window.DOPA_DATA.shan.length),6480);
   await page.locator('#start').click();await page.locator('#game:not(.hidden)').waitFor();
   assert.equal(await page.locator('#choices button').count(),4);assert.deepEqual(errors,[]);
  }finally{await browser.close()}
