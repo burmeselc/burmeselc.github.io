@@ -38,17 +38,17 @@
     "source_count": 1000,
     "rank_start": 14481,
     "rank_end": 15480,
-    "primary_provisional": 300,
+    "primary_provisional": 298,
     "other": {
-      "no-supported-category-cue": 596,
-      "single-cue-provisional": 300,
-      "ambiguous-multiple-category-cues": 35,
+      "no-supported-category-cue": 600,
+      "single-cue-provisional": 298,
+      "ambiguous-multiple-category-cues": 33,
       "pending-sense-boundary": 69
     },
     "semicolon_parents": 69,
     "segmentation_fragments": 147,
     "feature_tag_candidates": 18,
-    "field_tag_candidates": 12,
+    "field_tag_candidates": 11,
     "usage_tag_candidates": 0,
     "semantic_type_candidates": 1
   },
