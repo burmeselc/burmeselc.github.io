@@ -2,7 +2,7 @@
   "schema": "dopa-shan-extra-multiple-review-round2-proposals-v1",
   "source_queue": "shan-extra-multiple-review-4-6.json",
   "status": "provisional-candidates-not-deployed",
-  "count": 95,
+  "count": 99,
   "entries": [
     {
       "parent_card_id": "shn:anki:5754fa70ec4e636f",
@@ -28,6 +28,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "日本語訳の指示対象・中心述語を「国・地域・地名」に暫定配置（原台帳の根拠語：ガンジス川）。修飾情報や他領域との重複を切り離した仮説であり、辞書照合までは未確定。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:802726c8af88bd42",
+      "rank": 8491,
+      "shan": "ၵပ်းလၢပ်ႇ",
+      "source_gloss": "刀の鞘",
+      "source_definition": "【名詞】 刀の鞘 [sheath of a sword]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:71"
+      ],
+      "selected_medium": "08.02",
+      "selected_label": "家具・生活用品",
+      "selected_original_cues": [
+        "刀の鞘"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.01",
+          "evidence": [
+            "刀の鞘"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「刀の鞘」の指示対象が「家具・生活用品」に属すと暫定判断。原辞書再照合までは未確定。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
@@ -1319,6 +1349,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:518329f578360923",
+      "rank": 9553,
+      "shan": "တွင်ႉတႄးၼႃး",
+      "source_gloss": "田んぼの区画を分ける盛り土の急斜面",
+      "source_definition": "\"【名詞】 田んぼの区画を分ける盛り土の急斜面 [steep side of a ridge of earth which separates the compartments of paddy field]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:8079"
+      ],
+      "selected_medium": "01.01",
+      "selected_label": "地形・地質",
+      "selected_original_cues": [
+        "盛り土"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "10.02",
+          "evidence": [
+            "田んぼ"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「田んぼの区画を分ける盛り土の急斜面」の指示対象が「地形・地質」に属すと暫定判断。原辞書再照合までは未確定。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:64eb8c02eb7f18c2",
       "rank": 9573,
       "shan": "တွႆႇသၢႆလိၵ်ႈ",
@@ -2531,6 +2591,36 @@
       "publishable_as_approved_sense": false
     },
     {
+      "parent_card_id": "shn:anki:77b5765525b55d7b",
+      "rank": 11032,
+      "shan": "ၵိူင်းၵႂႃႇၵိူင်းၶိုၼ်း",
+      "source_gloss": "よろめく、左右に揺れる",
+      "source_definition": "\"【動詞】 よろめく、左右に揺れる [reel, lean to one side and then to the other]\"",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:356"
+      ],
+      "selected_medium": "16.01",
+      "selected_label": "移動・姿勢",
+      "selected_original_cues": [
+        "よろめ"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "14.02",
+          "evidence": [
+            "左右"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「よろめく、左右に揺れる」の指示対象が「移動・姿勢」に属すと暫定判断。原辞書再照合までは未確定。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
       "parent_card_id": "shn:anki:006166c8d8ea68a8",
       "rank": 11040,
       "shan": "ၵိၼ်ၶဝ်ႈတင်းၽၵ်း",
@@ -2584,6 +2674,36 @@
       ],
       "judgement": "provisional-lexical-center-not-validated",
       "rationale": "日本語訳の指示対象・中心述語を「飲食行動・食事」に暫定配置（原台帳の根拠語：食べる）。修飾情報や他領域との重複を切り離した仮説であり、辞書照合までは未確定。",
+      "source_confirmation_required": true,
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "pos_candidate": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:a59136f6bef327f5",
+      "rank": 11080,
+      "shan": "ၵူၺ်တႃႁၢင်ႇ",
+      "source_gloss": "目が粗く編まれたかご",
+      "source_definition": "【名詞】 目が粗く編まれたかご [coolie basket having large holes or interstices in the weaving]",
+      "source_record_ids": [
+        "anki_shan_jpn.csv:690"
+      ],
+      "selected_medium": "08.02",
+      "selected_label": "家具・生活用品",
+      "selected_original_cues": [
+        "かご"
+      ],
+      "other_original_cues": [
+        {
+          "medium": "11.02",
+          "evidence": [
+            "編まれ"
+          ]
+        }
+      ],
+      "judgement": "provisional-lexical-center-not-validated",
+      "rationale": "日本語訳「目が粗く編まれたかご」の指示対象が「家具・生活用品」に属すと暫定判断。原辞書再照合までは未確定。",
       "source_confirmation_required": true,
       "editorial_review": "machine-proposal-unverified",
       "sense_id": null,
