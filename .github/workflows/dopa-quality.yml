@@ -94,3 +94,8 @@ jobs:
         run: |
           node --check dopa-quest/shan-extra-provisional.js
           node --test dopa-quest/tests/shan-extra-final65-release.test.mjs
+      - name: Verify private editorial notes and held taxonomy repairs
+        run: |
+          node --check dopa-quest/editorial-notes.js
+          node --check dopa-quest/editorial-notes-ui.js
+          node --test dopa-quest/tests/editorial-notes.test.mjs dopa-quest/tests/shan-extra-19-taxonomy-repair.test.mjs

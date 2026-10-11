@@ -1,11 +1,11 @@
 // DOPA QUEST static-file cache. All personal progress remains in existing browser storage.
-const CACHE_NAME = 'dopa-quest-static-20261012-shan-final65-delta-v3';
+const CACHE_NAME = 'dopa-quest-static-20261012-editorial-notes-v4';
 const CACHE_PREFIX = 'dopa-quest-static-';
 const APP_SHELL = [
   './','./index.html','./manifest.webmanifest',
   './data/shan-1.json','./data/shan-2.json','./data/burmese.json',
   './firebase-config.js','./sound-fx.js','./study-details.js','./shan-extra-provisional.js',
-  './flashcards.js','./vocabulary-library.js','./daily-progress.js','./learning-stats.js',
+  './flashcards.js','./vocabulary-library.js','./editorial-notes.js','./editorial-notes-ui.js','./daily-progress.js','./learning-stats.js',
   './dashboard.js','./bootstrap.js','./game.js',
   './flashcards-ui.js','./vocabulary-ui.js','./cloud-sync.js',
   './icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png',

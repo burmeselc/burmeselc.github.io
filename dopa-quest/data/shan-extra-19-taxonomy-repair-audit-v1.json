@@ -1,0 +1,337 @@
+{
+  "schema": "dopa-shan-extra-19-taxonomy-repair-audit-v1",
+  "status": "taxonomy-repair-proposals-not-released",
+  "source": "shan-extra-final65-gloss-review-v1.json",
+  "total": 19,
+  "published": 0,
+  "held": 19,
+  "primary_dictionary_confirmation_pending": 19,
+  "priority_lexical_boundary": 2,
+  "approved_senses": 0,
+  "entries": [
+    {
+      "parent_card_id": "shn:anki:a3236b78ad7c491c",
+      "rank": 5783,
+      "shan": "သရေႇၶိုၼ်ႈ",
+      "source_gloss": "名声が高まる、評判が良くなる",
+      "old_candidates": [
+        "04.01",
+        "13.01"
+      ],
+      "proposed_medium": "16.03",
+      "rationale": "名声が高まるという評判の変化であり、感情や単なる発話そのものではない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:0a19305546dd2a0a",
+      "rank": 6018,
+      "shan": "ၼႃႇတႅမ်ႇလိူဝ်",
+      "source_gloss": "～より劣る",
+      "old_candidates": [
+        "17.03",
+        "17.04"
+      ],
+      "proposed_medium": "15.04",
+      "rationale": "『〜より劣る』は比較評価の述語で、時制・相や談話接続の標識として扱ふ根拠がない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f7d3bcb8e3c0f11f",
+      "rank": 6157,
+      "shan": "မိၵ်ႉသႃႇႁႃယႃႉ",
+      "source_gloss": "友好、親睦、仲間意識",
+      "old_candidates": [
+        "04.02",
+        "05.01"
+      ],
+      "proposed_medium": "05.03",
+      "rationale": "友好・仲間意識は交友関係の語彙。候補04.02認知や05.01人の集合を自動採用できない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:03e16b34e708caf0",
+      "rank": 6565,
+      "shan": "ၵႅၼ်ၵူၼ်",
+      "source_gloss": "（シャン族の流儀で）ズボンの裾をできるだけ高くまくり上げる",
+      "old_candidates": [
+        "05.01",
+        "07.01"
+      ],
+      "proposed_medium": "07.02",
+      "rationale": "ズボンの裾をまくる着用動作で、衣類07.01や民族名05.01自体が中心ではない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:39166ad0fba6b7d4",
+      "rank": 6612,
+      "shan": "ၵေႃႉမိုဝ်ႉ",
+      "source_gloss": "料理人、炊事担当",
+      "old_candidates": [
+        "06.01",
+        "08.03"
+      ],
+      "proposed_medium": "10.01",
+      "rationale": "『料理人、炊事担当』は職業・役割の人間名で、料理06.01や家事08.03だけでは中心を表さない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:cdc6b1483e8365a1",
+      "rank": 6733,
+      "shan": "ၶတ်းဢိုတ်း",
+      "source_gloss": "閉じ込める、鍵をかけて仕舞う",
+      "old_candidates": [
+        "08.02",
+        "12.03"
+      ],
+      "proposed_medium": "16.02",
+      "rationale": "閉じ込め、施錠する他動的操作で、家具08.02や音楽12.03の候補は語義中心を捉へない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:7b463a2919b76448",
+      "rank": 7458,
+      "shan": "ထေႃႇယေႃႇ",
+      "source_gloss": "洗髪剤（シャンプー）を作るのに皮が使われる木",
+      "old_candidates": [
+        "03.04",
+        "07.03"
+      ],
+      "proposed_medium": "02.02",
+      "rationale": "樹皮を洗髪剤に利用する木を指し、衛生03.04や美容07.03は用途に過ぎない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:91b686c423b7830d",
+      "rank": 7588,
+      "shan": "ပိုမ်း",
+      "source_gloss": "手で口へ放り込む（煎りトウモロコシなどの乾物を手で口に運ぶ、ပိုမ်းၵိၼ်）",
+      "old_candidates": [
+        "02.02",
+        "11.03"
+      ],
+      "proposed_medium": "06.04",
+      "rationale": "トウモロコシを手から口へ運んで食べる動作であり、植物名・一般運搬ではない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:c6bbe20bfbafd320",
+      "rank": 7821,
+      "shan": "မဝ်ႇႁၢင်ႈ",
+      "source_gloss": "ありそうにない、期待に反して",
+      "old_candidates": [
+        "04.01",
+        "04.03"
+      ],
+      "proposed_medium": "18.04",
+      "rationale": "『ありそうにない』は可能性の判断で、期待という文脈語のみで感情・欲求に置くのは不適当。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:37960a1805015e45",
+      "rank": 8146,
+      "shan": "လဵၵ်းဝွၵ်း",
+      "source_gloss": "物を掴むための曲がった鉄具、フック",
+      "old_candidates": [
+        "15.01",
+        "16.02"
+      ],
+      "proposed_medium": "11.01",
+      "rationale": "フック・鉤という道具名で、形状15.01や使用法16.02のみでは指示対象を示せない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:39e3214ca09a1e70",
+      "rank": 8240,
+      "shan": "ဝဵၼ်ႉဝၼ်း",
+      "source_gloss": "一日置く、一日休みを入れる（発熱など）",
+      "old_candidates": [
+        "03.03",
+        "16.02"
+      ],
+      "proposed_medium": "14.01",
+      "rationale": "一日置く・一日休むという時間間隔の操作であり、発熱は例示。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:00c581c46636f9fe",
+      "rank": 8403,
+      "shan": "ဢုင်ႇၼလုင်ႇ",
+      "source_gloss": "白毫：仏陀の額に生えている一本の毛（伸ばすと2キュビットの長さになる）",
+      "old_candidates": [
+        "11.05",
+        "13.02"
+      ],
+      "proposed_medium": "12.01",
+      "rationale": "仏陀の白毫という宗教的図像・伝承上の身体的特徴。測定単位や文字表現の一致は本質ではない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:3665373ac2374df7",
+      "rank": 10153,
+      "shan": "မဝ်းလိူတ်ႈ",
+      "source_gloss": "意識が朦朧とする、ふらつく（頭を強打されたり斬首されたりした時のように）",
+      "old_candidates": [
+        "04.02",
+        "16.01"
+      ],
+      "proposed_medium": "03.03",
+      "rationale": "意識の朦朧・ふらつきは症状・障害であり、認知一般や姿勢動作とは異なる。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:aeb0265ad3781f37",
+      "rank": 11628,
+      "shan": "ၸေႈၶမ်းသိူင်း",
+      "source_gloss": "金箔を挟むための紙",
+      "old_candidates": [
+        "10.04",
+        "15.02",
+        "16.02"
+      ],
+      "proposed_medium": "11.02",
+      "rationale": "金箔を挟む紙という加工資材を指す。金銭10.04や色15.02、挟む行為16.02は周辺要素。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:190f1c0ed4111086",
+      "rank": 12366,
+      "shan": "ပိုၼ်းၼႃႈလိၼ်",
+      "source_gloss": "地理、大地の物語",
+      "old_candidates": [
+        "01.01",
+        "12.05"
+      ],
+      "proposed_medium": "13.04",
+      "rationale": "『地理』という学術知識分野の名である可能性が高いが、末尾の『大地の物語』が語義か説明か確認を要する。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "meaning-boundary",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:f5d25e7ca07a6704",
+      "rank": 13084,
+      "shan": "လွႆဢုၼ်ႈ",
+      "source_gloss": "樹木のない、丸い頂の山",
+      "old_candidates": [
+        "02.02",
+        "15.01"
+      ],
+      "proposed_medium": "01.01",
+      "rationale": "指示対象は樹木の少ない丸頂の山という地形。既存候補は植生と形状の修飾にのみ反応。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:e03e4ad91c9fa130",
+      "rank": 15039,
+      "shan": "ၽိတ်းတၢင်းၵိၼ်",
+      "source_gloss": "体に悪いものを食べる、特定の食べ物でアレルギー反応を起こす",
+      "old_candidates": [
+        "06.01",
+        "06.04"
+      ],
+      "proposed_medium": "03.03",
+      "rationale": "食物によるアレルギー反応という疾患・症状を中心とする可能性。『体に悪いものを食べる』との語義同一性を要検証。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "meaning-boundary",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:388288f1a5177a95",
+      "rank": 15878,
+      "shan": "ဢိူဝ်ႈၼေႃႈ",
+      "source_gloss": "[同意や驚きを表す助詞] 口語",
+      "old_candidates": [
+        "04.01",
+        "17.02"
+      ],
+      "proposed_medium": "17.06",
+      "rationale": "同意・驚きを表す助詞は感動・応答など談話機能であり、格・項標識17.02ではない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    },
+    {
+      "parent_card_id": "shn:anki:8ac26db7e9440c66",
+      "rank": 16332,
+      "shan": "သၢတ်ႇၼိူဝ်ႉ",
+      "source_gloss": "竹の内側で編んだ目の粗いござ",
+      "old_candidates": [
+        "14.02",
+        "15.03"
+      ],
+      "proposed_medium": "08.02",
+      "rationale": "竹で編んだござという敷物・生活用品で、位置14.02や触感15.03は指示対象ではない。",
+      "review_basis": "Japanese gloss; source language not independently verified",
+      "priority": "source-verification",
+      "editorial_review": "machine-proposal-unverified",
+      "sense_id": null,
+      "publishable_as_approved_sense": false
+    }
+  ]
+}
