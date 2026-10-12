@@ -87,13 +87,49 @@ test('read-only queue overview separates short due, long due and daily caps',()=
  const report=F.overview({pool:deck,allDeck:deck,cards,direction:'recognition',
   lang:'shan',now:T,newRemaining:1,reviewRemaining:0});
  assert.deepEqual(report,{newTotal:2,dueLearning:1,dueReview:1,weak:1,
-  newAvailable:1,reviewAvailable:0,dueAvailable:1});
+  newAvailable:1,reviewAvailable:0,dueAvailable:1,weakAvailable:0});
  assert.equal(JSON.stringify(cards),before);
  assert.deepEqual(F.overview({pool:deck,allDeck:deck,cards,direction:'production',
   lang:'shan',now:T,newRemaining:20,reviewRemaining:100}),
-  {newTotal:3,dueLearning:0,dueReview:0,weak:0,newAvailable:3,reviewAvailable:0,dueAvailable:0});
+  {newTotal:3,dueLearning:0,dueReview:0,weak:0,newAvailable:3,reviewAvailable:0,dueAvailable:0,weakAvailable:0});
 });
 test('review intervals grow beyond initial four days',()=>{
  const a=newCard('easy'),b=F.schedule(a,'good',a.dueAt),c=F.schedule(b,'good',b.dueAt);
  assert.deepEqual([a.intervalDays,b.intervalDays,c.intervalDays],[4,10,25]);
+});
+
+test('weak review joins QUEST nemesis and flashcard lapses without mutating history',()=>{
+ const deck=[
+  {id:'a',shan:'ၵ',japanese_core:'水'}, {id:'b',shan:'ၶ',japanese_core:'火'},
+  {id:'c',shan:'ၸ',japanese_core:'土'}, {id:'d',shan:'ၽ',japanese_core:'光'},
+  {id:'e',shan:'င',japanese_core:'木'}
+ ];
+ const cards={
+  a:{recognition:{...newCard('easy'),dueAt:T-1000,intervalDays:4,lapses:2,lastRating:'hard'}},
+  c:{recognition:{...newCard('easy'),dueAt:T+F.DAY,intervalDays:25,lapses:2,lastRating:'good'}},
+  d:{recognition:{...newCard('good'),dueAt:T-F.MIN,state:'learning',lastRating:'again'}}
+ };
+ const weakWords={b:{wrong:3,correct:0,nemesis:true},e:{wrong:2,correct:7,nemesis:false}};
+ const before=JSON.stringify({cards,weakWords});
+ const o={pool:deck,allDeck:deck,cards,weakWords,scope:'weak',direction:'recognition',
+  lang:'shan',now:T,limit:10,newRemaining:1,reviewRemaining:2};
+ assert.deepEqual(F.select(o).map(x=>x.id),['d','a','b']);
+ const report=F.overview(o);
+ assert.equal(report.weak,3);
+ assert.equal(report.weakAvailable,3);
+ assert.equal(JSON.stringify({cards,weakWords}),before);
+ assert.deepEqual(F.select({...o,reviewRemaining:0}).map(x=>x.id),['d','b']);
+ assert.deepEqual(F.select({...o,newRemaining:0}).map(x=>x.id),['d','a']);
+ assert.deepEqual(F.select({...o,limit:2}).map(x=>x.id),['d','a']);
+ const early=F.schedule({...newCard('easy'),dueAt:T+F.DAY},'good',T);
+ assert.equal(early.dueAt,T+F.DAY);
+});
+test('weak review still blocks ambiguous reverse glosses and recovered cards',()=>{
+ const deck=[{id:'a',shan:'ၵ',japanese_core:'水'}, {id:'b',shan:'ၶ',japanese_core:'水'},
+  {id:'c',shan:'ၸ',japanese_core:'火'}];
+ const weakWords={a:{wrong:4,nemesis:true},b:{wrong:2,correct:0},c:{wrong:2,correct:1}};
+ assert.deepEqual(F.select({pool:deck,allDeck:deck,weakWords,scope:'weak',
+  direction:'production',now:T}).map(x=>x.id),['c']);
+ assert.equal(F.weakness({state:'review',intervalDays:40,lapses:3,lastRating:'good'},null),0);
+ assert.equal(F.weakness(null,{wrong:2,correct:10,nemesis:false}),0);
 });
