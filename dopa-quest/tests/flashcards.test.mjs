@@ -71,3 +71,29 @@ test('due, new, free, caps, and ambiguous Japanese-to-Shan filtering',()=>{
  assert.throws(()=>F.schedule(null,'unknown',T),/Invalid/);
  assert.throws(()=>F.select({scope:'wrong'}),/Invalid/);
 });
+
+test('read-only queue overview separates short due, long due and daily caps',()=>{
+ const deck=[
+  {id:'a',shan:'ၵ',japanese_core:'水'}, {id:'b',shan:'ၶ',japanese_core:'水'},
+  {id:'c',shan:'ၸ',japanese_core:'火'}, {id:'d',shan:'ၽ',japanese_core:'光'},
+  {id:'e',shan:'င',japanese_core:'木'}
+ ];
+ const cards={
+  a:{recognition:{...newCard('easy'),dueAt:T-1000,state:'review',lapses:1}},
+  c:{recognition:{...newCard('good'),dueAt:T-1000,state:'learning'}},
+  d:{recognition:{...newCard('easy'),dueAt:T+F.DAY,state:'review'}}
+ };
+ const before=JSON.stringify(cards);
+ const report=F.overview({pool:deck,allDeck:deck,cards,direction:'recognition',
+  lang:'shan',now:T,newRemaining:1,reviewRemaining:0});
+ assert.deepEqual(report,{newTotal:2,dueLearning:1,dueReview:1,weak:1,
+  newAvailable:1,reviewAvailable:0,dueAvailable:1});
+ assert.equal(JSON.stringify(cards),before);
+ assert.deepEqual(F.overview({pool:deck,allDeck:deck,cards,direction:'production',
+  lang:'shan',now:T,newRemaining:20,reviewRemaining:100}),
+  {newTotal:3,dueLearning:0,dueReview:0,weak:0,newAvailable:3,reviewAvailable:0,dueAvailable:0});
+});
+test('review intervals grow beyond initial four days',()=>{
+ const a=newCard('easy'),b=F.schedule(a,'good',a.dueAt),c=F.schedule(b,'good',b.dueAt);
+ assert.deepEqual([a.intervalDays,b.intervalDays,c.intervalDays],[4,10,25]);
+});

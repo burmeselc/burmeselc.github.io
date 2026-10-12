@@ -18,6 +18,11 @@ test('dashboard routes preserve IDs, quiz progress and current flashcards',async
   assert.equal(await page.locator('#dopaDashboard').isVisible(),true);
   assert.equal(await page.locator('#setup').isVisible(),false);
   assert.equal(await page.locator('#dashXp').textContent(),String(old.xp));
+  assert.equal(await page.locator('#dashPlanNew').isVisible(),true);
+  assert.equal(await page.locator('#dashPlanShort').isVisible(),true);
+  assert.equal(await page.locator('#dashPlanReview').isVisible(),true);
+  assert.match(await page.locator('#dashPlanContext').textContent(),/シャン語|ビルマ語/);
+  assert.ok((await page.evaluate(()=>window.DOPA_DASHBOARD.currentPlan())).newAvailable>=0);
   assert.equal(await page.locator('#vocabPanel').isVisible(),false);
   assert.equal(await page.locator('#flashcardPanel').isVisible(),false);
   await page.locator('#dopaSettingsOpen').click();
