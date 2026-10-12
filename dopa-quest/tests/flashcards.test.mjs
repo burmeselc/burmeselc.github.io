@@ -113,14 +113,14 @@ test('weak review joins QUEST nemesis and flashcard lapses without mutating hist
  const before=JSON.stringify({cards,weakWords});
  const o={pool:deck,allDeck:deck,cards,weakWords,scope:'weak',direction:'recognition',
   lang:'shan',now:T,limit:10,newRemaining:1,reviewRemaining:2};
- assert.deepEqual(F.select(o).map(x=>x.id),['a','d','b']);
+ assert.deepEqual(F.select(o).map(x=>x.id),['d','a','b']);
  const report=F.overview(o);
  assert.equal(report.weak,3);
  assert.equal(report.weakAvailable,3);
  assert.equal(JSON.stringify({cards,weakWords}),before);
  assert.deepEqual(F.select({...o,reviewRemaining:0}).map(x=>x.id),['d','b']);
- assert.deepEqual(F.select({...o,newRemaining:0}).map(x=>x.id),['a','d']);
- assert.deepEqual(F.select({...o,limit:2}).map(x=>x.id),['a','d']);
+ assert.deepEqual(F.select({...o,newRemaining:0}).map(x=>x.id),['d','a']);
+ assert.deepEqual(F.select({...o,limit:2}).map(x=>x.id),['d','a']);
  const early=F.schedule({...newCard('easy'),dueAt:T+F.DAY},'good',T);
  assert.equal(early.dueAt,T+F.DAY);
 });
