@@ -170,8 +170,8 @@
   const counts={newTotal:0,dueLearning:0,dueReview:0,weak:0};
   for(const x of eligible){
    const s=entry(cards,x.id,direction);
-   if(!s){counts.newTotal++;continue}
    if(weakness(s,weakWords?.[x.id])>0)counts.weak++;
+   if(!s){counts.newTotal++;continue}
    if(!isDue(s,now))continue;
    if(s.state==='review')counts.dueReview++;
    else counts.dueLearning++;
