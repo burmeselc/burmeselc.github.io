@@ -7,10 +7,11 @@
  const FINAL65_SCHEMA='dopa-shan-extra-final65-proposals-v1';
  const SEMICOLON_SCHEMA='dopa-shan-extra-semicolon-study-release-v1';
  const GENERAL_SCHEMA='dopa-shan-extra-general-review-v1';
+ const HELD_SCHEMA='dopa-shan-extra-held-review-v1';
  const groups=[[1,2,3],[4,5,6],[7,8,9],[10,11,12]];
  const sourceCounts=[3000,3000,3000,2505];
  const expectedSingles=[1560,1029,1014,756];
- function attach(engine,shards,decks,secondPassShard=null,final65Shard=null,semicolonShard=null,generalShard=null){
+ function attach(engine,shards,decks,secondPassShard=null,final65Shard=null,semicolonShard=null,generalShard=null,heldShard=null){
   if(!engine||!Array.isArray(shards)||shards.length!==4||!Array.isArray(decks?.shan))
    throw Error('Missing provisional Shan category inputs');
   const byId=new Map(decks.shan.map(card=>[card.id,card]));
@@ -137,18 +138,22 @@
    }
    if(categorized!==607)throw Error('Invalid semicolon categorized count');
   }
-  // General no-cue backlog: source-preserving review states only.  An absent optional
-  // shard does not affect previous category proposals or existing SRS progress.
-  let generalCategorized=0,generalUncategorized=0;
-  if(generalShard!==null){
-   if(semicolonShard===null||generalShard.schema!==GENERAL_SCHEMA||
-      generalShard.status!=='machine-proposal-unverified'||
-      generalShard.approved_senses!==false||generalShard.reviewed_by_human!==false||
-      generalShard.source_preserved!==true||generalShard.batch!==1||
-      generalShard.source_count!==1500||generalShard.cards?.length!==1500||
-      generalShard.categorized_with_cue+generalShard.uncategorized_need_review!==1500)
-    throw Error('Invalid general Shan review shard header');
-   for(const row of generalShard.cards){
+  // All unreviewed extra source parents are covered by independent, optional
+  // source-preserving metadata. The 47 genuine holds never become approved senses.
+  const generalShards=generalShard===null?[]:Array.isArray(generalShard)?generalShard:[generalShard];
+  if(generalShards.length>4||generalShards.length===0&&heldShard!==null)
+   throw Error('Invalid number of general Shan shards');
+  let generalCategorized=0,generalUncategorized=0,generalCount=0;
+  for(let i=0;i<generalShards.length;i++){
+   const shard=generalShards[i],expected=i===3?1026:1500;
+   if(semicolonShard===null||shard?.schema!==GENERAL_SCHEMA||
+      shard.status!=='machine-proposal-unverified'||shard.approved_senses!==false||
+      shard.reviewed_by_human!==false||shard.source_preserved!==true||
+      shard.batch!==i+1||shard.source_count!==expected||shard.cards?.length!==expected||
+      shard.categorized_with_cue+shard.uncategorized_need_review!==expected)
+    throw Error('Invalid general Shan review shard '+(i+1));
+   let localCategorized=0,localUncategorized=0;
+   for(const row of shard.cards){
     if(!Array.isArray(row)||row.length!==8)throw Error('Invalid general review row');
     const [id,rank,shan,gloss,medium,confidence,basis,flags]=row,source=byId.get(id);
     if(typeof id!=='string'||proposals.has(id)||!Number.isInteger(rank)||
@@ -161,18 +166,52 @@
        (medium===null)!==flags.includes('category-unassigned')||
        typeof basis!=='string'||basis.length===0)
       throw Error('Stale general review source '+id);
-    if(medium===null)generalUncategorized++;else generalCategorized++;
+    if(medium===null){generalUncategorized++;localUncategorized++}
+    else{generalCategorized++;localCategorized++}
     const tags=Object.fromEntries([...axes].map(([axis])=>[axis,[]]));
     proposals.set(id,Object.freeze({word:shan,gloss,rank,medium,tags,
       review_status:medium===null?'uncategorized-needs-review':'machine-proposal-unverified',
       provisional_only:true,proposed_medium:medium,classification_confidence:confidence,
       category_basis:basis,review_flags:flags,source_check_pending:true}));
+    generalCount++;
    }
-   if(generalCategorized!==generalShard.categorized_with_cue||
-      generalUncategorized!==generalShard.uncategorized_need_review)
-    throw Error('Invalid general Shan category counts');
+   if(localCategorized!==shard.categorized_with_cue||
+      localUncategorized!==shard.uncategorized_need_review)
+    throw Error('Invalid general Shan category counts '+(i+1));
   }
-  if(proposals.size!==(4359+(secondPassShard===null?0:572)+(final65Shard===null?0:18)+(semicolonShard===null?0:983)+(generalShard===null?0:1500)))
+  let heldCount=0;
+  if(heldShard!==null){
+   if(generalShards.length!==4||heldShard.schema!==HELD_SCHEMA||
+      heldShard.status!=='held-unverified'||heldShard.approved_senses!==false||
+      heldShard.source_preserved!==true||heldShard.source_count!==47||
+      heldShard.category_repair_count!==19||heldShard.meaning_boundary_count!==28||
+      heldShard.cards?.length!==47)throw Error('Invalid 47-case hold shard');
+   let repairs=0,boundaries=0;
+   for(const entry of heldShard.cards){
+    const {parent_card_id:id,rank,shan_original:shan,japanese_core_original:gloss,
+      review_status:status,proposed_medium:medium,classification_confidence:confidence,
+      original_candidates:candidates,review_flags:flags,hold_reason:reason}=entry;
+    const source=byId.get(id);
+    if(!source||proposals.has(id)||source.id!==id||source.rank!==rank||
+       source.shan!==shan||source.japanese_core!==gloss||
+       source.semantic_status!=='U'||medium!==null||confidence!=='none'||
+       !['held-category-repair','held-sense-boundary'].includes(status)||
+       !Array.isArray(candidates)||!Array.isArray(flags)||
+       !flags.includes('source-check-pending')||typeof reason!=='string'||
+       !candidates.every(c=>mediums.has(c.medium)))
+     throw Error('Invalid held Shan parent '+id);
+    if(status==='held-category-repair')repairs++;else boundaries++;
+    const tags=Object.fromEntries([...axes].map(([axis])=>[axis,[]]));
+    proposals.set(id,Object.freeze({word:shan,gloss,rank,medium:null,tags,
+      review_status:status,classification_confidence:'none',
+      category_basis:'held-uncertain-lexical-boundary',provisional_only:true,
+      source_check_pending:true,review_flags:flags,proposed_medium:null,
+      held_candidates:candidates,hold_reason:reason,sense_split_approved:false}));
+    heldCount++;
+   }
+   if(repairs!==19||boundaries!==28)throw Error('Invalid held dispositions');
+  }
+  if(proposals.size!==(4359+(secondPassShard===null?0:572)+(final65Shard===null?0:18)+(semicolonShard===null?0:983)+generalCount+heldCount))
    throw Error('Incomplete Shan provisional proposal set');
   function annotation(card,lang){
    const a=lang==='shan'&&card&&proposals.get(card.id);
@@ -201,10 +240,13 @@
       semicolon_review_count:semicolonShard===null?0:983,
       semicolon_categorized_count:semicolonShard===null?0:607,
       semicolon_needs_category_count:semicolonShard===null?0:376,
-      general_review_count:generalShard===null?0:1500,
+      general_review_count:generalCount,
       general_categorized_count:generalCategorized,
       general_uncategorized_count:generalUncategorized,
-      categorized_count:proposals.size-(semicolonShard===null?0:376)-generalUncategorized,
+      held_review_count:heldCount,
+      held_category_repair_count:heldShard===null?0:19,
+      held_meaning_boundary_count:heldShard===null?0:28,
+      categorized_count:proposals.size-(semicolonShard===null?0:376)-generalUncategorized-heldCount,
       editorial_review:'machine-proposal-unverified',approved_senses:false}};
  }
  const api={attach};

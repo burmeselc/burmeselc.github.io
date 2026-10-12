@@ -105,3 +105,5 @@ jobs:
         run: node --test dopa-quest/tests/shan-extra-semicolon-study-release.test.mjs
       - name: Validate general no-cue first-pass classifications for 1,500 Shan parents
         run: node --test dopa-quest/tests/shan-extra-general-review.test.mjs
+      - name: Assert entire 11,505 extra-parent Shan review partition and held 47
+        run: node --test dopa-quest/tests/shan-extra-general-complete.test.mjs

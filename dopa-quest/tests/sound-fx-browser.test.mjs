@@ -61,7 +61,7 @@ test('iOS UA without audioSession produces no audio context instead of risking i
 test('one answer cue, separate boss entrance, immediate mute and preserved progress',async()=>{
  const browser=await chromium.launch({headless:true});
  try{
-   const page=await browser.newPage();await page.goto(BASE,{waitUntil:'domcontentloaded'});
+   const page=await browser.newPage(),browserErrors=[];page.on('pageerror',e=>browserErrors.push(e.stack||e.message));await page.goto(BASE,{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>window.DOPA_SYNC_API?.snapshot&&window.DOPASound?.play);
    await page.evaluate(()=>{
      window.soundCalls=[];window.stopCalls=0;
@@ -80,7 +80,27 @@ test('one answer cue, separate boss entrance, immediate mute and preserved progr
      const added=await page.evaluate(before=>window.soundCalls.slice(before),before);
      assert.equal(added.length,1);
      if(i===4)assert.equal(added[0],'boss');
-     if(i<4)await page.waitForFunction(()=>document.querySelector('#choices button:not([disabled])'));
+     if(i<4){
+       // Some sessions legitimately require explicit acknowledgement before the
+       // next prompt. Confirm either transition without losing the audio signal.
+       try{
+        await page.waitForFunction(()=>document.querySelector('#continueBtn')||
+         document.querySelector('#choices button:not([disabled])'),null,{timeout:6500});
+       }catch(err){
+        const details=await page.evaluate(()=>({
+         round:document.querySelector('#qstat')?.textContent,
+         choices:[...document.querySelectorAll('#choices button')].map(b=>({disabled:b.disabled,correct:b.dataset.correct})),
+         continue:!!document.querySelector('#continueBtn'),
+         feedback:document.querySelector('#feedback')?.textContent?.slice(0,300),
+         gameHidden:document.querySelector('#game')?.classList.contains('hidden'),
+         resultHidden:document.querySelector('#result')?.classList.contains('hidden'),
+         slowCorrect:document.querySelector('#slowCorrect')?.checked
+        }));
+        throw Error('Quest stalled at index '+i+': '+JSON.stringify({details,browserErrors}));
+       }
+       if(await page.locator('#continueBtn').count())await page.locator('#continueBtn').click();
+       await page.locator('#choices button:not([disabled])').first().waitFor();
+     }
    }
    const calls=await page.evaluate(()=>window.soundCalls);
    assert.equal(calls.filter(k=>k==='bossEnter').length,1);
