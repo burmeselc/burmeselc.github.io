@@ -65,3 +65,34 @@ test('dashboard routes preserve IDs, quiz progress and current flashcards',async
   assert.deepEqual(errors,[]);
  }finally{await browser.close()}
 });
+
+test('home weak-review button restores QUEST history without modifying legacy words',async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(URL,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>!!window.DOPA_DASHBOARD&&!!window.DOPA_FLASH_UI);
+  const before=await page.evaluate(()=>{
+   const profile=window.DOPA_SYNC_API.snapshot();
+   const first=window.DOPA_SYNC_API.flashcardContext().pool[0];
+   profile.words[first.id]={seen:3,wrong:3,correct:0,nemesis:true};
+   window.DOPA_SYNC_API.restore(profile);
+   return {id:first.id,words:JSON.stringify(profile.words)};
+  });
+  assert.equal(await page.locator('#dashWeak').isEnabled(),true);
+  assert.match(await page.locator('#dashWeak').textContent(),/1枚/);
+  await page.locator('#dashWeak').click();
+  assert.equal(await page.locator('#flashScope').inputValue(),'weak');
+  assert.equal(await page.locator('#flashStart').isEnabled(),true);
+  await page.locator('#flashStart').click();
+  assert.equal(await page.locator('#flashFace').isVisible(),true);
+  await page.locator('#flashReveal').click();
+  await page.locator('[data-flash-rating="good"]').click();
+  const after=await page.evaluate(()=>window.DOPA_SYNC_API.snapshot());
+  assert.equal(JSON.stringify(after.words),before.words);
+  assert.ok(after.flashcards.cards[before.id].recognition);
+  assert.equal(after.totalQ,0);
+  assert.deepEqual(errors,[]);
+ }finally{await browser.close()}
+});

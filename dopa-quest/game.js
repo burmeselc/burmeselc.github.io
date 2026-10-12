@@ -394,7 +394,9 @@ window.DOPA_SYNC_API = {
     const deck=activeDeck(lang).filter(x=>String(x.game_include??'1')!=='0');
     return {lang,pool:zonePool(),allDeck:deck,
       flashcards:JSON.parse(JSON.stringify(window.DOPA_FLASH_ENGINE.ensure(P))),
-      vocabularyLibrary:JSON.parse(JSON.stringify(window.DOPA_VOCAB_LIBRARY.ensure(P)))};
+      vocabularyLibrary:JSON.parse(JSON.stringify(window.DOPA_VOCAB_LIBRARY.ensure(P))),
+      // Read-only snapshot; no change to old QUEST or SRS schema.
+      weakWords:JSON.parse(JSON.stringify(P.words))};
   },
   vocabularyContext(){
     const lang=$('lang').value;

@@ -61,7 +61,8 @@
      $('flashCollection').selectedOptions[0]?.textContent+'（保存した語のみ）');
    $('flashAvailability').textContent='今回出題できるカード '+c.length+'枚'+
     '・本日の新規残 '+o.newRemaining+'・長期復習残 '+o.reviewRemaining+
-    (o.direction==='production'?'。複数の原語に同じ日本語義があるカードは逆引きから除外します。':'。');
+    (o.scope==='weak'?'。期限到来の苦手語を優先し、期限前のカードは自主練習として扱ひます。':'。')+
+    (o.direction==='production'?'複数の原語に同じ日本語義があるカードは逆引きから除外します。':'');
    $('flashStart').disabled=c.length===0;
   }catch(e){$('flashAvailability').textContent='カードの選択条件を確認できません。';$('flashStart').disabled=true;console.error(e)}
  }
@@ -89,7 +90,7 @@
   selectIfAvailable('flashCount',prefs.count);
   refreshCollections(options.collection||prefs.collection||'filtered');
   showConfig();
-  if(!candidates().length){$('flashScope').value='new';updateAvailability()}
+  if(!candidates().length&&$('flashScope').value==='due'){$('flashScope').value='new';updateAvailability()}
   panels.flash.scrollIntoView({block:'start'});
  }
  function exit(){

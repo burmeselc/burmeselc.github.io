@@ -102,6 +102,8 @@
     plan.newAvailable?'▶ 新しい単語カードを学ぶ':'▶ 単語カードの学習条件を見る')
    :due?'▶ 復習待ち '+due.toLocaleString()+'枚を学ぶ':'▶ 新しい単語カードを学ぶ';
   if(plan){
+   $('dashWeak').textContent='▶ 苦手語を重点復習（'+plan.weakAvailable.toLocaleString()+'枚）';
+   $('dashWeak').disabled=plan.weakAvailable===0;
    $('dashPlanNew').textContent=plan.newAvailable.toLocaleString();
    $('dashPlanShort').textContent=plan.dueLearning.toLocaleString();
    $('dashPlanReview').textContent=plan.dueReview.toLocaleString();
@@ -293,6 +295,14 @@
   $('vocabExit')?.addEventListener('click',()=>{if(route==='library'){route='quest';visibility('quest')}});
   $('dashQuest').addEventListener('click',()=>go('quest'));
   $('dashCards').addEventListener('click',()=>go('cards'));
+  $('dashWeak').addEventListener('click',()=>{
+   const plan=currentPlan();
+   if(!plan?.weakAvailable)return;
+   go('cards');
+   if($('flashDirection'))$('flashDirection').value=plan.direction;
+   $('flashScope').value='weak';
+   $('flashScope').dispatchEvent(new Event('change'));
+  });
   $('dashReview').addEventListener('click',()=>{
    const plan=currentPlan();
    go('cards');

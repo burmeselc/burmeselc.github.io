@@ -4,7 +4,7 @@
  const DAY=86400000, MIN=60000, MAX_DAYS=36500;
  const RATINGS=['again','hard','good','easy'];
  const DIRECTIONS=['recognition','production'];
- const SCOPES=['due','new','free'];
+ const SCOPES=['due','new','weak','free'];
  const DEFAULTS={newPerDay:20,reviewPerDay:100,defaultDirection:'recognition'};
  const safeInt=(value,fallback,min,max)=>{
   const n=Number(value);
@@ -93,9 +93,21 @@
   if(!g||!form)return false;
   return !allDeck.some(y=>y.id!==x.id&&normGloss(y)===g&&spelling(y,lang)!==form);
  }
+ // Read-only weak-card scoring; recovered mistakes do not stay weak forever.
+ function weakness(s,w){
+  const wrong=Math.max(0,Number(w?.wrong)||0),correct=Math.max(0,Number(w?.correct)||0);
+  const questTrouble=w?.nemesis===true||(wrong>=2&&correct<Math.max(4,wrong*2));
+  const flashTrouble=!!s&&(s.state==='relearning'||s.lastRating==='again'||
+   s.lastRating==='hard'||((s.lapses||0)>0&&(s.intervalDays||0)<21));
+  if(!questTrouble&&!flashTrouble)return 0;
+  return (w?.nemesis===true?40:0)+(s?.state==='relearning'?30:0)+
+   (s?.lastRating==='again'?20:s?.lastRating==='hard'?10:0)+
+   Math.min(15,Math.max(0,Number(s?.lapses)||0)*3)+Math.min(15,wrong*2)+10;
+ }
  function select(options){
   const {pool=[],allDeck=pool,cards={},direction='recognition',
-   scope='due',limit=20,now=Date.now(),newRemaining=Infinity,reviewRemaining=Infinity,lang='shan'}=options;
+   scope='due',limit=20,now=Date.now(),newRemaining=Infinity,reviewRemaining=Infinity,
+   lang='shan',weakWords={}}=options;
   validDirection(direction);
   if(!SCOPES.includes(scope))throw Error('Invalid flashcard scope');
   const existing=new Set(),out=[],formsByGloss=new Map();
@@ -118,12 +130,20 @@
    if(scope==='new')return !s&&newRemaining>0;
    if(scope==='due')return !!s&&isDue(s,now)&&
     (s.state!=='review'||reviewRemaining>0);
+   if(scope==='weak')return weakness(s,weakWords?.[x.id])>0&&
+    (s?!(s.state==='review'&&isDue(s,now)&&reviewRemaining<=0):newRemaining>0);
    return !!s||newRemaining>0;
   });
   candidates.sort((a,b)=>{
    const x=entry(cards,a.id,direction),y=entry(cards,b.id,direction);
    const sortVal=z=>!z?Number.MAX_SAFE_INTEGER:z.dueAt;
    if(scope==='due')return sortVal(x)-sortVal(y);
+   if(scope==='weak'){
+    const priority=z=>z&&isDue(z,now)?0:z?2:1;
+    return priority(x)-priority(y)||
+     weakness(y,weakWords?.[b.id])-weakness(x,weakWords?.[a.id])||
+     sortVal(x)-sortVal(y);
+   }
    if(scope==='free')return (isDue(x,now)?0:x?2:1)-(isDue(y,now)?0:y?2:1);
    return 0;
   });
@@ -132,7 +152,8 @@
    if(out.length>=Math.max(0,limit))break;
    const s=entry(cards,x.id,direction);
    if(!s&&++newly>newRemaining)continue;
-   if(scope==='due'&&s?.state==='review'&&++reviewed>reviewRemaining)continue;
+   if((scope==='due'||scope==='weak')&&s?.state==='review'&&isDue(s,now)&&
+      ++reviewed>reviewRemaining)continue;
    out.push(x);
   }
   return out;
@@ -140,7 +161,7 @@
  // Queue summaries only read existing SRS; no rescheduling or profile mutation.
  function overview(options){
   const {pool=[],allDeck=pool,cards={},direction='recognition',lang='shan',
-   now=Date.now(),newRemaining=Infinity,reviewRemaining=Infinity}=options||{};
+   now=Date.now(),newRemaining=Infinity,reviewRemaining=Infinity,weakWords={}}=options||{};
   validDirection(direction);
   if(!Number.isFinite(now))throw Error('Invalid overview time');
   // Reuse select() to preserve reverse-card ambiguity and eligibility rules.
@@ -150,7 +171,7 @@
   for(const x of eligible){
    const s=entry(cards,x.id,direction);
    if(!s){counts.newTotal++;continue}
-   if((s.lapses||0)>0||s.lastRating==='again')counts.weak++;
+   if(weakness(s,weakWords?.[x.id])>0)counts.weak++;
    if(!isDue(s,now))continue;
    if(s.state==='review')counts.dueReview++;
    else counts.dueLearning++;
@@ -158,7 +179,9 @@
   const budget=n=>Number.isFinite(n)?Math.max(0,Math.floor(n)):Infinity;
   return {...counts,newAvailable:Math.min(counts.newTotal,budget(newRemaining)),
    reviewAvailable:Math.min(counts.dueReview,budget(reviewRemaining)),
-   dueAvailable:counts.dueLearning+Math.min(counts.dueReview,budget(reviewRemaining))};
+   dueAvailable:counts.dueLearning+Math.min(counts.dueReview,budget(reviewRemaining)),
+   weakAvailable:select({pool,allDeck,cards,direction,lang,scope:'weak',
+    limit:pool.length,now,weakWords,newRemaining,reviewRemaining}).length};
  }
  function labelDue(previous,rating,now=Date.now()){
   const result=schedule(previous,rating,now),left=Math.max(0,result.dueAt-now);
@@ -166,7 +189,7 @@
   if(left<DAY)return Math.round(left/(60*MIN))+'時間';
   return Math.round(left/DAY)+'日';
  }
- const api={DAY,MIN,DEFAULTS,RATINGS,DIRECTIONS,dayKey,ensure,entry,isDue,schedule,select,overview,eligibleProduction,labelDue};
+ const api={DAY,MIN,DEFAULTS,RATINGS,DIRECTIONS,dayKey,ensure,entry,isDue,schedule,select,overview,weakness,eligibleProduction,labelDue};
  root.DOPA_FLASH_ENGINE=api;
  if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);
