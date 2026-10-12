@@ -61,7 +61,11 @@ test('unclassified Shan proposals remain playable through successive correct ans
   await page.locator('[data-dopa-route="quest"]').click();
   await page.locator('#zone').selectOption('extra');
   await page.locator('#direction').selectOption('toJP');
-  await page.locator('#slowCorrect').check();
+  await page.evaluate(()=>{
+   const checkbox=document.getElementById('slowCorrect');
+   checkbox.checked=true;
+   checkbox.dispatchEvent(new Event('change',{bubbles:true}));
+  });
   await page.evaluate(()=>{
    const e=window.DOPA_DETAIL,original=e.annotation.bind(e);
    e.annotation=(card,lang)=>{
