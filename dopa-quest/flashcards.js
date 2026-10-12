@@ -137,13 +137,36 @@
   }
   return out;
  }
+ // Queue summaries only read existing SRS; no rescheduling or profile mutation.
+ function overview(options){
+  const {pool=[],allDeck=pool,cards={},direction='recognition',lang='shan',
+   now=Date.now(),newRemaining=Infinity,reviewRemaining=Infinity}=options||{};
+  validDirection(direction);
+  if(!Number.isFinite(now))throw Error('Invalid overview time');
+  // Reuse select() to preserve reverse-card ambiguity and eligibility rules.
+  const eligible=select({pool,allDeck,cards,direction,lang,scope:'free',
+   limit:pool.length,now,newRemaining:Infinity});
+  const counts={newTotal:0,dueLearning:0,dueReview:0,weak:0};
+  for(const x of eligible){
+   const s=entry(cards,x.id,direction);
+   if(!s){counts.newTotal++;continue}
+   if((s.lapses||0)>0||s.lastRating==='again')counts.weak++;
+   if(!isDue(s,now))continue;
+   if(s.state==='review')counts.dueReview++;
+   else counts.dueLearning++;
+  }
+  const budget=n=>Number.isFinite(n)?Math.max(0,Math.floor(n)):Infinity;
+  return {...counts,newAvailable:Math.min(counts.newTotal,budget(newRemaining)),
+   reviewAvailable:Math.min(counts.dueReview,budget(reviewRemaining)),
+   dueAvailable:counts.dueLearning+Math.min(counts.dueReview,budget(reviewRemaining))};
+ }
  function labelDue(previous,rating,now=Date.now()){
   const result=schedule(previous,rating,now),left=Math.max(0,result.dueAt-now);
   if(left<60*MIN)return Math.max(1,Math.round(left/MIN))+'分';
   if(left<DAY)return Math.round(left/(60*MIN))+'時間';
   return Math.round(left/DAY)+'日';
  }
- const api={DAY,MIN,DEFAULTS,RATINGS,DIRECTIONS,dayKey,ensure,entry,isDue,schedule,select,eligibleProduction,labelDue};
+ const api={DAY,MIN,DEFAULTS,RATINGS,DIRECTIONS,dayKey,ensure,entry,isDue,schedule,select,overview,eligibleProduction,labelDue};
  root.DOPA_FLASH_ENGINE=api;
  if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);

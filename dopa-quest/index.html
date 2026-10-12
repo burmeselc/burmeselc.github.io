@@ -397,6 +397,12 @@ body:not(.dopa-ui-ready) #dopaBoot{
    <button id="dashCards" type="button">▣ 単語カード<small style="display:block;margin-top:5px">学習条件を選ぶ</small></button>
   </div>
  </div>
+ <div class="dopa-dashboard-grid" aria-label="今日のカード計画">
+  <div class="dopa-dash-stat"><span>新規学習</span><strong id="dashPlanNew">—</strong><span>本日の残枠</span></div>
+  <div class="dopa-dash-stat"><span>短期再学習</span><strong id="dashPlanShort">—</strong><span>期限到来</span></div>
+  <div class="dopa-dash-stat"><span>長期復習</span><strong id="dashPlanReview">—</strong><span>期限到来</span></div>
+ </div>
+ <p class="dopa-dash-note" id="dashPlanContext">カードの学習計画を集計中…</p>
  <div class="dopa-dashboard-grid" aria-label="学習状況">
   <div class="dopa-dash-stat"><span>復習待ち</span><strong id="dashDue">—</strong><span>カード課題</span></div>
   <div class="dopa-dash-stat"><span>連続学習</span><strong id="dashStreak">0日</strong><span>5語／日で達成</span></div>

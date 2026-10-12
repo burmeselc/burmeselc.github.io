@@ -82,11 +82,34 @@
    button.setAttribute('aria-pressed',String(Number(button.dataset.statDays)===statDays));
   }
  }
+ function currentPlan(){
+  const context=root.DOPA_SYNC_API?.flashcardContext?.(),engine=root.DOPA_FLASH_ENGINE;
+  if(!context||!engine?.overview)return null;
+  const f=context.flashcards,now=Date.now(),
+   day=f.daily?.day===engine.dayKey(now)?f.daily:{newCount:0,reviewCount:0},
+   direction=f.settings.defaultDirection;
+  return {...engine.overview({...context,cards:f.cards,direction,now,
+   newRemaining:Math.max(0,f.settings.newPerDay-day.newCount),
+   reviewRemaining:Math.max(0,f.settings.reviewPerDay-day.reviewCount)}),
+   direction,lang:context.lang};
+ }
  function render(){
   const p=snapshot();if(!p)return;
-  const due=dueCount(p);
+  const plan=currentPlan(),due=plan?plan.dueLearning+plan.dueReview:dueCount(p);
   $('dashDue').textContent=due.toLocaleString();
-  $('dashReview').textContent=due?'▶ 復習待ち '+due.toLocaleString()+'枚を学ぶ':'▶ 新しい単語カードを学ぶ';
+  $('dashReview').textContent=plan
+   ?(plan.dueAvailable?'▶ 今日の復習 '+plan.dueAvailable.toLocaleString()+'枚を学ぶ':
+    plan.newAvailable?'▶ 新しい単語カードを学ぶ':'▶ 単語カードの学習条件を見る')
+   :due?'▶ 復習待ち '+due.toLocaleString()+'枚を学ぶ':'▶ 新しい単語カードを学ぶ';
+  if(plan){
+   $('dashPlanNew').textContent=plan.newAvailable.toLocaleString();
+   $('dashPlanShort').textContent=plan.dueLearning.toLocaleString();
+   $('dashPlanReview').textContent=plan.dueReview.toLocaleString();
+   $('dashPlanContext').textContent=(plan.lang==='shan'?'シャン語':'ビルマ語')+
+    '・'+(plan.direction==='recognition'?'原語→日本語':'日本語→原語')+
+    'の学習可能な範囲。新規は本日の残枠、復習は期限到来の総数です。'+
+    (plan.dueReview>plan.reviewAvailable?' 長期復習の本日残枠は'+plan.reviewAvailable+'枚。':'');
+  }
   $('dashXp').textContent=Math.max(0,Number(p.xp)||0).toLocaleString();
   $('dashSeen').textContent=Object.keys(p.words||{}).length.toLocaleString();
   if(root.DOPA_DAILY){
@@ -122,9 +145,13 @@
     cell.append(plot,name);bars.appendChild(cell);
    }
   }
-  $('dashStatus').textContent=dueCount(p)?
-   '復習期限が到来した単語カードの課題があります。':
-   '単語カードの復習待ちはありません。クエストや新規学習を選べます。';
+  $('dashStatus').textContent=plan
+   ?(plan.dueAvailable?'短期再学習と期限到来の長期復習を優先します。':
+     plan.dueReview?'長期復習の本日上限に達してゐます。設定から上限を変更できます。':
+     plan.newAvailable?'期限到来の復習はありません。新規学習に進めます。':
+     '現在の条件では出題可能なカードがありません。設定で範囲・上限・方向を確認して下さい。')
+   :due?'復習期限が到来した単語カードの課題があります。':
+    '単語カードの復習待ちはありません。クエストや新規学習を選べます。';
   renderInsights(p);
  }
  function visibility(target){
@@ -267,8 +294,12 @@
   $('dashQuest').addEventListener('click',()=>go('quest'));
   $('dashCards').addEventListener('click',()=>go('cards'));
   $('dashReview').addEventListener('click',()=>{
+   const plan=currentPlan();
    go('cards');
-   if(root.DOPA_FLASH_UI&&$('flashScope'))$('flashScope').value=dueCount(snapshot())?'due':'new';
+   if(root.DOPA_FLASH_UI&&$('flashScope')){
+    if(plan?.direction&&$('flashDirection'))$('flashDirection').value=plan.direction;
+    $('flashScope').value=plan?(plan.dueAvailable?'due':'new'):(dueCount(snapshot())?'due':'new');
+   }
    $('flashScope')?.dispatchEvent(new Event('change'));
   });
   const header=$('soundBtn')?.closest('header');
@@ -303,5 +334,5 @@
    }else visibility('quest');
   }
  });
- root.DOPA_DASHBOARD={go,render,dueCount};
+ root.DOPA_DASHBOARD={go,render,dueCount,currentPlan};
 })(window);
