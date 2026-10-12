@@ -59,7 +59,48 @@
    storage_key:KEY,exported_at:new Date(clock()).toISOString(),notes:list()},null,2)+'\n'}
   function exportCSV(){return [headers.map(csvCell).join(','),...list().map(n=>headers.map(k=>csvCell(
    k==='note_types'?n.note_types.join('|'):n[k])).join(','))].join('\r\n')+'\r\n'}
-  return {key:KEY,types:TYPES,statuses:STATUSES,list,save,changeStatus,exportJSON,exportCSV};
+  // Restores exported personal notes only; never touches learning profile or cloud data.
+  // Colliding, modified note IDs fail closed rather than overwriting another device.
+  function importJSON(text,{dryRun=false}={}){
+   const raw=String(text??'');
+   if(raw.length>20000000)throw Error('取込ファイルが大きすぎます');
+   let data;try{data=JSON.parse(raw)}catch{throw Error('校閲バックアップのJSONが読めません')}
+   if(data?.schema!=='dopa-shan-editorial-notes-export-v1'||
+      data.storage_key!==KEY||!Array.isArray(data.notes)||data.notes.length>50000)
+    throw Error('校閲バックアップの形式が違ひます');
+   const ids=new Set();
+   for(const n of data.notes){
+    if(!n||typeof n!=='object'||Array.isArray(n)||
+       !['note_id','parent_card_id','shan_source','gloss_snapshot','proposal','reason','created_at','updated_at','status'].every(k=>typeof n[k]==='string')||
+       !n.note_id||!n.parent_card_id||!n.shan_source||
+       n.note_id.length>256||n.parent_card_id.length>256||n.shan_source.length>300||
+       n.gloss_snapshot.length>2000||n.proposal.length>4000||n.reason.length>4000||
+       !Number.isInteger(n.source_rank)||n.source_rank<1||
+       !Array.isArray(n.note_types)||n.note_types.length===0||
+       n.note_types.some(t=>!TYPES.includes(t))||
+       !STATUSES.includes(n.status)||ids.has(n.note_id)||
+       Number.isNaN(Date.parse(n.created_at))||Number.isNaN(Date.parse(n.updated_at)))
+     throw Error('バックアップに不正な校閲記録があります');
+    ids.add(n.note_id);
+   }
+   const current=read(),currentById=new Map(current.map(n=>[n.note_id,n]));
+   let added=0,existing=0;
+   const newNotes=[];
+   for(const n of data.notes){
+    const old=currentById.get(n.note_id);
+    if(old){
+     // Ignore ordering / key insertion order but not content disagreements.
+     const canonical=x=>JSON.stringify(Object.keys(x).sort().map(k=>[k,x[k]]));
+     if(canonical(old)!==canonical(n))
+      throw Error('同じメモIDに内容の異なる記録があります。上書きしません');
+     existing++;
+    }else{newNotes.push(n);added++}
+   }
+   if(current.length+newNotes.length>50000)throw Error('メモ数の上限を超えます');
+   if(!dryRun&&added>0)write([...current,...newNotes]);
+   return {added,existing,total:current.length+newNotes.length};
+  }
+  return {key:KEY,types:TYPES,statuses:STATUSES,list,save,changeStatus,exportJSON,exportCSV,importJSON};
  }
  const api={KEY,TYPES,STATUSES,createStore};
  try{if(root.localStorage)Object.assign(api,createStore(root.localStorage))}

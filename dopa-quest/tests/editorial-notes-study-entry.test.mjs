@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const read=n=>readFileSync(new URL('../'+n,import.meta.url),'utf8');
 const html=read('index.html'),game=read('game.js'),flash=read('flashcards-ui.js'),sw=read('service-worker.js');
-test('v6.3 is a display release, not a persisted data migration',()=>{
- assert.match(html,/<title>DOPA QUEST v6\.3/);
- assert.match(html,/<h1>DOPA QUEST v6\.3<\/h1>/);
+test('v6.4 remains a display release, not a persisted data migration',()=>{
+ assert.match(html,/<title>DOPA QUEST v6\.4/);
+ assert.match(html,/<h1>DOPA QUEST v6\.4<\/h1>/);
  assert.match(sw,/const CACHE_NAME = 'dopa-quest-static-/);
  assert.match(game,/const KEY='dopaQuestV5_profile'/);
  assert.match(read('editorial-notes.js'),/dopa_shan_editorial_notes_v1/);

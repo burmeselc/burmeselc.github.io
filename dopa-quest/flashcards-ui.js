@@ -115,8 +115,14 @@
   const extra=[current.game_pos||current.pos||'',current.japanese_note||'',
    current.english&&current.english!==japanese(current)?current.english:''].filter(Boolean);
   const provisional=session.lang==='shan'?root.DOPA_DETAIL?.annotation(current,'shan'):null;
-  if(flipped&&provisional?.boundary_unverified)
-   extra.push(provisional.medium?'〔語義境界未検証・カテゴリ暫定〕':'〔語義境界未検証・未分類〕');
+  if(flipped&&provisional?.provisional_only){
+   if(provisional.review_status==='held-sense-boundary')extra.push('〔意味境界の確認保留・語義未承認〕');
+   else if(provisional.review_status==='held-category-repair')extra.push('〔分類修正の確認保留・未検証〕');
+   else if(provisional.review_status==='uncategorized-needs-review')extra.push('〔分類根拠なし・原典確認待ち〕');
+   else if(provisional.boundary_unverified)extra.push(provisional.medium?
+     '〔語義境界未検証・カテゴリ暫定〕':'〔語義境界未検証・未分類〕');
+   else extra.push('〔機械分類・未検証〕');
+  }
   $('flashFaceNote').textContent=flipped?extra.join(' ／ '):'';
   $('flashFaceNote').classList.toggle('hidden',!flipped||!extra.length);
   $('flashFaceTip').textContent=flipped?'タップして問題に戻す':'タップして答へを見る';

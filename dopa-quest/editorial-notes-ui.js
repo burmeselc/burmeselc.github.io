@@ -22,6 +22,7 @@
   '<div class="editorial-actions" style="align-items:center;justify-content:space-between"><h2 id="editorialTitle">シャン語校閲メモ</h2><button type="button" id="editorialClose">閉ぢる</button></div>'+
   '<div id="editorialWord" class="editorial-word"></div><p id="editorialGloss" class="small"></p>'+
   '<p class="small">個人用の未検証メモです。原辞書・学習成績・語義IDは変更しません。この端末にのみ保存されます。</p>'+
+  '<div class="editorial-actions" id="editorialQuickFlags"><button type="button" data-flag="translation-question">訳に疑問</button><button type="button" data-flag="category-change-suggestion">分類がおかしい</button><button type="button" data-flag="source-or-example-question">後で調べる</button></div>'+
   '<form id="editorialForm"><div id="editorialTypes" class="editorial-types">'+
   labels.map(([v,label])=>'<label><input type="checkbox" value="'+v+'"> '+label+'</label>').join('')+
   '</div><label for="editorialProposal">疑義・修正案</label><textarea id="editorialProposal" maxlength="4000" placeholder="分類変更や訳語の対案"></textarea>'+
@@ -62,6 +63,23 @@
  $('editorialClose').addEventListener('click',close);
  wrap.addEventListener('click',e=>{if(e.target===wrap)close()});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!wrap.classList.contains('hidden')){e.preventDefault();close()}});
+ $('editorialQuickFlags').addEventListener('click',e=>{
+  const type=e.target.closest('button[data-flag]')?.dataset.flag;
+  if(!type||!card)return;
+  const reasons={
+   'translation-question':'訳語・定義を再確認する',
+   'category-change-suggestion':'意味カテゴリを再確認する',
+   'source-or-example-question':'原典・用例を後で調べる'
+  };
+  if(!Object.hasOwn(reasons,type))return;
+  try{
+   const id=card.parent_card_id||card.parent_id||card.id;
+   const found=store.list(id).find(x=>x.status==='open'&&x.note_types.length===1&&x.note_types[0]===type&&x.reason===reasons[type]&&!x.proposal);
+   if(found){message('同じ未処理の疑義を既に記録してゐます。');return}
+   store.save(card,{note_types:[type],reason:reasons[type],status:'open'});
+   list();message('疑義を端末に記録しました。原語と学習履歴は変更してゐません。');
+  }catch(err){message('記録できませんでした：'+err.message)}
+ });
  $('editorialNew').addEventListener('click',reset);
  $('editorialExisting').addEventListener('click',e=>{
   const b=e.target.closest('button[data-note-id]');if(!b||!card)return;
