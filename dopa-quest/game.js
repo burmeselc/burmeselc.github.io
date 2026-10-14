@@ -49,13 +49,14 @@ const DOMAIN_LABELS_BY_LANG=window.DOPA_SEMANTIC_LABELS_BY_LANG||{burmese:window
 const DOMAIN_READY_BY_LANG=window.DOPA_SEMANTIC_READY_BY_LANG||{burmese:!!window.DOPA_SEMANTIC_READY,shan:false};
 let previousSemanticLanguage=null;
 function senseStudyActive(){return $('lang')?.value==='shan'&&!!$('shanSenseMode')?.checked&&!!DATA.shan_senses}
-function activeDeck(l){return l==='shan'&&senseStudyActive()?DATA.shan_senses:DATA[l]}
+const shanUnifiedDeck=DATA.shan_senses?[...DATA.shan_senses,...DATA.shan.filter(x=>Number(x.rank)>5480)]:DATA.shan;
+function activeDeck(l){return l==='shan'&&senseStudyActive()?shanUnifiedDeck:DATA[l]}
 function updateShanSenseControl(){
  const input=$('shanSenseMode'),note=$('shanSenseNotice');
  if(!input)return;
  input.disabled=$('lang').value!=='shan'||!window.DOPA_SENSE_READY;
  if(note)note.textContent=!window.DOPA_SENSE_READY?'語義カードデータを読み込めないため、従来の5,480カードだけを使ひます。':
- '語義別モードでは既存5,480親語から作成した7,290候補のうち7,241件を出題します。新規追加語彙は語義別モードに含まれず、通常のシャン語デッキ／追加語彙エリアで学習できます。新IDの復習履歴は別管理です。';
+ '標準の語義別学習では既存5,480親語から作成した7,241件と追加11,505親語を併用します。49候補は保留中です。チェックを外すと従来の親カード学習へ戻れます。元の学習履歴は保持し、子カードの記録は別管理です。';
 }
 
 function effectiveMajor(x,l){return window.DOPA_DETAIL?.majorFor?.(x,l)||x.semantic_major}
@@ -357,7 +358,7 @@ function finish(){moveQuestSound(false);document.body.classList.remove('dopa-que
 function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
- $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=()=>{updateDetailFilters();renderZoneStats()};for(const id of ['semanticMedium','semanticTag'])if($(id))$(id).onchange=()=>{updateDetailFilters();renderZoneStats()};if($('clearStudyDetails'))$('clearStudyDetails').onclick=()=>{$('semanticMedium').value=$('semanticTag').value='all';updateDetailFilters();renderZoneStats()};const senseChoice=$('shanSenseMode');if(senseChoice)senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats()};const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
+ $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=()=>{updateDetailFilters();renderZoneStats()};for(const id of ['semanticMedium','semanticTag'])if($(id))$(id).onchange=()=>{updateDetailFilters();renderZoneStats()};if($('clearStudyDetails'))$('clearStudyDetails').onclick=()=>{$('semanticMedium').value=$('semanticTag').value='all';updateDetailFilters();renderZoneStats()};const senseChoice=$('shanSenseMode');if(senseChoice){senseChoice.checked=!!window.DOPA_SENSE_READY;senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats()}}const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
  $('start').onclick=start;$('soundBtn').onclick=()=>{
  if(P.sound){P.lastSfxStyle=P.sfxStyle;P.sfxStyle='off'}
  else P.sfxStyle=P.lastSfxStyle||'standard';
