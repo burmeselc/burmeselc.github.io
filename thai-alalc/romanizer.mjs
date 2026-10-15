@@ -129,40 +129,37 @@ function indexReviewed(dictionary) {
   return result;
 }
 function segmentThaiRun(run,reviewed) {
-  const memo=new Map();
-  const segment=i=>{
-    if(i===run.length)return {cost:0,pieces:[]};
-    if(memo.has(i))return memo.get(i);
+  // Work from right to left: avoids recursion overflow on long pasted records.
+  const solutions=Array(run.length+1).fill(null);
+  solutions[run.length]={cost:0,pieces:[]};
+  for(let i=run.length-1;i>=0;i--){
     let best=null;
     const consider=(piece,len,price)=>{
-      const next=segment(i+len);
+      const next=solutions[i+len];
+      if(!next)return;
       const candidate={cost:price+next.cost,pieces:[piece,...next.pieces]};
-      if(!best || candidate.cost<best.cost)best=candidate;
+      if(!best||candidate.cost<best.cost)best=candidate;
     };
     for(const e of reviewed.get(run[i])||[]){
       if(!run.startsWith(e.thai,i))continue;
       consider({thai:e.thai,roman:e.alalc,origin:'dictionary',uncertain:false,
         notes:[],meaning:e.meaning||''},e.thai.length,0.02);
     }
-    const max=Math.min(run.length-i,12);
-    for(let len=1;len<=max;len++){
-      const raw=run.slice(i,i+len);
-      const guess=romanizeSyllable(raw);
+    for(let len=1;len<=Math.min(run.length-i,12);len++){
+      const raw=run.slice(i,i+len),guess=romanizeSyllable(raw);
       if(!guess)continue;
-      consider({thai:raw,roman:guess.roman,origin:'rule',
-        uncertain:guess.uncertain,notes:guess.notes},
-        len,(guess.uncertain?1.65:1.10)+(len===1?0.2:0));
+      consider({thai:raw,roman:guess.roman,origin:'rule',uncertain:guess.uncertain,
+        notes:guess.notes},len,(guess.uncertain?1.65:1.10)+(len===1?0.2:0));
     }
     if(THAI_CHAR.test(run[i])){
       consider({thai:run[i],roman:run[i],origin:'unresolved',uncertain:true,
         notes:['綴りを解析できません']},1,7.5);
-    }else {
+    }else{
       consider({thai:run[i],roman:run[i],origin:'literal',uncertain:false,notes:[]},1,0.1);
     }
-    memo.set(i,best);
-    return best;
-  };
-  const parts=segment(0).pieces;
+    solutions[i]=best;
+  }
+  const parts=solutions[0].pieces;
   // Adjacent unresolved characters are one meaningful correction target.
   const merged=[];
   for(const piece of parts){
