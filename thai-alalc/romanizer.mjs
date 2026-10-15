@@ -206,7 +206,8 @@ export function romanizeThai(text,dictionary=[]) {
   let previous=null;
   for(const token of tokens){
     token.spaceBefore=Boolean(previous && token.origin!=='literal' && previous.origin!=='literal' &&
-      token.origin!=='unresolved' && previous.origin!=='unresolved');
+      token.origin!=='unresolved' && previous.origin!=='unresolved' &&
+      !(DIGITS.includes(token.thai)&&DIGITS.includes(previous.thai)));
     if(token.spaceBefore){
       token.uncertain=true;
       token.notes=[...token.notes,'語境界は暫定（ALA-LC分かち書き要確認）'];
