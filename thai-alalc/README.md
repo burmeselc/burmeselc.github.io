@@ -1,17 +1,17 @@
 # Thai ALA-LC Converter (beta)
 
-A static, dictionary-first Thai ↔ ALA-LC 2011 tool at /thai-alalc/. It inherits the existing burmeselc typography and layout, with a blue palette. Translation and search run in the browser (no API calls, no persistence of work documents). It fetches only this repository's dictionary.json.
+A static, rule-first Thai → ALA-LC / dictionary-first ALA-LC → Thai tool at /thai-alalc/. It inherits the existing burmeselc typography and layout, with a blue palette. Translation and search run in the browser (no API calls, no persistence of work documents). It fetches only this repository's dictionary.json.
 
 ## What works
 
-- Thai → ALA-LC: finds word entries in dictionary; unknown substrings are explicitly marked "未登録".
+- Thai → ALA-LC: rule-first conversion of vowel patterns, initial and final consonants, tone marks, simple silent letters, leading tone consonants, Thai digits, and punctuation; unknown words receive tentative romanized candidates even without a dictionary. Officially reviewed dictionary entries override rule candidates for lexical exceptions and complex compounds; unparseable material is marked `未解析`. Clicking blue candidate spans allows manual correction.
 - ALA-LC → Thai: supplies multiple Thai spellings for the same ALA-LC string with English glosses and a manual choice interface.
 - Dictionary search by Thai, romanization, or gloss, and temporary local CSV/JSON upload.
-- Plain text copying and download.
+- Plain text copying and download. Rule-generated spans can be edited in place, with ephemeral edits never uploaded or saved.
 
 ## What remains to be built
 
-The initial dictionary has 25 manually curated demonstration entries, 17 with ALA-LC romanization given as examples in the official 2011 table; glosses are editor-written. **An initial SEAlang Thai API batch (ณ.* and ฬ.*) has been collected and reviewed only for parse/schema integrity.** The site does not perform reliable novel-word transcription or automatic Thai word division yet. 43 word division rules, irregular inherent vowels, silent letters, loanwords, and proper names require a reviewed dictionary and human cataloging review.
+The initial dictionary has 25 manually curated demonstration entries, 17 with ALA-LC romanization given as examples in the official 2011 table; glosses are editor-written. **An initial SEAlang Thai API batch (ณ.* and ฬ.*) has been collected and reviewed only for parse/schema integrity.** The site now generates romanization candidates for unseen syllables but does **not** guarantee correct pronunciation or the ALA-LC word division of previously unseen multi-syllable terms. 43 word division rules, irregular inherent vowels, silent letters, loanwords, and proper names require a reviewed dictionary and human cataloging review.
 
 ## Record schema and building
 
@@ -48,5 +48,12 @@ Keep raw HTML and non-approved sources out of the repository. The CSV shard file
 
     python -m unittest discover -s thai-alalc/tests -v
     node --check thai-alalc/app.js
+    node --test thai-alalc/tests/romanizer.test.mjs
 
 Reference: https://www.loc.gov/catdir/cpso/romanization/thai.pdf
+
+## Rule-first Thai → ALA-LC engine (2026-10)
+
+`romanizer.mjs` is an independent ES module with `romanizeThai(text, entries)` and `romanizeSyllable(raw)`. It uses dynamic programming to select dictionary-confirmed lexical matches and rule-generated orthographic syllables. Approved lexicon records have priority; SEAlang entries with tentative or unresolved ALA-LC are not falsely treated as verified output. The UI highlights automatically generated and unparsed substrings and offers inline correction.
+
+**Limitations:** ambiguous inherent vowels (`a/o/ǭ`), consonant clusters, exceptional pronunciation, silent syllables, word segmentation, names and grammatical compounds can require an authoritative lexicon and human review. Word boundaries inserted between segments are preliminary, *not* compliance with all 43 word-division instructions. Do not silently treat rule guesses as confirmed cataloging forms. Copying exports the displayed candidate including spaces and explicit unresolved markers.
