@@ -1,9 +1,10 @@
-/* Dictionary-first, conservative ALA-LC assistance. All processing stays in browser. */
+import {romanizeThai} from './romanizer.mjs';
+/* Rule-first Thai→ALA-LC; dictionary-first ALA-LC→Thai. Client-side only. */
 const input=document.querySelector('#input'),output=document.querySelector('#result');
 const resultStatus=document.querySelector('#result-status'), dictionaryStatus=document.querySelector('#dictionary-status');
 const candidatePanel=document.querySelector('#candidates'),candidateList=document.querySelector('#candidate-list');
 const inputTitle=document.querySelector('#input-title'),modes=document.querySelectorAll('[data-mode]');
-let entries=[],mode='forward',tokens=[];
+let entries=[],mode='forward',tokens=[],forwardResult={tokens:[],text:'',guessed:0,unresolved:0,reviewed:0,needsReview:0};
 let byThai=new Map(),byRoman=new Map();
 const safe=v=>String(v??'').normalize('NFC').trim();
 const canon=v=>safe(v).replace(/[’'ʼʾ]/g,'‘').replace(/\s+/g,' ').toLocaleLowerCase('en');
@@ -59,7 +60,10 @@ function tokenText(t){
  const e=t.choices[t.selected||0];return mode==='forward'?e.alalc||'〔未確定：'+e.thai+'〕':e.thai;
 }
 function gapBefore(i){return mode==='forward'&&i>0&&tokens[i-1].choices?.length>0&&tokens[i].choices?.length>0?' ':'';}
-function getPrintable(){return mode==='search'?'':tokens.map((t,i)=>gapBefore(i)+(t.unknown?'〔未登録：'+t.raw+'〕':tokenText(t))).join('');}
+function forwardText(){return forwardResult.tokens.map(t=>(t.spaceBefore?' ':'')+
+  (t.origin==='unresolved' && !t.corrected?'〔未解析：'+t.thai+'〕':t.roman)).join('');}
+function getPrintable(){if(mode==='search')return '';if(mode==='forward')return forwardText();
+  return tokens.map((t,i)=>gapBefore(i)+(t.unknown?'〔未登録：'+t.raw+'〕':tokenText(t))).join('');}
 function showCandidates(i){
  const token=tokens[i];candidateList.replaceChildren();
  if(!token?.choices?.length){candidatePanel.hidden=true;return;}
@@ -73,6 +77,56 @@ function showCandidates(i){
   gloss.append(more);b.append(word,gloss);b.addEventListener('click',()=>{token.selected=k;renderResult();showCandidates(i);});
   candidateList.append(b);
  }
+}
+function showForwardEditor(index){
+ const t=forwardResult.tokens[index];if(!t)return;
+ candidateList.replaceChildren();candidatePanel.hidden=false;
+ const heading=candidatePanel.querySelector('h3');
+ heading.textContent='翻字候補の確認・修正';
+ const desc=candidatePanel.querySelector('.candidate-help');
+ desc.textContent='原文：'+t.thai+' ／ '+(t.origin==='dictionary'?'辞書確認済み':t.origin==='unresolved'?'未解析':'規則による候補')+
+  (t.notes?.length?' ／ '+t.notes.join('・'):'');
+ const label=document.createElement('label');
+ label.textContent='選択箇所のALA-LC';label.className='candidate-gloss';
+ const control=document.createElement('input');control.type='text';control.value=t.origin==='unresolved'&&!t.corrected?'':t.roman;
+ control.className='roman-edit';control.setAttribute('aria-label','ALA-LC翻字を手修正');
+ const ok=document.createElement('button');ok.type='button';ok.textContent='修正を反映';
+ function submit(){
+   const value=control.value.trim();
+   if(!value){control.focus();return;}
+   t.roman=value;t.corrected=true;t.uncertain=false;
+   candidatePanel.hidden=true;renderForward();
+ }
+ ok.addEventListener('click',submit);
+ control.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();submit();}});
+ candidateList.append(label,control,ok);
+ control.focus();control.select();
+}
+function renderForward(){
+ output.replaceChildren();output.classList.remove('thai-result');
+ if(!input.value){
+  output.textContent='入力すると規則に基づくALA-LC候補を表示します。';
+  resultStatus.textContent='';candidatePanel.hidden=true;return;
+ }
+ forwardResult.tokens.forEach((t,i)=>{
+  if(t.spaceBefore)output.append(document.createTextNode(' '));
+  if(t.origin==='literal'){
+   output.append(document.createTextNode(t.roman));return;
+  }
+  const rendered=t.origin==='unresolved'&&!t.corrected?'〔未解析：'+t.thai+'〕':t.roman;
+  const editable=t.origin!=='dictionary'||t.uncertain;
+  if(!editable){output.append(document.createTextNode(rendered));return;}
+  const btn=document.createElement('button');btn.type='button';
+  btn.className=t.origin==='unresolved'&&!t.corrected?'token-unknown token-edit':'token-guess token-edit';
+  btn.textContent=rendered;
+  btn.title='候補を修正：'+t.thai+(t.notes?.length?' ／ '+t.notes.join('・'):'');
+  btn.addEventListener('click',()=>showForwardEditor(i));output.append(btn);
+ });
+ const adjusted=forwardResult.tokens.filter(x=>x.corrected).length;
+ const unresolved=forwardResult.tokens.filter(x=>x.origin==='unresolved'&&!x.corrected).length;
+ resultStatus.textContent='規則による候補 '+forwardResult.guessed+' 箇所 · 辞書確認済み '+
+  forwardResult.reviewed+' 箇所 · 未解析 '+unresolved+' 箇所 · 手修正 '+adjusted+
+  ' 箇所。青い箇所はクリックして修正できます。分かち書きは暫定です。';
 }
 function renderResult(){
  output.replaceChildren();output.classList.toggle('thai-result',mode==='reverse');
@@ -97,7 +151,11 @@ function renderSearch(){
  if(!found.length)output.textContent='該当する辞書項目はありません。';
  resultStatus.textContent=found.length+' 件表示（最大75件）。クリックすると翻字をコピーします。';
 }
-function render(){if(mode==='search'){renderSearch();return;}tokens=tokenize(input.value);candidatePanel.hidden=true;renderResult();}
+function render(){candidatePanel.hidden=true;
+ if(mode==='search'){renderSearch();return;}
+ if(mode==='forward'){forwardResult=romanizeThai(input.value,entries);renderForward();return;}
+ tokens=tokenize(input.value);renderResult();
+}
 function setMode(v){
  mode=v;for(const b of modes){const on=b.dataset.mode===v;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',String(on));}
  inputTitle.textContent={forward:'タイ文字の入力',reverse:'ALA-LC翻字の入力',search:'見出し語・翻字・意味の検索'}[v];
