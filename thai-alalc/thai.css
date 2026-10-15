@@ -43,3 +43,9 @@ html:has(.thai-alalc-page){background:#f9fbff}
 summary{cursor:pointer;color:var(--green-900);font-weight:600}
 #import-dictionary{display:block;margin:14px 0;max-width:100%;font-size:.86rem}
 @media(max-width:620px){.workspace{padding:14px}.mode-group .mode{min-width:0;font-size:.8rem}.candidate-word{min-width:70px}}
+
+/* Candidate correction and confidence visualization in rule-first mode */
+.token-guess {display:inline;margin:0 1px;padding:0 3px;border:0;border-bottom:2px dotted var(--green-500);border-radius:2px;color:var(--green-800);background:#eaf4ff;font:inherit;line-height:inherit;cursor:pointer;}
+.token-guess:hover,.token-guess:focus-visible {background:#cfe4fb;}
+.token-edit.token-unknown {border:1px dashed #c6834d;cursor:pointer;font:inherit;line-height:inherit;}
+.roman-edit {display:block;width:min(100%,440px);margin:6px 0 10px;padding:9px 12px;border:1px solid var(--green-300);border-radius:4px;color:var(--ink);font:1.18rem var(--font-roman);}
