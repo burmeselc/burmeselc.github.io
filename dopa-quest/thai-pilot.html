@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>DOPA QUEST — タイ語 第1課 試験室</title>
+<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#061326;color:#ecf5ff;font-family:system-ui,"Noto Sans Thai",sans-serif}main{max-width:680px;margin:auto;padding:28px 16px}h1{font-size:1.55rem}p,small{color:#b7cbe0;line-height:1.6}.panel{background:#10253a;border:1px solid #34536b;border-radius:18px;padding:16px;margin:14px 0}select,button{background:#193c58;color:white;border:1px solid #537a98;border-radius:10px;padding:11px;font:inherit;max-width:100%}.filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}label{display:grid;gap:5px;font-size:.88rem}.thai{font-size:clamp(2rem,8vw,3.5rem);line-height:1.7;text-align:center;overflow-wrap:anywhere}.roman{font-size:1.2rem;text-align:center;color:#9ddefe;min-height:1.5em}.meaning{text-align:center;font-size:1.35rem;margin:16px 0}nav{display:flex;justify-content:space-between;gap:10px;align-items:center}.muted{color:#97b2cb}.hidden{display:none}.primary{background:#177e9a;border-color:#54cfe4}button:disabled{opacity:.4}a{color:#a4e7fb}.info{font-size:.8rem}@media(max-width:450px){.filters{grid-template-columns:1fr}}</style></head>
+<body><main><p><a href="./">← DOPA QUEST 本体</a></p><h1>タイ語 第1課｜独立試験モード</h1><p>既存のクエスト・単語カード・学習履歴とは独立した確認画面です。現段階では第1課55件のうち10件を収録。音声は再生しません。</p>
+<section class="panel filters">
+<label>課<select id="lesson"><option value="01">第1課</option></select></label>
+<label>優先度<select id="priority"><option value="all">すべて</option><option>A</option><option>B</option><option>C</option></select></label>
+<label>意味領域<select id="semantic"><option value="all">すべて</option></select></label>
+<label>カード種別<select id="type"><option value="all">すべて</option><option value="word">語</option><option value="phrase">表現</option><option value="particle">助詞・語尾</option></select></label>
+<label style="grid-column:1/-1">出題表示<select id="display"><option value="both">タイ文字＋発音</option><option value="thai">タイ文字のみ</option><option value="roman">発音のみ</option></select></label>
+</section>
+<section class="panel" aria-live="polite"><div id="position" class="muted"></div><div id="thai" class="thai"></div><div id="roman" class="roman"></div><div id="meaning" class="meaning hidden"></div><p id="meta" class="info"></p><button id="reveal" class="primary">意味を見る</button></section>
+<nav><button id="prev">前へ</button><button id="next">次へ</button></nav><p id="notice" role="status"></p>
+<small>校閲状態は資料の値を保持し、質問者による目視校閲済みの確認を別項目で記録してゐます。教材の発音記号体系との照合は別管理です。このページは学習記録・クラウド同期・効果音を変更しません。</small></main>
+<script>
+'use strict';
+(async()=>{
+ const el=id=>document.getElementById(id);
+ const controls=['priority','semantic','type','display'];
+ let cards=[],index=0,revealed=false;
+ const load=await fetch('./data/thai-lesson01-pilot.json',{cache:'no-cache'});
+ if(!load.ok)throw Error('Thai pilot data HTTP '+load.status);
+ const json=await load.json();
+ if(json.schema!=='dopa-thai-pilot-v1'||!Array.isArray(json.cards))throw Error('Unexpected data schema');
+ cards=json.cards.filter(c=>c.lesson==='01'&&c.visual_review==='user_confirmed_2026-10-18'&&c.id&&c.thai&&c.japanese);
+ const tags=[...new Set(cards.map(c=>c.semantic_tag).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ja'));
+ for(const tag of tags){const option=document.createElement('option');option.value=tag;option.textContent=tag;el('semantic').append(option)}
+ const visible=()=>cards.filter(c=>(el('priority').value==='all'||c.priority===el('priority').value)&&(el('semantic').value==='all'||c.semantic_tag===el('semantic').value)&&(el('type').value==='all'||c.card_type===el('type').value));
+ const set=(id,value)=>{el(id).textContent=value||''};
+ function render(){
+  const list=visible();if(index>=list.length)index=0;
+  const c=list[index];el('reveal').disabled=!c;
+  set('position',c?(index+1)+' / '+list.length:'該当なし');
+  set('thai',c&&el('display').value!=='roman'?c.thai:'');
+  set('roman',c&&el('display').value!=='thai'?c.romanization_draft:'');
+  set('meaning',c&&revealed?c.japanese:'');
+  el('meaning').classList.toggle('hidden',!revealed||!c);
+  set('meta',c?'ID: '+c.id+' ｜ 第'+Number(c.lesson)+'課 ｜ '+c.priority+' ｜ '+c.semantic_tag+' ｜ p.'+c.source_page:'条件を変更して下さい');
+  set('reveal', '');el('reveal').textContent=revealed?'意味を隠す':'意味を見る';
+  el('prev').disabled=el('next').disabled=list.length<2;
+  set('notice',list.length+'件を表示。単語カードの復習履歴には影響しません。');
+ }
+ for(const id of controls)el(id).addEventListener('change',()=>{index=0;revealed=false;render()});
+ el('reveal').addEventListener('click',()=>{revealed=!revealed;render()});
+ el('prev').addEventListener('click',()=>{index=(index-1+visible().length)%visible().length;revealed=false;render()});
+ el('next').addEventListener('click',()=>{index=(index+1)%visible().length;revealed=false;render()});
+ render();
+})().catch(e=>{document.getElementById('notice').textContent='読込に失敗しました: '+e.message;console.error(e)});
+</script></body></html>
