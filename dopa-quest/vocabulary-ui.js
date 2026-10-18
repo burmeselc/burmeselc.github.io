@@ -62,7 +62,7 @@
    const attrs='data-id="'+html(x.id)+'"';
    return '<div class="vocab-row"><div class="vocab-main"><div class="vocab-word">'+html(original)+'</div>'+
     '<div class="vocab-gloss">'+html(jp)+'</div><div class="vocab-meta">'+
-    html([x.game_pos||x.pos||'',category||x.semantic_major&&('領域 '+x.semantic_major)||'未分類',reviewLabel,a?.boundary_unverified?(a.medium?'語義境界未検証・低確度':'語義境界未検証・分類根拠なし'):'',status].filter(Boolean).join(' ／ '))+
+    html([lang==='thai'?x.romanization_draft:'',x.game_pos||x.pos||'',lang==='thai'?x.semantic_tag:category||x.semantic_major&&('領域 '+x.semantic_major)||'未分類',reviewLabel,a?.boundary_unverified?(a.medium?'語義境界未検証・低確度':'語義境界未検証・分類根拠なし'):'',status].filter(Boolean).join(' ／ '))+
     (x.english?'<div>'+html(x.english)+'</div>':'')+'</div></div>'+
     '<div class="vocab-row-actions"><button type="button" data-action="bookmark" '+attrs+
     ' class="'+(saved?'vocab-marked':'')+'" aria-pressed="'+saved+'">'+(saved?'★ 保存':'☆ 保存')+'</button>'+
