@@ -106,14 +106,14 @@
  }
  function renderCard(){
   if(!current||!session)return;
-  const front=session.direction==='recognition'?original(current,session.lang):japanese(current);
+  const front=session.direction==='recognition'?(session.lang==='thai'&&$('thaiReading')?.value==='roman'?current.romanization_draft:original(current,session.lang)):japanese(current);
   const back=session.direction==='recognition'?japanese(current):original(current,session.lang);
   $('flashFaceHint').textContent=flipped?'解答':'問題';
   $('flashFaceWord').textContent=flipped?back:front;
   $('flashFaceWord').lang=(flipped?(session.direction==='production'):(session.direction==='recognition'))
    ?(session.lang==='shan'?'shn':session.lang==='thai'?'th':'my'):'ja';
   $('flashFaceWord').classList.toggle('jp',flipped?(session.direction==='recognition'):(session.direction==='production'));
-  const extra=[session.lang==='thai'?current.romanization_draft:'',current.game_pos||current.pos||'',current.japanese_note||'',
+  const extra=[session.lang==='thai'&&$('thaiReading')?.value!=='thai'?current.romanization_draft:'',current.game_pos||current.pos||'',current.japanese_note||'',
    current.english&&current.english!==japanese(current)?current.english:''].filter(Boolean);
   const provisional=session.lang==='shan'?root.DOPA_DETAIL?.annotation(current,'shan'):null;
   if(flipped&&provisional?.provisional_only){
