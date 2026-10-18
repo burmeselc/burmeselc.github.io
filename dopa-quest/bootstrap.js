@@ -95,6 +95,18 @@
       }
     }
   }
+  // Thai textbook pilot: additive deck, never replacing Shan/Burmese IDs or progress.
+  window.DOPA_DATA.thai=[];
+  try {
+    const response=await fetch('./data/thai-lesson01-pilot.json',{cache:'no-cache'});
+    if(!response.ok)throw Error('Thai lesson HTTP '+response.status);
+    const pilot=await response.json();
+    if(pilot.schema!=='dopa-thai-pilot-v1'||pilot.cards?.length!==55||
+       new Set(pilot.cards.map(c=>c.id)).size!==55||
+       pilot.cards.some(c=>!/^TH-L01-\d{3}$/.test(c.id)||!c.thai||!c.japanese||!c.romanization_draft||
+        c.visual_review!=='user_confirmed_2026-10-18'))throw Error('Thai pilot integrity failed');
+    window.DOPA_DATA.thai=pilot.cards.map((c,i)=>({...c,japanese_core:c.japanese,order:i+1,game_pos:c.card_type,game_include:1}));
+  }catch(error){console.warn('Thai optional deck unavailable; existing language decks unchanged',error)}
   // Experimental, opt-in Shan sense cards. Original shan/burmese arrays and IDs are untouched.
   window.DOPA_SENSE_READY=false;
   try{
