@@ -23,7 +23,7 @@
   const el=$(id);
   if(typeof value==='string'&&[...el.options].some(option=>option.value===value))el.value=value;
  }
- const original=(x,lang)=>String(lang==='shan'?x.shan:x.burmese||'');
+ const original=(x,lang)=>String(lang==='shan'?x.shan:lang==='thai'?x.thai:x.burmese||'');
  const japanese=x=>String(x.japanese_core||x.japanese||x.english||'');
  const makeOptions=()=>{
   const context=api.flashcardContext(),direction=$('flashDirection').value,
@@ -55,7 +55,7 @@
   if(panels.flash.classList.contains('hidden')||!panels.config.classList.contains('hidden'))return;
   try{
    const o=makeOptions(),c=engine.select({...o,cards:o.flashcards.cards});
-   const lang=o.lang==='shan'?'シャン語':'ビルマ語';
+   const lang=o.lang==='shan'?'シャン語':o.lang==='thai'?'タイ語':'ビルマ語';
    $('flashContextLabel').textContent=lang+' ／ '+(o.collection==='filtered'?
      $('zone').selectedOptions[0]?.textContent+' ／ '+$('semanticCategory').selectedOptions[0]?.textContent:
      $('flashCollection').selectedOptions[0]?.textContent+'（保存した語のみ）');
@@ -111,9 +111,9 @@
   $('flashFaceHint').textContent=flipped?'解答':'問題';
   $('flashFaceWord').textContent=flipped?back:front;
   $('flashFaceWord').lang=(flipped?(session.direction==='production'):(session.direction==='recognition'))
-   ?(session.lang==='shan'?'shn':'my'):'ja';
+   ?(session.lang==='shan'?'shn':session.lang==='thai'?'th':'my'):'ja';
   $('flashFaceWord').classList.toggle('jp',flipped?(session.direction==='recognition'):(session.direction==='production'));
-  const extra=[current.game_pos||current.pos||'',current.japanese_note||'',
+  const extra=[session.lang==='thai'?current.romanization_draft:'',current.game_pos||current.pos||'',current.japanese_note||'',
    current.english&&current.english!==japanese(current)?current.english:''].filter(Boolean);
   const provisional=session.lang==='shan'?root.DOPA_DETAIL?.annotation(current,'shan'):null;
   if(flipped&&provisional?.provisional_only){
