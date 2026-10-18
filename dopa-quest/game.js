@@ -30,7 +30,7 @@ function lvInfo(xp){let lv=Math.floor(Math.sqrt(Math.max(0,xp)/90))+1,start=(lv-
 function titleFor(lv){return lv>=25?'Lexicon Overlord':lv>=15?'Memory Raider':lv>=8?'Word Hunter':lv>=4?'Combo Learner':'Rookie'}
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function shuffle(a){let b=[...a];for(let i=b.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
-function orig(x,l){return l==='shan'?x.shan:x.burmese}
+function orig(x,l){return l==='shan'?x.shan:l==='thai'?x.thai:x.burmese}
 function jp(x){return x.japanese_core||x.japanese||x.english||''}
 function note(x,l){return x.japanese_note||(x.english||'')}
 function glossParts(s){return [...new Set(String(s||'').normalize('NFKC').split(/[；;、，,／/]/).map(x=>x.replace(/[。．！？!？\s　]+/g,'').trim().toLowerCase()).filter(Boolean))]}
@@ -39,10 +39,10 @@ function normalizedGloss(x){return String(jp(x)).normalize('NFKC').replace(/[\s�
 function isUnambiguous(x,l){return (glossLookup[l].get(normalizedGloss(x))||0)===1}
 function pos(x,l){return l==='shan'?(x.game_pos||x.pos||''):(x.game_pos||x.category||x.type_hint||'')}
 function indexOf(x,l){return l==='shan'?Number(x.rank||99999):Number(x.order||99999)}
-function zones(l){if(l==='shan')return[['all','全'+DATA.shan.length.toLocaleString()+'語',1,Number.MAX_SAFE_INTEGER],['z1','頻度 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–2000',1001,2000],['z6','2001–5480',2001,5480],...(DATA.shan.length>5480?[['extra','追加語彙（試験版）',5481,Number.MAX_SAFE_INTEGER]]:[])];return[['all','全2,500語',1,2500],['z1','教材 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–1500',1001,1500],['z6','1501–2500',1501,2500]]}
-const byId = Object.fromEntries([...DATA.shan,...DATA.burmese,...(DATA.shan_senses||[])].map(x=>[x.id,x]));
-const glossLookup={shan:new Map(),burmese:new Map()};
-for(const lang of ['shan','burmese'])for(const x of DATA[lang]){
+function zones(l){if(l==='thai')return [['all','第1課・全55件',1,99999],['thaiA','A・優先',1,99999],['thaiB','B・発展',1,99999],['thaiC','C・補足',1,99999]];if(l==='shan')return[['all','全'+DATA.shan.length.toLocaleString()+'語',1,Number.MAX_SAFE_INTEGER],['z1','頻度 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–2000',1001,2000],['z6','2001–5480',2001,5480],...(DATA.shan.length>5480?[['extra','追加語彙（試験版）',5481,Number.MAX_SAFE_INTEGER]]:[])];return[['all','全2,500語',1,2500],['z1','教材 1–100',1,100],['z2','101–300',101,300],['z3','301–500',301,500],['z4','501–1000',501,1000],['z5','1001–1500',1001,1500],['z6','1501–2500',1501,2500]]}
+const byId = Object.fromEntries([...DATA.shan,...DATA.burmese,...(DATA.thai||[]),...(DATA.shan_senses||[])].map(x=>[x.id,x]));
+const glossLookup={shan:new Map(),burmese:new Map(),thai:new Map()};
+for(const lang of ['shan','burmese','thai'])for(const x of (DATA[lang]||[])){
  const m=glossLookup[lang],t=normalizedGloss(x);m.set(t,(m.get(t)||0)+1);
 }
 const DOMAIN_LABELS_BY_LANG=window.DOPA_SEMANTIC_LABELS_BY_LANG||{burmese:window.DOPA_SEMANTIC_LABELS||{},shan:{}};
@@ -67,7 +67,7 @@ function domainEligible(x,l){
  return !control||control.value==='all'||!DOMAIN_READY_BY_LANG[l]||
   (((typeof window!=='undefined'&&window.DOPA_DETAIL?.majorFor?.(x,l))||x.semantic_major)===control.value&&(['P','R'].includes(x.semantic_status)||(typeof window!=='undefined'&&l==='shan'&&window.DOPA_DETAIL?.annotation?.(x,l)?.provisional_only===true)));
 }
-function updateSemanticCategories(){
+function updateSemanticCategories(){if($('lang').value==='thai'){$('semanticCategory').disabled=true;$('semanticCategory').innerHTML='<option value="all">タイ語専用フィルタを使用</option>';return}
  const select=$('semanticCategory'),notice=$('semanticCategoryNotice');
  if(!select)return;
  const l=$('lang').value,labels=DOMAIN_LABELS_BY_LANG[l]||{};
@@ -94,8 +94,8 @@ function updateSemanticCategories(){
 let previousDetailDeck=null,detailReviewLimit=20;
 function detailFilters(){return {medium:$('semanticMedium')?.value||'all',tag:$('semanticTag')?.value||'all'}}
 function detailFilterActive(){const f=detailFilters();return f.medium!=='all'||f.tag!=='all'}
-function studyEligible(x,l){return domainEligible(x,l)&&(!window.DOPA_DETAIL||window.DOPA_DETAIL.matches(x,l,detailFilters()))}
-function updateDetailFilters(){
+function studyEligible(x,l){if(l==='thai')return ($('zone').value==='all'||x.priority===$('zone').value.slice(-1))&&($('thaiSemantic')?.value==='all'||!$('thaiSemantic')||x.semantic_tag===$('thaiSemantic').value)&&($('thaiCardType')?.value==='all'||!$('thaiCardType')||x.card_type===$('thaiCardType').value);return domainEligible(x,l)&&(!window.DOPA_DETAIL||window.DOPA_DETAIL.matches(x,l,detailFilters()))}
+function updateDetailFilters(){if($('lang').value==='thai'){for(const id of ['semanticMedium','semanticTag']){const e=$(id);if(e){e.innerHTML='<option value="all">限定しない</option>';e.disabled=true}}return}
  const medium=$('semanticMedium'),tag=$('semanticTag'),notice=$('studyDetailNotice');
  if(!medium||!tag)return;
  const engine=window.DOPA_DETAIL,l=$('lang').value,key=l+':'+senseStudyActive();
@@ -148,7 +148,7 @@ function renderDetailReview(){
  more.onclick=()=>{detailReviewLimit+=20;renderDetailReview()};
 }
 function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return activeDeck(l).filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&studyEligible(x,l)})}
-function updateZones(){let l=$('lang').value,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats();refreshVoices()}
+function updateZones(){let l=$('lang').value;const panel=$('thaiOptions');if(panel)panel.classList.toggle('hidden',l!=='thai');,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats();refreshVoices()}
 function renderProfile(){rollover();let L=lvInfo(P.xp||0);$('lv').textContent='LV.'+L.lv;$('lvl').style.setProperty('--p',Math.max(0,Math.min(100,L.p))+'%');$('xpBar').style.width=L.p+'%';$('xpText').textContent=`${Math.round(L.cur)}/${Math.round(L.need)} XP`;$('title').textContent=titleFor(L.lv);$('coin').textContent='◈ '+(P.coin||0);
  let ws=Object.values(P.words),m=ws.filter(w=>stage(w)>=4).length,n=ws.filter(w=>w.nemesis).length,r=Object.values(P.rivals).filter(v=>v.confusions>=2&&!v.cleared).length;
  $('masterSummary').textContent=`MASTERED ${m} ・ NEMESIS ${n} ・ RIVAL ${r} ・ ${(P.totalQ||0)}問`;
@@ -157,7 +157,7 @@ function renderProfile(){rollover();let L=lvInfo(P.xp||0);$('lv').textContent='L
  $('migrateHint').textContent=P.migratedFrom==='v4'?'v4 の端末内進捗を継承しました。旧データは残してあります。':'別のHTMLから移す場合は旧版の SAVE → 本版の LOAD を使って下さい。';}
 function renderZoneStats(){let l=$('lang').value,all=activeDeck(l).filter(x=>String(x.game_include??'1')!=='0');$('zoneStats').innerHTML=zones(l).slice(1).map(z=>{let arr=all.filter(x=>{let i=indexOf(x,l);return i>=z[2]&&i<=z[3]&&studyEligible(x,l)}),known=arr.filter(x=>stage(getW(x))>=2).length,master=arr.filter(x=>stage(getW(x))>=4).length,p=arr.length?master/arr.length*100:0;return `<div class="zone"><b>${Math.round(p)}%</b><span>${z[1]}<br>KNOWN ${known}/${arr.length}</span><div class="mini"><div style="width:${p}%"></div></div></div>`}).join('')}
 function rivalKey(a,b){return [a,b].sort().join('||')}
-function playableRival(r){let a=byId[r.a],b=byId[r.b];return a&&b&&a.id!==b.id&&jp(a)!==jp(b)&&orig(a,a.id.startsWith('shn:')?'shan':'burmese')!==orig(b,b.id.startsWith('shn:')?'shan':'burmese')}
+function playableRival(r){let a=byId[r.a],b=byId[r.b];if(a?.id?.startsWith('TH-')||b?.id?.startsWith('TH-'))return false;return a&&b&&a.id!==b.id&&jp(a)!==jp(b)&&orig(a,a.id.startsWith('shn:')?'shan':'burmese')!==orig(b,b.id.startsWith('shn:')?'shan':'burmese')}
 function rivalsFor(x){return Object.values(P.rivals).filter(r=>r.confusions>=2&&!r.cleared&&playableRival(r)&&(r.a===x.id||r.b===x.id)).sort((a,b)=>b.confusions-a.confusions)}
 function recordConfusion(a,b){if(!b||a.id===b.id)return null;let key=rivalKey(a.id,b.id);let r=P.rivals[key]||(P.rivals[key]={a:a.id,b:b.id,confusions:0,wins:0,cleared:false,last:0});r.confusions++;r.wins=0;r.cleared=false;r.last=Date.now();return r}
 function activeRivalPool(base){let ids=new Set(base.map(x=>x.id));let rs=Object.values(P.rivals).filter(r=>r.confusions>=2&&!r.cleared&&playableRival(r)&&ids.has(r.a)&&ids.has(r.b));let set=new Set(rs.flatMap(r=>[r.a,r.b]));return base.filter(x=>set.has(x.id))}
@@ -256,12 +256,12 @@ function start(){clearTimeout(nextTimeout);let arr=candidatePool(),n=+$('roundSi
 function next(){clearTimer();clearTimeout(nextTimeout);if(!S.queue.length)return finish();let q=S.queue.shift();q.isBoss=!q.retry&&((S.done+1)%5===0);S.cur=q;renderQ(q)}
 function renderQ(q){let x=q.x,w=W(x),l=S.lang,c=$('card');c.className='card'+(q.isBoss?' boss':'')+(w.nemesis?' nemesis':'')+(q.isRival?' rival':'');let tags=[];if(q.isBoss)tags.push('<span class="enemy boss">BOSS ×2</span>');if(q.retry)tags.push('<span class="enemy rev">REVENGE</span>');if(w.nemesis)tags.push('<span class="enemy nem">NEMESIS</span>');if(q.isRival)tags.push('<span class="enemy rival">RIVAL</span>');if(q.isNew)tags.push('<span class="enemy new">NEW</span>');if(q.ambiguousFallback)tags.push('<span class="enemy new">同義語による逆引き回避</span>');if(q.typed)tags.push('<span class="enemy typed">SPELL CHECK</span>');if(q.dir==='listen')tags.push('<span class="enemy audio">TTS LISTEN</span>');
  const detail=window.DOPA_DETAIL?.annotation(x,l);let meta=l==='shan'?`${x.rank}位${Number.isFinite(Number(x.count))?'・'+Number(x.count).toLocaleString()+'件':''}・${esc(pos(x,l)||'未分類')}`:`#${x.order}・${esc(pos(x,l)||'VOCAB')}`;$('meta').innerHTML=tags.join('')+' '+meta+(effectiveMajor(x,l)?'・領域 '+esc(effectiveMajor(x,l))+'（暫定）':'')+(detail?.medium&&window.DOPA_DETAIL?.mediums?.get(detail.medium)?.label?'・'+esc(window.DOPA_DETAIL.mediums.get(detail.medium).label):'');let from=q.dir==='fromJP'||q.typed;
- $('prompt').className='prompt'+(from?' jp':'');$('prompt').lang=from||q.dir==='listen'?'ja':(l==='shan'?'shn':'my');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?(jp(x)+(x.sense_split&&x.game_pos?'〔'+x.game_pos+'〕':'')):orig(x,l);$('ipa').textContent='';
+ $('prompt').className='prompt'+(from?' jp':'');$('prompt').lang=from||q.dir==='listen'?'ja':(l==='shan'?'shn':l==='thai'?'th':'my');$('prompt').textContent=q.dir==='listen'?'音声を聴いて意味を答へる':from?(jp(x)+(x.sense_split&&x.game_pos?'〔'+x.game_pos+'〕':'')):orig(x,l);$('ipa').textContent=l==='thai'&&q.dir!=='fromJP'&&$('thaiReading')?.value!=='thai'?x.romanization_draft:'';
  $('audioPlay').classList.toggle('hidden',q.dir!=='listen');if(q.dir==='listen')$('audioPlay').onclick=()=>playSpeech(x);
  $('continueBtn')?.remove();$('questDock').classList.add('hidden');
  $('feedback').scrollTop=0;$('prompt').scrollTop=0;$('choices').scrollTop=0;
  renderMastery(w);$('choices').innerHTML='';$('choices').classList.toggle('hidden',q.typed);$('typedBox').classList.toggle('hidden',!q.typed);$('feedback').className='feedback';$('feedback').innerHTML='';
- if(q.typed){S.options=[];$('typedAnswer').value='';$('typedAnswer').placeholder='原語の綴りを入力';$('typedAnswer').lang=l==='shan'?'shn':'my';$('typedAnswer').disabled=false;$('typedSubmit').disabled=false;$('typedSubmit').onclick=submitTyped;setTimeout(()=>$('typedAnswer').focus(),50)}
+ if(q.typed){S.options=[];$('typedAnswer').value='';$('typedAnswer').placeholder='原語の綴りを入力';$('typedAnswer').lang=l==='shan'?'shn':l==='thai'?'th':'my';$('typedAnswer').disabled=false;$('typedSubmit').disabled=false;$('typedSubmit').onclick=submitTyped;setTimeout(()=>$('typedAnswer').focus(),50)}
  else{let opts=shuffle([x,...distractors(x,S.pool,l,q.dir)]);S.options=opts;opts.forEach((o,i)=>{let b=document.createElement('button');b.className='choice';b.dataset.correct=o.id===x.id?'1':'0';b.dataset.itemid=o.id;b.dataset.key=i+1;b.textContent=q.dir==='fromJP'?orig(o,l):jp(o);b.lang=q.dir==='fromJP'?(l==='shan'?'shn':'my'):'ja';b.onclick=()=>answer(b,o.id===x.id,false,o);$('choices').appendChild(b)})}
  if(q.isBoss){banner(w.nemesis?'☠ NEMESIS BOSS':q.isRival?'⚔ RIVAL BOSS':'⚠ BOSS WAVE');beep('bossEnter')}
  updateHUD();startTimer();if(q.dir==='listen')setTimeout(()=>{if(S.cur===q&&!q.answered)playSpeech(x)},180)}
@@ -358,7 +358,7 @@ function finish(){moveQuestSound(false);document.body.classList.remove('dopa-que
 function modeText(){return{campaign:'初見と期限到来語を優先。4択の認識を固め、逆引き、任意の文字入力へ進みます。',due:'復習期限の来た語を重点攻略。短期連続正答はXPになりますが、熟練度は初回か期限到来後の想起でのみ上昇します。',weak:'累積3回以上誤答した語を集中練習します。',rival:'4択で同じ二語を2回以上取り違へると解放。苦手な対立を集中して学びます。',free:'指定エリアを自由に練習。文字入力も選べます。'}[mode]}
 function download(name,obj){let b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
 function init(){document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));$('modeHelp').textContent=modeText()});
- $('lang').onchange=updateZones;$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=()=>{updateDetailFilters();renderZoneStats()};for(const id of ['semanticMedium','semanticTag'])if($(id))$(id).onchange=()=>{updateDetailFilters();renderZoneStats()};if($('clearStudyDetails'))$('clearStudyDetails').onclick=()=>{$('semanticMedium').value=$('semanticTag').value='all';updateDetailFilters();renderZoneStats()};const senseChoice=$('shanSenseMode');if(senseChoice){senseChoice.checked=!!window.DOPA_SENSE_READY;senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats()}}const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
+ $('lang').onchange=updateZones;for(const id of ['thaiSemantic','thaiCardType','thaiReading'])if($(id))$(id).onchange=()=>{renderZoneStats();};$('zone').onchange=renderZoneStats;const semanticSelect=$('semanticCategory');if(semanticSelect)semanticSelect.onchange=()=>{updateDetailFilters();renderZoneStats()};for(const id of ['semanticMedium','semanticTag'])if($(id))$(id).onchange=()=>{updateDetailFilters();renderZoneStats()};if($('clearStudyDetails'))$('clearStudyDetails').onclick=()=>{$('semanticMedium').value=$('semanticTag').value='all';updateDetailFilters();renderZoneStats()};const senseChoice=$('shanSenseMode');if(senseChoice){senseChoice.checked=!!window.DOPA_SENSE_READY;senseChoice.onchange=()=>{updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats()}}const slow=$('slowCorrect');if(slow){slow.checked=!!P.slowCorrect;slow.onchange=()=>{P.slowCorrect=slow.checked;save()}};$('direction').onchange=()=>{$('includeAudio').disabled=$('direction').value==='listen'};
  $('start').onclick=start;$('soundBtn').onclick=()=>{
  if(P.sound){P.lastSfxStyle=P.sfxStyle;P.sfxStyle='off'}
  else P.sfxStyle=P.lastSfxStyle||'standard';
