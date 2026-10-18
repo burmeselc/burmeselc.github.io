@@ -148,7 +148,7 @@ function renderDetailReview(){
  more.onclick=()=>{detailReviewLimit+=20;renderDetailReview()};
 }
 function zonePool(){let l=$('lang').value,z=$('zone').value,def=zones(l).find(t=>t[0]===z)||zones(l)[0];return activeDeck(l).filter(x=>{let i=indexOf(x,l);return i>=def[2]&&i<=def[3]&&String(x.game_include??'1')!=='0'&&studyEligible(x,l)})}
-function updateZones(){let l=$('lang').value;const panel=$('thaiOptions');if(panel)panel.classList.toggle('hidden',l!=='thai');,cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats();refreshVoices()}
+function updateZones(){let l=$('lang').value;const panel=$('thaiOptions');if(panel)panel.classList.toggle('hidden',l!=='thai');let cur=$('zone').value||'all';$('zone').innerHTML=zones(l).map(z=>`<option value="${z[0]}">${z[1]}</option>`).join('');if(zones(l).some(z=>z[0]===cur))$('zone').value=cur;updateShanSenseControl();updateSemanticCategories();updateDetailFilters();renderZoneStats();refreshVoices()}
 function renderProfile(){rollover();let L=lvInfo(P.xp||0);$('lv').textContent='LV.'+L.lv;$('lvl').style.setProperty('--p',Math.max(0,Math.min(100,L.p))+'%');$('xpBar').style.width=L.p+'%';$('xpText').textContent=`${Math.round(L.cur)}/${Math.round(L.need)} XP`;$('title').textContent=titleFor(L.lv);$('coin').textContent='◈ '+(P.coin||0);
  let ws=Object.values(P.words),m=ws.filter(w=>stage(w)>=4).length,n=ws.filter(w=>w.nemesis).length,r=Object.values(P.rivals).filter(v=>v.confusions>=2&&!v.cleared).length;
  $('masterSummary').textContent=`MASTERED ${m} ・ NEMESIS ${n} ・ RIVAL ${r} ・ ${(P.totalQ||0)}問`;
