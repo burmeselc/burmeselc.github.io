@@ -86,7 +86,7 @@
   return String(x.japanese_core||x.japanese||x.english||'')
    .normalize('NFKC').replace(/[\s　。、，,；;:：・]+/g,'').toLowerCase();
  }
- function spelling(x,lang){return String(lang==='shan'?x.shan:x.burmese||'')}
+ function spelling(x,lang){return String(lang==='shan'?x.shan:lang==='thai'?x.thai:x.burmese||'')}
  // Reverse cards with a gloss shared by different headwords cannot be answered unambiguously.
  function eligibleProduction(x,allDeck,lang){
   const g=normGloss(x),form=spelling(x,lang);
