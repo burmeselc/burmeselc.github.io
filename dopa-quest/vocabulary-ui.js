@@ -7,7 +7,7 @@
  let shown=40;
  const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function context(){return api.vocabularyContext()}
- function word(x,lang){return String(lang==='shan'?x.shan:x.burmese||'')}
+ function word(x,lang){return String(lang==='shan'?x.shan:lang==='thai'?x.thai:x.burmese||'')}
  function gloss(x){return String(x.japanese_core||x.japanese||x.english||'')}
  function listOptions(){
   const {library}=context(),views=$('vocabView'),target=$('vocabTarget'),oldView=views.value,oldTarget=target.value;
@@ -41,7 +41,7 @@
   const {cards,lang,library}=results(),target=$('vocabTarget').value;
   const bookmarks=new Set(library.bookmarks),active=new Set(libAPI.idsFor(library,target));
   const targetLabel=target==='bookmarks'?'ブックマーク':'選択中の単語帳';
-  $('vocabContext').textContent=(lang==='shan'?'シャン語':'ビルマ語')+
+  $('vocabContext').textContent=(lang==='shan'?'シャン語':lang==='thai'?'タイ語':'ビルマ語')+
    (lang==='shan'&&$('shanSenseMode')?.checked?'・語義別カード':'・親カード')+
    ' ／ '+($('vocabScope').value==='filtered'?'現在の学習フィルタ':'全デッキ');
   $('vocabStatus').textContent=cards.length+'件見つかりました（'+Math.min(shown,cards.length)+'件表示）。'+
