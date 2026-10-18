@@ -7,7 +7,7 @@
  let shown=40;
  const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function context(){return api.vocabularyContext()}
- function word(x,lang){return String(lang==='shan'?x.shan:x.burmese||'')}
+ function word(x,lang){return String(lang==='shan'?x.shan:lang==='thai'?x.thai:x.burmese||'')}
  function gloss(x){return String(x.japanese_core||x.japanese||x.english||'')}
  function listOptions(){
   const {library}=context(),views=$('vocabView'),target=$('vocabTarget'),oldView=views.value,oldTarget=target.value;
@@ -41,7 +41,7 @@
   const {cards,lang,library}=results(),target=$('vocabTarget').value;
   const bookmarks=new Set(library.bookmarks),active=new Set(libAPI.idsFor(library,target));
   const targetLabel=target==='bookmarks'?'ブックマーク':'選択中の単語帳';
-  $('vocabContext').textContent=(lang==='shan'?'シャン語':'ビルマ語')+
+  $('vocabContext').textContent=(lang==='shan'?'シャン語':lang==='thai'?'タイ語':'ビルマ語')+
    (lang==='shan'&&$('shanSenseMode')?.checked?'・語義別カード':'・親カード')+
    ' ／ '+($('vocabScope').value==='filtered'?'現在の学習フィルタ':'全デッキ');
   $('vocabStatus').textContent=cards.length+'件見つかりました（'+Math.min(shown,cards.length)+'件表示）。'+
@@ -62,7 +62,7 @@
    const attrs='data-id="'+html(x.id)+'"';
    return '<div class="vocab-row"><div class="vocab-main"><div class="vocab-word">'+html(original)+'</div>'+
     '<div class="vocab-gloss">'+html(jp)+'</div><div class="vocab-meta">'+
-    html([x.game_pos||x.pos||'',category||x.semantic_major&&('領域 '+x.semantic_major)||'未分類',reviewLabel,a?.boundary_unverified?(a.medium?'語義境界未検証・低確度':'語義境界未検証・分類根拠なし'):'',status].filter(Boolean).join(' ／ '))+
+    html([lang==='thai'?x.romanization_draft:'',x.game_pos||x.pos||'',lang==='thai'?x.semantic_tag:category||x.semantic_major&&('領域 '+x.semantic_major)||'未分類',reviewLabel,a?.boundary_unverified?(a.medium?'語義境界未検証・低確度':'語義境界未検証・分類根拠なし'):'',status].filter(Boolean).join(' ／ '))+
     (x.english?'<div>'+html(x.english)+'</div>':'')+'</div></div>'+
     '<div class="vocab-row-actions"><button type="button" data-action="bookmark" '+attrs+
     ' class="'+(saved?'vocab-marked':'')+'" aria-pressed="'+saved+'">'+(saved?'★ 保存':'☆ 保存')+'</button>'+
