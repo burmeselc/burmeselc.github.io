@@ -64,7 +64,7 @@
  function query(records,text,lang){
   const term=String(text||'').normalize('NFKC').trim().toLocaleLowerCase();
   if(!term)return records;
-  return records.filter(x=>[x[lang],x.japanese_core,x.japanese,x.english,x.japanese_note,x.game_pos,x.pos]
+  return records.filter(x=>[x[lang],x.japanese_core,x.japanese,x.english,x.japanese_note,x.game_pos,x.pos,x.romanization_draft,x.semantic_tag]
    .some(y=>String(y||'').normalize('NFKC').toLocaleLowerCase().includes(term)));
  }
  const api={ensure,apply,idsFor,query,cleanName};
