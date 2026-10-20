@@ -136,6 +136,69 @@
     "status": "unresolved"
   },
   {
+    "thai": "ก.ต.",
+    "alalc": "",
+    "meaning": "Judicial Service Commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Judicial Service Commission"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1255",
+    "source_query": "กต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ก.พ.",
+    "alalc": "",
+    "meaning": "February, Feb.; Office of the Civil Service Commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "February, Feb."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Civil Service Commission"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1256",
+    "source_query": "กพ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "กก",
     "alalc": "kok",
     "meaning": "sedge, rush, reed.",
@@ -422,6 +485,96 @@
     "status": "unresolved"
   },
   {
+    "thai": "กง",
+    "alalc": "kong",
+    "meaning": "affair, business.",
+    "ipa": "koŋ",
+    "pron_display": "ˈkoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "affair, business."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:44",
+    "source_query": "กง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กง",
+    "alalc": "kong",
+    "meaning": "wheel.; circle.",
+    "ipa": "koŋ",
+    "pron_display": "ˈkoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wheel."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "circle."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:43",
+    "source_query": "กง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กงการ",
+    "alalc": "kong kān",
+    "meaning": "affair, business.",
+    "ipa": "koŋ kaan",
+    "pron_display": "koŋ ˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "affair, business."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1183",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กงจักร",
     "alalc": "kong yak",
     "meaning": "gear wheel, toothed wheel; disk-shape weapon",
@@ -443,7 +596,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:23665",
-    "source_query": "จ.*",
+    "source_query": "กง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -470,7 +623,88 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:23666",
-    "source_query": "ฉ.*",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กงล้อ",
+    "alalc": "",
+    "meaning": "wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wheel"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7582",
+    "source_query": "กง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กงสี",
+    "alalc": "kongsī",
+    "meaning": "company, organization, group.",
+    "ipa": "koŋ-sǐi",
+    "pron_display": "koŋˈsǐi",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "company, organization, group."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:47",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กงสุล",
+    "alalc": "kongsun",
+    "meaning": "consul.",
+    "ipa": "koŋ-sǔn",
+    "pron_display": "koŋˈsǔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "consul."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:48",
+    "source_query": "กง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -497,7 +731,503 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:23671",
-    "source_query": "ใ.*",
+    "source_query": "กง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กงเกวียน",
+    "alalc": "kong kwian",
+    "meaning": "wheels of a cart",
+    "ipa": "koŋ kwian",
+    "pron_display": "koŋ kwian",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wheels of a cart"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23664",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กงเต๊ก",
+    "alalc": "kong tēk",
+    "meaning": "ceremony of releasing soul from purgatory, Chinese funeral ritual; Chinese funeral ceremony",
+    "ipa": "koŋ téek",
+    "pron_display": "koŋ téek",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ceremony of releasing soul from purgatory, Chinese funeral ritual"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Chinese funeral ceremony"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23668",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กงไฉ่",
+    "alalc": "kong chay",
+    "meaning": "pickled cabbage, salted turnip",
+    "ipa": "koŋ cʰày",
+    "pron_display": "koŋ cʰày",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pickled cabbage, salted turnip"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23667",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎ",
+    "alalc": "kot",
+    "meaning": "rule, regulation, law.",
+    "ipa": "kòt",
+    "pron_display": "ˈkòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rule, regulation, law."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:50",
+    "source_query": "กฎ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎกระทรวง",
+    "alalc": "kot kra suang",
+    "meaning": "ministerial  regulations, ministerial orders",
+    "ipa": "kòt krà suaŋ",
+    "pron_display": "kòt krà suaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ministerial  regulations, ministerial orders"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23673",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎการตีความสัญญากำกวม",
+    "alalc": "",
+    "meaning": "contra preferentem rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "contra preferentem rule"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎการประหยัด",
+    "alalc": "",
+    "meaning": "law of parsimony",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of parsimony"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎการเติบโตตามทรัพยากร",
+    "alalc": "",
+    "meaning": "logistic law of growth",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "logistic law of growth"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:23",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของคณะสงฆ์",
+    "alalc": "",
+    "meaning": "canon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "canon"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของบูแกร์",
+    "alalc": "",
+    "meaning": "Bouguer�s law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Bouguer�s law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของพลังค์",
+    "alalc": "",
+    "meaning": "Planck�s law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Planck�s law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:26",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของฟูริเอร์",
+    "alalc": "",
+    "meaning": "Fourier�s law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Fourier�s law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:27",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของมิว",
+    "alalc": "",
+    "meaning": "mu-law; u-law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mu-law; u-law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:28",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของเคิร์ชฮอฟฟ์",
+    "alalc": "",
+    "meaning": "Kirchhoff�s law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Kirchhoff�s law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎของเอ",
+    "alalc": "",
+    "meaning": "a-law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "a-law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:30",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎข้อบังคับ",
+    "alalc": "kot khǭ bang khap",
+    "meaning": "regulation, principle; discipline; rule",
+    "ipa": "kòt kʰɔ̂ɔ baŋ kʰáp",
+    "pron_display": "kòt kʰɔ̂ɔ baŋ kʰáp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "regulation, principle; discipline; rule"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23675",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎข้อบังคับของรัฐสภา",
+    "alalc": "",
+    "meaning": "parliamentary law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "parliamentary law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:31",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎข้อบังคับทางการค้า",
+    "alalc": "",
+    "meaning": "traffic regulation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "traffic regulation"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:32",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎความดันย่อยของดอลตัน",
+    "alalc": "",
+    "meaning": "Dalton's law of partial pressure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Dalton's law of partial pressure"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:33",
+    "source_query": "กฎ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -524,10 +1254,187 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:52",
-    "source_query": "จ.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "กฎจักรวาล",
+    "alalc": "",
+    "meaning": "Logos",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Logos"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:35",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎตามตัวอักษร",
+    "alalc": "",
+    "meaning": "Lettered Rules",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Lettered Rules"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎตามตัวเลข",
+    "alalc": "",
+    "meaning": "Numbered Rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Numbered Rule"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:37",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎตามสัดส่วน",
+    "alalc": "",
+    "meaning": "proportional rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "proportional rule"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎทบวง",
+    "alalc": "kot tha buang",
+    "meaning": "ministerial regulations, ministerial orders",
+    "ipa": "kòt tʰá buaŋ",
+    "pron_display": "kòt tʰá buaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ministerial regulations, ministerial orders"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23677",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎที่ตายตัว",
+    "alalc": "",
+    "meaning": "peremptory rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "peremptory rule"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:39",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎที่เด็ดขาด",
+    "alalc": "",
+    "meaning": "peremptory rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "peremptory rule"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:40",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "กฎธรรมชาติ",
@@ -593,6 +1500,31 @@
     "status": "tentative"
   },
   {
+    "thai": "กฎนิรมัชฌิม",
+    "alalc": "",
+    "meaning": "law of excluded middle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of excluded middle"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:42",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "กฎบัตร",
     "alalc": "kot bat",
     "meaning": "charter (as of the United Nations).",
@@ -614,7 +1546,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:54",
-    "source_query": "บ.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -641,10 +1573,164 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10488",
-    "source_query": "บ.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "กฎบัตรจัดตั้งเทศบาล",
+    "alalc": "",
+    "meaning": "municipal charter",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "municipal charter"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:44",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎบัตรทางสังคม",
+    "alalc": "",
+    "meaning": "Social Charter",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Social Charter"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:45",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎบัตรสหประชาชาติ",
+    "alalc": "kot bat sa ha pra chā chāt",
+    "meaning": "Charter of the United Nations",
+    "ipa": "kòt bàt sà hà prà cʰaa cʰâat",
+    "pron_display": "kòt bàt sà hà prà cʰaa cʰâat",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Charter of the United Nations"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:46",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎบัตรสหประชาชาติ",
+    "alalc": "kot bat sa ha pra chā chāt",
+    "meaning": "United Nations Charter, Charter of the United Nations",
+    "ipa": "kòt bàt sà hà prà cʰaa cʰâat",
+    "pron_display": "kòt bàt sà hà prà cʰaa cʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "United Nations Charter, Charter of the United Nations"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23680",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎพัดลม",
+    "alalc": "",
+    "meaning": "fan laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fan laws"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:47",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎมณเฑียรบาล",
+    "alalc": "",
+    "meaning": "royal law, palace law; monarch law; ascension law; King's law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "royal law, palace law; monarch law; ascension law; King's law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31695",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "กฎมนเทียรบาล",
@@ -668,10 +1754,35 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:55",
-    "source_query": "บ.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "กฎยอร์ก-แอนต์เวิร์ป",
+    "alalc": "",
+    "meaning": "York-Antwerp Rules",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "York-Antwerp Rules"
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:49",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "กฎยุทธวินัย",
@@ -701,6 +1812,3307 @@
     "status": "tentative"
   },
   {
+    "thai": "กฎระเบียบ",
+    "alalc": "",
+    "meaning": "set of regulations, rules; discipline; principle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "set of regulations, rules; discipline; principle"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23683",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎวิธีการปฏิบัติ",
+    "alalc": "",
+    "meaning": "Rules of Practice",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Rules of Practice"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:50",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยการชำระหนี้แต่เพียงบางส่วน",
+    "alalc": "",
+    "meaning": "part payment rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "part payment rule"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:51",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยการทำสงคราม",
+    "alalc": "",
+    "meaning": "law of arms",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of arms"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:52",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยขอบเขตแห่งดินแดน",
+    "alalc": "",
+    "meaning": "rule relating to territorial extent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "rule relating to territorial extent"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:53",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยความผิดพลาดที่ชัดแจ้ง",
+    "alalc": "",
+    "meaning": "plain error rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "plain error rule"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:54",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยจำนวนมาก",
+    "alalc": "",
+    "meaning": "law of large numbers",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of large numbers"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:55",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยภยันตรายฉับพลัน",
+    "alalc": "",
+    "meaning": "sudden peril rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sudden peril rule"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:56",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยยุทธวินัย",
+    "alalc": "",
+    "meaning": "articles of war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "articles of war"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:57",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยวัตถุประสงค์อันเป็นสาระสำคัญ",
+    "alalc": "",
+    "meaning": "main purpose rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "main purpose rule"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:58",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎว่าด้วยเสียงข้างมาก",
+    "alalc": "",
+    "meaning": "majority rule (ในการประชุมบริษัท)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "majority rule (ในการประชุมบริษัท)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:59",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎศีลธรรม",
+    "alalc": "kot sīn la tham",
+    "meaning": "moral law",
+    "ipa": "kòt sǐin lá tʰam",
+    "pron_display": "kòt sǐin lá tʰam",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "moral law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:60",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎศีลธรรม",
+    "alalc": "kot sīn la tham",
+    "meaning": "regulations of morality",
+    "ipa": "kòt sǐin lá tʰam",
+    "pron_display": "kòt sǐin lá tʰam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "regulations of morality"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23684",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎสนธิการ",
+    "alalc": "",
+    "meaning": "laws of association",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "laws of association"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:61",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎสวรรค์",
+    "alalc": "",
+    "meaning": "divine law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "divine law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:62",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎสังคม",
+    "alalc": "",
+    "meaning": "social law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "social law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:63",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎสัมบูรณ์",
+    "alalc": "",
+    "meaning": "absolute law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "absolute law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:64",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎสัมพรรคภาพ",
+    "alalc": "",
+    "meaning": "affinity laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "affinity laws"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:65",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมาย",
+    "alalc": "kot māy",
+    "meaning": "law.",
+    "ipa": "kòt mǎay",
+    "pron_display": "kòt ˈmǎay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "law."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:56",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายการค้า",
+    "alalc": "",
+    "meaning": "merchant law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "merchant law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:67",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายการใช้แรงงานเด็ก",
+    "alalc": "",
+    "meaning": "child labour law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "child labour law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:68",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายของประเทศ",
+    "alalc": "",
+    "meaning": "law of the land",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of the land"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:69",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายของประเทศเจ้าของธงที่เรือชัก",
+    "alalc": "",
+    "meaning": "law of the flag",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of the flag"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:70",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายขัดกัน",
+    "alalc": "",
+    "meaning": "conflict of laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "conflict of laws"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:71",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายควบคุมการล่าสัตว์",
+    "alalc": "",
+    "meaning": "game law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "game law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:72",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายควบคุมการใช้จ่าย",
+    "alalc": "",
+    "meaning": "sumptuary legislation (ไม่ให้ฟุ่มเฟือย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sumptuary legislation (ไม่ให้ฟุ่มเฟือย)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:73",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายคุ้มครองผู้บริโภค",
+    "alalc": "",
+    "meaning": "consumer protection law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "consumer protection law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:74",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายจัดระเบียบองค์การของรัฐ",
+    "alalc": "",
+    "meaning": "organic law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "organic law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:75",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายจารีตประเพณี",
+    "alalc": "",
+    "meaning": "common law; customary law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "common law; customary law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:76",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายจารีตประเพณีของอังกฤษ",
+    "alalc": "",
+    "meaning": "common law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "common law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:77",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายดราโก",
+    "alalc": "",
+    "meaning": "Draconian law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Draconian law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:78",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายตรวจสอบ",
+    "alalc": "",
+    "meaning": "inspection law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "inspection law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:79",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายตราสามดวง",
+    "alalc": "",
+    "meaning": "first Thai enacted law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "first Thai enacted law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31696",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายตอบโต้",
+    "alalc": "",
+    "meaning": "retaliatory law (กฎหมายของประเทศอื่น)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "retaliatory law (กฎหมายของประเทศอื่น)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:80",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายต่างประเทศ",
+    "alalc": "",
+    "meaning": "foreign law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "foreign law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:81",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายทราม",
+    "alalc": "",
+    "meaning": "dysnomy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dysnomy"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:82",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายทหาร",
+    "alalc": "",
+    "meaning": "military law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "military law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:83",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายทะเล",
+    "alalc": "",
+    "meaning": "law of the sea",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of the sea"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:84",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายทั่วไป",
+    "alalc": "",
+    "meaning": "general law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "general law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:85",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายทางสังคม",
+    "alalc": "",
+    "meaning": "social legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "social legislation"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:86",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่กำหนดสัญชาติตามดินแดน",
+    "alalc": "",
+    "meaning": "jus soli",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jus soli"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:87",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่กำหนดสัญชาติตามสายโลหิต",
+    "alalc": "",
+    "meaning": "jus sanguinis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jus sanguinis"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:88",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ตราเป็นลายลักษณ์อักษร",
+    "alalc": "",
+    "meaning": "lex scripta; positive law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex scripta; positive law"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:89",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่พึงใช้บังคับแก่สัญญา",
+    "alalc": "",
+    "meaning": "proper law of a contract",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "proper law of a contract"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:90",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่มาจากคำพิพากษา",
+    "alalc": "",
+    "meaning": "judge-made law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "judge-made law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:91",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่มีผลย้อนหลัง",
+    "alalc": "",
+    "meaning": "ex post facto law; retroactive legislation; retrospective legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ex post facto law; retroactive legislation; retrospective legislation"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:92",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่รวมเข้าเป็นฉบับเดียวกัน",
+    "alalc": "",
+    "meaning": "consolidation act",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "consolidation act"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:93",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ออกตามอำนาจที่ได้รับมอบหมาย",
+    "alalc": "",
+    "meaning": "delegated legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "delegated legislation"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:94",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ใช้บังคับพลเมืองชาวโรมัน",
+    "alalc": "",
+    "meaning": "jus civile",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jus civile"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:95",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ใช้บังคับแก่กรณี",
+    "alalc": "",
+    "meaning": "lex causae",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex causae"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:96",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ใช้บังคับโดยไม่มีกำหนดเวลา",
+    "alalc": "",
+    "meaning": "permanent law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "permanent law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:97",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ให้อำนาจตรวจสอบ",
+    "alalc": "",
+    "meaning": "inspection laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "inspection laws"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:98",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ไม่เป็นลายลักษณ์อักษร",
+    "alalc": "",
+    "meaning": "unwritten law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "unwritten law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:99",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายที่ไม่ได้ตราเป็นลายลักษณ์อักษร",
+    "alalc": "",
+    "meaning": "lex non scripta",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex non scripta"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:100",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายท้องถิ่น",
+    "alalc": "",
+    "meaning": "local act",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "local act"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:101",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายนานาประเทศ",
+    "alalc": "kot māy nānā prathēt",
+    "meaning": "international law.",
+    "ipa": "kòt mǎay naa-naa pra-tʰêet",
+    "pron_display": "kòt ˈmǎay naaˈnaa praˈtʰêet",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "international law."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:57",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายปกครอง",
+    "alalc": "",
+    "meaning": "administrative law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "administrative law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:103",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายปฏิฐานนิยม",
+    "alalc": "",
+    "meaning": "positivist law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "positivist law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:104",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายปิดปาก",
+    "alalc": "kot māy pit pāk",
+    "meaning": "estoppel",
+    "ipa": "kòt mǎay pìt pàak",
+    "pron_display": "kòt mǎay pìt pàak",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "estoppel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:105",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายปิดปากโดยเอกสาร",
+    "alalc": "",
+    "meaning": "legal estoppel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "legal estoppel"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:106",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายป้องกันการทุจริตในการเลือกตั้ง",
+    "alalc": "",
+    "meaning": "corrupt practices act",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "corrupt practices act"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:107",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายป้องกันการผูกขาด",
+    "alalc": "",
+    "meaning": "anti-trust laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anti-trust laws"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:108",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายป้องกันความฟุ่มเฟือย",
+    "alalc": "",
+    "meaning": "sumptuary laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sumptuary laws"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:109",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายป้องกันทางสังคม",
+    "alalc": "",
+    "meaning": "law of social defence",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of social defence"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:110",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายผสม",
+    "alalc": "",
+    "meaning": "mixed laws (เกี่ยวกับบุคคลและทรัพย์)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mixed laws (เกี่ยวกับบุคคลและทรัพย์)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:111",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายพาณิชยนาวี",
+    "alalc": "",
+    "meaning": "maritime law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "maritime law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:112",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายพาณิชย์",
+    "alalc": "kot māy phā nit",
+    "meaning": "commercial law",
+    "ipa": "kòt mǎay pʰaa nít",
+    "pron_display": "kòt mǎay pʰaa nít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "commercial law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23686",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายพาณิชย์",
+    "alalc": "kot māy phā nit",
+    "meaning": "commercial law; mercantile law",
+    "ipa": "kòt mǎay pʰaa nít",
+    "pron_display": "kòt mǎay pʰaa nít",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "commercial law; mercantile law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:113",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายพิเศษ",
+    "alalc": "",
+    "meaning": "special law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "special law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:114",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายพื้นฐาน",
+    "alalc": "",
+    "meaning": "fundamental law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fundamental law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:115",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายภาษี",
+    "alalc": "",
+    "meaning": "tax laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tax laws"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:116",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายมหาชน",
+    "alalc": "",
+    "meaning": "public law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "public law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:117",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายมอบอำนาจพิเศษ",
+    "alalc": "",
+    "meaning": "enabling act",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "enabling act"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:118",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายยกเว้นความรับผิด",
+    "alalc": "",
+    "meaning": "act of indemnity",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "act of indemnity"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:119",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายยุโรปตลาดเดียว",
+    "alalc": "",
+    "meaning": "Single European Act",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Single European Act"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:120",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายรอง",
+    "alalc": "",
+    "meaning": "subordinate legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "subordinate legislation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:121",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายระหว่างประเทศ",
+    "alalc": "kot māy rawāng prathēt",
+    "meaning": "international law.",
+    "ipa": "kòt mǎay ra-wàaŋ pra-tʰêet",
+    "pron_display": "kòt ˈmǎay, raˌwàaŋ praˈtʰêet",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "international law."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:59",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายระหว่างประเทศภาคสงคราม",
+    "alalc": "",
+    "meaning": "jus belli",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jus belli"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:123",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายระหว่างประเทศว่าด้วยสงคราม",
+    "alalc": "",
+    "meaning": "jus belli",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jus belli"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:124",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายระหว่างประเทศแผนกคดีบุคคล",
+    "alalc": "",
+    "meaning": "private international law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "private international law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:125",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายระหว่างประเทศแผนกคดีเมือง",
+    "alalc": "",
+    "meaning": "jus gentium; public international law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jus gentium; public international law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:126",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายรัฐธรรมนูญ",
+    "alalc": "",
+    "meaning": "constitutional law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "constitutional law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:127",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายรัษฎากร",
+    "alalc": "",
+    "meaning": "revenue statutes",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "revenue statutes"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:128",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายลักษณะพยานหลักฐาน",
+    "alalc": "",
+    "meaning": "law of evidence",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of evidence"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:129",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายลักษณะล้มละลาย",
+    "alalc": "",
+    "meaning": "law of bankruptcy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of bankruptcy"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:130",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายลักษณะอาชญา",
+    "alalc": "kot māy laksana ātyā",
+    "meaning": "criminal law.",
+    "ipa": "kòt mǎay lák-sa-nà àat-yaa",
+    "pron_display": "kòt ˈmǎay lák.saˈnàʔ àatˈyaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "criminal law."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19449",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายลายลักษณ์อักษร",
+    "alalc": "",
+    "meaning": "statute",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "statute"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:131",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายลิดรอนเสรีภาพ",
+    "alalc": "",
+    "meaning": "gag law (ในการพูด การเขียน และการร้องทุกข์)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gag law (ในการพูด การเขียน และการร้องทุกข์)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:132",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายวิธีพิจารณาความ",
+    "alalc": "",
+    "meaning": "adjective law; procedural law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "adjective law; procedural law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:133",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายวิธีสบัญญัติ",
+    "alalc": "",
+    "meaning": "adjective law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "adjective law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:134",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายวินัยทหารเรือ",
+    "alalc": "",
+    "meaning": "naval law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "naval law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:135",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยการจรจัด",
+    "alalc": "",
+    "meaning": "vagrancy law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "vagrancy law"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:136",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยการเดินเรือ",
+    "alalc": "",
+    "meaning": "navigation law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "navigation law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:137",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยคนเข้าเมือง",
+    "alalc": "",
+    "meaning": "immigration law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "immigration law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:138",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยธง",
+    "alalc": "",
+    "meaning": "law of flag",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of flag"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:139",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยธรรมนูญศาลยุติธรรม",
+    "alalc": "",
+    "meaning": "Law for the Organization of Courts of Justice",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Law for the Organization of Courts of Justice"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:140",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยภาษีอากร",
+    "alalc": "",
+    "meaning": "taxation statute",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "taxation statute"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:141",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายว่าด้วยสวัสดิการ",
+    "alalc": "",
+    "meaning": "welfare law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "welfare law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:142",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายสาธารณสุข",
+    "alalc": "",
+    "meaning": "health law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "health law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:143",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายสารบัญญัติ",
+    "alalc": "",
+    "meaning": "substantive law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "substantive law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:144",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายสูงสุด",
+    "alalc": "",
+    "meaning": "constitution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "constitution"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31697",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายหลัก",
+    "alalc": "",
+    "meaning": "basic law; fundamental law; organic law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "basic law; fundamental law; organic law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:145",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายหลักพื้นฐาน",
+    "alalc": "",
+    "meaning": "Basic Law (รัฐธรรมนูญสหพันธ์สาธารณรัฐเยอรมนี ค.ศ. ๑๙๔๙)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Basic Law (รัฐธรรมนูญสหพันธ์สาธารณรัฐเยอรมนี ค.ศ. ๑๙๔๙)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:146",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายอนุบัญญัติ",
+    "alalc": "",
+    "meaning": "subordinate legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "subordinate legislation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:147",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายอนุรักษ์",
+    "alalc": "",
+    "meaning": "conservation laws",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "conservation laws"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:148",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายอภัยโทษ",
+    "alalc": "",
+    "meaning": "act of grace",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "act of grace"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:149",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายอาญา",
+    "alalc": "kot māy āyā",
+    "meaning": "criminal law.",
+    "ipa": "kòt mǎay aa-yaa",
+    "pron_display": "kòt ˈmǎay aaˈyaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "criminal law."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:60",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายอิสลาม",
+    "alalc": "",
+    "meaning": "Moslem Law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Moslem Law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:151",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายอุปกรณ์",
+    "alalc": "",
+    "meaning": "statutory instruments",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "statutory instruments"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:152",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายเกี่ยวกับอสังหาริมทรัพย์",
+    "alalc": "",
+    "meaning": "real law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "real law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:153",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายเฉพาะเรื่อง",
+    "alalc": "",
+    "meaning": "special law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "special law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:154",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายเถื่อน",
+    "alalc": "",
+    "meaning": "club-law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "club-law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:155",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายเปรียบเทียบ",
+    "alalc": "",
+    "meaning": "comparative law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "comparative law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:156",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายเอกชน",
+    "alalc": "",
+    "meaning": "private law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "private law"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:157",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแก้ไขข้อบกพร่อง",
+    "alalc": "",
+    "meaning": "validating act",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "validating act"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:158",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแพ่ง",
+    "alalc": "kot māy phæng",
+    "meaning": "civil law.",
+    "ipa": "kòt mǎay pʰɛ̂ŋ",
+    "pron_display": "kòt ˈmǎay ˈpʰɛ̂ŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "civil law."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:58",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎหมายแรงงาน",
+    "alalc": "",
+    "meaning": "labour legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "labour legislation"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:160",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแรงงาน",
+    "alalc": "",
+    "meaning": "labour legislation, labour law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "labour legislation, labour law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23689",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแรงงานสัมพันธ์",
+    "alalc": "",
+    "meaning": "labour relations legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "labour relations legislation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:161",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่ทรัพย์ตั้งอยู่",
+    "alalc": "",
+    "meaning": "lex loci situs",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci situs"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:162",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่ทำการสมรส",
+    "alalc": "",
+    "meaning": "lex loci celebrationis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci celebrationis"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:163",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่ทำนิติกรรม",
+    "alalc": "",
+    "meaning": "lex loci actus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci actus"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:164",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่ทำสัญญา",
+    "alalc": "",
+    "meaning": "lex loci contractus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci contractus"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:165",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่พึงปฏิบัติตามสัญญา",
+    "alalc": "",
+    "meaning": "lex loci solutionis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci solutionis"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:166",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่ศาลซึ่งพิจารณาคดีตั้งอยู่",
+    "alalc": "",
+    "meaning": "lex fori",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex fori"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:167",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งถิ่นที่เกิดการละเมิด",
+    "alalc": "",
+    "meaning": "lex loci delicti commissi",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci delicti commissi"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:168",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายแห่งภูมิลำเนา",
+    "alalc": "",
+    "meaning": "lex loci domocilii",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lex loci domocilii"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:169",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายโดยนัย",
+    "alalc": "",
+    "meaning": "tacit law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tacit law"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:170",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายโดยประชามติ",
+    "alalc": "",
+    "meaning": "direct legislation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "direct legislation"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:171",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมายโหด",
+    "alalc": "",
+    "meaning": "Draconian law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Draconian law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:172",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎหมู่",
+    "alalc": "kot mū",
+    "meaning": "mob rule, jungle law; majority power",
+    "ipa": "kòt mùu",
+    "pron_display": "kòt mùu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mob rule, jungle law; majority power"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23691",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กฎอัยการศึก",
     "alalc": "kot ayyakān sưk",
     "meaning": "martial law.",
@@ -722,9 +5134,330 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:66",
-    "source_query": "ศ.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎฮัมบูร์ก",
+    "alalc": "",
+    "meaning": "Hamburg Rules",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Hamburg Rules"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:175",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎเกณฑ์",
+    "alalc": "kot kēn",
+    "meaning": "rule (as of conduct), regulation.",
+    "ipa": "kòt keen",
+    "pron_display": "kòt ˈkeen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rule (as of conduct), regulation."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:51",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฎเถื่อน",
+    "alalc": "",
+    "meaning": "lynch law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lynch law"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:176",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎเหล็กคณาธิปไตย",
+    "alalc": "",
+    "meaning": "the Iron Law of Oligarchy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the Iron Law of Oligarchy"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:177",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎเหล็กแห่งค่าจ้างแรงงาน",
+    "alalc": "",
+    "meaning": "iron law of wages",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "iron law of wages"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:178",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎเอกลักษณ์",
+    "alalc": "",
+    "meaning": "law of identity",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "law of identity"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:179",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎเฮก-วิสบี",
+    "alalc": "",
+    "meaning": "Hague-Visby Rules",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Hague-Visby Rules"
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:180",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กฎแห่งกรรม",
+    "alalc": "kot hǣng kam",
+    "meaning": "reciprocal deeds, law of cause and death; karmic law; law of action",
+    "ipa": "kòt hɛ̀ɛŋ kam",
+    "pron_display": "kòt hɛ̀ɛŋ kam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "reciprocal deeds, law of cause and death; karmic law; law of action"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23692",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฐิน",
+    "alalc": "kathin",
+    "meaning": "annual festival, following the rainy season, during which new robes are presented to the monks.; the robes so presented.",
+    "ipa": "ka-tʰǐn",
+    "pron_display": "kaˈtʰǐn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "annual festival, following the rainy season, during which new robes are presented to the monks."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the robes so presented."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:67",
+    "source_query": "กฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กฐินทาน",
+    "alalc": "ka thin na thān",
+    "meaning": "the annual robe offered to the monks who dwelled in the monastery, Kathin",
+    "ipa": "kà tʰǐn ná tʰaan",
+    "pron_display": "kà tʰǐn ná tʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the annual robe offered to the monks who dwelled in the monastery, Kathin"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23695",
+    "source_query": "กฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กด",
+    "alalc": "kot",
+    "meaning": "catfish (Tachysurus).",
+    "ipa": "kòt",
+    "pron_display": "ˈkòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "catfish (Tachysurus)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:74",
+    "source_query": "กด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กด",
+    "alalc": "kot",
+    "meaning": "to press, press on (something), push.",
+    "ipa": "kòt",
+    "pron_display": "ˈkòt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to press, press on (something), push."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:69",
+    "source_query": "กด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -747,7 +5480,115 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:70",
-    "source_query": "กระด.*",
+    "source_query": "กด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กดกริ่ง",
+    "alalc": "",
+    "meaning": "ring a bell, press the button",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "ring a bell, press the button"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23697",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กดขี่",
+    "alalc": "kot khī",
+    "meaning": "to oppress, tyrannize.",
+    "ipa": "kòt kʰìi",
+    "pron_display": "kòt ˈkʰìi",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to oppress, tyrannize."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:71",
+    "source_query": "กด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กดขี่ข่มเหง",
+    "alalc": "",
+    "meaning": "oppress, maltreat; abuse",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "oppress, maltreat; abuse"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31698",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กดคอ",
+    "alalc": "kot khǭ",
+    "meaning": "compel, force; treat cruelly; impel; overpower",
+    "ipa": "kòt kʰɔɔ",
+    "pron_display": "kòt kʰɔɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "compel, force; treat cruelly; impel; overpower"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23699",
+    "source_query": "กด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -787,6 +5628,1110 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "กดน้ำ",
+    "alalc": "kot nam",
+    "meaning": "duck, push down into the water; dive; dip; souse",
+    "ipa": "kòt nám",
+    "pron_display": "kòt nám",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "duck, push down into the water; dive; dip; souse"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23701",
+    "source_query": "กด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กดปุ่ม",
+    "alalc": "",
+    "meaning": "press",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "press"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31699",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กดราคา",
+    "alalc": "kot rākhā",
+    "meaning": "to underprice.",
+    "ipa": "kòt raa-kʰaa",
+    "pron_display": "ˈkòt raaˈkʰaa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to underprice."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:73",
+    "source_query": "กด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กดลง",
+    "alalc": "",
+    "meaning": "push down / subduct",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "push down / subduct"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:181",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กดหัว",
+    "alalc": "kot hua",
+    "meaning": "intimidate, suppress; frighten; overawe; cow",
+    "ipa": "kòt hǔa",
+    "pron_display": "kòt hǔa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "intimidate, suppress; frighten; overawe; cow"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23703",
+    "source_query": "กด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กดออด",
+    "alalc": "",
+    "meaning": "ring the bell",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "ring the bell"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7583",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กตัญญุตา",
+    "alalc": "ka tan yu tā",
+    "meaning": "gratefulness, thankful",
+    "ipa": "kà tan yú taa",
+    "pron_display": "kà tan yú taa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gratefulness, thankful"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23707",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กตัญญู",
+    "alalc": "katanyū",
+    "meaning": "to be grateful.; gratitude.",
+    "ipa": "ka-tan-yuu",
+    "pron_display": "ka.tanˈyuu",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be grateful."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gratitude."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:75",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กตัญญูรู้คุณ",
+    "alalc": "",
+    "meaning": "be grateful to someone (and reciprocate with loyalty), be a client (in a patron-client relationship)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be grateful to someone (and reciprocate with loyalty), be a client (in a patron-client relationship)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30938",
+    "source_query": "กต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กติกา",
+    "alalc": "katikā",
+    "meaning": "rule, regulation (as in sports).",
+    "ipa": "kà-ti-kaa",
+    "pron_display": "kà.tiˈkaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rule, regulation (as in sports)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:76",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กติกาสงฆ์",
+    "alalc": "",
+    "meaning": "canon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "canon"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:183",
+    "source_query": "กต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กติกาสัญญา",
+    "alalc": "katikā sanyā",
+    "meaning": "agreement, pact.",
+    "ipa": "kà-ti-kaa sǎn-yaa",
+    "pron_display": "kà.tiˈkaa sǎnˈyaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "agreement, pact."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:77",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กติกาสัญญาไม่รุกรานกัน",
+    "alalc": "",
+    "meaning": "non-aggression pact",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "non-aggression pact"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:185",
+    "source_query": "กต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กติกาสันนิบาตชาติ",
+    "alalc": "",
+    "meaning": "Covenant of the League of Nations",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Covenant of the League of Nations"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:186",
+    "source_query": "กต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กตเวทิตา",
+    "alalc": "ka ta wē thi tā",
+    "meaning": "gratitude, thankfulness; appreciation; gratefulness",
+    "ipa": "kà tà wee tʰí taa",
+    "pron_display": "kà tà wee tʰí taa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gratitude, thankfulness; appreciation; gratefulness"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23705",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กตเวที",
+    "alalc": "ka ta wē thī",
+    "meaning": "grateful, obliged; appreciative; indebted",
+    "ipa": "kà tà wee tʰii",
+    "pron_display": "kà tà wee tʰii",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "grateful, obliged; appreciative; indebted"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23706",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กถา",
+    "alalc": "ka thā",
+    "meaning": "words, statement; speech; talk; mention",
+    "ipa": "kà tʰǎa",
+    "pron_display": "kà tʰǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "words, statement; speech; talk; mention"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23712",
+    "source_query": "กถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กถามุข",
+    "alalc": "ka thā muk",
+    "meaning": "preface, introduction; foreword",
+    "ipa": "kà tʰǎa múk",
+    "pron_display": "kà tʰǎa múk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "preface, introduction; foreword"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23713",
+    "source_query": "กถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กทท.",
+    "alalc": "",
+    "meaning": "Port Authority of Thailand, PAT.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Port Authority of Thailand, PAT."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1263",
+    "source_query": "กท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กทธ.",
+    "alalc": "",
+    "meaning": "Department of Mineral Resources",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Department of Mineral Resources"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1264",
+    "source_query": "กท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กทพ.",
+    "alalc": "",
+    "meaning": "Expressway and Rapid Transit Authority of Thailand, ETA",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Expressway and Rapid Transit Authority of Thailand, ETA"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1265",
+    "source_query": "กท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กทม.",
+    "alalc": "",
+    "meaning": "Bangkok, BKK",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Bangkok, BKK"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1266",
+    "source_query": "กท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กน.",
+    "alalc": "kon",
+    "meaning": "Department of Internal Trade",
+    "ipa": "kon",
+    "pron_display": "kon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Department of Internal Trade"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1267",
+    "source_query": "กน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กนก",
+    "alalc": "kanok",
+    "meaning": "กระหนก.",
+    "ipa": "ka-nòk",
+    "pron_display": "kaˈnòk",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "กระหนก."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:87",
+    "source_query": "กน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กนอ.",
+    "alalc": "",
+    "meaning": "The Industrial Estate Authority of Thailand",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Industrial Estate Authority of Thailand"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1268",
+    "source_query": "กน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กนิษฐา",
+    "alalc": "ka nit thā",
+    "meaning": "younger sister, younger brother",
+    "ipa": "kà nít tʰǎa",
+    "pron_display": "kà nít tʰǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "younger sister, younger brother"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23727",
+    "source_query": "กน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กบ",
+    "alalc": "kop",
+    "meaning": "frog.; carpenter's plane.",
+    "ipa": "kòp",
+    "pron_display": "ˈkòp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "frog."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "carpenter's plane."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:89",
+    "source_query": "กบ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กบ",
+    "alalc": "kop",
+    "meaning": "to be filled, to be full.",
+    "ipa": "kòp",
+    "pron_display": "ˈkòp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be filled, to be full."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:88",
+    "source_query": "กบ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กบข.",
+    "alalc": "",
+    "meaning": "Civil Servant's Pension and Retirement Benefit Fund",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Civil Servant's Pension and Retirement Benefit Fund"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1269",
+    "source_query": "กบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กบฎ",
+    "alalc": "",
+    "meaning": "rebel, insurgent; revolutionary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rebel, insurgent; revolutionary"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7488",
+    "source_query": "กบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กบฏ",
+    "alalc": "kabot",
+    "meaning": "to rebel.; rebellion.; a rebel.",
+    "ipa": "ka-bòt",
+    "pron_display": "kaˈbòt",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to rebel."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rebellion."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a rebel."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:93",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กบดาน",
+    "alalc": "kop dān",
+    "meaning": "hide, lie; low; conceal low",
+    "ipa": "kòp daan",
+    "pron_display": "kòp daan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "hide, lie; low; conceal low"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23729",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กบาล",
+    "alalc": "kabān",
+    "meaning": "กระบาล.",
+    "ipa": "ka-baan",
+    "pron_display": "kaˈbaan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "กระบาล."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:97",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กบเหลาดินสอ",
+    "alalc": "",
+    "meaning": "sharpener, pencil sharpener",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sharpener, pencil sharpener"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23731",
+    "source_query": "กบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กบไสไม้",
+    "alalc": "kop say māy",
+    "meaning": "plane (carpenter's tool).",
+    "ipa": "kòp sǎy máay",
+    "pron_display": "ˈkòp sǎy ˈmáay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "plane (carpenter's tool)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:90",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กปน.",
+    "alalc": "",
+    "meaning": "The Metropolitan Waterworks Authority, MWA",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Metropolitan Waterworks Authority, MWA"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1270",
+    "source_query": "กป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กปภ.",
+    "alalc": "",
+    "meaning": "The Provincial Waterworks Authority, PWA",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Provincial Waterworks Authority, PWA"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1271",
+    "source_query": "กป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กปร.",
+    "alalc": "",
+    "meaning": "Office of the Royal Development Projects Board, ORDPB",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Royal Development Projects Board, ORDPB"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1272",
+    "source_query": "กป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กปส.",
+    "alalc": "",
+    "meaning": "Public Relations Department",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Public Relations Department"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1273",
+    "source_query": "กป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กพร.",
+    "alalc": "",
+    "meaning": "Department of Skill Development",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Department of Skill Development"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1274",
+    "source_query": "กพ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "กรณีศึกษา",
@@ -15108,6 +21053,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "การกบฏ",
+    "alalc": "kān kabot",
+    "meaning": "revolt, insurrection, rebellion, revolution.",
+    "ipa": "kaan ka-bòt",
+    "pron_display": "kaan kaˈbòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "revolt, insurrection, rebellion, revolution."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1184",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "การงาน",
     "alalc": "kān ngān",
     "meaning": "work (in general).",
@@ -19049,7 +25021,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:24566",
-    "source_query": "กำ.*",
+    "source_query": "กฎ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -21751,6 +27723,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ก้นกบ",
+    "alalc": "kon kop",
+    "meaning": "coccyx",
+    "ipa": "kôn kòp",
+    "pron_display": "kôn kòp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "coccyx"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:23717",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ก้นถุง",
     "alalc": "",
     "meaning": "reserve money",
@@ -23970,6 +29969,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ขี้กบ",
+    "alalc": "khī kop",
+    "meaning": "wood shavings.",
+    "ipa": "kʰîi kòp",
+    "pron_display": "kʰîi ˈkòp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wood shavings."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:91",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ขี้ฉ้อ",
     "alalc": "",
     "meaning": "swindled, sly",
@@ -24846,6 +30872,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ข้อกติกา",
+    "alalc": "khǭ ka ti kā",
+    "meaning": "regulation, rule; condition",
+    "ipa": "kʰɔ̂ɔ kà tì kaa",
+    "pron_display": "kʰɔ̂ɔ kà tì kaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "regulation, rule; condition"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26261",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ข้อกล่าวหาฉกรรจ์",
@@ -27128,6 +33181,42 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ความกดดัน",
+    "alalc": "",
+    "meaning": "pressure , compression; pressure, oppression; affliction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pressure , compression"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pressure, oppression; affliction"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26501",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ความกำกวม",
@@ -75691,7 +81780,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:61",
-    "source_query": "ด.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -116496,6 +122585,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ตรากฎหมาย",
+    "alalc": "",
+    "meaning": "enact, decree",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "enact, decree"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:18140",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ตราบาป",
     "alalc": "trā bāp",
     "meaning": "sin, guilt",
@@ -118389,6 +124505,38 @@
     "status": "tentative"
   },
   {
+    "thai": "ตามกฎหมาย",
+    "alalc": "tām kot māy",
+    "meaning": "to be legal, to be according to the law.; legally.",
+    "ipa": "taam kòt mǎay",
+    "pron_display": "ˌtaam kòt ˈmǎay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be legal, to be according to the law."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "legally."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:62",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ตามกำลัง",
     "alalc": "",
     "meaning": "according to one's ability",
@@ -119545,6 +125693,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:997",
     "source_query": "ซ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตีนกบ",
+    "alalc": "",
+    "meaning": "fin, flipper",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fin, flipper"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:18351",
+    "source_query": "กบ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -133200,7 +139375,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:1046",
-    "source_query": "ถ.*",
+    "source_query": "กฎ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -138500,6 +144675,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ทอดกฐิน",
+    "alalc": "thǭt kathin",
+    "meaning": "to hold a religious ceremony in which yellow robes are presented to the priests.",
+    "ipa": "tʰɔ̂ɔt ka-tʰǐn",
+    "pron_display": "tʰɔ̂ɔt kaˈtʰǐn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to hold a religious ceremony in which yellow robes are presented to the priests."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8700",
+    "source_query": "กฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ทอดธุระ",
     "alalc": "",
     "meaning": "leave one's business or duty, neglect; relinquish responsibility",
@@ -139764,6 +145966,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ทำกบฏ",
+    "alalc": "tham kabot",
+    "meaning": "to rebel, revolt, stage a revolution.",
+    "ipa": "tʰam ka-bòt",
+    "pron_display": "ˈtʰam kaˈbòt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to rebel, revolt, stage a revolution."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:94",
+    "source_query": "กบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ทำการบ้าน",
     "alalc": "tham kān bān",
     "meaning": "do homework",
@@ -139962,6 +146191,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8999",
     "source_query": "บ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ทำผิดกฎหมาย",
+    "alalc": "tham phit kot māy",
+    "meaning": "break the law, violate the law",
+    "ipa": "tʰam ˈpʰìt kòt ˈmǎay",
+    "pron_display": "tʰam ˈpʰìt kòt ˈmǎay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "break the law, violate the law"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4797",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -143337,7 +149593,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:28254",
-    "source_query": "ธ.*",
+    "source_query": "กถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -143364,7 +149620,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:28255",
-    "source_query": "ธ.*",
+    "source_query": "กถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -147340,6 +153596,38 @@
     "status": "unresolved"
   },
   {
+    "thai": "นอกกฎหมาย",
+    "alalc": "nǭk kot māy",
+    "meaning": "to be unlawful, illegal, illegitimate.; illegally.",
+    "ipa": "nɔ̂ɔk kòt mǎay",
+    "pron_display": "ˈnɔ̂ɔk kòt ˈmǎay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be unlawful, illegal, illegitimate."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "illegally."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:64",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นอกจาก",
     "alalc": "nǭk yāk",
     "meaning": "besides, outside of, aside from.; except, other than, excluding, beyond.",
@@ -147629,6 +153917,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9607",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นักกฎหมาย",
+    "alalc": "nak kot māy",
+    "meaning": "legal authority.",
+    "ipa": "nák kòt mǎay",
+    "pron_display": "ˈnák kòt ˈmǎay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "legal authority."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9682",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -165372,7 +171687,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10478",
-    "source_query": "บ.*",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -171567,7 +177882,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:20778",
-    "source_query": "บ.*",
+    "source_query": "กบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -186415,6 +192730,60 @@
     "status": "unresolved"
   },
   {
+    "thai": "ประมวลกฎหมาย",
+    "alalc": "pramuan kot māy",
+    "meaning": "code of laws, law code.",
+    "ipa": "pra-muan kòt mǎay",
+    "pron_display": "praˈmuan kòt ˈmǎay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "code of laws, law code."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11199",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ประมวลกฎหมายแพ่งและพาณิชย์",
+    "alalc": "",
+    "meaning": "Civil and Commercial Code",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Civil and Commercial Code"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22381",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ประลองยุทธ์",
     "alalc": "pralǭng yut",
     "meaning": "to maneuver, hold maneuvers.",
@@ -187117,6 +193486,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11392",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปลากด",
+    "alalc": "plā kot",
+    "meaning": "catfish (Tachysurus).",
+    "ipa": "plaa kòt",
+    "pron_display": "plaa ˈkòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "catfish (Tachysurus)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11407",
+    "source_query": "กด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -188287,6 +194683,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10429",
     "source_query": "บ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปาฐกถา",
+    "alalc": "pāthakathā",
+    "meaning": "speech, sermon; lecture; lecture, make a speech",
+    "ipa": "ˈpaa.tʰà.kaˈtʰǎa",
+    "pron_display": "ˈpaa.tʰà.kaˈtʰǎa",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "speech, sermon; lecture"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lecture, make a speech"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11354",
+    "source_query": "กถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -189720,6 +196152,65 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ผิดกฎหมาย",
+    "alalc": "phit kot māy",
+    "meaning": "to be illegal, unlawful, against the law.; illegally.",
+    "ipa": "pʰìt kòt mǎay",
+    "pron_display": "ˈpʰìt kòt ˈmǎay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be illegal, unlawful, against the law."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "illegally."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:65",
+    "source_query": "กฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผิดกติกา",
+    "alalc": "",
+    "meaning": "violate the rule, infringe the rule/regulation; break the rule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "violate the rule, infringe the rule/regulation; break the rule"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3696",
+    "source_query": "กต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ผิดจังหวะ",
@@ -191598,6 +198089,33 @@
     "meaning": "cloth",
     "ipa": "",
     "source": "editor example",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผ้ากฐิน",
+    "alalc": "phā kathin",
+    "meaning": "yellow robe presented to a priest during the กฐิน festival.",
+    "ipa": "pʰâa ka-tʰǐn",
+    "pron_display": "pʰâa kaˈtʰǐn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "yellow robe presented to a priest during the กฐิน festival."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:68",
+    "source_query": "กฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
     "status": "tentative"
   },
   {
@@ -201507,6 +208025,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8323",
     "source_query": "ถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พวกกบฏ",
+    "alalc": "phuak kabot",
+    "meaning": "rebels, the rebel faction.",
+    "ipa": "pʰûak ka-bòt",
+    "pron_display": "pʰûak kaˈbòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rebels, the rebel faction."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:96",
+    "source_query": "กบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -282368,6 +288913,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ละเมิดกฎหมาย",
+    "alalc": "",
+    "meaning": "break the law, violate the law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "break the law, violate the law"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14488",
+    "source_query": "กฎ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ละเหี่ยใจ",
     "alalc": "lahia yay",
     "meaning": "feel disheartened, feel discouraged; feel weary/tired",
@@ -283200,6 +289772,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:16244",
     "source_query": "ด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลูกกบ",
+    "alalc": "lūk kop",
+    "meaning": "tadpole.",
+    "ipa": "lûuk kòp",
+    "pron_display": "lûuk ˈkòp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tadpole."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16253",
+    "source_query": "กบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -332829,6 +339428,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สถานกงสุล",
+    "alalc": "sathān kongsun",
+    "meaning": "consulate.",
+    "ipa": "sa-tʰǎan koŋ-sǔn",
+    "pron_display": "saˈtʰǎan koŋˈsǔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "consulate."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:49",
+    "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สถานภาพ",
     "alalc": "sa thā na phāp",
     "meaning": "status",
@@ -343863,6 +350489,58 @@
     "status": "tentative"
   },
   {
+    "thai": "องค์กฐิน",
+    "alalc": "ong ka thin",
+    "meaning": "set of new robes offered to Buddhist  monks",
+    "ipa": "oŋ kà tʰǐn",
+    "pron_display": "oŋ kà tʰǐn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "set of new robes offered to Buddhist  monks"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29866",
+    "source_query": "กฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องค์การกติกาแอตแลนติกเหนือ",
+    "alalc": "ong kān katikā ætlǣntik nưa",
+    "meaning": "North Atlantic Treaty Organization.",
+    "ipa": "oŋ kaan kà-ti-kaa ɛ̀t-lɛɛn-tìk nʉ̌a",
+    "pron_display": "oŋ ˈkaan kà.tiˈkaa ɛ̀tˈlɛɛn.tìk ˈnʉ̌a*",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "North Atlantic Treaty Organization."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:78",
+    "source_query": "กต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "องค์การศึกษาวิทยาศาสตร์และวัฒนธรรมแห่งสหประชาชาติ",
     "alalc": "ong kān sưksā witthayā sāt læ watthanatham hæng sahaprachāchāt",
     "meaning": "the United Nations Educational, Scientific and Cultural Organization (UNESCO).",
@@ -345150,6 +351828,33 @@
     "status": "tentative"
   },
   {
+    "thai": "อรรถกถา",
+    "alalc": "at tha ka thā",
+    "meaning": "exegesis, commentary",
+    "ipa": "àt tʰà kà tʰǎa",
+    "pron_display": "àt tʰà kà tʰǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "exegesis, commentary"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29963",
+    "source_query": "กถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "อรรถกถาจารย์",
     "alalc": "at tha ka thā yān",
     "meaning": "exegete, commentator",
@@ -345280,6 +351985,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12769",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ออกกฎหมาย",
+    "alalc": "ǭk kot māy",
+    "meaning": "to promulgate a law; to pass a bill.",
+    "ipa": "ɔ̀ɔk kòt mǎay",
+    "pron_display": "ˈɔ̀ɔk kòt ˈmǎay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to promulgate a law; to pass a bill."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19243",
+    "source_query": "กฎ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -351448,6 +358180,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "เก็บกด",
+    "alalc": "",
+    "meaning": "repress, suppress; dissimulate; subdue; quench; conceal",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "repress, suppress; dissimulate; subdue; quench; conceal"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8202",
+    "source_query": "กด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "เก็บกวาด",
@@ -358630,6 +365389,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11765",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เป็นกบฏ",
+    "alalc": "pen kabot",
+    "meaning": "to rebel, mutiny, commit treason.",
+    "ipa": "pen ka-bòt",
+    "pron_display": "ˈpen kaˈbòt",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to rebel, mutiny, commit treason."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:95",
+    "source_query": "กบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -398395,6 +405179,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7064",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไสกบ",
+    "alalc": "say kop",
+    "meaning": "to plane.",
+    "ipa": "sǎy kòp",
+    "pron_display": "sǎy ˈkòp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to plane."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:92",
+    "source_query": "กบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"

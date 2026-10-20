@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 14617,
+    "unique_lexical_records": 14877,
     "sample_size": 150,
     "counts": {
-      "neither": 71,
-      "pronunciation_only": 74,
+      "neither": 73,
+      "pronunciation_only": 72,
       "disagreement": 2,
       "agreement": 2,
       "spelling_only": 1
@@ -407,6 +407,17 @@
       "pronunciation_candidate": "chua yet thī dī yet hon",
       "comparison": "pronunciation_only",
       "web_rank": "6",
+      "pos": ""
+    },
+    {
+      "thai": "กฎหมายแรงงาน",
+      "source_id": "RI:160",
+      "pronunciation": "",
+      "meaning": "labour legislation",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
       "pos": ""
     },
     {
@@ -1180,6 +1191,17 @@
       "pos": ""
     },
     {
+      "thai": "กฎที่เด็ดขาด",
+      "source_id": "RI:40",
+      "pronunciation": "",
+      "meaning": "peremptory rule",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
+    },
+    {
       "thai": "ตีบรรทัด",
       "source_id": "LEX2.0:18363",
       "pronunciation": "tii ban tʰát",
@@ -1211,6 +1233,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "7",
       "pos": "N"
+    },
+    {
+      "thai": "กฎข้อบังคับของรัฐสภา",
+      "source_id": "RI:31",
+      "pronunciation": "",
+      "meaning": "parliamentary law",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "งานกินเลี้ยง",
@@ -1320,6 +1353,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "5",
+      "pos": "N"
+    },
+    {
+      "thai": "กตัญญุตา",
+      "source_id": "LEX2.0:23707",
+      "pronunciation": "kà tan yú taa",
+      "meaning": "gratefulness, thankful",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "ka tan yu tā",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
       "pos": "N"
     },
     {
@@ -1618,50 +1662,6 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "V"
-    },
-    {
-      "thai": "มืดแปดด้าน",
-      "source_id": "TDP:6580",
-      "pronunciation": "mʉ̂ʉt pɛ̀ɛt dâan",
-      "meaning": "to be in the dark, be completely lost (when trying to figure something out).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "mư̄t pǣt dān",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "กล่าวกันว่า",
-      "source_id": "TDP:1008",
-      "pronunciation": "klàaw kan wâa",
-      "meaning": "it is said that; they say that.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "klāw kan wā",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": ""
-    },
-    {
-      "thai": "ผู้ฟัง",
-      "source_id": "LEX2.0:11486",
-      "pronunciation": "pʰûu ˈfaŋ",
-      "meaning": "listener, audience",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "phū fang",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "วัตถุกลางในการแลกเปลี่ยน",
-      "source_id": "RI:25028",
-      "pronunciation": "",
-      "meaning": "ceap",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
     }
   ]
 }
