@@ -62,7 +62,7 @@ def parse_document(data:bytes,query:str):
             d for sense in sense_records for d in sense["definitions"]))
         source_id=info.get("id","").strip()
         prefix=source_id.split(":",1)[0] if source_id else "unknown"
-        rank_match=re.search(r"WebRank:\\s*(\\d+)",info.get_text(" ",strip=True))
+        rank_match=re.search(r"WebRank:\s*(\d+)",info.get_text(" ",strip=True))
         pron_display=pron.get_text(" ",strip=True) if pron else ""
         rows.append({"thai":thai,"meaning":"; ".join(meanings),
                      "ipa":ipa,"pron_display":pron_display,
