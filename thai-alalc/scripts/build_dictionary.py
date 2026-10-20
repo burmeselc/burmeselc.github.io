@@ -33,16 +33,36 @@ def make_entries(seed_path,source_path=None):
                     by_ipa=candidate_from_ipa((row.get('ipa') or '').strip())
                     roman=supplied or by_spelling or by_ipa or ''
                     method='manual' if supplied else ('spelling' if by_spelling else ('ipa' if by_ipa else ''))
+                    senses=[]
+                    try:
+                        senses=json.loads(row.get('senses_json') or '[]')
+                        if not isinstance(senses,list):senses=[]
+                    except json.JSONDecodeError:
+                        senses=[]
+                    evidence='agreement' if by_spelling and by_ipa and by_spelling==by_ipa else (
+                        'conflict' if by_spelling and by_ipa else (
+                        'spelling_only' if by_spelling else ('pronunciation_only' if by_ipa else 'missing')))
                     entries.append({'thai':thai,'alalc':roman,
                     'meaning':(row.get('meaning') or '').strip(),'ipa':(row.get('ipa') or '').strip(),
+                    'pron_display':(row.get('pron_display') or '').strip(),
+                    'pos':(row.get('pos') or '').strip(),'senses':senses,
+                    'web_rank':(row.get('web_rank') or '').strip(),
+                    'lexical_level':(row.get('lexical_level') or 'entry').strip(),
                     'source':(row.get('source') or 'SEAlang Thai').strip(),
                     'source_id':(row.get('source_id') or '').strip(),
-                    'roman_method':method,
+                    'source_query':(row.get('query') or '').strip(),
+                    'roman_method':method,'roman_evidence':evidence,
                     'status':'reviewed' if supplied and verified else ('tentative' if roman else 'unresolved')})
     merged={}
+    def richness(row):
+        return (int(row.get('status')=='reviewed')*100,
+                int(bool(row.get('senses')))*20,
+                int(bool(row.get('pron_display')))*5,
+                len(row.get('ipa','')))
     for item in entries:
-        key=(item['thai'],item['alalc'],item['meaning'])
-        if key not in merged or merged[key]['status']!='reviewed' and item['status']=='reviewed':
+        key=('source',item['source_id']) if item.get('source_id') else (
+            'seed',item['thai'],item['alalc'],item['meaning'])
+        if key not in merged or richness(item)>richness(merged[key]):
             merged[key]=item
     return sorted(merged.values(),key=lambda e:(e['thai'],e['alalc'],e['meaning']))
 
