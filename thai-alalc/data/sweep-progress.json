@@ -1,0 +1,24 @@
+{
+  "as_of_utc": "2026-10-20T03:24:21+00:00",
+  "automatic_discovery": true,
+  "complete_coverage_verified": false,
+  "all_queue_processed": false,
+  "query_count": 12,
+  "query_statuses": {
+    "fetched": 7,
+    "overflow": 3,
+    "empty": 2
+  },
+  "pending_queries": 277,
+  "distinct_dictionary_records": 850,
+  "distinct_sealang_source_records": 825,
+  "csv_shards": 11,
+  "blocked_queries": [],
+  "overflow_depth_limit": [],
+  "notes": [
+    "Searches match substrings; suffix-extension queries do not form a proven disjoint, exhaustive partition.",
+    "Even a drained queue is not proof every SEAlang lexical record was retrieved.",
+    "For complete coverage request or compare a direct SEAlang dictionary export.",
+    "Pronunciation-derived ALA-LC is tentative, not authoritative."
+  ]
+}

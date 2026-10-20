@@ -1,11 +1,11 @@
 {
   "summary": {
-    "unique_lexical_records": 791,
+    "unique_lexical_records": 825,
     "sample_size": 150,
     "counts": {
       "neither": 70,
-      "pronunciation_only": 78,
-      "agreement": 2
+      "pronunciation_only": 77,
+      "agreement": 3
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
     "complete_dictionary": false
@@ -232,6 +232,17 @@
       "pos": ""
     },
     {
+      "thai": "ฆาต",
+      "source_id": "TDP:4123",
+      "pronunciation": "kʰâat",
+      "meaning": "destruction, liquidation.",
+      "spelling_candidate": "khāt",
+      "pronunciation_candidate": "khāt",
+      "comparison": "agreement",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "ปลากระดี่",
       "source_id": "TDP:11408",
       "pronunciation": "plaa kra-dìi",
@@ -350,6 +361,17 @@
       "pronunciation_candidate": "krot kammathan",
       "comparison": "pronunciation_only",
       "web_rank": "5",
+      "pos": "N"
+    },
+    {
+      "thai": "ไม้ทัณฑฆาต",
+      "source_id": "TDP:8809",
+      "pronunciation": "máy tʰan-tʰa kʰâat",
+      "meaning": "the cancellation mark (อ์) used in the Thai writing system.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "may thantha khāt",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
       "pos": "N"
     },
     {
@@ -716,6 +738,17 @@
       "pos": "N"
     },
     {
+      "thai": "ฆราวาส",
+      "source_id": "TDP:4117",
+      "pronunciation": "kʰa-raa-wâat",
+      "meaning": "layman (in the religious sense, i.e. one who is not a priest).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kharāwāt",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "กวดตาม",
       "source_id": "TDP:773",
       "pronunciation": "kùat taam",
@@ -815,6 +848,17 @@
       "pos": ""
     },
     {
+      "thai": "ฆ่าตัวตาย",
+      "source_id": "LEX2.0:10669",
+      "pronunciation": "",
+      "meaning": "commit suicide,  kill oneself",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
       "thai": "กำลังสองของสองคือสี่",
       "source_id": "TDP:3818",
       "pronunciation": "kam-laŋ sɔ̌ɔŋ kʰɔ̌ɔŋ sɔ̌ɔŋ kʰʉʉ sìi",
@@ -911,6 +955,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "ฆ่าคน",
+      "source_id": "RI:12394",
+      "pronunciation": "",
+      "meaning": "kill",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
       "pos": ""
     },
     {
@@ -1431,6 +1486,17 @@
       "pos": "N"
     },
     {
+      "thai": "ฆ่าไร",
+      "source_id": "RI:12400",
+      "pronunciation": "",
+      "meaning": "acaricide",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "กวีนิพนธ์สุสาน",
       "source_id": "RI:1132",
       "pronunciation": "",
@@ -1552,6 +1618,17 @@
       "pos": ""
     },
     {
+      "thai": "ฆ่าเชื้อ",
+      "source_id": "RI:12399",
+      "pronunciation": "",
+      "meaning": "disinfect",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": ""
+    },
+    {
       "thai": "กระดูกสันหลังโหว่",
       "source_id": "RI:472",
       "pronunciation": "",
@@ -1583,83 +1660,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "2",
       "pos": "V"
-    },
-    {
-      "thai": "กวางตุ้ง",
-      "source_id": "TDP:810",
-      "pronunciation": "kwaaŋ-tûŋ",
-      "meaning": "Canton.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kwāngtung",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "pN"
-    },
-    {
-      "thai": "กระดูกติดผิดรูป",
-      "source_id": "RI:411",
-      "pronunciation": "",
-      "meaning": "malunion",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "กระดาษอาร์ต",
-      "source_id": "LEX2.0:24005",
-      "pronunciation": "",
-      "meaning": "art paper, coated paper",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "กระดูกอก",
-      "source_id": "RI:519",
-      "pronunciation": "",
-      "meaning": "breast bone; sternum",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "กระดูกโปร่ง",
-      "source_id": "RI:552",
-      "pronunciation": "",
-      "meaning": "cancellous bone; spongy bone",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "จินตกวี",
-      "source_id": "TDP:823",
-      "pronunciation": "jin-ta ka-wii",
-      "meaning": "poet.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yinta kawī",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ไม่ต่ำกว่า",
-      "source_id": "TDP:14448",
-      "pronunciation": "mây tàm kwàa",
-      "meaning": "not less than.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "may tam kwā",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": ""
     }
   ]
 }

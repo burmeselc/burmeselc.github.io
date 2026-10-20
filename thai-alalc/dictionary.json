@@ -16833,6 +16833,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ขีดฆ่า",
+    "alalc": "khīt khā",
+    "meaning": "to scratch out, cross out, strike out.",
+    "ipa": "kʰìit kʰâa",
+    "pron_display": "ˌkʰìit ˈkʰâa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to scratch out, cross out, strike out."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2583",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ขี้เรื้อนกวาง",
     "alalc": "khī rưan kwāng",
     "meaning": "eczema",
@@ -17043,11 +17070,592 @@
     "status": "tentative"
   },
   {
+    "thai": "ฆ",
+    "alalc": "khǭ",
+    "meaning": "low consonant, pronounced kʰ initially and k finally.",
+    "ipa": "kʰɔɔ",
+    "pron_display": "kʰɔɔ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "low consonant, pronounced kʰ initially and k finally."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4116",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆราวาส",
+    "alalc": "kharāwāt",
+    "meaning": "layman (in the religious sense, i.e. one who is not a priest).",
+    "ipa": "kʰa-raa-wâat",
+    "pron_display": "kʰa.raaˈwâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "layman (in the religious sense, i.e. one who is not a priest)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4117",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆาต",
+    "alalc": "khāt",
+    "meaning": "destruction, liquidation.",
+    "ipa": "kʰâat",
+    "pron_display": "ˈkʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "destruction, liquidation."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4123",
+    "source_query": "ฆ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆาตกร",
+    "alalc": "khāt ta kǭn",
+    "meaning": "murderer, killer; slayer; assassin",
+    "ipa": "kʰâat tà kɔɔn",
+    "pron_display": "kʰâat tà kɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "murderer, killer; slayer; assassin"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10667",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆาตกรรม",
+    "alalc": "khātta kam",
+    "meaning": "murder.",
+    "ipa": "kʰâat-ta kam",
+    "pron_display": "kʰâat.ta ˈkam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "murder."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4124",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆานประสาท",
+    "alalc": "khā na pra sāt",
+    "meaning": "olfactory nerve",
+    "ipa": "kʰaa ná prà sàat",
+    "pron_display": "kʰaa ná prà sàat",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "olfactory nerve"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12392",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ฆ่า",
     "alalc": "khā",
     "meaning": "to kill",
     "ipa": "",
     "source": "editor example",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆ่า",
+    "alalc": "khā",
+    "meaning": "to kill, execute, destroy.; to cross out, strike out.",
+    "ipa": "kʰâa",
+    "pron_display": "ˈkʰâa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to kill, execute, destroy."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to cross out, strike out."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4119",
+    "source_query": "ฆ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆ่า (...) เสีย",
+    "alalc": "khāparen sia",
+    "meaning": "to kill, do away with.",
+    "ipa": "kʰâaparen sía",
+    "pron_display": "ˈkʰâa  (...)  sía",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to kill, do away with."
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17905",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆ่าคน",
+    "alalc": "",
+    "meaning": "kill",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "kill"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12394",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าคนตาย",
+    "alalc": "khā khon tāy",
+    "meaning": "to kill, murder a person.",
+    "ipa": "kʰâa kʰon taay",
+    "pron_display": "ˈkʰâa kʰon ˈtaay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to kill, murder a person."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7813",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆ่าคนโดยประมาท",
+    "alalc": "",
+    "meaning": "kill by negligence",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "kill by negligence"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12395",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าตัวตาย",
+    "alalc": "",
+    "meaning": "commit suicide,  kill oneself",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "commit suicide,  kill oneself"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10669",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าปรสิต",
+    "alalc": "",
+    "meaning": "parasiticide",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "parasiticide"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12396",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าปิดปาก",
+    "alalc": "",
+    "meaning": "kill, slay; destroy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "kill, slay; destroy"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:894",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าผู้อื่น",
+    "alalc": "",
+    "meaning": "kill",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "kill"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12397",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าพยาธิตัวตืด",
+    "alalc": "",
+    "meaning": "taeniacide; teniacide; taenicide; tenicide",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "taeniacide; teniacide; taenicide; tenicide"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12398",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าฟัน",
+    "alalc": "khā fan",
+    "meaning": "to kill, slay.",
+    "ipa": "kʰâa fan",
+    "pron_display": "ˈkʰâa ˈfan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to kill, slay."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4120",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆ่าเชื้อ",
+    "alalc": "",
+    "meaning": "disinfect",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "disinfect"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12399",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าเชื้อ",
+    "alalc": "",
+    "meaning": "sterilize, disinfect; purify; clean",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "sterilize, disinfect; purify; clean"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10665",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ่าเวลา",
+    "alalc": "khā wēlā",
+    "meaning": "to kill time.",
+    "ipa": "kʰâa wee-laa",
+    "pron_display": "ˈkʰâa weeˈlaa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to kill time."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4121",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ฆ่าไร",
+    "alalc": "",
+    "meaning": "acaricide",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "acaricide"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12400",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ฆ้อง",
+    "alalc": "khǭng",
+    "meaning": "gong.",
+    "ipa": "kʰɔ́ɔŋ",
+    "pron_display": "ˈkʰɔ́ɔŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gong."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4118",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
     "status": "tentative"
   },
   {
@@ -17681,6 +18289,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1387",
     "source_query": "กำ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ถึงฆาต",
+    "alalc": "thưng khāt",
+    "meaning": "be doomed to die, come to one's death-time",
+    "ipa": "tʰʉ̌ŋ kʰâat",
+    "pron_display": "tʰʉ̌ŋ kʰâat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be doomed to die, come to one's death-time"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:18939",
+    "source_query": "ฆ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -18334,6 +18969,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ปิตุฆาต",
+    "alalc": "pi tu khāt",
+    "meaning": "patricide",
+    "ipa": "pì tù kʰâat",
+    "pron_display": "pì tù kʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "patricide"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11271",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ผลกำไร",
     "alalc": "phon kamray",
     "meaning": "profit, gain.",
@@ -18745,6 +19407,33 @@
     "status": "tentative"
   },
   {
+    "thai": "มาตุฆาต",
+    "alalc": "mā tu khāt",
+    "meaning": "matricide",
+    "ipa": "maa tù kʰâat",
+    "pron_display": "maa tù kʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "matricide"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13627",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "มาแต่กำเนิด",
     "alalc": "mā tǣ kamnœ̄t",
     "meaning": "from birth.",
@@ -18974,6 +19663,60 @@
     "status": "tentative"
   },
   {
+    "thai": "ยาฆ่าตัวแมลง",
+    "alalc": "yā khā tua malǣng",
+    "meaning": "insecticide.",
+    "ipa": "yaa kʰâa tua ma-lɛɛŋ",
+    "pron_display": "ˈyaa ˈkʰâa tua maˈlɛɛŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "insecticide."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14393",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ยาฆ่าเชื้อโรค",
+    "alalc": "",
+    "meaning": "anti-infective",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "anti-infective"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21844",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ยิ่งกว่า",
     "alalc": "ying kwā",
     "meaning": "more than, to a greater extent than.",
@@ -19111,6 +19854,33 @@
     "status": "tentative"
   },
   {
+    "thai": "รบราฆ่าฟัน",
+    "alalc": "",
+    "meaning": "go to war, make war; fight; battle; fight (with weapons) at close quarters",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "go to war, make war; fight; battle; fight (with weapons) at close quarters"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31137",
+    "source_query": "ฆ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ระบบ ณ จุดขาย",
     "alalc": "",
     "meaning": "point-of-sale system",
@@ -19175,6 +19945,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:289",
     "source_query": "กระด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รุกฆาต",
+    "alalc": "ruk khāt",
+    "meaning": "check, checkmate",
+    "ipa": "rúk kʰâat",
+    "pron_display": "rúk kʰâat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "check, checkmate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21462",
+    "source_query": "ฆ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -19294,6 +20091,33 @@
     "ipa": "",
     "source": "ALA-LC 2011 sample",
     "status": "reviewed"
+  },
+  {
+    "thai": "วิสามัญฆาตกรรม",
+    "alalc": "wi sā man khāt ta kam",
+    "meaning": "murder legally, extrajudicially kill",
+    "ipa": "wí sǎa man kʰâat tà kam",
+    "pron_display": "wí sǎa man kʰâat tà kam",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "murder legally, extrajudicially kill"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32154",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "สากกะเบือ",
@@ -20197,6 +21021,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:805",
     "source_query": "กว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เข่นฆ่า",
+    "alalc": "khēn khā",
+    "meaning": "kill, murder; slaughter",
+    "ipa": "kʰèen kʰâa",
+    "pron_display": "kʰèen kʰâa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "kill, murder; slaughter"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9183",
+    "source_query": "ฆ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -21148,6 +21999,33 @@
     "status": "tentative"
   },
   {
+    "thai": "โรงฆ่าสัตว์",
+    "alalc": "rōng khā sat",
+    "meaning": "slaughterhouse.",
+    "ipa": "rooŋ kʰâa sàt",
+    "pron_display": "ˈrooŋ kʰâa ˈsàt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "slaughterhouse."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15794",
+    "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ใกล้ชิด",
     "alalc": "klaichit",
     "meaning": "close; intimate",
@@ -21373,6 +22251,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:817",
     "source_query": "กว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไม้ทัณฑฆาต",
+    "alalc": "may thantha khāt",
+    "meaning": "the cancellation mark (อ์) used in the Thai writing system.",
+    "ipa": "máy tʰan-tʰa kʰâat",
+    "pron_display": "máy ˈtʰan.tʰa ˈkʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the cancellation mark (อ์) used in the Thai writing system."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8809",
+    "source_query": "ฆ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
