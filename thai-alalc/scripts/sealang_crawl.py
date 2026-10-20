@@ -26,7 +26,7 @@ FOLLOWING=''.join(chr(n) for n in range(0x0E01,0x0E5C) if chr(n) not in 'ฯๆ�
 # All common Thai word-initial codepoints: consonants + initial-position vowels.
 # Single-character searches are permitted to overflow and will be recorded.
 FIRST_CHARS=''.join(chr(n) for n in range(0x0E01,0x0E2F))+'ฤฦเแโใไ'
-EMPTY_RE=re.compile(r'Nothing found\\.|0\\s+items\\s+found',re.I)
+EMPTY_RE=re.compile(r'Nothing found\.|0\s+items\s+found',re.I)
 MAX_QUERY_BUDGET=12000
 CAP_RE=re.compile(r'Excessive number of hits\s*\(([\d,]+),\s*limit\s*([\d,]+)\)',re.I)
 
@@ -124,6 +124,7 @@ def crawl(args,request_fn=request_url,robots_fn=get_robots):
                 count=int(cap.group(1).replace(',',''))
                 ceiling=int(cap.group(2).replace(',',''))
                 state['queue'].pop(0)
+                state.pop('errors',None)
                 expanded=split_overflow(state,item,count,ceiling,args.max_depth)
                 print('OVERFLOW',q,count,'limit',ceiling,'child queries',expanded,flush=True)
             else:
@@ -137,15 +138,24 @@ def crawl(args,request_fn=request_url,robots_fn=get_robots):
                     writer.writeheader();writer.writerows(records)
                 os.replace(tmp,path)
                 state['queue'].pop(0)
+                state.pop('errors',None)
                 state['results'][q]={'status':'empty' if empty else 'fetched','reported_hits':estimated,
                                      'parsed_records':len(records),'file':path.name,
                                      'sha256':hashlib.sha256(raw).hexdigest(),
                                      'coverage_proven':False}
                 print('FETCHED',q,'hits',estimated,'parsed',len(records),flush=True)
         except Exception as e:
-            state['errors']={'query':q,'message':str(e)}
+            counts=state.setdefault('error_attempts',{})
+            counts[q]=counts.get(q,0)+1
+            state['errors']={'query':q,'message':str(e),'attempt':counts[q]}
+            # Failed queries are not discarded silently. After three independent
+            # scheduled invocations they become blocked and the rest can proceed.
+            if counts[q]>=3:
+                state['results'][q]={'status':'blocked','reason':str(e),
+                                     'attempts':counts[q],'coverage_proven':False}
+                state['queue'].pop(0)
             save_state(state_path,state)
-            print('STOP (no retry):',q,type(e).__name__,str(e),flush=True)
+            print('STOP (no burst retry):',q,type(e).__name__,str(e),flush=True)
             break
         save_state(state_path,state)
     summary={'requests_this_run':used,'pending':len(state['queue']),
