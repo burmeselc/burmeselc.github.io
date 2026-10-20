@@ -40,5 +40,7 @@ jobs:
           git add thai-alalc/data/sealang-shards/ thai-alalc/data/sealang-crawl-state.json thai-alalc/data/alalc-candidate-audit.json thai-alalc/dictionary.json
           if git diff --cached --quiet; then echo 'No changes'; else
             git commit -m 'Import controlled Thai pilot batch and generate candidate audit'
+            git fetch origin feature/thai-sealang-autosplit-phonology-20261020
+            git rebase origin/feature/thai-sealang-autosplit-phonology-20261020
             git push origin HEAD:feature/thai-sealang-autosplit-phonology-20261020
           fi
