@@ -24,6 +24,10 @@
 <p id="result-status" class="result-status" aria-live="polite"></p>
 <div id="candidates" class="candidate-panel" hidden><h3>綴りの候補</h3><p class="candidate-help">候補を選ぶと上の変換結果が更新されます。意味は選択の参考情報です。</p><div id="candidate-list"></div></div>
 </section>
+<section class="workspace lexical-workspace"><details id="lexical-details">
+<summary>辞書による語彙分割候補（試験版）</summary>
+<p class="detail-note">SEAlangの語彙項目から最大3通りの切り分けを提示します。<strong>これは語彙境界の候補であり、ALA-LCの43項目の分かち書き規則を適用した結果ではありません。</strong> 字の上にカーソルを置くと意味と出典IDを確認できます。</p>
+<div id="lexical-suggestions" aria-live="polite"></div></details></section>
 <section class="workspace"><details><summary>辞書データの追加（このタブ内だけ）</summary>
 <p class="detail-note">CSVまたはJSONの辞書を読み込めます。CSV列名：<code>thai,alalc,meaning,ipa,source,status</code>。読み込んだデータは外部へ送信されず、ページを閉じると失はれます。</p>
 <input type="file" id="import-dictionary" accept=".csv,.json,text/csv,application/json">

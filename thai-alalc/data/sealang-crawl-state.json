@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "queue": [],
+  "results": {
+    "กก.*": {
+      "status": "fetched",
+      "reported_hits": 12,
+      "parsed_records": 10,
+      "file": "e20c207fd020f345.csv",
+      "sha256": "9f9c3bd8648e7b51e9ca6939c97beb3c54c604055ada7bc65a7c36ac40b67a62",
+      "coverage_proven": false
+    },
+    "กว.*": {
+      "status": "fetched",
+      "reported_hits": 145,
+      "parsed_records": 103,
+      "file": "2634fba39f173c41.csv",
+      "sha256": "698c0c0ed7a366b28f886a009b789440d8a06bf68324263639a5bc616fb99df4",
+      "coverage_proven": false
+    },
+    "กะ.*": {
+      "status": "fetched",
+      "reported_hits": 170,
+      "parsed_records": 131,
+      "file": "cf42c03ee22d09d0.csv",
+      "sha256": "df0f3ca44d9a93ce3115e0045046caa9c354893993e9bd6f2760e9f203225ed4",
+      "coverage_proven": false
+    },
+    "กระด.*": {
+      "status": "fetched",
+      "reported_hits": 335,
+      "parsed_records": 285,
+      "file": "f4de093c4490fec3.csv",
+      "sha256": "7f5e6dfc3939de2607fb2404ba260eac25c034531e983df6d15cdeac19ddb3b3",
+      "coverage_proven": false
+    },
+    "กำ.*": {
+      "status": "fetched",
+      "reported_hits": 305,
+      "parsed_records": 231,
+      "file": "b6e3705218352245.csv",
+      "sha256": "c7b6efc8e6d574fc06deecb5e6dba8a13d84889bdcd0eb81138ab3d0058e6c86",
+      "coverage_proven": false
+    },
+    "ขำ.*": {
+      "status": "fetched",
+      "reported_hits": 5,
+      "parsed_records": 4,
+      "file": "8ee106ce32b367b3.csv",
+      "sha256": "4075f480e9a35e1b31219409bb3eaa92e62ae8dd68a618c55a94c4c1d5e16986",
+      "coverage_proven": false
+    }
+  },
+  "coverage_proven": false,
+  "limitations": [
+    "SEAlang native-orthography regex matches substrings, not necessarily prefixes.",
+    "Anchored end-of-word and character-class syntax did not behave as standard regex.",
+    "Suffix-refinement searches do not cover all possible character continuations or words ending at the prefix.",
+    "No count of all distinct headwords is available for an exhaustiveness audit."
+  ]
+}

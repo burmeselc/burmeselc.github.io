@@ -1,18 +1,19 @@
 import {romanizeThai} from './romanizer.mjs';
+import {indexThaiLexicon,suggestLexicalSegments} from './lexical-segmenter.mjs';
 /* Rule-first Thai→ALA-LC; dictionary-first ALA-LC→Thai. Client-side only. */
 const input=document.querySelector('#input'),output=document.querySelector('#result');
 const resultStatus=document.querySelector('#result-status'), dictionaryStatus=document.querySelector('#dictionary-status');
 const candidatePanel=document.querySelector('#candidates'),candidateList=document.querySelector('#candidate-list');
 const inputTitle=document.querySelector('#input-title'),modes=document.querySelectorAll('[data-mode]');
 let entries=[],mode='forward',tokens=[],forwardResult={tokens:[],text:'',guessed:0,unresolved:0,reviewed:0,needsReview:0};
-let byThai=new Map(),byRoman=new Map();
+let byThai=new Map(),byRoman=new Map(),lexiconIndex=new Map();
 const safe=v=>String(v??'').normalize('NFC').trim();
 const canon=v=>safe(v).replace(/[’'ʼʾ]/g,'‘').replace(/\s+/g,' ').toLocaleLowerCase('en');
 const THAI=/[\u0e00-\u0e7f]/u,ROMAN=/[A-Za-zÀ-žǍ-ǿưƯœŒæÆ‘\p{M}]/u;
 const ranking={reviewed:0,tentative:1,unresolved:2};
 const prefer=(a,b)=>(ranking[a.status]??2)-(ranking[b.status]??2);
 function reindex(){
-  byThai=new Map();byRoman=new Map();
+  byThai=new Map();byRoman=new Map();lexiconIndex=indexThaiLexicon(entries);
   for(const e of entries){
     const a=e.thai[0];if(!byThai.has(a))byThai.set(a,[]);byThai.get(a).push(e);
     if(e.alalc){const r=canon(e.alalc)[0];if(!byRoman.has(r))byRoman.set(r,[]);byRoman.get(r).push(e);}
@@ -23,6 +24,8 @@ function addEntries(items){
  if(!Array.isArray(items))throw Error('辞書データは配列でなければなりません。');
  const normalized=items.filter(x=>x&&typeof x.thai==='string'&&x.thai.trim())
  .map(x=>({thai:safe(x.thai),alalc:safe(x.alalc),meaning:safe(x.meaning),ipa:safe(x.ipa),source:safe(x.source),
+ source_id:safe(x.source_id),web_rank:safe(x.web_rank),pos:safe(x.pos),
+ senses:Array.isArray(x.senses)?x.senses:[],roman_evidence:safe(x.roman_evidence),
  status:['reviewed','tentative','unresolved'].includes(x.status)?x.status:'unresolved'}));
  const map=new Map(entries.map(x=>[JSON.stringify([x.thai,x.alalc,x.meaning]),x]));
  normalized.forEach(x=>map.set(JSON.stringify([x.thai,x.alalc,x.meaning]),x));
@@ -102,7 +105,41 @@ function showForwardEditor(index){
  candidateList.append(label,control,ok);
  control.focus();control.select();
 }
+function renderLexicalCandidates(){
+ const panel=document.querySelector('#lexical-details');
+ const target=document.querySelector('#lexical-suggestions');
+ panel.hidden=mode!=='forward';
+ if(mode!=='forward')return;
+ target.replaceChildren();
+ const raw=input.value;
+ if(!raw.trim()){
+   target.textContent='タイ文字を入力すると辞書の語彙境界候補が表示されます。';
+   return;
+ }
+ const analysis=suggestLexicalSegments(raw,lexiconIndex,{topK:3});
+ if(analysis.truncated){
+   target.textContent='長文の自動分割表示は300文字までです。変換自体は続行できます。';
+   return;
+ }
+ for(const [i,analysisRow] of analysis.candidates.entries()){
+   const row=document.createElement('div');row.className='lexical-row';
+   const label=document.createElement('span');
+   label.className='lexical-label';label.textContent='候補 '+(i+1);row.append(label);
+   const tokens=document.createElement('div');tokens.className='lexical-tokens';
+   for(const token of analysisRow.tokens){
+     const span=document.createElement('span');
+     span.className=token.kind==='lexicon'?'lexical-match':
+       token.kind==='unmatched'?'lexical-miss':'lexical-literal';
+     span.textContent=token.thai;
+     if(token.kind==='lexicon')span.title=(token.pos?token.pos+' · ':'')+(token.meaning||'')+
+       (token.source_id?' · '+token.source_id:'');
+     tokens.append(span);
+   }
+   row.append(tokens);target.append(row);
+ }
+}
 function renderForward(){
+ renderLexicalCandidates();
  output.replaceChildren();output.classList.remove('thai-result');
  if(!input.value){
   output.textContent='入力すると規則に基づくALA-LC候補を表示します。';
@@ -152,6 +189,7 @@ function renderSearch(){
  resultStatus.textContent=found.length+' 件表示（最大75件）。クリックすると翻字をコピーします。';
 }
 function render(){candidatePanel.hidden=true;
+ document.querySelector('#lexical-details').hidden=mode!=='forward';
  if(mode==='search'){renderSearch();return;}
  if(mode==='forward'){forwardResult=romanizeThai(input.value,entries);renderForward();return;}
  tokens=tokenize(input.value);renderResult();

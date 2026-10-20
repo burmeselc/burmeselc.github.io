@@ -29,8 +29,11 @@ jobs:
         run: |
           node --check thai-alalc/app.js
           node --check thai-alalc/romanizer.mjs
+          node --check thai-alalc/lexical-segmenter.mjs
       - name: Rule-based Thai romanization tests
-        run: node --test thai-alalc/tests/romanizer.test.mjs
+        run: |
+          node --test thai-alalc/tests/romanizer.test.mjs
+          node --test thai-alalc/tests/lexical-segmenter.test.mjs
       - name: Validate data
         run: |
           python - <<'PY'

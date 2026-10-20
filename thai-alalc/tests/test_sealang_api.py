@@ -5,11 +5,12 @@ from pathlib import Path
 BASE=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(BASE/'scripts'))
 from sealang_api_thai import parse_document,make_url
+from sealang_crawl import expand_query,split_overflow,new_state,FOLLOWING
 
 EXAMPLE='''<!DOCTYPE html><html><body>2 items found
 <entry orthTarget="ณ"><formx id="TDP:6410">
-<orth type="head">ณ</orth><pron written="ná">náʔ</pron></formx>
-<sense n="1"><def>at, in</def></sense>
+<orth type="head">ณ</orth><span>(<b>WebRank:</b>2)</span><pron written="ná">náʔ</pron></formx>
+<sense n="1"><pos>Pp</pos><def>at, in</def></sense>
 <sense n="2"><def>element in surnames</def></sense></entry>
 <subentry orthTarget="ณ บัดนี้"><formx id="TDP:6414">
 <orth type="head">ณ บัดนี้</orth><pron written="ná bàt níi">ná bàt níi</pron></formx>
@@ -24,6 +25,10 @@ class SEAlangParserTests(unittest.TestCase):
         self.assertEqual(rows[0]['thai'],'ณ')
         self.assertEqual(rows[0]['meaning'],'at, in; element in surnames')
         self.assertEqual(rows[0]['source_id'],'TDP:6410')
+        self.assertEqual(rows[0]['web_rank'],'2')
+        self.assertEqual(rows[0]['pos'],'Pp')
+        self.assertEqual(len(__import__('json').loads(rows[0]['senses_json'])),2)
+        self.assertEqual(__import__('json').loads(rows[0]['senses_json'])[0]['definitions'],['at, in'])
         self.assertEqual(rows[1]['thai'],'ณ บัดนี้')
         self.assertEqual(rows[1]['ipa'],'ná bàt níi')
     def test_no_empty_glosses(self):
@@ -34,6 +39,18 @@ class SEAlangParserTests(unittest.TestCase):
         data=b"Content-type: text/html\nExcessive number of hits (14408, limit 2400).  Try again."
         with self.assertRaisesRegex(ValueError,'2400'):
             parse_document(data,'ก.*')
+    def test_overflow_queue_resumes_and_preserves_uncertainty(self):
+        state=new_state()
+        children=split_overflow(state,{'query':'ก.*','depth':0},14408,2400,1)
+        self.assertEqual(children,len(FOLLOWING))
+        self.assertEqual(state['results']['ก.*']['status'],'overflow')
+        self.assertFalse(state['coverage_proven'])
+        self.assertTrue(state['queue'][0]['query'].startswith('ก'))
+        self.assertEqual(expand_query('ก.*',1,1),[])
+    def test_query_split_not_claimed_exhaustive(self):
+        state=new_state()
+        self.assertTrue(any('not' in x.lower() or 'no ' in x.lower()
+                            for x in state['limitations']))
     def test_url_encoding(self):
         self.assertIn('lang=Thai',make_url('ณ.*'))
         self.assertIn('%E0%B8%93',make_url('ณ.*'))

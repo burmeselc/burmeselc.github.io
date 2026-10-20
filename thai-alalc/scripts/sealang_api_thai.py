@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 BASE=Path(__file__).resolve().parents[1]
 API="https://sealang.net/api/api.pl"
 HEADERS={"User-Agent":"ThaiALALC-AcademicLexicon/0.2 (approved reuse; GitHub research project)"}
-FIELDNAMES=["thai","meaning","ipa","source","source_id","query"]
+FIELDNAMES=["thai","meaning","ipa","pron_display","pos","senses_json","web_rank","lexical_level","source","source_id","query"]
 THAI_RE=re.compile(r"[\u0E00-\u0E7F]")
 COUNT_RE=re.compile(r"(\d[\d,]*)\s+items\s+found",re.I)
 CHARS="กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮเแโใไ"
@@ -47,14 +47,30 @@ def parse_document(data:bytes,query:str):
         pron=info.find("pron")
         ipa=pron.get("written","").strip() if pron else ""
         if pron is not None and not ipa:ipa=pron.get_text(" ",strip=True)
-        senses=tag.find_all("def")
-        meanings=list(dict.fromkeys(x.get_text(" ",strip=True) for x in senses
-                                    if x.get_text(" ",strip=True)))
-        if not meanings:continue
+        sense_records=[]
+        for sense in tag.find_all("sense",recursive=False):
+            defs=[d.get_text(" ",strip=True) for d in sense.find_all("def")]
+            defs=[d for d in defs if d]
+            if not defs:continue
+            pos=[p.get_text(" ",strip=True) for p in sense.find_all("pos")]
+            sense_records.append({"n":sense.get("n",""),"pos":pos,
+                                  "definitions":defs})
+        # Preserve every sense and POS independently; a combined gloss is for
+        # backwards-compatible search only, not the authoritative data.
+        if not sense_records:continue
+        meanings=list(dict.fromkeys(
+            d for sense in sense_records for d in sense["definitions"]))
         source_id=info.get("id","").strip()
         prefix=source_id.split(":",1)[0] if source_id else "unknown"
+        rank_match=re.search(r"WebRank:\s*(\d+)",info.get_text(" ",strip=True))
+        pron_display=pron.get_text(" ",strip=True) if pron else ""
         rows.append({"thai":thai,"meaning":"; ".join(meanings),
-                     "ipa":ipa,"source":"SEAlang Thai / "+prefix,
+                     "ipa":ipa,"pron_display":pron_display,
+                     "pos":"; ".join(dict.fromkeys(p for entry in sense_records for p in entry["pos"])),
+                     "senses_json":json.dumps(sense_records,ensure_ascii=False),
+                     "web_rank":rank_match.group(1) if rank_match else "",
+                     "lexical_level":tag.name,
+                     "source":"SEAlang Thai / "+prefix,
                      "source_id":source_id,"query":query})
     seen=set();unique=[]
     for row in rows:
