@@ -84,6 +84,14 @@ The SEAlang `pron written` field is a phonetic transcription, not the ALA-LC rom
 
 `lexical-segmenter.mjs` proposes up to three dictionary-based segmentation paths using a small, bounded dynamic program and a coarse WebRank preference. The web app displays these inside a closed-by-default details panel. This analysis does not set the ALA-LC spacing in the transliteration output. Headwords and subentries can themselves be multiword Thai phrases, and word-division conventions differ from lexical boundaries. Large input (>300 code units) has no segmentation preview, but romanization continues.
 
+## Autonomous remaining-lexicon sweep (2026-10-20)
+
+A **GitHub Actions-only** `Thai SEAlang autonomous bulk sweep` has been added. After this workflow is merged into `main`, its initial push-triggered job seeds searches for Thai consonants, plus initial-position vowels (`เ แ โ ใ ไ`), and makes at most **six** remote requests. Subsequent scheduled jobs run at **00:11, 06:11, 12:11 and 18:11 UTC** (09:11/15:11/21:11/03:11 JST) and issue at most **24** additional remote requests per run. All individual requests are separated by **20 seconds or more**, respecting a higher robots.txt crawl delay where applicable. The workflow serializes against the manual SEAlang importer and obeys a bounded 12,000-query discovery budget, maximum refinement depth 2, 8MB/request, and a three-attempt failure quarantine. It preserves the crawl queue in `data/sealang-crawl-state.json`, the source data as CSV shards, and the latest public status in `data/sweep-progress.json`.
+
+The automatic process **does not guarantee a complete copy of SEAlang**: the server matches Thai character substrings, not verified word-initial prefixes, and the usual regex anchor and character-class semantics are not available. When the remaining queue drains, scheduled checks become no-ops, but a drained queue does not prove coverage. To stop further remote requests at any point, disable the `Thai SEAlang autonomous bulk sweep` workflow under GitHub → Actions, or remove its schedule. The workflow does not use the user's PC or submit workplace text to SEAlang.
+
+For a genuinely complete dataset, obtaining a one-time bulk export from SEAlang remains preferable. The SEAlang academic permission and permission to republish were affirmed by the project owner. Source IDs and attribution are retained. Generated ALA-LC readings remain tentative pending orthographic/phonological alignment and review.
+
 ## Repository maintenance
 
 Keep raw HTML and non-approved sources out of the repository. The CSV shard files contain the transferred entry text and are intentionally versioned to make changes auditable. Never commit browser input, account credentials, or private catalog records.

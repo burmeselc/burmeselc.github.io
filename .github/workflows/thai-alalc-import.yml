@@ -21,6 +21,9 @@ on:
         type: boolean
         required: true
         default: false
+concurrency:
+  group: thai-sealang-server-throttled-import
+  cancel-in-progress: false
 permissions:
   contents: read
 jobs:

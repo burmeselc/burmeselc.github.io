@@ -1,0 +1,96 @@
+name: Thai SEAlang autonomous bulk sweep
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/thai-sealang-auto-sweep.yml'
+  schedule:
+    - cron: '11 0,6,12,18 * * *'
+  workflow_dispatch:
+    inputs:
+      request_limit:
+        description: 'Queries this run (1–30, 20+ seconds between requests)'
+        required: false
+        default: '24'
+        type: choice
+        options: ['6', '12', '24', '30']
+
+concurrency:
+  group: thai-sealang-server-throttled-import
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+      pages: write
+    env:
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dictionary parser
+        run: python -m pip install beautifulsoup4
+      - name: Decide whether the bounded sweep has pending work
+        id: active
+        working-directory: thai-alalc
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,os,sys
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          from sealang_crawl import FIRST_CHARS
+          p=Path('data/sealang-crawl-state.json')
+          s=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+          complete=bool(s.get('results')) and not s.get('queue') and all(
+             x+'.*' in s['results'] for x in set(FIRST_CHARS))
+          print('Remaining queue:',len(s.get('queue',[])),'terminal:',complete)
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
+              f.write('needed='+('false' if complete else 'true')+'\n')
+          PY
+      - name: Fetch limited batch, resume queue, generate dictionary and progress
+        if: steps.active.outputs.needed == 'true'
+        working-directory: thai-alalc
+        shell: bash
+        env:
+          MAX_REQUESTS: ${{ github.event_name == 'push' && '6' || github.event.inputs.request_limit || '24' }}
+        run: |
+          python scripts/sealang_crawl.py --all-initials --max-requests "$MAX_REQUESTS" --max-depth 2 --delay 20 --legacy-tls --run --permission-confirmed
+          python scripts/build_dictionary.py --source data/sealang-shards/
+          python scripts/audit_candidates.py --size 150
+          python scripts/report_sweep.py
+      - name: Validate and check for regression
+        if: steps.active.outputs.needed == 'true'
+        run: |
+          python -m unittest discover -s thai-alalc/tests -v
+          node --check thai-alalc/app.js
+          node --test thai-alalc/tests/romanizer.test.mjs thai-alalc/tests/lexical-segmenter.test.mjs
+      - name: Save progress and dictionary (without overwriting other commits)
+        if: steps.active.outputs.needed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add thai-alalc/data/sealang-shards thai-alalc/data/sealang-crawl-state.json thai-alalc/data/sweep-progress.json thai-alalc/data/alalc-candidate-audit.json thai-alalc/dictionary.json
+          if git diff --cached --quiet; then echo 'No new dictionary changes'; exit 0; fi
+          git commit -m 'Continue authorized SEAlang Thai dictionary sweep'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+      - name: Request Pages rebuild for bot-authored commit
+        if: steps.active.outputs.needed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
