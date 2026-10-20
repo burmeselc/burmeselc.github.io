@@ -2,131 +2,6 @@
   "version": 1,
   "queue": [
     {
-      "query": "ง.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "จ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฉ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ช.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ซ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฌ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ญ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฎ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฏ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฐ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฑ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฒ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ณ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ด.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ต.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ถ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ท.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ธ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "น.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "บ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ป.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ผ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฝ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "พ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
-      "query": "ฟ.*",
-      "depth": 0,
-      "parent": null
-    },
-    {
       "query": "ภ.*",
       "depth": 0,
       "parent": null
@@ -1385,6 +1260,2771 @@
       "query": "ค๛.*",
       "depth": 1,
       "parent": "ค.*"
+    },
+    {
+      "query": "ชก.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชข.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฃ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชค.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฅ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฆ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชง.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชจ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฉ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชช.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชซ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฌ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชญ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฎ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฏ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฐ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฑ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฒ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชณ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชด.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชต.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชถ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชท.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชธ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชน.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชบ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชป.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชผ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฝ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชพ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฟ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชภ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชม.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชย.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชร.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฤ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชล.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฦ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชว.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชศ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชษ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชส.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชห.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฬ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชอ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฮ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชะ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชั.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชา.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชำ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชิ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชี.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชึ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชื.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชุ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชู.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชฺ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช฻.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช฼.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช฽.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช฾.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช฿.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชเ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชแ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชโ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชใ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชไ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชๅ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช็.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช่.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช้.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช๊.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช๋.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช์.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ชํ.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช๎.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช๏.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช๚.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ช๛.*",
+      "depth": 1,
+      "parent": "ช.*"
+    },
+    {
+      "query": "ตก.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตข.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฃ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตค.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฅ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฆ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตง.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตจ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฉ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตช.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตซ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฌ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตญ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฎ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฏ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฐ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฑ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฒ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตณ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตด.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตต.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตถ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตท.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตธ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตน.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตบ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตป.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตผ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฝ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตพ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฟ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตภ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตม.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตย.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตร.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฤ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตล.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฦ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตว.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตศ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตษ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตส.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตห.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฬ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตอ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฮ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตะ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตั.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตา.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตำ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ติ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตี.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตึ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตื.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตุ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตู.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตฺ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต฻.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต฼.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต฽.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต฾.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต฿.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตเ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตแ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตโ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตใ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตไ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตๅ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต็.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต่.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต้.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต๊.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต๋.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต์.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ตํ.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต๎.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต๏.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต๚.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ต๛.*",
+      "depth": 1,
+      "parent": "ต.*"
+    },
+    {
+      "query": "ทก.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทข.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฃ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทค.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฅ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฆ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทง.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทจ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฉ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทช.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทซ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฌ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทญ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฎ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฏ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฐ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฑ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฒ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทณ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทด.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทต.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทถ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทท.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทธ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทน.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทบ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทป.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทผ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฝ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทพ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฟ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทภ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทม.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทย.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทร.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฤ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทล.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฦ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทว.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทศ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทษ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทส.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทห.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฬ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทอ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฮ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทะ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทั.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทา.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทำ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทิ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ที.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทึ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทื.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทุ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทู.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทฺ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท฻.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท฼.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท฽.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท฾.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท฿.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทเ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทแ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทโ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทใ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทไ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทๅ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท็.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท่.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท้.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท๊.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท๋.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท์.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ทํ.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท๎.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท๏.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท๚.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "ท๛.*",
+      "depth": 1,
+      "parent": "ท.*"
+    },
+    {
+      "query": "นก.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นข.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฃ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นค.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฅ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฆ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นง.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นจ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฉ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นช.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นซ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฌ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นญ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฎ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฏ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฐ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฑ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฒ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นณ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นด.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นต.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นถ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นท.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นธ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นน.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นบ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นป.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นผ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฝ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นพ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฟ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นภ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นม.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นย.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นร.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฤ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นล.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฦ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นว.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นศ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นษ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นส.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นห.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฬ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นอ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฮ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นะ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นั.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นา.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นำ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นิ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นี.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นึ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นื.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นุ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นู.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นฺ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น฻.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น฼.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น฽.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น฾.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น฿.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นเ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นแ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นโ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นใ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นไ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นๅ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น็.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น่.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น้.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น๊.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น๋.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น์.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "นํ.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น๎.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น๏.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น๚.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "น๛.*",
+      "depth": 1,
+      "parent": "น.*"
+    },
+    {
+      "query": "ปก.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปข.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฃ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปค.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฅ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฆ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปง.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปจ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฉ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปช.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปซ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฌ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปญ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฎ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฏ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฐ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฑ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฒ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปณ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปด.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปต.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปถ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปท.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปธ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปน.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปบ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปป.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปผ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฝ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปพ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฟ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปภ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปม.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปย.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปร.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฤ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปล.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฦ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปว.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปศ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปษ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปส.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปห.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฬ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปอ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฮ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปะ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปั.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปา.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปำ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปิ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปี.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปึ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปื.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปุ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปู.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปฺ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป฻.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป฼.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป฽.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป฾.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป฿.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปเ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปแ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปโ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปใ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปไ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปๅ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป็.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป่.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป้.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป๊.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป๋.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป์.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ปํ.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป๎.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป๏.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป๚.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ป๛.*",
+      "depth": 1,
+      "parent": "ป.*"
+    },
+    {
+      "query": "ผก.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผข.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฃ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผค.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฅ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฆ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผง.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผจ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฉ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผช.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผซ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฌ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผญ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฎ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฏ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฐ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฑ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฒ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผณ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผด.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผต.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผถ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผท.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผธ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผน.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผบ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผป.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผผ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฝ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผพ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฟ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผภ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผม.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผย.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผร.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฤ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผล.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฦ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผว.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผศ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผษ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผส.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผห.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฬ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผอ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฮ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผะ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผั.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผา.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผำ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผิ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผี.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผึ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผื.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผุ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผู.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผฺ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ฻.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ฼.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ฽.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ฾.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ฿.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผเ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผแ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผโ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผใ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผไ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผๅ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ็.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ่.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ้.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ๊.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ๋.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ์.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผํ.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ๎.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ๏.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ๚.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "ผ๛.*",
+      "depth": 1,
+      "parent": "ผ.*"
+    },
+    {
+      "query": "พก.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พข.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฃ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พค.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฅ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฆ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พง.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พจ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฉ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พช.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พซ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฌ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พญ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฎ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฏ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฐ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฑ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฒ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พณ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พด.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พต.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พถ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พท.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พธ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พน.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พบ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พป.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พผ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฝ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พพ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฟ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พภ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พม.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พย.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พร.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฤ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พล.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฦ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พว.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พศ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พษ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พส.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พห.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฬ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พอ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฮ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พะ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พั.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พา.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พำ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พิ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พี.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พึ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พื.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พุ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พู.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พฺ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ฻.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ฼.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ฽.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ฾.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ฿.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พเ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พแ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พโ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พใ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พไ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พๅ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ็.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ่.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ้.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ๊.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ๋.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ์.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พํ.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ๎.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ๏.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ๚.*",
+      "depth": 1,
+      "parent": "พ.*"
+    },
+    {
+      "query": "พ๛.*",
+      "depth": 1,
+      "parent": "พ.*"
     }
   ],
   "results": {
@@ -1479,6 +4119,196 @@
       "parsed_records": 34,
       "file": "26c253eb356766da.csv",
       "sha256": "399cafd11b9801681a9c5bb6c717b4fbd7ddabb1838b0d5230c18d1d2d407cf7",
+      "coverage_proven": false
+    },
+    "ง.*": {
+      "status": "fetched",
+      "reported_hits": 546,
+      "parsed_records": 411,
+      "file": "2e786844d5d2fe21.csv",
+      "sha256": "371fd91c098debb96d674352a291483c4f67fc673434cb07afb8acd7400cbec9",
+      "coverage_proven": false
+    },
+    "จ.*": {
+      "status": "fetched",
+      "reported_hits": 2112,
+      "parsed_records": 1599,
+      "file": "8528ab84fb80eb24.csv",
+      "sha256": "0a93eaf93fb164d6753179424a4edfbcb24d8f862f0f9521fb5a0455e9e8ae1e",
+      "coverage_proven": false
+    },
+    "ฉ.*": {
+      "status": "fetched",
+      "reported_hits": 360,
+      "parsed_records": 272,
+      "file": "63f0007713e61772.csv",
+      "sha256": "bc6d717bbc6f1750641b728faceadbbba67436575255e3409642f96ca4ddc9c0",
+      "coverage_proven": false
+    },
+    "ช.*": {
+      "status": "overflow",
+      "hits": 2576,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "ซ.*": {
+      "status": "fetched",
+      "reported_hits": 651,
+      "parsed_records": 518,
+      "file": "e6022c3dd893360e.csv",
+      "sha256": "9c088f556a265ca6b4645729438011e6ae0c2a1c0fdbeae0b8c533f31fb55405",
+      "coverage_proven": false
+    },
+    "ฌ.*": {
+      "status": "fetched",
+      "reported_hits": 10,
+      "parsed_records": 6,
+      "file": "c648667222e1da82.csv",
+      "sha256": "59d50b8912186ae4a11fc02c180b8c54bfbb413f2919284f8c5f56a12a6e5067",
+      "coverage_proven": false
+    },
+    "ญ.*": {
+      "status": "fetched",
+      "reported_hits": 74,
+      "parsed_records": 55,
+      "file": "b1ab02bd13d821a4.csv",
+      "sha256": "ca3cf698f2f7e464fde3f60aeaf72025783497e488cb1c31d1ecd8afceb23019",
+      "coverage_proven": false
+    },
+    "ฎ.*": {
+      "status": "fetched",
+      "reported_hits": 6,
+      "parsed_records": 4,
+      "file": "d0a380c86257a99f.csv",
+      "sha256": "cc4a535af8974c4cc8ece0d03993e0faf1ec2fb0c7d8d19010938e280facb810",
+      "coverage_proven": false
+    },
+    "ฏ.*": {
+      "status": "fetched",
+      "reported_hits": null,
+      "parsed_records": 1,
+      "file": "398b9f456c2ead20.csv",
+      "sha256": "8029526aea41d058dae3356a4751bd4bb0a5843f1a2c23cc723d52b9fb4e08b8",
+      "coverage_proven": false
+    },
+    "ฐ.*": {
+      "status": "fetched",
+      "reported_hits": 94,
+      "parsed_records": 79,
+      "file": "9d5d3828a0d1ef09.csv",
+      "sha256": "37d1b54349a9440a716e2ba4e39061f6285941feae552e23a68fd0a4a5ea353e",
+      "coverage_proven": false
+    },
+    "ฑ.*": {
+      "status": "fetched",
+      "reported_hits": null,
+      "parsed_records": 1,
+      "file": "90a583f1a4d23357.csv",
+      "sha256": "1642b880d2298a197aad4b7daf2f1e1238bb992b70abfb663593b8e8876d7c70",
+      "coverage_proven": false
+    },
+    "ฒ.*": {
+      "status": "fetched",
+      "reported_hits": null,
+      "parsed_records": 1,
+      "file": "b52d1626f8449dd3.csv",
+      "sha256": "a5037ec886c749e426b8b6c02bc9afd5a256be7c1c627eed95920fcf4dc8e0bf",
+      "coverage_proven": false
+    },
+    "ณ.*": {
+      "status": "cached",
+      "file": "6cf4eacf5151249a.csv",
+      "coverage_proven": false
+    },
+    "ด.*": {
+      "status": "fetched",
+      "reported_hits": 1634,
+      "parsed_records": 1256,
+      "file": "49ea19f5708dd60f.csv",
+      "sha256": "9fc6b4c17973acd80e35cba86d5c079f4bababc0469a2830d6d5d9e1b379650d",
+      "coverage_proven": false
+    },
+    "ต.*": {
+      "status": "overflow",
+      "hits": 4480,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "ถ.*": {
+      "status": "fetched",
+      "reported_hits": 1031,
+      "parsed_records": 778,
+      "file": "4bb018e9357fd76b.csv",
+      "sha256": "80da4a9b638ff96fe86e4a5a7f77ce06037dc13623217fafcd15e36dbe1efdcb",
+      "coverage_proven": false
+    },
+    "ท.*": {
+      "status": "overflow",
+      "hits": 3851,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "ธ.*": {
+      "status": "fetched",
+      "reported_hits": 371,
+      "parsed_records": 295,
+      "file": "21a445d2c9ee9eff.csv",
+      "sha256": "83e7c05ac900098c34d9917c3225514d469af35cafe8c5bcb0247886bdf0e15b",
+      "coverage_proven": false
+    },
+    "น.*": {
+      "status": "overflow",
+      "hits": 3042,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "บ.*": {
+      "status": "fetched",
+      "reported_hits": 2161,
+      "parsed_records": 1715,
+      "file": "e37f1b581a432329.csv",
+      "sha256": "ae0a7c5afb02f67207e48e609dfbdf8b120be90751d51f08e974a0e007a35568",
+      "coverage_proven": false
+    },
+    "ป.*": {
+      "status": "overflow",
+      "hits": 3907,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "ผ.*": {
+      "status": "overflow",
+      "hits": 2402,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "ฝ.*": {
+      "status": "fetched",
+      "reported_hits": 565,
+      "parsed_records": 413,
+      "file": "09c52336e26b6318.csv",
+      "sha256": "63c1bd1152d7cb5f851ca188b258ecdcbcb878c31189c80659d0f0a420f3152a",
+      "coverage_proven": false
+    },
+    "พ.*": {
+      "status": "overflow",
+      "hits": 3234,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "ฟ.*": {
+      "status": "fetched",
+      "reported_hits": 628,
+      "parsed_records": 484,
+      "file": "63baf0f5e7407532.csv",
+      "sha256": "61202d1dee30e00971a1323b8ac438c721276dbcb38fb60fd44699119d85940b",
       "coverage_proven": false
     }
   },
