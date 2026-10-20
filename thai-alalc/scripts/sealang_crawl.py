@@ -23,6 +23,11 @@ ROOT=Path(__file__).resolve().parents[1]
 # First try Thai consonants and preposed vowels, then diacritic/vowel marks.
 # This list is useful for discovery, NOT a proof of a complete regex partition.
 FOLLOWING=''.join(chr(n) for n in range(0x0E01,0x0E5C) if chr(n) not in 'ฯๆ๐๑๒๓๔๕๖๗๘๙')
+# All common Thai word-initial codepoints: consonants + initial-position vowels.
+# Single-character searches are permitted to overflow and will be recorded.
+FIRST_CHARS=''.join(chr(n) for n in range(0x0E01,0x0E2F))+'ฤฦเแโใไ'
+EMPTY_RE=re.compile(r'Nothing found\\.|0\\s+items\\s+found',re.I)
+MAX_QUERY_BUDGET=12000
 CAP_RE=re.compile(r'Excessive number of hits\s*\(([\d,]+),\s*limit\s*([\d,]+)\)',re.I)
 
 def shard_path(directory,query):
@@ -59,11 +64,16 @@ def split_overflow(state,item,hits,limit,max_depth):
     state['results'][q]={'status':'overflow','hits':hits,'limit':limit,
                          'children':len(children),'coverage_proven':False}
     known=set(state['results'])|{x['query'] for x in state['queue']}
+    added=0
     for sub in children:
         if sub not in known:
+            # Hard ceiling avoids unbounded automatic search expansion.
+            if len(known)>=MAX_QUERY_BUDGET:
+                state['results'][q]['expansion_capped']=True
+                break
             state['queue'].append({'query':sub,'depth':item['depth']+1,'parent':q})
-            known.add(sub)
-    return len(children)
+            known.add(sub);added+=1
+    return added
 
 def get_robots(ctx):
     with urllib.request.urlopen(
@@ -77,7 +87,8 @@ def get_robots(ctx):
 def crawl(args,request_fn=request_url,robots_fn=get_robots):
     state_path=args.state
     state=json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else new_state()
-    initialize(state,args.queries)
+    initialize(state,(list(args.queries)+[ch+'.*' for ch in FIRST_CHARS])
+               if getattr(args,'all_initials',False) else args.queries)
     if not args.run:
         print('DRY RUN:',len(state['queue']),'queued; no network requests')
         return state
@@ -86,6 +97,7 @@ def crawl(args,request_fn=request_url,robots_fn=get_robots):
     ctx=ssl._create_unverified_context() if args.legacy_tls else ssl.create_default_context()
     robots=robots_fn(ctx)
     delay=max(20.0,args.delay,float(robots.crawl_delay(HEADERS['User-Agent']) or 0))
+    # Persist and honor a stricter service robots directive each invocation.
     args.directory.mkdir(parents=True,exist_ok=True)
     used=0
     previous=None
@@ -116,7 +128,8 @@ def crawl(args,request_fn=request_url,robots_fn=get_robots):
                 print('OVERFLOW',q,count,'limit',ceiling,'child queries',expanded,flush=True)
             else:
                 records,estimated=parse_document(raw,q)
-                if estimated is None and not records:
+                empty=not records and (estimated==0 or EMPTY_RE.search(raw.decode('utf-8','replace')))
+                if estimated is None and not records and not empty:
                     raise ValueError('Unrecognized API response; not an empty dictionary')
                 tmp=path.with_suffix('.tmp')
                 with tmp.open('w',encoding='utf-8',newline='') as out:
@@ -124,7 +137,7 @@ def crawl(args,request_fn=request_url,robots_fn=get_robots):
                     writer.writeheader();writer.writerows(records)
                 os.replace(tmp,path)
                 state['queue'].pop(0)
-                state['results'][q]={'status':'fetched','reported_hits':estimated,
+                state['results'][q]={'status':'empty' if empty else 'fetched','reported_hits':estimated,
                                      'parsed_records':len(records),'file':path.name,
                                      'sha256':hashlib.sha256(raw).hexdigest(),
                                      'coverage_proven':False}
@@ -138,13 +151,18 @@ def crawl(args,request_fn=request_url,robots_fn=get_robots):
     summary={'requests_this_run':used,'pending':len(state['queue']),
              'completed_queries':sum(x.get('status')=='fetched' for x in state['results'].values()),
              'overflow_queries':sum(x.get('status')=='overflow' for x in state['results'].values()),
+             'failed_query':(state.get('errors') or {}).get('query'),
+             'expansion_capped':sum(bool(x.get('expansion_capped')) for x in state['results'].values()),
              'coverage_proven':False}
     print('SUMMARY',json.dumps(summary,ensure_ascii=False),flush=True)
     return state
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--queries',nargs='+',required=True)
+    p.add_argument('--queries',nargs='*',default=[],
+                   help='Explicit Thai substring search seeds')
+    p.add_argument('--all-initials',action='store_true',
+                   help='Automatically seed every common Thai word-initial character')
     p.add_argument('--state',type=Path,default=ROOT/'data/sealang-crawl-state.json')
     p.add_argument('--directory',type=Path,default=ROOT/'data/sealang-shards')
     p.add_argument('--max-requests',type=int,default=5)
@@ -155,8 +173,9 @@ def main():
     p.add_argument('--legacy-tls',action='store_true')
     p.add_argument('--run',action='store_true')
     args=p.parse_args()
-    if not 1<=args.max_requests<=12:p.error('max-requests must be 1..12')
+    if not 1<=args.max_requests<=30:p.error('max-requests must be 1..30')
     if not 0<=args.max_depth<=3:p.error('max-depth must be 0..3')
+    if not args.queries and not args.all_initials:p.error('Use --queries or --all-initials')
     if args.delay<20:p.error('minimum delay is 20 seconds')
     if not 50000<=args.max_bytes<=12_000_000:p.error('max-bytes is outside 50KB..12MB')
     for q in args.queries:
