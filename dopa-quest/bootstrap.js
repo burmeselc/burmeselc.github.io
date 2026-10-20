@@ -96,7 +96,7 @@
     }
   }
   // Thai textbook pilot: additive deck, never replacing Shan/Burmese IDs or progress.
-  // Two independently validated Thai lessons; no Shan/Burmese data or IDs are modified.
+  // Two independently validated Thai lessons; preserve stable IDs and older progress.
   window.DOPA_DATA.thai=[];
   for(const [lesson,file,count] of [['01','thai-lesson01-pilot.json',55],['02','thai-lesson02-reviewed.json',80]]){
     try{
@@ -105,7 +105,18 @@
       const pilot=await res.json();
       if(pilot.schema!=='dopa-thai-pilot-v1'||pilot.cards?.length!==count||
         new Set(pilot.cards.map(c=>c.id)).size!==count||
-        pilot.cards.some(c=>!new RegExp('^TH-L'+lesson+'-\\d{3} Original shan/burmese arrays and IDs are untouched.
+        pilot.cards.some(c=>!new RegExp('^TH-L'+lesson+'-\\d{3}$').test(c.id)||
+          c.lesson!==lesson||!c.thai||!c.japanese||!c.romanization_draft||
+          c.visual_review!=='user_confirmed_2026-10-20'))
+        throw Error(file+' integrity failed');
+      const offset=window.DOPA_DATA.thai.length;
+      window.DOPA_DATA.thai.push(...pilot.cards.map((c,i)=>({
+        ...c,japanese_core:c.japanese,order:offset+i+1,
+        game_pos:c.card_type,game_include:1
+      })));
+    }catch(error){console.warn('Optional Thai lesson disabled: '+file,error)}
+  }
+  // Experimental, opt-in Shan sense cards. Original shan/burmese arrays and IDs are untouched.
   window.DOPA_SENSE_READY=false;
   try{
     const manifestResponse=await fetch('./data/shan-senses-manifest.json',{cache:'no-cache'});
