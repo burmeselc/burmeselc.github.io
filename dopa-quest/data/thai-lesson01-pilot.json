@@ -1,7 +1,7 @@
 {
   "schema": "dopa-thai-pilot-v1",
   "status": "isolated_trial",
-  "note": "55 entries copied from user-supplied CSV. Visual proofreading confirmed by user; source-specific phonetic notation still to be checked.",
+  "note": "All lesson 1 entries reviewed manually by user on 2026-10-20; original stable IDs retained.",
   "cards": [
     {
       "id": "TH-L01-001",
@@ -13,9 +13,9 @@
       "lesson": "01",
       "semantic_tag": "挨拶",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-002",
@@ -27,23 +27,23 @@
       "lesson": "01",
       "semantic_tag": "待遇表現",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-003",
       "thai": "โทษนะ",
-      "romanization_draft": "thôot ná",
+      "romanization_draft": "thôot náʔ",
       "japanese": "すみません（軽い呼びかけ）",
       "card_type": "phrase",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "呼びかけ",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-004",
@@ -55,79 +55,79 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-005",
       "thai": "ชื่อ",
-      "romanization_draft": "chûu",
+      "romanization_draft": "chɯ̂ɯ",
       "japanese": "名前",
       "card_type": "word",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "自己紹介",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-006",
       "thai": "อะไร",
-      "romanization_draft": "à-rai",
+      "romanization_draft": "ʔà-rai",
       "japanese": "何",
       "card_type": "word",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "疑問詞",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-007",
       "thai": "ดิฉัน",
-      "romanization_draft": "dì-chǎn",
+      "romanization_draft": "di-chán",
       "japanese": "私（女性・丁寧）",
       "card_type": "word",
       "priority": "B",
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-008",
       "thai": "ค่ะ",
-      "romanization_draft": "khâ",
+      "romanization_draft": "khâʔ",
       "japanese": "女性話者の丁寧語尾（平叙など）",
       "card_type": "particle",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "待遇表現",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-009",
       "thai": "คะ",
-      "romanization_draft": "khá",
+      "romanization_draft": "kháʔ",
       "japanese": "女性話者の丁寧語尾（疑問など）",
       "card_type": "particle",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "待遇表現",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-010",
@@ -139,37 +139,37 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-011",
       "thai": "ชื่อเล่น",
-      "romanization_draft": "chûu-lên",
+      "romanization_draft": "chɯ̂ɯ-lên",
       "japanese": "愛称・ニックネーム",
       "card_type": "word",
       "priority": "B",
       "lesson": "01",
       "semantic_tag": "自己紹介",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-012",
       "thai": "ล่ะ",
-      "romanization_draft": "lâ",
+      "romanization_draft": "lâʔ",
       "japanese": "〜は？（話題を返して尋ねる）",
       "card_type": "particle",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "疑問・話題",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-013",
@@ -181,9 +181,9 @@
       "lesson": "01",
       "semantic_tag": "挨拶",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-014",
@@ -195,9 +195,9 @@
       "lesson": "01",
       "semantic_tag": "応答",
       "source_page": "23",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-015",
@@ -209,9 +209,9 @@
       "lesson": "01",
       "semantic_tag": "挨拶",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-016",
@@ -223,23 +223,23 @@
       "lesson": "01",
       "semantic_tag": "健康・挨拶",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-017",
       "thai": "หรือเปล่า",
-      "romanization_draft": "rǔu-plàaw",
+      "romanization_draft": "rɯ́-plàaw",
       "japanese": "〜かどうか（疑問）",
       "card_type": "particle",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "疑問",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-018",
@@ -251,37 +251,37 @@
       "lesson": "01",
       "semantic_tag": "時間",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-019",
       "thai": "เป็นไง",
-      "romanization_draft": "pen yay",
+      "romanization_draft": "pen ŋay",
       "japanese": "どう・どんな具合",
       "card_type": "phrase",
       "priority": "B",
       "lesson": "01",
       "semantic_tag": "様態・挨拶",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-020",
       "thai": "เรื่อย ๆ",
-      "romanization_draft": "rûay-rûay",
+      "romanization_draft": "rɯ̂ay-rɯ̂ay",
       "japanese": "まあまあ・ぼちぼち",
       "card_type": "phrase",
       "priority": "B",
       "lesson": "01",
       "semantic_tag": "様態",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-021",
@@ -293,9 +293,9 @@
       "lesson": "01",
       "semantic_tag": "移動",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-022",
@@ -307,9 +307,9 @@
       "lesson": "01",
       "semantic_tag": "疑問詞",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-023",
@@ -321,9 +321,9 @@
       "lesson": "01",
       "semantic_tag": "移動",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-024",
@@ -335,9 +335,9 @@
       "lesson": "01",
       "semantic_tag": "食事",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-025",
@@ -349,23 +349,23 @@
       "lesson": "01",
       "semantic_tag": "食事",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-026",
       "thai": "หรือยัง",
-      "romanization_draft": "rǔu-yang",
+      "romanization_draft": "rɯ́-yaŋ",
       "japanese": "もう〜したか",
       "card_type": "phrase",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "アスペクト・疑問",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-027",
@@ -377,23 +377,23 @@
       "lesson": "01",
       "semantic_tag": "アスペクト",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-028",
       "thai": "ยัง",
-      "romanization_draft": "yang",
+      "romanization_draft": "yaŋ",
       "japanese": "まだ",
       "card_type": "particle",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "アスペクト",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-029",
@@ -405,9 +405,9 @@
       "lesson": "01",
       "semantic_tag": "感謝",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-030",
@@ -419,9 +419,9 @@
       "lesson": "01",
       "semantic_tag": "謝罪",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-031",
@@ -433,9 +433,9 @@
       "lesson": "01",
       "semantic_tag": "応答",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-032",
@@ -447,9 +447,9 @@
       "lesson": "01",
       "semantic_tag": "移動",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-033",
@@ -461,23 +461,23 @@
       "lesson": "01",
       "semantic_tag": "時間",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-034",
       "thai": "นะ",
-      "romanization_draft": "ná",
+      "romanization_draft": "náʔ",
       "japanese": "〜ね",
       "card_type": "particle",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "終助詞",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-035",
@@ -489,9 +489,9 @@
       "lesson": "01",
       "semantic_tag": "勧誘",
       "source_page": "30",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-036",
@@ -503,9 +503,9 @@
       "lesson": "01",
       "semantic_tag": "交流",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-037",
@@ -517,9 +517,9 @@
       "lesson": "01",
       "semantic_tag": "修飾",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-038",
@@ -531,9 +531,9 @@
       "lesson": "01",
       "semantic_tag": "様態",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-039",
@@ -545,9 +545,9 @@
       "lesson": "01",
       "semantic_tag": "挨拶",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-040",
@@ -559,23 +559,23 @@
       "lesson": "01",
       "semantic_tag": "挨拶",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-041",
       "thai": "เขา",
-      "romanization_draft": "khǎw",
+      "romanization_draft": "kháw",
       "japanese": "彼・彼女",
       "card_type": "word",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-042",
@@ -587,9 +587,9 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-043",
@@ -601,23 +601,23 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-044",
       "thai": "พวกเขา",
-      "romanization_draft": "phûak-khǎw",
+      "romanization_draft": "phûak-kháw",
       "japanese": "彼ら",
       "card_type": "word",
       "priority": "B",
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-045",
@@ -629,9 +629,9 @@
       "lesson": "01",
       "semantic_tag": "親族・待遇",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-046",
@@ -643,9 +643,9 @@
       "lesson": "01",
       "semantic_tag": "親族・待遇",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-047",
@@ -657,9 +657,9 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-048",
@@ -671,9 +671,9 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-049",
@@ -685,23 +685,23 @@
       "lesson": "01",
       "semantic_tag": "人称",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-050",
       "thai": "อาจารย์",
-      "romanization_draft": "aa-caan",
+      "romanization_draft": "ʔaa-caan",
       "japanese": "先生",
       "card_type": "word",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "研究・教育",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-051",
@@ -713,9 +713,9 @@
       "lesson": "01",
       "semantic_tag": "職業",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-052",
@@ -727,9 +727,9 @@
       "lesson": "01",
       "semantic_tag": "親族・待遇",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-053",
@@ -741,9 +741,9 @@
       "lesson": "01",
       "semantic_tag": "親族・待遇",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-054",
@@ -755,23 +755,23 @@
       "lesson": "01",
       "semantic_tag": "自己紹介",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     },
     {
       "id": "TH-L01-055",
       "thai": "เพื่อน",
-      "romanization_draft": "phûan",
+      "romanization_draft": "phɯ̂an",
       "japanese": "友人",
       "card_type": "word",
       "priority": "A",
       "lesson": "01",
       "semantic_tag": "人間関係",
       "source_page": "31",
-      "verification": "needs_manual_check",
-      "visual_review": "user_confirmed_2026-10-18",
-      "phonetic_system_review": "pending_source_comparison"
+      "verification": "",
+      "visual_review": "user_confirmed_2026-10-20",
+      "phonetic_system_review": "user_confirmed_2026-10-20"
     }
   ]
 }
