@@ -1,11 +1,13 @@
 import unittest
 import sys
+import tempfile
+from types import SimpleNamespace
 from pathlib import Path
 
 BASE=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(BASE/'scripts'))
 from sealang_api_thai import parse_document,make_url
-from sealang_crawl import expand_query,split_overflow,new_state,FOLLOWING
+from sealang_crawl import expand_query,split_overflow,new_state,FOLLOWING,FIRST_CHARS,initialize,crawl
 
 EXAMPLE='''<!DOCTYPE html><html><body>2 items found
 <entry orthTarget="ณ"><formx id="TDP:6410">
@@ -51,6 +53,50 @@ class SEAlangParserTests(unittest.TestCase):
         state=new_state()
         self.assertTrue(any('not' in x.lower() or 'no ' in x.lower()
                             for x in state['limitations']))
+    def test_full_alphabet_seeding_is_deduplicated(self):
+        state=new_state()
+        initialize(state,[c+'.*' for c in FIRST_CHARS])
+        self.assertIn('ก.*',[x['query'] for x in state['queue']])
+        self.assertIn('เ.*',[x['query'] for x in state['queue']])
+        self.assertEqual(len(state['queue']),len(set(FIRST_CHARS)))
+        initialize(state,[c+'.*' for c in FIRST_CHARS])
+        self.assertEqual(len(state['queue']),len(set(FIRST_CHARS)))
+    def test_empty_search_is_cached_and_resume_skips_it(self):
+        class FakeRobots:
+            def crawl_delay(self,agent):return 0
+            def can_fetch(self,agent,url):return True
+        with tempfile.TemporaryDirectory() as dirname:
+            d=Path(dirname)
+            args=SimpleNamespace(state=d/'state.json',directory=d/'shards',
+                queries=['ฬ.*'],all_initials=False,run=True,
+                permission_confirmed=True,legacy_tls=False,max_requests=1,
+                max_depth=1,delay=20,max_bytes=1000000)
+            got=[]
+            def fake(url,ctx,max_bytes):
+                got.append(url)
+                return b'<html>Nothing found.</html>'
+            state=crawl(args,request_fn=fake,robots_fn=lambda ctx:FakeRobots())
+            self.assertEqual(state['queue'],[])
+            self.assertEqual(state['results']['ฬ.*']['status'],'empty')
+            state2=crawl(args,request_fn=fake,robots_fn=lambda ctx:FakeRobots())
+            self.assertEqual(len(got),1)
+            self.assertEqual(state2['queue'],[])
+    def test_overflow_creates_resumable_queue(self):
+        class FakeRobots:
+            def crawl_delay(self,agent):return 0
+            def can_fetch(self,agent,url):return True
+        with tempfile.TemporaryDirectory() as dirname:
+            d=Path(dirname)
+            args=SimpleNamespace(state=d/'state.json',directory=d/'shards',
+                queries=['ก.*'],all_initials=False,run=True,
+                permission_confirmed=True,legacy_tls=False,max_requests=1,
+                max_depth=1,delay=20,max_bytes=1000000)
+            state=crawl(args,
+                request_fn=lambda *unused:b'Excessive number of hits (14408, limit 2400). Try again.',
+                robots_fn=lambda ctx:FakeRobots())
+            self.assertEqual(state['results']['ก.*']['status'],'overflow')
+            self.assertGreater(len(state['queue']),20)
+            self.assertFalse(state['coverage_proven'])
     def test_url_encoding(self):
         self.assertIn('lang=Thai',make_url('ณ.*'))
         self.assertIn('%E0%B8%93',make_url('ณ.*'))
