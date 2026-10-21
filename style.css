@@ -27,8 +27,8 @@
   --warning: #d2a529;
   --info: #4f7898;
   --radius: 6px;
-  --font-jp: "Ryakuji", "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
-  --font-ui: "Ryakuji", "Yu Gothic", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-jp: "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+  --font-ui: var(--font-jp);
   --font-burmese: "Padauk", "Myanmar Text", "Noto Sans Myanmar", sans-serif;
   --font-thai: "Noto Sans Thai", "Leelawadee UI", "Tahoma", sans-serif;
   --font-roman: "Times New Roman", "Noto Serif", serif;
