@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 18226,
+    "unique_lexical_records": 19082,
     "sample_size": 150,
     "counts": {
       "neither": 74,
@@ -23,6 +23,17 @@
       "comparison": "neither",
       "web_rank": "5",
       "pos": "V; ADJ"
+    },
+    {
+      "thai": "ขยายวง",
+      "source_id": "LEX2.0:3249",
+      "pronunciation": "",
+      "meaning": "expand (boundaries), expand (limits)",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "V"
     },
     {
       "thai": "บาทฮิโรอิก",
@@ -89,6 +100,17 @@
       "comparison": "neither",
       "web_rank": "1",
       "pos": ""
+    },
+    {
+      "thai": "ทำขวัญ",
+      "source_id": "TDP:2104",
+      "pronunciation": "tʰam kʰwǎn",
+      "meaning": "to perform a ceremony in order to encourage and strengthen.; to make compensation for injury done (to another).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "tham khwan",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "V"
     },
     {
       "thai": "ลูกทรงกลม",
@@ -496,6 +518,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": ""
+    },
+    {
+      "thai": "ของขลัง",
+      "source_id": "LEX2.0:26287",
+      "pronunciation": "kʰɔ̌ɔŋ kʰlǎŋ",
+      "meaning": "amulet, charm",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khǭng khlang",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
     },
     {
       "thai": "บัญชีเงินสำรอง",
@@ -949,6 +982,17 @@
       "pos": "N"
     },
     {
+      "thai": "ขาตั้งรับรถ",
+      "source_id": "RI:9102",
+      "pronunciation": "",
+      "meaning": "car stand; jack stand; safety stand",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "ทวิภาคี",
       "source_id": "LEX2.0:19731",
       "pronunciation": "tʰá wí pʰaa kʰii",
@@ -1059,6 +1103,17 @@
       "pos": ""
     },
     {
+      "thai": "ขายเสียง",
+      "source_id": "LEX2.0:31814",
+      "pronunciation": "",
+      "meaning": "sell votes",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
       "thai": "วางหู",
       "source_id": "RI:25126",
       "pronunciation": "",
@@ -1156,6 +1211,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "ขวดโหล",
+      "source_id": "TDP:2082",
+      "pronunciation": "kʰùat lǒo",
+      "meaning": "wide-mouthed glass jar with glass stopper.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khuat lō",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "กระจาด",
@@ -1596,72 +1662,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": ""
-    },
-    {
-      "thai": "ดร.",
-      "source_id": "LEX2.0:1322",
-      "pronunciation": "dɔɔn",
-      "meaning": "doctor, Dr.; Dr.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "dǭn",
-      "comparison": "pronunciation_only",
-      "web_rank": "1",
-      "pos": "N"
-    },
-    {
-      "thai": "ดรรชนีกำกับ",
-      "source_id": "RI:13935",
-      "pronunciation": "",
-      "meaning": "subscript",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ยากินคุมกำเนิด",
-      "source_id": "RI:22471",
-      "pronunciation": "",
-      "meaning": "oral contraceptive",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "กระดูกหักบิด",
-      "source_id": "RI:487",
-      "pronunciation": "",
-      "meaning": "spiral fracture; torsion fracture",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ยามปกติ",
-      "source_id": "TDP:10976",
-      "pronunciation": "yaam pòk-ka-tì",
-      "meaning": "normal times.; peacetime.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yām pokkati",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "กระแสเสียง",
-      "source_id": "LEX2.0:24236",
-      "pronunciation": "krà sɛ̌ɛ sǐaŋ",
-      "meaning": "sound, noise; voice; tone, intonation; sound",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kra sǣ siang",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
     }
   ]
 }
