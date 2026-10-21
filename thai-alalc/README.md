@@ -125,3 +125,7 @@ incrementally. Boundary changes update the visible result, clipboard and TXT
 download, without changing source Thai or dictionary files. Joining is disabled
 across punctuation/literal text and unparsed chunks. Changes are local to the
 current input and reset when the input changes; no server-side saving.
+
+## Thai administrative place names (2026-10-22)
+
+A separate orthographic gazetteer, `data/thai-gazetteer.json`, stores 8,441 administrative names: 77 province-level units (including Bangkok), 928 districts and 7,436 subdistricts. Derived from [DevelopedbyWill/thailand-canonical-admin-names](https://github.com/DevelopedbyWill/thailand-canonical-admin-names), v1.0.0, under **CC BY 4.0**; original Thai-script forms and administration codes are retained, with attribution. English RTGS spellings are **not** substituted as ALA-LC romanizations. The expandable lexical-segmentation panel identifies geographic names separately; this lexical recognition does not certify romanization or alter spacing automatically. Geographic category-specific result coloring is intentionally deferred.
