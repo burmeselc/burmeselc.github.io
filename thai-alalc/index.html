@@ -6,7 +6,7 @@
 <header class="page-header thai-header">
 <nav class="breadcrumb"><a href="../index.html">← burmeselc / Tools</a></nav>
 <p class="kicker">THAI · ROMANIZATION · 2011</p><h1>Thai ALA-LC Converter</h1>
-<p class="note">タイ文字→ALA-LCは規則による自動翻字が中心です。辞書にない綴りも候補を生成し、青い候補をクリックして修正できます。ALA-LC→タイ文字は辞書から複数候補を選択します。</p>
+<p class="note">タイ文字→ALA-LCは規則による自動翻字が中心です。辞書にない綴りも候補を生成し、結果の各語をタップして翻字修正・隣接語との結合・結合解除ができます。ALA-LC→タイ文字は辞書から複数候補を選択します。</p>
 </header>
 <div class="mode-group" role="tablist" aria-label="変換方向">
 <button class="mode is-active" type="button" data-mode="forward" role="tab" aria-selected="true">タイ文字 → ALA-LC</button>
@@ -20,6 +20,7 @@
 </section>
 <section class="workspace result-workspace" aria-labelledby="result-title">
 <div class="editor-heading"><h2 id="result-title">変換結果</h2><div class="actions"><button type="button" id="copy">結果をコピー</button><button type="button" id="download">.txt 保存</button></div></div>
+<div class="status-legend" aria-label="色の意味"><span class="legend-reviewed">緑：辞書・翻字確認済み</span><span class="legend-tentative">青：辞書に語形あり／転写未校閲</span><span class="legend-rule">黄：規則による推定</span><span class="legend-unresolved">赤：未解析</span></div>
 <div id="result" class="result-output alalc" aria-live="polite">入力するとここに変換候補が表示されます。</div>
 <p id="result-status" class="result-status" aria-live="polite"></p>
 <div id="candidates" class="candidate-panel" hidden><h3>綴りの候補</h3><p class="candidate-help">候補を選ぶと上の変換結果が更新されます。意味は選択の参考情報です。</p><div id="candidate-list"></div></div>
@@ -33,7 +34,7 @@
 <input type="file" id="import-dictionary" accept=".csv,.json,text/csv,application/json">
 <p id="import-status" class="result-status"></p></details></section>
 <section class="guidance"><h2>変換の取扱ひ</h2>
-<p>タイ文字→ALA-LCは公式表に基づく規則で母音・子音・声調記号・語末子音などを解析し、辞書にない語にも候補を出します。辞書確認済みの綴りは優先し、無表記母音・黙字・複合語の境界は要確認として表示します。青い箇所はその場で修正できます。<strong>規則による推定は、ALA-LC準拠を保証するものではありません。</strong></p>
+<p>タイ文字→ALA-LCは公式表に基づく規則で母音・子音・声調記号・語末子音などを解析し、辞書にない語にも候補を出します。辞書確認済みの綴りは優先し、無表記母音・黙字・複合語の境界は要確認として表示します。色分けは候補の根拠を示し、タップで空白の結合・解除や転写修正ができます。<strong>規則による推定は、ALA-LC準拠を保証するものではありません。</strong></p>
 <p>準拠規則：<a href="https://www.loc.gov/catdir/cpso/romanization/thai.pdf" target="_blank" rel="noopener">Library of Congress, Thai Romanization Table (2011)</a>。将来的には、適切な許諾を受けた語彙データを変換・査読して拡充します。</p></section>
 <footer class="site-footer"><p><a href="../index.html">burmeselc に戻る</a>　·　Thai ALA-LC (beta)</p></footer>
 </main></body></html>
