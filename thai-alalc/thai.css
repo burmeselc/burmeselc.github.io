@@ -58,3 +58,22 @@ summary{cursor:pointer;color:var(--green-900);font-weight:600}
 .lexical-match{display:inline-block;padding:0 7px;border-radius:3px;border:1px solid var(--green-300);background:white;font:1.14rem/1.8 var(--font-thai)}
 .lexical-miss{display:inline-block;padding:0 7px;border:1px dashed #d0a16b;background:#fff3e8;font:1.14rem/1.8 var(--font-thai)}
 .lexical-literal{white-space:pre-wrap;font:1.1rem/1.8 var(--font-thai)}
+
+/* Status colors indicate evidence, NOT guaranteed ALA-LC accuracy. */
+.forward-token{display:inline;padding:0 3px;margin:0 1px;line-height:inherit;font:inherit;cursor:pointer;border:0;border-bottom:2px dotted currentColor;border-radius:3px;white-space:normal}
+.forward-token.status-reviewed,.forward-token.status-reviewed-match{background:#dcf3e4;color:#176641;border-bottom-color:#399b67}
+.forward-token.status-tentative{background:#e1efff;color:#1c598e;border-bottom-color:#5c93cb}
+.forward-token.status-rule{background:#fff2d8;color:#80520f;border-bottom-color:#cf9441}
+.forward-token.status-unresolved{background:#ffe4e2;color:#a2252d;border-bottom-color:#cc5861}
+.forward-token.is-selected{outline:2px solid #183f73;outline-offset:2px}
+.forward-token:focus-visible{outline:3px solid #183f73;outline-offset:2px}
+.status-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin:0 0 12px;color:var(--muted);font:.78rem/1.6 var(--font-ui)}
+.status-legend span{border-radius:3px;padding:2px 7px}
+.legend-reviewed{background:#dcf3e4;color:#176641}
+.legend-tentative{background:#e1efff;color:#1c598e}
+.legend-rule{background:#fff2d8;color:#80520f}
+.legend-unresolved{background:#ffe4e2;color:#a2252d}
+.boundary-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.boundary-actions button{padding:8px 10px;min-height:40px}
+.boundary-actions button:disabled{opacity:.4;cursor:not-allowed}
+@media(max-width:620px){.forward-token{padding:0 2px}.boundary-actions button{flex:1 1 42%}}

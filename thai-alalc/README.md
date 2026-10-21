@@ -109,3 +109,19 @@ Reference: https://www.loc.gov/catdir/cpso/romanization/thai.pdf
 `romanizer.mjs` is an independent ES module with `romanizeThai(text, entries)` and `romanizeSyllable(raw)`. It uses dynamic programming to select dictionary-confirmed lexical matches and rule-generated orthographic syllables. Approved lexicon records have priority; SEAlang entries with tentative or unresolved ALA-LC are not falsely treated as verified output. The UI highlights automatically generated and unparsed substrings and offers inline correction.
 
 **Limitations:** ambiguous inherent vowels (`a/o/ǭ`), consonant clusters, exceptional pronunciation, silent syllables, word segmentation, names and grammatical compounds can require an authoritative lexicon and human review. Word boundaries inserted between segments are preliminary, *not* compliance with all 43 word-division instructions. Do not silently treat rule guesses as confirmed cataloging forms. Copying exports the displayed candidate including spaces and explicit unresolved markers.
+
+## Colored lexical evidence and editable word boundaries (2026-10-22)
+
+Forward romanization now assigns four visual states: green means a reviewed
+ALA-LC entry; blue indicates a dictionary orthography with a tentative/unresolved
+reading (including constituent matches); yellow means no lexical match, with a
+rule-generated output; red means unparsed text. A green span matched in the
+lexicon may still require contextual review of word division. Blue does not
+mean that SEAlang pronunciation automatically validates ALA-LC orthography.
+
+Tap any forward token to edit its ALA-LC candidate, join it to the left/right
+adjacent token, or restore a removed boundary. Joined groups can be assembled
+incrementally. Boundary changes update the visible result, clipboard and TXT
+download, without changing source Thai or dictionary files. Joining is disabled
+across punctuation/literal text and unparsed chunks. Changes are local to the
+current input and reset when the input changes; no server-side saving.
