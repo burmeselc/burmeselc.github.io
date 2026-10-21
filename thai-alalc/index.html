@@ -20,7 +20,8 @@
 </section>
 <section class="workspace result-workspace" aria-labelledby="result-title">
 <div class="editor-heading"><h2 id="result-title">変換結果</h2><div class="actions"><button type="button" id="copy">結果をコピー</button><button type="button" id="download">.txt 保存</button></div></div>
-<div class="status-legend" aria-label="色の意味"><span class="legend-reviewed">緑：辞書・翻字確認済み</span><span class="legend-tentative">青：辞書に語形あり／転写未校閲</span><span class="legend-rule">黄：規則による推定</span><span class="legend-unresolved">赤：未解析</span></div>
+<div class="status-legend" aria-label="色の意味"><span class="legend-reviewed">緑：辞書・翻字確認済み</span><span class="legend-tentative">青：辞書に語形あり／転写未校閲</span><span class="legend-rule">黄：規則による推定</span><span class="legend-unresolved">赤：未解析</span><span class="legend-place">紫：地名辞書一致（転写未校閲）</span></div>
+<label class="place-cap-option"><input id="capitalize-places" type="checkbox"> 地名辞書一致箇所の語頭を大文字にする（任意・未校閲）</label>
 <div id="result" class="result-output alalc" aria-live="polite">入力するとここに変換候補が表示されます。</div>
 <p id="result-status" class="result-status" aria-live="polite"></p>
 <div id="candidates" class="candidate-panel" hidden><h3>綴りの候補</h3><p class="candidate-help">候補を選ぶと上の変換結果が更新されます。意味は選択の参考情報です。</p><div id="candidate-list"></div></div>
