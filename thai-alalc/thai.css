@@ -77,3 +77,6 @@ summary{cursor:pointer;color:var(--green-900);font-weight:600}
 .boundary-actions button{padding:8px 10px;min-height:40px}
 .boundary-actions button:disabled{opacity:.4;cursor:not-allowed}
 @media(max-width:620px){.forward-token{padding:0 2px}.boundary-actions button{flex:1 1 42%}}
+
+.place-matches{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
+.place-hit{display:inline-block;padding:4px 8px;border-radius:4px;background:#edf1fa;border:1px solid #b3bed9;color:#233d68;font:.87rem/1.5 var(--font-ui)}
