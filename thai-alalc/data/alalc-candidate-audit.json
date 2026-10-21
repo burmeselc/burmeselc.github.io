@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 17732,
+    "unique_lexical_records": 18004,
     "sample_size": 150,
     "counts": {
-      "neither": 74,
-      "pronunciation_only": 71,
+      "neither": 73,
+      "pronunciation_only": 72,
       "disagreement": 2,
       "agreement": 2,
       "spelling_only": 1
@@ -133,6 +133,17 @@
       "comparison": "neither",
       "web_rank": "6",
       "pos": "V"
+    },
+    {
+      "thai": "ก้านขด",
+      "source_id": "LEX2.0:25706",
+      "pronunciation": "kâan kʰòt",
+      "meaning": "Kankhot, name of decorating pattern",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kān khot",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
     },
     {
       "thai": "จำรัส",
@@ -1651,17 +1662,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "N"
-    },
-    {
-      "thai": "ยาแก้ปวด",
-      "source_id": "RI:22646",
-      "pronunciation": "",
-      "meaning": "anodyne",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": ""
     }
   ]
 }
