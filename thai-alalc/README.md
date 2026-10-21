@@ -129,3 +129,7 @@ current input and reset when the input changes; no server-side saving.
 ## Thai administrative place names (2026-10-22)
 
 A separate orthographic gazetteer, `data/thai-gazetteer.json`, stores 8,441 administrative names: 77 province-level units (including Bangkok), 928 districts and 7,436 subdistricts. Derived from [DevelopedbyWill/thailand-canonical-admin-names](https://github.com/DevelopedbyWill/thailand-canonical-admin-names), v1.0.0, under **CC BY 4.0**; original Thai-script forms and administration codes are retained, with attribution. English RTGS spellings are **not** substituted as ALA-LC romanizations. The expandable lexical-segmentation panel identifies geographic names separately; this lexical recognition does not certify romanization or alter spacing automatically. Geographic category-specific result coloring is intentionally deferred.
+
+## Gazetteer-assisted boundary editing
+
+The lexical-segmentation panel offers an explicit button to remove provisional spaces **inside matched Thai place names** without changing Thai orthography, ALA-LC consonants or vowels, or spacing outside the name. This also updates copy/TXT output and preserves manual boundary edits. It is only a tentative proposal, not proof of correct ALA-LC word division. Place-name specific token coloring remains deferred.
