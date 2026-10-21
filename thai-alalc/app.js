@@ -1,5 +1,6 @@
 import {romanizeThai} from './romanizer.mjs';
 import {indexThaiLexicon,suggestLexicalSegments} from './lexical-segmenter.mjs';
+import {canJoin,boundaryValue,joinAt,resetBoundary,outputText} from './boundary-editor.mjs';
 /* Rule-first Thai→ALA-LC; dictionary-first ALA-LC→Thai. Client-side only. */
 const input=document.querySelector('#input'),output=document.querySelector('#result');
 const resultStatus=document.querySelector('#result-status'), dictionaryStatus=document.querySelector('#dictionary-status');
@@ -7,6 +8,7 @@ const candidatePanel=document.querySelector('#candidates'),candidateList=documen
 const inputTitle=document.querySelector('#input-title'),modes=document.querySelectorAll('[data-mode]');
 let entries=[],mode='forward',tokens=[],forwardResult={tokens:[],text:'',guessed:0,unresolved:0,reviewed:0,needsReview:0};
 let byThai=new Map(),byRoman=new Map(),lexiconIndex=new Map();
+let boundaryOverrides=new Map(),selectedForward=-1;
 const safe=v=>String(v??'').normalize('NFC').trim();
 const canon=v=>safe(v).replace(/[’'ʼʾ]/g,'‘').replace(/\s+/g,' ').toLocaleLowerCase('en');
 const THAI=/[\u0e00-\u0e7f]/u,ROMAN=/[A-Za-zÀ-žǍ-ǿưƯœŒæÆ‘\p{M}]/u;
@@ -63,8 +65,7 @@ function tokenText(t){
  const e=t.choices[t.selected||0];return mode==='forward'?e.alalc||'〔未確定：'+e.thai+'〕':e.thai;
 }
 function gapBefore(i){return mode==='forward'&&i>0&&tokens[i-1].choices?.length>0&&tokens[i].choices?.length>0?' ':'';}
-function forwardText(){return forwardResult.tokens.map(t=>(t.spaceBefore?' ':'')+
-  (t.origin==='unresolved' && !t.corrected?'〔未解析：'+t.thai+'〕':t.roman)).join('');}
+function forwardText(){return outputText(forwardResult.tokens,boundaryOverrides);}
 function getPrintable(){if(mode==='search')return '';if(mode==='forward')return forwardText();
   return tokens.map((t,i)=>gapBefore(i)+(t.unknown?'〔未登録：'+t.raw+'〕':tokenText(t))).join('');}
 function showCandidates(i){
@@ -81,29 +82,70 @@ function showCandidates(i){
   candidateList.append(b);
  }
 }
+function classifyForwardTokens(){
+ const list=forwardResult.tokens;
+ const classes=list.map(t=>{
+  if(t.origin==='unresolved')return 'unresolved';
+  if(t.origin==='literal')return 'literal';
+  if(t.origin==='dictionary')return 'reviewed';
+  const matches=(byThai.get(t.thai[0])||[]).filter(e=>e.thai===t.thai);
+  if(matches.some(e=>e.status==='reviewed'&&e.alalc))return 'reviewed-match';
+  if(matches.length)return 'tentative';
+  return 'rule';
+ });
+ // Multi-token dictionary entries are lexical evidence, never confirmation
+ // of the romanized spelling. Color component tokens tentative only.
+ for(let i=0;i<list.length;i++){
+  if(list[i].origin==='literal')continue;
+  let phrase='',first=i;
+  for(let j=i;j<Math.min(i+16,list.length);j++){
+   if(list[j].origin==='literal')break;
+   phrase+=list[j].thai;
+   if(j===i)continue;
+   const found=(byThai.get(phrase[0])||[]).some(e=>e.thai===phrase);
+   if(found)for(let k=first;k<=j;k++)if(classes[k]==='rule')classes[k]='tentative';
+   if(phrase.length>80)break;
+  }
+ }
+ return classes;
+}
 function showForwardEditor(index){
  const t=forwardResult.tokens[index];if(!t)return;
+ selectedForward=index;
  candidateList.replaceChildren();candidatePanel.hidden=false;
- const heading=candidatePanel.querySelector('h3');
- heading.textContent='翻字候補の確認・修正';
- const desc=candidatePanel.querySelector('.candidate-help');
- desc.textContent='原文：'+t.thai+' ／ '+(t.origin==='dictionary'?'辞書確認済み':t.origin==='unresolved'?'未解析':'規則による候補')+
-  (t.notes?.length?' ／ '+t.notes.join('・'):'');
- const label=document.createElement('label');
- label.textContent='選択箇所のALA-LC';label.className='candidate-gloss';
- const control=document.createElement('input');control.type='text';control.value=t.origin==='unresolved'&&!t.corrected?'':t.roman;
+ candidatePanel.querySelector('h3').textContent='翻字候補・分かち書きの編集';
+ const labels={dictionary:'辞書確認済み',rule:'規則による候補',unresolved:'未解析'};
+ candidatePanel.querySelector('.candidate-help').textContent='原文：'+t.thai+' ／ '+(labels[t.origin]||'候補')+
+   (t.notes?.length?' ／ '+t.notes.join('・'):'');
+ const label=document.createElement('label');label.className='candidate-gloss';
+ label.textContent='選択箇所のALA-LC';
+ const control=document.createElement('input');control.type='text';
+ control.value=t.origin==='unresolved'&&!t.corrected?'':t.roman;
  control.className='roman-edit';control.setAttribute('aria-label','ALA-LC翻字を手修正');
- const ok=document.createElement('button');ok.type='button';ok.textContent='修正を反映';
+ const ok=document.createElement('button');ok.type='button';ok.textContent='翻字を修正';
+ const actionRow=document.createElement('div');actionRow.className='boundary-actions';
+ const make=(name,action,enabled)=>{
+  const btn=document.createElement('button');btn.type='button';btn.textContent=name;
+  btn.disabled=!enabled;btn.addEventListener('click',()=>{action();renderForward();showForwardEditor(index);});
+  actionRow.append(btn);
+ };
+ const list=forwardResult.tokens;
+ make('左と結合',()=>joinAt(list,index,boundaryOverrides),
+   canJoin(list,index)&&boundaryValue(list,index,boundaryOverrides));
+ make('右と結合',()=>joinAt(list,index+1,boundaryOverrides),
+   canJoin(list,index+1)&&boundaryValue(list,index+1,boundaryOverrides));
+ make('左の結合を解除',()=>resetBoundary(list,index,boundaryOverrides),
+   canJoin(list,index)&&!boundaryValue(list,index,boundaryOverrides));
+ make('右の結合を解除',()=>resetBoundary(list,index+1,boundaryOverrides),
+   canJoin(list,index+1)&&!boundaryValue(list,index+1,boundaryOverrides));
  function submit(){
-   const value=control.value.trim();
-   if(!value){control.focus();return;}
-   t.roman=value;t.corrected=true;t.uncertain=false;
-   candidatePanel.hidden=true;renderForward();
+  const value=control.value.trim();if(!value){control.focus();return;}
+  t.roman=value;t.corrected=true;t.uncertain=false;
+  renderForward();showForwardEditor(index);
  }
  ok.addEventListener('click',submit);
  control.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();submit();}});
- candidateList.append(label,control,ok);
- control.focus();control.select();
+ candidateList.append(label,control,ok,actionRow);
 }
 function renderLexicalCandidates(){
  const panel=document.querySelector('#lexical-details');
@@ -145,25 +187,27 @@ function renderForward(){
   output.textContent='入力すると規則に基づくALA-LC候補を表示します。';
   resultStatus.textContent='';candidatePanel.hidden=true;return;
  }
+ const categories=classifyForwardTokens();
  forwardResult.tokens.forEach((t,i)=>{
-  if(t.spaceBefore)output.append(document.createTextNode(' '));
-  if(t.origin==='literal'){
-   output.append(document.createTextNode(t.roman));return;
-  }
+  if(boundaryValue(forwardResult.tokens,i,boundaryOverrides))
+   output.append(document.createTextNode(' '));
+  if(t.origin==='literal'){output.append(document.createTextNode(t.roman));return;}
   const rendered=t.origin==='unresolved'&&!t.corrected?'〔未解析：'+t.thai+'〕':t.roman;
-  const editable=t.origin!=='dictionary'||t.uncertain;
-  if(!editable){output.append(document.createTextNode(rendered));return;}
   const btn=document.createElement('button');btn.type='button';
-  btn.className=t.origin==='unresolved'&&!t.corrected?'token-unknown token-edit':'token-guess token-edit';
+  btn.className='forward-token status-'+categories[i]+(selectedForward===i?' is-selected':'');
   btn.textContent=rendered;
-  btn.title='候補を修正：'+t.thai+(t.notes?.length?' ／ '+t.notes.join('・'):'');
-  btn.addEventListener('click',()=>showForwardEditor(i));output.append(btn);
+  btn.title='原文：'+t.thai+' ／ '+categories[i]+' ／ タップで翻字・分かち書きを編集';
+  btn.setAttribute('aria-label',t.thai+'：'+rendered+'、編集');
+  btn.addEventListener('click',()=>{renderForwardSelection(i);});
+  output.append(btn);
  });
- const adjusted=forwardResult.tokens.filter(x=>x.corrected).length;
- const unresolved=forwardResult.tokens.filter(x=>x.origin==='unresolved'&&!x.corrected).length;
- resultStatus.textContent='規則による候補 '+forwardResult.guessed+' 箇所 · 辞書確認済み '+
-  forwardResult.reviewed+' 箇所 · 未解析 '+unresolved+' 箇所 · 手修正 '+adjusted+
-  ' 箇所。青い箇所はクリックして修正できます。分かち書きは暫定です。';
+ const totals=Object.fromEntries(['reviewed','reviewed-match','tentative','rule','unresolved'].map(k=>[k,categories.filter(c=>c===k).length]));
+ resultStatus.textContent='辞書確認済み '+(totals.reviewed+totals['reviewed-match'])+
+  ' ／ 辞書一致・未校閲 '+totals.tentative+' ／ 規則推定 '+totals.rule+
+  ' ／ 未解析 '+totals.unresolved+'。各語をタップすると結合・解除・修正ができます。';
+}
+function renderForwardSelection(index){
+ selectedForward=index;renderForward();showForwardEditor(index);
 }
 function renderResult(){
  output.replaceChildren();output.classList.toggle('thai-result',mode==='reverse');
@@ -195,14 +239,14 @@ function render(){candidatePanel.hidden=true;
  tokens=tokenize(input.value);renderResult();
 }
 function setMode(v){
- mode=v;for(const b of modes){const on=b.dataset.mode===v;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',String(on));}
+ mode=v;boundaryOverrides.clear();selectedForward=-1;for(const b of modes){const on=b.dataset.mode===v;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',String(on));}
  inputTitle.textContent={forward:'タイ文字の入力',reverse:'ALA-LC翻字の入力',search:'見出し語・翻字・意味の検索'}[v];
  input.classList.toggle('roman-input',v==='reverse');input.placeholder={forward:'例：ภาษาไทย',reverse:'例：khā',search:'例：ภาษา / phā / language'}[v];
  input.value='';render();input.focus();
 }
 for(const b of modes)b.addEventListener('click',()=>setMode(b.dataset.mode));
-input.addEventListener('input',render);
-document.querySelector('#clear').addEventListener('click',()=>{input.value='';render();input.focus();});
+input.addEventListener('input',()=>{boundaryOverrides.clear();selectedForward=-1;render();});
+document.querySelector('#clear').addEventListener('click',()=>{input.value='';boundaryOverrides.clear();selectedForward=-1;render();input.focus();});
 document.querySelector('#copy').addEventListener('click',async()=>{
  const text=getPrintable();if(!text){resultStatus.textContent='コピーする結果がありません。';return;}
  try{await navigator.clipboard.writeText(text);resultStatus.textContent='コピーしました。';}
