@@ -89,7 +89,7 @@ function classifyForwardTokens(){
   if(t.origin==='literal')return 'literal';
   if(t.origin==='dictionary')return 'reviewed';
   const matches=(byThai.get(t.thai[0])||[]).filter(e=>e.thai===t.thai);
-  if(matches.some(e=>e.status==='reviewed'&&e.alalc))return 'reviewed-match';
+  if(matches.some(e=>e.status==='reviewed'&&e.alalc===t.roman))return 'reviewed-match';
   if(matches.length)return 'tentative';
   return 'rule';
  });
