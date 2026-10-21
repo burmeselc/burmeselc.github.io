@@ -1,6 +1,7 @@
 import {romanizeThai} from './romanizer.mjs';
 import {indexThaiLexicon,suggestLexicalSegments} from './lexical-segmenter.mjs';
 import {gazetteerIndex,findPlaceMentions,placeTypes} from './place-matcher.mjs';
+import {proposePlaceJoins,applyPlaceJoins} from './place-boundaries.mjs';
 import {canJoin,boundaryValue,joinAt,resetBoundary,outputText} from './boundary-editor.mjs';
 /* Rule-first Thai→ALA-LC; dictionary-first ALA-LC→Thai. Client-side only. */
 const input=document.querySelector('#input'),output=document.querySelector('#result');
@@ -155,6 +156,9 @@ function renderPlaceMatches(){
  block.replaceChildren();
  if(mode!=='forward'){status.textContent='';return;}
  const matches=findPlaceMentions(input.value,placeIndex);
+ const pending=proposePlaceJoins(forwardResult.tokens,placeIndex,boundaryOverrides);
+ const action=document.querySelector('#apply-place-joins');
+ if(action){action.disabled=pending.length===0;action.textContent=pending.length?'地名内の空白を '+pending.length+' 箇所まとめる':'結合候補なし';}
  status.textContent=matches.length?'地名辞書一致：'+matches.length+' 箇所（転写は未校閲）':'地名辞書一致：なし';
  for(const mention of matches){
   const label=document.createElement('span');label.className='place-hit';
@@ -262,6 +266,7 @@ function setMode(v){
 }
 for(const b of modes)b.addEventListener('click',()=>setMode(b.dataset.mode));
 input.addEventListener('input',()=>{boundaryOverrides.clear();selectedForward=-1;render();});
+document.querySelector('#apply-place-joins').addEventListener('click',()=>{const applied=applyPlaceJoins(forwardResult.tokens,placeIndex,boundaryOverrides);renderForward();resultStatus.textContent+=' 地名内の境界を '+applied.length+' 箇所結合しました（翻字自体は未変更）。';});
 document.querySelector('#clear').addEventListener('click',()=>{input.value='';boundaryOverrides.clear();selectedForward=-1;render();input.focus();});
 document.querySelector('#copy').addEventListener('click',async()=>{
  const text=getPrintable();if(!text){resultStatus.textContent='コピーする結果がありません。';return;}
