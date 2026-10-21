@@ -1,5 +1,6 @@
 import {romanizeThai} from './romanizer.mjs';
 import {indexThaiLexicon,suggestLexicalSegments} from './lexical-segmenter.mjs';
+import {gazetteerIndex,findPlaceMentions,placeTypes} from './place-matcher.mjs';
 import {canJoin,boundaryValue,joinAt,resetBoundary,outputText} from './boundary-editor.mjs';
 /* Rule-first Thai→ALA-LC; dictionary-first ALA-LC→Thai. Client-side only. */
 const input=document.querySelector('#input'),output=document.querySelector('#result');
@@ -7,7 +8,7 @@ const resultStatus=document.querySelector('#result-status'), dictionaryStatus=do
 const candidatePanel=document.querySelector('#candidates'),candidateList=document.querySelector('#candidate-list');
 const inputTitle=document.querySelector('#input-title'),modes=document.querySelectorAll('[data-mode]');
 let entries=[],mode='forward',tokens=[],forwardResult={tokens:[],text:'',guessed:0,unresolved:0,reviewed:0,needsReview:0};
-let byThai=new Map(),byRoman=new Map(),lexiconIndex=new Map();
+let byThai=new Map(),byRoman=new Map(),lexiconIndex=new Map(),places=[],placeIndex=new Map();
 let boundaryOverrides=new Map(),selectedForward=-1;
 const safe=v=>String(v??'').normalize('NFC').trim();
 const canon=v=>safe(v).replace(/[’'ʼʾ]/g,'‘').replace(/\s+/g,' ').toLocaleLowerCase('en');
@@ -15,7 +16,7 @@ const THAI=/[\u0e00-\u0e7f]/u,ROMAN=/[A-Za-zÀ-žǍ-ǿưƯœŒæÆ‘\p{M}]/u;
 const ranking={reviewed:0,tentative:1,unresolved:2};
 const prefer=(a,b)=>(ranking[a.status]??2)-(ranking[b.status]??2);
 function reindex(){
-  byThai=new Map();byRoman=new Map();lexiconIndex=indexThaiLexicon(entries);
+  byThai=new Map();byRoman=new Map();lexiconIndex=indexThaiLexicon([...entries,...places.map(p=>({thai:p.thai,meaning:placeTypes[p.type]+' '+p.code,source_id:'gazetteer:'+p.code,pos:'PLACE',web_rank:'2'}))]);
   for(const e of entries){
     const a=e.thai[0];if(!byThai.has(a))byThai.set(a,[]);byThai.get(a).push(e);
     if(e.alalc){const r=canon(e.alalc)[0];if(!byRoman.has(r))byRoman.set(r,[]);byRoman.get(r).push(e);}
@@ -147,6 +148,21 @@ function showForwardEditor(index){
  control.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();submit();}});
  candidateList.append(label,control,ok,actionRow);
 }
+function renderPlaceMatches(){
+ const block=document.querySelector('#place-matches');
+ const status=document.querySelector('#place-status');
+ if(!block||!status)return;
+ block.replaceChildren();
+ if(mode!=='forward'){status.textContent='';return;}
+ const matches=findPlaceMentions(input.value,placeIndex);
+ status.textContent=matches.length?'地名辞書一致：'+matches.length+' 箇所（転写は未校閲）':'地名辞書一致：なし';
+ for(const mention of matches){
+  const label=document.createElement('span');label.className='place-hit';
+  label.textContent=mention.thai+'（'+placeTypes[mention.type]+'）';
+  label.title='地名典拠コード：'+mention.code+' ／ ALA-LC未校閲';
+  block.append(label);
+ }
+}
 function renderLexicalCandidates(){
  const panel=document.querySelector('#lexical-details');
  const target=document.querySelector('#lexical-suggestions');
@@ -181,7 +197,7 @@ function renderLexicalCandidates(){
  }
 }
 function renderForward(){
- renderLexicalCandidates();
+ renderLexicalCandidates();renderPlaceMatches();
  output.replaceChildren();output.classList.remove('thai-result');
  if(!input.value){
   output.textContent='入力すると規則に基づくALA-LC候補を表示します。';
@@ -282,3 +298,10 @@ document.querySelector('#import-dictionary').addEventListener('change',async ev=
 });
 fetch('./dictionary.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(addEntries)
 .catch(e=>{dictionaryStatus.textContent='辞書を取得できませんでした：'+e.message;render();});
+
+fetch('./data/thai-gazetteer.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();})
+.then(data=>{
+ places=(data.records||[]).map(row=>({thai:row[0],type:row[1],code:row[2]}));
+ placeIndex=gazetteerIndex(data);
+ reindex();render();
+}).catch(e=>{const status=document.querySelector('#place-status');if(status)status.textContent='地名辞書を読み込めませんでした：'+e.message;});

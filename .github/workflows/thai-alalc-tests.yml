@@ -31,11 +31,13 @@ jobs:
           node --check thai-alalc/romanizer.mjs
           node --check thai-alalc/lexical-segmenter.mjs
           node --check thai-alalc/boundary-editor.mjs
+          node --check thai-alalc/place-matcher.mjs
       - name: Rule-based Thai romanization tests
         run: |
           node --test thai-alalc/tests/romanizer.test.mjs
           node --test thai-alalc/tests/lexical-segmenter.test.mjs
           node --test thai-alalc/tests/boundary-editor.test.mjs
+          node --test thai-alalc/tests/place-matcher.test.mjs
       - name: Validate data
         run: |
           python - <<'PY'
