@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 14877,
+    "unique_lexical_records": 17732,
     "sample_size": 150,
     "counts": {
-      "neither": 73,
-      "pronunciation_only": 72,
+      "neither": 74,
+      "pronunciation_only": 71,
       "disagreement": 2,
       "agreement": 2,
       "spelling_only": 1
@@ -47,6 +47,17 @@
       "pos": "ADJ"
     },
     {
+      "thai": "ราศีกันย์",
+      "source_id": "LEX2.0:29017",
+      "pronunciation": "",
+      "meaning": "Virgo",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "ภรณีภู",
       "source_id": "LEX2.0:12968",
       "pronunciation": "pʰá rá nii pʰuu",
@@ -80,6 +91,17 @@
       "pos": ""
     },
     {
+      "thai": "ลูกทรงกลม",
+      "source_id": "TDP:8508",
+      "pronunciation": "lûuk soŋ klom",
+      "meaning": "sphere, spherical body.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "lūk song klom",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "ฉีดพ่น",
       "source_id": "TDP:12719",
       "pronunciation": "cʰìit pʰôn",
@@ -88,6 +110,17 @@
       "pronunciation_candidate": "chīt phon",
       "comparison": "pronunciation_only",
       "web_rank": "4",
+      "pos": "V"
+    },
+    {
+      "thai": "ส่งกระแสจิต",
+      "source_id": "LEX2.0:32167",
+      "pronunciation": "",
+      "meaning": "send regards to, keep one's regards to somebody",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
       "pos": "V"
     },
     {
@@ -344,6 +377,17 @@
       "pos": ""
     },
     {
+      "thai": "กิจจานุกิจ",
+      "source_id": "LEX2.0:24589",
+      "pronunciation": "kìt jaa nú kìt",
+      "meaning": "duties, variety of affairs; all kinds of matters; various things:",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kit yā nu kit",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "จริยศาสตร์",
       "source_id": "RI:12520",
       "pronunciation": "jà rí yá sàat",
@@ -396,6 +440,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "7",
+      "pos": ""
+    },
+    {
+      "thai": "กอบ",
+      "source_id": "TDP:927",
+      "pronunciation": "kɔ̀ɔp",
+      "meaning": "กอปร.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kǭp",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
       "pos": ""
     },
     {
@@ -575,6 +630,17 @@
       "pos": "V"
     },
     {
+      "thai": "มองกราด",
+      "source_id": "TDP:532",
+      "pronunciation": "mɔɔŋ kràat",
+      "meaning": "to look around.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "mǭng krāt",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "V"
+    },
+    {
       "thai": "นอกจาก (...) แล้ว ยัง (...) ด้วย",
       "source_id": "TDP:16522",
       "pronunciation": "nɔ̂ɔk jàakparen lɛ́ɛw yaŋparen dûay",
@@ -595,6 +661,17 @@
       "comparison": "neither",
       "web_rank": "3",
       "pos": "CONJ"
+    },
+    {
+      "thai": "กระเตาะกระแตะ",
+      "source_id": "LEX2.0:24047",
+      "pronunciation": "krà tɔ̀ krà tɛ̀",
+      "meaning": "totteringly, stumblingly",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kra tǫ kra tæ",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "ADV"
     },
     {
       "thai": "ได้ซิ",
@@ -685,6 +762,17 @@
       "pos": ""
     },
     {
+      "thai": "กึ่งเรื้อรัง",
+      "source_id": "RI:8710",
+      "pronunciation": "",
+      "meaning": "subchronic",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "วัณ-",
       "source_id": "TDP:16635",
       "pronunciation": "wan-na",
@@ -759,6 +847,17 @@
       "pronunciation_candidate": "yut māy plāy thāng",
       "comparison": "pronunciation_only",
       "web_rank": "3",
+      "pos": "N"
+    },
+    {
+      "thai": "กระเบื้องเคลือบ",
+      "source_id": "TDP:444",
+      "pronunciation": "kra-bʉ̂aŋ kʰlʉ̂ap",
+      "meaning": "enameled tile, glazed tile.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "krabưang khlưap",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
       "pos": "N"
     },
     {
@@ -960,6 +1059,17 @@
       "pos": "V"
     },
     {
+      "thai": "กลวิธีวาดภาพสีฝุ่น",
+      "source_id": "RI:801",
+      "pronunciation": "",
+      "meaning": "tempera",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "ยธ",
       "source_id": "LEX2.0:1453",
       "pronunciation": "",
@@ -1013,6 +1123,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "กระจาด",
+      "source_id": "TDP:210",
+      "pronunciation": "kra-jàat",
+      "meaning": "a deep tray or basket made of bamboo or rattan.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "krayāt",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "N"
     },
     {
       "thai": "แปรธาตุ",
@@ -1081,6 +1202,17 @@
       "pos": ""
     },
     {
+      "thai": "พิสัยระหว่างส่วนที่ ๑ กับส่วนที่ ๓",
+      "source_id": "RI:20137",
+      "pronunciation": "",
+      "meaning": "interquartile range (ใน ๔ ส่วน)",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "กะ-",
       "source_id": "TDP:944",
       "pronunciation": "ka",
@@ -1090,6 +1222,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "",
       "pos": ""
+    },
+    {
+      "thai": "สลากกินแบ่ง",
+      "source_id": "TDP:1441",
+      "pronunciation": "sa-làak kin bɛ̀ŋ",
+      "meaning": "lottery ticket.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "salāk kin bæng",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
     },
     {
       "thai": "เป็นมันวาว",
@@ -1200,6 +1343,17 @@
       "comparison": "neither",
       "web_rank": "7",
       "pos": ""
+    },
+    {
+      "thai": "กระหนุงกระหนิง",
+      "source_id": "LEX2.0:7595",
+      "pronunciation": "",
+      "meaning": "(talk) sweetly, (talk) love; (talk) in whisper",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "ADV"
     },
     {
       "thai": "ตีบรรทัด",
@@ -1444,6 +1598,17 @@
       "pos": ""
     },
     {
+      "thai": "กระแสเสียง",
+      "source_id": "LEX2.0:24236",
+      "pronunciation": "krà sɛ̌ɛ sǐaŋ",
+      "meaning": "sound, noise; voice; tone, intonation; sound",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kra sǣ siang",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "ถอนหงอก",
       "source_id": "LEX2.0:214",
       "pronunciation": "tʰɔ̌ɔn ŋɔ̀ɔk",
@@ -1497,171 +1662,6 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": ""
-    },
-    {
-      "thai": "งูเหลือม",
-      "source_id": "TDP:4295",
-      "pronunciation": "ŋuu lʉ̌am",
-      "meaning": "python.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ngū lưam",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ฮอกกี้",
-      "source_id": "LEX2.0:15964",
-      "pronunciation": "hɔk kîi",
-      "meaning": "hockey",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "hǫk kī",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ที่บ้าน",
-      "source_id": "TDP:9105",
-      "pronunciation": "tʰîi bâan",
-      "meaning": "at home, those at home.; one's spouse.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thī bān",
-      "comparison": "pronunciation_only",
-      "web_rank": "2",
-      "pos": ""
-    },
-    {
-      "thai": "จนติดปาก",
-      "source_id": "TDP:4431",
-      "pronunciation": "jon tìt pàak",
-      "meaning": "as a regular thing, constantly, habitually (of a person's verbal habits).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yon tit pāk",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "จิกหัว",
-      "source_id": "LEX2.0:27031",
-      "pronunciation": "jìk hǔa",
-      "meaning": "pinch the hair and pull, pull someone's hair; oppress, bully",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yik hua",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "ฟันตัดซี่ข้าง",
-      "source_id": "RI:20412",
-      "pronunciation": "",
-      "meaning": "lateral incisor",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ฮ่องกง",
-      "source_id": "TDP:20025",
-      "pronunciation": "hɔ̂ŋ-koŋ",
-      "meaning": "Hong Kong.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "hǫngkong",
-      "comparison": "pronunciation_only",
-      "web_rank": "2",
-      "pos": "N"
-    },
-    {
-      "thai": "อุบายศึก",
-      "source_id": "TDP:19780",
-      "pronunciation": "ù-baay sʉ̀k",
-      "meaning": "stratagem.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ubāy sưk",
-      "comparison": "pronunciation_only",
-      "web_rank": "7",
-      "pos": "N"
-    },
-    {
-      "thai": "ภาพพิมพ์ผ้าไหม",
-      "source_id": "RI:20641",
-      "pronunciation": "",
-      "meaning": "silk screen",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "ภาวะสองสัญชาติ",
-      "source_id": "RI:21106",
-      "pronunciation": "",
-      "meaning": "dual nationality",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "9",
-      "pos": ""
-    },
-    {
-      "thai": "ไตรภพ",
-      "source_id": "LEX2.0:18711",
-      "pronunciation": "",
-      "meaning": "three worlds (earth, heaven and hell)",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "เสียวซ่าน",
-      "source_id": "LEX2.0:16859",
-      "pronunciation": "sǐaw sâan",
-      "meaning": "feel spasm",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "siaw sān",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "สี่เหลี่ยมจัตุรัส",
-      "source_id": "LEX2.0:3108",
-      "pronunciation": "sìi lìam jàt tù ràt",
-      "meaning": "square",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "sī liam yat tu rat",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ถือศาสนา",
-      "source_id": "TDP:8368",
-      "pronunciation": "tʰʉ̌ʉ sàat-sa-nǎa",
-      "meaning": "to profess a religion; to hold the beliefs of a religion.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thư̄ sātsanā",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "จับเข่าคุยกัน",
-      "source_id": "LEX2.0:905",
-      "pronunciation": "",
-      "meaning": "negotiate, have a heart-to-heart talk; have an intimate chat",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": "V"
     }
   ]
 }

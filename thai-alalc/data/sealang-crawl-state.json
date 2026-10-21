@@ -2,126 +2,6 @@
   "version": 1,
   "queue": [
     {
-      "query": "กฟ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กภ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กม.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กย.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กร.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กฤ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กล.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กฦ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กศ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กษ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กส.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กห.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กฬ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กอ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กฮ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กั.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กา.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กิ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กี.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กึ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กื.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กุ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กู.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
-      "query": "กฺ.*",
-      "depth": 1,
-      "parent": "ก.*"
-    },
-    {
       "query": "ก฻.*",
       "depth": 1,
       "parent": "ก.*"
@@ -7730,6 +7610,401 @@
       "query": "ไ๛.*",
       "depth": 1,
       "parent": "ไ.*"
+    },
+    {
+      "query": "กาก.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาข.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฃ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาค.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฅ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฆ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาง.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาจ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฉ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาช.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาซ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฌ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาญ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฎ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฏ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฐ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฑ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฒ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาณ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาด.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาต.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาถ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาท.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาธ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาน.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาบ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาป.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาผ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฝ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาพ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฟ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาภ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาม.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาย.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "การ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฤ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาล.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฦ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาว.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาศ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาษ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาส.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาห.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฬ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาอ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฮ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาะ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาั.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาา.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาำ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาิ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาี.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาึ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาื.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาุ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาู.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาฺ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา฻.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา฼.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา฽.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา฾.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา฿.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาเ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาแ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาโ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาใ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาไ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาๅ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา็.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา่.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา้.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา๊.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา๋.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา์.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กาํ.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา๎.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา๏.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา๚.*",
+      "depth": 2,
+      "parent": "กา.*"
+    },
+    {
+      "query": "กา๛.*",
+      "depth": 2,
+      "parent": "กา.*"
     }
   ],
   "results": {
@@ -8393,6 +8668,197 @@
       "parsed_records": 2,
       "file": "d58a6743941ed090.csv",
       "sha256": "ad90b8003b48de3ac1853d70ec6117e80d5bc4a90864e6ce96043f54768a0dcc",
+      "coverage_proven": false
+    },
+    "กฟ.*": {
+      "status": "fetched",
+      "reported_hits": 3,
+      "parsed_records": 3,
+      "file": "532bbf291e5a77bc.csv",
+      "sha256": "4dbd345a450c47eb4a428e7397f5a3b8751999631e7b2e5d6373067e9e8095bf",
+      "coverage_proven": false
+    },
+    "กภ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "ba48f82b1d98faf4.csv",
+      "sha256": "e8e79dcbbfc4c61787b0b61fff21956ab095861a3fea4b2bdf1dda3a6ab02b9a",
+      "coverage_proven": false
+    },
+    "กม.*": {
+      "status": "fetched",
+      "reported_hits": 5,
+      "parsed_records": 5,
+      "file": "c5853651db8886e2.csv",
+      "sha256": "6ca487abfbc61830e592434229103e276290b762d515508baa272694e822cb32",
+      "coverage_proven": false
+    },
+    "กย.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "618667dac8f9350e.csv",
+      "sha256": "4a5a2e8aa8427eb89946ea16bbfa9c8f8c090f3e156ee09550eeec5d98570b1d",
+      "coverage_proven": false
+    },
+    "กร.*": {
+      "status": "fetched",
+      "reported_hits": 2146,
+      "parsed_records": 1666,
+      "file": "0918f5b45adfece6.csv",
+      "sha256": "a437a8faee22cdd1b41c7eeed00491e49a836a00c5d4e2599200c7b1d277b1c5",
+      "coverage_proven": false
+    },
+    "กฤ.*": {
+      "status": "fetched",
+      "reported_hits": 8,
+      "parsed_records": 6,
+      "file": "0f0318bdb4fcbbc8.csv",
+      "sha256": "5221a319a0f6ff755fa9204a14448753662ba6d337e788c3874eb187fe2b3963",
+      "coverage_proven": false
+    },
+    "กล.*": {
+      "status": "fetched",
+      "reported_hits": 992,
+      "parsed_records": 807,
+      "file": "1dc372c086b3bd98.csv",
+      "sha256": "1171ba80dc1f59e8604502c2d17ded4f9b291339f471c380278d2ec873e180ba",
+      "coverage_proven": false
+    },
+    "กฦ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "7f34cbd1256d6862.csv",
+      "sha256": "a2f389de42e52c711aed283119d122574439de38f87570ebf7d9c25718eca857",
+      "coverage_proven": false
+    },
+    "กศ.*": {
+      "status": "fetched",
+      "reported_hits": 5,
+      "parsed_records": 5,
+      "file": "4f61d371bdf95801.csv",
+      "sha256": "29910832700fe8e9426ca4c5c9640ba93aba3e3c0f111f54b0354188eec5fd8a",
+      "coverage_proven": false
+    },
+    "กษ.*": {
+      "status": "fetched",
+      "reported_hits": 7,
+      "parsed_records": 5,
+      "file": "45e041badcf8261e.csv",
+      "sha256": "1bba113b21e9ddc76893ed37c76ddd45cd7b25b51b49b4a730cfa99bb3b8f374",
+      "coverage_proven": false
+    },
+    "กส.*": {
+      "status": "fetched",
+      "reported_hits": 11,
+      "parsed_records": 8,
+      "file": "e0e8d00a0bceb9a3.csv",
+      "sha256": "d4c55e1ce4a4672b00cffb765f908472535c29903e7558efcd25cb4228cbe836",
+      "coverage_proven": false
+    },
+    "กห.*": {
+      "status": "fetched",
+      "reported_hits": null,
+      "parsed_records": 1,
+      "file": "7400466873c599b3.csv",
+      "sha256": "27aeb150c0a633b5a9d48a79779917cb89e917057cd17d22e9854763cfb1d4bc",
+      "coverage_proven": false
+    },
+    "กฬ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "83cb4dca1db57ad8.csv",
+      "sha256": "ae2425e131b15a5cb4278f1b1722d02f1b0a137eb7255cc4467a7cc22085ce2a",
+      "coverage_proven": false
+    },
+    "กอ.*": {
+      "status": "fetched",
+      "reported_hits": 159,
+      "parsed_records": 115,
+      "file": "b72f9803e9040cba.csv",
+      "sha256": "9823a4070b2238421d6d0ef7d276c54fd5286516b6428833601129b34b24d7c4",
+      "coverage_proven": false
+    },
+    "กฮ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "286d00989512ae40.csv",
+      "sha256": "b725e1ef87a9293ec980859de7c8db63369ea2334a95c85e66db746f2a7c12f4",
+      "coverage_proven": false
+    },
+    "กั.*": {
+      "status": "fetched",
+      "reported_hits": 458,
+      "parsed_records": 359,
+      "file": "aa24b33aea34fb8d.csv",
+      "sha256": "c4705806ce460af291e1a1468dcb4eab0e4033d0278306fb3cd01ddea2c6a3bb",
+      "coverage_proven": false
+    },
+    "กา.*": {
+      "status": "overflow",
+      "hits": 8760,
+      "limit": 2400,
+      "children": 79,
+      "coverage_proven": false
+    },
+    "กิ.*": {
+      "status": "fetched",
+      "reported_hits": 289,
+      "parsed_records": 238,
+      "file": "01fb16abe995c9ce.csv",
+      "sha256": "3a6b03323d1462040a6639b515a2c11c9a7e2ecba65ff8a64c900bbb1fe86e17",
+      "coverage_proven": false
+    },
+    "กี.*": {
+      "status": "fetched",
+      "reported_hits": 57,
+      "parsed_records": 44,
+      "file": "84fa7bccb6965a36.csv",
+      "sha256": "daf5704b8abf50cce864bd296228a469411f9e853b0ea45c8599ad6f8d30fcf8",
+      "coverage_proven": false
+    },
+    "กึ.*": {
+      "status": "fetched",
+      "reported_hits": 49,
+      "parsed_records": 40,
+      "file": "6dbbe078ff6fbd9e.csv",
+      "sha256": "c77fc6b42ca46aeab94fbbe4ebbe2894491a53029787037edf0456965d47c84b",
+      "coverage_proven": false
+    },
+    "กื.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "92f1f6ed0832fcf9.csv",
+      "sha256": "5689c2cdf8d7bf22d79b893fb0d94c8124880703e7d6b941c0efd3ab333bcd33",
+      "coverage_proven": false
+    },
+    "กุ.*": {
+      "status": "fetched",
+      "reported_hits": 148,
+      "parsed_records": 122,
+      "file": "19bf766d050dca8b.csv",
+      "sha256": "b9dfc5eecca07fbe1b6f9b88cd56e519a5c7bdfce49accd90800df2dec7945bf",
+      "coverage_proven": false
+    },
+    "กู.*": {
+      "status": "fetched",
+      "reported_hits": 32,
+      "parsed_records": 24,
+      "file": "d80c598ab8c831c8.csv",
+      "sha256": "319dc00785e8df3edd6e0461e976e819e5b6b4b70af8f322e30e99ad2af17ceb",
+      "coverage_proven": false
+    },
+    "กฺ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "310024cb7f1be308.csv",
+      "sha256": "a58e3714ef442d2e8020c5589f641a69bc89cf79f807d24a9677f7f7bae925bb",
       "coverage_proven": false
     }
   },

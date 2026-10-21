@@ -1,0 +1,808 @@
+thai,meaning,ipa,pron_display,pos,senses_json,web_rank,lexical_level,source,source_id,query
+กลวิธี,"strategy, stratagem; maneuver; tactics; artifice; ruse; trick",kon lá wí tʰii,kon lá wí tʰii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""strategy, stratagem; maneuver; tactics; artifice; ruse; trick""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:24371,กล.*
+กลบท,Thai jingle,kon lá bòt,kon lá bòt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Thai jingle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:24358,กล.*
+กลอุบาย,"trick, wile; artifice; trickery; stratagem",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick, wile; artifice; trickery; stratagem""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18086,กล.*
+กลไฟ,"steamer, steamship",kon fay,kon fay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""steamer, steamship""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:24359,กล.*
+กลเม็ดเด็ดพราย,"trick, finesse; stratagem; artifice; ingenious device; technique",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick, finesse; stratagem; artifice; ingenious device; technique""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:761,กล.*
+กลฉ้อฉล,"trick, swindle; trickery; deception; cheat; fraud; scam; deceit",kon cʰɔ̂ɔ cʰǒn,kon cʰɔ̂ɔ cʰǒn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick, swindle; trickery; deception; cheat; fraud; scam; deceit""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:23622,กล.*
+กลอักษร,Thai jingle,"kon àk sɔ̌ɔn, kon lá àk sɔ̌ɔn","kon àk sɔ̌ɔn, kon lá àk sɔ̌ɔn",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Thai jingle""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18085,กล.*
+เครื่องกล,"machinery, machine; engine; motor; mechanical device",kʰrʉ̂aŋ kon,kʰrʉ̂aŋ kon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""machinery, machine; engine; motor; mechanical device""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:10431,กล.*
+มายากล,"jugglery, conjuring; magic",maa yaa kon,maa yaa kon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""jugglery, conjuring; magic""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:13676,กล.*
+จักรกล,"key factor, main factor",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""key factor, main factor""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:3336,กล.*
+สมองกล,computer,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""computer""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:10198,กล.*
+เล่นกล,"play tricks, juggle; conjure; play magic; tricks, magic",lêen kon,lêen kon,V; N,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""play tricks, juggle; conjure; play magic""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""tricks, magic""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:14685,กล.*
+แสนกล,"tricky, crafty; cunning;; foxy; guileful; knavish",sɛ̌ɛn kon,sɛ̌ɛn kon,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""tricky, crafty; cunning;; foxy; guileful; knavish""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:16905,กล.*
+ต้นกล,"chief engineer, chief engineer",tôn kon,tôn kon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""chief engineer, chief engineer""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:27714,กล.*
+กล,"trick. Often occurs as a bound form meaning ""mechanical device; trick.""",kon,ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick. Often occurs as a bound form meaning \""mechanical device; trick.\""""]}]",2,entry,SEAlang Thai / TDP,TDP:586,กล.*
+กลไก,mechanism.,kon kay,kon ˈkay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mechanism.""]}]",3,subentry,SEAlang Thai / TDP,TDP:587,กล.*
+กลเม็ด,trick.,kon-la mét,kon.la ˈmét,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick.""]}]",3,subentry,SEAlang Thai / TDP,TDP:590,กล.*
+กลศาสตร์,mechanics (the science).,kon-la sàat,kon.la ˈsàat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mechanics (the science).""]}]",4,subentry,SEAlang Thai / TDP,TDP:592,กล.*
+กลจักร,engine.,kon-la jàk,kon.la ˈjàk,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""engine.""]}]",5,subentry,SEAlang Thai / TDP,TDP:588,กล.*
+กลมายา,"trick, artifice, deception.",kon maan-yaa,ˈkon maanˈyaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick, artifice, deception.""]}]",6,subentry,SEAlang Thai / TDP,TDP:589,กล.*
+กลมารยา,"trick, artifice, deception.",kon maan-yaa,ˈkon maanˈyaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick, artifice, deception.""]}]",6,subentry,SEAlang Thai / TDP,TDP:14103,กล.*
+ช่างกล,mechanic.,cʰâaŋ kon,cʰâaŋ ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mechanic.""]}]",3,subentry,SEAlang Thai / TDP,TDP:594,กล.*
+ชอบกล,"to be out of the ordinary, funny, strange, peculiar.",cʰɔ̂ɔp kon,cʰɔ̂ɔp ˈkon,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be out of the ordinary, funny, strange, peculiar.""]}]",4,subentry,SEAlang Thai / TDP,TDP:593,กล.*
+หลงกล,"to be deceived, beguiled.",lǒŋ kon,lǒŋ ˈkon,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be deceived, beguiled.""]}]",4,subentry,SEAlang Thai / TDP,TDP:18339,กล.*
+ปืนกล,machine gun.,pʉʉn kon,pʉʉn ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""machine gun.""]}]",4,subentry,SEAlang Thai / TDP,TDP:595,กล.*
+เล่ห์กล,trick.,lêe kon,lêe ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick.""]}]",5,subentry,SEAlang Thai / TDP,TDP:16378,กล.*
+แสดงกล,"to do tricks, perform stunts.",sa-dɛɛŋ kon,sa.dɛɛŋ ˈkon,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to do tricks, perform stunts.""]}]",6,subentry,SEAlang Thai / TDP,TDP:600,กล.*
+วิทยากล,magic.,wít-tʰa-yaa kon,wít.tʰa.yaa ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""magic.""]}]",6,subentry,SEAlang Thai / TDP,TDP:598,กล.*
+แรงกล,mechanical power.,rɛɛŋ kon,rɛɛŋ ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mechanical power.""]}]",6,subentry,SEAlang Thai / TDP,TDP:597,กล.*
+เสียกล,"to be tricked, outsmarted.",sǐa kon,ˈsǐa ˈkon,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be tricked, outsmarted.""]}]",6,subentry,SEAlang Thai / TDP,TDP:599,กล.*
+ป้อมปืนกล,pillbox; machine gun nest.,pɔ̂m pʉʉn kon,ˈpɔ̂m pʉʉn ˈkon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pillbox; machine gun nest.""]}]",6,subentry,SEAlang Thai / TDP,TDP:11518,กล.*
+เรือกลไฟ,"steamship, steamer.",rʉa kon fay,ˌrʉa kon ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""steamship, steamer.""]}]",5,subentry,SEAlang Thai / TDP,TDP:596,กล.*
+กล.,กิโลลิตร kiloliter.,kɔɔ-lɔɔ,kɔɔˈlɔɔ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""กิโลลิตร kiloliter.""]}]",1,entry,SEAlang Thai / TDP,TDP:585,กล.*
+กลด,"long-handled umbrella, umbrella is used over a candidate for Buddhist priesthood while he proceeds to a temple",klòt,klòt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""long-handled umbrella, umbrella is used over a candidate for Buddhist priesthood while he proceeds to a temple""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:24353,กล.*
+ทรงกลด,"be encircled by a halo, have a halo; be surrounded by a corona",soŋ klòt,soŋ klòt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be encircled by a halo, have a halo; be surrounded by a corona""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:19094,กล.*
+ไถกลบ,"plough up and over, plough for a second time",tʰǎy klòp,tʰǎy klòp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""plough up and over, plough for a second time""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:19056,กล.*
+กลบ,"to cover with earth, fill up with earth, bury.; to shut, to hide.",klòp,ˈklòp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to cover with earth, fill up with earth, bury.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to shut, to hide.""]}]",3,entry,SEAlang Thai / TDP,TDP:601,กล.*
+กลบเกลื่อน,to cover up (a blunder).,klòp klʉ̀an,klòp ˈklʉ̀an,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to cover up (a blunder).""]}]",4,subentry,SEAlang Thai / TDP,TDP:602,กล.*
+เอาทรายกลบตัว,to bury oneself in sand.,aw saay klòp tua,aw ˈsaay ˈklòp ˈtua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to bury oneself in sand.""]}]",7,subentry,SEAlang Thai / TDP,TDP:603,กล.*
+กลม,"to be round (as a circle, sphere, cylinder, etc.).",klom,ˈklom,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be round (as a circle, sphere, cylinder, etc.).""]}]",2,entry,SEAlang Thai / TDP,TDP:604,กล.*
+กลมกลืน,"to mix well, to blend well.; to be well-mixed, well-blended.",klom klʉʉn,klom ˈklʉʉn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to mix well, to blend well.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be well-mixed, well-blended.""]}]",3,subentry,SEAlang Thai / TDP,TDP:606,กล.*
+กลมกล่อม,"to be well-blended, smooth, pleasing (of flavors, odors).",klom klɔ̀m,klom ˈklɔ̀m,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be well-blended, smooth, pleasing (of flavors, odors).""]}]",4,subentry,SEAlang Thai / TDP,TDP:605,กล.*
+กลมเกลียว,"to be harmonious, united; to get along well (together).",klom kliaw,klom ˈkliaw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be harmonious, united; to get along well (together).""]}]",4,subentry,SEAlang Thai / TDP,TDP:607,กล.*
+วงกลม,circle.,woŋ klom,woŋ ˈklom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""circle.""]}]",3,subentry,SEAlang Thai / TDP,TDP:609,กล.*
+ทรงกลม,"spherical shape.; sphere-shaped, spherical, globular.",soŋ klom,soŋ ˈklom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""spherical shape.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""sphere-shaped, spherical, globular.""]}]",4,subentry,SEAlang Thai / TDP,TDP:8507,กล.*
+กอดกันกลม,"to embrace each other tightly, to hug (each other).",kɔ̀ɔt kan klom,ˈkɔ̀ɔt kan ˈklom,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to embrace each other tightly, to hug (each other).""]}]",5,subentry,SEAlang Thai / TDP,TDP:608,กล.*
+ลูกทรงกลม,"sphere, spherical body.",lûuk soŋ klom,ˈlûuk soŋ ˈklom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""sphere, spherical body.""]}]",6,subentry,SEAlang Thai / TDP,TDP:8508,กล.*
+กึ่งทรงกลม,hemisphere.; hemispherical.,kʉ̀ŋ soŋ klom,ˈkʉ̀ŋ soŋ ˈklom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""hemisphere.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""hemispherical.""]}]",7,subentry,SEAlang Thai / TDP,TDP:1494,กล.*
+กลวง,to be hollow.,kluaŋ,ˈkluaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be hollow.""]}]",4,entry,SEAlang Thai / TDP,TDP:610,กล.*
+กลอกตา,"goggle, roll the eyes; goggle eyeballs",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""goggle, roll the eyes; goggle eyeballs""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:13368,กล.*
+กลอกกลิ้ง,"roll to and fro, go forwards and backwards; move back and forth",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""roll to and fro, go forwards and backwards; move back and forth""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9740,กล.*
+กลิ้งกลอก,"crafty, unreliable; cunning; sly",klîŋ klɔ̀ɔk,klîŋ klɔ̀ɔk,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""crafty, unreliable; cunning; sly""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:30846,กล.*
+กลอก,"to turn, roll (e.g. one's eyes).",klɔ̀ɔk,ˈklɔ̀ɔk,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to turn, roll (e.g. one's eyes).""]}]",4,entry,SEAlang Thai / TDP,TDP:622,กล.*
+กลับกลอก,"to go back on one's word, renege.; to be undependable, unreliable.",klàp klɔ̀ɔk,klàp ˈklɔ̀ɔk,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to go back on one's word, renege.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be undependable, unreliable.""]}]",5,subentry,SEAlang Thai / TDP,TDP:623,กล.*
+กลองยาว,"tom-tom, a tall narrow drum",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tom-tom, a tall narrow drum""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:17982,กล.*
+กลองเพล,big drum in a Buddhist temple used for telling midday meal,klɔɔŋ pʰeen,klɔɔŋ pʰeen,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""big drum in a Buddhist temple used for telling midday meal""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:17981,กล.*
+จ่ากลอง,chief drummer,jàa klɔɔŋ,jàa klɔɔŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""chief drummer""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:26955,กล.*
+กลอง,drum.,klɔɔŋ,ˈklɔɔŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""drum.""]}]",3,entry,SEAlang Thai / TDP,TDP:624,กล.*
+กลองต๊อก,a small drum used to beat time.,klɔɔŋ tɔ́k,klɔɔŋ ˈtɔ́k*,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a small drum used to beat time.""]}]",6,subentry,SEAlang Thai / TDP,TDP:7378,กล.*
+แม่กลอง,"Maeklong (Me Klong), colloquial name for สมุทรสงคราม a township in Central Thailand.",mɛ̂ɛ klɔɔŋ,mɛ̂ɛ ˈklɔɔŋ,pN,"[{""n"": ""1"", ""pos"": [""pN""], ""definitions"": [""Maeklong (Me Klong), colloquial name for สมุทรสงคราม a township in Central Thailand.""]}]",3,subentry,SEAlang Thai / TDP,TDP:14340,กล.*
+กลอนเปล่า,"prose poem, blank verse",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""prose poem, blank verse""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18060,กล.*
+กลอนด้น,unrhymed Thai verse,klɔɔn dôn,klɔɔn dôn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""unrhymed Thai verse""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18055,กล.*
+กลอน,"bolt, latch.",klɔɔn,ˈklɔɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bolt, latch.""]}]",2,entry,SEAlang Thai / TDP,TDP:634,กล.*
+ลงกลอน,"to bolt, latch (a door, window).",loŋ klɔɔn,loŋ ˈklɔɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to bolt, latch (a door, window).""]}]",4,subentry,SEAlang Thai / TDP,TDP:636,กล.*
+ใส่กลอน,"to bolt, latch (a door, window).",sày klɔɔn,sày ˈklɔɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to bolt, latch (a door, window).""]}]",5,subentry,SEAlang Thai / TDP,TDP:18017,กล.*
+ถอดกลอน,"to unbolt, unlatch (a door, window).",tʰɔ̀ɔt klɔɔn,tʰɔ̀ɔt ˈklɔɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to unbolt, unlatch (a door, window).""]}]",5,subentry,SEAlang Thai / TDP,TDP:635,กล.*
+ลั่นกลอน,"to bolt, latch (a door, window).",lân klɔɔn,lân ˈklɔɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to bolt, latch (a door, window).""]}]",6,subentry,SEAlang Thai / TDP,TDP:16083,กล.*
+กลอน,a kind of Thai verse form.,klɔɔn,ˈklɔɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a kind of Thai verse form.""]}]",2,entry,SEAlang Thai / TDP,TDP:637,กล.*
+บทกลอน,a verse or poem in the verse form of the กลอน.,bòt klɔɔn,bòt ˈklɔɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a verse or poem in the verse form of the กลอน.""]}]",3,subentry,SEAlang Thai / TDP,TDP:638,กล.*
+กลอน,"bolus, a wet lump or tablet of freshly prepared medicine.",klɔɔn,ˈklɔɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bolus, a wet lump or tablet of freshly prepared medicine.""]}]",2,entry,SEAlang Thai / TDP,TDP:639,กล.*
+ลูกกลอน,"bolus, a wet lump or tablet of freshly prepared medicine.",lûuk klɔɔn,lûuk ˈklɔɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bolus, a wet lump or tablet of freshly prepared medicine.""]}]",5,subentry,SEAlang Thai / TDP,TDP:16256,กล.*
+กลอย,"wild yam, Dioscorea hispida",klɔɔy,klɔɔy,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""wild yam, Dioscorea hispida""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:18074,กล.*
+กลัก,"small case, telescoping box (like a match box).; classifier for things in certain small containers; hence, box of (matches, gummed labels, etc.).",klàk,ˈklàk,N; C,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""small case, telescoping box (like a match box).""]}, {""n"": ""2"", ""pos"": [""C""], ""definitions"": [""classifier for things in certain small containers; hence, box of (matches, gummed labels, etc.).""]}]",5,entry,SEAlang Thai / TDP,TDP:648,กล.*
+กลัดมัน,"lustful, lecherous; have strong sexual desire",klàt man,klàt man,ADJ; V,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""lustful, lecherous""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""have strong sexual desire""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18106,กล.*
+ไม้กลัด,small bamboo pin,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""small bamboo pin""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:21627,กล.*
+กลัด,"to button.; to pin (together).; to keep something inside, to brood.",klàt,ˈklàt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to button.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to pin (together).""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""to keep something inside, to brood.""]}]",4,entry,SEAlang Thai / TDP,TDP:649,กล.*
+กลัดกลุ้ม,to feel depressed.,klàt klûm,klàt ˈklûm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to feel depressed.""]}]",5,subentry,SEAlang Thai / TDP,TDP:650,กล.*
+กลัดกระดุม,to button.,klàt kra-dum,ˈklàt kraˈdum,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to button.""]}]",6,subentry,SEAlang Thai / TDP,TDP:288,กล.*
+เข็มกลัด,"safety pin.; pin, brooch.",kʰěm klàt,kʰěm ˈklàt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""safety pin.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""pin, brooch.""]}]",3,subentry,SEAlang Thai / TDP,TDP:651,กล.*
+เข็มกลัดซ่อนปลาย,safety pin.,kʰěm klàt sɔ̂ɔn plaay,kʰěm ˈklàt sɔ̂ɔn ˈplaay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""safety pin.""]}]",6,subentry,SEAlang Thai / TDP,TDP:2709,กล.*
+กลับกัน,"reverse, invert",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""reverse, invert""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:23415,กล.*
+กลับกลาย,"become, change to; turn into",klàp klaay,klàp klaay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""become, change to; turn into""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23414,กล.*
+กลับบ้านเก่า,"die, pass away",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""die, pass away""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:762,กล.*
+ตีกลับ,"send back, return",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""send back, return""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7417,กล.*
+โต้กลับ,"respond, react; counterattack, retaliate",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""respond, react""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""counterattack, retaliate""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:4436,กล.*
+ตอกกลับ,"retort, reply; react; repose; answer back",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""retort, reply; react; repose; answer back""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:966,กล.*
+ถอยกลับ,"retreat, backward; move back; withdraw; recede",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""retreat, backward; move back; withdraw; recede""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:18831,กล.*
+ตัณหากลับ,"lustful; be sexually aroused, be sexually excited; be in heat; have passionate longing for",,,ADJ; V,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""lustful""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""be sexually aroused, be sexually excited; be in heat; have passionate longing for""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:976,กล.*
+กลับ,"to turn back, go back, return.; to turn to the opposite, turn over, turn upside down, turn inside out.; in return.; still (contrariwise), contrary to expectation.",klàp,ˈklàp,V; sV; AA,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to turn back, go back, return.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to turn to the opposite, turn over, turn upside down, turn inside out.""]}, {""n"": ""3"", ""pos"": [""sV""], ""definitions"": [""in return.""]}, {""n"": ""4"", ""pos"": [""AA""], ""definitions"": [""still (contrariwise), contrary to expectation.""]}]",1,entry,SEAlang Thai / TDP,TDP:660,กล.*
+กลับมา,"to come back: ""return coming.""",klàp maa,klàp ˈmaa,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to come back: \""return coming.\""""]}]",2,subentry,SEAlang Thai / TDP,TDP:673,กล.*
+กลับไป,"to go back, return (thither).",klàp pay,klàp ˈpay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to go back, return (thither).""]}]",2,subentry,SEAlang Thai / TDP,TDP:671,กล.*
+กลับคืน,"to return, go back.; to restore.; to get back, recover.; back.",klàp kʰʉʉn,klàp ˈkʰʉʉn,V; sV,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to return, go back.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to restore.""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""to get back, recover.""]}, {""n"": ""4"", ""pos"": [""sV""], ""definitions"": [""back.""]}]",3,subentry,SEAlang Thai / TDP,TDP:665,กล.*
+กลับเป็น,"to turn out to be (contrary to expectation).; to return to (a former state), become (such and such) again.",klàp pen,ˈklàp pen ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to turn out to be (contrary to expectation).""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""to return to (a former state), become (such and such) again.""]}]",3,subentry,SEAlang Thai / TDP,TDP:670,กล.*
+กลับกลายเป็น,"to turn into, become (contrary to expectation).",klàp klaay pen,klàp ˈklaay pen ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to turn into, become (contrary to expectation).""]}]",3,subentry,SEAlang Thai / TDP,TDP:661,กล.*
+กลับใจ,"to change one's mind, to turn over a new leaf, have a change of heart.; to be converted (to a religion).",klàp jay,klàp ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to change one's mind, to turn over a new leaf, have a change of heart.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be converted (to a religion).""]}]",3,subentry,SEAlang Thai / TDP,TDP:666,กล.*
+กลับตัว,"to reform oneself, turn over a new leaf.",klàp tua,klàp ˈtua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to reform oneself, turn over a new leaf.""]}]",4,subentry,SEAlang Thai / TDP,TDP:667,กล.*
+กลับไปกลับมา,to change back and forth again and again.; to be unreliable.; back and forth.,klàp pay klàp maa,klàp ˈpay klàp ˈmaa,V; sV,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to change back and forth again and again.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be unreliable.""]}, {""n"": ""3"", ""pos"": [""sV""], ""definitions"": [""back and forth.""]}]",4,subentry,SEAlang Thai / TDP,TDP:672,กล.*
+กลับคำ,to go back on one's word.,klàp kʰam,klàp ˈkʰam,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to go back on one's word.""]}]",4,subentry,SEAlang Thai / TDP,TDP:664,กล.*
+กลับตาลปัตร,"to make a reversal, a switch.; to change one's mind.; to go back on one's word.",klàp taa-la-pàt,ˈklàp taa.laˈpàt,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to make a reversal, a switch.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""to change one's mind.""]}, {""n"": ""3"", ""pos"": [], ""definitions"": [""to go back on one's word.""]}]",5,subentry,SEAlang Thai / TDP,TDP:668,กล.*
+กลับกับ,"to be the reverse of, the opposite of.",klàp ka,ˈklàp ka ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be the reverse of, the opposite of.""]}]",5,subentry,SEAlang Thai / TDP,TDP:662,กล.*
+กลับเนื้อกลับตัว,"to change one's conduct, to reform oneself.",klàp nʉ́a klàp tua,klàp ˈnʉ́a klàp ˈtua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to change one's conduct, to reform oneself.""]}]",5,subentry,SEAlang Thai / TDP,TDP:669,กล.*
+กลับบ้านกลับช่อง,to go home.,klàp bâan klàp cʰɔ̂ŋ,klàp ˈbâan klàp ˈcʰɔ̂ŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to go home.""]}]",5,subentry,SEAlang Thai / TDP,TDP:10608,กล.*
+กลับไข่,(a hen) to turn her eggs.; to turn eggs over (in the pan).,klàp kʰày,klàp ˈkʰày,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""(a hen) to turn her eggs.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""to turn eggs over (in the pan).""]}]",6,subentry,SEAlang Thai / TDP,TDP:663,กล.*
+หันกลับ,"to turn back, turn around.",hǎn klàp,hǎn ˈklàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to turn back, turn around.""]}]",3,subentry,SEAlang Thai / TDP,TDP:679,กล.*
+ขากลับ,the return trip.; (on) the way back.,kʰǎa klàp,kʰǎa ˈklàp,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the return trip.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""(on) the way back.""]}]",3,subentry,SEAlang Thai / TDP,TDP:674,กล.*
+หวนกลับ,"to turn back, come back.",hǔan klàp,hǔan ˈklàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to turn back, come back.""]}]",3,subentry,SEAlang Thai / TDP,TDP:18470,กล.*
+มุมกลับ,reflex angle.; antithesis.,mum klàp,mum ˈklàp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""reflex angle.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""antithesis.""]}]",4,subentry,SEAlang Thai / TDP,TDP:675,กล.*
+ลากลับ,"to take one's leave, say goodbye (when departing to return home, return to work, etc.).",laa klàp,laa ˈklàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to take one's leave, say goodbye (when departing to return home, return to work, etc.).""]}]",4,subentry,SEAlang Thai / TDP,TDP:677,กล.*
+ดีดกลับ,to spring back.,dìit klàp,dìit ˈklàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to spring back.""]}]",5,subentry,SEAlang Thai / TDP,TDP:6741,กล.*
+ตั๋วไปกลับ,round-trip ticket.,tǔa pay klàp,ˈtǔa pay ˈklàp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""round-trip ticket.""]}]",5,subentry,SEAlang Thai / TDP,TDP:7642,กล.*
+คิดในมุมกลับ,to take or consider an antithetic point of view.; conversely.,kʰít nay mum klàp,ˈkʰít nay mum ˈklàp,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to take or consider an antithetic point of view.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""conversely.""]}]",6,subentry,SEAlang Thai / TDP,TDP:676,กล.*
+หักกลับ,"to turn back, bend back; to bend the other way.",hàk klàp,ˌhàk ˈklàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to turn back, bend back; to bend the other way.""]}]",6,subentry,SEAlang Thai / TDP,TDP:678,กล.*
+กลัวผี,"afraid of ghost, fear ghost",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""afraid of ghost, fear ghost""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23457,กล.*
+กลัวใจ,admire from the bottom of one's heart,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""admire from the bottom of one's heart""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:23456,กล.*
+กลัวเกรง,"be in awe of, stand in awe of; revere hold in awe and veneration",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be in awe of, stand in awe of; revere hold in awe and veneration""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:30412,กล.*
+ความกลัว,"scare, fear; fright",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""scare, fear; fright""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:3295,กล.*
+เกรงกลัว,"revere, be afraid of; scare; fear",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""revere, be afraid of; scare; fear""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:8182,กล.*
+ขี้กลัว,"be cowardly, be chicken-hearted; be timid; be spineless; be yellow; be craven; be fearful; be scared; fearful, afraid; scared; timorous; be a chickenshit, be a coward; be a pansy; be a chicken; be yellow; have a yellow streak",,,V; ADJ,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be cowardly, be chicken-hearted; be timid; be spineless; be yellow; be craven; be fearful; be scared""]}, {""n"": ""2"", ""pos"": [""ADJ""], ""definitions"": [""fearful, afraid; scared; timorous""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""be a chickenshit, be a coward; be a pansy; be a chicken; be yellow; have a yellow streak""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8457,กล.*
+ตื่นกลัว,"be panic-stricken, be frightened; be scared",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be panic-stricken, be frightened; be scared""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18408,กล.*
+กลัว,"to fear, be afraid of.",klua,ˈklua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to fear, be afraid of.""]}]",2,entry,SEAlang Thai / TDP,TDP:680,กล.*
+น่ากลัว,"to be frightening, scary, dreadful, fearful, horrible, terrifying, terrible.",nâa klua,nâa ˈklua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be frightening, scary, dreadful, fearful, horrible, terrifying, terrible.""]}]",3,subentry,SEAlang Thai / TDP,TDP:681,กล.*
+หวาดกลัว,"to be scared, frightened.",wàat klua,ˌwàat ˈklua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be scared, frightened.""]}]",3,subentry,SEAlang Thai / TDP,TDP:683,กล.*
+น่ากลั๊วน่ากลัว,"to be very scary, extremely frightening, dreadful.",nâa !klúa nâa klua,nâa ˈ!klúa nâa ˈklua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be very scary, extremely frightening, dreadful.""]}]",6,subentry,SEAlang Thai / TDP,TDP:682,กล.*
+กลั่นกรอง,"screen, consider; scrutinize",klàn krɔɔŋ,klàn krɔɔŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""screen, consider; scrutinize""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:18350,กล.*
+ตัวกลั่น,"outstanding, prominence; eminence; out of common run; carefully chosen person; chosen one",tua klàn,tua klàn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""outstanding, prominence; eminence; out of common run; carefully chosen person; chosen one""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:17472,กล.*
+โรงกลั่นน้ำมัน,oil refinery,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""oil refinery""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:14231,กล.*
+กลั่น,"to distill, extract.",klàn,ˈklàn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to distill, extract.""]}]",3,entry,SEAlang Thai / TDP,TDP:652,กล.*
+กลั่นน้ำมัน,to refine crude oil.,klàn nám man,ˈklàn nám ˈman,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to refine crude oil.""]}]",4,subentry,SEAlang Thai / TDP,TDP:654,กล.*
+กลั่นตัว,to condense.,klàn tua,klàn ˈtua,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to condense.""]}]",5,subentry,SEAlang Thai / TDP,TDP:653,กล.*
+น้ำกลั่น,distilled water.,nám klàn,nám ˈklàn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""distilled water.""]}]",5,subentry,SEAlang Thai / TDP,TDP:656,กล.*
+ต้มกลั่น,to distill.,tôm klàn,tôm ˈklàn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to distill.""]}]",6,subentry,SEAlang Thai / TDP,TDP:655,กล.*
+กลั่นแกล้ง,"defame, persecute; treat somebody badly; slander; libel",klàn klɛ̂ɛŋ,klàn klɛ̂ɛŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""defame, persecute; treat somebody badly; slander; libel""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:23399,กล.*
+อดกลั้น,"tolerate, be patient; suppress; endure; bear",òt klân,òt klân,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""tolerate, be patient; suppress; endure; bear""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:10141,กล.*
+กลั้น,"to restrain, suppress, hold back, inhibit (regular bodily functions, expressions of emotion).; to refrain from (performing a bodily function, expressing emotion).",klân,ˈklân,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to restrain, suppress, hold back, inhibit (regular bodily functions, expressions of emotion).""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to refrain from (performing a bodily function, expressing emotion).""]}]",2,entry,SEAlang Thai / TDP,TDP:657,กล.*
+กลั้นใจ,to hold one's breath.,klân jay,klân ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to hold one's breath.""]}]",4,subentry,SEAlang Thai / TDP,TDP:658,กล.*
+กลั้นสะอื้นไว้,to hold back sobs.,klân sa-ʉ̂ʉn wáy,klân saˈʉ̂ʉn ˈwáy,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to hold back sobs.""]}]",6,subentry,SEAlang Thai / TDP,TDP:659,กล.*
+เกลือกกลั้ว,"associate with, roll over; fool around; live in filth; join",klʉ̀ak klûa,klʉ̀ak klûa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""associate with, roll over; fool around; live in filth; join""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8420,กล.*
+กลั้ว,"to gargle.; to mix, blend.",klûa,ˈklûa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to gargle.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to mix, blend.""]}]",2,entry,SEAlang Thai / TDP,TDP:684,กล.*
+กลั้วคอ,to gargle (the throat).,klûa kʰɔɔ,klûa ˈkʰɔɔ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to gargle (the throat).""]}]",5,subentry,SEAlang Thai / TDP,TDP:685,กล.*
+กลาก,the skin disease ringworm (tinea).,klàak,ˈklàak,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the skin disease ringworm (tinea).""]}]",4,entry,SEAlang Thai / TDP,TDP:697,กล.*
+ขี้กลาก,the skin disease ringworm (tinea).,kʰîi klàak,kʰîi ˈklàak,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the skin disease ringworm (tinea).""]}]",5,subentry,SEAlang Thai / TDP,TDP:2518,กล.*
+กลางทาง,"on the way, in between; midway; halfway",,,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""on the way, in between; midway; halfway""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23533,กล.*
+กลางแดด,"in the sun, in the sunshine",,,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""in the sun, in the sunshine""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23532,กล.*
+กลางแปลง,"alfresco, outdoor; open-air; in the playground",klaaŋ plɛɛŋ,klaaŋ plɛɛŋ,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""alfresco, outdoor; open-air; in the playground""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:23537,กล.*
+กลางเก่ากลางใหม่,"not very new nor old, half new; neither old or new; half-worn",klaaŋ kàw klaaŋ mày,klaaŋ kàw klaaŋ mày,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""not very new nor old, half new; neither old or new; half-worn""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:23520,กล.*
+สื่อกลาง,"medium, agency; way; mean; channel; instrument; mode; vehicle",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""medium, agency; way; mean; channel; instrument; mode; vehicle""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:6453,กล.*
+กองกลาง,"central office, public state; public, state; collective",kɔɔŋ klaaŋ,kɔɔŋ klaaŋ,N; ADJ,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""central office, public state""]}, {""n"": ""2"", ""pos"": [""ADJ""], ""definitions"": [""public, state; collective""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:25424,กล.*
+ตะวันออกกลาง,Middle East,ta.wan ˈɔ̀ɔk ˈklaaŋ,ta.wan ˈɔ̀ɔk ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Middle East""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:17893,กล.*
+ตัวกลาง,"medium, mean; average; mean, average; middleman, intermediary; go-between",tua klaaŋ,tua klaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""medium, mean; average""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""mean, average""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""middleman, intermediary; go-between""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:18020,กล.*
+สายกลาง,"moderation, middle way",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""moderation, middle way""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:4161,กล.*
+ธนาคารกลาง,central bank,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""central bank""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:4843,กล.*
+แกนกลาง,"center, nucleus; heart; core",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""center, nucleus; heart; core""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:26054,กล.*
+ชนชั้นกลาง,middle class,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""middle class""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:22483,กล.*
+ภาษากลาง,"interlingua, interlanguage; common language",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""interlingua, interlanguage; common language""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:4075,กล.*
+หน่วยประมวลผลกลาง,"central processor, CPU",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""central processor, CPU""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:16969,กล.*
+สมัยกลาง,middle ages,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""middle ages""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15297,กล.*
+กลาง,"center, middle. When preceding another noun this is usually translated ""at, in, in the middle of.""; central, middle, center.",klaaŋ,ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""center, middle. When preceding another noun this is usually translated \""at, in, in the middle of.\""""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""central, middle, center.""]}]",2,entry,SEAlang Thai / TDP,TDP:698,กล.*
+กลางวัน,"in the daytime, by day.",klaaŋ wan,klaaŋ ˈwan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the daytime, by day.""]}]",2,subentry,SEAlang Thai / TDP,TDP:711,กล.*
+กลางคืน,"at night, in the night.",klaaŋ kʰʉʉn,klaaŋ ˈkʰʉʉn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""at night, in the night.""]}]",2,subentry,SEAlang Thai / TDP,TDP:701,กล.*
+กลางแจ้ง,"outdoors, in the open, in the open air.",klaaŋ jɛ̂ɛŋ,klaaŋ ˈjɛ̂ɛŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""outdoors, in the open, in the open air.""]}]",3,subentry,SEAlang Thai / TDP,TDP:703,กล.*
+กลางเมือง,"in public, in the open.; public, civil, internal (within the country).",klaaŋ mʉaŋ,klaaŋ ˈmʉaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in public, in the open.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""public, civil, internal (within the country).""]}]",3,subentry,SEAlang Thai / TDP,TDP:709,กล.*
+กลางปี,"mid-year, in the middle part of the year.",klaaŋ pii,klaaŋ ˈpii,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mid-year, in the middle part of the year.""]}]",3,subentry,SEAlang Thai / TDP,TDP:707,กล.*
+กลางดึก,"late at night, in the deep of the night.",klaaŋ dʉ̀k,klaaŋ ˈdʉ̀k,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""late at night, in the deep of the night.""]}]",3,subentry,SEAlang Thai / TDP,TDP:704,กล.*
+กลางถนน,"in the street, in the middle of the street.",klaaŋ tʰa-nǒn,klaaŋ tʰaˈnǒn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the street, in the middle of the street.""]}]",3,subentry,SEAlang Thai / TDP,TDP:705,กล.*
+กลางคน,middle age (of people). Among the Thai approximately 35-50 years of age.; middle-aged.,klaaŋ kʰon,klaaŋ ˈkʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""middle age (of people). Among the Thai approximately 35-50 years of age.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""middle-aged.""]}]",4,subentry,SEAlang Thai / TDP,TDP:699,กล.*
+กลางคัน,"in the middle, before it was finished (of an interrupted action, event).",klaaŋ kʰan,klaaŋ ˈkʰan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the middle, before it was finished (of an interrupted action, event).""]}]",4,subentry,SEAlang Thai / TDP,TDP:700,กล.*
+กลางวันแสกๆ,"in broad daylight, in the very middle of the day.",klaaŋ wan sɛ̀ɛk sɛ̀ɛk,klaaŋ ˈwan sɛ̀ɛk ˈsɛ̀ɛk,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in broad daylight, in the very middle of the day.""]}]",5,subentry,SEAlang Thai / TDP,TDP:712,กล.*
+กลางบ้าน,"local, pertaining to old-fashioned village folklore.",klaaŋ bâan,klaaŋ ˈbâan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""local, pertaining to old-fashioned village folklore.""]}]",5,subentry,SEAlang Thai / TDP,TDP:706,กล.*
+กลางหาว,"under the skies, in the open air.",klaaŋ hǎaw,klaaŋ ˈhǎaw,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""under the skies, in the open air.""]}]",5,subentry,SEAlang Thai / TDP,TDP:713,กล.*
+กลางฟ้า,"in the sky, in the middle of the sky.",klaaŋ fáa,klaaŋ ˈfáa,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the sky, in the middle of the sky.""]}]",5,subentry,SEAlang Thai / TDP,TDP:708,กล.*
+กลางดินกลางทราย,on the ground.,klaaŋ din klaaŋ saay,klaaŋ ˈdin klaaŋ ˈsaay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""on the ground.""]}]",6,subentry,SEAlang Thai / TDP,TDP:8556,กล.*
+ภาคกลาง,"the central part (of a country, a geographical area).; central.",pʰâak klaaŋ,pʰâak ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the central part (of a country, a geographical area).""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""central.""]}]",2,subentry,SEAlang Thai / TDP,TDP:721,กล.*
+ศูนย์กลาง,"center (as in ""industrial center"").",sǔun klaaŋ,sǔun ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""center (as in \""industrial center\"").""]}]",2,subentry,SEAlang Thai / TDP,TDP:722,กล.*
+ขนาดกลาง,"(a) medium size; medium-sized, middle-sized.",kʰa-nàat klaaŋ,kʰaˈnàat ˈklaaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""(a) medium size; medium-sized, middle-sized.""]}]",3,subentry,SEAlang Thai / TDP,TDP:1991,กล.*
+ส่วนกลาง,the central part.; central.,sùan klaaŋ,sùan ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the central part.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""central.""]}]",3,subentry,SEAlang Thai / TDP,TDP:723,กล.*
+ปานกลาง,"moderately, in a moderate degree.; moderate; average.",paan klaaŋ,paan ˈklaaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""moderately, in a moderate degree.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""moderate; average.""]}]",3,subentry,SEAlang Thai / TDP,TDP:719,กล.*
+เป็นกลาง,"to be neutral (in a controversy).; to be neutral, not charged.",pen klaaŋ,pen ˈklaaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be neutral (in a controversy).""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""to be neutral, not charged.""]}]",3,subentry,SEAlang Thai / TDP,TDP:720,กล.*
+ตรงกลาง,"in the middle, at the center.",troŋ klaaŋ,troŋ ˈklaaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the middle, at the center.""]}]",3,subentry,SEAlang Thai / TDP,TDP:718,กล.*
+ใจกลาง,"core, central part.",jay klaaŋ,jay ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""core, central part.""]}]",3,subentry,SEAlang Thai / TDP,TDP:717,กล.*
+ศาลากลาง,"city hall, town hall.",sǎa-laa klaaŋ,sǎa.laa ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""city hall, town hall.""]}]",3,subentry,SEAlang Thai / TDP,TDP:16956,กล.*
+คนกลาง,"the middle one (in a group).; middleman; mediator, arbitrator.; one who is neutral.",kʰon klaaŋ,kʰon ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the middle one (in a group).""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""middleman; mediator, arbitrator.""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""one who is neutral.""]}]",3,subentry,SEAlang Thai / TDP,TDP:715,กล.*
+กึ่งกลาง,"center, middle.; central, middle, center.",kʉ̀ŋ klaaŋ,kʉ̀ŋ ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""center, middle.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""central, middle, center.""]}]",3,subentry,SEAlang Thai / TDP,TDP:714,กล.*
+ของกลาง,a material object whose ownership is disputed before the authorities or in court.; the physical evidence (as stolen goods).,kʰɔ̌ɔŋ klaaŋ,kʰɔ̌ɔŋ ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a material object whose ownership is disputed before the authorities or in court.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""the physical evidence (as stolen goods).""]}]",3,subentry,SEAlang Thai / TDP,TDP:2206,กล.*
+ตอนกลาง,the middle part; in the middle.,tɔɔn klaaŋ,tɔɔn ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the middle part; in the middle.""]}]",3,subentry,SEAlang Thai / TDP,TDP:7409,กล.*
+เส้นผ่าศูนย์กลาง,diameter.,sên pʰàa sǔun klaaŋ,sên ˈpʰàa sǔun ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""diameter.""]}]",3,subentry,SEAlang Thai / TDP,TDP:17852,กล.*
+จุดศูนย์กลาง,"the center, center point.",jùt sǔun klaaŋ,ˈjùt sǔun ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the center, center point.""]}]",4,subentry,SEAlang Thai / TDP,TDP:4878,กล.*
+ในท่ามกลาง,"in the middle of, in the midst of, amidst, among.",nay tʰâam klaaŋ,nay ˈtʰâam ˈklaaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the middle of, in the midst of, amidst, among.""]}]",4,subentry,SEAlang Thai / TDP,TDP:10272,กล.*
+รัฐบาลกลาง,central government.,rát-tʰa-baan klaaŋ,rát.tʰaˈbaan ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""central government.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15350,กล.*
+นิ้วกลาง,middle finger.,níw klaaŋ,níw ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""middle finger.""]}]",4,subentry,SEAlang Thai / TDP,TDP:10100,กล.*
+แสกกลาง,(hair) to be parted in the middle.,sɛ̀ɛk klaaŋ,sɛ̀ɛk ˈklaaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""(hair) to be parted in the middle.""]}]",6,subentry,SEAlang Thai / TDP,TDP:17975,กล.*
+อักษรกลาง,a middle consonant (ก จ ฎ ฏ ด ต บ ป อ).,àk-sɔ̌ɔn klaaŋ,àk.sɔ̌ɔn ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a middle consonant (ก จ ฎ ฏ ด ต บ ป อ).""]}]",6,subentry,SEAlang Thai / TDP,TDP:724,กล.*
+อาหารกลางวัน,"luncheon, midday meal.",aa-hǎan klaaŋ wan,aaˈhǎan klaaŋ ˈwan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""luncheon, midday meal.""]}]",3,subentry,SEAlang Thai / TDP,TDP:16649,กล.*
+เวลากลางคืน,"nighttime.; at night, in the nighttime.",wee-laa klaaŋ kʰʉʉn,weeˈlaa klaaŋ ˈkʰʉʉn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""nighttime.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""at night, in the nighttime.""]}]",3,subentry,SEAlang Thai / TDP,TDP:702,กล.*
+วัยกลางคน,middle age (of people). Among the Thai approximately 35-50 years of age.; middle-aged.,way klaaŋ kʰon,ˈway klaaŋ ˈkʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""middle age (of people). Among the Thai approximately 35-50 years of age.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""middle-aged.""]}]",4,subentry,SEAlang Thai / TDP,TDP:16665,กล.*
+มื้อกลางวัน,lunch.,mʉ́ʉ klaaŋ wan,mʉ́ʉ klaaŋ ˈwan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""lunch.""]}]",4,subentry,SEAlang Thai / TDP,TDP:14216,กล.*
+สงครามกลางเมือง,civil war.,sǒŋ-kʰraam klaaŋ mʉaŋ,sǒŋˈkʰraam klaaŋ ˈmʉaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""civil war.""]}]",4,subentry,SEAlang Thai / TDP,TDP:710,กล.*
+ครึ่งๆกลางๆ,"partially, halfway, half-done.",kʰrʉ̂ŋ kʰrʉ̂ŋ klaaŋ klaaŋ,kʰrʉ̂ŋ ˈkʰrʉ̂ŋ klaaŋ ˈklaaŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""partially, halfway, half-done.""]}]",5,subentry,SEAlang Thai / TDP,TDP:716,กล.*
+ทะลุกลางปล้อง,"to butt in, interrupt while others are in the midst of talking.",tʰa-lú klaaŋ plɔ̂ŋ,tʰaˈlúʔ klaaŋ ˈplɔ̂ŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to butt in, interrupt while others are in the midst of talking.""]}]",6,subentry,SEAlang Thai / TDP,TDP:8746,กล.*
+หมากลางถนน,stray dog.; derelict (person).,mǎa klaaŋ tʰa-nǒn,ˈmǎa klaaŋ tʰaˈnǒn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""stray dog.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""derelict (person).""]}]",6,subentry,SEAlang Thai / TDP,TDP:8166,กล.*
+อายุกลางคน,middle age (of people); among the Thai approximately 35-50 years of age.; middle-aged.,aa-yú klaaŋ kʰon,aaˈyúʔ klaaŋ ˈkʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""middle age (of people); among the Thai approximately 35-50 years of age.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""middle-aged.""]}]",6,subentry,SEAlang Thai / TDP,TDP:19503,กล.*
+เอาใจกลางออก,"to remove the central part of something, e.g. to core (an apple).",aw jay klaaŋ ɔ̀ɔk,aw ˈjay ˈklaaŋ ˈɔ̀ɔk,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to remove the central part of something, e.g. to core (an apple).""]}]",1,subentry,SEAlang Thai / TDP,TDP:19895,กล.*
+กลาด,"to be scattered all over, dispersed.",klàat,ˈklàat,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be scattered all over, dispersed.""]}]",4,entry,SEAlang Thai / TDP,TDP:725,กล.*
+เกลื่อนกลาด,"to be scattered all over, dispersed.",klʉ̀an klàat,klʉ̀an ˈklàat,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be scattered all over, dispersed.""]}]",5,subentry,SEAlang Thai / TDP,TDP:1642,กล.*
+กลาดเกลื่อน,"scatteringly, dispersedly; all over",klàat klʉ̀an,klàat klʉ̀an,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""scatteringly, dispersedly; all over""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:30984,กล.*
+กลาบาต,"guard at night, watchman; sentry; sentinel; patrol; shooting star, falling star; meteor",kà laa bàat,kà laa bàat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""guard at night, watchman; sentry; sentinel; patrol""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""shooting star, falling star; meteor""]}]",7,entry,SEAlang Thai / LEX2.0,LEX2.0:25328,กล.*
+กลายพันธุ์,mutate,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""mutate""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31727,กล.*
+กลาย,"to change, transform, convert.; to be changed, transformed, converted.",klaay,ˈklaay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to change, transform, convert.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be changed, transformed, converted.""]}]",3,entry,SEAlang Thai / TDP,TDP:727,กล.*
+กลายเป็น,"to change, turn into.; to be changed, converted into.; to become.; to turn out to be.",klaay pen,klaay pen ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to change, turn into.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""to be changed, converted into.""]}, {""n"": ""3"", ""pos"": [], ""definitions"": [""to become.""]}, {""n"": ""4"", ""pos"": [], ""definitions"": [""to turn out to be.""]}]",2,subentry,SEAlang Thai / TDP,TDP:728,กล.*
+กลายเป็นไอ,"to become steam, vaporize, evaporate.",klaay pen ay,ˌklaay pen ˈay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to become steam, vaporize, evaporate.""]}]",5,subentry,SEAlang Thai / TDP,TDP:729,กล.*
+ปีกลาย,last year (i.e. during the preceding year).,pii klaay,pii ˈklaay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""last year (i.e. during the preceding year).""]}]",5,subentry,SEAlang Thai / TDP,TDP:730,กล.*
+เมื่อปีกลาย,last year (the preceding year).,mʉ̂a pii klaay,mʉ̂a pii ˈklaay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""last year (the preceding year).""]}]",5,subentry,SEAlang Thai / TDP,TDP:14312,กล.*
+กระทรวงกลาโหม,Ministry of Defence,kraˈsuaŋ ka.laaˈhǒom,kraˈsuaŋ ka.laaˈhǒom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Ministry of Defence""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:24066,กล.*
+กลาโหม,national defense.,ka-laa-hǒom,ka.laaˈhǒom,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""national defense.""]}]",3,entry,SEAlang Thai / TDP,TDP:745,กล.*
+กลิ่นหอม,"fragrance, sweet smell; pleasing scent; aroma; perfume",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fragrance, sweet smell; pleasing scent; aroma; perfume""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:30418,กล.*
+กลิ่นอาย,"smell, odour; scent",klìn aay,klìn aay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""smell, odour; scent""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:25349,กล.*
+กลิ่นเต่า,body odour,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""body odour""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:7579,กล.*
+สูดกลิ่น,"smell, scent; sniff",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""smell, scent; sniff""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:10129,กล.*
+กลิ่น,"odor, scent, smell.",klìn,ˈklìn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""odor, scent, smell.""]}]",2,entry,SEAlang Thai / TDP,TDP:748,กล.*
+กลิ่นไอ,"smell, odor.; atmosphere.",klìn ay,klìn ˈay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""smell, odor.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""atmosphere.""]}]",4,subentry,SEAlang Thai / TDP,TDP:20010,กล.*
+กลิ่นตัว,body odor.,klìn tua,klìn ˈtua,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""body odor.""]}]",4,subentry,SEAlang Thai / TDP,TDP:750,กล.*
+กลิ่นฉุย,"to be odorous (penetrating and sudden, as the odor of strong fumes).",klìn cʰǔy,klìn ˈcʰǔy,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be odorous (penetrating and sudden, as the odor of strong fumes).""]}]",7,subentry,SEAlang Thai / TDP,TDP:749,กล.*
+ได้กลิ่น,"to scent, smell, catch the scent (of).",dây klìn,dây ˈklìn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to scent, smell, catch the scent (of).""]}]",3,subentry,SEAlang Thai / TDP,TDP:752,กล.*
+ส่งกลิ่น,"to smell, give out an odor.",sòŋ klìn,sòŋ ˈklìn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to smell, give out an odor.""]}]",4,subentry,SEAlang Thai / TDP,TDP:17041,กล.*
+ดับกลิ่น,to deodorize.,dàp klìn,ˈdàp ˈklìn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to deodorize.""]}]",4,subentry,SEAlang Thai / TDP,TDP:751,กล.*
+ตามกลิ่น,"to scent, follow the scent (of).",taam klìn,taam ˈklìn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to scent, follow the scent (of).""]}]",5,subentry,SEAlang Thai / TDP,TDP:7763,กล.*
+หมดกลิ่น,"to become odorless, lose (its) odor.",mòt klìn,mòt ˈklìn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to become odorless, lose (its) odor.""]}]",5,subentry,SEAlang Thai / TDP,TDP:753,กล.*
+กลิ้งเกลือก,"roll, tumble; wallow",klîŋ klʉ̀ak,klîŋ klʉ̀ak,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""roll, tumble""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""wallow""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25346,กล.*
+ล้มกลิ้ง,fall and roll,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""fall and roll""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:6043,กล.*
+เกลือกกลิ้ง,"tumble, tumble about; roll over; toss and turn",klʉ̀ak klîŋ,klʉ̀ak klîŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""tumble, tumble about; roll over; toss and turn""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8421,กล.*
+กลิ้ง,to roll (of itself).,klîŋ,ˈklîŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to roll (of itself).""]}]",3,entry,SEAlang Thai / TDP,TDP:746,กล.*
+ลูกกลิ้ง,"roller (for compacting, pulverizing, printing, etc.).",lûuk klîŋ,lûuk ˈklîŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""roller (for compacting, pulverizing, printing, etc.).""]}]",4,subentry,SEAlang Thai / TDP,TDP:747,กล.*
+กลิ้ม,"lock stitch, trim the edge of cloth with stitches",klîm,klîm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""lock stitch, trim the edge of cloth with stitches""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:25350,กล.*
+กลี,"plague of livestock, pestilence among the domestic animals; evil, calamitous; vicious; wicked; wicked things, evil; wickedness",kà lii,kà lii,N; ADJ,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""plague of livestock, pestilence among the domestic animals""]}, {""n"": ""2"", ""pos"": [""ADJ""], ""definitions"": [""evil, calamitous; vicious; wicked""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""wicked things, evil; wickedness""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:25351,กล.*
+กลีบดอก,"petal, corolla",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""petal, corolla""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:25354,กล.*
+กลีบ,"petal.; leaflike object.; section (e.g. of an orange, mangosteen).",klìip,ˈklìip,N; C,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""petal.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""leaflike object.""]}, {""n"": ""3"", ""pos"": [""C""], ""definitions"": [""section (e.g. of an orange, mangosteen).""]}]",3,entry,SEAlang Thai / TDP,TDP:754,กล.*
+กลียุค,"Kali Yuga, dark age; age of decadence; upheaval; havoc; turbulent days; calamitous age; wild times",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Kali Yuga, dark age; age of decadence; upheaval; havoc; turbulent days; calamitous age; wild times""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:4638,กล.*
+กลี่,"square case with several drawers (used for laying areca-nut, betel leaves, tobacco etc.)",klìi,klìi,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""square case with several drawers (used for laying areca-nut, betel leaves, tobacco etc.)""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:25352,กล.*
+เครื่องกลึง,lathe,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""lathe""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:1645,กล.*
+กลึง,to lathe.,klʉŋ,ˈklʉŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to lathe.""]}]",3,entry,SEAlang Thai / TDP,TDP:755,กล.*
+กลืนน้ำลาย,"be mouth-watering; swallow, gulp down one's saliva; be hungry",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be mouth-watering""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""swallow, gulp down one's saliva""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""be hungry""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:25360,กล.*
+กลืนไม่เข้าคายไม่ออก,"be in an awkward predicament, be in a quandary; be in a dilemma",klʉʉn mây kʰâw kʰaay mây ɔ̀ɔk,klʉʉn mây kʰâw kʰaay mây ɔ̀ɔk,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be in an awkward predicament, be in a quandary; be in a dilemma""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25361,กล.*
+เต็มกลืน,"be unbearable, be hard to swallow; be unacceptable",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be unbearable, be hard to swallow; be unacceptable""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:4756,กล.*
+กลืน,to swallow.; to match in color.; to endure.,klʉʉn,ˈklʉʉn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to swallow.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to match in color.""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""to endure.""]}]",3,entry,SEAlang Thai / TDP,TDP:756,กล.*
+กลืนแสง,to absorb light.,klʉʉn sɛ̌ɛŋ,klʉʉn ˈsɛ̌ɛŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to absorb light.""]}]",5,subentry,SEAlang Thai / TDP,TDP:757,กล.*
+ดูดกลืน,to absorb.,dùut klʉʉn,ˈdùut ˈklʉʉn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to absorb.""]}]",4,subentry,SEAlang Thai / TDP,TDP:758,กล.*
+ทนหวานอมขมกลืน,to take the bitter along with the sweet.,tʰon wǎan om kʰǒm klʉʉn,ˈtʰon wǎan ˈom kʰǒm ˈklʉʉn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to take the bitter along with the sweet.""]}]",7,subentry,SEAlang Thai / TDP,TDP:8478,กล.*
+กลุ่มชาติพันธุ์,"ethnic group, ethnography",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ethnic group, ethnography""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:25365,กล.*
+แตกกลุ่ม,"be broken off from a group, divided or split into factions",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be broken off from a group, divided or split into factions""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1022,กล.*
+กลุ่ม,"cluster, aggregation; group, bloc.; ball (of thread).",klùm,ˈklùm,C,"[{""n"": ""1"", ""pos"": [""C""], ""definitions"": [""cluster, aggregation; group, bloc.""]}, {""n"": ""2"", ""pos"": [""C""], ""definitions"": [""ball (of thread).""]}]",1,entry,SEAlang Thai / TDP,TDP:759,กล.*
+กลุ่มประเทศ,"group of nations.; bloc, coalition.",klùm pra-tʰêet,ˌklùm praˈtʰêet,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""group of nations.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""bloc, coalition.""]}]",3,subentry,SEAlang Thai / TDP,TDP:761,กล.*
+กลุ่มชน,"public gathering, crowd.",klùm cʰon,klùm ˈcʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""public gathering, crowd.""]}]",4,subentry,SEAlang Thai / TDP,TDP:5395,กล.*
+กลุ่มดาว,constellation (of stars).,klùm daaw,klùm ˈdaaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""constellation (of stars).""]}]",4,subentry,SEAlang Thai / TDP,TDP:760,กล.*
+รวมกลุ่ม,"to form a group, gather into a group, assemble.",ruam klùm,ruam ˈklùm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to form a group, gather into a group, assemble.""]}]",3,subentry,SEAlang Thai / TDP,TDP:767,กล.*
+จับกลุ่ม,"to gather, assemble, crowd around, form a group.",jàp klùm,jàp ˈklùm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to gather, assemble, crowd around, form a group.""]}]",3,subentry,SEAlang Thai / TDP,TDP:762,กล.*
+ด้ายกลุ่ม,thread commercially wound into a ball.,dâay klùm,dâay ˈklùm,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""thread commercially wound into a ball.""]}]",7,subentry,SEAlang Thai / TDP,TDP:763,กล.*
+เป็นกลุ่มเป็นก้อน,"to be all in one piece, in one lump, all nicely together.",pen klùm pen kɔ̂ɔn,pen ˈklùm pen ˈkɔ̂ɔn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be all in one piece, in one lump, all nicely together.""]}]",5,subentry,SEAlang Thai / TDP,TDP:765,กล.*
+ประเทศกลุ่มคอมมิวนิสต์,the communist bloc of nations.,pra-tʰêet klùm kʰɔɔm-miw-nít,praˈtʰêet ˌklùm kʰɔɔm.miwˈnít,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the communist bloc of nations.""]}]",8,subentry,SEAlang Thai / TDP,TDP:764,กล.*
+กลุ้ม,"to be darkened, gloomy.; to worry, be worried.",klûm,ˈklûm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be darkened, gloomy.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to worry, be worried.""]}]",2,entry,SEAlang Thai / TDP,TDP:768,กล.*
+กลุ้มใจ,"to worry, be downcast, depressed.",klûm jay,klûm ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to worry, be downcast, depressed.""]}]",3,subentry,SEAlang Thai / TDP,TDP:5068,กล.*
+กลุ้มอกกลุ้มใจ,"to worry, be downcast, depressed.",klûm òk klûm jay,klûm ˈòk klûm ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to worry, be downcast, depressed.""]}]",5,subentry,SEAlang Thai / TDP,TDP:769,กล.*
+แก้กลุ้ม,"to ease one's mind, overcome or relieve one's anxiety.",kɛ̂ɛ klûm,kɛ̂ɛ ˈklûm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to ease one's mind, overcome or relieve one's anxiety.""]}]",5,subentry,SEAlang Thai / TDP,TDP:770,กล.*
+กลุ้มรุม,"besiege, beset; throng; crowd",klûm rum,klûm rum,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""besiege, beset; throng; crowd""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:25372,กล.*
+กลูโคส,glucose,"kluu kʰóot, kluu kʰóo","kluu kʰóot, kluu kʰóo",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""glucose""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:25374,กล.*
+กล่องเสียง,larynx,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""larynx""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:18046,กล.*
+นมกล่อง,UHT milk,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""UHT milk""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1077,กล.*
+กล่อง,"small box, case (e.g. case for eyeglasses).; classifier for some kinds of containers.; classifier for things in some kinds of containers; hence, box of (paper clips, straight pins etc.).",klɔ̀ŋ,ˈklɔ̀ŋ*,N; C,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""small box, case (e.g. case for eyeglasses).""]}, {""n"": ""2"", ""pos"": [""C""], ""definitions"": [""classifier for some kinds of containers.""]}, {""n"": ""3"", ""pos"": [""C""], ""definitions"": [""classifier for things in some kinds of containers; hence, box of (paper clips, straight pins etc.).""]}]",2,entry,SEAlang Thai / TDP,TDP:625,กล.*
+กล่อมเกลา,"train, instruct",klɔ̀ɔm klaw,klɔ̀ɔm klaw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""train, instruct""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18067,กล.*
+กล่อม,"to sing lullabies, to lull to sleep.; to pursuade, to talk someone into doing something.",klɔ̀m,ˈklɔ̀m*,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to sing lullabies, to lull to sleep.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to pursuade, to talk someone into doing something.""]}]",3,entry,SEAlang Thai / TDP,TDP:640,กล.*
+กล่อมใจ,"to lull, soothe, calm (the heart, the feelings).",klɔ̀m jay,klɔ̀m ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to lull, soothe, calm (the heart, the feelings).""]}]",5,subentry,SEAlang Thai / TDP,TDP:641,กล.*
+กล่อมหอ,to serenade the bride and groom on their wedding night.,klɔ̀m hɔ̌ɔ,klɔ̀m ˈhɔ̌ɔ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to serenade the bride and groom on their wedding night.""]}]",6,subentry,SEAlang Thai / TDP,TDP:642,กล.*
+ขับกล่อม,"to sing lullabies, to lull to sleep.",kʰàp klɔ̀m,kʰàp ˈklɔ̀m,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to sing lullabies, to lull to sleep.""]}]",4,subentry,SEAlang Thai / TDP,TDP:644,กล.*
+เกลี้ยกล่อม,"to persuade, talk someone into doing something.",klîa klɔ̀m,klîa ˈklɔ̀m,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to persuade, talk someone into doing something.""]}]",4,subentry,SEAlang Thai / TDP,TDP:643,กล.*
+เพลงกล่อมลูก,cradle song.,pʰleeŋ klɔ̀m lûuk,ˈpʰleeŋ klɔ̀m ˈlûuk,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""cradle song.""]}]",5,subentry,SEAlang Thai / TDP,TDP:645,กล.*
+กล่าวอ้าง,"cite, quote; adduce; allude to; mention",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""cite, quote; adduce; allude to; mention""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:7577,กล.*
+กล่าวสุนทรพจน์,"deliver a speech, make a speech",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""deliver a speech, make a speech""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:9755,กล.*
+กล่าว,"to say, declare, mention.; to be mentioned.",klàaw,ˈklàaw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to say, declare, mention.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be mentioned.""]}]",2,entry,SEAlang Thai / TDP,TDP:731,กล.*
+กล่าวว่า,"to say, declare that.",klàaw wâa,klàaw ˈwâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to say, declare that.""]}]",2,subentry,SEAlang Thai / TDP,TDP:738,กล.*
+กล่าวถึง,to talk about.,klàaw tʰʉ̌ŋ,ˌklàaw tʰʉ̌ŋ ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to talk about.""]}]",2,subentry,SEAlang Thai / TDP,TDP:735,กล.*
+กล่าวหา,"to accuse, charge, allege.",klàaw hǎa,klàaw ˈhǎa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to accuse, charge, allege.""]}]",2,subentry,SEAlang Thai / TDP,TDP:739,กล.*
+กล่าวคือ,that is; namely.,klàaw kʰʉʉ,klàaw ˈkʰʉʉ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""that is; namely.""]}]",3,subentry,SEAlang Thai / TDP,TDP:733,กล.*
+กล่าวโทษ,"to blame, accuse, charge (with).",klàaw tʰôot,klàaw ˈtʰôot,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to blame, accuse, charge (with).""]}]",4,subentry,SEAlang Thai / TDP,TDP:737,กล.*
+กล่าวกันว่า,it is said that; they say that.,klàaw kan wâa,ˈklàaw kan ˈwâa,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""it is said that; they say that.""]}]",4,subentry,SEAlang Thai / TDP,TDP:1008,กล.*
+กล่าวขวัญ,"to speak (of), talk (about), mention.",klàaw kʰwǎn,klàaw ˈkʰwǎn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to speak (of), talk (about), mention.""]}]",4,subentry,SEAlang Thai / TDP,TDP:732,กล.*
+กล่าวเท็จ,"to lie, tell lies, speak falsely.",klàaw tʰét,klàaw ˈtʰét,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to lie, tell lies, speak falsely.""]}]",5,subentry,SEAlang Thai / TDP,TDP:736,กล.*
+กล่าวโดยย่อ,briefly speaking.,klàaw dooy yɔ̂ɔ,ˈklàaw dooy ˈyɔ̂ɔ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""briefly speaking.""]}]",5,subentry,SEAlang Thai / TDP,TDP:734,กล.*
+กล่าวซ้ำ,to repeat (that).,klàaw sám,klàaw ˈsám,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to repeat (that).""]}]",5,subentry,SEAlang Thai / TDP,TDP:6245,กล.*
+ดังกล่าว,"as mentioned, as stated; (the) aforementioned.",daŋ klàaw,daŋ ˈklàaw,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""as mentioned, as stated; (the) aforementioned.""]}]",2,subentry,SEAlang Thai / TDP,TDP:740,กล.*
+ว่ากล่าว,"to advise, admonish, reprove.",wâa klàaw,ˈwâa ˈklàaw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to advise, admonish, reprove.""]}]",3,subentry,SEAlang Thai / TDP,TDP:744,กล.*
+บอกกล่าว,"to apprise, inform, mention, notify, send a notice.",bɔ̀ɔk klàaw,bɔ̀ɔk ˈklàaw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to apprise, inform, mention, notify, send a notice.""]}]",3,subentry,SEAlang Thai / TDP,TDP:742,กล.*
+คำกล่าว,a saying.,kʰam klàaw,kʰam ˈklàaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a saying.""]}]",3,subentry,SEAlang Thai / TDP,TDP:3664,กล.*
+ยกมากล่าว,"to quote, mention, cite.",yók maa klàaw,ˈyók maa ˈklàaw,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to quote, mention, cite.""]}]",5,subentry,SEAlang Thai / TDP,TDP:743,กล.*
+ข้อกล่าวหา,"accusation, charge.",kʰɔ̂ɔ klàaw hǎa,ˈkʰɔ̂ɔ klàaw ˈhǎa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""accusation, charge.""]}]",3,subentry,SEAlang Thai / TDP,TDP:2170,กล.*
+ที่กล่าวมานี้,"which (we) have mentioned, which has been mentioned, the aforementioned.",tʰîi klàaw maa níi,tʰîi ˈklàaw maa ˈníi,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""which (we) have mentioned, which has been mentioned, the aforementioned.""]}]",4,subentry,SEAlang Thai / TDP,TDP:9143,กล.*
+ที่กล่าวนี้,which are spoken of here.,tʰîi klàaw níi,tʰîi ˈklàaw ˈníi,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""which are spoken of here.""]}]",5,subentry,SEAlang Thai / TDP,TDP:741,กล.*
+คำกล่าวหา,"accusation, charge.",kʰam klàaw hǎa,ˈkʰam klàaw ˈhǎa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""accusation, charge.""]}]",5,subentry,SEAlang Thai / TDP,TDP:3665,กล.*
+ดังจะกล่าวต่อไปนี้,"as follows, as below.",daŋ ja klàaw tɔ̀ɔ pay níi,daŋ ja ˈklàaw tɔ̀ɔ pay ˈníi,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""as follows, as below.""]}]",6,subentry,SEAlang Thai / TDP,TDP:6516,กล.*
+ข้อกล่าวหาฉกรรจ์,a serious charge.,kʰɔ̂ɔ klàaw hǎa cʰa-kan,kʰɔ̂ɔ klàaw ˈhǎa cʰaˈkan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""a serious charge.""]}]",6,subentry,SEAlang Thai / TDP,TDP:5148,กล.*
+กล้วยไข่,kind of banana,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""kind of banana""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:24367,กล.*
+กล้วยน้ำว้า,"Cultivated banana, Musa sapientum Linn.",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Cultivated banana, Musa sapientum Linn.""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:24368,กล.*
+กล้วยๆ,"easy, simple",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""easy, simple""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:24370,กล.*
+เชือกกล้วย,"string made of banana tree, banana tree fibre",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""string made of banana tree, banana tree fibre""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:23165,กล.*
+กล้วย,"banana (ลูก, ใบ, ผล for the fruit; หวี for a hand; เครือ for a bunch).",klûay,ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""banana (ลูก, ใบ, ผล for the fruit; หวี for a hand; เครือ for a bunch).""]}]",3,entry,SEAlang Thai / TDP,TDP:611,กล.*
+กล้วยหอม,banana (fragrant variety).,klûay hɔ̌ɔm,klûay ˈhɔ̌ɔm,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""banana (fragrant variety).""]}]",4,subentry,SEAlang Thai / TDP,TDP:616,กล.*
+กล้วยแขก,"banana slices, dipped in batter and fried.",klûay kʰɛ̀ɛk,klûay ˈkʰɛ̀ɛk,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""banana slices, dipped in batter and fried.""]}]",5,subentry,SEAlang Thai / TDP,TDP:612,กล.*
+กล้วยตาก,dehydrated banana (dried in the sun).,klûay tàak,klûay ˈtàak,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""dehydrated banana (dried in the sun).""]}]",5,subentry,SEAlang Thai / TDP,TDP:614,กล.*
+กล้วยเชื่อม,"glazed banana, a kind of dessert.",klûay cʰʉ̂am,klûay ˈcʰʉ̂am,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""glazed banana, a kind of dessert.""]}]",5,subentry,SEAlang Thai / TDP,TDP:613,กล.*
+ต้นกล้วย,the banana tree.,tôn klûay,tôn ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the banana tree.""]}]",4,subentry,SEAlang Thai / TDP,TDP:7136,กล.*
+กาบกล้วย,fibrous layer on the trunk of a banana tree.,kàap klûay,kàap ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fibrous layer on the trunk of a banana tree.""]}]",5,subentry,SEAlang Thai / TDP,TDP:1140,กล.*
+ดงกล้วย,banana plantation.,doŋ klûay,doŋ ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""banana plantation.""]}]",5,subentry,SEAlang Thai / TDP,TDP:618,กล.*
+หวีกล้วย,a hand of bananas.,wǐi klûay,wǐi ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a hand of bananas.""]}]",6,subentry,SEAlang Thai / TDP,TDP:619,กล.*
+เครือกล้วย,a bunch of bananas.,kʰrʉa klûay,kʰrʉa ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a bunch of bananas.""]}]",6,subentry,SEAlang Thai / TDP,TDP:617,กล.*
+กล้วย,orchid.,klûay,ˈklûay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""orchid.""]}]",3,entry,SEAlang Thai / TDP,TDP:620,กล.*
+กล้วยไม้,orchid.,klûay máay,klûay ˈmáay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""orchid.""]}]",3,subentry,SEAlang Thai / TDP,TDP:14529,กล.*
+ดอกกล้วยไม้,orchid (the flower).,dɔ̀ɔk klûay máay,dɔ̀ɔk klûay ˈmáay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""orchid (the flower).""]}]",4,subentry,SEAlang Thai / TDP,TDP:621,กล.*
+กล้วยบวชชี,banana in coconut milk,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""banana in coconut milk""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:7568,กล.*
+กล้อ,"round, circular; make circular, make round",klɔ̂ɔ,klɔ̂ɔ,ADJ; V,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""round, circular""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""make circular, make round""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:13334,กล.*
+กล้องดูดาว,telescope,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""telescope""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:17977,กล.*
+กล้องโทรทรรศน์,telescope,klɔ̂ɔŋ tʰoo rá tʰát,klɔ̂ɔŋ tʰoo rá tʰát,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""telescope""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:17980,กล.*
+กล้องสำรวจ,theodolite,klɔ̂ɔŋ sǎm rùat,klɔ̂ɔŋ sǎm rùat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""theodolite""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18045,กล.*
+กล้องวัดมุม,theodolite,klɔ̂ɔŋ wát mum,klɔ̂ɔŋ wát mum,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""theodolite""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18038,กล.*
+กล้องยาเส้น,"pipe, cigar pipe",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pipe, cigar pipe""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:17991,กล.*
+ข้าวกล้อง,"brown rice, milled rice imperfectly cleaned; unpolished rice; half milled rice",kʰâaw klɔ̂ɔŋ,kʰâaw klɔ̂ɔŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""brown rice, milled rice imperfectly cleaned; unpolished rice; half milled rice""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:8589,กล.*
+เปิดกล้อง,"begin to shoot, make a film; start shooting cinema-film",pə̀ət klɔ̂ɔŋ,pə̀ət klɔ̂ɔŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""begin to shoot, make a film; start shooting cinema-film""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:13120,กล.*
+ปิดกล้อง,"close, put an end to making a film",pìt klɔ̂ɔŋ,pìt klɔ̂ɔŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""close, put an end to making a film""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:11183,กล.*
+กล้อง,"pipe.; camera, binoculars.; classifier for tube-like objects.",klɔ̂ŋ,ˈklɔ̂ŋ*,N; C,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pipe.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""camera, binoculars.""]}, {""n"": ""3"", ""pos"": [""C""], ""definitions"": [""classifier for tube-like objects.""]}]",2,entry,SEAlang Thai / TDP,TDP:626,กล.*
+กล้องจุลทรรศน์,microscope.,klɔ̂ŋ jun-la tʰát,ˈklɔ̂ŋ jun.la ˈtʰát,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""microscope.""]}]",4,subentry,SEAlang Thai / TDP,TDP:627,กล.*
+กล้องส่องทางไกล,binoculars.; spyglass.,klɔ̂ŋ sɔ̀ŋ tʰaaŋ klay,ˌklɔ̂ŋ sɔ̀ŋ tʰaaŋ ˈklay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""binoculars.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""spyglass.""]}]",4,subentry,SEAlang Thai / TDP,TDP:631,กล.*
+กล้องโทรทัศน์,telescope.,klɔ̂ŋ tʰoo-ra-tʰát,ˈklɔ̂ŋ tʰoo.raˈtʰát,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""telescope.""]}]",4,subentry,SEAlang Thai / TDP,TDP:629,กล.*
+กล้องยาสูบ,tobacco pipe.,klɔ̂ŋ yaa sùup,ˈklɔ̂ŋ yaa ˈsùup,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tobacco pipe.""]}]",6,subentry,SEAlang Thai / TDP,TDP:630,กล.*
+ลำกล้อง,gun barrel.; hollow tube (such as a pipe stem).,lam klɔ̂ŋ,lam ˈklɔ̂ŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""gun barrel.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""hollow tube (such as a pipe stem).""]}]",5,subentry,SEAlang Thai / TDP,TDP:632,กล.*
+สูบกล้อง,"to smoke a pipe, puff on a pipe, draw on a pipe.",sùup klɔ̂ŋ,sùup ˈklɔ̂ŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to smoke a pipe, puff on a pipe, draw on a pipe.""]}]",6,subentry,SEAlang Thai / TDP,TDP:633,กล.*
+คาบกล้อง,to hold a pipe in one's mouth.,kʰâap klɔ̂ŋ,kʰâap ˈklɔ̂ŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to hold a pipe in one's mouth.""]}]",6,subentry,SEAlang Thai / TDP,TDP:3642,กล.*
+กล้องแกล้ง,"slim, slender; emaciated",klɔ̂ɔŋ klɛ̂ɛŋ,klɔ̂ɔŋ klɛ̂ɛŋ,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""slim, slender; emaciated""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:30951,กล.*
+กล้อน,"bald, bald-headed; shave, cut off",klɔ̂ɔn,klɔ̂ɔn,ADJ; V,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""bald, bald-headed""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""shave, cut off""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:18054,กล.*
+กล้อม,word added for prosody.,klɔ̂m,klɔ̂m,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""word added for prosody.""]}]",5,entry,SEAlang Thai / TDP,TDP:646,กล.*
+กล้อมแกล้ม,"minimally, passably, enough to get by.; incompletely (of chewing).",klɔ̂m-klɛ̂m,klɔ̂mˈklɛ̂m*,sV,"[{""n"": ""1"", ""pos"": [""sV""], ""definitions"": [""minimally, passably, enough to get by.""]}, {""n"": ""2"", ""pos"": [""sV""], ""definitions"": [""incompletely (of chewing).""]}]",5,entry,SEAlang Thai / TDP,TDP:647,กล.*
+กล้าเสี่ยง,"dare, risk",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""dare, risk""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:2075,กล.*
+กล้าได้กล้าเสีย,"sporting, enterprising; venturesome",klâa dây klâa sǐa,klâa dây klâa sǐa,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""sporting, enterprising; venturesome""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:30504,กล.*
+ไม่กล้า,"not dare, not venture",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""not dare, not venture""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:7761,กล.*
+ต้นกล้า,"rice sprouts, rice seedlings; young plant, sprout",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rice sprouts, rice seedlings""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""young plant, sprout""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:27716,กล.*
+แรงกล้า,"strong, intense; fervent; ardent; fervid; firm; vehement; passionate",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""strong, intense; fervent; ardent; fervid; firm; vehement; passionate""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:6021,กล.*
+แก่กล้า,"be proficient in, be highly skillful in; excel at/in; be strong; be vigorous; be robust",kɛ̀ɛ klâa,kɛ̀ɛ klâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be proficient in, be highly skillful in; excel at/in; be strong; be vigorous; be robust""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31228,กล.*
+ข้าวกล้า,"rice seedlings, germinating seed; paddy sprout; rice shoots",kʰâaw klâa,kʰâaw klâa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rice seedlings, germinating seed; paddy sprout; rice shoots""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8588,กล.*
+ความกล้าหาญ,"bravery, courage; boldness; daring; pluck; mettle; valour; fortitude",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bravery, courage; boldness; daring; pluck; mettle; valour; fortitude""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7698,กล.*
+กล้า,young rice plant (for transplanting).,klâa,ˈklâa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""young rice plant (for transplanting).""]}]",2,entry,SEAlang Thai / TDP,TDP:686,กล.*
+ตกกล้า,to sow germinated rice grain.,tòk klâa,tòk ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to sow germinated rice grain.""]}]",6,subentry,SEAlang Thai / TDP,TDP:687,กล.*
+ทอดกล้า,to sow germinated rice grain.,tʰɔ̂ɔt klâa,tʰɔ̂ɔt ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to sow germinated rice grain.""]}]",7,subentry,SEAlang Thai / TDP,TDP:8701,กล.*
+กล้า,"to dare, venture; to be brave enough to, bold enough to.; to be strong, powerful.",klâa,ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to dare, venture; to be brave enough to, bold enough to.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be strong, powerful.""]}]",2,entry,SEAlang Thai / TDP,TDP:688,กล.*
+กล้าหาญ,"to be brave, bold, courageous.",klâa hǎan,klâa ˈhǎan,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be brave, bold, courageous.""]}]",3,subentry,SEAlang Thai / TDP,TDP:690,กล.*
+กล้าแข็ง,"to be brave, strong.",klâa kʰɛ̌ŋ,klâa ˈkʰɛ̌ŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be brave, strong.""]}]",5,subentry,SEAlang Thai / TDP,TDP:689,กล.*
+กล้าหาญชาญชัย,"to be bold, brave, courageous.",klâa hǎan cʰaan cʰay,klâa ˈhǎan cʰaan ˈcʰay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be bold, brave, courageous.""]}]",5,subentry,SEAlang Thai / TDP,TDP:5738,กล.*
+เหล็กกล้า,steel.,lèk klâa,lèk ˈklâa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""steel.""]}]",4,subentry,SEAlang Thai / TDP,TDP:696,กล.*
+ใจกล้า,"to be bold, brave, venturesome.",jay klâa,jay ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be bold, brave, venturesome.""]}]",4,subentry,SEAlang Thai / TDP,TDP:692,กล.*
+ปากกล้า,"to use bold words, strong words.; to be fresh (in talking).",pàak klâa,pàak ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to use bold words, strong words.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be fresh (in talking).""]}]",5,subentry,SEAlang Thai / TDP,TDP:694,กล.*
+แข็งกล้า,"to be hard (of metal, especially steel).; to be brave.",kʰɛ̌ŋ klâa,kʰɛ̌ŋ ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be hard (of metal, especially steel).""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be brave.""]}]",5,subentry,SEAlang Thai / TDP,TDP:691,กล.*
+แดดกล้า,the sunlight is strong.,dɛ̀ɛt klâa,dɛ̀ɛt ˈklâa,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the sunlight is strong.""]}]",5,subentry,SEAlang Thai / TDP,TDP:693,กล.*
+พัดกล้า,to blow strongly.,pʰát klâa,ˈpʰát ˈklâa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to blow strongly.""]}]",7,subentry,SEAlang Thai / TDP,TDP:695,กล.*
+เสื้อกล้าม,"vest, waistcoat; undershirt; singlet",sʉ̂a klâam,sʉ̂a klâam,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""vest, waistcoat; undershirt; singlet""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:16871,กล.*
+กล้าม,muscle.,klâam,ˈklâam,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""muscle.""]}]",3,entry,SEAlang Thai / TDP,TDP:726,กล.*
+กล้ามเนื้อ,muscle.,klâam nʉ́a,klâam ˈnʉ́a,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""muscle.""]}]",3,subentry,SEAlang Thai / TDP,TDP:10199,กล.*
+กล้ำ,"combine, bind together",klâm,klâm,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""combine, bind together""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:25342,กล.*
+อักษรกล้ำ,diphthong,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""diphthong""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:5903,กล.*
+กล้ำกราย,"invade, attack; intrude, come near",klâm kraay,klâm kraay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""invade, attack""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""intrude, come near""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:25343,กล.*
+กล้ำกลืน,"tolerate, be patient; suppress; endure; bear",klâm klʉʉn,klâm klʉʉn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""tolerate, be patient; suppress; endure; bear""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:25344,กล.*
+กลุ่มผู้ใช้,user group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""user group""]}]",3,subentry,SEAlang Thai / RI,RI:892,กล.*
+กล้องถ่ายภาพ,camera,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""camera""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:17978,กล.*
+กลุ่มคน,"crowd, throng; group; community",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""crowd, throng; group; community""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:9756,กล.*
+กลับด้าน,"reverse, turn upside down; turn inside out; invert",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""reverse, turn upside down; turn inside out; invert""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:9749,กล.*
+กลุ่มย่อย,groupwork,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""groupwork""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:31732,กล.*
+กลุ่มเป้าหมาย,target group,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""target group""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:2639,กล.*
+กลุ่มอาชีพ,"occupational class, occupational class",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""occupational class, occupational class""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:3620,กล.*
+กลุ่มอาชีพ,occupational class; occupational group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""occupational class; occupational group""]}]",3,subentry,SEAlang Thai / RI,RI:958,กล.*
+ตอนกลางคืน,"at night, during the night; in the night; by night; night-time; during nighttime",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""at night, during the night; in the night; by night; night-time; during nighttime""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:17751,กล.*
+แกล้ว,"to be brave, bold, courageous.",klɛ̂ɛw,ˈklɛ̂ɛw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be brave, bold, courageous.""]}]",3,subentry,SEAlang Thai / TDP,TDP:1834,กล.*
+กลางเดือน,"the middle of the lunar month, the middle of the month",klaaŋ dʉan,klaaŋ dʉan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the middle of the lunar month, the middle of the month""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:23531,กล.*
+กลุ่มบริษัท,consortium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""consortium""]}]",3,subentry,SEAlang Thai / RI,RI:880,กล.*
+กลางๆ,"middle, center; in the middle; neutrally, impartially",,,ADJ; ADV,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""middle, center; in the middle""]}, {""n"": ""2"", ""pos"": [""ADV""], ""definitions"": [""neutrally, impartially""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:31076,กล.*
+ตอนกลางวัน,"daytime, during the day; in day time",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""daytime, during the day; in day time""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:17763,กล.*
+กล่าวต่อไป,"to go on, continue (talking); to say further.",klàaw tɔ̀ɔ pay,ˈklàaw tɔ̀ɔ ˈpay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to go on, continue (talking); to say further.""]}]",3,subentry,SEAlang Thai / TDP,TDP:7345,กล.*
+กลิ่นเหม็น,fetor; foetor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fetor; foetor""]}]",4,subentry,SEAlang Thai / RI,RI:840,กล.*
+กลุ่มตัวอย่าง,"sample, representative sample",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""sample, representative sample""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31731,กล.*
+กลางกรุง,"downtown, center of the city; center of the town",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""downtown, center of the city; center of the town""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:30831,กล.*
+ชนกลุ่มน้อย,minority,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""minority""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:22479,กล.*
+กลุ่มข้อมูล,data packet; packet / data aggregate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""data packet; packet / data aggregate""]}]",4,subentry,SEAlang Thai / RI,RI:866,กล.*
+กลโกง,"trick, swindle; trickery; deception; cheat; fraud; scam; deceit",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trick, swindle; trickery; deception; cheat; fraud; scam; deceit""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23623,กล.*
+กล่าวขาน,"be well-known, be renowned",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be well-known, be renowned""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31728,กล.*
+กลับรถ,"back a car, reverse a car; U Turn",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""back a car, reverse a car; U Turn""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23439,กล.*
+กลูเทน,gluten,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gluten""]}]",4,subentry,SEAlang Thai / RI,RI:985,กล.*
+กลืนกิน,phagocytise; phagocytize; phagocytose,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""phagocytise; phagocytize; phagocytose""]}]",4,subentry,SEAlang Thai / RI,RI:859,กล.*
+กลุ่มเสี่ยง,risk group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""risk group""]}]",4,subentry,SEAlang Thai / RI,RI:973,กล.*
+กลับหัว,invert,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""invert""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:2287,กล.*
+กลับหัว,inverted,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""inverted""]}]",4,subentry,SEAlang Thai / RI,RI:824,กล.*
+กลุ่มอายุ,age group,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""age group""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:3622,กล.*
+กลุ่มอายุ,age group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age group""]}]",4,subentry,SEAlang Thai / RI,RI:959,กล.*
+กลิ่นปาก,saburra (เหม็น),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""saburra (เหม็น)""]}]",4,subentry,SEAlang Thai / RI,RI:838,กล.*
+กลุ่มอาการ,symptom complex; syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""symptom complex; syndrome""]}]",4,subentry,SEAlang Thai / RI,RI:925,กล.*
+กลการ,machinery,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""machinery""]}]",4,subentry,SEAlang Thai / RI,RI:761,กล.*
+กล้ามเนื้อหัวใจ,cardiac muscle,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""cardiac muscle""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:25332,กล.*
+กล้ามเนื้อหัวใจ,cardiac muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cardiac muscle""]}]",4,subentry,SEAlang Thai / RI,RI:1095,กล.*
+กล่าวย้ำ,"restate, emphasize",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""restate, emphasize""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31729,กล.*
+กล่าวสรุป,"sum up, summarize; put in a nutshell; recapitulate",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""sum up, summarize; put in a nutshell; recapitulate""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7576,กล.*
+กลับชาติมาเกิด,"reincarnate, born again in a new body",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""reincarnate, born again in a new body""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23419,กล.*
+กลิ่นอับ,"bad smell, bad odour",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bad smell, bad odour""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31730,กล.*
+กลิ่นคาว,"fishy smell, stinking smell",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fishy smell, stinking smell""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7578,กล.*
+ท่าม,"in the middle of, in the midst of, amidst, among.",tʰâam,ˈtʰâam,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the middle of, in the midst of, amidst, among.""]}]",4,subentry,SEAlang Thai / TDP,TDP:8961,กล.*
+กล่องดำ,black box,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""black box""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:2516,กล.*
+กลุ่มก้อน,"group, amount; mass; cluster",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""group, amount; mass; cluster""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:25363,กล.*
+กลุ่มก้อน,group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""group""]}]",4,subentry,SEAlang Thai / RI,RI:864,กล.*
+กลับตัวกลับใจ,"turn over a new leaf, reform oneself",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""turn over a new leaf, reform oneself""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7570,กล.*
+กล่าวเตือน,"warn, advice; caution; tip off; admonish",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""warn, advice; caution; tip off; admonish""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7573,กล.*
+กลางใจเมือง,"the center of town, the heart of town; the heart of city",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the center of town, the heart of town; the heart of city""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:30830,กล.*
+กลศาสตร์ของไหล,fluid mechanics,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fluid mechanics""]}]",4,subentry,SEAlang Thai / RI,RI:803,กล.*
+ฝันกลางวัน,daydream,fǎn klaaŋ wan,fǎn klaaŋ wan,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""daydream""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:11596,กล.*
+กลลวง,"fraud, swindle",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fraud, swindle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:13333,กล.*
+กลั้นหายใจ,to hold one's breath.,klân hǎay jay,ˈklân hǎay ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to hold one's breath.""]}]",5,subentry,SEAlang Thai / TDP,TDP:18641,กล.*
+กล่าวโจมตี,"attack verbally, assault; strike; verbally; criticize",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""attack verbally, assault; strike; verbally; criticize""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:2074,กล.*
+กล้าไม้,"seedling, sprout; young plant",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""seedling, sprout; young plant""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9754,กล.*
+กล้าไม้,young plant,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""young plant""]}]",5,subentry,SEAlang Thai / RI,RI:1115,กล.*
+กลุ่มควบคุม,case (ตัวแปร) control,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""case (ตัวแปร) control""]}]",5,subentry,SEAlang Thai / RI,RI:867,กล.*
+กลอนแปด,a form of Thai octameter poem,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a form of Thai octameter poem""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9746,กล.*
+กลีบดอกไม้,"petal, corolla",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""petal, corolla""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25355,กล.*
+กลัวเมีย,be henpecked,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be henpecked""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:2072,กล.*
+กีฬากลางแจ้ง,"outdoor sports, outdoor game",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""outdoor sports, outdoor game""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8206,กล.*
+กลีบบัว,petal of the lotus blossom,klìip bua,klìip bua,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""petal of the lotus blossom""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25357,กล.*
+กล้องระดับ,"surveyor's telescope, level-measuring instrument",klɔ̂ɔŋ rá dàp,klɔ̂ɔŋ rá dàp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""surveyor's telescope, level-measuring instrument""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18013,กล.*
+กล้าแกร่ง,"bold, daring; brave; valiant",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""bold, daring; brave; valiant""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31227,กล.*
+กลุ่มข่าว,newsgroup,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""newsgroup""]}]",5,subentry,SEAlang Thai / RI,RI:865,กล.*
+กลุ่มผลประโยชน์,"benefit group, advantage group",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""benefit group, advantage group""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25370,กล.*
+กลุ่มผลประโยชน์,interest group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""interest group""]}]",5,subentry,SEAlang Thai / RI,RI:885,กล.*
+กล่าวตอบ,"answer, reply; respond",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""answer, reply; respond""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:7581,กล.*
+กล่าวอีกนัยหนึ่ง,in other words,,,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""in other words""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:3668,กล.*
+กลุ่มประชากร,population aggregate; population cluster,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""population aggregate; population cluster""]}]",5,subentry,SEAlang Thai / RI,RI:882,กล.*
+กลีบเลี้ยง,sepal,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sepal""]}]",5,subentry,SEAlang Thai / RI,RI:857,กล.*
+กล่องโฟม,"foam box, synthetic container",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""foam box, synthetic container""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31726,กล.*
+กลอนสุภาพ,a form of Thai octameter poem,klɔɔn sù pʰâap,klɔɔn sù pʰâap,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a form of Thai octameter poem""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18065,กล.*
+กลุ่มรวม,complex,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""complex""]}]",5,subentry,SEAlang Thai / RI,RI:897,กล.*
+กล่องดนตรี,music box,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""music box""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31725,กล.*
+กลุ่มแกนนำ,cadre,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cadre""]}]",5,subentry,SEAlang Thai / RI,RI:976,กล.*
+กล้าเผชิญ,"brave, confront; dare",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""brave, confront; dare""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:30503,กล.*
+ผสมกลมกลืน,"combine, harmonize",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""combine, harmonize""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:13988,กล.*
+กลุ่มมิจฉาชีพ,ring,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ring""]}]",5,subentry,SEAlang Thai / RI,RI:896,กล.*
+กลางดิน,"the open air, the outdoor",klaaŋ din,klaaŋ din,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the open air, the outdoor""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:30946,กล.*
+กลุ่มอาคาร,block,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""block""]}]",5,subentry,SEAlang Thai / RI,RI:956,กล.*
+กล้วยปิ้ง,roasted banana.,klûay pîŋ,klûay ˈpîŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""roasted banana.""]}]",5,subentry,SEAlang Thai / TDP,TDP:615,กล.*
+กลืนน้ำลายตัวเอง,go back on one's word,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""go back on one's word""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:763,กล.*
+กล่องดินสอ,pencil box,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pencil box""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1799,กล.*
+กล่องควบคุม,control box,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""control box""]}]",5,subentry,SEAlang Thai / RI,RI:1010,กล.*
+กลุ่มทำงาน,working group,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""working group""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25366,กล.*
+กล้ามเนื้ออ่อนแรง,amyosthenia; myasthenia; myoasthenia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""amyosthenia; myasthenia; myoasthenia""]}]",5,subentry,SEAlang Thai / RI,RI:1102,กล.*
+กล้ามเนื้ออักเสบ,myometritis / myitis; myositis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myometritis / myitis; myositis""]}]",5,subentry,SEAlang Thai / RI,RI:1099,กล.*
+กลางเวหา,"in the sky, in midair; aerial; in the air",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""in the sky, in midair; aerial; in the air""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9753,กล.*
+กลืนกัน,"blend, be in harmony; merge; combine; mingle",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""blend, be in harmony; merge; combine; mingle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:7580,กล.*
+กลุ่มอิทธิพล,pressure group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pressure group""]}]",5,subentry,SEAlang Thai / RI,RI:963,กล.*
+กลายเป็นนิสัย,"be habitual, be accustomed; be customary",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be habitual, be accustomed; be customary""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:2034,กล.*
+กลายเป็นสีแดง,rubescent,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rubescent""]}]",5,subentry,SEAlang Thai / RI,RI:834,กล.*
+เกลื่อนกล่น,"aboundingly, fully; widely (spread); gluttingly",,,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""aboundingly, fully; widely (spread); gluttingly""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8427,กล.*
+กลมกลึง,"round-shaped, plump",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""round-shaped, plump""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31721,กล.*
+กลับคำให้การ,recant,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""recant""]}]",5,subentry,SEAlang Thai / RI,RI:820,กล.*
+กล้ามเนื้อตา,"eye muscle, ocular muscle",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""eye muscle, ocular muscle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25331,กล.*
+กลมยาว,teres,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""teres""]}]",5,subentry,SEAlang Thai / RI,RI:765,กล.*
+กลุ่มผู้ใช้แรงงาน,working class,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""working class""]}]",5,subentry,SEAlang Thai / RI,RI:893,กล.*
+เหรียญกล้าหาญ,"decoration for bravery, decoration for valour",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""decoration for bravery, decoration for valour""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:29721,กล.*
+กล้ามเนื้อเรียบ,non-striated muscle; smooth muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""non-striated muscle; smooth muscle""]}]",5,subentry,SEAlang Thai / RI,RI:1106,กล.*
+กลั้นลมหายใจ,"hold one's breath, catch one's breath; bate one's breath",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""hold one's breath, catch one's breath; bate one's breath""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:23402,กล.*
+กล่อมเกลี้ยง,"nurture, train; coach",klɔ̀ɔm klîaŋ,klɔ̀ɔm klîaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""nurture, train; coach""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18068,กล.*
+ปีกกล้าขาแข็ง,"become full-fledged, be strong enough",pìik klâa kʰǎa kʰɛŋ,pìik klâa kʰǎa kʰɛŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""become full-fledged, be strong enough""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:11259,กล.*
+กลีบปาก,labellum; lip,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""labellum; lip""]}]",5,subentry,SEAlang Thai / RI,RI:849,กล.*
+กล่าวสนับสนุน,advocate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""advocate""]}]",5,subentry,SEAlang Thai / RI,RI:1032,กล.*
+กล้องขยาย,microscope,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""microscope""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:17975,กล.*
+โรคกลัวน้ำ,"rabies, hydrophobia",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rabies, hydrophobia""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:14193,กล.*
+กลไกป้องกัน,defense mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""defense mechanism""]}]",5,subentry,SEAlang Thai / RI,RI:1001,กล.*
+กลุ่มแยก,faction,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""faction""]}]",5,subentry,SEAlang Thai / RI,RI:979,กล.*
+กล้องสองตา,"binocular, spyglass",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""binocular, spyglass""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9745,กล.*
+กล้องสองตา,binocular,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""binocular""]}]",5,subentry,SEAlang Thai / RI,RI:1039,กล.*
+กลุ่มเลือด,blood groups,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""blood groups""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:2288,กล.*
+กล้องจุลทัศน์,microscope.,klɔ̂ŋ jun-la tʰát,ˈklɔ̂ŋ jun.la ˈtʰát,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""microscope.""]}]",5,subentry,SEAlang Thai / TDP,TDP:4894,กล.*
+กล้ามเนื้อน่อง,gastrocnemius,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gastrocnemius""]}]",5,subentry,SEAlang Thai / RI,RI:1081,กล.*
+กลวิธาน,mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mechanism""]}]",5,subentry,SEAlang Thai / RI,RI:768,กล.*
+กลยุทธ์เชิงรุก,"approach strategy, dissemination strategy",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""approach strategy, dissemination strategy""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:30409,กล.*
+กลุ่มเรียกร้อง,demanding group,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""demanding group""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25373,กล.*
+กลุ่มกอง,aggregate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aggregate""]}]",5,subentry,SEAlang Thai / RI,RI:863,กล.*
+กลุ่มพี่น้อง,sib,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sib""]}]",5,subentry,SEAlang Thai / RI,RI:894,กล.*
+กลางฝ่ามือ,the middle of the palm,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the middle of the palm""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9752,กล.*
+กล่าวโดยทั่วไป,generally speaking.,klàaw dooy tʰûa pay,ˈklàaw dooy tʰûa ˈpay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""generally speaking.""]}]",5,subentry,SEAlang Thai / TDP,TDP:6987,กล.*
+กล้ามเนื้อลาย,striated muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""striated muscle""]}]",5,subentry,SEAlang Thai / RI,RI:1086,กล.*
+กล้ามเนื้อหัวใจอักเสบ,myocarditis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myocarditis""]}]",6,subentry,SEAlang Thai / RI,RI:1096,กล.*
+กลัวหัวหด,"horrify, appall; terrify; be overwhelmed with fear",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""horrify, appall; terrify; be overwhelmed with fear""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:9751,กล.*
+กล่องฟิวส์,fuse box,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fuse box""]}]",6,subentry,SEAlang Thai / RI,RI:1016,กล.*
+กล้ามเนื้อหูรูด,sphincter / sphincter muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sphincter / sphincter muscle""]}]",6,subentry,SEAlang Thai / RI,RI:1097,กล.*
+กลุ่มปัญญาชน,"intelligentsia, intellectual",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""intelligentsia, intellectual""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:25369,กล.*
+กล้ามเนื้อมดลูก,myometrium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myometrium""]}]",6,subentry,SEAlang Thai / RI,RI:1083,กล.*
+กลอนตลาด,a form of Thai octameter poem,klɔɔn tà làat,klɔɔn tà làat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a form of Thai octameter poem""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18059,กล.*
+กล้องวัดระดับ,"surveyor's telescope, level-measuring instrument",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""surveyor's telescope, level-measuring instrument""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:9744,กล.*
+กลุ่มใบ,foliage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""foliage""]}]",6,subentry,SEAlang Thai / RI,RI:982,กล.*
+กล่าวลอยๆ,"say nonspecifically, say groundlessly",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""say nonspecifically, say groundlessly""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:7575,กล.*
+กล่าวเกินจริง,exaggerate,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""exaggerate""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:2073,กล.*
+กล่องรับสัญญาณ,set-top box,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""set-top box""]}]",6,subentry,SEAlang Thai / RI,RI:1017,กล.*
+กลไกทางการเมือง,political machinery,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""political machinery""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:3804,กล.*
+กลไกทางการเมือง,political machinery,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""political machinery""]}]",6,subentry,SEAlang Thai / RI,RI:999,กล.*
+กลุ่มสิบ,decade,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""decade""]}]",6,subentry,SEAlang Thai / RI,RI:912,กล.*
+กลับคำพิพากษา,reverse a judgment (โดยอาศัยข้อกฎหมาย); recall a judgment (โดยอาศัยข้อเท็จจริง); overrule;,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""reverse a judgment (โดยอาศัยข้อกฎหมาย)""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""recall a judgment (โดยอาศัยข้อเท็จจริง)""]}, {""n"": ""3"", ""pos"": [], ""definitions"": [""overrule;""]}]",6,subentry,SEAlang Thai / RI,RI:817,กล.*
+กลอุปกรณ์,"device, invention; appliance; gadget","kon ù pà kɔɔn, kon ùp pà kɔɔn","kon ù pà kɔɔn, kon ùp pà kɔɔn",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""device, invention; appliance; gadget""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18093,กล.*
+กลอุปกรณ์,device,"kon ù pà kɔɔn, kon ùp pà kɔɔn","kon ù pà kɔɔn, kon ùp pà kɔɔn",,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""device""]}]",6,subentry,SEAlang Thai / RI,RI:810,กล.*
+กลุ่มกดดัน,pressure group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pressure group""]}]",6,subentry,SEAlang Thai / RI,RI:862,กล.*
+กลุ่มเชื้อชาติ,racial group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""racial group""]}]",6,subentry,SEAlang Thai / RI,RI:966,กล.*
+ยากลางบ้าน,"quack medicine, quack remedy",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""quack medicine, quack remedy""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:21835,กล.*
+กลุ่มเสี่ยงสูง,vulnerable group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""vulnerable group""]}]",6,subentry,SEAlang Thai / RI,RI:975,กล.*
+กล้ามเนื้อฉีกขาด,myorrhexis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myorrhexis""]}]",6,subentry,SEAlang Thai / RI,RI:1072,กล.*
+กลไกทางจิต,mental mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mental mechanism""]}]",6,subentry,SEAlang Thai / RI,RI:1000,กล.*
+กลางช้าง,guard on the back of elephant in fighting,klaaŋ cʰáaŋ,klaaŋ cʰáaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""guard on the back of elephant in fighting""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:23530,กล.*
+กล้ามเนื้อหดเกร็ง,myospasm,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myospasm""]}]",6,subentry,SEAlang Thai / RI,RI:1093,กล.*
+กล่าวโดยเฉพาะ,in particular,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in particular""]}]",6,subentry,SEAlang Thai / RI,RI:1033,กล.*
+กลุ่มเพื่อนบ้าน,"neighborhood, neighbor group",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""neighborhood, neighbor group""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:25371,กล.*
+กลีบรวม,tepal,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tepal""]}]",6,subentry,SEAlang Thai / RI,RI:852,กล.*
+กล่าวโต้,"retort, reply; answer; respond; counter",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""retort, reply; answer; respond; counter""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:7566,กล.*
+กลายเป็นกระดูก,ossific,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ossific""]}]",6,subentry,SEAlang Thai / RI,RI:833,กล.*
+กลอกกลับ,"unreliably, slyly; changeably",klɔ̀ɔk klàp,klɔ̀ɔk klàp,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""unreliably, slyly; changeably""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:13343,กล.*
+กลอนเพลงยาว,a form of Thai octameter poem,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a form of Thai octameter poem""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:9747,กล.*
+กลีบกลาง,banner; standard; vexillum,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""banner; standard; vexillum""]}]",6,subentry,SEAlang Thai / RI,RI:842,กล.*
+กลอกลูกตา,"goggle, roll the eyes; goggle eyeballs",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""goggle, roll the eyes; goggle eyeballs""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:9741,กล.*
+กลีบล่าง,labium [พืชวงศ์ Labiatae],,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""labium [พืชวงศ์ Labiatae]""]}]",6,subentry,SEAlang Thai / RI,RI:854,กล.*
+กลูโคไซด์,glucoside,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""glucoside""]}]",6,subentry,SEAlang Thai / RI,RI:988,กล.*
+กลัวลาน,"horrify, appall; terrify; be overwhelmed with fear",klua laan,klua laan,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""horrify, appall; terrify; be overwhelmed with fear""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:30414,กล.*
+กล่องเลือก,checkbox,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""checkbox""]}]",6,subentry,SEAlang Thai / RI,RI:1021,กล.*
+กลับคืนสู่ฐานะเดิม,in statu quo; re-establish,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in statu quo; re-establish""]}]",6,subentry,SEAlang Thai / RI,RI:822,กล.*
+กลุ่มอับสปอร์,sorus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sorus""]}]",6,subentry,SEAlang Thai / RI,RI:917,กล.*
+กลุ่มญาติพี่น้อง,kinship group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""kinship group""]}]",6,subentry,SEAlang Thai / RI,RI:870,กล.*
+กลายสี,"change colour, discolour",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""change colour, discolour""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:7571,กล.*
+กลุ่มระเบียน,block,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""block""]}]",6,subentry,SEAlang Thai / RI,RI:899,กล.*
+กลอนสวด,"Thai religious verse, hymn",klɔɔn sùat,klɔɔn sùat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Thai religious verse, hymn""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18062,กล.*
+ไม่ชอบกล,"to be inappropriate, funny, strange, peculiar.",mây cʰɔ̂ɔp kon,mây cʰɔ̂ɔp ˈkon,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be inappropriate, funny, strange, peculiar.""]}]",6,subentry,SEAlang Thai / TDP,TDP:14442,กล.*
+กลุ่มแปด,The Eight,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""The Eight""]}]",6,subentry,SEAlang Thai / RI,RI:977,กล.*
+กลักไม้ขีดไฟ,match-box,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""match-box""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18103,กล.*
+กลุ่มละหนึ่ง,monad,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""monad""]}]",6,subentry,SEAlang Thai / RI,RI:907,กล.*
+กล้ามเนื้อแก้ม,buccinator muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""buccinator muscle""]}]",6,subentry,SEAlang Thai / RI,RI:1108,กล.*
+กลุ่มละสาม,triad,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""triad""]}]",6,subentry,SEAlang Thai / RI,RI:905,กล.*
+กลอนรำพัน,complaint,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""complaint""]}]",6,subentry,SEAlang Thai / RI,RI:807,กล.*
+กลบเกลี่ย,"cover with earth and then smooth over the surface, fill and level up",klòp klìa,klòp klìa,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""cover with earth and then smooth over the surface, fill and level up""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:24356,กล.*
+กล้ามเนื้อโครงร่าง,skeletal muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""skeletal muscle""]}]",7,subentry,SEAlang Thai / RI,RI:1113,กล.*
+กล้องส่องตรวจกระเพาะ,gastroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gastroscope""]}]",7,subentry,SEAlang Thai / RI,RI:1041,กล.*
+กลุ่มออร์ฟิสต์,orphism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orphism""]}]",7,subentry,SEAlang Thai / RI,RI:915,กล.*
+กล้ำสัญญาณ,modulate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""modulate""]}]",7,subentry,SEAlang Thai / RI,RI:1116,กล.*
+กลไกการเข้าถึง,access mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""access mechanism""]}]",7,subentry,SEAlang Thai / RI,RI:996,กล.*
+กลางร่องน้ำ,mid-channel,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mid-channel""]}]",7,subentry,SEAlang Thai / RI,RI:829,กล.*
+กล้ามเนื้อฝ่อลีบ,amyotrophy; myatrophy; myoatrophy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""amyotrophy; myatrophy; myoatrophy""]}]",7,subentry,SEAlang Thai / RI,RI:1082,กล.*
+กล้ามเนื้องอ,flexor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""flexor""]}]",7,subentry,SEAlang Thai / RI,RI:1071,กล.*
+กลอนลิลิต,a form of Thai verse,klɔɔn lí lít,klɔɔn lí lít,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a form of Thai verse""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:18061,กล.*
+กลุ่มเรณู,pollinium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pollinium""]}]",7,subentry,SEAlang Thai / RI,RI:971,กล.*
+กลุ่มสายกลาง,centrist,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""centrist""]}]",7,subentry,SEAlang Thai / RI,RI:911,กล.*
+กล้ามเนื้อแข้ง,tibialis muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tibialis muscle""]}]",7,subentry,SEAlang Thai / RI,RI:1109,กล.*
+กล้องสนาม,"field-glasses, binoculars",klɔ̂ɔŋ sà nǎam,klɔ̂ɔŋ sà nǎam,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""field-glasses, binoculars""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:18039,กล.*
+กลอกออก,abduct,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""abduct""]}]",7,subentry,SEAlang Thai / RI,RI:805,กล.*
+กล้ามเนื้อยก,levator,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""levator""]}]",7,subentry,SEAlang Thai / RI,RI:1085,กล.*
+กล้ามเนื้อเหยียด,extensor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""extensor""]}]",7,subentry,SEAlang Thai / RI,RI:1107,กล.*
+กล้ามเนื้อดึง,tensor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tensor""]}]",7,subentry,SEAlang Thai / RI,RI:1075,กล.*
+กลางใจมือ,the middle of the palm,klaaŋ jay mʉʉ,klaaŋ jay mʉʉ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the middle of the palm""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:23529,กล.*
+กลุ่มที่แยกตัวออกมา,isolate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""isolate""]}]",7,subentry,SEAlang Thai / RI,RI:876,กล.*
+กลสัทศาสตร์,acoustic phonetics,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""acoustic phonetics""]}]",7,subentry,SEAlang Thai / RI,RI:804,กล.*
+กลุ่มทุติยภูมิ,secondary group,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""secondary group""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:25367,กล.*
+กลีบคู่ล่าง,carina; keel,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""carina; keel""]}]",7,subentry,SEAlang Thai / RI,RI:844,กล.*
+กล้ามเนื้อลืมตา,levator of upper eyelid muscle; musculus levator palpebrae superioris,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""levator of upper eyelid muscle; musculus levator palpebrae superioris""]}]",7,subentry,SEAlang Thai / RI,RI:1087,กล.*
+กลุ่มร่วมงาน,workgroup,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""workgroup""]}]",7,subentry,SEAlang Thai / RI,RI:902,กล.*
+กล้ามเนื้อคออักเสบ,trachelomyitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""trachelomyitis""]}]",7,subentry,SEAlang Thai / RI,RI:1069,กล.*
+กลุ่มละสอง,diad; dyad,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""diad; dyad""]}]",7,subentry,SEAlang Thai / RI,RI:904,กล.*
+กลีบย่อย,lobule,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lobule""]}]",7,subentry,SEAlang Thai / RI,RI:850,กล.*
+กลุ่มละสี่,tetrad,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tetrad""]}]",7,subentry,SEAlang Thai / RI,RI:906,กล.*
+กลุ่มภายในพรรค,ring,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ring""]}]",7,subentry,SEAlang Thai / RI,RI:895,กล.*
+กลีบเลี้ยงติดทน,persistent calyx,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""persistent calyx""]}]",7,subentry,SEAlang Thai / RI,RI:858,กล.*
+กลีบตา,eyelid,klìip taa,klìip taa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""eyelid""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:25356,กล.*
+กลุ่มอาการภูมิคุ้มกันเสื่อม,AIDS; acquired immune deficiency syndrome; acquired immunodeficiency syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""AIDS; acquired immune deficiency syndrome; acquired immunodeficiency syndrome""]}]",7,subentry,SEAlang Thai / RI,RI:940,กล.*
+กล้องสลัด,"arming object, tube to eject weapon",klɔ̂ɔŋ sà làt,klɔ̂ɔŋ sà làt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""arming object, tube to eject weapon""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:18042,กล.*
+กลีบหิน,mica,klìip hǐn,klìip hǐn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mica""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:25358,กล.*
+กล่อมมดลูก,"massage with hot compress, soothe the womb after delivery",klɔ̀ɔm mót lûuk,klɔ̀ɔm mót lûuk,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""massage with hot compress, soothe the womb after delivery""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:18073,กล.*
+กล้ามเนื้อขมับ,temporal muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""temporal muscle""]}]",7,subentry,SEAlang Thai / RI,RI:1068,กล.*
+กลั้นวาจา,hold one's tongues,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""hold one's tongues""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:4636,กล.*
+กล่องลม,plenum chamber,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""plenum chamber""]}]",7,subentry,SEAlang Thai / RI,RI:1019,กล.*
+กล้องส่องตรวจช่องท้อง,celioscope; laparoscope; peritoneoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""celioscope; laparoscope; peritoneoscope""]}]",7,subentry,SEAlang Thai / RI,RI:1047,กล.*
+กลูโคซิโนเลต,glucosinolate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""glucosinolate""]}]",7,subentry,SEAlang Thai / RI,RI:986,กล.*
+กลีบคู่ข้าง,ala; wing,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ala; wing""]}]",7,subentry,SEAlang Thai / RI,RI:843,กล.*
+กลีบเกล็ด,lodicule [ดอกหญ้า],,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lodicule [ดอกหญ้า]""]}]",7,subentry,SEAlang Thai / RI,RI:856,กล.*
+กล่อมท้อง,soothe the tension of delivery by rubbing gently the belly,klɔ̀ɔm tʰɔ́ɔŋ,klɔ̀ɔm tʰɔ́ɔŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""soothe the tension of delivery by rubbing gently the belly""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:18072,กล.*
+กลดพระสุเมรุ,posture of Thai dance,klòt pʰrá sù meen,klòt pʰrá sù meen,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""posture of Thai dance""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:24354,กล.*
+กล่องเสียงตีบ,laryngostenosis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""laryngostenosis""]}]",7,subentry,SEAlang Thai / RI,RI:1023,กล.*
+กลัดเลือด,bloodshot,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bloodshot""]}]",7,subentry,SEAlang Thai / RI,RI:816,กล.*
+กลุ่มบลูมส์เบอรี,the Bloomsbury group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the Bloomsbury group""]}]",7,subentry,SEAlang Thai / RI,RI:881,กล.*
+กลุ่มเสี่ยงภัย,pool,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pool""]}]",7,subentry,SEAlang Thai / RI,RI:974,กล.*
+กลวิธานป้องกัน,defense mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""defense mechanism""]}]",7,subentry,SEAlang Thai / RI,RI:770,กล.*
+กล้ามเนื้อคู้,flexor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""flexor""]}]",7,subentry,SEAlang Thai / RI,RI:1070,กล.*
+กล้องส่องตรวจปาก,stomatoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stomatoscope""]}]",7,subentry,SEAlang Thai / RI,RI:1049,กล.*
+กลอุปกรณ์ขากรรไกรจำลอง,articulator; dental articulator; occluder; occluding frame,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""articulator; dental articulator; occluder; occluding frame""]}]",7,subentry,SEAlang Thai / RI,RI:811,กล.*
+กล้องส่องตรวจหลอดลม,bronchoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bronchoscope""]}]",7,subentry,SEAlang Thai / RI,RI:1051,กล.*
+กลุ่มผู้ทรงอำนาจ,establishment,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""establishment""]}]",7,subentry,SEAlang Thai / RI,RI:887,กล.*
+กล้องส่องกล่องเสียง,pharyngoscope,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pharyngoscope""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:18043,กล.*
+กล้องส่องตรวจหู,auriscope; otoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""auriscope; otoscope""]}]",7,subentry,SEAlang Thai / RI,RI:1053,กล.*
+กล้ามเนื้อหลับตา,orbicularis oculi muscle; sphincter oculi,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orbicularis oculi muscle; sphincter oculi""]}]",7,subentry,SEAlang Thai / RI,RI:1094,กล.*
+กลอกเข้า,adduct,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""adduct""]}]",8,subentry,SEAlang Thai / RI,RI:806,กล.*
+กล่องดักไอน้ำมัน,canister,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""canister""]}]",8,subentry,SEAlang Thai / RI,RI:1012,กล.*
+กลวิธีพิมพ์หิน,lithography,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lithography""]}]",8,subentry,SEAlang Thai / RI,RI:787,กล.*
+กลุ่มประเทศอุตสาหกรรมก้าวหน้า,advanced industrial countries (AICS),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""advanced industrial countries (AICS)""]}]",8,subentry,SEAlang Thai / RI,RI:883,กล.*
+กลุ่มแนวนอน,horizontal group,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""horizontal group""]}]",8,subentry,SEAlang Thai / LEX2.0,LEX2.0:25368,กล.*
+กลุ่มนาบี,Nabis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Nabis""]}]",8,subentry,SEAlang Thai / RI,RI:878,กล.*
+กล่องเสียงและท่อลมอักเสบ,laryngotracheitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""laryngotracheitis""]}]",8,subentry,SEAlang Thai / RI,RI:1025,กล.*
+กล่อนน้ำ,hydrocele,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""hydrocele""]}]",8,subentry,SEAlang Thai / RI,RI:1027,กล.*
+กล้องส่องตรวจโพรงมดลูก,hysteroscope; uteroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""hysteroscope; uteroscope""]}]",8,subentry,SEAlang Thai / RI,RI:1056,กล.*
+กล้ามเนื้อหูรูดกระเพาะปัสสาวะ,sphincter vesicae,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sphincter vesicae""]}]",8,subentry,SEAlang Thai / RI,RI:1098,กล.*
+กล้ามเนื้อเคลื่อน,myectopia; myectopy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myectopia; myectopy""]}]",8,subentry,SEAlang Thai / RI,RI:1103,กล.*
+กลุ่มอุตสาหกรรมทหาร,military-industrial complex (MIC),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""military-industrial complex (MIC)""]}]",8,subentry,SEAlang Thai / RI,RI:964,กล.*
+กลุ่มเผ่าชน,tribal group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tribal group""]}]",8,subentry,SEAlang Thai / RI,RI:970,กล.*
+กล่องลดเสียง,attenuator; sound attenuator,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""attenuator; sound attenuator""]}]",8,subentry,SEAlang Thai / RI,RI:1018,กล.*
+กล่องเสียงหดเกร็ง,laryngospasm; glottic spasm,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""laryngospasm; glottic spasm""]}]",8,subentry,SEAlang Thai / RI,RI:1024,กล.*
+กล้องส่องตรวจหลอดอาหาร,oesophagoscope*,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""oesophagoscope*""]}]",8,subentry,SEAlang Thai / RI,RI:1052,กล.*
+กลีบดุ้ง,palate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""palate""]}]",8,subentry,SEAlang Thai / RI,RI:848,กล.*
+กลุ่มโคบรา,COBRA,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""COBRA""]}]",8,subentry,SEAlang Thai / RI,RI:981,กล.*
+กลุ่มใยรา,mycelium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mycelium""]}]",8,subentry,SEAlang Thai / RI,RI:983,กล.*
+กล้องส่องตรวจกระเพาะปัสสาวะ,cystoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cystoscope""]}]",8,subentry,SEAlang Thai / RI,RI:1042,กล.*
+กล้องส่องในข้อ,arthroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""arthroscope""]}]",8,subentry,SEAlang Thai / RI,RI:1062,กล.*
+กลวิธีพิมพ์ผ้าไหม,serigraphy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""serigraphy""]}]",8,subentry,SEAlang Thai / RI,RI:778,กล.*
+กลัวซอนเน,cloisonn�,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cloisonn�""]}]",8,subentry,SEAlang Thai / RI,RI:825,กล.*
+กลุ่มนิยมแบบก่อนราฟาเอล,the pre-Raphaelites,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the pre-Raphaelites""]}]",8,subentry,SEAlang Thai / RI,RI:879,กล.*
+กลุ่มล้ำยุค,avant-garde,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""avant-garde""]}]",8,subentry,SEAlang Thai / RI,RI:909,กล.*
+กลไกกระแสลม,airstream mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""airstream mechanism""]}]",8,subentry,SEAlang Thai / RI,RI:991,กล.*
+กลวิธีพิมพ์กัดกรด,etching,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""etching""]}]",8,subentry,SEAlang Thai / RI,RI:772,กล.*
+กลวิธีพิมพ์กัดกรดพื้นนิ่ม,soft-ground etching,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""soft-ground etching""]}]",8,subentry,SEAlang Thai / RI,RI:773,กล.*
+กลวิธีพิมพ์กัดกรดสังกะสี,zinc etching,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""zinc etching""]}]",8,subentry,SEAlang Thai / RI,RI:774,กล.*
+กลวิธีพิมพ์กัดกรดส่วนนูน,anastatic printing,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""anastatic printing""]}]",8,subentry,SEAlang Thai / RI,RI:775,กล.*
+กลวิธีพิมพ์ผิวนูน,relief engraving,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""relief engraving""]}]",8,subentry,SEAlang Thai / RI,RI:777,กล.*
+กลวิธีพิมพ์พื้นราบ,planography,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""planography""]}]",8,subentry,SEAlang Thai / RI,RI:779,กล.*
+กลวิธีพิมพ์มัชฌิมรงค์,mezzotint,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mezzotint""]}]",8,subentry,SEAlang Thai / RI,RI:781,กล.*
+กลวิธีพิมพ์ยางแกะ,linocut,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""linocut""]}]",8,subentry,SEAlang Thai / RI,RI:783,กล.*
+กลวิธีพิมพ์ร่องลึก,intaglio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intaglio""]}]",8,subentry,SEAlang Thai / RI,RI:784,กล.*
+กลวิธีพิมพ์ลายฉลุ,stencil,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stencil""]}]",8,subentry,SEAlang Thai / RI,RI:785,กล.*
+กลวิธีพิมพ์สีลายฉลุ,pochoir,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pochoir""]}]",8,subentry,SEAlang Thai / RI,RI:786,กล.*
+กลวิธีพิมพ์แกะลายปรุ,stipple engraving,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stipple engraving""]}]",8,subentry,SEAlang Thai / RI,RI:789,กล.*
+กลวิธีพิมพ์แกะลายเส้น,line engraving,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""line engraving""]}]",8,subentry,SEAlang Thai / RI,RI:790,กล.*
+กลวิธีพิมพ์แกะไม้ค่าต่างแสง,chiaroscuro woodcut,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""chiaroscuro woodcut""]}]",8,subentry,SEAlang Thai / RI,RI:791,กล.*
+กลวิธีพิมพ์แบบเขียนถ่าน,crayon engraving; crayon manner,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crayon engraving; crayon manner""]}]",8,subentry,SEAlang Thai / RI,RI:793,กล.*
+กลวิธีพิมพ์ไร้สี,blind printing; graffage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""blind printing; graffage""]}]",8,subentry,SEAlang Thai / RI,RI:794,กล.*
+กลวิธีรมควัน,fumage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fumage""]}]",8,subentry,SEAlang Thai / RI,RI:795,กล.*
+กลวิธีรูปนูนสีต่างพื้น,cameo,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cameo""]}]",8,subentry,SEAlang Thai / RI,RI:796,กล.*
+กลวิธีวาดภาพปูนเปียก,fresco,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fresco""]}]",8,subentry,SEAlang Thai / RI,RI:798,กล.*
+กลวิธีวาดภาพปูนแห้ง,secco,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""secco""]}]",8,subentry,SEAlang Thai / RI,RI:799,กล.*
+กลวิธีวาดภาพผนังขูด,graffito; sgraffito,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""graffito; sgraffito""]}]",8,subentry,SEAlang Thai / RI,RI:800,กล.*
+กลวิธีวาดภาพสีฝุ่น,tempera,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tempera""]}]",8,subentry,SEAlang Thai / RI,RI:801,กล.*
+กลวิธีออฟเซต,offset,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""offset""]}]",8,subentry,SEAlang Thai / RI,RI:802,กล.*
+กลอุปกรณ์ควบคุม,control device,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""control device""]}]",8,subentry,SEAlang Thai / RI,RI:815,กล.*
+กลุ่มทางเศรษฐกิจสังคม,socioeconomic group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""socioeconomic group""]}]",8,subentry,SEAlang Thai / RI,RI:874,กล.*
+กลุ่มผู้วิ่งเต้นในสภา,third house,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""third house""]}]",8,subentry,SEAlang Thai / RI,RI:888,กล.*
+กลุ่มร่วมรุ่น,cohort,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cohort""]}]",8,subentry,SEAlang Thai / RI,RI:903,กล.*
+กลุ่มอาการขาดยา,abstinence symptoms; withdrawal symptoms; abstinence syndrome; withdrawal syndrome; withdrawal; substance withdrawal,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""abstinence symptoms; withdrawal symptoms; abstinence syndrome; withdrawal syndrome; withdrawal; substance withdrawal""]}]",8,subentry,SEAlang Thai / RI,RI:930,กล.*
+กลุ่มอายุรายปี,individual years of age,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""individual years of age""]}]",8,subentry,SEAlang Thai / RI,RI:960,กล.*
+กลุ่มเบลาเออเฟียร์,Blaue Vier,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Blaue Vier""]}]",8,subentry,SEAlang Thai / RI,RI:968,กล.*
+กลุ่มเบลาเออไรเทอร์,Der Blaue Reiter,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Der Blaue Reiter""]}]",8,subentry,SEAlang Thai / RI,RI:969,กล.*
+กล้องทาบเงา,camera obscura,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""camera obscura""]}]",8,subentry,SEAlang Thai / RI,RI:1037,กล.*
+กล้องส่องตรวจคอหอย,pharyngoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pharyngoscope""]}]",8,subentry,SEAlang Thai / RI,RI:1043,กล.*
+กลับบ้านเสียก็ดี,Might as well go home.,klàp bâan sía kɔ̂ dii,klàp ˈbâan sía kɔ̂ ˈdii↓,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Might as well go home.""]}]",8,subentry,SEAlang Thai / TDP,TDP:11,กล.*
+กลายเป็นเนื้อตายเน่า,sphacelate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sphacelate""]}]",8,subentry,SEAlang Thai / RI,RI:836,กล.*
+กลีบซ้อนสลับ,alternative,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""alternative""]}]",8,subentry,SEAlang Thai / RI,RI:845,กล.*
+กลีบดอกรูปลิ้น,ligule,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ligule""]}]",8,subentry,SEAlang Thai / RI,RI:847,กล.*
+กลุ่มผู้สนใจเครือข่าย,network interest group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""network interest group""]}]",8,subentry,SEAlang Thai / RI,RI:889,กล.*
+กลุ่มศิลปินอเมริกันแนวนามธรรม,American abstract artists,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""American abstract artists""]}]",8,subentry,SEAlang Thai / RI,RI:910,กล.*
+กลไกเร่งไฟ,advance mechanism ignition advance mechanism; spark advance mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""advance mechanism ignition advance mechanism; spark advance mechanism""]}]",8,subentry,SEAlang Thai / RI,RI:1003,กล.*
+กล้องส่องตรวจไส้ตรง,proctoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""proctoscope""]}]",8,subentry,SEAlang Thai / RI,RI:1060,กล.*
+กลอุปกรณ์ขากรรไกรจำลองแบบธรรมดา,simple atriculator,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""simple atriculator""]}]",9,subentry,SEAlang Thai / RI,RI:812,กล.*
+กลอุปกรณ์ขากรรไกรจำลองแบบปรับได้,adjustable articulator,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""adjustable articulator""]}]",9,subentry,SEAlang Thai / RI,RI:813,กล.*
+กลางลิ้นอักเสบรูปขนมเปียกปูน,median rhomboid glossitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""median rhomboid glossitis""]}]",9,subentry,SEAlang Thai / RI,RI:830,กล.*
+กลิ่นคลุ้งไปทั้งบ้าน,The odor fills the house.,klìn kʰlúŋ pay tʰáŋ bâan,ˈklìn ˈkʰlúŋ pay tʰáŋ ˈbâan↓,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""The odor fills the house.""]}]",9,subentry,SEAlang Thai / TDP,TDP:3344,กล.*
+กลุ่มความถี่สั่นพ้อง,formant (ของช่องเสียง),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""formant (ของช่องเสียง)""]}]",9,subentry,SEAlang Thai / RI,RI:868,กล.*
+กลุ่มตามสถานภาพทางสังคม,social status group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""social status group""]}]",9,subentry,SEAlang Thai / RI,RI:872,กล.*
+กลุ่มถุงน่องน้ำเงิน,blue-stocking,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""blue-stocking""]}]",9,subentry,SEAlang Thai / RI,RI:873,กล.*
+กลุ่มนักเขียนมหาวิทยาลัย,university wits,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""university wits""]}]",9,subentry,SEAlang Thai / RI,RI:877,กล.*
+กลุ่มปาร์นาเซียง,Parnassians,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Parnassians""]}]",9,subentry,SEAlang Thai / RI,RI:884,กล.*
+กลุ่มผู้หลีกลี้,the Fugitives,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the Fugitives""]}]",9,subentry,SEAlang Thai / RI,RI:890,กล.*
+กลุ่มรวมผู้เชี่ยวชาญภาพถ่าย,Joint Photographic Experts Group (JPEG) (เจเพ็ก),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Joint Photographic Experts Group (JPEG) (เจเพ็ก)""]}]",9,subentry,SEAlang Thai / RI,RI:898,กล.*
+กลุ่มอาการขดลำไส้ขาเข้า,afferent loop syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""afferent loop syndrome""]}]",9,subentry,SEAlang Thai / RI,RI:928,กล.*
+กลุ่มอาการจิตเวชเหตุสมอง,organic brain syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""organic brain syndrome""]}]",9,subentry,SEAlang Thai / RI,RI:933,กล.*
+กลุ่มอาคารประเภทห้องชุด,block of flats,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""block of flats""]}]",9,subentry,SEAlang Thai / RI,RI:957,กล.*
+กลุ่มอายุห้าปี,five-year age group; quinquennial age group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""five-year age group; quinquennial age group""]}]",9,subentry,SEAlang Thai / RI,RI:961,กล.*
+กลุ่มอายุอย่างกว้าง,broad age group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""broad age group""]}]",9,subentry,SEAlang Thai / RI,RI:962,กล.*
+กลุ่มเกษตรนิยม,agrarians,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""agrarians""]}]",9,subentry,SEAlang Thai / RI,RI:965,กล.*
+กลุ่มเซลล์ผนังหนา,annulus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""annulus""]}]",9,subentry,SEAlang Thai / RI,RI:967,กล.*
+กลุ่มโกเลีร์ยด,Goliards,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Goliards""]}]",9,subentry,SEAlang Thai / RI,RI:980,กล.*
+กลไกกระแสลมจากปอด,pulmonic airstream mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pulmonic airstream mechanism""]}]",9,subentry,SEAlang Thai / RI,RI:992,กล.*
+กลไกกระแสลมจากเพดานอ่อน,velaric airstream mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""velaric airstream mechanism""]}]",9,subentry,SEAlang Thai / RI,RI:993,กล.*
+กล่องผสมลม,maixing box,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""maixing box""]}]",9,subentry,SEAlang Thai / RI,RI:1014,กล.*
+กล่องเลนส์วัดสายตา,trial case,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""trial case""]}]",9,subentry,SEAlang Thai / RI,RI:1020,กล.*
+กล่องแถบบันทึก,tape cartridge,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tape cartridge""]}]",9,subentry,SEAlang Thai / RI,RI:1026,กล.*
+กล่อนเลือด,haematocele*,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""haematocele*""]}]",9,subentry,SEAlang Thai / RI,RI:1030,กล.*
+กล่าวเป็นคำรบที่สอง,to say (something) for the second time.,klàaw pen kʰam-róp tʰîi sɔ̌ɔŋ,ˈklàaw pen kʰamˈróp tʰîi ˈsɔ̌ɔŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to say (something) for the second time.""]}]",9,subentry,SEAlang Thai / TDP,TDP:3752,กล.*
+กล้วยอีกหกใบ,another six banana; six more bananas.,klûay ìik hòk bay,ˈklûay ìik ˈhòk ˈbay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""another six banana; six more bananas.""]}]",9,subentry,SEAlang Thai / TDP,TDP:19669,กล.*
+กล้องจักษุจุลทรรศน์,slit-lamp biomicroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""slit-lamp biomicroscope""]}]",9,subentry,SEAlang Thai / RI,RI:1035,กล.*
+กล้องฝึกแก้ตาเหล่,telebinocular,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""telebinocular""]}]",9,subentry,SEAlang Thai / RI,RI:1038,กล.*
+กล้องส่องตรวจจอตา,retinoscope; skiascope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""retinoscope; skiascope""]}]",9,subentry,SEAlang Thai / RI,RI:1045,กล.*
+กล้องส่องตรวจภายในลำไส้,enteroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""enteroscope""]}]",9,subentry,SEAlang Thai / RI,RI:1050,กล.*
+กล้องส่องตรวจแก้วตา,phacoidoscope; phacoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""phacoidoscope; phacoscope""]}]",9,subentry,SEAlang Thai / RI,RI:1054,กล.*
+กล้องส่องตรวจในตา,funduscope; ophthalmoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""funduscope; ophthalmoscope""]}]",9,subentry,SEAlang Thai / RI,RI:1058,กล.*
+กล้ามเนื้อกระตุกรัว,myoclonus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myoclonus""]}]",9,subentry,SEAlang Thai / RI,RI:1067,กล.*
+กล้ามเนื้อมดลูกอักเสบ,myometritis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myometritis""]}]",9,subentry,SEAlang Thai / RI,RI:1084,กล.*
+กล้ามเนื้อหดคอหอยมัดบน,superior pharyngeal constrictor muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""superior pharyngeal constrictor muscle""]}]",9,subentry,SEAlang Thai / RI,RI:1090,กล.*
+กล้ามเนื้ออักเสบเป็นหนอง,pyomyositis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pyomyositis""]}]",9,subentry,SEAlang Thai / RI,RI:1101,กล.*
+กล้ามเนื้อเทอริกอยด์มัดนอก,lateral pteryhoid muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lateral pteryhoid muscle""]}]",9,subentry,SEAlang Thai / RI,RI:1104,กล.*
+กล้ามเนื้อเทอริกอยด์มัดใน,medial pterygoid muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""medial pterygoid muscle""]}]",9,subentry,SEAlang Thai / RI,RI:1105,กล.*
+กล้ามเนื้อแมสซีเตอร์,masseter muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""masseter muscle""]}]",9,subentry,SEAlang Thai / RI,RI:1110,กล.*
+กล้ามเนื้อและผิวหนังอักเสบ,dermatomyositis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dermatomyositis""]}]",9,subentry,SEAlang Thai / RI,RI:1111,กล.*
+กล้ามเนื้อไมโลไฮออยด์,mylohyoid muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mylohyoid muscle""]}]",9,subentry,SEAlang Thai / RI,RI:1114,กล.*
+กลฉ้อฉลโดยปิดบังความจริง,concealed fraud,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""concealed fraud""]}]",1,subentry,SEAlang Thai / RI,RI:763,กล.*
+ก.ล.ต.,The Securities and Exchange Commission,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""The Securities and Exchange Commission""]}]",1,subentry,SEAlang Thai / LEX2.0,LEX2.0:31234,กล.*
+กลลพยาธิวิทยา,cellular pathology,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cellular pathology""]}]",1,subentry,SEAlang Thai / RI,RI:767,กล.*
+กลวิธานจิต,mental mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mental mechanism""]}]",1,subentry,SEAlang Thai / RI,RI:769,กล.*
+กลวิธีพิมพ์จารเข็ม,drypoint,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""drypoint""]}]",1,subentry,SEAlang Thai / RI,RI:776,กล.*
+กลวิธีพิมพ์ภาพลายจุด,dotted manner; mani�re cribl�e,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dotted manner; mani�re cribl�e""]}]",1,subentry,SEAlang Thai / RI,RI:780,กล.*
+กลวิธีพิมพ์มัชฌิมรงค์อย่างสีน้ำ,aquatint mezzotint,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aquatint mezzotint""]}]",1,subentry,SEAlang Thai / RI,RI:782,กล.*
+กลวิธีพิมพ์อย่างสีน้ำ,aquatint,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aquatint""]}]",1,subentry,SEAlang Thai / RI,RI:788,กล.*
+กลวิธีพิมพ์แบบถู,burnishing,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""burnishing""]}]",1,subentry,SEAlang Thai / RI,RI:792,กล.*
+กลวิธีลายจุด,cribl�,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cribl�""]}]",1,subentry,SEAlang Thai / RI,RI:797,กล.*
+กลอุปกรณ์ขากรรไกรจำลองแบบปรับได้เต็มที่,fully adjustable articulator,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fully adjustable articulator""]}]",1,subentry,SEAlang Thai / RI,RI:814,กล.*
+กลาง ๆ,intermediary,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intermediary""]}]",1,subentry,SEAlang Thai / RI,RI:827,กล.*
+กลายเป็นเนื้อกระด้าง,sclerose,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sclerose""]}]",1,subentry,SEAlang Thai / RI,RI:835,กล.*
+กลีบย่อยเล็ก,lobulette,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lobulette""]}]",1,subentry,SEAlang Thai / RI,RI:851,กล.*
+กลีบรูปหมวก,galea,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""galea""]}]",1,subentry,SEAlang Thai / RI,RI:853,กล.*
+กลีบสมองน้อย,folium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""folium""]}]",1,subentry,SEAlang Thai / RI,RI:855,กล.*
+กลุ่มดอกกุหลาบน้ำเงิน,Blue Rose Group,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Blue Rose Group""]}]",1,subentry,SEAlang Thai / RI,RI:871,กล.*
+กลุ่มที่มีความคิดเห็นกลาง ๆ,centrist,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""centrist""]}]",1,subentry,SEAlang Thai / RI,RI:875,กล.*
+กลุ่มผลแตกแนวเดียว,follicetum,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""follicetum""]}]",1,subentry,SEAlang Thai / RI,RI:886,กล.*
+กลุ่มผู้เชี่ยวชาญภาพยนตร์,Motion Picture Experts Group (MPEG) (เอ็มเพ็ก),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Motion Picture Experts Group (MPEG) (เอ็มเพ็ก)""]}]",1,subentry,SEAlang Thai / RI,RI:891,กล.*
+กลุ่มระเบียนความยาวแปรได้,variable length block,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""variable length block""]}]",1,subentry,SEAlang Thai / RI,RI:900,กล.*
+กลุ่มรากประสาทคล้ายหางม้า,cauda equina,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cauda equina""]}]",1,subentry,SEAlang Thai / RI,RI:901,กล.*
+กลุ่มลาเปลอียาด,la Pl�iade,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""la Pl�iade""]}]",1,subentry,SEAlang Thai / RI,RI:908,กล.*
+กลุ่มหนุ่มเจ้าโทสะ,angry young man,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""angry young man""]}]",1,subentry,SEAlang Thai / RI,RI:913,กล.*
+กลุ่มอวัยวะ(บด)เคี้ยว,components of mastication; masticating apparatus; masticatory apparatus; organs of mastication,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""components of mastication; masticating apparatus; masticatory apparatus; organs of mastication""]}]",,subentry,SEAlang Thai / RI,RI:914,กล.*
+กลุ่มอะตอมชีวพิษ,toxophore,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""toxophore""]}]",1,subentry,SEAlang Thai / RI,RI:916,กล.*
+กลุ่มอับสปอร์คล้ายช่อเชิงลด,spike [เฟิร์น],,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""spike [เฟิร์น]""]}]",1,subentry,SEAlang Thai / RI,RI:918,กล.*
+กลุ่มอับสปอร์ยาวเรียงตามเส้นใบ,diplazoid,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""diplazoid""]}]",1,subentry,SEAlang Thai / RI,RI:919,กล.*
+กลุ่มอับสปอร์เป็นพืด,acrostichoid; coenosori,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""acrostichoid; coenosori""]}]",1,subentry,SEAlang Thai / RI,RI:920,กล.*
+กลุ่มอับสปอร์เรียงตามเส้นใบ,athyrioid,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""athyrioid""]}]",1,subentry,SEAlang Thai / RI,RI:921,กล.*
+กลุ่มอับสปอร์แบบแก่จากกลางกลุ่ม,gradate sorus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gradate sorus""]}]",1,subentry,SEAlang Thai / RI,RI:922,กล.*
+กลุ่มอับสปอร์แบบแก่พร้อมกัน,simple sorus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""simple sorus""]}]",1,subentry,SEAlang Thai / RI,RI:923,กล.*
+กลุ่มอับสปอร์แบบแก่ไม่พร้อมกัน,mixed sorus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mixed sorus""]}]",1,subentry,SEAlang Thai / RI,RI:924,กล.*
+กลุ่มอาการกดประสาทส่วนปลาย,entrapment syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""entrapment syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:926,กล.*
+กลุ่มอาการกีแยง-บาร์เร,Guillain-Barr� syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Guillain-Barr� syndrome""]}]",,subentry,SEAlang Thai / RI,RI:927,กล.*
+กลุ่มอาการขันทีเจริญพันธุ์,fertile eunuch syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fertile eunuch syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:929,กล.*
+กลุ่มอาการจิตเวชเหตุ สารออกฤทธิ์ต่อจิตประสาท,intoxication,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intoxication""]}]",1,subentry,SEAlang Thai / RI,RI:931,กล.*
+กลุ่มอาการจิตเวชเหตุพยาธิสภาพทางกาย,organic mental syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""organic mental syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:932,กล.*
+กลุ่มอาการจิตเวชเหตุสาร ออกฤทธิ์ต่อจิตประสาท,intoxication,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intoxication""]}]",1,subentry,SEAlang Thai / RI,RI:934,กล.*
+กลุ่มอาการจิตเวชเหตุสารออกฤทธิ์ต่อจิตประสาท,intoxication,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intoxication""]}]",1,subentry,SEAlang Thai / RI,RI:935,กล.*
+กลุ่มอาการต้นขาด้อยเจริญร่วมใบหน้าประหลาด,femoral hypoplasia-unusual facies syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""femoral hypoplasia-unusual facies syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:936,กล.*
+กลุ่มอาการทารกกล้ามเนื้อปวกเปียก,floppy infant syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""floppy infant syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:937,กล.*
+กลุ่มอาการทารกพิษสุราในครรภ์,fetal alcohol syndrome; foetal alcohol syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fetal alcohol syndrome; foetal alcohol syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:938,กล.*
+กลุ่มอาการบุคลิกภาพเหตุพยาธิสภาพทางกาย,organic personality syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""organic personality syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:939,กล.*
+กลุ่มอาการวิตกกังวลเหตุพยาธิสภาพทางกาย,organic anxiety syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""organic anxiety syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:941,กล.*
+กลุ่มอาการสามีแพ้ท้อง,couvade syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""couvade syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:942,กล.*
+กลุ่มอาการหนังด้อยเจริญที่แหล่งโรค,focal-dermal hypoplasia syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""focal-dermal hypoplasia syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:943,กล.*
+กลุ่มอาการหลงผิดเหตุพยาธิสภาพทางกาย,organic delusional syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""organic delusional syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:944,กล.*
+กลุ่มอาการอัมพาตเหตุสายรัด,tourniquet paralysis syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tourniquet paralysis syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:945,กล.*
+กลุ่มอาการอารมณ์เหตุพยาธิสภาพทางกาย,organic mood syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""organic mood syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:946,กล.*
+กลุ่มอาการอาหารเร่งทุ่ม,dumping syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dumping syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:947,กล.*
+กลุ่มอาการอุดกั้นเหตุต่อมลูกหมากโต,prostatism; prostatisme,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""prostatism; prostatisme""]}]",1,subentry,SEAlang Thai / RI,RI:948,กล.*
+กลุ่มอาการเลือดถูกกลืน,swallowed blood syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""swallowed blood syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:949,กล.*
+กลุ่มอาการเสียชีวิตขณะร่วมเพศ,mort d'amour syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mort d'amour syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:950,กล.*
+กลุ่มอาการเสียสังคมเหตุถูกกักกันนาน,social breakdown syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""social breakdown syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:951,กล.*
+กลุ่มอาการเส้นประสาทปรับขนาดหลอดเลือด,vasomotor syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""vasomotor syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:952,กล.*
+กลุ่มอาการเหตุไขสันหลังเป็นโพรง,syringomyelia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""syringomyelia""]}]",1,subentry,SEAlang Thai / RI,RI:953,กล.*
+กลุ่มอาการโพรเทียส,proteus syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""proteus syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:954,กล.*
+กลุ่มอาการใบหน้าและหูวิรูปร่วมกระดูกนิ้วเชื่อม,facio-audio-symphalangism syndrome,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""facio-audio-symphalangism syndrome""]}]",1,subentry,SEAlang Thai / RI,RI:955,กล.*
+กลุ่มเลอเซนากล์,le c�nacle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""le c�nacle""]}]",1,subentry,SEAlang Thai / RI,RI:972,กล.*
+กลุ่มแฝดเพาะเลี้ยง,clone,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""clone""]}]",1,subentry,SEAlang Thai / RI,RI:978,กล.*
+กลุ่มใยราคล้ายราก,rhizomycelium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rhizomycelium""]}]",1,subentry,SEAlang Thai / RI,RI:984,กล.*
+กลไกกระแสลมจากเส้นเสียง,glottalic airstream mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""glottalic airstream mechanism""]}]",1,subentry,SEAlang Thai / RI,RI:994,กล.*
+กลไกการอารักขา,protection mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""protection mechanism""]}]",1,subentry,SEAlang Thai / RI,RI:995,กล.*
+กลไกก้านต่อก้าวหน้า,progressive linkage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""progressive linkage""]}]",1,subentry,SEAlang Thai / RI,RI:997,กล.*
+กลไกก้านต่อแบบขนาน,parallelogram linkage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""parallelogram linkage""]}]",1,subentry,SEAlang Thai / RI,RI:998,กล.*
+กลไกเรย์ลี,Rayleigh mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Rayleigh mechanism""]}]",1,subentry,SEAlang Thai / RI,RI:1002,กล.*
+กลไกเร่งไฟสุญญากาศ,vacuum advance,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""vacuum advance""]}]",1,subentry,SEAlang Thai / RI,RI:1004,กล.*
+กลไกเร่งไฟสุญญากาศไดอะแฟรมคู่,dual-diaphragm vacuum advance,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dual-diaphragm vacuum advance""]}]",1,subentry,SEAlang Thai / RI,RI:1005,กล.*
+กลไกเลือกเกียร์,selector mechanism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""selector mechanism""]}]",1,subentry,SEAlang Thai / RI,RI:1006,กล.*
+กลไกเลื่อนกระจกขึ้นลง,window regulator,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""window regulator""]}]",1,subentry,SEAlang Thai / RI,RI:1007,กล.*
+กล่องจ่ายลม,discharge plenum,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""discharge plenum""]}]",1,subentry,SEAlang Thai / RI,RI:1011,กล.*
+กล่องดักไอน้ำมันแบบใช้ถ่าน,carbon canister; charcoal canister,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""carbon canister; charcoal canister""]}]",1,subentry,SEAlang Thai / RI,RI:1013,กล.*
+กล่องฝุ่นยางสน,dust box,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dust box""]}]",1,subentry,SEAlang Thai / RI,RI:1015,กล.*
+กล่อนเนื้อ,sarcocele,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sarcocele""]}]",1,subentry,SEAlang Thai / RI,RI:1028,กล.*
+กล่อนเนื้อปนน้ำ,sarcohydrocele,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sarcohydrocele""]}]",1,subentry,SEAlang Thai / RI,RI:1029,กล.*
+กล้องจุลทรรศน์วัฏภาค,phase microscope; phase-contrast microscope; phase-difference microscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""phase microscope; phase-contrast microscope; phase-difference microscope""]}]",1,subentry,SEAlang Thai / RI,RI:1036,กล.*
+กล้องสันธิทรรศน์,arthroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""arthroscope""]}]",1,subentry,SEAlang Thai / RI,RI:1040,กล.*
+กล้องส่องตรวจจมูก,rhinoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rhinoscope""]}]",1,subentry,SEAlang Thai / RI,RI:1044,กล.*
+กล้องส่องตรวจช่องคลอด,colposcope; vaginoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""colposcope; vaginoscope""]}]",1,subentry,SEAlang Thai / RI,RI:1046,กล.*
+กล้องส่องตรวจท่อปัสสาวะ,urethrascope; urethroscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""urethrascope; urethroscope""]}]",1,subentry,SEAlang Thai / RI,RI:1048,กล.*
+กล้องส่องตรวจแก้วหู,myringoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myringoscope""]}]",1,subentry,SEAlang Thai / RI,RI:1055,กล.*
+กล้องส่องตรวจในช่องคลอด,hysterocolposcope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""hysterocolposcope""]}]",1,subentry,SEAlang Thai / RI,RI:1057,กล.*
+กล้องส่องตรวจในสมอง,encephaloscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""encephaloscope""]}]",1,subentry,SEAlang Thai / RI,RI:1059,กล.*
+กล้องส่องตรวจไส้ใหญ่ส่วนคด,sigmoidoscope; sigmoscope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sigmoidoscope; sigmoscope""]}]",1,subentry,SEAlang Thai / RI,RI:1061,กล.*
+กล้ามเนื้อ(บด)เคี้ยว,masticatory muscle; muscle of mastication,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""masticatory muscle; muscle of mastication""]}]",,subentry,SEAlang Thai / RI,RI:1064,กล.*
+กล้ามเนื้อกระด้าง,myosclerosis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myosclerosis""]}]",1,subentry,SEAlang Thai / RI,RI:1066,กล.*
+กล้ามเนื้อฉีกแยก,myodiastasis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myodiastasis""]}]",1,subentry,SEAlang Thai / RI,RI:1073,กล.*
+กล้ามเนื้อชันขน,pilomotor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pilomotor""]}]",1,subentry,SEAlang Thai / RI,RI:1074,กล.*
+กล้ามเนื้อดึงกระดูกรูปโกลน,stapedius muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stapedius muscle""]}]",1,subentry,SEAlang Thai / RI,RI:1076,กล.*
+กล้ามเนื้อดึงหงาย,supinator muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""supinator muscle""]}]",1,subentry,SEAlang Thai / RI,RI:1077,กล.*
+กล้ามเนื้อทรวงอกหดเกร็ง,stethospasm,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stethospasm""]}]",1,subentry,SEAlang Thai / RI,RI:1078,กล.*
+กล้ามเนื้อท่อนำไข่,myosalpinx,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myosalpinx""]}]",1,subentry,SEAlang Thai / RI,RI:1079,กล.*
+กล้ามเนื้อน่วม,myomalacia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myomalacia""]}]",1,subentry,SEAlang Thai / RI,RI:1080,กล.*
+กล้ามเนื้อสองหัว,biceps,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""biceps""]}]",1,subentry,SEAlang Thai / RI,RI:1088,กล.*
+กล้ามเนื้อหดคอหอยมัดกลาง,middle pharyngeal constrictor muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""middle pharyngeal constrictor muscle""]}]",1,subentry,SEAlang Thai / RI,RI:1089,กล.*
+กล้ามเนื้อหดคอหอยมัดล่าง,inferior pharyngeal constrictor muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""inferior pharyngeal constrictor muscle""]}]",1,subentry,SEAlang Thai / RI,RI:1091,กล.*
+กล้ามเนื้อหดตัวเหตุเปลี่ยนอุณหภูมิ,thermosystaltism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""thermosystaltism""]}]",1,subentry,SEAlang Thai / RI,RI:1092,กล.*
+กล้ามเนื้ออักเสบหลายมัด,polymyositis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""polymyositis""]}]",1,subentry,SEAlang Thai / RI,RI:1100,กล.*
+กล้ามเนื้อแสยะยิ้ม,risorius muscle,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""risorius muscle""]}]",1,subentry,SEAlang Thai / RI,RI:1112,กล.*
+การกล่าวอ้าง,"quotation, cite",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""quotation, cite""]}]",1,subentry,SEAlang Thai / LEX2.0,LEX2.0:25792,กล.*
+ครึ่งๆ กลางๆ,"partially, unfinished; incompletely",kʰrʉ̂ŋ kʰrʉ̂ŋ klaaŋ klaaŋ,kʰrʉ̂ŋ kʰrʉ̂ŋ klaaŋ klaaŋ,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""partially, unfinished; incompletely""]}]",1,subentry,SEAlang Thai / LEX2.0,LEX2.0:25298,กล.*
+ทำน่ะทำได้ แต่กลัวไม่ดี,"I can do it, but I'm afraid it won't be any good.",tʰam nâ tʰam dâay tɛ̀ɛ klua mây dii,ˈtʰam ˈnâʔ ˈtʰam ˈdâay→tɛ̀ɛ ˈklua mây ˈdii↓,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""I can do it, but I'm afraid it won't be any good.""]}]",1,subentry,SEAlang Thai / TDP,TDP:9674,กล.*
