@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 18004,
+    "unique_lexical_records": 18226,
     "sample_size": 150,
     "counts": {
-      "neither": 73,
-      "pronunciation_only": 72,
+      "neither": 74,
+      "pronunciation_only": 71,
       "disagreement": 2,
       "agreement": 2,
       "spelling_only": 1
@@ -188,6 +188,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "ชั่วขณะ",
+      "source_id": "TDP:1958",
+      "pronunciation": "cʰûa kʰa-nà",
+      "meaning": "for a while, for a moment, temporarily.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "chua khana",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": ""
     },
     {
       "thai": "วิวาห์",
@@ -616,6 +627,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "4",
+      "pos": "N"
+    },
+    {
+      "thai": "ขนมทองม้วน",
+      "source_id": "LEX2.0:7511",
+      "pronunciation": "",
+      "meaning": "Thai sweetmeat made of flour, coconut milk and egg",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
       "pos": "N"
     },
     {
@@ -1389,6 +1411,28 @@
       "pos": "N"
     },
     {
+      "thai": "ขนาดต่อวัน",
+      "source_id": "RI:8861",
+      "pronunciation": "",
+      "meaning": "daily dose",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "ขนอง",
+      "source_id": "LEX2.0:26181",
+      "pronunciation": "kʰà nɔ̌ɔŋ",
+      "meaning": "back",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kha nǭng",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "จาดตะกั่ว",
       "source_id": "LEX2.0:26959",
       "pronunciation": "jàat tà kùa",
@@ -1617,50 +1661,6 @@
       "pronunciation_candidate": "kra sǣ siang",
       "comparison": "pronunciation_only",
       "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ถอนหงอก",
-      "source_id": "LEX2.0:214",
-      "pronunciation": "tʰɔ̌ɔn ŋɔ̀ɔk",
-      "meaning": "disrespect someone, show a lack of respect",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thǭn ngǭk",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "อยู่ง่ายกินง่าย",
-      "source_id": "TDP:1448",
-      "pronunciation": "yùu ŋâay kin ŋâay",
-      "meaning": "to be easy to please (with regard to food and accommodations).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yū ngāy kin ngāy",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ยื่นซองขาว",
-      "source_id": "LEX2.0:1193",
-      "pronunciation": "",
-      "meaning": "dismiss, fire; expel; axe; discharge; sack",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": "V"
-    },
-    {
-      "thai": "วิธาน",
-      "source_id": "LEX2.0:14942",
-      "pronunciation": "wí tʰaan",
-      "meaning": "rule, regulation; arrangement, preparation; performance; doing; custom, ceremony; formula tradition",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "wi thān",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
       "pos": "N"
     }
   ]
