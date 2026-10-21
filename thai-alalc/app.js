@@ -2,6 +2,7 @@ import {romanizeThai} from './romanizer.mjs';
 import {indexThaiLexicon,suggestLexicalSegments} from './lexical-segmenter.mjs';
 import {gazetteerIndex,findPlaceMentions,placeTypes} from './place-matcher.mjs';
 import {proposePlaceJoins,applyPlaceJoins} from './place-boundaries.mjs';
+import {placeTokenAnnotations,capitalizePlaceStart,displayPlaceText} from './place-display.mjs';
 import {canJoin,boundaryValue,joinAt,resetBoundary,outputText} from './boundary-editor.mjs';
 /* Rule-first Thai→ALA-LC; dictionary-first ALA-LC→Thai. Client-side only. */
 const input=document.querySelector('#input'),output=document.querySelector('#result');
@@ -10,7 +11,7 @@ const candidatePanel=document.querySelector('#candidates'),candidateList=documen
 const inputTitle=document.querySelector('#input-title'),modes=document.querySelectorAll('[data-mode]');
 let entries=[],mode='forward',tokens=[],forwardResult={tokens:[],text:'',guessed:0,unresolved:0,reviewed:0,needsReview:0};
 let byThai=new Map(),byRoman=new Map(),lexiconIndex=new Map(),places=[],placeIndex=new Map();
-let boundaryOverrides=new Map(),selectedForward=-1;
+let boundaryOverrides=new Map(),selectedForward=-1,placeCapitalization=false;
 const safe=v=>String(v??'').normalize('NFC').trim();
 const canon=v=>safe(v).replace(/[’'ʼʾ]/g,'‘').replace(/\s+/g,' ').toLocaleLowerCase('en');
 const THAI=/[\u0e00-\u0e7f]/u,ROMAN=/[A-Za-zÀ-žǍ-ǿưƯœŒæÆ‘\p{M}]/u;
@@ -67,7 +68,7 @@ function tokenText(t){
  const e=t.choices[t.selected||0];return mode==='forward'?e.alalc||'〔未確定：'+e.thai+'〕':e.thai;
 }
 function gapBefore(i){return mode==='forward'&&i>0&&tokens[i-1].choices?.length>0&&tokens[i].choices?.length>0?' ':'';}
-function forwardText(){return outputText(forwardResult.tokens,boundaryOverrides);}
+function forwardText(){return displayPlaceText(forwardResult.tokens,boundaryOverrides,placeTokenAnnotations(forwardResult.tokens,placeIndex),placeCapitalization);}
 function getPrintable(){if(mode==='search')return '';if(mode==='forward')return forwardText();
   return tokens.map((t,i)=>gapBefore(i)+(t.unknown?'〔未登録：'+t.raw+'〕':tokenText(t))).join('');}
 function showCandidates(i){
@@ -208,21 +209,23 @@ function renderForward(){
   resultStatus.textContent='';candidatePanel.hidden=true;return;
  }
  const categories=classifyForwardTokens();
+ const placeNotes=placeTokenAnnotations(forwardResult.tokens,placeIndex);
  forwardResult.tokens.forEach((t,i)=>{
   if(boundaryValue(forwardResult.tokens,i,boundaryOverrides))
    output.append(document.createTextNode(' '));
   if(t.origin==='literal'){output.append(document.createTextNode(t.roman));return;}
   const rendered=t.origin==='unresolved'&&!t.corrected?'〔未解析：'+t.thai+'〕':t.roman;
   const btn=document.createElement('button');btn.type='button';
-  btn.className='forward-token status-'+categories[i]+(selectedForward===i?' is-selected':'');
-  btn.textContent=rendered;
-  btn.title='原文：'+t.thai+' ／ '+categories[i]+' ／ タップで翻字・分かち書きを編集';
+  const place=placeNotes.get(i);
+  btn.className='forward-token status-'+(place?'place':categories[i])+(selectedForward===i?' is-selected':'');
+  btn.textContent=placeCapitalization&&place?.exactStart&&!t.corrected?capitalizePlaceStart(rendered):rendered;
+  btn.title='原文：'+t.thai+' ／ '+(place?'地名辞書一致（転写未校閲）：'+place.type+' '+place.code:categories[i])+' ／ タップで翻字・分かち書きを編集';
   btn.setAttribute('aria-label',t.thai+'：'+rendered+'、編集');
   btn.addEventListener('click',()=>{renderForwardSelection(i);});
   output.append(btn);
  });
  const totals=Object.fromEntries(['reviewed','reviewed-match','tentative','rule','unresolved'].map(k=>[k,categories.filter(c=>c===k).length]));
- resultStatus.textContent='辞書確認済み '+(totals.reviewed+totals['reviewed-match'])+
+ resultStatus.textContent='地名辞書一致 '+placeNotes.size+' トークン（転写未校閲） ／ 辞書確認済み '+(totals.reviewed+totals['reviewed-match'])+
   ' ／ 辞書一致・未校閲 '+totals.tentative+' ／ 規則推定 '+totals.rule+
   ' ／ 未解析 '+totals.unresolved+'。各語をタップすると結合・解除・修正ができます。';
 }
@@ -266,6 +269,7 @@ function setMode(v){
 }
 for(const b of modes)b.addEventListener('click',()=>setMode(b.dataset.mode));
 input.addEventListener('input',()=>{boundaryOverrides.clear();selectedForward=-1;render();});
+document.querySelector('#capitalize-places').addEventListener('change',ev=>{placeCapitalization=ev.target.checked;renderForward();});
 document.querySelector('#apply-place-joins').addEventListener('click',()=>{const applied=applyPlaceJoins(forwardResult.tokens,placeIndex,boundaryOverrides);renderForward();resultStatus.textContent+=' 地名内の境界を '+applied.length+' 箇所結合しました（翻字自体は未変更）。';});
 document.querySelector('#clear').addEventListener('click',()=>{input.value='';boundaryOverrides.clear();selectedForward=-1;render();input.focus();});
 document.querySelector('#copy').addEventListener('click',async()=>{
