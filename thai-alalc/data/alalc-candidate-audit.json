@@ -1,12 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 23486,
+    "unique_lexical_records": 24874,
     "sample_size": 150,
     "counts": {
       "neither": 81,
-      "pronunciation_only": 65,
+      "pronunciation_only": 64,
       "disagreement": 1,
-      "agreement": 2,
+      "agreement": 3,
       "spelling_only": 1
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
@@ -111,6 +111,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "ลูกคอ",
+      "source_id": "LEX2.0:14625",
+      "pronunciation": "lûuk kʰɔɔ",
+      "meaning": "coloratura, tremolo; clucking sound from the throat",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "lūk khǭ",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "N"
     },
     {
       "thai": "ลูกทรงกลม",
@@ -564,6 +575,17 @@
       "pos": ""
     },
     {
+      "thai": "คำสั่งเสมือน",
+      "source_id": "RI:11978",
+      "pronunciation": "",
+      "meaning": "quasi instruction",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
+    },
+    {
       "thai": "สุดขีด",
       "source_id": "LEX2.0:6459",
       "pronunciation": "sùt kʰìit",
@@ -828,6 +850,17 @@
       "pos": "N"
     },
     {
+      "thai": "คำคุณศัพท์",
+      "source_id": "TDP:3666",
+      "pronunciation": "kʰam kʰun-na-sàp",
+      "meaning": "adjective.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kham khunnasap",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "คบชู้",
       "source_id": "LEX2.0:13409",
       "pronunciation": "kʰóp cʰúu",
@@ -859,6 +892,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": ""
+    },
+    {
+      "thai": "คัด",
+      "source_id": "TDP:3526",
+      "pronunciation": "kʰát",
+      "meaning": "to choose, select, pick out.; to be choice, select, picked.; to copy.; to excerpt.; to letter (as in penmanship).; to push apart, push away.",
+      "spelling_candidate": "khat",
+      "pronunciation_candidate": "khat",
+      "comparison": "agreement",
+      "web_rank": "2",
+      "pos": "V"
     },
     {
       "thai": "ขนมทองม้วน",
@@ -958,6 +1002,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "ADV"
+    },
+    {
+      "thai": "คาวปลา",
+      "source_id": "LEX2.0:9381",
+      "pronunciation": "kʰaaw plaa",
+      "meaning": "mucus of fish, raw and fishy smell; raw and fishy odour",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khāw plā",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "ได้ซิ",
@@ -1598,70 +1653,15 @@
       "pos": ""
     },
     {
-      "thai": "คณะวนศาสตร์",
-      "source_id": "LEX2.0:26388",
+      "thai": "คอร์รัปชั่น",
+      "source_id": "LEX2.0:7726",
       "pronunciation": "",
-      "meaning": "Faculty of Forestry",
+      "meaning": "corruption; be corrupted, be dishonest; cheat",
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "กะ-",
-      "source_id": "TDP:944",
-      "pronunciation": "ka",
-      "meaning": "bound initial syllable, often interchangeable with กระ- sometimes with ข-.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ka",
-      "comparison": "pronunciation_only",
-      "web_rank": "",
-      "pos": ""
-    },
-    {
-      "thai": "สลากกินแบ่ง",
-      "source_id": "TDP:1441",
-      "pronunciation": "sa-làak kin bɛ̀ŋ",
-      "meaning": "lottery ticket.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "salāk kin bæng",
-      "comparison": "pronunciation_only",
       "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "เป็นมันวาว",
-      "source_id": "TDP:11832",
-      "pronunciation": "pen man waaw",
-      "meaning": "to be glitteringly glossy, shiny.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "pen man wāw",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "บทสนทนา",
-      "source_id": "RI:17101",
-      "pronunciation": "bòt sǒn tʰá naa",
-      "meaning": "dialogue",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "bot son tha nā",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": ""
-    },
-    {
-      "thai": "ความอิ่มเอิบ",
-      "source_id": "LEX2.0:9901",
-      "pronunciation": "",
-      "meaning": "pleasure, happiness; delight; gratification",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
+      "pos": "N; V"
     }
   ]
 }
