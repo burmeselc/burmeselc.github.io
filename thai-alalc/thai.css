@@ -80,3 +80,9 @@ summary{cursor:pointer;color:var(--green-900);font-weight:600}
 
 .place-matches{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
 .place-hit{display:inline-block;padding:4px 8px;border-radius:4px;background:#edf1fa;border:1px solid #b3bed9;color:#233d68;font:.87rem/1.5 var(--font-ui)}
+
+/* Gazetteer match is orthographic evidence; independent of transcription confidence. */
+.forward-token.status-place{background:#eee5fc;color:#5a3486;border-bottom:2px dotted #9369c5}
+.status-legend .legend-place{background:#eee5fc;color:#5a3486}
+.place-cap-option{display:flex;align-items:center;gap:9px;margin:0 0 12px;color:var(--ink);font:.83rem/1.7 var(--font-ui)}
+.place-cap-option input{width:17px;height:17px;accent-color:#684392}
