@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 20474,
+    "unique_lexical_records": 23486,
     "sample_size": 150,
     "counts": {
-      "neither": 77,
-      "pronunciation_only": 69,
+      "neither": 81,
+      "pronunciation_only": 65,
       "disagreement": 1,
       "agreement": 2,
       "spelling_only": 1
@@ -201,6 +201,28 @@
       "pos": ""
     },
     {
+      "thai": "ปกคลุม",
+      "source_id": "TDP:3348",
+      "pronunciation": "pòk kʰlum",
+      "meaning": "to cover.; to be covered.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "pok khlum",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
+      "thai": "ความง่วง",
+      "source_id": "LEX2.0:26564",
+      "pronunciation": "",
+      "meaning": "sleepiness, drowsiness",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "ทรงจำ",
       "source_id": "TDP:4747",
       "pronunciation": "soŋ jam",
@@ -210,6 +232,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "ความเดือดร้อน",
+      "source_id": "LEX2.0:30745",
+      "pronunciation": "",
+      "meaning": "trouble, vexation; torment",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": "N"
     },
     {
       "thai": "เจ็บใจ",
@@ -289,6 +322,17 @@
       "pos": "ADV"
     },
     {
+      "thai": "คนในบังคับ",
+      "source_id": "RI:10074",
+      "pronunciation": "",
+      "meaning": "subject",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "ฟุดฟิด",
       "source_id": "LEX2.0:12902",
       "pronunciation": "",
@@ -320,6 +364,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "2",
       "pos": "N"
+    },
+    {
+      "thai": "ความเสียหายจากการสั่นสะเทือนเพราะแผ่นดินไหว",
+      "source_id": "RI:11333",
+      "pronunciation": "",
+      "meaning": "earthquake shock damage",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "วันที่กำหนดแน่นอน",
@@ -531,6 +586,17 @@
       "pos": ""
     },
     {
+      "thai": "คลื่นวิทยุ",
+      "source_id": "LEX2.0:26458",
+      "pronunciation": "kʰlʉ̂ʉn wít tʰá yú",
+      "meaning": "radio wave",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khlư̄n wit tha yu",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "ชั่วเจ็ดทีดีเจ็ดหน",
       "source_id": "TDP:4920",
       "pronunciation": "cʰûa jèt tʰii dii jèt hǒn",
@@ -674,6 +740,17 @@
       "pos": ""
     },
     {
+      "thai": "ความสัมพันธ์ในศูนย์",
+      "source_id": "RI:11065",
+      "pronunciation": "",
+      "meaning": "centric relation",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "ถุงน้ำเมือก",
       "source_id": "RI:15398",
       "pronunciation": "",
@@ -705,6 +782,17 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
+    },
+    {
+      "thai": "คนอื่น",
+      "source_id": "LEX2.0:25179",
+      "pronunciation": "",
+      "meaning": "others, the others; other ones; other",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "2",
+      "pos": "PRON"
     },
     {
       "thai": "หลังฉาก",
@@ -740,6 +828,17 @@
       "pos": "N"
     },
     {
+      "thai": "คบชู้",
+      "source_id": "LEX2.0:13409",
+      "pronunciation": "kʰóp cʰúu",
+      "meaning": "commit adultery with",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khop chū",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
+    },
+    {
       "thai": "วิศวกรรมศาสตรบัณฑิต",
       "source_id": "LEX2.0:5584",
       "pronunciation": "",
@@ -751,6 +850,17 @@
       "pos": "N"
     },
     {
+      "thai": "ครั้งหนึ่งยังมี",
+      "source_id": "TDP:3153",
+      "pronunciation": "kʰráŋ nʉ̀ŋ yaŋ mii",
+      "meaning": "once there was ... (beginning a story).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khrang nưng yang mī",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "ขนมทองม้วน",
       "source_id": "LEX2.0:7511",
       "pronunciation": "",
@@ -760,6 +870,17 @@
       "comparison": "neither",
       "web_rank": "5",
       "pos": "N"
+    },
+    {
+      "thai": "ความรู้หลังประสบการณ์",
+      "source_id": "RI:10960",
+      "pronunciation": "",
+      "meaning": "a posteriori knowledge",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
     },
     {
       "thai": "วัตถุที่มีรูปร่าง",
@@ -781,6 +902,17 @@
       "pronunciation_candidate": "phūt nām lay fay dap",
       "comparison": "pronunciation_only",
       "web_rank": "4",
+      "pos": "V"
+    },
+    {
+      "thai": "เข้าผู้เข้าคน",
+      "source_id": "LEX2.0:9278",
+      "pronunciation": "kʰâw pʰûu kʰâw kʰon",
+      "meaning": "communicate, associate; get along with people",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khaw phū khaw khon",
+      "comparison": "pronunciation_only",
+      "web_rank": "7",
       "pos": "V"
     },
     {
@@ -927,6 +1059,17 @@
       "pos": ""
     },
     {
+      "thai": "ความสูญเปล่า",
+      "source_id": "LEX2.0:9765",
+      "pronunciation": "",
+      "meaning": "waste",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "วัณ-",
       "source_id": "TDP:16635",
       "pronunciation": "wan-na",
@@ -947,6 +1090,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "คล้ายแปรง",
+      "source_id": "RI:10311",
+      "pronunciation": "",
+      "meaning": "penicillate",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
     },
     {
       "thai": "ยักข์",
@@ -1081,6 +1235,17 @@
       "pos": ""
     },
     {
+      "thai": "ปรับความเข้าใจ",
+      "source_id": "LEX2.0:22190",
+      "pronunciation": "",
+      "meaning": "reconcile, negotiate for mutual understanding; adjust differences; come to an understanding",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "V"
+    },
+    {
       "thai": "ทวิภาคี",
       "source_id": "LEX2.0:19731",
       "pronunciation": "tʰá wí pʰaa kʰii",
@@ -1112,6 +1277,17 @@
       "comparison": "neither",
       "web_rank": "2",
       "pos": "ADJ; ADV"
+    },
+    {
+      "thai": "ความผิดเกี่ยวกับการค้า",
+      "source_id": "RI:10777",
+      "pronunciation": "",
+      "meaning": "offences relating to trade",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
     },
     {
       "thai": "ซากทรัพย์",
@@ -1264,6 +1440,17 @@
       "spelling_candidate": "yot",
       "pronunciation_candidate": null,
       "comparison": "spelling_only",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
+      "thai": "ความสงบเรียบร้อย",
+      "source_id": "LEX2.0:30710",
+      "pronunciation": "",
+      "meaning": "peace, harmony; concord",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
       "web_rank": "3",
       "pos": "N"
     },
@@ -1466,200 +1653,13 @@
       "pos": ""
     },
     {
-      "thai": "วานนี้ไม่สบาย เลยนอนทั้งวัน",
-      "source_id": "TDP:16370",
-      "pronunciation": "waan níi mây sa-baay ləəy nɔɔn tʰáŋ wan",
-      "meaning": "Yesterday I was sick, so I was in bed all day.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "wān nī may sabāy lœ̄y nǭn thang wan",
-      "comparison": "pronunciation_only",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ดินเผา",
-      "source_id": "TDP:6671",
-      "pronunciation": "din pʰǎw",
-      "meaning": "the baked or hardened clay of earthenware.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "din phaw",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ใบรับเงินค่าเบี้ยประกันภัย",
-      "source_id": "RI:37320",
+      "thai": "ความอิ่มเอิบ",
+      "source_id": "LEX2.0:9901",
       "pronunciation": "",
-      "meaning": "premium receipt",
+      "meaning": "pleasure, happiness; delight; gratification",
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "บทรำพึง",
-      "source_id": "RI:17056",
-      "pronunciation": "",
-      "meaning": "solioquy",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "ฟายน้ำตา",
-      "source_id": "LEX2.0:12874",
-      "pronunciation": "faay nám taa",
-      "meaning": "shed tears",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "fāy nam tā",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "V"
-    },
-    {
-      "thai": "ฟันปลอมถอดได้",
-      "source_id": "RI:20431",
-      "pronunciation": "",
-      "meaning": "removable denture",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "บันทึกทับ",
-      "source_id": "RI:17412",
-      "pronunciation": "",
-      "meaning": "overwrite",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "กฎที่เด็ดขาด",
-      "source_id": "RI:40",
-      "pronunciation": "",
-      "meaning": "peremptory rule",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "กระหนุงกระหนิง",
-      "source_id": "LEX2.0:7595",
-      "pronunciation": "",
-      "meaning": "(talk) sweetly, (talk) love; (talk) in whisper",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "ADV"
-    },
-    {
-      "thai": "ตีบรรทัด",
-      "source_id": "LEX2.0:18363",
-      "pronunciation": "tii ban tʰát",
-      "meaning": "rule, draw a line; make lines",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "tī ban that",
-      "comparison": "pronunciation_only",
-      "web_rank": "7",
-      "pos": "V"
-    },
-    {
-      "thai": "ฝั่งน้ำ",
-      "source_id": "TDP:10034",
-      "pronunciation": "fàŋ náam",
-      "meaning": "river bank; bank of a watercourse.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "fang nām",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ขนาดต่อวัน",
-      "source_id": "RI:8861",
-      "pronunciation": "",
-      "meaning": "daily dose",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ขนอง",
-      "source_id": "LEX2.0:26181",
-      "pronunciation": "kʰà nɔ̌ɔŋ",
-      "meaning": "back",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kha nǭng",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "N"
-    },
-    {
-      "thai": "จาดตะกั่ว",
-      "source_id": "LEX2.0:26959",
-      "pronunciation": "jàat tà kùa",
-      "meaning": "white lead",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yāt ta kua",
-      "comparison": "pronunciation_only",
-      "web_rank": "7",
-      "pos": "N"
-    },
-    {
-      "thai": "กฎข้อบังคับของรัฐสภา",
-      "source_id": "RI:31",
-      "pronunciation": "",
-      "meaning": "parliamentary law",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "งานกินเลี้ยง",
-      "source_id": "LEX2.0:7681",
-      "pronunciation": "",
-      "meaning": "party, reception; social gathering; get-together; function",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": "N"
-    },
-    {
-      "thai": "ยึดทรัพย์",
-      "source_id": "LEX2.0:2177",
-      "pronunciation": "yʉ́t sáp",
-      "meaning": "seize property, seize assets",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yưt sap",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "ว่านเครือ",
-      "source_id": "TDP:3959",
-      "pronunciation": "wâan kʰrʉa",
-      "meaning": "lineage, family tree; kindred.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "wān khrưa",
-      "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "N"
     }
