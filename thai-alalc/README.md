@@ -133,3 +133,9 @@ A separate orthographic gazetteer, `data/thai-gazetteer.json`, stores 8,441 admi
 ## Gazetteer-assisted boundary editing
 
 The lexical-segmentation panel offers an explicit button to remove provisional spaces **inside matched Thai place names** without changing Thai orthography, ALA-LC consonants or vowels, or spacing outside the name. This also updates copy/TXT output and preserves manual boundary edits. It is only a tentative proposal, not proof of correct ALA-LC word division. Place-name specific token coloring remains deferred.
+
+## Place-name evidence colors and optional capitalization
+
+Thai gazetteer matches are now shown in **violet** in forward romanization. Violet only proves a Thai orthographic match to the gazetteer; it does not certify that the segmental ALA-LC spelling, word division or proper-name interpretation is correct. The original reviewed/tentative/rule/unresolved evidence colors continue for non-place tokens.
+
+An **opt-in** checkbox capitalizes the first Latin character of an exact gazetteer matched name in both the visible transcription and copied/TXT output, without modifying dictionary records or the underlying source tokens. Disabled by default because name recognition from overlapping Thai spelling can be ambiguous and ALA-LC geographical spacing is governed by the U.S. Board on Geographic Names Gazetteer of Thailand (Thai 2011 rule 4), not directly by the administrative gazetteer.

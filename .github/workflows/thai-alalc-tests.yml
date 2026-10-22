@@ -33,6 +33,7 @@ jobs:
           node --check thai-alalc/boundary-editor.mjs
           node --check thai-alalc/place-matcher.mjs
           node --check thai-alalc/place-boundaries.mjs
+          node --check thai-alalc/place-display.mjs
       - name: Rule-based Thai romanization tests
         run: |
           node --test thai-alalc/tests/romanizer.test.mjs
@@ -40,6 +41,7 @@ jobs:
           node --test thai-alalc/tests/boundary-editor.test.mjs
           node --test thai-alalc/tests/place-matcher.test.mjs
           node --test thai-alalc/tests/place-boundaries.test.mjs
+          node --test thai-alalc/tests/place-display.test.mjs
       - name: Validate data
         run: |
           python - <<'PY'
