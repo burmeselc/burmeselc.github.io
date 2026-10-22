@@ -1,11 +1,11 @@
 {
   "summary": {
-    "unique_lexical_records": 19082,
+    "unique_lexical_records": 20222,
     "sample_size": 150,
     "counts": {
-      "neither": 74,
-      "pronunciation_only": 71,
-      "disagreement": 2,
+      "neither": 76,
+      "pronunciation_only": 70,
+      "disagreement": 1,
       "agreement": 2,
       "spelling_only": 1
     },
@@ -187,6 +187,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "1",
+      "pos": ""
+    },
+    {
+      "thai": "ข้อตกลงการแบ่งภาระค่าสินไหมทดแทน",
+      "source_id": "RI:9470",
+      "pronunciation": "",
+      "meaning": "claims sharing agreement",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
       "pos": ""
     },
     {
@@ -421,6 +432,17 @@
       "pos": ""
     },
     {
+      "thai": "ข้อกำหนดคุ้มครองทุนเพิ่ม",
+      "source_id": "RI:9304",
+      "pronunciation": "",
+      "meaning": "capital additions clause",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
+      "pos": ""
+    },
+    {
       "thai": "กิจจานุกิจ",
       "source_id": "LEX2.0:24589",
       "pronunciation": "kìt jaa nú kìt",
@@ -487,6 +509,17 @@
       "pos": ""
     },
     {
+      "thai": "สุดขีด",
+      "source_id": "LEX2.0:6459",
+      "pronunciation": "sùt kʰìit",
+      "meaning": "extremely, exceedingly; awfully",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "sut khīt",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "ADV"
+    },
+    {
       "thai": "กอบ",
       "source_id": "TDP:927",
       "pronunciation": "kɔ̀ɔp",
@@ -520,6 +553,17 @@
       "pos": ""
     },
     {
+      "thai": "คนขี้เมา",
+      "source_id": "TDP:3052",
+      "pronunciation": "kʰon kʰîi maw",
+      "meaning": "drunkard. Contrast คนเมา one who is drunk (at the moment).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khon khī maw",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "ของขลัง",
       "source_id": "LEX2.0:26287",
       "pronunciation": "kʰɔ̌ɔŋ kʰlǎŋ",
@@ -529,6 +573,28 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "N"
+    },
+    {
+      "thai": "ขี้กลากลำตัว",
+      "source_id": "RI:9144",
+      "pronunciation": "",
+      "meaning": "tinea circinata; tinea corporis; tinea glabrosa",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
+      "thai": "ข้อกำหนดให้มีทางปฏิบัติอย่างอื่นแทน",
+      "source_id": "RI:9396",
+      "pronunciation": "",
+      "meaning": "escape clause",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "บัญชีเงินสำรอง",
@@ -551,6 +617,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "8",
       "pos": "V"
+    },
+    {
+      "thai": "ข้อตกลงไม่เรียกร้องต่อกัน",
+      "source_id": "RI:9525",
+      "pronunciation": "",
+      "meaning": "knock-for-knock agreement",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "ดังที่",
@@ -1092,6 +1169,17 @@
       "pos": "E"
     },
     {
+      "thai": "ขึ้นแป้น",
+      "source_id": "LEX2.0:806",
+      "pronunciation": "",
+      "meaning": "be sent to press, put in print; hold the championship, win championship; be a champion",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "V"
+    },
+    {
       "thai": "บรรพพฤกษศาสตร์",
       "source_id": "RI:17168",
       "pronunciation": "",
@@ -1574,94 +1662,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "N"
-    },
-    {
-      "thai": "ศูนย์การประยุกต์ใช้ซูเปอร์คอมพิวเตอร์แห่งชาติ",
-      "source_id": "RI:25788",
-      "pronunciation": "",
-      "meaning": "National Center for Supercomputing Applications (NCSA) (เอ็นซีเอสเอ)",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "จาน",
-      "source_id": "TDP:4710",
-      "pronunciation": "jaan",
-      "meaning": "plate, dish.",
-      "spelling_candidate": "čhān",
-      "pronunciation_candidate": "yān",
-      "comparison": "disagreement",
-      "web_rank": "2",
-      "pos": "N"
-    },
-    {
-      "thai": "กะแอ",
-      "source_id": "LEX2.0:25572",
-      "pronunciation": "kà ɛɛ",
-      "meaning": "young, small",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ka ǣ",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "ADJ"
-    },
-    {
-      "thai": "ใช้เป็นสารแทน",
-      "source_id": "RI:37132",
-      "pronunciation": "",
-      "meaning": "succenturiate",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "คำภาวนา",
-      "source_id": "LEX2.0:9597",
-      "pronunciation": "",
-      "meaning": "blessing, prayer; wish",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "กตัญญุตา",
-      "source_id": "LEX2.0:23707",
-      "pronunciation": "kà tan yú taa",
-      "meaning": "gratefulness, thankful",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ka tan yu tā",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ศิลปะการอนุบาลและอบรมเด็ก",
-      "source_id": "RI:25722",
-      "pronunciation": "",
-      "meaning": "puericulture",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "หมดด้วยกัน",
-      "source_id": "TDP:18167",
-      "pronunciation": "mòt dûay kan",
-      "meaning": "altogether.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "mot duay kan",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": ""
     }
   ]
 }

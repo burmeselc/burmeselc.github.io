@@ -2,126 +2,6 @@
   "version": 1,
   "queue": [
     {
-      "query": "ขี.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขึ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขื.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขุ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขู.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขฺ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข฻.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข฼.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข฽.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข฾.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข฿.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขเ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขแ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขโ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขใ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขไ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขๅ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข็.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข่.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข้.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข๊.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข๋.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ข์.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
-      "query": "ขํ.*",
-      "depth": 1,
-      "parent": "ข.*"
-    },
-    {
       "query": "ข๎.*",
       "depth": 1,
       "parent": "ข.*"
@@ -9075,6 +8955,198 @@
       "parsed_records": 5,
       "file": "2f9d492659e791cc.csv",
       "sha256": "4bd7da8a3164c121a92687a90ad05cf8c7c66d60a5416c50925c57a550740306",
+      "coverage_proven": false
+    },
+    "ขี.*": {
+      "status": "fetched",
+      "reported_hits": 275,
+      "parsed_records": 183,
+      "file": "a7605ae95a39a0ad.csv",
+      "sha256": "fc978e282d1e9d2e1e58f1a040a759b7b228dd7b9f37393753704510ed4480a5",
+      "coverage_proven": false
+    },
+    "ขึ.*": {
+      "status": "fetched",
+      "reported_hits": 196,
+      "parsed_records": 144,
+      "file": "a53e1bd7dda6eea9.csv",
+      "sha256": "916b8acf184132fc640368efe28b59ab321f8f13fedcbfded21e5e1437ae3432",
+      "coverage_proven": false
+    },
+    "ขื.*": {
+      "status": "fetched",
+      "reported_hits": 20,
+      "parsed_records": 12,
+      "file": "5e9caf647ce2040a.csv",
+      "sha256": "9188ce0f5d1b5f857f58c16fe62460566ffa405a9fc75583381385bf56b368fb",
+      "coverage_proven": false
+    },
+    "ขุ.*": {
+      "status": "fetched",
+      "reported_hits": 67,
+      "parsed_records": 46,
+      "file": "475816317df95431.csv",
+      "sha256": "c1ce70538cae3db0d304754ebb9937a192254b88f2dc2176fd036b189e8b8732",
+      "coverage_proven": false
+    },
+    "ขู.*": {
+      "status": "fetched",
+      "reported_hits": 19,
+      "parsed_records": 12,
+      "file": "f6666472ffb80e26.csv",
+      "sha256": "ddd9ade5adbffaa0788509d2c2969725d712da214881306b420468dbdd4e7415",
+      "coverage_proven": false
+    },
+    "ขฺ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "4e265d536dd97b2d.csv",
+      "sha256": "7fac93bd5273aa4b329b655d6983ade8a653f7f5bd2e8a98b15df825295b5e73",
+      "coverage_proven": false
+    },
+    "ข฻.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "a7ae830a18290d47.csv",
+      "sha256": "03aa63f2c41569a569cd63f5ea61fb12384c8a4edc89440d8d391e6b8cd43c66",
+      "coverage_proven": false
+    },
+    "ข฼.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "28d844c26daa48cd.csv",
+      "sha256": "790b0e5a9b01510b6e56dcda2a77c5064354f4b0960534fddc51aa4509cf544f",
+      "coverage_proven": false
+    },
+    "ข฽.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "a6167f0bb1734cf6.csv",
+      "sha256": "8ae0683b211927c0bfd42d5eaafbf93a84e1269e0767de9900b4ac9170d9bd99",
+      "coverage_proven": false
+    },
+    "ข฾.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "d786fcd14f2b3a35.csv",
+      "sha256": "d3156ba4abb4f3a1b197561e449c11cf5801644734208546e9044308c37a9a43",
+      "coverage_proven": false
+    },
+    "ข฿.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "b5e35a0f798b857d.csv",
+      "sha256": "3ea5b9b843441c97d4555ef26a0562d475e34bf8755b2255a02880384319ec5f",
+      "coverage_proven": false
+    },
+    "ขเ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "1ea69c48c9682bef.csv",
+      "sha256": "da5514f470d5d942ad16ad9c9f31a464b99918d079e0c0d38eca541763974db9",
+      "coverage_proven": false
+    },
+    "ขแ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "919e335d3c3d56d4.csv",
+      "sha256": "5270fe27757c3c258a3c878a6b051d6318a712ac263814854af629ba46be7296",
+      "coverage_proven": false
+    },
+    "ขโ.*": {
+      "status": "fetched",
+      "reported_hits": 6,
+      "parsed_records": 3,
+      "file": "62ccc967718a68fc.csv",
+      "sha256": "94b4c58c62217a455d45716a8f426b6fc142a9ec8a2528f984e68c590f8d49c9",
+      "coverage_proven": false
+    },
+    "ขใ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "013a1a04727d3773.csv",
+      "sha256": "2e9b87d428a1f7f8528879ee3db52a8019027902c6b0086a6e9a564dc7af12f3",
+      "coverage_proven": false
+    },
+    "ขไ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "2da5d0a6657cb7fa.csv",
+      "sha256": "039522c4d154a27cdeb5494fb6e8afecb338158b0edd39dea24fe0bf311d3edb",
+      "coverage_proven": false
+    },
+    "ขๅ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "335a889d623b2201.csv",
+      "sha256": "0d9de9a6a66fa32d3a7e1e83f5d23becc1433dd69ca0a53070b41af310b1e0ea",
+      "coverage_proven": false
+    },
+    "ข็.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "711177630a7f8e52.csv",
+      "sha256": "d0fbe7caa04e485d42e5b0b0a141a799928910548e9e524f88f81add83e9660a",
+      "coverage_proven": false
+    },
+    "ข่.*": {
+      "status": "fetched",
+      "reported_hits": 149,
+      "parsed_records": 122,
+      "file": "ab0c9ae0255c97c0.csv",
+      "sha256": "c90699f245c1204567242865482c2bd1c2342e49ce8ebfcd924c8d7132c206d2",
+      "coverage_proven": false
+    },
+    "ข้.*": {
+      "status": "fetched",
+      "reported_hits": 920,
+      "parsed_records": 773,
+      "file": "fd37d4653e1e017b.csv",
+      "sha256": "4413b87a9b556065ac917edac7ee99f958589cfacb32808ccb43bc9273acce97",
+      "coverage_proven": false
+    },
+    "ข๊.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "c356c0811c4bf9d0.csv",
+      "sha256": "77743596cb07ca8291870e1f0308f21215ddaa3fdbfe342eb56040885e6c055c",
+      "coverage_proven": false
+    },
+    "ข๋.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "f29fbdc9330af694.csv",
+      "sha256": "10a3d202d583ee07ec111a293c65271cea1a607369dd866de91d8b9c592e0f33",
+      "coverage_proven": false
+    },
+    "ข์.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "a76c3515bf404477.csv",
+      "sha256": "8ff287404da8a14241fbeab6b4d6d2a05cf3eec8c84508f33483077b64bb2680",
+      "coverage_proven": false
+    },
+    "ขํ.*": {
+      "status": "empty",
+      "reported_hits": null,
+      "parsed_records": 0,
+      "file": "dc5ab3d37d3ac7f8.csv",
+      "sha256": "72efcc7ba67309fadc35b21e7e81cd16720208f50ff416df6a4fbe5da406f535",
       "coverage_proven": false
     }
   },
