@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 20222,
+    "unique_lexical_records": 20474,
     "sample_size": 150,
     "counts": {
-      "neither": 76,
-      "pronunciation_only": 70,
+      "neither": 77,
+      "pronunciation_only": 69,
       "disagreement": 1,
       "agreement": 2,
       "spelling_only": 1
@@ -694,6 +694,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "V"
+    },
+    {
+      "thai": "คดีซึ่งอยู่ในระหว่างพิจารณา",
+      "source_id": "RI:9876",
+      "pronunciation": "",
+      "meaning": "pendens lis; pending actions",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "หลังฉาก",
@@ -1400,6 +1411,17 @@
       "pos": ""
     },
     {
+      "thai": "คณะวนศาสตร์",
+      "source_id": "LEX2.0:26388",
+      "pronunciation": "",
+      "meaning": "Faculty of Forestry",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "กะ-",
       "source_id": "TDP:944",
       "pronunciation": "ka",
@@ -1639,28 +1661,6 @@
       "pronunciation_candidate": "wān khrưa",
       "comparison": "pronunciation_only",
       "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ภาวะกลายโปร่ง",
-      "source_id": "RI:20769",
-      "pronunciation": "",
-      "meaning": "rarefaction",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "วิศวกรรมไฟฟ้า",
-      "source_id": "TDP:16820",
-      "pronunciation": "wít-sa-wá-kam fay fáa",
-      "meaning": "electrical engineering.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "witsawakam fay fā",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
       "pos": "N"
     }
   ]

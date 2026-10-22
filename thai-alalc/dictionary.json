@@ -150784,6 +150784,204 @@
     "status": "tentative"
   },
   {
+    "thai": "คค",
+    "alalc": "khok",
+    "meaning": "Ministry of Transport and Communications",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Ministry of Transport and Communications"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1299",
+    "source_query": "คค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คคนัมพร",
+    "alalc": "kha kha nam phǭn",
+    "meaning": "great sky",
+    "ipa": "kʰá kʰá nam pʰɔɔn",
+    "pron_display": "kʰá kʰá nam pʰɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "great sky"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8927",
+    "source_query": "คค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คคนางค์",
+    "alalc": "kha kha nāng",
+    "meaning": "sky, part of the sky",
+    "ipa": "kʰá kʰá naaŋ",
+    "pron_display": "kʰá kʰá naaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sky, part of the sky"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8940",
+    "source_query": "คค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คคนานต์",
+    "alalc": "kha kha nān",
+    "meaning": "sky limit",
+    "ipa": "kʰá kʰá naan",
+    "pron_display": "kʰá kʰá naan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sky limit"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8925",
+    "source_query": "คค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คง",
+    "alalc": "khong",
+    "meaning": "surely, sure to, bound to; most likely, probably.",
+    "ipa": "kʰoŋ",
+    "pron_display": "ˈkʰoŋ",
+    "pos": "AA",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "AA"
+        ],
+        "definitions": [
+          "surely, sure to, bound to; most likely, probably."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2994",
+    "source_query": "คง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "คง",
+    "alalc": "khong",
+    "meaning": "the Salween River.",
+    "ipa": "kʰoŋ",
+    "pron_display": "ˈkʰoŋ",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "the Salween River."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3011",
+    "source_query": "คง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "คง",
+    "alalc": "khong",
+    "meaning": "to endure, remain, persist.; to be enduring, lasting, steadfast.",
+    "ipa": "kʰoŋ",
+    "pron_display": "ˈkʰoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to endure, remain, persist."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be enduring, lasting, steadfast."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3002",
+    "source_query": "คง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "คง (จะ) ไม่",
     "alalc": "khong ya may",
     "meaning": "surely (will) not, probably (will) not, unlikely to.",
@@ -150836,6 +151034,173 @@
     "status": "tentative"
   },
   {
+    "thai": "คงกระพันชาตรี",
+    "alalc": "",
+    "meaning": "be invulnerable",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be invulnerable"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8922",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงขาด",
+    "alalc": "khong khāt",
+    "meaning": "lack, be deficient",
+    "ipa": "kʰoŋ kʰàat",
+    "pron_display": "kʰoŋ kʰàat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lack, be deficient"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8920",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงคลัง",
+    "alalc": "khong khlang",
+    "meaning": "treasury reserve",
+    "ipa": "kʰoŋ kʰlaŋ",
+    "pron_display": "kʰoŋ kʰlaŋ",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "treasury reserve"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8919",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงความตึง",
+    "alalc": "",
+    "meaning": "isotonic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "isotonic"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9757",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงความยาว",
+    "alalc": "",
+    "meaning": "isometric",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "isometric"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9758",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงคา",
+    "alalc": "khongkhā",
+    "meaning": "river, sea, the waters.; the goddess of the waters.",
+    "ipa": "kʰoŋ-kʰaa",
+    "pron_display": "kʰoŋˈkʰaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "river, sea, the waters."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the goddess of the waters."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3012",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "คงจะ",
     "alalc": "khong ya",
     "meaning": "surely, sure to, bound to; will surely, would surely; most likely will, probably will.",
@@ -150863,6 +151228,243 @@
     "status": "tentative"
   },
   {
+    "thai": "คงจะยังอยู่ที่นี่",
+    "alalc": "khong ya yang yū thī nī",
+    "meaning": "might still be here, might still stay here.",
+    "ipa": "kʰoŋ ja yaŋ yùu tʰîi nîi",
+    "pron_display": "ˈkʰoŋ ja yaŋ ˈyùu tʰîi ˈnîi",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "might still be here, might still stay here."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14683",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงตัว",
+    "alalc": "khong tua",
+    "meaning": "steady, be stable; be constant; be unchanged",
+    "ipa": "kʰoŋ tua",
+    "pron_display": "kʰoŋ tua",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "steady, be stable; be constant; be unchanged"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8917",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงตัวในความร้อน",
+    "alalc": "",
+    "meaning": "thermostabile",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "thermostabile"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9760",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงทน",
+    "alalc": "khong thon",
+    "meaning": "to be resistant, durable.",
+    "ipa": "kʰoŋ tʰon",
+    "pron_display": "ˈkʰoŋ ˈtʰon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be resistant, durable."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3005",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงทนถาวร",
+    "alalc": "",
+    "meaning": "durable, strong; enduring; permanent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "durable, strong; enduring; permanent"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31832",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงที่",
+    "alalc": "khong thī",
+    "meaning": "to be constant, invariable.",
+    "ipa": "kʰoŋ tʰîi",
+    "pron_display": "kʰoŋ ˈtʰîi",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be constant, invariable."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3006",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงอยู่",
+    "alalc": "",
+    "meaning": "remain",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "remain"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8970",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงเฉย",
+    "alalc": "",
+    "meaning": "indifferent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "indifferent"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9762",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คงเดิม",
+    "alalc": "",
+    "meaning": "remain as ever",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "remain as ever"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8918",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "คงเส้นคงวา",
     "alalc": "khong sen khong wā",
     "meaning": "to be consistent.",
@@ -150888,6 +151490,87 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "คงเหลือ",
+    "alalc": "khong lưa",
+    "meaning": "remain, balance",
+    "ipa": "kʰoŋ lʉ̌a",
+    "pron_display": "kʰoŋ lʉ̌a",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "remain, balance"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8888",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงแก่เรียน",
+    "alalc": "khong ka rian",
+    "meaning": "to be learned, erudite.",
+    "ipa": "kʰoŋ ka rian",
+    "pron_display": "kʰoŋ ka ˈrian*",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be learned, erudite."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3004",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คงไว้",
+    "alalc": "",
+    "meaning": "exist, survive; live; continue; remain; keep",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "exist, survive; live; continue; remain; keep"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26387",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "คชกรรม",
@@ -150938,10 +151621,287 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:9063",
-    "source_query": "ศ.*",
+    "source_query": "คช.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "คชสาร",
+    "alalc": "khot cha sān",
+    "meaning": "elephant",
+    "ipa": "kʰót cʰá sǎan",
+    "pron_display": "kʰót cʰá sǎan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "elephant"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9062",
+    "source_query": "คช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คชาชาติ",
+    "alalc": "kha chā chāt",
+    "meaning": "elephant",
+    "ipa": "kʰá cʰaa cʰâat",
+    "pron_display": "kʰá cʰaa cʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "elephant"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9061",
+    "source_query": "คช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คชาชีพ",
+    "alalc": "kha chā chīp",
+    "meaning": "mahout",
+    "ipa": "kʰá cʰaa cʰîip",
+    "pron_display": "kʰá cʰaa cʰîip",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mahout"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9060",
+    "source_query": "คช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คชาธาร",
+    "alalc": "kha chā thān",
+    "meaning": "king's elephant, royal elephant",
+    "ipa": "kʰá cʰaa tʰaan",
+    "pron_display": "kʰá cʰaa tʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king's elephant, royal elephant"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9059",
+    "source_query": "คช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คชาภรณ์",
+    "alalc": "kha chā phǭn",
+    "meaning": "elephant's ornament",
+    "ipa": "kʰá cʰaa pʰɔɔn",
+    "pron_display": "kʰá cʰaa pʰɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "elephant's ornament"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9058",
+    "source_query": "คช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คชินทร์",
+    "alalc": "",
+    "meaning": "king of elephants",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king of elephants"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9057",
+    "source_query": "คช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณนา",
+    "alalc": "khananā",
+    "meaning": "to count, calculate.",
+    "ipa": "kʰa-na-naa",
+    "pron_display": "kʰa.naˈnaa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to count, calculate."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3015",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณบดี",
+    "alalc": "kha na bǭ dī",
+    "meaning": "dean",
+    "ipa": "kʰá ná bɔɔ dii",
+    "pron_display": "kʰá ná bɔɔ dii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dean"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9056",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะ",
+    "alalc": "khana",
+    "meaning": "(special) group, body; organization, team; party (e.g. \"political party\").; group, body; organization, team; party.",
+    "ipa": "kʰa-ná",
+    "pron_display": "kʰaˈnáʔ",
+    "pos": "N; C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(special) group, body; organization, team; party (e.g. \"political party\")."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "group, body; organization, team; party."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3016",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะ, ชุด)  สาม",
+    "alalc": "",
+    "meaning": "triad",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "triad"
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9763",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "คณะกรรมการ",
@@ -150971,6 +151931,810 @@
     "status": "tentative"
   },
   {
+    "thai": "คณะกรรมการกฤษฎีกา",
+    "alalc": "",
+    "meaning": "Juridical Council (ไทย); Judicial Council (ไทย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Juridical Council (ไทย)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "Judicial Council (ไทย)"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9766",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการกลางกำกับดูแลกิจการสื่อสาร",
+    "alalc": "",
+    "meaning": "Federal Communications Commission (FCC) (เอฟซีซี)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Federal Communications Commission (FCC) (เอฟซีซี)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9768",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการข้าราชการฝ่ายรัฐสภา",
+    "alalc": "",
+    "meaning": "Parliamentary Officials Commission (ก.ร.)  (ไทย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Parliamentary Officials Commission (ก.ร.)  (ไทย)"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9769",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการข้าราชการพลเรือน",
+    "alalc": "khana kamma kān khā rātcha kān phonla rưan",
+    "meaning": "Civil Service Commission.",
+    "ipa": "kʰa-ná kam-ma kaan kʰâa râat-cʰa kaan pʰon-la rʉan",
+    "pron_display": "kʰa.ná kam.ma ˈkaan kʰâa râat.cʰa ˈkaan pʰon.la ˈrʉan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Civil Service Commission."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3017",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะกรรมการค่าจ้าง",
+    "alalc": "",
+    "meaning": "wages council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "wages council"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9772",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการชั่วคราว",
+    "alalc": "",
+    "meaning": "ad hoc committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ad hoc committee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3756",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการดำเนินการ",
+    "alalc": "",
+    "meaning": "steering committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "steering committee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9773",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการตรวจคะแนน",
+    "alalc": "",
+    "meaning": "counting board",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "counting board"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9774",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการตรวจตราสารแต่งตั้ง",
+    "alalc": "",
+    "meaning": "credentials committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "credentials committee"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9775",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการตุลาการ",
+    "alalc": "",
+    "meaning": "Judicial Service Commission (ก.ต.)  (ไทย); Judicial Service Commission (ก.ต.) (ไทย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Judicial Service Commission (ก.ต.)  (ไทย)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "Judicial Service Commission (ก.ต.) (ไทย)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9776",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการตุลาการทหาร",
+    "alalc": "",
+    "meaning": "Military Judicial Commission (ไทย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Military Judicial Commission (ไทย)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9778",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการที่ปรึกษา",
+    "alalc": "",
+    "meaning": "advisory commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "advisory commission"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9779",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการที่ปรึกษาการโทรเลขและโทรศัพท์ระหว่างประเทศ",
+    "alalc": "",
+    "meaning": "Comit� Consultatif Internationale de T�l�graphique et T�l�phonique; The International Telegraph and Telephone Consultative Committee (CCITT) (ซีซีไอทีที)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Comit� Consultatif Internationale de T�l�graphique et T�l�phonique; The International Telegraph and Telephone Consultative Committee (CCITT) (ซีซีไอทีที)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9780",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการที่ปรึกษาฝ่ายนิติบัญญัติ",
+    "alalc": "",
+    "meaning": "legislative council (อเมริกัน); legislative council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "legislative council (อเมริกัน)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "legislative council"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9781",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการที่โปรดเกล้าฯ แต่งตั้ง",
+    "alalc": "",
+    "meaning": "royal commission (อังกฤษ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "royal commission (อังกฤษ)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9783",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการบริษัท",
+    "alalc": "",
+    "meaning": "board of directors",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "board of directors"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9784",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการบริหารสูงสุดของพรรคคอมมิวนิสต์",
+    "alalc": "",
+    "meaning": "politburo",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "politburo"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9785",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการผู้บริหาร",
+    "alalc": "",
+    "meaning": "board of directors, board",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "board of directors, board"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31833",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการพนักงานเทศบาล",
+    "alalc": "",
+    "meaning": "Municipal Service Commission (ก.ท.)  (ไทย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Municipal Service Commission (ก.ท.)  (ไทย)"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9786",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการระบบโทรทัศน์แห่งชาติ",
+    "alalc": "",
+    "meaning": "National Television Standards Committee (NTSC) (เอ็นทีเอสซี)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "National Television Standards Committee (NTSC) (เอ็นทีเอสซี)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9787",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการร่วม",
+    "alalc": "",
+    "meaning": "joint committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "joint committee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9788",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการศาลทหาร",
+    "alalc": "",
+    "meaning": "military commission (อเมริกัน)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "military commission (อเมริกัน)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9789",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการสอดส่อง",
+    "alalc": "",
+    "meaning": "vigilance committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "vigilance committee"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9790",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการสืบสวน",
+    "alalc": "",
+    "meaning": "commission of inquiry",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "commission of inquiry"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9791",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการสืบสวนข้อเท็จจริง",
+    "alalc": "",
+    "meaning": "fact-finding board",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fact-finding board"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9792",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการสุขาภิบาล",
+    "alalc": "",
+    "meaning": "sanitary board",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sanitary board"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9793",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการอำนวยการ",
+    "alalc": "",
+    "meaning": "board of committee, steering committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "board of committee, steering committee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9038",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการอำนวยการ",
+    "alalc": "",
+    "meaning": "steering committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "steering committee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9794",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการเฉพาะกิจ",
+    "alalc": "",
+    "meaning": "ad hoc committee; select committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ad hoc committee; select committee"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9795",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการเสนอชื่อสมาชิกพรรคเป็นกรรมาธิการ",
+    "alalc": "",
+    "meaning": "committee on committees (อเมริกัน)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "committee on committees (อเมริกัน)"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9796",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมการแห่งลอยด์",
+    "alalc": "",
+    "meaning": "Committee of Lloyd�s",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Committee of Lloyd�s"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9797",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "คณะกรรมาธิการ",
     "alalc": "khana kammāthikān",
     "meaning": "committee; commission.",
@@ -150998,6 +152762,2806 @@
     "status": "tentative"
   },
   {
+    "thai": "คณะกรรมาธิการกฎหมายระหว่างประเทศ",
+    "alalc": "",
+    "meaning": "International Law Commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "International Law Commission"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9799",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการของสภา",
+    "alalc": "",
+    "meaning": "parliamentary committee (นิติบัญญัติ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "parliamentary committee (นิติบัญญัติ)"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9800",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการจัดลำดับร่างกฎหมาย",
+    "alalc": "",
+    "meaning": "sifting committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sifting committee"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9801",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการตรวจสอบการใช้จ่ายเงินงบประมาณแผ่นดิน",
+    "alalc": "",
+    "meaning": "committee of public account; committee on accounts",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "committee of public account; committee on accounts"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9802",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการที่ปรึกษา",
+    "alalc": "",
+    "meaning": "advisory commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "advisory commission"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9803",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการพิจารณาข้อบังคับของสภา",
+    "alalc": "",
+    "meaning": "Committee on Rules",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Committee on Rules"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9804",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการพิจารณางบประมาณ",
+    "alalc": "",
+    "meaning": "estimates committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "estimates committee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9805",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการพิจารณาร่างกฎหมาย",
+    "alalc": "",
+    "meaning": "committee to consider a bill",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "committee to consider a bill"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9806",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการพิจารณาวิธีการจัดหารายได้",
+    "alalc": "",
+    "meaning": "Committee of Ways and Means (ของสภานิติบัญญัติ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Committee of Ways and Means (ของสภานิติบัญญัติ)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9807",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการพิเศษ",
+    "alalc": "",
+    "meaning": "special committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "special committee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9808",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการร่วม",
+    "alalc": "",
+    "meaning": "joint commission (ระหว่างประเทศ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "joint commission (ระหว่างประเทศ)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9809",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการร่วมกัน",
+    "alalc": "",
+    "meaning": "joint committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "joint committee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9810",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการวิสามัญ",
+    "alalc": "",
+    "meaning": "select committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "select committee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9811",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการสามัญประจำสภา",
+    "alalc": "",
+    "meaning": "standing committee (นิติบัญญัติ); standing committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "standing committee (นิติบัญญัติ)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "standing committee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9812",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการเฉพาะกิจ",
+    "alalc": "",
+    "meaning": "select committee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "select committee"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9814",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการเฉพาะสมัยประชุม",
+    "alalc": "",
+    "meaning": "sessional committee (อังกฤษ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sessional committee (อังกฤษ)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9815",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะกรรมาธิการเต็มสภา",
+    "alalc": "",
+    "meaning": "committee of the whole",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "committee of the whole"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9816",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะข้าหลวง",
+    "alalc": "",
+    "meaning": "commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "commission"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9817",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะครุศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Education",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Education"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9065",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะชาติ",
+    "alalc": "khana chāt",
+    "meaning": "nationalist; of the nationalist faction.",
+    "ipa": "kʰa-ná cʰâat",
+    "pron_display": "kʰa.náʔ ˈcʰâat",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nationalist; of the nationalist faction."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3019",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะฑูต",
+    "alalc": "",
+    "meaning": "diplomatic corps, diplomatic mission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "diplomatic corps, diplomatic mission"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30077",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะดนตรี",
+    "alalc": "",
+    "meaning": "band",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "band"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9050",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะตุลาการรัฐธรรมนูญ",
+    "alalc": "",
+    "meaning": "constitutional tribunal",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "constitutional tribunal"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9818",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทันตแพทย์ศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Dentistry",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Dentistry"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9049",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทัวร์",
+    "alalc": "",
+    "meaning": "tour group",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tour group"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9048",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทำงาน",
+    "alalc": "",
+    "meaning": "working group",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "working group"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9047",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทำงานตอบสนองอุบัติการณ์และรักษาความมั่นคง",
+    "alalc": "",
+    "meaning": "Forum of Incident Response and Security Teams (FIRST) (เฟิสต์)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Forum of Incident Response and Security Teams (FIRST) (เฟิสต์)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9819",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทำงานเฉพาะกิจ",
+    "alalc": "",
+    "meaning": "task force",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "task force"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9820",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะที่ปรึกษา",
+    "alalc": "",
+    "meaning": "board of consultant, advisory group",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "board of consultant, advisory group"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9046",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะที่ปรึกษาวงในของหัวหน้ารัฐบาล",
+    "alalc": "",
+    "meaning": "kitchen cabinet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "kitchen cabinet"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9821",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะที่ปรึกษาสำคัญ",
+    "alalc": "",
+    "meaning": "brain trust",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "brain trust"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9822",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทูต",
+    "alalc": "",
+    "meaning": "mission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mission"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9823",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะทูตานุทูต",
+    "alalc": "",
+    "meaning": "diplomatic corps",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "diplomatic corps"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9824",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะนิติศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Law"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9045",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะบริหาร",
+    "alalc": "",
+    "meaning": "management team, executive management",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "management team, executive management"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31834",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะบุคคล",
+    "alalc": "",
+    "meaning": "college",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "college"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9825",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะปฏิวัติ",
+    "alalc": "",
+    "meaning": "revolutionary council, revolutionary committee; revolutionary group; revolutionary party",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "revolutionary council, revolutionary committee; revolutionary group; revolutionary party"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9044",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้ชำนัญพิเศษ",
+    "alalc": "",
+    "meaning": "specialized staff",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "specialized staff"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9826",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้บริหารสูงสุด",
+    "alalc": "",
+    "meaning": "Presidium (ของโซเวียต)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Presidium (ของโซเวียต)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9827",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้พิพากษา",
+    "alalc": "",
+    "meaning": "bench",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "bench"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9828",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้ยึดอำนาจการปกครอง",
+    "alalc": "",
+    "meaning": "junta",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "junta"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9829",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้ร่วม",
+    "alalc": "",
+    "meaning": "Syndicate (รับประกัน)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Syndicate (รับประกัน)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9830",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้ร่วมรับประกันภัยของสถาบันลอยด์",
+    "alalc": "",
+    "meaning": "Lloyd�s Syndicate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Lloyd�s Syndicate"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9831",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้อภิปราย",
+    "alalc": "",
+    "meaning": "panel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "panel"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9832",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้เดินเผชิญสืบพยาน",
+    "alalc": "",
+    "meaning": "commission to examine witnesses",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "commission to examine witnesses"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9833",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้เลือกตั้ง",
+    "alalc": "",
+    "meaning": "electoral college",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "electoral college"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9834",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้แทน",
+    "alalc": "",
+    "meaning": "delegation (ของรัฐบาลหรือองค์การ); mission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "delegation (ของรัฐบาลหรือองค์การ)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "mission"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9835",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้แทน",
+    "alalc": "",
+    "meaning": "delegation, deputation; mission; representative",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "delegation, deputation; mission; representative"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9043",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะผู้แทนทางทหาร",
+    "alalc": "",
+    "meaning": "military mission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "military mission"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9837",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะพยาบาลศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Nursing",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Nursing"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9042",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะพีออน",
+    "alalc": "",
+    "meaning": "paeon; paeonic foot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "paeon; paeonic foot"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9838",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมนตรี",
+    "alalc": "",
+    "meaning": "commission; council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "commission; council"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9839",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมนตรี",
+    "alalc": "",
+    "meaning": "council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "council"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9040",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมนตรีความมั่นคง",
+    "alalc": "khana montrī khwām man khong",
+    "meaning": "Security Council.",
+    "ipa": "kʰa-ná mon-trii kʰwaam mân kʰoŋ",
+    "pron_display": "kʰa.ná monˈtrii kʰwaam mân ˈkʰoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Security Council."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3010",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะมนตรีประศาสน์การ",
+    "alalc": "",
+    "meaning": "Governing Council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Governing Council"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9841",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมนตรีภาวะทรัสตีแห่งสหประชาชาติ",
+    "alalc": "",
+    "meaning": "Trusteeship Council of the United Nations",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Trusteeship Council of the United Nations"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9842",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมนตรีแห่งสหภาพยุโรป",
+    "alalc": "",
+    "meaning": "Council of Minister of the European Union",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Council of Minister of the European Union"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9843",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมนตรีไตรภาคี",
+    "alalc": "",
+    "meaning": "trilateral commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "trilateral commission"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9844",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะมัณฑนศิลป์",
+    "alalc": "",
+    "meaning": "Faculty of Decorative Arts",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Decorative Arts"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9077",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะรัฐประหาร",
+    "alalc": "",
+    "meaning": "coup d'etat council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "coup d'etat council"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4039",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะรัฐมนตรี",
+    "alalc": "khana ratthamontrī",
+    "meaning": "(the) cabinet, council of ministers.",
+    "ipa": "kʰa-ná rát-tʰa-mon-trii",
+    "pron_display": "kʰaˈnáʔ rát.tʰa.monˈtrii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(the) cabinet, council of ministers."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3022",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะรัฐมนตรีชุดสงคราม",
+    "alalc": "khana rattha montrī chut songkhrām",
+    "meaning": "war-time cabinet.",
+    "ipa": "kʰa-ná rát-tha mon-trii cʰút sǒŋ-kʰraam",
+    "pron_display": "kʰa.ná rát.tha monˈtrii ˈcʰút sǒŋˈkʰraam",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "war-time cabinet."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5953",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะรัฐมนตรีสงคราม",
+    "alalc": "",
+    "meaning": "war cabinet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "war cabinet"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9846",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะรัฐมนตรีเงา",
+    "alalc": "",
+    "meaning": "shadow cabinet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "shadow cabinet"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9847",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะรัฐศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Political Science",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Political Science"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9053",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะลูกขุน",
+    "alalc": "khana lūk khun",
+    "meaning": "jury.",
+    "ipa": "kʰa-ná lûuk kʰǔn",
+    "pron_display": "kʰaˌnáʔ lûuk ˈkʰǔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "jury."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2663",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะลูกขุนที่มีความเห็นขัดแย้งกัน",
+    "alalc": "",
+    "meaning": "hung jury",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hung jury"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9849",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะวนศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Forestry",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Forestry"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26388",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะวารสารศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Journalism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Journalism"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26389",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะวิชา",
+    "alalc": "",
+    "meaning": "faculty (ในมหาวิทยาลัย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "faculty (ในมหาวิทยาลัย)"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9850",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะวิทยาศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Science",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Science"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9091",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะวิศวกรรมศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Engineering",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Engineering"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9090",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะศิลปกรรมศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Fine and Applied Arts",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Fine and Applied Arts"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9089",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะศิลปศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Liberal Arts",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Liberal Arts"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26390",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะศึกษาศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Education",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Education"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26391",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสงฆ์",
+    "alalc": "",
+    "meaning": "clergy, hierarchy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "clergy, hierarchy"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9087",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสถาปัตยกรรมศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Architecture",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Architecture"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9086",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสปอนดี",
+    "alalc": "",
+    "meaning": "spondee; spondaic foot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "spondee; spondaic foot"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9851",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสหเวชศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Allied Health Science",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Allied Health Science"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9085",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสังคมศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Social Sciences",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Social Sciences"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26392",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสังคมสงเคราะห์ศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Social Administration",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Social Administration"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26393",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสัตวแพทยศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Veterinary Science",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Veterinary Science"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9084",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะสำรวจ",
+    "alalc": "",
+    "meaning": "expedition",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "expedition"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9852",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะองคมนตรี",
+    "alalc": "",
+    "meaning": "Privy Council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Privy Council"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9853",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะองคมนตรี",
+    "alalc": "",
+    "meaning": "privy council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "privy council"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9083",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะอนุกรรมการ",
+    "alalc": "",
+    "meaning": "subcommittee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "subcommittee"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9854",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะอักษรศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Arts",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Arts"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9082",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะเจ้าหน้าที่บริหาร",
+    "alalc": "",
+    "meaning": "executive staff",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "executive staff"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9855",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะเจ้าหน้าที่ฝ่ายจัดการ",
+    "alalc": "",
+    "meaning": "managerial staff",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "managerial staff"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9856",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะเทศมนตรี",
+    "alalc": "khana thēsa montrī",
+    "meaning": "city council, municipal council.",
+    "ipa": "kʰa-ná tʰêe-sa mon-trii",
+    "pron_display": "kʰaˈnáʔ tʰêe.sa monˈtrii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "city council, municipal council."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3021",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณะเภสัชศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Pharmacy, Faculty of Pharmaceutical Science",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Pharmacy, Faculty of Pharmaceutical Science"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9041",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะเศรษฐศาสตร์",
+    "alalc": "",
+    "meaning": "Faculty of Economics",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Faculty of Economics"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9088",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะเสนาธิการร่วม",
+    "alalc": "",
+    "meaning": "Joint Chiefs of Staff",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Joint Chiefs of Staff"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9858",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะแด็กทิล",
+    "alalc": "",
+    "meaning": "dactyl; dactylic foot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dactyl; dactylic foot"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9859",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะแอนาเพสต์",
+    "alalc": "",
+    "meaning": "anapest; anapaest; anapestic foot; anapaestic foot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anapest; anapaest; anapestic foot; anapaestic foot"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9860",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะแอมฟิแบรก",
+    "alalc": "",
+    "meaning": "amphibrach",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "amphibrach"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9861",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะโทรคี",
+    "alalc": "",
+    "meaning": "trochee; trochaic foot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "trochee; trochaic foot"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9862",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะในมหาวิทยาลัย",
+    "alalc": "",
+    "meaning": "university college",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "university college"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9863",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณะไอแอมบ์",
+    "alalc": "",
+    "meaning": "iamb; iambic foot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "iamb; iambic foot"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9864",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณาจารย์",
+    "alalc": "kha nā yān",
+    "meaning": "staff of teachers, faculty of teachers",
+    "ipa": "kʰá naa jaan",
+    "pron_display": "kʰá naa jaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "staff of teachers, faculty of teachers"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9081",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณาธิการ",
+    "alalc": "kha nā thi kān",
+    "meaning": "council of clergy",
+    "ipa": "kʰá naa tʰí kaan",
+    "pron_display": "kʰá naa tʰí kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "council of clergy"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9080",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณาธิปไตย",
+    "alalc": "",
+    "meaning": "oligarchy",
+    "ipa": "kʰá naa tʰí pà tay, kʰá naa tʰíp pà tay",
+    "pron_display": "kʰá naa tʰí pà tay, kʰá naa tʰíp pà tay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "oligarchy"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9066",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณานับ",
+    "alalc": "",
+    "meaning": "count, calculate; reckon; compute",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "count, calculate; reckon; compute"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9078",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณิกา",
+    "alalc": "kha ni kā",
+    "meaning": "prostitute, whore",
+    "ipa": "kʰá ní kaa",
+    "pron_display": "kʰá ní kaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "prostitute, whore"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9093",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณิต",
+    "alalc": "khanit",
+    "meaning": "mathematics.",
+    "ipa": "kʰa-nít",
+    "pron_display": "kʰaˈnít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mathematics."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3023",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณิตกรณ์",
+    "alalc": "",
+    "meaning": "computer",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "computer"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9866",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณิตตรรกวิทยา",
+    "alalc": "",
+    "meaning": "mathematical logic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mathematical logic"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9867",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คณิตตรรกศาสตร์",
+    "alalc": "",
+    "meaning": "mathematical logic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mathematical logic"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9868",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "คณิตศาสตร์",
     "alalc": "khanitta sāt",
     "meaning": "mathematics.",
@@ -151019,7 +155583,131 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3024",
-    "source_query": "ศ.*",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คณิตศาสตร์คอมพิวเตอร์",
+    "alalc": "",
+    "meaning": "computer mathematics",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "computer mathematics"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9869",
+    "source_query": "คณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คด",
+    "alalc": "khot",
+    "meaning": "to bend.; to be crooked (literally).; to be dishonest, crooked.",
+    "ipa": "kʰót",
+    "pron_display": "ˈkʰót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to bend."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be crooked (literally)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dishonest, crooked."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3028",
+    "source_query": "คด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "คด",
+    "alalc": "khot",
+    "meaning": "to dip up, dish up (cooked rice).",
+    "ipa": "kʰót",
+    "pron_display": "ˈkʰót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to dip up, dish up (cooked rice)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3032",
+    "source_query": "คด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดกริช",
+    "alalc": "khot krit",
+    "meaning": "name of a decorative pattern",
+    "ipa": "kʰót krìt",
+    "pron_display": "kʰót krìt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "name of a decorative pattern"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9072",
+    "source_query": "คด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -151044,10 +155732,284 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3033",
-    "source_query": "ข้.*",
+    "source_query": "คด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "คดงอ",
+    "alalc": "khot ngǭ",
+    "meaning": "bend, curve; crook",
+    "ipa": "kʰót ŋɔɔ",
+    "pron_display": "kʰót ŋɔɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "bend, curve; crook"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9068",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดงอ",
+    "alalc": "khot ngǭ",
+    "meaning": "scolio-",
+    "ipa": "kʰót ŋɔɔ",
+    "pron_display": "kʰót ŋɔɔ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "scolio-"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9870",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดี",
+    "alalc": "khadī",
+    "meaning": "case, charge (legal).; story, account.; way, course.",
+    "ipa": "kʰa-dii",
+    "pron_display": "kʰaˈdii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "case, charge (legal)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "story, account."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "way, course."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3034",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดีขอเป็นผู้จัดการมรดก",
+    "alalc": "",
+    "meaning": "administration suit",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "administration suit"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9872",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีความ",
+    "alalc": "",
+    "meaning": "contentieux; lis; litigation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "contentieux; lis; litigation"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9873",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีความ",
+    "alalc": "",
+    "meaning": "lawsuit, case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lawsuit, case"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9092",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีความฉันมิตร",
+    "alalc": "",
+    "meaning": "friendly suit",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "friendly suit"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9874",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีค้างระหว่างพิจารณา",
+    "alalc": "",
+    "meaning": "pendente lite",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pendente lite"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9875",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีซึ่งอยู่ในระหว่างพิจารณา",
+    "alalc": "",
+    "meaning": "pendens lis; pending actions",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pendens lis; pending actions"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9876",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีซึ่งอยู่ในระหว่างอุทธรณ์",
+    "alalc": "",
+    "meaning": "pending appeal",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pending appeal"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9877",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "คดีดำ",
@@ -151077,6 +156039,739 @@
     "status": "tentative"
   },
   {
+    "thai": "คดีตัวอย่าง",
+    "alalc": "",
+    "meaning": "test action; test case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "test action; test case"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9878",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่ค้างพิจารณาอยู่ในศาล",
+    "alalc": "",
+    "meaning": "case pending in court",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "case pending in court"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9879",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่ตัดสินเสร็จเด็ดขาดแล้ว",
+    "alalc": "",
+    "meaning": "chose jug�e",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chose jug�e"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9880",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่ฟ้องเพื่อกลั่นแกล้ง",
+    "alalc": "",
+    "meaning": "vexatious action",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "vexatious action"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9881",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่มีข้อพิพาท",
+    "alalc": "",
+    "meaning": "justiciable controversy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "justiciable controversy"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9882",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่สมมุติข้อเท็จจริง",
+    "alalc": "",
+    "meaning": "collusive action (เพื่อให้ศาลวินิจฉัยข้อกฎหมาย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "collusive action (เพื่อให้ศาลวินิจฉัยข้อกฎหมาย)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9883",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่อยู่ระหว่างการพิจารณา",
+    "alalc": "",
+    "meaning": "lis pendens",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lis pendens"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9884",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่อยู่ระหว่างการพิจารณาของศาลอื่น",
+    "alalc": "",
+    "meaning": "lis abili pendens",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lis abili pendens"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9885",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่ไม่มีข้อพิพาท",
+    "alalc": "",
+    "meaning": "non contentious case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "non contentious case"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9886",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีที่ไม่ระงับไปเพราะการตายของผู้เสียหาย",
+    "alalc": "",
+    "meaning": "survival actions",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "survival actions"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9887",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีบรรทัดฐาน",
+    "alalc": "",
+    "meaning": "leading case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "leading case"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9888",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องขอให้รับเด็กเป็นบุตร",
+    "alalc": "",
+    "meaning": "action for legitimation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action for legitimation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9889",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องขอให้เพิกถอน",
+    "alalc": "",
+    "meaning": "action for cancellation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action for cancellation"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9890",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องว่ากระทำการละเมิด",
+    "alalc": "",
+    "meaning": "action ex delicto",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action ex delicto"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9891",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องว่ากระทำผิดสัญญา",
+    "alalc": "",
+    "meaning": "action ex contractu",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action ex contractu"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9892",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องเกี่ยวกับสิทธิเหนือบุคคล",
+    "alalc": "",
+    "meaning": "action in personam",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action in personam"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9893",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องเกี่ยวกับหนี้เหนือบุคคล",
+    "alalc": "",
+    "meaning": "personal action",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "personal action"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9894",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องให้รับผิด",
+    "alalc": "",
+    "meaning": "action for liability",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action for liability"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9895",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องไม่รับเด็กเป็นบุตร",
+    "alalc": "",
+    "meaning": "action for repudiation of a child",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action for repudiation of a child"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9896",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีฟ้องไล่เบี้ย",
+    "alalc": "",
+    "meaning": "action for recourse",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action for recourse"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9897",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีมีข้อพิพาท",
+    "alalc": "",
+    "meaning": "contentious case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "contentious case"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9898",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีมีมูล",
+    "alalc": "",
+    "meaning": "prima facie case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "prima facie case"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9899",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีมโนสาเร่",
+    "alalc": "kha dī ma nō sā rē",
+    "meaning": "petty case",
+    "ipa": "kʰá dii má noo sǎa rêe",
+    "pron_display": "kʰá dii má noo sǎa rêe",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "petty case"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3652",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดียักยอกทรัพย์สินหายที่เก็บได้",
+    "alalc": "",
+    "meaning": "trover",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "trover"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9901",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีระหว่างอุทธรณ์",
+    "alalc": "",
+    "meaning": "case on appeal",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "case on appeal"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9902",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีลอบสังหาร",
+    "alalc": "",
+    "meaning": "assassination, killing",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "assassination, killing"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3280",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีศึกษา",
+    "alalc": "",
+    "meaning": "case study",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "case study"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9903",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีอนาถา",
+    "alalc": "kha dī a nā thā",
+    "meaning": "pauper's lawsuits",
+    "ipa": "kʰá dii à naa tʰǎa",
+    "pron_display": "kʰá dii à naa tʰǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pauper's lawsuits"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9014",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดีอาญา",
+    "alalc": "khadī āyā",
+    "meaning": "criminal case.",
+    "ipa": "kʰa-dii aa-yaa",
+    "pron_display": "kʰaˈdii aaˈyaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "criminal case."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3035",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "คดีอุกฉกรรจ์",
     "alalc": "khadī uk chakan",
     "meaning": "a serious offense, a serious case.",
@@ -151100,6 +156795,352 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "คดีเกี่ยวกับการพิสูจน์พินัยกรรม",
+    "alalc": "",
+    "meaning": "probate action",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "probate action"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9906",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีเกี่ยวกับผู้เข้าช่วยให้พ้นภัย",
+    "alalc": "",
+    "meaning": "rescue cases",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "rescue cases"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9907",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีเกี่ยวกับสิทธิเหนือทรัพย์สิน",
+    "alalc": "",
+    "meaning": "action in rem",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "action in rem"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9908",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีแดง",
+    "alalc": "kha dī dǣng",
+    "meaning": "decided case",
+    "ipa": "kʰá dii dɛɛŋ",
+    "pron_display": "kʰá dii dɛɛŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "decided case"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9017",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดีแพ่ง",
+    "alalc": "kha dī phǣng",
+    "meaning": "civil case",
+    "ipa": "kʰá dii pʰɛ̂ɛŋ",
+    "pron_display": "kʰá dii pʰɛ̂ɛŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "civil case"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9016",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดีแพ่งที่เกี่ยวเนื่องกับคดีอาญา",
+    "alalc": "",
+    "meaning": "civil and penal actions; penal actions",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "civil and penal actions; penal actions"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9910",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีโลก",
+    "alalc": "",
+    "meaning": "the affairs of the world",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the affairs of the world"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9015",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดีในศาล",
+    "alalc": "",
+    "meaning": "lawsuit",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lawsuit"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9911",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดเคี้ยว",
+    "alalc": "khot khiaw",
+    "meaning": "to be winding (as of a road).",
+    "ipa": "kʰót kʰíaw",
+    "pron_display": "kʰót ˈkʰíaw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be winding (as of a road)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3029",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดโกง",
+    "alalc": "khot kōng",
+    "meaning": "swindle, cheat; defraud",
+    "ipa": "kʰót kooŋ",
+    "pron_display": "kʰót kooŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "swindle, cheat; defraud"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9071",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คดโค้ง",
+    "alalc": "",
+    "meaning": "sigmoid",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sigmoid"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9913",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดไปคดมา",
+    "alalc": "",
+    "meaning": "wind, meander; zigzag; bend; snake; curve; meandering, winding; zigzaging; tortuous",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "wind, meander; zigzag; bend; snake; curve"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "meandering, winding; zigzaging; tortuous"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9722",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "คดไปมา",
+    "alalc": "",
+    "meaning": "flexuous",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "flexuous"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:9914",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "คติธรรม",
@@ -153395,6 +159436,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ความคงทน",
+    "alalc": "",
+    "meaning": "durability, enduringness; bearableness",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "durability, enduringness; bearableness"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26530",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ความงมงาย",
     "alalc": "",
     "meaning": "credulity, blind faith; blind worship; gullibility",
@@ -153961,6 +160029,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ความมั่นคง",
+    "alalc": "",
+    "meaning": "stability, durability; endurance",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "stability, durability; endurance"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9727",
+    "source_query": "คง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ความยากจน",
     "alalc": "",
     "meaning": "poverty, beggary; impoverishment",
@@ -154232,6 +160327,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14421",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ความไม่มั่นคง",
+    "alalc": "khwām may man khong",
+    "meaning": "instability, unsteadiness, insecurity.",
+    "ipa": "kʰwaam mây mân kʰoŋ",
+    "pron_display": "ˈkʰwaam mây mân ˈkʰoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "instability, unsteadiness, insecurity."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14422",
+    "source_query": "คง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -155828,6 +161950,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3716",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "คิดคด",
+    "alalc": "khit khot",
+    "meaning": "to plan to betray.",
+    "ipa": "kʰít kʰót",
+    "pron_display": "kʰít ˈkʰót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to plan to betray."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3030",
+    "source_query": "คด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -188540,7 +194689,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3020",
-    "source_query": "จ.*",
+    "source_query": "คณ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -204556,6 +210705,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:577",
     "source_query": "กร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชาวคณะ",
+    "alalc": "chāw khana",
+    "meaning": "members of a group, of an association.",
+    "ipa": "cʰaaw kʰa-ná",
+    "pron_display": "cʰaaw kʰaˈnáʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "members of a group, of an association."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5821",
+    "source_query": "คณ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -250901,6 +257077,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ต้องคดี",
+    "alalc": "tǫng khadī",
+    "meaning": "to be accused, be under accusation or prosecution.",
+    "ipa": "tɔ̂ŋ kʰa-dii",
+    "pron_display": "ˈtɔ̂ŋ kʰaˈdii",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be accused, be under accusation or prosecution."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3036",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ต้องด้วย",
     "alalc": "tǫng duay",
     "meaning": "to conform to, concur with.",
@@ -280557,6 +286760,33 @@
     "status": "tentative"
   },
   {
+    "thai": "นักโบราณคดี",
+    "alalc": "nak bōrānna khadī",
+    "meaning": "archeologist.",
+    "ipa": "nák boo-raan-na kʰa-dii",
+    "pron_display": "ˈnák booˈraan.na kʰaˈdii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "archeologist."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9701",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นัดบอด",
     "alalc": "",
     "meaning": "blind date",
@@ -300554,7 +306784,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10519",
-    "source_query": "บ.*",
+    "source_query": "คด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -338178,6 +344408,33 @@
     "status": "tentative"
   },
   {
+    "thai": "พิชคณิต",
+    "alalc": "phitcha khanit",
+    "meaning": "algebra.",
+    "ipa": "pʰít-cʰa kʰa-nít",
+    "pron_display": "ˈpʰít.cʰa kʰaˈnít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "algebra."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3025",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "พิธีกร",
     "alalc": "phi thī kǭn",
     "meaning": "master of ceremonies, ritualist; host",
@@ -338539,6 +344796,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "พีชคณิต",
+    "alalc": "phī cha kha nit",
+    "meaning": "algebra",
+    "ipa": "pʰii cʰá kʰá nít",
+    "pron_display": "pʰii cʰá kʰá nít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "algebra"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:12448",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "พี่น้องท้องเดียวกัน",
@@ -386021,6 +392305,33 @@
     "status": "tentative"
   },
   {
+    "thai": "มั่นคง",
+    "alalc": "man khong",
+    "meaning": "to be steadfast, stable, firm (as in purpose), secure.",
+    "ipa": "mân kʰoŋ",
+    "pron_display": "mân ˈkʰoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be steadfast, stable, firm (as in purpose), secure."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3009",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "มั่นใจ",
     "alalc": "man yay",
     "meaning": "to be sure, confident, positive, certain.",
@@ -416297,6 +422608,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ราชาคณะ",
+    "alalc": "rā chā kha na",
+    "meaning": "a high ecclesiastical dignitary, a high Buddhist ecclesiastical dignitary; high dignitary monk",
+    "ipa": "raa cʰaa kʰá ná",
+    "pron_display": "raa cʰaa kʰá ná",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a high ecclesiastical dignitary, a high Buddhist ecclesiastical dignitary; high dignitary monk"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21576",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ราชาภิเษก",
     "alalc": "rā chā phi sēk",
     "meaning": "coronation, ceremony for the coronation of the king",
@@ -417175,6 +423513,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:21429",
     "source_query": "กร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รูปคดี",
+    "alalc": "",
+    "meaning": "case",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "case"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:547",
+    "source_query": "คด.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -426304,7 +432669,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:16600",
-    "source_query": "ว.*",
+    "source_query": "คณ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -463889,7 +470254,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:3610",
-    "source_query": "ศ.*",
+    "source_query": "คด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -476423,6 +482788,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "สารคดี",
+    "alalc": "sāra khadī",
+    "meaning": "(written) article, account (non-fiction).",
+    "ipa": "sǎa-ra kʰa-dii",
+    "pron_display": "ˈsǎa.ra kʰaˈdii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(written) article, account (non-fiction)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3038",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สารภาพบาป",
     "alalc": "",
     "meaning": "confess for a sin, accept a sin",
@@ -477951,7 +484343,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:17778",
-    "source_query": "จ.*",
+    "source_query": "คณ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -498842,6 +505234,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เงินคงคลัง",
+    "alalc": "ngœn khong khlang",
+    "meaning": "treasury reserves.",
+    "ipa": "ŋən kʰoŋ kʰlaŋ",
+    "pron_display": "ˈŋən kʰoŋ ˈkʰlaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "treasury reserves."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3008",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เงินดาวน์",
     "alalc": "ngœ̄n dāw",
     "meaning": "down payment, part payment; deposit",
@@ -500154,6 +506573,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:19183",
     "source_query": "ข้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เจ้าคณะ",
+    "alalc": "yāw khana",
+    "meaning": "a Buddhist priest who is head of all priests in a certain defined area (e.g. in a changwat).",
+    "ipa": "jâaw kʰa-ná",
+    "pron_display": "jâaw kʰaˈnáʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a Buddhist priest who is head of all priests in a certain defined area (e.g. in a changwat)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4962",
+    "source_query": "คณ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -510615,6 +517061,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เลขคณิต",
+    "alalc": "lēk khanit",
+    "meaning": "arithmetic.",
+    "ipa": "lêek kʰa-nít",
+    "pron_display": "ˌlêek kʰaˈnít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "arithmetic."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3027",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เลขยกกำลัง",
     "alalc": "",
     "meaning": "logarithm",
@@ -515196,6 +521669,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เหลือคณนา",
+    "alalc": "lưa khananā",
+    "meaning": "to be innumerable, immeasurable, countless.",
+    "ipa": "lʉ̌a kʰa-na-naa",
+    "pron_display": "ˈlʉ̌a kʰa.naˈnaa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be innumerable, immeasurable, countless."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18813",
+    "source_query": "คณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เหลืองจ้า",
     "alalc": "lưang yā",
     "meaning": "to be bright yellow.",
@@ -517477,6 +523977,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "แก้คดี",
+    "alalc": "",
+    "meaning": "defend, put up a plea; plead for",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "defend, put up a plea; plead for"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4652",
+    "source_query": "คด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "แก้บน",
@@ -521311,6 +527838,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แม่คงคา",
+    "alalc": "mǣ khongkhā",
+    "meaning": "the goddess of the waters.",
+    "ipa": "mɛ̂ɛ kʰoŋ-kʰaa",
+    "pron_display": "mɛ̂ɛ kʰoŋˈkʰaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the goddess of the waters."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3013",
+    "source_query": "คง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แม่ซื้อ",
     "alalc": "mǣ sư̄",
     "meaning": "guardian spirit of a new born baby, guardian goddess of infants",
@@ -521396,6 +527950,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14387",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แม่น้ำคงคา",
+    "alalc": "mǣ nām khongkhā",
+    "meaning": "the Ganges River.",
+    "ipa": "mɛ̂ɛ náam kʰoŋ-kʰaa",
+    "pron_display": "mɛ̂ɛ náam kʰoŋˈkʰaa",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "the Ganges River."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3014",
+    "source_query": "คง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -524691,6 +531272,38 @@
     "status": "tentative"
   },
   {
+    "thai": "โบราณคดี",
+    "alalc": "bōrānna khadī",
+    "meaning": "account of antiquities.; archeology.",
+    "ipa": "boo-raan-na kʰa-dii",
+    "pron_display": "booˈraan.na kʰaˈdii",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "account of antiquities."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "archeology."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10921",
+    "source_query": "คด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "โบราณคดีวิทยา",
     "alalc": "bōrānna khadī witthayā",
     "meaning": "archeology.",
@@ -527664,7 +534277,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3031",
-    "source_query": "ใ.*",
+    "source_query": "คด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -549368,6 +555981,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:21687",
     "source_query": "ฟ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไม่มั่นคง",
+    "alalc": "may man khong",
+    "meaning": "to be unsteady, unstable, unsecure.",
+    "ipa": "mây mân kʰoŋ",
+    "pron_display": "mây mân ˈkʰoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be unsteady, unstable, unsecure."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14457",
+    "source_query": "คง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
