@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 25254,
+    "unique_lexical_records": 25390,
     "sample_size": 150,
     "counts": {
-      "neither": 81,
-      "pronunciation_only": 64,
+      "neither": 80,
+      "pronunciation_only": 65,
       "disagreement": 1,
       "agreement": 3,
       "spelling_only": 1
@@ -938,6 +938,17 @@
       "pos": ""
     },
     {
+      "thai": "มหาชน",
+      "source_id": "TDP:13885",
+      "pronunciation": "ma-hǎa cʰon",
+      "meaning": "the public, the majority of people.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "mahā chon",
+      "comparison": "pronunciation_only",
+      "web_rank": "2",
+      "pos": "N"
+    },
+    {
       "thai": "วัตถุที่มีรูปร่าง",
       "source_id": "RI:25032",
       "pronunciation": "",
@@ -1646,17 +1657,6 @@
       "source_id": "RI:24869",
       "pronunciation": "",
       "meaning": "heat collector loop",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "พิสัยระหว่างส่วนที่ ๑ กับส่วนที่ ๓",
-      "source_id": "RI:20137",
-      "pronunciation": "",
-      "meaning": "interquartile range (ใน ๔ ส่วน)",
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",

@@ -52170,7 +52170,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5395",
-    "source_query": "กล.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -70941,7 +70941,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1034",
-    "source_query": "กั.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -74678,10 +74678,37 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5392",
-    "source_query": "กั.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "การชลประทาน",
+    "alalc": "",
+    "meaning": "irrigation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "irrigation"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25968",
+    "source_query": "ชล.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "การตรึง  (อวัยวะ)  กับผนังหน้าท้อง",
@@ -157678,7 +157705,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:31836",
-    "source_query": "คต.*",
+    "source_query": "ชน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -179842,7 +179869,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3347",
-    "source_query": "ถ.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -247204,6 +247231,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "คำชมเชย",
+    "alalc": "kham chom chœ̄y",
+    "meaning": "appreciation, eulogy; praise; good opinion; favourable comment; admiring words",
+    "ipa": "ˈkʰam cʰom ˈcʰəəy",
+    "pron_display": "ˈkʰam cʰom ˈcʰəəy",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "appreciation, eulogy; praise; good opinion; favourable comment; admiring words"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9567",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "คำชวน",
     "alalc": "",
     "meaning": "invitation, persuasion; bid; inducement",
@@ -270919,7 +270973,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3572",
-    "source_query": "ค่.*",
+    "source_query": "ชด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -301946,6 +302000,33 @@
     "status": "tentative"
   },
   {
+    "thai": "จารชน",
+    "alalc": "yāra chon",
+    "meaning": "secret agent, spy, intelligence officer.",
+    "ipa": "jaa-ra cʰon",
+    "pron_display": "jaa.ra ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "secret agent, spy, intelligence officer."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4728",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "จารบี",
     "alalc": "",
     "meaning": "grease",
@@ -311070,7 +311151,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:27093",
-    "source_query": "จ.*",
+    "source_query": "ชน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -323636,6 +323717,105 @@
     "status": "tentative"
   },
   {
+    "thai": "ชฎา",
+    "alalc": "chadā",
+    "meaning": "theatrical high-pinnacled headdress or crown (worn by an actor or actress).; woman's hairdo of similar shape.",
+    "ipa": "cʰa-daa",
+    "pron_display": "cʰaˈdaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "theatrical high-pinnacled headdress or crown (worn by an actor or actress)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "woman's hairdo of similar shape."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5384",
+    "source_query": "ชฎ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชด",
+    "alalc": "chot",
+    "meaning": "to replace what is lost, to compensate.; to be graceful.",
+    "ipa": "cʰót",
+    "pron_display": "ˈcʰót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to replace what is lost, to compensate."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be graceful."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5385",
+    "source_query": "ชด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชดเชย",
+    "alalc": "chot chœ̄y",
+    "meaning": "to replace what is lost, to compensate.",
+    "ipa": "cʰót cʰəəy",
+    "pron_display": "cʰót ˈcʰəəy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to replace what is lost, to compensate."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5387",
+    "source_query": "ชด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ชดใช้",
     "alalc": "chot chay",
     "meaning": "to reimburse, repay, pay (for amount of loss or damage).",
@@ -323657,10 +323837,193 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5388",
-    "source_query": "ใ.*",
+    "source_query": "ชด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ชดใช้ให้",
+    "alalc": "",
+    "meaning": "reimburse",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "reimburse"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12974",
+    "source_query": "ชด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชตา",
+    "alalc": "chatā",
+    "meaning": "ชะตา.",
+    "ipa": "cʰa-taa",
+    "pron_display": "cʰaˈtaa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ชะตา."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5389",
+    "source_query": "ชต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชน",
+    "alalc": "chon",
+    "meaning": "person, people.",
+    "ipa": "cʰon",
+    "pron_display": "ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "person, people."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5394",
+    "source_query": "ชน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชน",
+    "alalc": "chon",
+    "meaning": "to collide, bump into, run into, butt, hit.; to fight (of certain animals, especially cocks, bulls).; to pit (e.g. cocks against each other).; to complete (a round or cycle).",
+    "ipa": "cʰon",
+    "pron_display": "ˈcʰon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to collide, bump into, run into, butt, hit."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fight (of certain animals, especially cocks, bulls)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pit (e.g. cocks against each other)."
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to complete (a round or cycle)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5390",
+    "source_query": "ชน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนก",
+    "alalc": "",
+    "meaning": "father, dad",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "father, dad"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22478",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนกรรมาชีพ",
+    "alalc": "",
+    "meaning": "proletariat",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "proletariat"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12976",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ชนกลุ่มน้อย",
@@ -323684,7 +324047,134 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22479",
-    "source_query": "กล.*",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนกลุ่มน้อยทางชาติพันธุ์",
+    "alalc": "",
+    "meaning": "ethnic minority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ethnic minority"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12978",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนกลุ่มน้อยทางภาษา",
+    "alalc": "",
+    "meaning": "linguistic minority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "linguistic minority"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12979",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนกลุ่มน้อยทางศาสนา",
+    "alalc": "",
+    "meaning": "religious minority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "religious minority"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12980",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนกลุ่มน้อยทางเชื้อชาติ",
+    "alalc": "",
+    "meaning": "national minority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "national minority"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12981",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้น",
+    "alalc": "",
+    "meaning": "class, type; group",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "class, type; group"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22482",
+    "source_query": "ชน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -323717,6 +324207,56 @@
     "status": "unresolved"
   },
   {
+    "thai": "ชนชั้นกระฎุมพี",
+    "alalc": "",
+    "meaning": "bourgeoisie; petty bourgeoisie",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "bourgeoisie; petty bourgeoisie"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12982",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นกลาง",
+    "alalc": "",
+    "meaning": "bourgeoisie; bourgeois; middle class",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "bourgeoisie; bourgeois; middle class"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12983",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ชนชั้นกลาง",
     "alalc": "",
     "meaning": "middle class",
@@ -323738,7 +324278,375 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22483",
-    "source_query": "กล.*",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นขุนนาง",
+    "alalc": "",
+    "meaning": "nobility",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nobility"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12984",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นต่ำ",
+    "alalc": "",
+    "meaning": "low class",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "low class"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22484",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นนายทุนน้อย",
+    "alalc": "",
+    "meaning": "petty bourgeoisie",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "petty bourgeoisie"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12985",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นนายทุนใหญ่",
+    "alalc": "",
+    "meaning": "grand bourgeoisie; large scale bourgeoisie",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "grand bourgeoisie; large scale bourgeoisie"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12986",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นนำ",
+    "alalc": "",
+    "meaning": "high society",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "high society"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3359",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นล่าง",
+    "alalc": "",
+    "meaning": "working class, lower level; labourer",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "working class, lower level; labourer"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3360",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชั้นสูง",
+    "alalc": "",
+    "meaning": "upper class, aristocracy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "upper class, aristocracy"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22485",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชาติ",
+    "alalc": "",
+    "meaning": "national",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "national"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12987",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชาติ",
+    "alalc": "",
+    "meaning": "nationality",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nationality"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27202",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชาติส่วนน้อย",
+    "alalc": "",
+    "meaning": "national minority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "national minority"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12988",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนชาติไทย",
+    "alalc": "chon chāt thay",
+    "meaning": "people of Thai nationality.",
+    "ipa": "cʰon cʰâat tʰay",
+    "pron_display": "cʰon cʰâat ˈtʰay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "people of Thai nationality."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5396",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนชาวอังกฤษ",
+    "alalc": "chon chāw angkrit",
+    "meaning": "the British people, Englishmen.",
+    "ipa": "cʰon cʰaaw aŋ-krìt",
+    "pron_display": "cʰon ˈcʰaaw aŋˈkrìt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the British people, Englishmen."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5397",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนช้าง",
+    "alalc": "chon chāng",
+    "meaning": "to fight on elephant back. Both rider and elephant engage in combat.",
+    "ipa": "cʰon cʰáaŋ",
+    "pron_display": "cʰon ˈcʰáaŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fight on elephant back. Both rider and elephant engage in combat."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5393",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนตอ",
+    "alalc": "",
+    "meaning": "have difficulty, run into difficulty; be in difficulty",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "have difficulty, run into difficulty; be in difficulty"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:923",
+    "source_query": "ชน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -323765,7 +324673,366 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5398",
-    "source_query": "ด.*",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนนี",
+    "alalc": "chon na nī",
+    "meaning": "mother, mother of a king or queen",
+    "ipa": "cʰon ná nii",
+    "pron_display": "cʰon ná nii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mother, mother of a king or queen"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30824",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนบทพรรณนา",
+    "alalc": "",
+    "meaning": "idyl; idyll",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "idyl; idyll"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12990",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนปี",
+    "alalc": "",
+    "meaning": "come to a full year",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "come to a full year"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27203",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนพื้นเมือง",
+    "alalc": "",
+    "meaning": "aborigine, native; primitive; inhabitant; indigenous person",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "aborigine, native; primitive; inhabitant; indigenous person"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27204",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนพื้นเมืองดั้งเดิม",
+    "alalc": "",
+    "meaning": "aborigine",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "aborigine"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12991",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนม-",
+    "alalc": "chon",
+    "meaning": "\"birth; life;\" sometimes used in literary or royal words.",
+    "ipa": "cʰon",
+    "pron_display": "ˈcʰon",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "\"birth; life;\" sometimes used in literary or royal words."
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5401",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนมพรรษา",
+    "alalc": "chon ma phan sā",
+    "meaning": "age, year of birth",
+    "ipa": "cʰon má pʰan sǎa",
+    "pron_display": "cʰon má pʰan sǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "age, year of birth"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27206",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนม์",
+    "alalc": "",
+    "meaning": "birth",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "birth"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27205",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนร่อนเร่",
+    "alalc": "",
+    "meaning": "nomad; nomade",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nomad; nomade"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12992",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนวน",
+    "alalc": "chanuan",
+    "meaning": "slate (แผ่น).; fuse, primer (เส้น, สาย).",
+    "ipa": "cʰa-nuan",
+    "pron_display": "cʰaˈnuan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "slate (แผ่น)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fuse, primer (เส้น, สาย)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5404",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนวนเหตุ",
+    "alalc": "",
+    "meaning": "immediate cause; precipitating cause",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "immediate cause; precipitating cause"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12993",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนหมู่น้อย",
+    "alalc": "chon mū nǭy",
+    "meaning": "minority",
+    "ipa": "cʰon mùu nɔ́ɔy",
+    "pron_display": "cʰon mùu nɔ́ɔy",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "minority"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27208",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนะ",
+    "alalc": "chana",
+    "meaning": "to win, win out.; do defeat, beat, conquer, overcome.",
+    "ipa": "cʰa-ná",
+    "pron_display": "cʰaˈnáʔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to win, win out."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "do defeat, beat, conquer, overcome."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5407",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -323792,10 +325059,123 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:2103",
-    "source_query": "ขา.*",
+    "source_query": "ชน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ชนะครั้งใหญ่",
+    "alalc": "chana khrang yay",
+    "meaning": "a great victory.",
+    "ipa": "cʰa-ná kʰráŋ yày",
+    "pron_display": "cʰaˈnáʔ kʰráŋ ˈyày",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "a great victory."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3145",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนะประวัติการณ์",
+    "alalc": "chana prawat kān",
+    "meaning": "to break the record.",
+    "ipa": "cʰa-ná pra-wàt kaan",
+    "pron_display": "cʰaˈnáʔ praˈwàt ˈkaan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to break the record."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11232",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนะสงคราม",
+    "alalc": "",
+    "meaning": "defeat the war, conquer",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "defeat the war, conquer"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27209",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนะเลิศ",
+    "alalc": "chana lœ̄t",
+    "meaning": "to win the championship.; championship.",
+    "ipa": "cʰa-ná lə̂ət",
+    "pron_display": "cʰaˈnáʔ ˈlə̂ət",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to win the championship."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "championship."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16420",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ชนะใจ",
@@ -323819,7 +325199,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5408",
-    "source_query": "ใ.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -323844,7 +325224,1059 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5409",
-    "source_query": "ใ.*",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนะไหนเข้าด้วย",
+    "alalc": "",
+    "meaning": "climbing aboard the band wagon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "climbing aboard the band wagon"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12994",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนัก",
+    "alalc": "cha nak",
+    "meaning": "harpoon, spear on a rope thrown by hand for catching animals; spear",
+    "ipa": "cʰá nák",
+    "pron_display": "cʰá nák",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "harpoon, spear on a rope thrown by hand for catching animals; spear"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27210",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนิด",
+    "alalc": "chanit",
+    "meaning": "kind, type, variety, description, sort, species.",
+    "ipa": "cʰa-nít",
+    "pron_display": "cʰaˈnít",
+    "pos": "C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "kind, type, variety, description, sort, species."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5412",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนิดดึกดำบรรพ์",
+    "alalc": "",
+    "meaning": "bradytelic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "bradytelic"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12996",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนิดทางชีวภาพ",
+    "alalc": "",
+    "meaning": "biological species",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "biological species"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12997",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนิดทางนิเวศน์",
+    "alalc": "",
+    "meaning": "coenospecies",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "coenospecies"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12998",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนิดย่อย",
+    "alalc": "",
+    "meaning": "subspecies",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "subspecies"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:12999",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนิดเดียวกัน",
+    "alalc": "",
+    "meaning": "conspecific",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "conspecific"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13000",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนิดเม็ด",
+    "alalc": "",
+    "meaning": "tablet, pill type",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tablet, pill type"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27212",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนิดเลิศ",
+    "alalc": "chanit lœ̄t",
+    "meaning": "of the best quality.",
+    "ipa": "cʰa-nít lə̂ət",
+    "pron_display": "cʰaˈnít ˈlə̂ət",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "of the best quality."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16421",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนแก้ว",
+    "alalc": "",
+    "meaning": "give a toast, clink glasses",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "give a toast, clink glasses"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22480",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชนในบังคับอังกฤษ",
+    "alalc": "chon nay bangkhap angkrit",
+    "meaning": "British subjects; people under British rule.",
+    "ipa": "cʰon nay baŋ-kʰáp aŋ-krìt",
+    "pron_display": "ˈcʰon nay baŋˈkʰáp aŋˈkrìt",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "British subjects; people under British rule."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10461",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชนไก่",
+    "alalc": "chon kay",
+    "meaning": "cockfight (บ่อน in reference to the place; หน, ครั้ง in reference to time, occasion).; to have a cockfight.",
+    "ipa": "cʰon kày",
+    "pron_display": "cʰon ˈkày",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cockfight (บ่อน in reference to the place; หน, ครั้ง in reference to time, occasion)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to have a cockfight."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1924",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชบา",
+    "alalc": "chabā",
+    "meaning": "hibiscus (the flower).",
+    "ipa": "cʰa-baa",
+    "pron_display": "cʰaˈbaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hibiscus (the flower)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5414",
+    "source_query": "ชบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชม",
+    "alalc": "chom",
+    "meaning": "to admire, look at with pleasure.; to praise.; to look at, view.",
+    "ipa": "cʰom",
+    "pron_display": "ˈcʰom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to admire, look at with pleasure."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to praise."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to look at, view."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5415",
+    "source_query": "ชม.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชม (...) เปาะ",
+    "alalc": "chomparen pǫ",
+    "meaning": "to praise again and again.",
+    "ipa": "cʰomparen pɔ̀",
+    "pron_display": "ˈcʰom  (...)  ˈpɔ̀ʔ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to praise again and again."
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5421",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชม.",
+    "alalc": "chom",
+    "meaning": "hour",
+    "ipa": "ˈcʰom",
+    "pron_display": "ˈcʰom",
+    "pos": "CLAS",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "CLAS"
+        ],
+        "definitions": [
+          "hour"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1312",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมชอบ",
+    "alalc": "",
+    "meaning": "like; applaud",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "like"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "applaud"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27215",
+    "source_query": "ชม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชมชื่น",
+    "alalc": "chom chư̄n",
+    "meaning": "to admire, be delighted (with), pleased (with).",
+    "ipa": "cʰom cʰʉ̂ʉn",
+    "pron_display": "cʰom ˈcʰʉ̂ʉn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to admire, be delighted (with), pleased (with)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5416",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมด",
+    "alalc": "chamot",
+    "meaning": "Undefined. (rhyme? found in ชมดชม้อย.  Related to ชด \"to be graceful\".  CLUSTER oo-OO admirable)",
+    "ipa": "cʰa-mót",
+    "pron_display": "cʰaˈmót",
+    "pos": "sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "Undefined. (rhyme? found in ชมดชม้อย.  Related to ชด \"to be graceful\".  CLUSTER oo-OO admirable)"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5425",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมดชม้อย",
+    "alalc": "chamot chamǭy",
+    "meaning": "attractively shy in manner (of a woman).",
+    "ipa": "cʰa-mót cʰa-mɔ́ɔy",
+    "pron_display": "cʰaˈmót cʰaˈmɔ́ɔy",
+    "pos": "sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "attractively shy in manner (of a woman)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5431",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมนกชมไม้",
+    "alalc": "chom nok chom māy",
+    "meaning": "to admire the scenery, enjoy the beauty of nature.",
+    "ipa": "cʰom nók cʰom máay",
+    "pron_display": "cʰom ˈnók cʰom ˈmáay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to admire the scenery, enjoy the beauty of nature."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5420",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมพู",
+    "alalc": "chomphū",
+    "meaning": "pink; short for สี-- when สี is implicit in the context.",
+    "ipa": "cʰom-pʰuu",
+    "pron_display": "cʰomˈpʰuu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pink; short for สี-- when สี is implicit in the context."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5426",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมพูทวีป",
+    "alalc": "chom phū tha wīp",
+    "meaning": "India",
+    "ipa": "cʰom pʰuu tʰá wîip",
+    "pron_display": "cʰom pʰuu tʰá wîip",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "India"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27221",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมพูนุท",
+    "alalc": "",
+    "meaning": "pure gold",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pure gold"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27222",
+    "source_query": "ชม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชมพู่",
+    "alalc": "chomphū",
+    "meaning": "rose-apple (the fruit).",
+    "ipa": "cʰom-pʰûu",
+    "pron_display": "cʰomˈpʰûu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rose-apple (the fruit)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5428",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมรม",
+    "alalc": "chomrom",
+    "meaning": "gathering, party (of people) (ชมรม).; meeting-place (แห่ง).",
+    "ipa": "cʰom-rom",
+    "pron_display": "cʰomˈrom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gathering, party (of people) (ชมรม)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "meeting-place (แห่ง)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5429",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมรมการเมือง",
+    "alalc": "",
+    "meaning": "political club",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "political club"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13001",
+    "source_query": "ชม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชมรมความคุ้มครองและการชดใช้",
+    "alalc": "",
+    "meaning": "Protection and Indemnity Club (ชมรมพีแอนด์ไอ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Protection and Indemnity Club (ชมรมพีแอนด์ไอ)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13002",
+    "source_query": "ชม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชมรมประกันภัยกันและกัน",
+    "alalc": "",
+    "meaning": "reciprocal exchange",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "reciprocal exchange"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13003",
+    "source_query": "ชม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชมรมพีแอนด์ไอ",
+    "alalc": "",
+    "meaning": "Protection and Indemnity Club (ชมรมความคุ้มครองและการชดใช้)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Protection and Indemnity Club (ชมรมความคุ้มครองและการชดใช้)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13004",
+    "source_query": "ชม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชมเชย",
+    "alalc": "chom chœ̄y",
+    "meaning": "to admire, praise, compliment.",
+    "ipa": "cʰom cʰəəy",
+    "pron_display": "cʰom ˈcʰəəy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to admire, praise, compliment."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5417",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชมเปาะ",
+    "alalc": "chom pǫ",
+    "meaning": "be profuse in praise, be full of praise; express profuse admiration",
+    "ipa": "cʰom pɔ̀",
+    "pron_display": "cʰom pɔ̀",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be profuse in praise, be full of praise; express profuse admiration"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27218",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชม้อย",
+    "alalc": "chamǭy",
+    "meaning": "to look down or away coyly, shyly, bashfully (of a woman).",
+    "ipa": "cʰa-mɔ́ɔy",
+    "pron_display": "cʰaˈmɔ́ɔy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to look down or away coyly, shyly, bashfully (of a woman)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5430",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชม้อยชม้าย",
+    "alalc": "chamǭy chamāy",
+    "meaning": "to look down and glance back again in a shyly flirtatious manner.",
+    "ipa": "cʰa-mɔ́ɔy cʰa-máay",
+    "pron_display": "cʰaˈmɔ́ɔy cʰaˈmáay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to look down and glance back again in a shyly flirtatious manner."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5432",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชม้าย",
+    "alalc": "chamāy",
+    "meaning": "to glance sidewise (of a woman).",
+    "ipa": "cʰa-máay",
+    "pron_display": "cʰaˈmáay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to glance sidewise (of a woman)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5433",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชรัว",
+    "alalc": "chrua",
+    "meaning": "valley, canyon",
+    "ipa": "cʰrua",
+    "pron_display": "cʰrua",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "valley, canyon"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27227",
+    "source_query": "ชร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชรา",
+    "alalc": "charā",
+    "meaning": "to be old, aged (of people).; (old) age, senility.",
+    "ipa": "cʰa-raa",
+    "pron_display": "cʰaˈraa",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be old, aged (of people)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(old) age, senility."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5436",
+    "source_query": "ชร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -323871,9 +326303,111 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5437",
-    "source_query": "ภ.*",
+    "source_query": "ชร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชราภาพวิทยา",
+    "alalc": "",
+    "meaning": "gerontology",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gerontology"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13007",
+    "source_query": "ชร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชราวัยบริบาล",
+    "alalc": "",
+    "meaning": "gerocomia; gerocomy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gerocomia; gerocomy"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13008",
+    "source_query": "ชร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชราวัยวิทยา",
+    "alalc": "",
+    "meaning": "geraeology; gereology; geratology; gerontology",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "geraeology; gereology; geratology; gerontology"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13009",
+    "source_query": "ชร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชล",
+    "alalc": "chon",
+    "meaning": "water.",
+    "ipa": "cʰon",
+    "pron_display": "ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "water."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5439",
+    "source_query": "ชล.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -323925,7 +326459,176 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5440",
-    "source_query": "บ.*",
+    "source_query": "ชล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชลประทาน",
+    "alalc": "chon prathān",
+    "meaning": "irrigation, irrigating.",
+    "ipa": "cʰon pra-tʰaan",
+    "pron_display": "cʰon praˈtʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "irrigation, irrigating."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5441",
+    "source_query": "ชล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชลศักย์",
+    "alalc": "",
+    "meaning": "water potential",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "water potential"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:13010",
+    "source_query": "ชล.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ชลสถาน",
+    "alalc": "chon la sa thān",
+    "meaning": "canal, pond; cistern",
+    "ipa": "cʰon lá sà tʰǎan",
+    "pron_display": "cʰon lá sà tʰǎan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "canal, pond; cistern"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27234",
+    "source_query": "ชล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชลาธาร",
+    "alalc": "cha lā thān",
+    "meaning": "reservoir, pool; pond; dam; well",
+    "ipa": "cʰá laa tʰaan",
+    "pron_display": "cʰá laa tʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "reservoir, pool; pond; dam; well"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27235",
+    "source_query": "ชล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชลาลัย",
+    "alalc": "cha lā lay",
+    "meaning": "sea, ocean; river",
+    "ipa": "cʰá laa lay",
+    "pron_display": "cʰá laa lay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sea, ocean; river"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27236",
+    "source_query": "ชล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชลาศัย",
+    "alalc": "cha lā say",
+    "meaning": "reservoir, well; pond; sea; fish",
+    "ipa": "cʰá laa sǎy",
+    "pron_display": "cʰá laa sǎy",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "reservoir, well; pond; sea"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fish"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27237",
+    "source_query": "ชล.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -324465,6 +327168,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5620",
     "source_query": "ศ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชัยชนะ",
+    "alalc": "chay chana",
+    "meaning": "victory.",
+    "ipa": "cʰay cʰa-ná",
+    "pron_display": "cʰay cʰaˈnáʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "victory."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5410",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -326210,6 +328940,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ชื่นชม",
+    "alalc": "chư̄n chom",
+    "meaning": "admire, be delighted (with), pleased (with).",
+    "ipa": "cʰʉ̂ʉn cʰom",
+    "pron_display": "cʰʉ̂ʉn ˈcʰom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "admire, be delighted (with), pleased (with)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5925",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ชื่นบาน",
     "alalc": "chư̄n bān",
     "meaning": "to be cheerful, happy.",
@@ -326464,6 +329221,60 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5964",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชุมชน",
+    "alalc": "chum chon",
+    "meaning": "an assemblage of people.",
+    "ipa": "cʰum cʰon",
+    "pron_display": "cʰum ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "an assemblage of people."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5966",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ชุมนุมชน",
+    "alalc": "chumnum chon",
+    "meaning": "a concentration of people.",
+    "ipa": "cʰum-num cʰon",
+    "pron_display": "cʰum.num ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a concentration of people."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5975",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -370101,6 +372912,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ติชม",
+    "alalc": "ti chom",
+    "meaning": "to find fault with, criticize (finding both good and bad points).",
+    "ipa": "tì cʰom",
+    "pron_display": "ˈtìʔ ˈcʰom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to find fault with, criticize (finding both good and bad points)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5423",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ติดกระดุม",
     "alalc": "tit kradum",
     "meaning": "to fasten the buttons, button up.; to sew buttons on.",
@@ -386553,7 +389391,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8408",
-    "source_query": "ถ.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -386578,7 +389416,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5391",
-    "source_query": "ย.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -393751,6 +396589,31 @@
     "status": "tentative"
   },
   {
+    "thai": "ทำตาชม้าย",
+    "alalc": "tham tā chamāy",
+    "meaning": "to cast a sidelong glance.",
+    "ipa": "tʰam taa cʰa-máay",
+    "pron_display": "tʰam ˈtaa cʰaˈmáay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to cast a sidelong glance."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5434",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ทำนุบำรุงุ",
     "alalc": "thamnu bamrung",
     "meaning": "to nourish.; to tend with care (as a plant).; to improve.",
@@ -395326,6 +398189,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ทุกชนิด",
+    "alalc": "",
+    "meaning": "every kind, all kinds; all types",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "every kind, all kinds; all types"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:243",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ทุกซอกทุกมุม",
@@ -404227,6 +407117,31 @@
     "status": "tentative"
   },
   {
+    "thai": "นานาชนิด",
+    "alalc": "nānā chanit",
+    "meaning": "various kinds, of all sorts, of every description.",
+    "ipa": "naa-naa cʰa-nít",
+    "pron_display": "ˈnaaˈnaa cʰaˈnít",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "various kinds, of all sorts, of every description."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5413",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นานๆ ครั้ง",
     "alalc": "",
     "meaning": "rarely, infrequently; seldom; blue moon",
@@ -405790,6 +408705,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4654",
     "source_query": "จ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "น่าชม",
+    "alalc": "nā chom",
+    "meaning": "to be praiseworthy, admirable.; to be interesting to see, look at.",
+    "ipa": "nâa cʰom",
+    "pron_display": "ˈnâa ˈcʰom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be praiseworthy, admirable."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be interesting to see, look at."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5424",
+    "source_query": "ชม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -435846,7 +438797,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:21014",
-    "source_query": "บ.*",
+    "source_query": "ชน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -442650,6 +445601,58 @@
     "status": "tentative"
   },
   {
+    "thai": "ประชาชน",
+    "alalc": "prachā chon",
+    "meaning": "the people, the public, the populace, population.",
+    "ipa": "pra-cʰaa cʰon",
+    "pron_display": "pra.cʰaa ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the people, the public, the populace, population."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5400",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ประชาชนพลเมือง",
+    "alalc": "prachā chon phonla mưang",
+    "meaning": "the people (especially of an area, of a country).",
+    "ipa": "pra-cʰaa cʰon pʰon-la mʉaŋ",
+    "pron_display": "pra.cʰaa ˈcʰon pʰon.la ˈmʉaŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the people (especially of an area, of a country)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11112",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ประชาธิปัตย์",
     "alalc": "prachā thippatay",
     "meaning": "democracy.; name of a political party (Democratic Party).",
@@ -445227,6 +448230,31 @@
     "status": "tentative"
   },
   {
+    "thai": "ปวงชน",
+    "alalc": "puang chon",
+    "meaning": "every one, all the people.",
+    "ipa": "puaŋ cʰon",
+    "pron_display": "puaŋ ˈcʰon",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "every one, all the people."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11475",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ปวดกะโหลก",
     "alalc": "",
     "meaning": "have headache, have troublesome; have bothersome",
@@ -445528,6 +448556,33 @@
     "ipa": "",
     "source": "ALA-LC 2011 sample",
     "status": "reviewed"
+  },
+  {
+    "thai": "ปัญญาชน",
+    "alalc": "pan yā chon",
+    "meaning": "scholar, graduate; intellectual; knowledgeable person",
+    "ipa": "pan yaa cʰon",
+    "pron_display": "pan yaa cʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "scholar, graduate; intellectual; knowledgeable person"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11194",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ปัดกวาด",
@@ -460330,6 +463385,69 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:11822",
     "source_query": "ซ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พระชนม",
+    "alalc": "phra chon",
+    "meaning": "age.; life.",
+    "ipa": "pʰrá cʰon",
+    "pron_display": "pʰrá ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "age."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "life."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12826",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พระชนมพรรษา",
+    "alalc": "phra chon phansā",
+    "meaning": "age.",
+    "ipa": "pʰrá cʰon pʰan-sǎa",
+    "pron_display": "pʰrá ˈcʰon pʰanˈsǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "age."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5402",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -509981,6 +513099,33 @@
     "status": "tentative"
   },
   {
+    "thai": "มติมหาชน",
+    "alalc": "mati mahā chon",
+    "meaning": "public opinion.",
+    "ipa": "má-tì ma-hǎa cʰon",
+    "pron_display": "máˈtìʔ maˈhǎa ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "public opinion."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13817",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "มนุษย์เดินดิน",
     "alalc": "manut dœ̄n din",
     "meaning": "an ordinary human being (in the sense of not possessing supernatural powers).",
@@ -510071,6 +513216,33 @@
     "status": "tentative"
   },
   {
+    "thai": "มวลชน",
+    "alalc": "",
+    "meaning": "masses, multitude",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "masses, multitude"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10070",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "มหันตภัย",
     "alalc": "mahanta phay",
     "meaning": "great danger.",
@@ -510093,6 +513265,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13882",
     "source_query": "ภ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มหาชน",
+    "alalc": "mahā chon",
+    "meaning": "the public, the majority of people.",
+    "ipa": "ma-hǎa cʰon",
+    "pron_display": "maˈhǎa ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the public, the majority of people."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13885",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -535205,7 +538404,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14909",
-    "source_query": "ย.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -541900,6 +545099,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15406",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รางวัลชมเชย",
+    "alalc": "rāngwan chom chœ̄y",
+    "meaning": "honorable mention.",
+    "ipa": "raaŋ-wan cʰom cʰəəy",
+    "pron_display": "raaŋˈwan cʰom ˈcʰəəy",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "honorable mention."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5419",
+    "source_query": "ชม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -561450,7 +564676,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5314",
-    "source_query": "ว.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -562237,7 +565463,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5438",
-    "source_query": "ว.*",
+    "source_query": "ชร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -582977,7 +586203,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:16836",
-    "source_query": "ว.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -592612,7 +595838,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:6832",
-    "source_query": "ศ.*",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -603166,6 +606392,69 @@
     "status": "unresolved"
   },
   {
+    "thai": "สาธารณชน",
+    "alalc": "sāthārana chon",
+    "meaning": "the public.",
+    "ipa": "sǎa-tʰaa-ra-ná cʰon",
+    "pron_display": "ˈsǎa.tʰaa.ra.ná ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the public."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17576",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สาธุชน",
+    "alalc": "sā thu chon",
+    "meaning": "virtuous men; good person, upright person; honest person; righteous person",
+    "ipa": "sǎa tʰú cʰon",
+    "pron_display": "sǎa tʰú cʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "virtuous men"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "good person, upright person; honest person; righteous person"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3038",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สาบควาย",
     "alalc": "sāp khwāy",
     "meaning": "the odors of the water buffalo.",
@@ -603321,6 +606610,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:17592",
     "source_query": "ว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สามัญชน",
+    "alalc": "sāman chon",
+    "meaning": "common people, ordinary people.",
+    "ipa": "sǎa-man cʰon",
+    "pron_display": "sǎaˈman ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "common people, ordinary people."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17599",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -604911,6 +608227,42 @@
     "status": "tentative"
   },
   {
+    "thai": "สีชมพู",
+    "alalc": "sī chomphū",
+    "meaning": "pink (the color).; to be pink, pink-colored.",
+    "ipa": "sǐi cʰom-pʰuu",
+    "pron_display": "sǐi cʰomˈpʰuu",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pink (the color)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be pink, pink-colored."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5427",
+    "source_query": "ชม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สีซอ",
     "alalc": "sī sǭ",
     "meaning": "to play a stringed instrument (with a bow).",
@@ -605994,6 +609346,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10535",
     "source_query": "บ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สุภาพชน",
+    "alalc": "suphāp chon",
+    "meaning": "person(s) of good breeding, decent people.",
+    "ipa": "su-pʰâap cʰon",
+    "pron_display": "suˈpʰâap ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "person(s) of good breeding, decent people."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17787",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -611183,6 +614562,31 @@
     "status": "tentative"
   },
   {
+    "thai": "หลายหลากชนิด",
+    "alalc": "lāy lāk chanit",
+    "meaning": "of many different kinds.",
+    "ipa": "lǎay làak cʰa-nít",
+    "pron_display": "lǎay ˈlàak cʰaˈnít",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "of many different kinds."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18425",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หลายใจ",
     "alalc": "lāy yay",
     "meaning": "to have many loves (at the same time).",
@@ -612895,6 +616299,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หัวชนฝา",
+    "alalc": "",
+    "meaning": "stubbornly, obstinately; uncompromisingly",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "stubbornly, obstinately; uncompromisingly"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29469",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "หัวดื้อ",
     "alalc": "hua dư̄",
     "meaning": "to be bull-headed, stubborn, obstinate.",
@@ -613873,6 +617304,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4178",
     "source_query": "ง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หินชนวน",
+    "alalc": "hin chanuan",
+    "meaning": "slate (the rock).",
+    "ipa": "hǐn cʰa-nuan",
+    "pron_display": "ˈhǐn cʰaˈnuan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "slate (the rock)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5406",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -615205,6 +618663,60 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29927",
     "source_query": "กร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุชน",
+    "alalc": "anu chon",
+    "meaning": "young people, the youth (in a collective sense).",
+    "ipa": "à-nú cʰon",
+    "pron_display": "à.nú ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "young people, the youth (in a collective sense)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19064",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุชนรุ่นหลัง",
+    "alalc": "anu chon run lang",
+    "meaning": "people of the younger generation.",
+    "ipa": "à-nú cʰon rûn lǎŋ",
+    "pron_display": "à.nú ˈcʰon rûn ˈlǎŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "people of the younger generation."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15590",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -618866,6 +622378,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12622",
     "source_query": "ฝ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อารยชน",
+    "alalc": "āraya chon",
+    "meaning": "civilized people.",
+    "ipa": "aa-ra-yá cʰon",
+    "pron_display": "ˈaa.ra.yá ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "civilized people."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19515",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -630887,6 +634426,31 @@
     "status": "tentative"
   },
   {
+    "thai": "เฉลิมพระชนมพรรษา",
+    "alalc": "chalœ̄m phra chon phansā",
+    "meaning": "to celebrate the king's birthday.",
+    "ipa": "cʰa-lə̌əm pʰrá cʰon pʰan-sǎa",
+    "pron_display": "cʰaˈlə̌əm pʰrá ˈcʰon pʰanˈsǎa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to celebrate the king's birthday."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5313",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เฉลียวฉลาด",
     "alalc": "chaliaw chalāt",
     "meaning": "to be clever, bright, smart, intelligent, keen, sagacious.",
@@ -631098,6 +634662,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5343",
     "source_query": "ฉ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เชยชม",
+    "alalc": "chœ̄y chom",
+    "meaning": "to fondle, caress tenderly.; to admire, praise.",
+    "ipa": "cʰəəy cʰom",
+    "pron_display": "cʰəəy ˈcʰom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fondle, caress tenderly."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to admire, praise."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5422",
+    "source_query": "ชม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -636760,6 +640360,31 @@
     "status": "tentative"
   },
   {
+    "thai": "เป็นชนวน",
+    "alalc": "pen chanuan",
+    "meaning": "to lead to; to cause; to be the prime cause.",
+    "ipa": "pen cʰa-nuan",
+    "pron_display": "pen cʰaˈnuan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to lead to; to cause; to be the prime cause."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5405",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เป็นซีกๆ",
     "alalc": "pen sīk sīk",
     "meaning": "in pieces, into pieces.",
@@ -639808,6 +643433,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4844",
     "source_query": "จ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เมืองชล",
+    "alalc": "mưang chon",
+    "meaning": "Chonburi.",
+    "ipa": "mʉaŋ cʰon",
+    "pron_display": "mʉaŋ ˈcʰon",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Chonburi."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5443",
+    "source_query": "ชล.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -644281,6 +647933,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เสรีชน",
+    "alalc": "",
+    "meaning": "freeman",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "freeman"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16769",
+    "source_query": "ชน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "เสรีภาพ",
     "alalc": "sērī phāp",
     "meaning": "freedom, liberty.",
@@ -648209,6 +651888,42 @@
     "status": "tentative"
   },
   {
+    "thai": "เอกชน",
+    "alalc": "ēkka chon",
+    "meaning": "an individual, a private individual.; individual, private.",
+    "ipa": "èek-ka cʰon",
+    "pron_display": "ˈèek.ka ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "an individual, a private individual."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "individual, private."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19821",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เอกบุรุษ",
     "alalc": "",
     "meaning": "great man, outstanding person; unique person; excellent person",
@@ -648633,6 +652348,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "เอาชนะ",
+    "alalc": "aw chana",
+    "meaning": "to strive to win or win out, strive to overcome.",
+    "ipa": "aw cʰa-ná",
+    "pron_display": "ˌaw cʰaˈnáʔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to strive to win or win out, strive to overcome."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5411",
+    "source_query": "ชน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "เอาซี",
@@ -680411,6 +684153,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13370",
     "source_query": "คน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไก่ชน",
+    "alalc": "kay chon",
+    "meaning": "fighting cock.",
+    "ipa": "kày cʰon",
+    "pron_display": "kày ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fighting cock."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1918",
+    "source_query": "ชน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
