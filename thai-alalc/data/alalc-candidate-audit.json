@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 26478,
+    "unique_lexical_records": 27065,
     "sample_size": 150,
     "counts": {
-      "neither": 81,
-      "pronunciation_only": 64,
+      "neither": 82,
+      "pronunciation_only": 63,
       "disagreement": 1,
       "agreement": 3,
       "spelling_only": 1
@@ -89,6 +89,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "N"
+    },
+    {
+      "thai": "ช่อซี่ร่มย่อย",
+      "source_id": "RI:13668",
+      "pronunciation": "",
+      "meaning": "umbellet; umbellule",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "ภรณีภู",
@@ -287,6 +298,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "ช่องระหว่างคอฟัน",
+      "source_id": "RI:13561",
+      "pronunciation": "",
+      "meaning": "cervical embrasure; interproximal embrasure",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "ชั่วขณะ",
@@ -628,6 +650,17 @@
       "comparison": "agreement",
       "web_rank": "3",
       "pos": "N"
+    },
+    {
+      "thai": "ช่างพูดคุย",
+      "source_id": "LEX2.0:22647",
+      "pronunciation": "",
+      "meaning": "be talkative, be full of talk; be chatty",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "V"
     },
     {
       "thai": "กอบ",
@@ -1312,6 +1345,17 @@
       "pos": "N"
     },
     {
+      "thai": "ตกทอดแก่ทายาท",
+      "source_id": "RI:14210",
+      "pronunciation": "",
+      "meaning": "devolve on the heirs",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "ราชาวดี",
       "source_id": "LEX2.0:21572",
       "pronunciation": "raa cʰaa wá dii",
@@ -1617,50 +1661,6 @@
       "pronunciation_candidate": null,
       "comparison": "spelling_only",
       "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ความสงบเรียบร้อย",
-      "source_id": "LEX2.0:30710",
-      "pronunciation": "",
-      "meaning": "peace, harmony; concord",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ภาวะซูบโทรม",
-      "source_id": "RI:20901",
-      "pronunciation": "",
-      "meaning": "tabes",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ขี้ใต้",
-      "source_id": "TDP:2530",
-      "pronunciation": "kʰîi tâay",
-      "meaning": "punk, a composition of resin and rotten wood used as tinder.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khī tāy",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "N"
-    },
-    {
-      "thai": "จุดสุดยอด",
-      "source_id": "LEX2.0:7366",
-      "pronunciation": "",
-      "meaning": "peak, summit; zenith; top; pinnacle; apex; climax, orgasm",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
       "pos": "N"
     }
   ]
