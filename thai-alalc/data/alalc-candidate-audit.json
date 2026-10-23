@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 24874,
+    "unique_lexical_records": 25254,
     "sample_size": 150,
     "counts": {
       "neither": 81,
@@ -639,6 +639,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": ""
+    },
+    {
+      "thai": "ค่าถัวเฉลี่ย",
+      "source_id": "LEX2.0:9425",
+      "pronunciation": "",
+      "meaning": "mean, average; medium; median; ordinary; moderate",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": "N"
     },
     {
       "thai": "คนขี้เมา",
@@ -1651,17 +1662,6 @@
       "comparison": "neither",
       "web_rank": "1",
       "pos": ""
-    },
-    {
-      "thai": "คอร์รัปชั่น",
-      "source_id": "LEX2.0:7726",
-      "pronunciation": "",
-      "meaning": "corruption; be corrupted, be dishonest; cheat",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": "N; V"
     }
   ]
 }
