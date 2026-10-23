@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 25390,
+    "unique_lexical_records": 26478,
     "sample_size": 150,
     "counts": {
-      "neither": 80,
-      "pronunciation_only": 65,
+      "neither": 81,
+      "pronunciation_only": 64,
       "disagreement": 1,
       "agreement": 3,
       "spelling_only": 1
@@ -47,6 +47,17 @@
       "pos": ""
     },
     {
+      "thai": "ชุดส่งกำลังอัตโนมัติ",
+      "source_id": "RI:13340",
+      "pronunciation": "",
+      "meaning": "automatic transmission",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "วัยกำดัด",
       "source_id": "LEX2.0:6196",
       "pronunciation": "",
@@ -65,6 +76,17 @@
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
+      "thai": "ตาชั่ง",
+      "source_id": "TDP:5572",
+      "pronunciation": "taa cʰâŋ",
+      "meaning": "scales, balance.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "tā chang",
+      "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "N"
     },
@@ -597,6 +619,17 @@
       "pos": "ADV"
     },
     {
+      "thai": "ชาน",
+      "source_id": "TDP:5777",
+      "pronunciation": "cʰaan",
+      "meaning": "platform, porch (without roof).; environs.",
+      "spelling_candidate": "chān",
+      "pronunciation_candidate": "chān",
+      "comparison": "agreement",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "กอบ",
       "source_id": "TDP:927",
       "pronunciation": "kɔ̀ɔp",
@@ -960,6 +993,17 @@
       "pos": ""
     },
     {
+      "thai": "ชุดข้อมูล",
+      "source_id": "RI:13282",
+      "pronunciation": "",
+      "meaning": "data set",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "พูดน้ำไหลไฟดับ",
       "source_id": "TDP:6552",
       "pronunciation": "pʰûut náam lǎy fay dàp",
@@ -1026,6 +1070,17 @@
       "pos": "ADV"
     },
     {
+      "thai": "ชื่อกฎหมาย",
+      "source_id": "RI:13246",
+      "pronunciation": "",
+      "meaning": "title",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "คาวปลา",
       "source_id": "LEX2.0:9381",
       "pronunciation": "kʰaaw plaa",
@@ -1068,6 +1123,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "N"
+    },
+    {
+      "thai": "ชีพจรอ่อน",
+      "source_id": "RI:13175",
+      "pronunciation": "",
+      "meaning": "low-tension pulse; soft pulse; pulsus mollis",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
     },
     {
       "thai": "เด็กวัด",
@@ -1378,6 +1444,17 @@
       "pos": ""
     },
     {
+      "thai": "เป็นชู้",
+      "source_id": "TDP:5990",
+      "pronunciation": "pen cʰúu",
+      "meaning": "to be adulterous (usually in reference to a man).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "pen chū",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "V"
+    },
+    {
       "thai": "ฝนฟ้า",
       "source_id": "LEX2.0:11574",
       "pronunciation": "",
@@ -1420,6 +1497,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V; N"
+    },
+    {
+      "thai": "ชั้นนำ",
+      "source_id": "TDP:5596",
+      "pronunciation": "cʰán nam",
+      "meaning": "leading, outstanding.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "chan nam",
+      "comparison": "pronunciation_only",
+      "web_rank": "2",
+      "pos": ""
     },
     {
       "thai": "ตายละวา",
@@ -1485,6 +1573,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "9",
+      "pos": ""
+    },
+    {
+      "thai": "ชั่วอึดใจ",
+      "source_id": "TDP:19716",
+      "pronunciation": "cʰûa ʉ̀t jay",
+      "meaning": "for a brief moment, for just a few seconds.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "chua ưt yay",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
       "pos": ""
     },
     {
@@ -1563,105 +1662,6 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "N"
-    },
-    {
-      "thai": "บากบั่น",
-      "source_id": "TDP:10501",
-      "pronunciation": "bàak bàn",
-      "meaning": "to try hard, persevere.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "bāk ban",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "ขวดโหล",
-      "source_id": "TDP:2082",
-      "pronunciation": "kʰùat lǒo",
-      "meaning": "wide-mouthed glass jar with glass stopper.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khuat lō",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "กระจาด",
-      "source_id": "TDP:210",
-      "pronunciation": "kra-jàat",
-      "meaning": "a deep tray or basket made of bamboo or rattan.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "krayāt",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "แปรธาตุ",
-      "source_id": "LEX2.0:13786",
-      "pronunciation": "prɛɛ tʰâat",
-      "meaning": "alchemize, to perform alchemy; transmute",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "prǣ thāt",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "ไข่ยัดไส้",
-      "source_id": "LEX2.0:4021",
-      "pronunciation": "",
-      "meaning": "stuffed omelette",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ทารุณจิตใจ",
-      "source_id": "LEX2.0:1060",
-      "pronunciation": "",
-      "meaning": "hurt, distress; upset",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": "V"
-    },
-    {
-      "thai": "วัน",
-      "source_id": "TDP:16648",
-      "pronunciation": "wan",
-      "meaning": "day.",
-      "spelling_candidate": "wan",
-      "pronunciation_candidate": "wan",
-      "comparison": "agreement",
-      "web_rank": "1",
-      "pos": "N; C"
-    },
-    {
-      "thai": "ชื่นบาน",
-      "source_id": "TDP:5926",
-      "pronunciation": "cʰʉ̂ʉn baan",
-      "meaning": "to be cheerful, happy.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "chư̄n bān",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "วงจรตัวเก็บความร้อน",
-      "source_id": "RI:24869",
-      "pronunciation": "",
-      "meaning": "heat collector loop",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
     }
   ]
 }
