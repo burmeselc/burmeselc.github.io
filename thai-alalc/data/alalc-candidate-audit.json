@@ -1,13 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 27102,
+    "unique_lexical_records": 29405,
     "sample_size": 150,
     "counts": {
-      "neither": 82,
-      "pronunciation_only": 63,
+      "neither": 80,
+      "pronunciation_only": 67,
       "disagreement": 1,
-      "agreement": 3,
-      "spelling_only": 1
+      "agreement": 2
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
     "complete_dictionary": false
@@ -25,6 +24,17 @@
       "pos": "V; ADJ"
     },
     {
+      "thai": "ตั้งมั่น",
+      "source_id": "TDP:7532",
+      "pronunciation": "tâŋ mân",
+      "meaning": "to settle down firmly; to establish oneself in a stronghold.; to remain firm, steadfast.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "tang man",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
       "thai": "ขยายวง",
       "source_id": "LEX2.0:3249",
       "pronunciation": "",
@@ -34,6 +44,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "ตั้งฉากกับผิว",
+      "source_id": "RI:14832",
+      "pronunciation": "",
+      "meaning": "anticlinal",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
     },
     {
       "thai": "บาทฮิโรอิก",
@@ -124,6 +145,17 @@
       "pos": ""
     },
     {
+      "thai": "ตรวจโรค",
+      "source_id": "LEX2.0:27787",
+      "pronunciation": "",
+      "meaning": "diagnose, examine; have a medical examination",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "V"
+    },
+    {
       "thai": "กะโหลกส่วนยอด",
       "source_id": "RI:1192",
       "pronunciation": "",
@@ -132,6 +164,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "1",
+      "pos": ""
+    },
+    {
+      "thai": "ตามแนวเส้นประสาท",
+      "source_id": "RI:14942",
+      "pronunciation": "",
+      "meaning": "paraneural",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
       "pos": ""
     },
     {
@@ -199,6 +242,17 @@
       "comparison": "neither",
       "web_rank": "6",
       "pos": "V"
+    },
+    {
+      "thai": "เจ้าตำรับ",
+      "source_id": "LEX2.0:7349",
+      "pronunciation": "",
+      "meaning": "originator, creator; initiator; founder; inventor; father",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "ก้านขด",
@@ -399,6 +453,28 @@
       "pos": "V"
     },
     {
+      "thai": "ไล่ตาม",
+      "source_id": "LEX2.0:14806",
+      "pronunciation": "",
+      "meaning": "chase, follow; run after; pursue",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
+      "thai": "นอนตาหลับ",
+      "source_id": "TDP:18413",
+      "pronunciation": "nɔɔn taa làp",
+      "meaning": "to be free of worry; to be able to sleep without worry.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "nǭn tā lap",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
+    },
+    {
       "thai": "อาหารจานด่วน",
       "source_id": "LEX2.0:2614",
       "pronunciation": "",
@@ -419,6 +495,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "2",
       "pos": "N"
+    },
+    {
+      "thai": "ตัวประมวล(ผล)ก่อน",
+      "source_id": "RI:14550",
+      "pronunciation": "",
+      "meaning": "preprocessor",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "",
+      "pos": ""
     },
     {
       "thai": "ความเสียหายจากการสั่นสะเทือนเพราะแผ่นดินไหว",
@@ -575,6 +662,17 @@
       "pos": ""
     },
     {
+      "thai": "ผิดหูผิดตา",
+      "source_id": "TDP:7688",
+      "pronunciation": "pʰìt hǔu pʰìt taa",
+      "meaning": "to look changed; to have changed markedly in appearance.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "phit hū phit tā",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
+    },
+    {
       "thai": "ผ้าขาวบาง",
       "source_id": "TDP:2458",
       "pronunciation": "pʰâa kʰǎaw baaŋ",
@@ -594,6 +692,28 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "5",
+      "pos": ""
+    },
+    {
+      "thai": "ผ่าตัด",
+      "source_id": "TDP:7563",
+      "pronunciation": "pʰàa tàt",
+      "meaning": "to operate on (surgically).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "phā tat",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
+      "thai": "ตั้งสติไม่อยู่",
+      "source_id": "TDP:14429",
+      "pronunciation": "tâŋ sa-tì mây yùu",
+      "meaning": "cannot concentrate.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "tang sati may yū",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
       "pos": ""
     },
     {
@@ -707,6 +827,17 @@
       "pos": ""
     },
     {
+      "thai": "ตัวเบียนบังเอิญ",
+      "source_id": "RI:14719",
+      "pronunciation": "",
+      "meaning": "accidental parasite",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "ค่าถัวเฉลี่ย",
       "source_id": "LEX2.0:9425",
       "pronunciation": "",
@@ -716,6 +847,17 @@
       "comparison": "neither",
       "web_rank": "7",
       "pos": "N"
+    },
+    {
+      "thai": "ล้มตาย",
+      "source_id": "TDP:15911",
+      "pronunciation": "lóm taay",
+      "meaning": "to die, be killed.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "lom tāy",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "V"
     },
     {
       "thai": "คนขี้เมา",
@@ -760,6 +902,17 @@
       "comparison": "neither",
       "web_rank": "1",
       "pos": ""
+    },
+    {
+      "thai": "ตรีประดับ",
+      "source_id": "LEX2.0:18248",
+      "pronunciation": "trii prà dàp",
+      "meaning": "name of a Thai verse, kind of Thai jingle",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "trī pra dap",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
     },
     {
       "thai": "บัญชีเงินสำรอง",
@@ -814,6 +967,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "9",
+      "pos": ""
+    },
+    {
+      "thai": "ตารางสถิติ",
+      "source_id": "RI:15004",
+      "pronunciation": "",
+      "meaning": "statistical table",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
       "pos": ""
     },
     {
@@ -1180,6 +1344,17 @@
       "pos": "N"
     },
     {
+      "thai": "เห็นแก่ตัว",
+      "source_id": "TDP:1778",
+      "pronunciation": "hěn kɛ̀ tua",
+      "meaning": "to think only of oneself, be selfish.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "hen kæ tua",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": ""
+    },
+    {
       "thai": "กะลาสี",
       "source_id": "TDP:969",
       "pronunciation": "ka-laa-sǐi",
@@ -1334,6 +1509,17 @@
       "pos": "N"
     },
     {
+      "thai": "ตระการตา",
+      "source_id": "TDP:7647",
+      "pronunciation": "tra-kaan taa",
+      "meaning": "eye-appealing.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "trakān tā",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": ""
+    },
+    {
       "thai": "กระเบื้องเคลือบ",
       "source_id": "TDP:444",
       "pronunciation": "kra-bʉ̂aŋ kʰlʉ̂ap",
@@ -1376,6 +1562,17 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
+    },
+    {
+      "thai": "ทำตาปริบๆ",
+      "source_id": "TDP:7675",
+      "pronunciation": "tʰam taa prìp-prìp",
+      "meaning": "to blink the eyes repeatedly (e.g. when stunned by defeat or sorrow).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "tham tā pripprip",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
     },
     {
       "thai": "เงื้อง่า",
@@ -1464,204 +1661,6 @@
       "comparison": "neither",
       "web_rank": "2",
       "pos": "ADJ; ADV"
-    },
-    {
-      "thai": "ความผิดเกี่ยวกับการค้า",
-      "source_id": "RI:10777",
-      "pronunciation": "",
-      "meaning": "offences relating to trade",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ซากทรัพย์",
-      "source_id": "RI:13720",
-      "pronunciation": "",
-      "meaning": "salvage",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "เป็นชู้",
-      "source_id": "TDP:5990",
-      "pronunciation": "pen cʰúu",
-      "meaning": "to be adulterous (usually in reference to a man).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "pen chū",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "ฝนฟ้า",
-      "source_id": "LEX2.0:11574",
-      "pronunciation": "",
-      "meaning": "rain",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ภาวะคาดหมายอายุขัย",
-      "source_id": "RI:20863",
-      "pronunciation": "",
-      "meaning": "expectancy of life; expectation of life",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ถูก",
-      "source_id": "TDP:8384",
-      "pronunciation": "tʰùuk",
-      "meaning": "to be cheap, inexpensive, low (in price).",
-      "spelling_candidate": "thūk",
-      "pronunciation_candidate": "thūk",
-      "comparison": "agreement",
-      "web_rank": "1",
-      "pos": "V"
-    },
-    {
-      "thai": "ชื่นใจ",
-      "source_id": "TDP:5101",
-      "pronunciation": "cʰʉ̂ʉn jay",
-      "meaning": "to please, delight.; to be pleased, delighted.; to be pleasant, charming, refreshing.; to kiss, hug (a loved one, in order to refresh, satisfy oneself).; sweetheart (used by lovers, by parents to children).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "chư̄n yay",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "V; N"
-    },
-    {
-      "thai": "ชั้นนำ",
-      "source_id": "TDP:5596",
-      "pronunciation": "cʰán nam",
-      "meaning": "leading, outstanding.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "chan nam",
-      "comparison": "pronunciation_only",
-      "web_rank": "2",
-      "pos": ""
-    },
-    {
-      "thai": "ตายละวา",
-      "source_id": "TDP:7816",
-      "pronunciation": "taay la waa",
-      "meaning": "exclamation expressing dismay.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "tāy la wā",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "E"
-    },
-    {
-      "thai": "ขึ้นแป้น",
-      "source_id": "LEX2.0:806",
-      "pronunciation": "",
-      "meaning": "be sent to press, put in print; hold the championship, win championship; be a champion",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": "V"
-    },
-    {
-      "thai": "บรรพพฤกษศาสตร์",
-      "source_id": "RI:17168",
-      "pronunciation": "",
-      "meaning": "paleobotany",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "9",
-      "pos": ""
-    },
-    {
-      "thai": "ขายเสียง",
-      "source_id": "LEX2.0:31814",
-      "pronunciation": "",
-      "meaning": "sell votes",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": "V"
-    },
-    {
-      "thai": "วางหู",
-      "source_id": "RI:25126",
-      "pronunciation": "",
-      "meaning": "on-look",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": ""
-    },
-    {
-      "thai": "ภาวะหัวบาตร",
-      "source_id": "RI:21161",
-      "pronunciation": "",
-      "meaning": "hydrocephalus (ในเด็ก)",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "9",
-      "pos": ""
-    },
-    {
-      "thai": "ชั่วอึดใจ",
-      "source_id": "TDP:19716",
-      "pronunciation": "cʰûa ʉ̀t jay",
-      "meaning": "for a brief moment, for just a few seconds.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "chua ưt yay",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "บอกยี่ห้อ",
-      "source_id": "LEX2.0:20607",
-      "pronunciation": "bɔ̀ɔk yîi hɔ̂ɔ",
-      "meaning": "signify, indicate; make know",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "bǭk yī hǭ",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "กลวิธีวาดภาพสีฝุ่น",
-      "source_id": "RI:801",
-      "pronunciation": "",
-      "meaning": "tempera",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ยธ",
-      "source_id": "LEX2.0:1453",
-      "pronunciation": "",
-      "meaning": "Ministry of Justice",
-      "spelling_candidate": "yot",
-      "pronunciation_candidate": null,
-      "comparison": "spelling_only",
-      "web_rank": "3",
-      "pos": "N"
     }
   ]
 }
