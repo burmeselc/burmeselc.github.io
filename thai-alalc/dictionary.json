@@ -75688,6 +75688,33 @@
     "status": "reviewed"
   },
   {
+    "thai": "การแยกตน",
+    "alalc": "kān yǣk ton",
+    "meaning": "fission.",
+    "ipa": "kaan yɛ̂ɛk ton",
+    "pron_display": "kaan yɛ̂ɛk ˈton",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fission."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7128",
+    "source_query": "ตน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "การใช้งาน",
     "alalc": "",
     "meaning": "usability",
@@ -169595,7 +169622,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3129",
-    "source_query": "คร.*",
+    "source_query": "ตน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -323094,7 +323121,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5287",
-    "source_query": "ฉ.*",
+    "source_query": "ตง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -403565,6 +403592,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ต.ช.ด.",
+    "alalc": "",
+    "meaning": "border police",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "border police"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:17431",
+    "source_query": "ตช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ตก",
     "alalc": "tok",
     "meaning": "to drop, fall; to fall (straight) down (from, into, onto).; to fall off, drop off, decrease, diminish.; to droop (as ears, tail).; to set (of the sun, moon).; to set in (as afternoon).; to set (of fruit, pods, seed).; to lay (eggs).; to come to (such and such an amount), be approximately, come close to.; to fade (of colors).; down, through (completive sense); conclusively.",
@@ -406237,6 +406291,662 @@
     "status": "unresolved"
   },
   {
+    "thai": "ตง",
+    "alalc": "tong",
+    "meaning": "joist; Dendrocalamus giganteus",
+    "ipa": "toŋ",
+    "pron_display": "toŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "joist"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Dendrocalamus giganteus"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27708",
+    "source_query": "ตง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตงฉิน",
+    "alalc": "tong chin",
+    "meaning": "honest, upright; of high integrity; loyal; faithful; trusty; sincere",
+    "ipa": "toŋ cʰǐn",
+    "pron_display": "toŋ cʰǐn",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "honest, upright; of high integrity; loyal; faithful; trusty; sincere"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30520",
+    "source_query": "ตง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตชด.",
+    "alalc": "",
+    "meaning": "frontier policeman",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "frontier policeman"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1327",
+    "source_query": "ตช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตด",
+    "alalc": "tot",
+    "meaning": "to pass wind, break wind, fart.",
+    "ipa": "tòt",
+    "pron_display": "ˈtòt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pass wind, break wind, fart."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7125",
+    "source_query": "ตด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตติยภาค",
+    "alalc": "",
+    "meaning": "tertiary sector",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tertiary sector"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:14218",
+    "source_query": "ตต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตติยภูมิ",
+    "alalc": "",
+    "meaning": "tertiary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tertiary"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:14219",
+    "source_query": "ตต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตน",
+    "alalc": "ton",
+    "meaning": "classifier for giants, demons, hermits, ascetics, and the like.",
+    "ipa": "ton",
+    "pron_display": "ˈton",
+    "pos": "C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "classifier for giants, demons, hermits, ascetics, and the like."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7134",
+    "source_query": "ตน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตน",
+    "alalc": "ton",
+    "meaning": "the self, oneself, one's own self.",
+    "ipa": "ton",
+    "pron_display": "ˈton",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the self, oneself, one's own self."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7126",
+    "source_query": "ตน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตนุ",
+    "alalc": "tanu",
+    "meaning": "a large green sea turtle.",
+    "ipa": "ta-nù",
+    "pron_display": "taˈnùʔ*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a large green sea turtle."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7206",
+    "source_query": "ตน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตนเอง",
+    "alalc": "ton ēng",
+    "meaning": "oneself, one's own self.",
+    "ipa": "ton eeŋ",
+    "pron_display": "ton ˈeeŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "oneself, one's own self."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7129",
+    "source_query": "ตน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบ",
+    "alalc": "top",
+    "meaning": "to slap, clap, pat.; to bribe.",
+    "ipa": "tòp",
+    "pron_display": "ˈtòp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to slap, clap, pat."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to bribe."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7207",
+    "source_query": "ตบ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบฉาด",
+    "alalc": "top chāt",
+    "meaning": "to slap hard.",
+    "ipa": "tòp cʰàat",
+    "pron_display": "ˈtòp ˈcʰàat",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to slap hard."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5237",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบฉาดหนึ่ง",
+    "alalc": "top chāt nưng",
+    "meaning": "to slap once.",
+    "ipa": "tòp cʰàat nʉŋ",
+    "pron_display": "ˈtòp ˈcʰàat ˈnʉŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to slap once."
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:5238",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบตา",
+    "alalc": "top tā",
+    "meaning": "to deceive, fool the eyes (e.g. by placing the best on top).",
+    "ipa": "tòp taa",
+    "pron_display": "tòp ˈtaa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to deceive, fool the eyes (e.g. by placing the best on top)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7208",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบท้าย",
+    "alalc": "",
+    "meaning": "end up with",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "end up with"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27750",
+    "source_query": "ตบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตบปีก",
+    "alalc": "top pīk",
+    "meaning": "to flap the wings.",
+    "ipa": "tòp pìik",
+    "pron_display": "tòp ˈpìik",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to flap the wings."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7211",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบมือ",
+    "alalc": "top mư̄",
+    "meaning": "to clap the hands.",
+    "ipa": "tòp mʉʉ",
+    "pron_display": "tòp ˈmʉʉ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to clap the hands."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7212",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบหน้า",
+    "alalc": "",
+    "meaning": "slap one's face",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "slap one's face"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27754",
+    "source_query": "ตบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตบหลัง",
+    "alalc": "",
+    "meaning": "pat on the back",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "pat on the back"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27755",
+    "source_query": "ตบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ตบะ",
+    "alalc": "ta ba",
+    "meaning": "penance, heat; warmth; pain; suffering; bodily mortification; penance; religious austerity; devout meditation",
+    "ipa": "tà bà",
+    "pron_display": "tà bà",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "penance, heat; warmth; pain; suffering; bodily mortification; penance; religious austerity; devout meditation"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27756",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบเท้า",
+    "alalc": "top thaw",
+    "meaning": "make goose step, march; goosestep",
+    "ipa": "tòp tʰáw",
+    "pron_display": "tòp tʰáw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "make goose step, march; goosestep"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27751",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบเอา",
+    "alalc": "top aw",
+    "meaning": "to extort.",
+    "ipa": "tòp aw",
+    "pron_display": "ˈtòp ˈaw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to extort."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7213",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบแต่งร่างกาย",
+    "alalc": "top tæng rāng kāy",
+    "meaning": "to dress (oneself).",
+    "ipa": "tòp tɛ̀ŋ râaŋ kaay",
+    "pron_display": "tòp ˈtɛ̀ŋ râaŋ ˈkaay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to dress (oneself)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7210",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ตบแผละ",
+    "alalc": "top phlæ",
+    "meaning": "a kind of child's plays with 2 children use the hands to pat each others' hand and knees",
+    "ipa": "tòp pʰlɛ̀",
+    "pron_display": "tòp pʰlɛ̀",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a kind of child's plays with 2 children use the hands to pat each others' hand and knees"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27752",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ตรง (กัน) ข้าม",
     "alalc": "trong kan khām",
     "meaning": "to be opposite, the opposite of, contrary (to).; on the contrary, conversely.; to be right across from each other.",
@@ -408757,6 +409467,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ตัวตน",
+    "alalc": "",
+    "meaning": "body, shape; physique; form; human body; appearance; substance",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "body, shape; physique; form; human body; appearance; substance"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:17454",
+    "source_query": "ตน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ตัวถัง",
@@ -471378,7 +472115,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10657",
-    "source_query": "บ.*",
+    "source_query": "ตน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -490623,6 +491360,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ผักตบชวา",
+    "alalc": "phak top cha wā",
+    "meaning": "Water hyacinth, Eichornia speciosa",
+    "ipa": "pʰàk tòp cʰá waa",
+    "pron_display": "pʰàk tòp cʰá waa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Water hyacinth, Eichornia speciosa"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14015",
+    "source_query": "ตบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ผักบุ้ง",
     "alalc": "phak bung",
     "meaning": "convolvulus, an aquatic morning glory used as a green vegetable (Convolvulaceae).",
@@ -506112,6 +506876,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "พึ่งตนเอง",
+    "alalc": "",
+    "meaning": "rely on oneself, be self-reliance; support oneself",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "rely on oneself, be self-reliance; support oneself"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:12460",
+    "source_query": "ตน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "พืชชั้นต่ำ",
@@ -592035,6 +592826,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ลืมตัวลืมตน",
+    "alalc": "lư̄m tua lư̄m ton",
+    "meaning": "to forget oneself.",
+    "ipa": "lʉʉm tua lʉʉm ton",
+    "pron_display": "lʉʉm ˈtua lʉʉm ˈton",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to forget oneself."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7127",
+    "source_query": "ตน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลือกระฉ่อน",
     "alalc": "",
     "meaning": "be rumored, spread; circulate; get about; go around",
@@ -659140,6 +659958,31 @@
     "status": "tentative"
   },
   {
+    "thai": "หิวตงิดๆ",
+    "alalc": "hiw tangit tangit",
+    "meaning": "to be slightly hungry.",
+    "ipa": "hǐw ta-ŋìt ta-ŋìt",
+    "pron_display": "ˈhǐw taˈŋìt taˈŋìt",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be slightly hungry."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18664",
+    "source_query": "ตง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หีบบัตร",
     "alalc": "hīp bat",
     "meaning": "ballot box.",
@@ -665864,6 +666707,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19761",
     "source_query": "ว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อุทิศตน",
+    "alalc": "uthit ton",
+    "meaning": "to dedicate oneself (to), sacrifice oneself (for).",
+    "ipa": "ù-tʰít ton",
+    "pron_display": "ùˈtʰít ˈton",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to dedicate oneself (to), sacrifice oneself (for)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19769",
+    "source_query": "ตน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -675978,6 +676848,31 @@
     "status": "tentative"
   },
   {
+    "thai": "เจ็บตงิดๆ",
+    "alalc": "yep tangit tangit",
+    "meaning": "hurting a little.",
+    "ipa": "jèp ta-ŋìt ta-ŋìt",
+    "pron_display": "ˈjèp taˈŋìt taˈŋìt",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hurting a little."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4933",
+    "source_query": "ตง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เจ็บใจ",
     "alalc": "yep yay",
     "meaning": "to feel hurt, have one's feelings hurt.",
@@ -680220,6 +681115,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:187",
     "source_query": "กร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เต่าตนุ",
+    "alalc": "taw tanu",
+    "meaning": "a large green sea turtle. Its eggs are called ไข่จะละเม็ด.",
+    "ipa": "tàw ta-nù",
+    "pron_display": "ˈtàw taˈnùʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a large green sea turtle. Its eggs are called ไข่จะละเม็ด."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8017",
+    "source_query": "ตน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -696775,7 +697697,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5143",
-    "source_query": "ใ.*",
+    "source_query": "ตน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -704010,6 +704932,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แสดงตน",
+    "alalc": "",
+    "meaning": "appear, show up",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "appear, show up"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16901",
+    "source_query": "ตน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "แสดงบทบาท",
     "alalc": "",
     "meaning": "perform one's duty, play one's role",
@@ -704687,6 +705636,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1883",
     "source_query": "ขึ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรธตงิดๆ",
+    "alalc": "krōt tangit tangit",
+    "meaning": "somewhat angered, a little angry.",
+    "ipa": "kròot ta-ŋìt ta-ŋìt",
+    "pron_display": "ˈkròot taˈŋìt taˈŋìt",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "somewhat angered, a little angry."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1884",
+    "source_query": "ตง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -732468,6 +733442,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8001",
     "source_query": "บ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไม่เป็นตัวเป็นตน",
+    "alalc": "may pen tua pen ton",
+    "meaning": "to be unformed, amorphous, not to have taken shape.",
+    "ipa": "mây pen tua pen ton",
+    "pron_display": "mây pen ˈtua pen ˈton",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be unformed, amorphous, not to have taken shape."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7132",
+    "source_query": "ตน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
