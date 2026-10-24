@@ -75236,6 +75236,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "การทดลอง",
+    "alalc": "",
+    "meaning": "experiment, test; trial; experimentation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "experiment, test; trial; experimentation"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31741",
+    "source_query": "ทด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "การทำมาหากิน",
     "alalc": "kān tham mā hā kin",
     "meaning": "making a living, earning a living.; occupation, livelihood.",
@@ -494056,12 +494083,442 @@
     "status": "tentative"
   },
   {
+    "thai": "ท.ญ.",
+    "alalc": "",
+    "meaning": "dentist",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dentist"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31313",
+    "source_query": "ทญ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ท.ทบ.",
+    "alalc": "",
+    "meaning": "Royal Thai Army Radio and Television",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Royal Thai Army Radio and Television"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31314",
+    "source_query": "ทท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทกท.",
+    "alalc": "",
+    "meaning": "Bangkok International Airport",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Bangkok International Airport"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31317",
+    "source_query": "ทก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทกล้า",
+    "alalc": "",
+    "meaning": "soldier, warrior; brave person",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "soldier, warrior; brave person"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:19064",
+    "source_query": "ทก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทค.",
+    "alalc": "",
+    "meaning": "Department of Commercial Registration, DCR",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Department of Commercial Registration, DCR"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1334",
+    "source_query": "ทค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทชี",
+    "alalc": "tha chī",
+    "meaning": "priest, monk; sadhu; ascetic",
+    "ipa": "tʰá cʰii",
+    "pron_display": "tʰá cʰii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "priest, monk; sadhu; ascetic"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:19066",
+    "source_query": "ทช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ทด",
+    "alalc": "thot",
+    "meaning": "to raise to a higher level (as water by means of a dam).; to carry (a number, when adding).; to replace; to give in return.",
+    "ipa": "tʰót",
+    "pron_display": "ˈtʰót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to raise to a higher level (as water by means of a dam)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to carry (a number, when adding)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to replace; to give in return."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8467",
+    "source_query": "ทด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ทดท้อ",
+    "alalc": "",
+    "meaning": "be discouraged, be disheartened; be despondent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be discouraged, be disheartened; be despondent"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4782",
+    "source_query": "ทด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทดน้ำ",
+    "alalc": "",
+    "meaning": "irrigate, draw water; lead water; divert water; put up a weir",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "irrigate, draw water; lead water; divert water; put up a weir"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:19069",
+    "source_query": "ทด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทดน้ำเข้านา",
+    "alalc": "thot nām khaw nā",
+    "meaning": "to irrigate a field (by flooding).",
+    "ipa": "tʰót náam kʰâw naa",
+    "pron_display": "tʰót ˈnáam, kʰâw ˈnaa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to irrigate a field (by flooding)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2821",
+    "source_query": "ทด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ทดรอง",
+    "alalc": "thot rǭng",
+    "meaning": "to lay out money in advance, to pay (for something) pending reimbursement.",
+    "ipa": "tʰót rɔɔŋ",
+    "pron_display": "tʰót ˈrɔɔŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to lay out money in advance, to pay (for something) pending reimbursement."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8469",
+    "source_query": "ทด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ทดลอง",
     "alalc": "thotlǭng",
     "meaning": "to experiment",
     "ipa": "",
     "source": "ALA-LC 2011 sample",
     "status": "reviewed"
+  },
+  {
+    "thai": "ทดลองปฏิบัติ",
+    "alalc": "",
+    "meaning": "try out",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "try out"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27855",
+    "source_query": "ทด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ทดสอบ",
+    "alalc": "thot sǭp",
+    "meaning": "test",
+    "ipa": "tʰót sɔ̀ɔp",
+    "pron_display": "tʰót sɔ̀ɔp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "test"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:19073",
+    "source_query": "ทด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ทดเลข",
+    "alalc": "thot lēk",
+    "meaning": "to carry a number (in addition).; to figure (on scratch paper).",
+    "ipa": "tʰót lêek",
+    "pron_display": "tʰót ˈlêek",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to carry a number (in addition)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to figure (on scratch paper)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8472",
+    "source_query": "ทด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ททท.",
+    "alalc": "",
+    "meaning": "The Tourism Authority of Thailand, TAT",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Tourism Authority of Thailand, TAT"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1335",
+    "source_query": "ทท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ทนหวานอมขมกลืน",
@@ -717745,6 +718202,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สินไหมทดแทน",
+    "alalc": "sin may thot thǣn",
+    "meaning": "fine",
+    "ipa": "sǐn mǎy tʰót tʰɛɛn",
+    "pron_display": "sǐn mǎy tʰót tʰɛɛn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fine"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3103",
+    "source_query": "ทด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สิบตรี",
     "alalc": "",
     "meaning": "lance corporal, private first class",
@@ -730353,6 +730837,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29404",
     "source_query": "ชุ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ห้องทดลอง",
+    "alalc": "hǫng thot lǭng",
+    "meaning": "laboratory.",
+    "ipa": "hɔ̂ŋ tʰót lɔɔŋ",
+    "pron_display": "ˈhɔ̂ŋ tʰót ˈlɔɔŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "laboratory."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8471",
+    "source_query": "ทด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
