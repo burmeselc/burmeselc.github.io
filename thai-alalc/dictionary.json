@@ -303299,7 +303299,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:26984",
-    "source_query": "จ.*",
+    "source_query": "นค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -326900,7 +326900,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5420",
-    "source_query": "ชม.*",
+    "source_query": "นก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -454527,7 +454527,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:17636",
-    "source_query": "ตำ.*",
+    "source_query": "นค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -563140,6 +563140,51 @@
     "status": "unresolved"
   },
   {
+    "thai": "นก",
+    "alalc": "nok",
+    "meaning": "bird (ตัว for individuals; ฝูง for flocks).; the cock or hammer of a gun.; \"bird.\"",
+    "ipa": "nók",
+    "pron_display": "ˈnók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bird (ตัว for individuals; ฝูง for flocks)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the cock or hammer of a gun."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "\"bird.\""
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9492",
+    "source_query": "นก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "นกกระจอก",
     "alalc": "nok krayǭk",
     "meaning": "sparrow.",
@@ -563302,6 +563347,33 @@
     "status": "tentative"
   },
   {
+    "thai": "นกกระยาง",
+    "alalc": "",
+    "meaning": "egret, bittern",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "egret, bittern"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28356",
+    "source_query": "นก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "นกกระสา",
     "alalc": "nok krasā",
     "meaning": "heron (Ardeidae).",
@@ -563354,6 +563426,114 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "นกกะปูด",
+    "alalc": "nok ka pūt",
+    "meaning": "tattletale, gossip; blabbermouth; bigmouthed; outspoken; indiscreet; shoot off one's mouth",
+    "ipa": "nók kà pùut",
+    "pron_display": "nók kà pùut",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tattletale, gossip; blabbermouth; bigmouthed; outspoken; indiscreet; shoot off one's mouth"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28358",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกกางปีก",
+    "alalc": "nok kāng pīk",
+    "meaning": "kind of Thai jingle",
+    "ipa": "nók kaaŋ pìik",
+    "pron_display": "nók kaaŋ pìik",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of Thai jingle"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28359",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกกางเขน",
+    "alalc": "nok kāngkhēn",
+    "meaning": "dyal, or magpie robin (Copsychus saularis).",
+    "ipa": "nók kaaŋ-kʰěen",
+    "pron_display": "nók kaaŋˈkʰěen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dyal, or magpie robin (Copsychus saularis)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1120",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกกาเหว่า",
+    "alalc": "",
+    "meaning": "koel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "koel"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28360",
+    "source_query": "นก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "นกขุนทอง",
@@ -563437,6 +563617,166 @@
     "status": "tentative"
   },
   {
+    "thai": "นกนางนวล",
+    "alalc": "nok nāng nuan",
+    "meaning": "seagull.",
+    "ipa": "nók naaŋ nuan",
+    "pron_display": "nók naaŋ ˈnuan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "seagull."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9503",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกนางแอ่น",
+    "alalc": "nok nāng æn",
+    "meaning": "swallow (the bird).",
+    "ipa": "nók naaŋ ɛ̀n",
+    "pron_display": "nók naaŋ ˈɛ̀n",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "swallow (the bird)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9504",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกปรอด",
+    "alalc": "",
+    "meaning": "bulbul",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bulbul"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28363",
+    "source_query": "นก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นกปักหลัก",
+    "alalc": "nok pak lak",
+    "meaning": "kingfisher.",
+    "ipa": "nók pàk làk",
+    "pron_display": "nók pàk ˈlàk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kingfisher."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11547",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกพิราบ",
+    "alalc": "nok phirāp",
+    "meaning": "pigeon (Columbidae).",
+    "ipa": "nók pʰí-râap",
+    "pron_display": "nók pʰíˈrâap",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pigeon (Columbidae)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9506",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกยาง",
+    "alalc": "",
+    "meaning": "egret, bittern; egret",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "egret, bittern; egret"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28364",
+    "source_query": "นก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "นกยูง",
     "alalc": "nok yūng",
     "meaning": "the common peafowl (Pavo cristatus).",
@@ -563459,6 +563799,141 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9507",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกสองหัว",
+    "alalc": "nok sǭng hua",
+    "meaning": "double eagle, one who tries to please both parties",
+    "ipa": "nók sɔ̌ɔŋ hǔa",
+    "pron_display": "nók sɔ̌ɔŋ hǔa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "double eagle, one who tries to please both parties"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31542",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกสาลิกา",
+    "alalc": "nok sālikā",
+    "meaning": "the common myna.",
+    "ipa": "nók sǎa-lí-kaa",
+    "pron_display": "nók sǎa.líˈkaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the common myna."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9508",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกหวีด",
+    "alalc": "nok wīt",
+    "meaning": "a whistle.",
+    "ipa": "nók wìit",
+    "pron_display": "nók ˈwìit",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a whistle."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9509",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกอินทรี",
+    "alalc": "nok insī",
+    "meaning": "eagle.",
+    "ipa": "nók in-sii",
+    "pron_display": "nók inˈsii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "eagle."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9510",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกอีแอ่น",
+    "alalc": "nok ī æn",
+    "meaning": "swallow (the bird).",
+    "ipa": "nók ii ɛ̀n",
+    "pron_display": "nók ii ˈɛ̀n*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "swallow (the bird)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9511",
+    "source_query": "นก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -563491,6 +563966,274 @@
     "status": "tentative"
   },
   {
+    "thai": "นกเขา",
+    "alalc": "nok khaw",
+    "meaning": "dove, turtledove.",
+    "ipa": "nók kʰǎw",
+    "pron_display": "nók ˈkʰǎw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dove, turtledove."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9501",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกเค้าแมว",
+    "alalc": "nok khaw mǣw",
+    "meaning": "a kind of owl; \"bird with the look of a cat.\"",
+    "ipa": "nók kʰáw mɛɛw",
+    "pron_display": "nók kʰáw ˈmɛɛw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a kind of owl; \"bird with the look of a cat.\""
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4016",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกเป็ดน้ำ",
+    "alalc": "nok pet nām",
+    "meaning": "teal.",
+    "ipa": "nók pèt náam",
+    "pron_display": "nók pèt ˈnáam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "teal."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9505",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกเอี้ยง",
+    "alalc": "nok iang",
+    "meaning": "singing myna.",
+    "ipa": "nók îaŋ",
+    "pron_display": "nók ˈîaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "singing myna."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9512",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นกแก้ว",
+    "alalc": "nok kǣw",
+    "meaning": "parrot.",
+    "ipa": "nók kɛ̂ɛw",
+    "pron_display": "nók ˈkɛ̂ɛw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "parrot."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1844",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นขทารณ์",
+    "alalc": "na kha thān",
+    "meaning": "hawk, falcon",
+    "ipa": "ná kʰà tʰaan",
+    "pron_display": "ná kʰà tʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hawk, falcon"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28368",
+    "source_query": "นข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นขลิขิต",
+    "alalc": "na kha li khit",
+    "meaning": "parentheses",
+    "ipa": "ná kʰà lí kʰìt",
+    "pron_display": "ná kʰà lí kʰìt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "parentheses"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28369",
+    "source_query": "นข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นขเลขา",
+    "alalc": "na kha lē khā",
+    "meaning": "nail-tinting",
+    "ipa": "ná kʰà lee kʰǎa",
+    "pron_display": "ná kʰà lee kʰǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nail-tinting"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28370",
+    "source_query": "นข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นคร",
+    "alalc": "nakhǭn",
+    "meaning": "city, town.",
+    "ipa": "na-kʰɔɔn",
+    "pron_display": "naˈkʰɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "city, town."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9515",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครที่ปกครองโดยระบบเทศบาล",
+    "alalc": "",
+    "meaning": "incorporated city",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "incorporated city"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16451",
+    "source_query": "นค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "นครธม",
     "alalc": "nakhǭn thom",
     "meaning": "Angkor Thom, the ancient capital of the Khmer.",
@@ -563513,6 +564256,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9447",
     "source_query": "ธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครนายก",
+    "alalc": "nakhǭn nāyok",
+    "meaning": "Nakhon Nayok (Nakorn Nayok), a township in central Thailand.",
+    "ipa": "na-kʰɔɔn naa-yók",
+    "pron_display": "naˈkʰɔɔn naaˈyók",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Nakhon Nayok (Nakorn Nayok), a township in central Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9516",
+    "source_query": "นค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -563548,7 +564318,115 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:31016",
-    "source_query": "บ.*",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครปฐม",
+    "alalc": "nakhǭn pathom",
+    "meaning": "Nakhon Pathom (Nakorn Patom), a township in W central Thailand.",
+    "ipa": "na-kʰɔɔn pa-tʰǒm",
+    "pron_display": "naˈkʰɔɔn paˈtʰǒm",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Nakhon Pathom (Nakorn Patom), a township in W central Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9517",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครพนม",
+    "alalc": "nakhǭn phanom",
+    "meaning": "Nakhon Phanom (Nakorn Panom), a township in NE Thailand.",
+    "ipa": "na-kʰɔɔn pʰa-nom",
+    "pron_display": "naˈkʰɔɔn pʰaˈnom",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Nakhon Phanom (Nakorn Panom), a township in NE Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9518",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครรัฐ",
+    "alalc": "na khǭn rat",
+    "meaning": "city-state",
+    "ipa": "ná kʰɔɔn rát",
+    "pron_display": "ná kʰɔɔn rát",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "city-state"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28375",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครราชสีมา",
+    "alalc": "nakhǭn rātcha sī mā",
+    "meaning": "Nakhon Ratsima (Nakorn Rajsima), a township in NE Thailand.",
+    "ipa": "na-kʰɔɔn râat-cʰa sǐi maa",
+    "pron_display": "naˈkʰɔɔn râat.cʰa sǐi ˈmaa",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Nakhon Ratsima (Nakorn Rajsima), a township in NE Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9519",
+    "source_query": "นค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -563581,6 +564459,33 @@
     "status": "tentative"
   },
   {
+    "thai": "นครวาสี",
+    "alalc": "na kha ra wā sī",
+    "meaning": "town-dweller, citizen",
+    "ipa": "ná kʰá rá waa sǐi",
+    "pron_display": "ná kʰá rá waa sǐi",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "town-dweller, citizen"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28377",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นครศรีธรรมราช",
     "alalc": "nakhǭn sī thamma rāt",
     "meaning": "Nakhon Sithammarat (Nakorn Sritamarat or Sridhamaraj), a township in S Thailand.",
@@ -563603,6 +564508,222 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9521",
     "source_query": "ธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครสวรรค์",
+    "alalc": "nakhǭn sawan",
+    "meaning": "Nakhon Sawan (Nakorn Sawan), a township in Central Thailand.",
+    "ipa": "na-kʰɔɔn sa-wǎn",
+    "pron_display": "naˈkʰɔɔn saˈwǎn",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Nakhon Sawan (Nakorn Sawan), a township in Central Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9522",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครหลวง",
+    "alalc": "nakhǭn luang",
+    "meaning": "capital (of a country).",
+    "ipa": "na-kʰɔɔn lǔaŋ",
+    "pron_display": "naˈkʰɔɔn ˈlǔaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "capital (of a country)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9524",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครินทร์",
+    "alalc": "na kha rin",
+    "meaning": "governor, the lord of a town; director; ruler; administrator",
+    "ipa": "ná kʰá rin",
+    "pron_display": "ná kʰá rin",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "governor, the lord of a town; director; ruler; administrator"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28380",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นครโสเภณี",
+    "alalc": "nakhǭn sōphēnī",
+    "meaning": "courtesan, prostitute.",
+    "ipa": "na-kʰɔɔn sǒo-pʰee-nii",
+    "pron_display": "naˈkʰɔɔn sǒo.pʰeeˈnii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "courtesan, prostitute."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9523",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นงคราญ",
+    "alalc": "nong khrān",
+    "meaning": "beauty, girl; goddess; belle; queen; pretty maid; fair maiden; beautiful girl",
+    "ipa": "noŋ kʰraan",
+    "pron_display": "noŋ kʰraan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beauty, girl; goddess; belle; queen; pretty maid; fair maiden; beautiful girl"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28382",
+    "source_query": "นง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นงพะงา",
+    "alalc": "nong pha ngā",
+    "meaning": "beauty, girl; goddess; belle; queen; pretty maid; fair maiden; beautiful girl",
+    "ipa": "noŋ pʰá ŋaa",
+    "pron_display": "noŋ pʰá ŋaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beauty, girl; goddess; belle; queen; pretty maid; fair maiden; beautiful girl"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28383",
+    "source_query": "นง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นงลักษณ์",
+    "alalc": "nong lak",
+    "meaning": "charming woman, woman or girl of charm; blissful woman; girl of good character",
+    "ipa": "noŋ lák",
+    "pron_display": "noŋ lák",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "charming woman, woman or girl of charm; blissful woman; girl of good character"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28384",
+    "source_query": "นง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นงเยาว์",
+    "alalc": "nong yaw",
+    "meaning": "beautiful woman, young girl",
+    "ipa": "noŋ yaw",
+    "pron_display": "noŋ yaw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beautiful woman, young girl"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4845",
+    "source_query": "นง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -610976,6 +612097,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ปากนกกระจอก",
+    "alalc": "pāk nok kra yǭk",
+    "meaning": "canker, a kind of mouth disease",
+    "ipa": "pàak nók krà jɔ̀ɔk",
+    "pron_display": "pàak nók krà jɔ̀ɔk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "canker, a kind of mouth disease"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11382",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ปากบอน",
     "alalc": "pāk bǭn",
     "meaning": "to be a blabber-mouth, tale-bearer, tattler.",
@@ -611571,6 +612719,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:11259",
     "source_query": "กล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปีกนก",
+    "alalc": "pīk nok",
+    "meaning": "wing, bird's wing",
+    "ipa": "pìik nók",
+    "pron_display": "pìik nók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wing, bird's wing"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11388",
+    "source_query": "นก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -626634,6 +627809,42 @@
     "status": "unresolved"
   },
   {
+    "thai": "พระนคร",
+    "alalc": "phra nakhǭn",
+    "meaning": "Phra Nakhon, the township in which Bangkok is located.; capital city.",
+    "ipa": "pʰrá ná-kʰɔɔn",
+    "pron_display": "pʰrá náˈkʰɔɔn*",
+    "pos": "pN; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Phra Nakhon, the township in which Bangkok is located."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "capital city."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9525",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "พระบรมธาตุ",
     "alalc": "",
     "meaning": "Buddha's relics, relics of Lord Buddha",
@@ -627202,6 +628413,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:826",
     "source_query": "กษ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พระมหานคร",
+    "alalc": "phra mahā nakhǭn",
+    "meaning": "capital city.",
+    "ipa": "pʰrá ma-hǎa ná-kʰɔɔn",
+    "pron_display": "pʰrá maˈhǎa náˈkʰɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "capital city."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12843",
+    "source_query": "นค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -710485,6 +711723,51 @@
     "status": "tentative"
   },
   {
+    "thai": "รังนก",
+    "alalc": "rang nok",
+    "meaning": "sweetmeat made of  taro or sweet potato sliced in pieces and arranged in nest shaped; swallow's nest; nest, bird 's nest",
+    "ipa": "raŋ nók",
+    "pron_display": "raŋ nók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sweetmeat made of  taro or sweet potato sliced in pieces and arranged in nest shaped"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "swallow's nest"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nest, bird 's nest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21527",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รังบวบ",
     "alalc": "rang buap",
     "meaning": "loofah, dried tough fiber of the sponge-gourd",
@@ -718895,6 +720178,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:5454",
     "source_query": "ด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลั่นนก",
+    "alalc": "lan nok",
+    "meaning": "pull the trigger",
+    "ipa": "lân nók",
+    "pron_display": "lân nók",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "pull the trigger"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14533",
+    "source_query": "นก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -779456,6 +780766,42 @@
     "status": "tentative"
   },
   {
+    "thai": "สีแดงเลือดนก",
+    "alalc": "sī dǣng lưat nok",
+    "meaning": "bright red.; to be bright red.",
+    "ipa": "sǐi dɛɛŋ lʉ̂at nók",
+    "pron_display": "sǐi ˈdɛɛŋ lʉ̂at ˈnók",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bright red."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be bright red."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16475",
+    "source_query": "นก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สี่กั๊ก",
     "alalc": "sī kak",
     "meaning": "crossroads, intersection.",
@@ -782182,6 +783528,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "หญิงนครโสเภณี",
+    "alalc": "ying nakhǭn sōphēnī",
+    "meaning": "courtesan, prostitute.",
+    "ipa": "yǐŋ na-kʰɔɔn sǒo-pʰee-nii",
+    "pron_display": "yǐŋ naˈkʰɔɔn sǒo.pʰeeˈnii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "courtesan, prostitute."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18054",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "หญ้ากก",
@@ -787310,6 +788683,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7713",
     "source_query": "ตา.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หลับนก",
+    "alalc": "lap nok",
+    "meaning": "to fall asleep, doze in a sitting position.",
+    "ipa": "làp nók",
+    "pron_display": "làp ˈnók",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fall asleep, doze in a sitting position."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9514",
+    "source_query": "นก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -798021,6 +799421,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "อำเภอพระนคร",
+    "alalc": "amphœ̄ phra nakhǭn",
+    "meaning": "an amphoe in Bangkok.",
+    "ipa": "am-pʰəə pʰrá ná-kʰɔɔn",
+    "pron_display": "amˈpʰəə pʰrá náˈkʰɔɔn",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "an amphoe in Bangkok."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19586",
+    "source_query": "นค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "อิจฉาตาร้อน",
@@ -822685,6 +824112,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:13770",
     "source_query": "ขล.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "เป่านกหวีด",
+    "alalc": "",
+    "meaning": "blow a whistle, whistle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "blow a whistle, whistle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13772",
+    "source_query": "นก.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"

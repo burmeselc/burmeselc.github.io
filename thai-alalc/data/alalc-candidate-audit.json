@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 32322,
+    "unique_lexical_records": 32374,
     "sample_size": 150,
     "counts": {
       "neither": 83,
@@ -506,6 +506,17 @@
       "comparison": "neither",
       "web_rank": "",
       "pos": ""
+    },
+    {
+      "thai": "หญิงนครโสเภณี",
+      "source_id": "TDP:18054",
+      "pronunciation": "yǐŋ na-kʰɔɔn sǒo-pʰee-nii",
+      "meaning": "courtesan, prostitute.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "ying nakhǭn sōphēnī",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
     },
     {
       "thai": "ความเสียหายจากการสั่นสะเทือนเพราะแผ่นดินไหว",
@@ -1650,17 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": ""
-    },
-    {
-      "thai": "กระเบื้องเคลือบ",
-      "source_id": "TDP:444",
-      "pronunciation": "kra-bʉ̂aŋ kʰlʉ̂ap",
-      "meaning": "enameled tile, glazed tile.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "krabưang khlưap",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
     }
   ]
 }
