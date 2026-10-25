@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 30516,
+    "unique_lexical_records": 32322,
     "sample_size": 150,
     "counts": {
-      "neither": 80,
-      "pronunciation_only": 67,
+      "neither": 83,
+      "pronunciation_only": 64,
       "disagreement": 1,
       "agreement": 2
     },
@@ -530,6 +530,17 @@
       "pos": ""
     },
     {
+      "thai": "ท่อหัวกระจายของเหลว",
+      "source_id": "RI:16308",
+      "pronunciation": "",
+      "meaning": "liquid distributor tube [สารทำความเย็น]",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
+      "pos": ""
+    },
+    {
       "thai": "ยาต้ม",
       "source_id": "RI:22525",
       "pronunciation": "",
@@ -605,6 +616,17 @@
       "comparison": "neither",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "โดยทั่วไป",
+      "source_id": "TDP:6986",
+      "pronunciation": "dooy tʰûa pay",
+      "meaning": "in general, generally.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "dōy thua pay",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": ""
     },
     {
       "thai": "วิชาอนามัยครอบครัว",
@@ -739,6 +761,17 @@
       "pos": "N"
     },
     {
+      "thai": "ทำรัง",
+      "source_id": "LEX2.0:27868",
+      "pronunciation": "",
+      "meaning": "build nest",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "V"
+    },
+    {
       "thai": "วิทยาเชื้อรา",
       "source_id": "RI:25303",
       "pronunciation": "",
@@ -770,6 +803,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "ADV"
+    },
+    {
+      "thai": "ท่วงที",
+      "source_id": "TDP:8573",
+      "pronunciation": "tʰûaŋ tʰii",
+      "meaning": "presence, attitude, deportment, bearing, manner.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "thuang thī",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "ชาน",
@@ -893,6 +937,17 @@
       "pos": "N"
     },
     {
+      "thai": "ท่อลมแนวตั้ง",
+      "source_id": "RI:16290",
+      "pronunciation": "",
+      "meaning": "duct riser",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "ขี้กลากลำตัว",
       "source_id": "RI:9144",
       "pronunciation": "",
@@ -1011,6 +1066,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "ทำให้เบาบาง",
+      "source_id": "RI:15943",
+      "pronunciation": "",
+      "meaning": "attenuate",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
       "pos": ""
     },
     {
@@ -1168,6 +1234,17 @@
       "pos": "N"
     },
     {
+      "thai": "ที่ลุ่ม",
+      "source_id": "TDP:9117",
+      "pronunciation": "tʰîi lûm",
+      "meaning": "lowland, basin.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "thī lum",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "ความรู้หลังประสบการณ์",
       "source_id": "RI:10960",
       "pronunciation": "",
@@ -1176,6 +1253,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "7",
+      "pos": ""
+    },
+    {
+      "thai": "ทำให้มีชีวิตชีวา",
+      "source_id": "RI:15918",
+      "pronunciation": "",
+      "meaning": "vitalise; vitalize",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
       "pos": ""
     },
     {
@@ -1572,94 +1660,6 @@
       "pronunciation_candidate": "krabưang khlưap",
       "comparison": "pronunciation_only",
       "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ตกทอดแก่ทายาท",
-      "source_id": "RI:14210",
-      "pronunciation": "",
-      "meaning": "devolve on the heirs",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ทอฟฟี่",
-      "source_id": "LEX2.0:19370",
-      "pronunciation": "tʰɔ́ɔp fîi",
-      "meaning": "toffee",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thǭp fī",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ราชาวดี",
-      "source_id": "LEX2.0:21572",
-      "pronunciation": "raa cʰaa wá dii",
-      "meaning": "an enamel for gold or silver (as bases), a king of glazing; Buddleja paniculata Wall",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "rā chā wa dī",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ศัลยกรรมตกแต่งเต้านม",
-      "source_id": "RI:25590",
-      "pronunciation": "",
-      "meaning": "mammaplasty; mammoplasty; mastoplasty",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ทำตาปริบๆ",
-      "source_id": "TDP:7675",
-      "pronunciation": "tʰam taa prìp-prìp",
-      "meaning": "to blink the eyes repeatedly (e.g. when stunned by defeat or sorrow).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "tham tā pripprip",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "เงื้อง่า",
-      "source_id": "TDP:4209",
-      "pronunciation": "ŋʉ́a ŋâa",
-      "meaning": "to raise (the hand, a weapon) in a threatening gesture; to gesture menacingly (by raising the hand, preparing to strike).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ngưa ngā",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "V"
-    },
-    {
-      "thai": "ผลักดัน",
-      "source_id": "TDP:6539",
-      "pronunciation": "pʰlàk dan",
-      "meaning": "to push, shove.; to repel.; to put pressure on, to influence.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "phlak dan",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "V"
-    },
-    {
-      "thai": "ธรณีสาร",
-      "source_id": "LEX2.0:28252",
-      "pronunciation": "tʰɔɔ rá nii sǎan",
-      "meaning": "token of ill-fortune",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thǭ ra nī sān",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
       "pos": "N"
     }
   ]
