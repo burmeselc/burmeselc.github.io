@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 29877,
+    "unique_lexical_records": 30516,
     "sample_size": 150,
     "counts": {
       "neither": 80,
@@ -637,6 +637,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "9",
+      "pos": ""
+    },
+    {
+      "thai": "ทรัพย์สินสำหรับเลี้ยงดูครอบครัว",
+      "source_id": "RI:15555",
+      "pronunciation": "",
+      "meaning": "family assets",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
       "pos": ""
     },
     {
@@ -1344,6 +1355,28 @@
       "pos": "N"
     },
     {
+      "thai": "ทรัพย์ที่มีรูปร่าง",
+      "source_id": "RI:15506",
+      "pronunciation": "",
+      "meaning": "corporeal property",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
+    },
+    {
+      "thai": "ทนได้",
+      "source_id": "RI:15478",
+      "pronunciation": "",
+      "meaning": "tolerant",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": ""
+    },
+    {
       "thai": "เห็นแก่ตัว",
       "source_id": "TDP:1778",
       "pronunciation": "hěn kɛ̀ tua",
@@ -1386,6 +1419,17 @@
       "comparison": "neither",
       "web_rank": "7",
       "pos": ""
+    },
+    {
+      "thai": "เครื่องทรง",
+      "source_id": "TDP:8506",
+      "pronunciation": "kʰrʉ̂aŋ soŋ",
+      "meaning": "garment, apparel, attire.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khrưang song",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "วิถีการใส่",
@@ -1542,6 +1586,17 @@
       "pos": ""
     },
     {
+      "thai": "ทอฟฟี่",
+      "source_id": "LEX2.0:19370",
+      "pronunciation": "tʰɔ́ɔp fîi",
+      "meaning": "toffee",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "thǭp fī",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "ราชาวดี",
       "source_id": "LEX2.0:21572",
       "pronunciation": "raa cʰaa wá dii",
@@ -1606,61 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
-    },
-    {
-      "thai": "ขาตั้งรับรถ",
-      "source_id": "RI:9102",
-      "pronunciation": "",
-      "meaning": "car stand; jack stand; safety stand",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ปรับความเข้าใจ",
-      "source_id": "LEX2.0:22190",
-      "pronunciation": "",
-      "meaning": "reconcile, negotiate for mutual understanding; adjust differences; come to an understanding",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "ทวิภาคี",
-      "source_id": "LEX2.0:19731",
-      "pronunciation": "tʰá wí pʰaa kʰii",
-      "meaning": "bilateralness; bilateral contract made by 2 nations",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "tha wi phā khī",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ตะวันออกเฉียงใต้",
-      "source_id": "TDP:7501",
-      "pronunciation": "ta-wan ɔ̀ɔk cʰǐaŋ tâay",
-      "meaning": "the southeast.; southeastern.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "tawan ǭk chiang tāy",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": ""
-    },
-    {
-      "thai": "ดีมาก",
-      "source_id": "LEX2.0:4424",
-      "pronunciation": "",
-      "meaning": "excellent, well-done; outstanding; very well, very good",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "2",
-      "pos": "ADJ; ADV"
     }
   ]
 }
