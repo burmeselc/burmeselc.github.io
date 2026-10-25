@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 32374,
+    "unique_lexical_records": 32522,
     "sample_size": 150,
     "counts": {
       "neither": 83,
@@ -561,6 +561,17 @@
       "comparison": "neither",
       "web_rank": "5",
       "pos": ""
+    },
+    {
+      "thai": "นวนิยาย",
+      "source_id": "TDP:9557",
+      "pronunciation": "ná-wá-ní-yaay",
+      "meaning": "a novel.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "nawaniyāy",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
     },
     {
       "thai": "น้ำบำรุงผม",
@@ -1650,17 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "N"
-    },
-    {
-      "thai": "ตระการตา",
-      "source_id": "TDP:7647",
-      "pronunciation": "tra-kaan taa",
-      "meaning": "eye-appealing.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "trakān tā",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": ""
     }
   ]
 }

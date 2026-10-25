@@ -76529,7 +76529,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18014",
-    "source_query": "ใ.*",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -105584,7 +105584,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:3252",
-    "source_query": "ขว.*",
+    "source_query": "นม.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -324750,7 +324750,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5383",
-    "source_query": "ชง.*",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -389468,7 +389468,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3951",
-    "source_query": "ด.*",
+    "source_query": "นพ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -405360,7 +405360,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:30506",
-    "source_query": "ตก.*",
+    "source_query": "นร.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -506480,7 +506480,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:19421",
-    "source_query": "ทอ.*",
+    "source_query": "นพ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -563140,6 +563140,114 @@
     "status": "unresolved"
   },
   {
+    "thai": "น.น.",
+    "alalc": "",
+    "meaning": "weight, wt.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "weight, wt."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1353",
+    "source_query": "นน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "น.บ.",
+    "alalc": "nop",
+    "meaning": "Bachelor of Civil Law, B.C.L.",
+    "ipa": "ˈnóp",
+    "pron_display": "ˈnóp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Bachelor of Civil Law, B.C.L."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1354",
+    "source_query": "นบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "น.พ.",
+    "alalc": "nop",
+    "meaning": "doctor",
+    "ipa": "ˈnóp",
+    "pron_display": "ˈnóp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "doctor"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1355",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "น.ศ.",
+    "alalc": "",
+    "meaning": "student",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "student"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1356",
+    "source_query": "นศ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "นก",
     "alalc": "nok",
     "meaning": "bird (ตัว for individuals; ฝูง for flocks).; the cock or hammer of a gun.; \"bird.\"",
@@ -564729,6 +564837,195 @@
     "status": "tentative"
   },
   {
+    "thai": "นที",
+    "alalc": "na thī",
+    "meaning": "river, stream; flow; course; current; tributary; branch; estuary; rivulet",
+    "ipa": "ná tʰii",
+    "pron_display": "ná tʰii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "river, stream; flow; course; current; tributary; branch; estuary; rivulet"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28385",
+    "source_query": "นท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นนตรา",
+    "alalc": "non trā",
+    "meaning": "Carn, horse tamarind",
+    "ipa": "non traa",
+    "pron_display": "non traa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Carn, horse tamarind"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28386",
+    "source_query": "นน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นนท์",
+    "alalc": "",
+    "meaning": "pleasure, delight; enjoyment; happiness; joy; contentment; satisfaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pleasure, delight; enjoyment; happiness; joy; contentment; satisfaction"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28387",
+    "source_query": "นน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นบ",
+    "alalc": "nop",
+    "meaning": "to pay respect by pressing the palms together; to lower the body and press the palms together.",
+    "ipa": "nóp",
+    "pron_display": "ˈnóp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pay respect by pressing the palms together; to lower the body and press the palms together."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9527",
+    "source_query": "นบ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "นบนอบ",
+    "alalc": "nop nǭp",
+    "meaning": "respect, revere; venerate; curtsy; regard; honor; worship",
+    "ipa": "nóp nɔ̂ɔp",
+    "pron_display": "nóp nɔ̂ɔp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "respect, revere; venerate; curtsy; regard; honor; worship"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28389",
+    "source_query": "นบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพ",
+    "alalc": "nop",
+    "meaning": "nine.",
+    "ipa": "nóp",
+    "pron_display": "ˈnóp",
+    "pos": "Nm",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "Nm"
+        ],
+        "definitions": [
+          "nine."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9528",
+    "source_query": "นพ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพกะ",
+    "alalc": "nop pha ka",
+    "meaning": "new corner, one who is young; new or recently admitted",
+    "ipa": "nóp pʰá kà",
+    "pron_display": "nóp pʰá kà",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "new corner, one who is young; new or recently admitted"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28390",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นพคุณ",
     "alalc": "nop pha khun",
     "meaning": "gold, pure gold; aurum",
@@ -564750,7 +565047,221 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:28392",
-    "source_query": "คุ.*",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพนิต",
+    "alalc": "nop pha nit",
+    "meaning": "condensed cheese, clarified butter",
+    "ipa": "nóp pʰá nít",
+    "pron_display": "nóp pʰá nít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "condensed cheese, clarified butter"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28394",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพปฎล",
+    "alalc": "nop pha pa don",
+    "meaning": "umbrella of nine-leveled ceilings, being of nine tiers or layers; ninetiered umbrella",
+    "ipa": "nóp pʰá pà don",
+    "pron_display": "nóp pʰá pà don",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "umbrella of nine-leveled ceilings, being of nine tiers or layers; ninetiered umbrella"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28395",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพรัตน์",
+    "alalc": "nop pha rat",
+    "meaning": "nine gems",
+    "ipa": "nóp pʰá rát",
+    "pron_display": "nóp pʰá rát",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nine gems"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28396",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพศูล",
+    "alalc": "nop pha sūn",
+    "meaning": "nine tops pagoda, nine tops of tall stupa",
+    "ipa": "nóp pʰá sǔun",
+    "pron_display": "nóp pʰá sǔun",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nine tops pagoda, nine tops of tall stupa"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28397",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพเก้า",
+    "alalc": "nop pha kaw",
+    "meaning": "nine-gem",
+    "ipa": "nóp pʰá kâw",
+    "pron_display": "nóp pʰá kâw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nine-gem"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28391",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพเคราะห์",
+    "alalc": "nop pha khrǫ",
+    "meaning": "planet, nine celestial bodies",
+    "ipa": "nóp pʰá kʰrɔ́",
+    "pron_display": "nóp pʰá kʰrɔ́",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "planet, nine celestial bodies"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28393",
+    "source_query": "นพ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นพเทวีแห่งศิลปศาสตร์",
+    "alalc": "",
+    "meaning": "Muses",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Muses"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16453",
+    "source_query": "นพ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นภจร",
+    "alalc": "nop pha yǭn",
+    "meaning": "sky-goer",
+    "ipa": "nóp pʰá jɔɔn",
+    "pron_display": "nóp pʰá jɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sky-goer"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28398",
+    "source_query": "นภ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -564780,6 +565291,220 @@
     "source_query": "ด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นภมณฑล",
+    "alalc": "nop pha mon thon",
+    "meaning": "sky, firmament; atmosphere",
+    "ipa": "nóp pʰá mon tʰon",
+    "pron_display": "nóp pʰá mon tʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sky, firmament; atmosphere"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28400",
+    "source_query": "นภ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นภศูล",
+    "alalc": "nop pha sūn",
+    "meaning": "hollow spear of the sky, pagoda top; top-peak of a stupa",
+    "ipa": "nóp pʰá sǔun",
+    "pron_display": "nóp pʰá sǔun",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hollow spear of the sky, pagoda top; top-peak of a stupa"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28401",
+    "source_query": "นภ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นภสินธุ์",
+    "alalc": "nop pha sin",
+    "meaning": "milky way, sky-river; galaxy; universe; Ganges",
+    "ipa": "nóp pʰá sǐn",
+    "pron_display": "nóp pʰá sǐn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "milky way, sky-river; galaxy; universe"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Ganges"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28402",
+    "source_query": "นภ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นภา",
+    "alalc": "naphā",
+    "meaning": "sky, firmament.",
+    "ipa": "ná-pʰaa",
+    "pron_display": "náˈpʰaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sky, firmament."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9529",
+    "source_query": "นภ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นภาลัย",
+    "alalc": "na phā lay",
+    "meaning": "sky, firmament; atmosphere",
+    "ipa": "ná pʰaa lay",
+    "pron_display": "ná pʰaa lay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sky, firmament; atmosphere"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28404",
+    "source_query": "นภ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นม",
+    "alalc": "nom",
+    "meaning": "Undefined. (rhyme? found in --นาน, นาน--.  CLUSTER ทนทาน, บรมโบราณ, other oo-aa re long, over--)",
+    "ipa": "nom",
+    "pron_display": "ˈnom",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Undefined. (rhyme? found in --นาน, นาน--.  CLUSTER ทนทาน, บรมโบราณ, other oo-aa re long, over--)"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9543",
+    "source_query": "นม.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "นม",
+    "alalc": "nom",
+    "meaning": "breast, udder (เต้า, ข้าง).; milk (ขวด or other appropriate container classifier).; any protuberance or appendage resembling a breast or nipple.",
+    "ipa": "nom",
+    "pron_display": "ˈnom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "breast, udder (เต้า, ข้าง)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "milk (ขวด or other appropriate container classifier)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "any protuberance or appendage resembling a breast or nipple."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9530",
+    "source_query": "นม.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -564858,10 +565583,301 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1977",
-    "source_query": "ข้.*",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "นมข้นหวาน",
+    "alalc": "",
+    "meaning": "sweetened condensed milk",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sweetened condensed milk"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:246",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมตาบอด",
+    "alalc": "",
+    "meaning": "breasts with hollow nipples",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "breasts with hollow nipples"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28407",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมตาสะแก",
+    "alalc": "nom tā sa kǣ",
+    "meaning": "kind of breast with protruded nipples",
+    "ipa": "nom taa sà kɛɛ",
+    "pron_display": "nom taa sà kɛɛ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of breast with protruded nipples"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28408",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมถั่วเหลือง",
+    "alalc": "",
+    "meaning": "soybean milk",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "soybean milk"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28409",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมนานมาแล้ว",
+    "alalc": "nom nān mā lǣw",
+    "meaning": "long, long ago.",
+    "ipa": "nom naan maa lɛ́ɛw",
+    "pron_display": "nom ˈnaan maa ˈlɛ́ɛw",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "long, long ago."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9545",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมน้ำเหลือง",
+    "alalc": "",
+    "meaning": "colostrum; foremilk",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "colostrum; foremilk"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16454",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมผง",
+    "alalc": "nom phong",
+    "meaning": "powdered milk.",
+    "ipa": "nom pʰǒŋ",
+    "pron_display": "nom ˈpʰǒŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "powdered milk."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9531",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมผา",
+    "alalc": "nom phā",
+    "meaning": "stalactite, white stalagmite",
+    "ipa": "nom pʰǎa",
+    "pron_display": "nom pʰǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "stalactite, white stalagmite"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28413",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมพร่องมันเนย",
+    "alalc": "",
+    "meaning": "whey",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "whey"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16455",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมพวง",
+    "alalc": "nom phuang",
+    "meaning": "big uncaged breasts, firm breasts; firm-breasted",
+    "ipa": "nom pʰuaŋ",
+    "pron_display": "nom pʰuaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "big uncaged breasts, firm breasts; firm-breasted"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28414",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมยูเอชที",
+    "alalc": "",
+    "meaning": "UHT-treated milk, ultra-high temperature-treated milk",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "UHT-treated milk, ultra-high temperature-treated milk"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:247",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "นมวัว",
@@ -564900,6 +565916,1175 @@
     "status": "tentative"
   },
   {
+    "thai": "นมสด",
+    "alalc": "nom sot",
+    "meaning": "fresh milk.; evaporated milk.",
+    "ipa": "nom sòt",
+    "pron_display": "nom ˈsòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fresh milk."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "evaporated milk."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9533",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมสดกระป๋อง",
+    "alalc": "nom sot krapǫng",
+    "meaning": "evaporated milk.",
+    "ipa": "nom sòt kra-pɔ̌ŋ",
+    "pron_display": "nom ˈsòt kraˈpɔ̌ŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "evaporated milk."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9534",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมหนู",
+    "alalc": "nom nū",
+    "meaning": "(carburetor) jet.; nipple, projection on which the gun cap is placed.",
+    "ipa": "nom nǔu",
+    "pron_display": "nom ˈnǔu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(carburetor) jet."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nipple, projection on which the gun cap is placed."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9535",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นมหนูประหยัดน้ำมัน",
+    "alalc": "",
+    "meaning": "economy jet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "economy jet"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16457",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมหนูหลัก",
+    "alalc": "",
+    "meaning": "main jet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "main jet"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16458",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมหนูเดินเบา",
+    "alalc": "",
+    "meaning": "idle jet; pilot jet; slow-running jet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "idle jet; pilot jet; slow-running jet"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16459",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมัสการ",
+    "alalc": "",
+    "meaning": "worship, pay respect to; pay homage",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "worship, pay respect to; pay homage"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28418",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมเปรี้ยว",
+    "alalc": "",
+    "meaning": "yogurt, yoghourt;  yoghurt",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "yogurt, yoghourt;  yoghurt"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28411",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นมไม้",
+    "alalc": "nom may",
+    "meaning": "breast-shaped support (made of wood), breast-shaped block of wood",
+    "ipa": "nom máy",
+    "pron_display": "nom máy",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "breast-shaped support (made of wood), breast-shaped block of wood"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28415",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นร",
+    "alalc": "non",
+    "meaning": "Office of the Prime Minister",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Prime Minister"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1359",
+    "source_query": "นร.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นร.",
+    "alalc": "",
+    "meaning": "pupil, student",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pupil, student"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1360",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรก",
+    "alalc": "narok",
+    "meaning": "hell.",
+    "ipa": "na-rók",
+    "pron_display": "naˈrók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hell."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9549",
+    "source_query": "นร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นรกอเวจี",
+    "alalc": "",
+    "meaning": "hell, nether world; underworld",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hell, nether world; underworld"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7146",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรกานต์",
+    "alalc": "na ra kān",
+    "meaning": "hell, underworld",
+    "ipa": "ná rá kaan",
+    "pron_display": "ná rá kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hell, underworld"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28420",
+    "source_query": "นร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นรการ",
+    "alalc": "",
+    "meaning": "tuskless elephant, short-tusk elephant",
+    "ipa": "nɔɔ rá kaan, ná rá kaan",
+    "pron_display": "nɔɔ rá kaan, ná rá kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tuskless elephant, short-tusk elephant"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28421",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรชน",
+    "alalc": "",
+    "meaning": "person, man; woman",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "person, man; woman"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1078",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรชาติ",
+    "alalc": "",
+    "meaning": "person, man; woman",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "person, man; woman"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1079",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรสีห์",
+    "alalc": "",
+    "meaning": "lion-hearted man, lion-man Vishnu in his fourth incarnation (when he was half man); great warrior",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lion-hearted man, lion-man Vishnu in his fourth incarnation (when he was half man); great warrior"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28422",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นราธิวาส",
+    "alalc": "narāthiwāt",
+    "meaning": "Narathiwat, a township in S Thailand.",
+    "ipa": "na-raa-tʰí-wâat",
+    "pron_display": "naˈraa.tʰíˈwâat",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Narathiwat, a township in S Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9551",
+    "source_query": "นร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นริศ",
+    "alalc": "",
+    "meaning": "king, monarch; master; sovereign; potentate; emperor; overlord; imperator",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; master; sovereign; potentate; emperor; overlord; imperator"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28424",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นริศร",
+    "alalc": "",
+    "meaning": "king, monarch; master; sovereign; potentate; emperor; overlord; imperator",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; master; sovereign; potentate; emperor; overlord; imperator"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28425",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรีเวชวิทยา",
+    "alalc": "na rī wēt wit tha yā",
+    "meaning": "gynaecology; gynecology",
+    "ipa": "ná rii wêet wít tʰá yaa",
+    "pron_display": "ná rii wêet wít tʰá yaa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gynaecology; gynecology"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16460",
+    "source_query": "นร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นรีเวชวิทยา",
+    "alalc": "na rī wēt wit tha yā",
+    "meaning": "gynecology",
+    "ipa": "ná rii wêet wít tʰá yaa",
+    "pron_display": "ná rii wêet wít tʰá yaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gynecology"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28426",
+    "source_query": "นร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นรีเวชศาสตร์",
+    "alalc": "",
+    "meaning": "gynecology",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gynecology"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4846",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นรีแพทย์",
+    "alalc": "",
+    "meaning": "gynaecologist; gynecologist",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gynaecologist; gynecologist"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16461",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นฤดม",
+    "alalc": "na rư dom",
+    "meaning": "most manly, strongest; most vigorous",
+    "ipa": "ná rʉ́ dom",
+    "pron_display": "ná rʉ́ dom",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "most manly, strongest; most vigorous"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28429",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤตยศาลา",
+    "alalc": "na rit ta ya sā lā",
+    "meaning": "ballroom, dance hall; dance floor; assembly hall; discotheque",
+    "ipa": "ná rít tà yá sǎa laa",
+    "pron_display": "ná rít tà yá sǎa laa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ballroom, dance hall; dance floor; assembly hall; discotheque"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28430",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤบาล",
+    "alalc": "na rư bān",
+    "meaning": "king, monarch; master; sovereign; potentate; emperor; overlord; imperator",
+    "ipa": "ná rʉ́ baan",
+    "pron_display": "ná rʉ́ baan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; master; sovereign; potentate; emperor; overlord; imperator"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28432",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤป",
+    "alalc": "na rư pa",
+    "meaning": "king, monarch; master; sovereign; potentate; emperor; overlord; imperator",
+    "ipa": "ná rʉ́ pà",
+    "pron_display": "ná rʉ́ pà",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; master; sovereign; potentate; emperor; overlord; imperator"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28434",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤปนีติ",
+    "alalc": "na rư pa nī ti",
+    "meaning": "state policy, national policy",
+    "ipa": "ná rʉ́ pà nii tì",
+    "pron_display": "ná rʉ́ pà nii tì",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "state policy, national policy"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28435",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤปัตนี",
+    "alalc": "na rư pat ta nī",
+    "meaning": "queen, king's wife; empress",
+    "ipa": "ná rʉ́ pàt tà nii",
+    "pron_display": "ná rʉ́ pàt tà nii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "queen, king's wife; empress"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31074",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤปเวศม์",
+    "alalc": "na rư pa wēt",
+    "meaning": "court, law-court; royal court",
+    "ipa": "ná rʉ́ pà wêet",
+    "pron_display": "ná rʉ́ pà wêet",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "court, law-court; royal court"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28436",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤพาน",
+    "alalc": "na rư phān",
+    "meaning": "nirvana, salvation; nirvana dying of lust; release from existence through the dying out of lust",
+    "ipa": "ná rʉ́ pʰaan",
+    "pron_display": "ná rʉ́ pʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nirvana, salvation; nirvana dying of lust; release from existence through the dying out of lust"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28437",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤมล",
+    "alalc": "na rư mon",
+    "meaning": "pure, immaculate; flawless; virgin; innocent; spotless; stainless; unspotted; woman, girl ; goddess; belle; queen; pretty maid ; fair maiden ; beautiful girl",
+    "ipa": "ná rʉ́ mon",
+    "pron_display": "ná rʉ́ mon",
+    "pos": "ADJ; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "pure, immaculate; flawless; virgin; innocent; spotless; stainless; unspotted"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "woman, girl ; goddess; belle; queen; pretty maid ; fair maiden ; beautiful girl"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28438",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤมิต",
+    "alalc": "na rư mit",
+    "meaning": "build, create; form; manufacture;  erect; construct; frame; raise; rear; make",
+    "ipa": "ná rʉ́ mít",
+    "pron_display": "ná rʉ́ mít",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "build, create; form; manufacture;  erect; construct; frame; raise; rear; make"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28439",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นฤเทพ",
+    "alalc": "",
+    "meaning": "king, monarch; master; sovereign; potentate; emperor; overlord; imperator",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; master; sovereign; potentate; emperor; overlord; imperator"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28431",
+    "source_query": "นฤ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นฤเบศ",
+    "alalc": "na rư bēt",
+    "meaning": "king, monarch; master; sovereign; potentate; emperor; overlord; imperator",
+    "ipa": "ná rʉ́ bèet",
+    "pron_display": "ná rʉ́ bèet",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; master; sovereign; potentate; emperor; overlord; imperator"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28433",
+    "source_query": "นฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นลาฎ",
+    "alalc": "",
+    "meaning": "forehead, brow",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forehead, brow"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28440",
+    "source_query": "นล.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นว",
+    "alalc": "",
+    "meaning": "nine; new, modern; young; latest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nine"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "new, modern; young; latest"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28441",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวกรรมิก",
+    "alalc": "na wa kan mik",
+    "meaning": "superintendent, construction; constructor; overseer; supervisor; inspector",
+    "ipa": "ná wá kan mík",
+    "pron_display": "ná wá kan mík",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "superintendent, construction; constructor; overseer; supervisor; inspector"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28442",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวชาต",
+    "alalc": "na wa chāt",
+    "meaning": "new, fresh; young; modish; modern; latest",
+    "ipa": "ná wá cʰâat",
+    "pron_display": "ná wá cʰâat",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "new, fresh; young; modish; modern; latest"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28443",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวด",
+    "alalc": "nuat",
+    "meaning": "to thresh (rice).; to massage, knead.",
+    "ipa": "nûat",
+    "pron_display": "ˈnûat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to thresh (rice)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to massage, knead."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9552",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นวดข้าว",
     "alalc": "nuat khāw",
     "meaning": "to thresh rice.",
@@ -564921,7 +567106,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9553",
-    "source_query": "ข้.*",
+    "source_query": "นว.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -564952,6 +567137,1034 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "นวดเฟ้น",
+    "alalc": "nuat fen",
+    "meaning": "to massage (the flesh) by kneading.",
+    "ipa": "nûat fén",
+    "pron_display": "nûat ˈfén",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to massage (the flesh) by kneading."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13626",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวดแป้ง",
+    "alalc": "nuat pǣng",
+    "meaning": "thresh flour",
+    "ipa": "nûat pɛ̂ɛŋ",
+    "pron_display": "nûat pɛ̂ɛŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "thresh flour"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28446",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวทวาร",
+    "alalc": "na wa tha wān",
+    "meaning": "body, frame; corporeal frame; physique; anatomy; form; figure; shape",
+    "ipa": "ná wá tʰá waan",
+    "pron_display": "ná wá tʰá waan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "body, frame; corporeal frame; physique; anatomy; form; figure; shape"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28448",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวนิยาย",
+    "alalc": "nawaniyāy",
+    "meaning": "a novel.",
+    "ipa": "ná-wá-ní-yaay",
+    "pron_display": "ná.wá.níˈyaay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a novel."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9557",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวนิยายกอทิก",
+    "alalc": "",
+    "meaning": "Gothic novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Gothic novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16463",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายกาลเวลา",
+    "alalc": "",
+    "meaning": "time novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "time novel"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16464",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายขนาดสั้น",
+    "alalc": "",
+    "meaning": "novelette [อังกฤษ]; novella [อิตาลี]",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "novelette [อังกฤษ]"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "novella [อิตาลี]"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16465",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายครบสูตร",
+    "alalc": "",
+    "meaning": "well-made novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "well-made novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16467",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายจดหมาย",
+    "alalc": "",
+    "meaning": "epistolary novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "epistolary novel"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16468",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายจิตวิทยา",
+    "alalc": "",
+    "meaning": "psychological novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "psychological novel"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16469",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายชีวิตศิลปิน",
+    "alalc": "",
+    "meaning": "K�nstlerroman",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "K�nstlerroman"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16470",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายชีวิตเสเพล",
+    "alalc": "",
+    "meaning": "picaresque novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "picaresque novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16471",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายชุด",
+    "alalc": "",
+    "meaning": "roman-fleuve",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "roman-fleuve"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16472",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายซากา",
+    "alalc": "",
+    "meaning": "saga novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "saga novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16473",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายปฏิลักษณ์",
+    "alalc": "",
+    "meaning": "anti-novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anti-novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16474",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายปัญหา",
+    "alalc": "",
+    "meaning": "problem novel; thesis novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "problem novel; thesis novel"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16475",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายภูมิภาค",
+    "alalc": "",
+    "meaning": "regional novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "regional novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16476",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายลูกทุ่ง",
+    "alalc": "",
+    "meaning": "novel of the soil",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "novel of the soil"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16477",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายสั้น",
+    "alalc": "",
+    "meaning": "short novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "short novel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16478",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายสารภาพ",
+    "alalc": "",
+    "meaning": "confessional novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "confessional novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16479",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายสิบสตางค์",
+    "alalc": "",
+    "meaning": "dime novel; penny dreadful",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dime novel; penny dreadful"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16480",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายอิงประวัติศาสตร์",
+    "alalc": "",
+    "meaning": "historical novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "historical novel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16481",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายอิงเอกสาร",
+    "alalc": "",
+    "meaning": "documentary novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "documentary novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16482",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายเร้าอารมณ์",
+    "alalc": "",
+    "meaning": "sentimental novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sentimental novel"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16483",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายแนวใหม่",
+    "alalc": "",
+    "meaning": "nouveau roman",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nouveau roman"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16484",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายแฝงชีวิตจริง",
+    "alalc": "",
+    "meaning": "key novel; livre � clef",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "key novel; livre � clef"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16485",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวนิยายโฆษณาชวนเชื่อ",
+    "alalc": "",
+    "meaning": "propaganda novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "propaganda novel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16486",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวปฎล",
+    "alalc": "na wa pa don",
+    "meaning": "umbrella of nine-leveled ceilings, being of nine tiers or layers",
+    "ipa": "ná wá pà don",
+    "pron_display": "ná wá pà don",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "umbrella of nine-leveled ceilings, being of nine tiers or layers"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28450",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวพธู",
+    "alalc": "na wa pha thū",
+    "meaning": "daughter-in-law",
+    "ipa": "ná wá pʰá tʰuu",
+    "pron_display": "ná wá pʰá tʰuu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "daughter-in-law"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28451",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวม",
+    "alalc": "nuam",
+    "meaning": "padding.; boxing gloves (ข้าง).; quilt, comforter (ผืน).",
+    "ipa": "nuam",
+    "pron_display": "ˈnuam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "padding."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "boxing gloves (ข้าง)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "quilt, comforter (ผืน)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9558",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวมไขมัน",
+    "alalc": "",
+    "meaning": "fat pad",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fat pad"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16488",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวยนาด",
+    "alalc": "nuay nāt",
+    "meaning": "stroll, strut; serape lightly;  ramble; saunter; gallivant",
+    "ipa": "nuay nâat",
+    "pron_display": "nuay nâat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "stroll, strut; serape lightly;  ramble; saunter; gallivant"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28454",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวล",
+    "alalc": "nuan",
+    "meaning": "to be soft-colored, cream-colored.; (the complexion) to be delicately beautiful; (the face) to be radiant; (the face) to be nicely powdered.",
+    "ipa": "nuan",
+    "pron_display": "ˈnuan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be soft-colored, cream-colored."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "(the complexion) to be delicately beautiful; (the face) to be radiant; (the face) to be nicely powdered."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9561",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวลระหง",
+    "alalc": "nuan ra hong",
+    "meaning": "beautiful-shaped, good shape; tall and slender",
+    "ipa": "nuan rá hǒŋ",
+    "pron_display": "nuan rá hǒŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "beautiful-shaped, good shape; tall and slender"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28457",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวลลออ",
+    "alalc": "nuan la ǭ",
+    "meaning": "clear-skinned, bright; fair skinned; radiant skinned; beauty, goddess; belle; queen; pretty maid; fair maiden; beautiful girl",
+    "ipa": "nuan lá ɔɔ",
+    "pron_display": "nuan lá ɔɔ",
+    "pos": "ADJ; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "clear-skinned, bright; fair skinned; radiant skinned"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beauty, goddess; belle; queen; pretty maid; fair maiden; beautiful girl"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28458",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวลละออง",
+    "alalc": "nuan la ǭng",
+    "meaning": "clear-skinned, bright; clear; fair skinned; glowing complexion",
+    "ipa": "nuan lá ɔɔŋ",
+    "pron_display": "nuan lá ɔɔŋ",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "clear-skinned, bright; clear; fair skinned; glowing complexion"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28459",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวลหง",
+    "alalc": "nuan la hong",
+    "meaning": "beauty, girl; goddess; belle; queen; pretty maid; fair maiden; beautiful girl; clear-skinned, bright; clear",
+    "ipa": "nuan lá hǒŋ",
+    "pron_display": "nuan lá hǒŋ",
+    "pos": "N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beauty, girl; goddess; belle; queen; pretty maid; fair maiden; beautiful girl"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "clear-skinned, bright; clear"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28460",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นวลแป้ง",
+    "alalc": "",
+    "meaning": "farina",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "farina"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16490",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "นวลใย",
@@ -564985,6 +568198,112 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:28456",
     "source_query": "ใ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวศิลป์",
+    "alalc": "",
+    "meaning": "art nouveau; Jugendstil; modern style; modernista; noodle style; stile liberti",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "art nouveau; Jugendstil; modern style; modernista; noodle style; stile liberti"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:16491",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวัตกรรม",
+    "alalc": "",
+    "meaning": "innovation, change; alteration; novelty; newness; modernization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "innovation, change; alteration; novelty; newness; modernization"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28461",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นวารหาทิคุณ",
+    "alalc": "",
+    "meaning": "nine kinds of divine virtues",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nine kinds of divine virtues"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28462",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "นศ.บ.",
+    "alalc": "",
+    "meaning": "Bachelor of Arts in Mass Communication",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Bachelor of Arts in Mass Communication"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1361",
+    "source_query": "นศ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -565737,6 +569056,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9607",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นอบนบ",
+    "alalc": "nǭp nop",
+    "meaning": "to pay respect by pressing the palms together; to lower the body and press the palms together.",
+    "ipa": "nɔ̂ɔp nóp",
+    "pron_display": "nɔ̂ɔp ˈnóp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pay respect by pressing the palms together; to lower the body and press the palms together."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9630",
+    "source_query": "นบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -567291,6 +570637,60 @@
     "status": "unresolved"
   },
   {
+    "thai": "นางนม",
+    "alalc": "nāng nom",
+    "meaning": "wet nurse.",
+    "ipa": "naaŋ nom",
+    "pron_display": "naaŋ ˈnom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wet nurse."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9536",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นางนวล",
+    "alalc": "nāng nuan",
+    "meaning": "sea gull, gull",
+    "ipa": "naaŋ nuan",
+    "pron_display": "naaŋ nuan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sea gull, gull"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:20204",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นางบำเรอ",
     "alalc": "nāng bamrœ̄",
     "meaning": "\"lady of pleasure,\" e.g. as employed in a night club or dance hall.; mistress, unlawful wife.",
@@ -567430,6 +570830,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:20239",
     "source_query": "ด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นานนม",
+    "alalc": "nān nom",
+    "meaning": "for a long time, age-old; for ages; everlastingly",
+    "ipa": "naan nom",
+    "pron_display": "naan nom",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "for a long time, age-old; for ages; everlastingly"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:20247",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -568931,6 +572358,51 @@
     "status": "tentative"
   },
   {
+    "thai": "นิ่มนวล",
+    "alalc": "nim nuan",
+    "meaning": "to be gentle, tender, gracious.; to be graceful, smooth (in action).; tenderly, graciously; smoothly, gracefully.",
+    "ipa": "nîm nuan",
+    "pron_display": "nîm ˈnuan",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be gentle, tender, gracious."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be graceful, smooth (in action)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "tenderly, graciously; smoothly, gracefully."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9562",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นิ้วกลาง",
     "alalc": "niw klāng",
     "meaning": "middle finger.",
@@ -569456,6 +572928,51 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10158",
     "source_query": "ฟ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "นุ่มนวล",
+    "alalc": "num nuan",
+    "meaning": "to be soft, gentle (of manner, voice).; to be smooth, graceful (in action, manner).; softly, gently; smoothly, gracefully.",
+    "ipa": "nûm nuan",
+    "pron_display": "nûm ˈnuan",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be soft, gentle (of manner, voice)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be smooth, graceful (in action, manner)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "softly, gently; smoothly, gracefully."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9563",
+    "source_query": "นว.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -571484,6 +575001,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:20429",
     "source_query": "ท่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "น้ำนม",
+    "alalc": "nam nom",
+    "meaning": "milk.",
+    "ipa": "nám nom",
+    "pron_display": "nám ˈnom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "milk."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9537",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -596157,7 +599701,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9555",
-    "source_query": "บ.*",
+    "source_query": "นว.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -618523,6 +622067,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8382",
     "source_query": "ถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผ้านวม",
+    "alalc": "phā nuam",
+    "meaning": "quilt, comforter.",
+    "ipa": "pʰâa nuam",
+    "pron_display": "pʰâa ˈnuam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "quilt, comforter."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9559",
+    "source_query": "นว.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -682114,6 +685685,33 @@
     "status": "tentative"
   },
   {
+    "thai": "มีน้ำมีนวล",
+    "alalc": "",
+    "meaning": "look healthy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "look healthy"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13500",
+    "source_query": "นว.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "มีบาดแผลสาหัส",
     "alalc": "mī bāt phlǣ sāhat",
     "meaning": "to be seriously wounded.",
@@ -714335,6 +717933,33 @@
     "status": "tentative"
   },
   {
+    "thai": "รีดนม",
+    "alalc": "rīt nom",
+    "meaning": "to milk.",
+    "ipa": "rîit nom",
+    "pron_display": "ˈrîit ˈnom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to milk."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9539",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รีบกระวีกระวาด",
     "alalc": "rīp krawīkrawāt",
     "meaning": "to hurry.",
@@ -719226,6 +722851,42 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:577",
     "source_query": "ตั.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลอยนวล",
+    "alalc": "lǭy nuan",
+    "meaning": "be at large, be free; scot-free",
+    "ipa": "lɔɔy nuan",
+    "pron_display": "lɔɔy nuan",
+    "pos": "V; ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be at large, be free"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "scot-free"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14444",
+    "source_query": "นว.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -777455,7 +781116,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:17504",
-    "source_query": "ด.*",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -786197,6 +789858,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หมอนวด",
+    "alalc": "mǭ nuat",
+    "meaning": "masseur, masseuse.",
+    "ipa": "mɔ̌ɔ nûat",
+    "pron_display": "mɔ̌ɔ ˈnûat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "masseur, masseuse."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9556",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หมอบราบคาบแก้ว",
     "alalc": "mǭp rāp khāp kǣw",
     "meaning": "to give in, surrender, yield completely.",
@@ -787778,6 +791466,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18256",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หย่านม",
+    "alalc": "yā nom",
+    "meaning": "to wean.",
+    "ipa": "yàa nom",
+    "pron_display": "ˈyàa ˈnom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to wean."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18282",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -791009,6 +794724,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "หัวนม",
+    "alalc": "hua nom",
+    "meaning": "nipple.",
+    "ipa": "hǔa nom",
+    "pron_display": "hǔa ˈnom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nipple."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9542",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หัวนอนปลายตีน",
     "alalc": "hua nǭn plāy tīn",
     "meaning": "the background of a person (especially as it relates to his social status).",
@@ -791665,6 +795407,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "หางนม",
+    "alalc": "",
+    "meaning": "skim-milk, whey",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "skim-milk, whey"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29548",
+    "source_query": "นม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "หางว่าว",
@@ -793111,6 +796880,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18618",
     "source_query": "จ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ห้วงนรก",
+    "alalc": "huang narok",
+    "meaning": "hell (implying vastness, depth, dreadfulness).",
+    "ipa": "hûaŋ na-rók",
+    "pron_display": "ˈhûaŋ naˈrók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hell (implying vastness, depth, dreadfulness)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9550",
+    "source_query": "นร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -795946,6 +799742,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14168",
     "source_query": "ขล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อย่านม",
+    "alalc": "yā nom",
+    "meaning": "to wean.",
+    "ipa": "yàa nom",
+    "pron_display": "ˈyàa ˈnom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to wean."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9541",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -806027,6 +809850,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "เก้าอี้นวม",
+    "alalc": "kawī nuam",
+    "meaning": "overstuffed chair.",
+    "ipa": "kâw-îi nuam",
+    "pron_display": "kâwˌîi ˈnuam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "overstuffed chair."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1672",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เก้ๆ กังๆ",
     "alalc": "",
     "meaning": "awkwardly, clumsily; gawkily",
@@ -815077,6 +818927,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เดนนรก",
+    "alalc": "",
+    "meaning": "bad, base; mean; evil; vile; immoral; vicious; wicked",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "bad, base; mean; evil; vile; immoral; vicious; wicked"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:955",
+    "source_query": "นร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "เดินกระหย่งเท้า",
     "alalc": "dœ̄n krayong thāw",
     "meaning": "to tiptoe, stand on tiptoe.",
@@ -817597,6 +821474,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เต้านม",
+    "alalc": "taw nom",
+    "meaning": "(woman's) breast.",
+    "ipa": "tâw nom",
+    "pron_display": "tâw ˈnom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(woman's) breast."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8020",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เต้าหู้ยี้",
     "alalc": "taw hū yī",
     "meaning": "pickled bean curd",
@@ -817871,6 +821775,42 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:28060",
     "source_query": "ธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เทพนม",
+    "alalc": "thēp pha nom",
+    "meaning": "the figure of deva, clasping hand in; token to worship; name of  a posture in Thai kick-boxing",
+    "ipa": "tʰêep pʰá nom",
+    "pron_display": "tʰêep pʰá nom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the figure of deva, clasping hand in; token to worship"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "name of  a posture in Thai kick-boxing"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28061",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -839165,6 +843105,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แขวนนวม",
+    "alalc": "khwǣn nuam",
+    "meaning": "to quit boxing: \"to hang up the boxing gloves.\"",
+    "ipa": "kʰwɛ̌ɛn nuam",
+    "pron_display": "kʰwɛ̌ɛn ˈnuam",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to quit boxing: \"to hang up the boxing gloves.\""
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2924",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แข็งกระด้าง",
     "alalc": "",
     "meaning": "be rough, be stiff; be harsh",
@@ -843136,6 +847103,58 @@
     "status": "tentative"
   },
   {
+    "thai": "แป้งนม",
+    "alalc": "pǣng nom",
+    "meaning": "powdered milk.",
+    "ipa": "pɛ̂ɛŋ nom",
+    "pron_display": "pɛ̂ɛŋ ˈnom",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "powdered milk."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12036",
+    "source_query": "นม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แป้งนวล",
+    "alalc": "pǣng nuan",
+    "meaning": "face powder",
+    "ipa": "pɛ̂ɛŋ nuan",
+    "pron_display": "pɛ̂ɛŋ nuan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "face powder"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13084",
+    "source_query": "นว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แผงคอ",
     "alalc": "phǣng khǭ",
     "meaning": "mane",
@@ -844525,6 +848544,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9450",
     "source_query": "ธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แม่นม",
+    "alalc": "mǣ nom",
+    "meaning": "wet nurse.",
+    "ipa": "mɛ̂ɛ nom",
+    "pron_display": "mɛ̂ɛ ˈnom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wet nurse."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9538",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -847443,6 +851489,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4071",
     "source_query": "จ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคนม",
+    "alalc": "khō nom",
+    "meaning": "milk cow, dairy cattle; dairy cow; milch cow; milker",
+    "ipa": "kʰoo nom",
+    "pron_display": "kʰoo nom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "milk cow, dairy cattle; dairy cow; milch cow; milker"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10624",
+    "source_query": "นม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -877769,6 +881842,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8809",
     "source_query": "ฆ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไม้นวม",
+    "alalc": "may nuam",
+    "meaning": "musical instrument, padded xylophone hammer; xylophone stick; soft stick; gentleness, blandness; mildness; moderate; tenderness; benignity",
+    "ipa": "máy nuam",
+    "pron_display": "máy nuam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "musical instrument, padded xylophone hammer; xylophone stick; soft stick"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gentleness, blandness; mildness; moderate; tenderness; benignity"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21675",
+    "source_query": "นว.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
