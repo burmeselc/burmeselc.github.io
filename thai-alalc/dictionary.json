@@ -75834,6 +75834,60 @@
     "status": "tentative"
   },
   {
+    "thai": "การปฏิบัติ",
+    "alalc": "",
+    "meaning": "practice, performance; commitment",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "practice, performance; commitment"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4389",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "การปฏิวัติ",
+    "alalc": "",
+    "meaning": "revolution, revolutionary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "revolution, revolutionary"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7610",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "การประชุมนี้ จะกระทำกันที่กรุงเทพฯ",
     "alalc": "",
     "meaning": "They will hold (i.e. conduct) this meeting in Bangkok.",
@@ -92204,7 +92258,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:834",
-    "source_query": "ก่.*",
+    "source_query": "ปฏ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -125552,7 +125606,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2563",
-    "source_query": "ขี.*",
+    "source_query": "ปด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -125579,7 +125633,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2564",
-    "source_query": "ขี.*",
+    "source_query": "ปด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -143316,7 +143370,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2186",
-    "source_query": "ข้.*",
+    "source_query": "ปฏ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -564712,7 +564766,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9517",
-    "source_query": "นค.*",
+    "source_query": "ปฐ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -588788,7 +588842,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10981",
-    "source_query": "นำ.*",
+    "source_query": "ปฏ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -642859,6 +642913,87 @@
     "status": "tentative"
   },
   {
+    "thai": "ป.ป.ง.",
+    "alalc": "",
+    "meaning": "Anti Money Laundering Office, AMLO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Anti Money Laundering Office, AMLO"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1384",
+    "source_query": "ปป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป.ป.ช.",
+    "alalc": "",
+    "meaning": "Office of the National Counter Corruption Commission, NCCC",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the National Counter Corruption Commission, NCCC"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1385",
+    "source_query": "ปป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป.ป.ส",
+    "alalc": "",
+    "meaning": "Office of the Narcotics Control Board, ONCB",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Narcotics Control Board, ONCB"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1386",
+    "source_query": "ปป.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ปก",
     "alalc": "pok",
     "meaning": "cover.; book-cover.; to cover.",
@@ -643438,6 +643573,1067 @@
     "status": "unresolved"
   },
   {
+    "thai": "ปชส.",
+    "alalc": "",
+    "meaning": "public relations",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "public relations"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1388",
+    "source_query": "ปช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกรณ์",
+    "alalc": "pa ti kǭn",
+    "meaning": "reactor, atomic pile; chain reactor; nuclear reactor",
+    "ipa": "pà tì kɔɔn",
+    "pron_display": "pà tì kɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "reactor, atomic pile; chain reactor; nuclear reactor"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22039",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิกรณ์ปรมาณู",
+    "alalc": "",
+    "meaning": "atomic reactor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "atomic reactor"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4915",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกรรม",
+    "alalc": "",
+    "meaning": "restoration",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "restoration"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17646",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกรรมสงคราม",
+    "alalc": "pa ti kam song khrām",
+    "meaning": "war indemnity, war reparation",
+    "ipa": "pà tì kam sǒŋ kʰraam",
+    "pron_display": "pà tì kam sǒŋ kʰraam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "war indemnity, war reparation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22038",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิการะ",
+    "alalc": "",
+    "meaning": "gratitude, appreciation; repaying a kindness; repairing, reparation; atonement; amends",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gratitude, appreciation; repaying a kindness"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "repairing, reparation; atonement; amends"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21989",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาข้างเคียง",
+    "alalc": "",
+    "meaning": "side reaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "side reaction"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2373",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาจากแสง",
+    "alalc": "",
+    "meaning": "photoreaction; photochemical reaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "photoreaction; photochemical reaction"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17648",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาตอบโต้",
+    "alalc": "",
+    "meaning": "respond, react",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "respond, react"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3407",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาต่อรังสี",
+    "alalc": "",
+    "meaning": "radioreaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "radioreaction"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17649",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาปฏิเสธสิ่งปลูกถ่าย",
+    "alalc": "",
+    "meaning": "rejection",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "rejection"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17650",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาปลดเปลื้อง",
+    "alalc": "",
+    "meaning": "abreaction (จิต)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "abreaction (จิต)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17651",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาลูกโซ่",
+    "alalc": "",
+    "meaning": "chain reaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chain reaction"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1916",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาสะท้อน",
+    "alalc": "",
+    "meaning": "reaction, response; repercussion",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "reaction, response; repercussion"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3409",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาเคมี",
+    "alalc": "",
+    "meaning": "chemical reaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chemical reaction"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1114",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกิริยาเรือนกระจก",
+    "alalc": "",
+    "meaning": "greenhouse effect",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "greenhouse effect"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3408",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิกูล",
+    "alalc": "pa ti kūn",
+    "meaning": "refuse, dirt; excretion; rubbish; offensive, foul; dirty; disgusting; nauseous",
+    "ipa": "pà tì kuun",
+    "pron_display": "pà tì kuun",
+    "pos": "N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "refuse, dirt; excretion; rubbish"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "offensive, foul; dirty; disgusting; nauseous"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4917",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิคม",
+    "alalc": "pa ti khom",
+    "meaning": "receptionist, host; hostess; steward; stewardess; welcomer",
+    "ipa": "pà tì kʰom",
+    "pron_display": "pà tì kʰom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "receptionist, host; hostess; steward; stewardess; welcomer"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4918",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิชีวนะ",
+    "alalc": "pa ti chī wa na",
+    "meaning": "antibiotic",
+    "ipa": "pà tì cʰii wá ná",
+    "pron_display": "pà tì cʰii wá ná",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "antibiotic"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4919",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิชีวภาพ",
+    "alalc": "",
+    "meaning": "antibiosis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "antibiosis"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17653",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิญญา",
+    "alalc": "pa tin yā",
+    "meaning": "declaration, vow; agreement; pledge; promise",
+    "ipa": "pà tin yaa",
+    "pron_display": "pà tin yaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "declaration, vow; agreement; pledge; promise"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21999",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิญญาสากลว่าด้วยสิทธิมนุษยชน",
+    "alalc": "pa tin yā sā kon wā duay sit thi ma nut sa ya chon",
+    "meaning": "Declaration of Human Rights",
+    "ipa": "pà tin yaa sǎa kon wâa dûay sìt tʰí má nút sà yá cʰon",
+    "pron_display": "pà tin yaa sǎa kon wâa dûay sìt tʰí má nút sà yá cʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Declaration of Human Rights"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21998",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิญญาสาบาน",
+    "alalc": "",
+    "meaning": "vow",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "vow"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17655",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิญาณ",
+    "alalc": "patiyān",
+    "meaning": "to promise (by an oath), to vow.",
+    "ipa": "pà-ti-yaan",
+    "pron_display": "pà.tiˈyaan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to promise (by an oath), to vow."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10978",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิฐานนิยม",
+    "alalc": "",
+    "meaning": "positivism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "positivism"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17657",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิฐานนิยมเชิงตรรก",
+    "alalc": "",
+    "meaning": "logical positivism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "logical positivism"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17658",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิทรรศน์",
+    "alalc": "",
+    "meaning": "paradox",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "paradox"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17659",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิทรรศน์ของซีโน",
+    "alalc": "",
+    "meaning": "Zeno�s paradoxes",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Zeno�s paradoxes"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17660",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิทรรศน์ของรัสเซลล์",
+    "alalc": "",
+    "meaning": "Russell�s paradox",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Russell�s paradox"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17661",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิทิน",
+    "alalc": "patithin",
+    "meaning": "calendar.",
+    "ipa": "pà-ti-tʰin",
+    "pron_display": "pà.tiˈtʰin",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "calendar."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10979",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิทินลำดับเหตุการณ์",
+    "alalc": "",
+    "meaning": "historical calendar",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "historical calendar"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17662",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิทินโหราศาสตร์",
+    "alalc": "",
+    "meaning": "astrological calendar",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "astrological calendar"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7215",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบถ",
+    "alalc": "pa ti bot",
+    "meaning": "confronting",
+    "ipa": "pà tì bòt",
+    "pron_display": "pà tì bòt",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "confronting"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21988",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิบท",
+    "alalc": "",
+    "meaning": "anticlimax",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anticlimax"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17663",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบัติ",
+    "alalc": "patibat",
+    "meaning": "to be, act, perform, practice.; to apply, put into practice, carry out.; to attend, tend, serve.",
+    "ipa": "pà-ti-bàt",
+    "pron_display": "pà.tiˈbàt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be, act, perform, practice."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to apply, put into practice, carry out."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to attend, tend, serve."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10980",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิบัติการ",
+    "alalc": "patibat kān",
+    "meaning": "to conduct matters, do things; to perform, operate, execute, carry out.",
+    "ipa": "pà-ti-bàt kaan",
+    "pron_display": "pà.tiˈbàt ˈkaan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to conduct matters, do things; to perform, operate, execute, carry out."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1239",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิบัติงาน",
+    "alalc": "",
+    "meaning": "work",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "work"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21992",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบัติตน",
+    "alalc": "",
+    "meaning": "behave, conduct oneself",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "behave, conduct oneself"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3410",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบัติตัว",
+    "alalc": "",
+    "meaning": "behave, conduct",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "behave, conduct"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21991",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ปฏิบัติตาม",
     "alalc": "",
     "meaning": "follow, observe the precepts; behave; track; trace",
@@ -643459,7 +644655,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:31336",
-    "source_query": "ตา.*",
+    "source_query": "ปฏ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -643513,7 +644709,300 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22009",
-    "source_query": "นิ.*",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบัติบูชา",
+    "alalc": "",
+    "meaning": "worship",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "worship"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21995",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบัติภารกิจ",
+    "alalc": "",
+    "meaning": "do one's task, perform one's mission; perform one's duty; carry out one's duty; discharge one's duty",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "do one's task, perform one's mission; perform one's duty; carry out one's duty; discharge one's duty"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7216",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิบัติหน้าที่",
+    "alalc": "",
+    "meaning": "perform one's duty, perform one's mission; do one's task; carry out one's duty; discharge one's duty",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "perform one's duty, perform one's mission; do one's task; carry out one's duty; discharge one's duty"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7217",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิปทา",
+    "alalc": "pa ti pa thā",
+    "meaning": "mode of practices, way; path; behavior; conduct; course; procedure",
+    "ipa": "pà tì pà tʰaa",
+    "pron_display": "pà tì pà tʰaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mode of practices, way; path; behavior; conduct; course; procedure"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21996",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิปักษ์",
+    "alalc": "patipak",
+    "meaning": "adversary, opponent, enemy.",
+    "ipa": "pà-ti-pàk",
+    "pron_display": "pà.tiˈpàk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "adversary, opponent, enemy."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10982",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิพจน์",
+    "alalc": "",
+    "meaning": "oxymoron",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "oxymoron"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17667",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิพัฒนาการ",
+    "alalc": "",
+    "meaning": "dialectic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dialectic"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17668",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิพัทธ์",
+    "alalc": "pa ti phat",
+    "meaning": "love, be fond of; fall in love; be deeply in love",
+    "ipa": "pà tì pʰát",
+    "pron_display": "pà tì pʰát",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "love, be fond of; fall in love; be deeply in love"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22016",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิพากย์",
+    "alalc": "pa ti phāk",
+    "meaning": "retort, reply; answer",
+    "ipa": "pà tì pʰâak",
+    "pron_display": "pà tì pʰâak",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "retort, reply; answer"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22015",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิภาค",
+    "alalc": "patiphāk",
+    "meaning": "proportion.",
+    "ipa": "pà-ti-pʰâak",
+    "pron_display": "pà.tiˈpʰâak",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "proportion."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10983",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิภาณ",
+    "alalc": "",
+    "meaning": "wit, wisdom; resourcefulness; sagacity; astuteness; acumen; intellectual",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wit, wisdom; resourcefulness; sagacity; astuteness; acumen; intellectual"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22013",
+    "source_query": "ปฏ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -643546,6 +645035,712 @@
     "status": "unresolved"
   },
   {
+    "thai": "ปฏิภาณโวหาร",
+    "alalc": "",
+    "meaning": "impromptu rhetoric, improvisation (rhetoric); extemporization",
+    "ipa": "pà tì pʰaan ná woo hǎan, pà tì pʰaan woo hǎan",
+    "pron_display": "pà tì pʰaan ná woo hǎan, pà tì pʰaan woo hǎan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "impromptu rhetoric, improvisation (rhetoric); extemporization"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22011",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิมา",
+    "alalc": "",
+    "meaning": "image, statue; figure; sculpture",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "image, statue; figure; sculpture"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22001",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิมากร",
+    "alalc": "",
+    "meaning": "image, statue; figure; sculpture",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "image, statue; figure; sculpture"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22010",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิยุทธ์",
+    "alalc": "pa ti yut",
+    "meaning": "counter-attack, battle; fight; fight back",
+    "ipa": "pà tì yút",
+    "pron_display": "pà tì yút",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "counter-attack, battle; fight; fight back"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22017",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิรูป",
+    "alalc": "patirūp",
+    "meaning": "to reform.",
+    "ipa": "pà-ti-rûup",
+    "pron_display": "pà.tiˈrûup",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to reform."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10984",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิรูปนิยม",
+    "alalc": "",
+    "meaning": "reformism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "reformism"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17670",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิลักษณ์",
+    "alalc": "",
+    "meaning": "anti-form",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anti-form"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17671",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิวลี",
+    "alalc": "",
+    "meaning": "antiphrasis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "antiphrasis"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17672",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิวัติ",
+    "alalc": "patiwat",
+    "meaning": "revolution, overthrow of a government.; to revolt, stage a revolution.",
+    "ipa": "pà-ti-wát",
+    "pron_display": "pà.tiˈwát",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "revolution, overthrow of a government."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to revolt, stage a revolution."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10986",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิวาต",
+    "alalc": "pa ti wāt",
+    "meaning": "against the wind",
+    "ipa": "pà tì wâat",
+    "pron_display": "pà tì wâat",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "against the wind"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22006",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิวาท",
+    "alalc": "pa ti wāt",
+    "meaning": "retort, riposte; recrimination",
+    "ipa": "pà tì wâat",
+    "pron_display": "pà tì wâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "retort, riposte; recrimination"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22005",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิศิลป์",
+    "alalc": "",
+    "meaning": "anti-art",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anti-art"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17673",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิสนธิ",
+    "alalc": "pa ti son thi",
+    "meaning": "be born, take birth",
+    "ipa": "pà tì sǒn tʰí",
+    "pron_display": "pà tì sǒn tʰí",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be born, take birth"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22003",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิสังขรณ์",
+    "alalc": "patisangkhǭn",
+    "meaning": "to repair, rehabilitate.; repair, rehabilitation.",
+    "ipa": "pa-tì-sǎŋ-kʰɔ̌ɔn",
+    "pron_display": "pa.tì.sǎŋˈkʰɔ̌ɔn",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to repair, rehabilitate."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "repair, rehabilitation."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10987",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิสันถาร",
+    "alalc": "patisanthān",
+    "meaning": "to greet.; to chat with.; greeting (to an inferior).",
+    "ipa": "pa-tì-sǎn-tʰǎan",
+    "pron_display": "pa.tì.sǎnˈtʰǎan",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to greet."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to chat with."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "greeting (to an inferior)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10988",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิสัมพันธ์",
+    "alalc": "",
+    "meaning": "interaction",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "interaction"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22109",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิสัมพันธ์เชิงสร้างสรรค์",
+    "alalc": "",
+    "meaning": "constructive engagement",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "constructive engagement"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17675",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิสาสน์",
+    "alalc": "",
+    "meaning": "recredential (การทูต)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "recredential (การทูต)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17676",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฏิเวธ",
+    "alalc": "pa ti wēt",
+    "meaning": "attain enlightenment, understand thoroughly",
+    "ipa": "pà tì wêet",
+    "pron_display": "pà tì wêet",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "attain enlightenment, understand thoroughly"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22004",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิเสธ",
+    "alalc": "patisēt",
+    "meaning": "to deny, refuse (e.g. a request).; negative; in the negative.",
+    "ipa": "pà-ti-sèet",
+    "pron_display": "pà.tiˈsèet",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to deny, refuse (e.g. a request)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "negative; in the negative."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10989",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฏิโลม",
+    "alalc": "patilōm",
+    "meaning": "in the reverse direction; in reverse order.",
+    "ipa": "pà-ti-loom",
+    "pron_display": "pà.tiˈloom",
+    "pos": "sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "in the reverse direction; in reverse order."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10985",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฐพี",
+    "alalc": "",
+    "meaning": "earth, land; soil",
+    "ipa": "pà tʰà pʰii, pàt tʰà pʰii",
+    "pron_display": "pà tʰà pʰii, pàt tʰà pʰii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "earth, land; soil"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22105",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฐพีวิทยา",
+    "alalc": "",
+    "meaning": "pedology",
+    "ipa": "pà tʰà pʰii wít tʰá yaa, pàt tʰà pʰii wít tʰá yaa",
+    "pron_display": "pà tʰà pʰii wít tʰá yaa, pàt tʰà pʰii wít tʰá yaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pedology"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22104",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฐม",
+    "alalc": "pathom",
+    "meaning": "first; primary, elementary.",
+    "ipa": "pa-tʰǒm",
+    "pron_display": "paˈtʰǒm",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "first; primary, elementary."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10991",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฐมกรรม",
+    "alalc": "pa thom ma kam",
+    "meaning": "first duty, first rule; primary rule; essential parts",
+    "ipa": "pà tʰǒm má kam",
+    "pron_display": "pà tʰǒm má kam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "first duty, first rule; primary rule; essential parts"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22102",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ปฐมฌาน",
     "alalc": "pa thom ma chān",
     "meaning": "first stage of Buddhist meditation, primary instincts; first absorption; initial stage of instinct",
@@ -643567,7 +645762,59 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22101",
-    "source_query": "ฌ.*",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฐมฐาน",
+    "alalc": "",
+    "meaning": "primitive",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "primitive"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17679",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฐมดุสิต",
+    "alalc": "pa thom du sit",
+    "meaning": "name of a Thai tune",
+    "ipa": "pà tʰǒm dù sìt",
+    "pron_display": "pà tʰǒm dù sìt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "name of a Thai tune"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22100",
+    "source_query": "ปฐ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -643594,10 +645841,35 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22099",
-    "source_query": "ทั.*",
+    "source_query": "ปฐ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ปฐมธาตุ",
+    "alalc": "",
+    "meaning": "first principle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "first principle"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17680",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ปฐมนิเทศ",
@@ -643621,7 +645893,68 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22107",
-    "source_query": "นิ.*",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฐมพยาบาล",
+    "alalc": "pathom phayābān",
+    "meaning": "first aid.; to administer first aid.",
+    "ipa": "pa-tʰǒm pʰa-yaa-baan",
+    "pron_display": "paˈtʰǒm pʰa.yaaˈbaan",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "first aid."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to administer first aid."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10992",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฐมภาค",
+    "alalc": "",
+    "meaning": "primary sector",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "primary sector"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17682",
+    "source_query": "ปฐ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -643702,7 +646035,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22092",
-    "source_query": "ฤ.*",
+    "source_query": "ปฐ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -643756,7 +646089,782 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10994",
-    "source_query": "ศ.*",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฐมสมโพธิ",
+    "alalc": "",
+    "meaning": "life of the Buddha, name of a treatise on the Buddha's life",
+    "ipa": "pà tʰǒm má sǒm pʰôot, pà tʰǒm sǒm pʰôot",
+    "pron_display": "pà tʰǒm má sǒm pʰôot, pà tʰǒm sǒm pʰôot",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "life of the Buddha, name of a treatise on the Buddha's life"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22090",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฐมสุรทิน",
+    "alalc": "pa thom ma su ra thin",
+    "meaning": "first day of the solar month",
+    "ipa": "pà tʰǒm má sù rá tʰin",
+    "pron_display": "pà tʰǒm má sù rá tʰin",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "first day of the solar month"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22115",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปฐมเทศนา",
+    "alalc": "",
+    "meaning": "Buddha's first sermon, First Sermon of the Buddha; style of Buddha in the attitude of giving a sermon",
+    "ipa": "pà tʰǒm má tʰee sà naa, pà tʰǒm má tʰêet sà nǎa, pà tʰǒm tʰêet sà nǎa",
+    "pron_display": "pà tʰǒm má tʰee sà naa, pà tʰǒm má tʰêet sà nǎa, pà tʰǒm tʰêet sà nǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Buddha's first sermon, First Sermon of the Buddha"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "style of Buddha in the attitude of giving a sermon"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22089",
+    "source_query": "ปฐ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปฐมโพธิกาล",
+    "alalc": "pa thom ma phō thi kān",
+    "meaning": "first time of enlightenment of Buddha",
+    "ipa": "pà tʰǒm má pʰoo tʰí kaan",
+    "pron_display": "pà tʰǒm má pʰoo tʰí kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "first time of enlightenment of Buddha"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22095",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปณ.",
+    "alalc": "",
+    "meaning": "post office, P.O.; PO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "post office, P.O.; PO"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1389",
+    "source_query": "ปณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปณก.",
+    "alalc": "",
+    "meaning": "General Post Office, G.P.O; general post office",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "General Post Office, G.P.O"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "general post office"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1390",
+    "source_query": "ปณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปณต",
+    "alalc": "pa not",
+    "meaning": "salute, pay respect by placing one's palms together; greet; put one's palms together in worship",
+    "ipa": "pà nót",
+    "pron_display": "pà nót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "salute, pay respect by placing one's palms together; greet; put one's palms together in worship"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22117",
+    "source_query": "ปณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปณิธาน",
+    "alalc": "panithān",
+    "meaning": "resolution, formulation of intent, determination.",
+    "ipa": "pà-ní-tʰaan",
+    "pron_display": "pà.níˈtʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "resolution, formulation of intent, determination."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10997",
+    "source_query": "ปณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปณิธานสังคมนิยม",
+    "alalc": "",
+    "meaning": "socialist intent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "socialist intent"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17684",
+    "source_query": "ปณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปณีต",
+    "alalc": "pa nīt",
+    "meaning": "fine, delicate; elaborate; neat; scrupulous;  refined",
+    "ipa": "pà nîit",
+    "pron_display": "pà nîit",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "fine, delicate; elaborate; neat; scrupulous;  refined"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22124",
+    "source_query": "ปณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปด",
+    "alalc": "pot",
+    "meaning": "to lie, tell a lie.",
+    "ipa": "pòt",
+    "pron_display": "ˈpòt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to lie, tell a lie."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10998",
+    "source_query": "ปด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปดโป้",
+    "alalc": "",
+    "meaning": "lie, fib; tell a lie; tell a fib",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lie, fib; tell a lie; tell a fib"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22122",
+    "source_query": "ปด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปตท.",
+    "alalc": "",
+    "meaning": "Petroleum Authority of Thailand, PTT",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Petroleum Authority of Thailand, PTT"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1391",
+    "source_query": "ปต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปติยัต",
+    "alalc": "pa ti yat",
+    "meaning": "finish, prepare; fulfill; decorate; adorn",
+    "ipa": "pà tì yát",
+    "pron_display": "pà tì yát",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "finish, prepare; fulfill; decorate; adorn"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22121",
+    "source_query": "ปต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปทัฏฐาน",
+    "alalc": "pa that thān",
+    "meaning": "norm, standard; criterion; yardstick",
+    "ipa": "pà tʰát tʰǎan",
+    "pron_display": "pà tʰát tʰǎan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "norm, standard; criterion; yardstick"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22120",
+    "source_query": "ปท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปทัสถาน",
+    "alalc": "pa that thān",
+    "meaning": "norm",
+    "ipa": "pà tʰát tʰǎan",
+    "pron_display": "pà tʰát tʰǎan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "norm"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17686",
+    "source_query": "ปท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปทานุกรม",
+    "alalc": "pathānukrom",
+    "meaning": "dictionary.",
+    "ipa": "pà-tʰaa-nú-krom",
+    "pron_display": "pàˈtʰaa.núˈkrom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dictionary."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11000",
+    "source_query": "ปท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปทารถะ",
+    "alalc": "",
+    "meaning": "category",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "category"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17687",
+    "source_query": "ปท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปทุม",
+    "alalc": "pa thum",
+    "meaning": "water lily, lotus",
+    "ipa": "pà tʰum",
+    "pron_display": "pà tʰum",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "water lily, lotus"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22118",
+    "source_query": "ปท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปทุมวัน",
+    "alalc": "pathumwan",
+    "meaning": "Pathumwan, an amphoe in Bangkok.",
+    "ipa": "pa-tʰum-wan",
+    "pron_display": "paˈtʰumˈwan",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Pathumwan, an amphoe in Bangkok."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11002",
+    "source_query": "ปท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปธน.",
+    "alalc": "",
+    "meaning": "president, Pres.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "president, Pres."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1392",
+    "source_query": "ปธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปน",
+    "alalc": "pon",
+    "meaning": "to mix.; to be mixed, blended.",
+    "ipa": "pon",
+    "pron_display": "ˈpon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to mix."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be mixed, blended."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11003",
+    "source_query": "ปน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปนาลี",
+    "alalc": "",
+    "meaning": "gargoyle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gargoyle"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17688",
+    "source_query": "ปน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปนเป",
+    "alalc": "pon pē",
+    "meaning": "to mix together.; to mix, be mixed in a disorderly or confused way.",
+    "ipa": "pon pee",
+    "pron_display": "pon ˈpee",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to mix together."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to mix, be mixed in a disorderly or confused way."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11005",
+    "source_query": "ปน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปนเปื้อน",
+    "alalc": "",
+    "meaning": "contaminated, dirty; infected; polluted; contaminate, infect; pollute",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "contaminated, dirty; infected; polluted"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "contaminate, infect; pollute"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3411",
+    "source_query": "ปน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปม",
+    "alalc": "pom",
+    "meaning": "knot.; a complex.",
+    "ipa": "pom",
+    "pron_display": "ˈpom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "knot."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a complex."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11009",
+    "source_query": "ปม.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปมจิต",
+    "alalc": "pom yit",
+    "meaning": "mental complex",
+    "ipa": "pom jìt",
+    "pron_display": "pom jìt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mental complex"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22081",
+    "source_query": "ปม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -643784,6 +646892,166 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:6504",
     "source_query": "ด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปมประสาท",
+    "alalc": "pom pra sāt",
+    "meaning": "site of nerve cells",
+    "ipa": "pom prà sàat",
+    "pron_display": "pom prà sàat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "site of nerve cells"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22072",
+    "source_query": "ปม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปมปัญหา",
+    "alalc": "",
+    "meaning": "crux, problem",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "crux, problem"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22071",
+    "source_query": "ปม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปมร่วมอ้างอิง",
+    "alalc": "",
+    "meaning": "datum node",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "datum node"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:17693",
+    "source_query": "ปม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปมสังหาร",
+    "alalc": "",
+    "meaning": "clues of murder",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "clues of murder"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1115",
+    "source_query": "ปม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปมเขื่อง",
+    "alalc": "",
+    "meaning": "superiority complex",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "superiority complex"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22110",
+    "source_query": "ปม.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ปมเด่น",
+    "alalc": "pom den",
+    "meaning": "superiority complex.",
+    "ipa": "pom dèn",
+    "pron_display": "pom ˈdèn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "superiority complex."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6844",
+    "source_query": "ปม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -646086,6 +649354,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ประโยคปฏิเสธ",
+    "alalc": "",
+    "meaning": "negative sentence",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "negative sentence"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22399",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ประโยชน์ของส่วนรวม",
     "alalc": "prayōt khǭng suan ruam",
     "meaning": "the common interest, common good; the collective advantage.",
@@ -646898,6 +650193,51 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ปลอมปน",
+    "alalc": "plǭm pon",
+    "meaning": "be contaminated, be adulterated; be polluted; impure, unrefined; adulterated; mixed; debased; adulterate",
+    "ipa": "plɔɔm pon",
+    "pron_display": "plɔɔm pon",
+    "pos": "V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be contaminated, be adulterated; be polluted"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "impure, unrefined; adulterated; mixed; debased"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "adulterate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3691",
+    "source_query": "ปน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ปลัดกระทรวง",
@@ -650674,6 +654014,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11741",
     "source_query": "ฝ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ปุ่มปม",
+    "alalc": "pum pom",
+    "meaning": "knots, kinks.",
+    "ipa": "pùm pom",
+    "pron_display": "ˈpùm ˈpom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "knots, kinks."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11010",
+    "source_query": "ปม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -820504,6 +823871,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "สิ่งปฏิกูล",
+    "alalc": "",
+    "meaning": "filth, garbage; sewage",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "filth, garbage; sewage"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16643",
+    "source_query": "ปฏ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "สิ่งมีชีวิต",
     "alalc": "sing mī chīwit",
     "meaning": "living things.",
@@ -829716,6 +833110,42 @@
     "status": "tentative"
   },
   {
+    "thai": "หลักปฏิบัติ",
+    "alalc": "lak patibat",
+    "meaning": "principles of conduct, of procedure.; practice (as opposed to theory).",
+    "ipa": "làk pà-ti-bàt",
+    "pron_display": "ˈlàk pà.tiˈbàt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "principles of conduct, of procedure."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "practice (as opposed to theory)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18391",
+    "source_query": "ปฏ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หลักวิชา",
     "alalc": "lak wichā",
     "meaning": "theory (as opposed to practice).",
@@ -834997,6 +838427,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10042",
     "source_query": "น้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ห้องปฏิบัติการ",
+    "alalc": "hǫng patibat kān",
+    "meaning": "laboratory.",
+    "ipa": "hɔ̂ŋ pà-ti-bàt kaan",
+    "pron_display": "ˈhɔ̂ŋ pà.tiˈbàt ˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "laboratory."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1240",
+    "source_query": "ปฏ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -855021,6 +858478,42 @@
     "status": "tentative"
   },
   {
+    "thai": "เจือปน",
+    "alalc": "yưa pon",
+    "meaning": "mix, blend; mingle; add; added, adulterated; mixed",
+    "ipa": "jʉa pon",
+    "pron_display": "jʉa pon",
+    "pos": "V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "mix, blend; mingle; add"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "added, adulterated; mixed"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27157",
+    "source_query": "ปน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เจื่อนจาง",
     "alalc": "yưan yāng",
     "meaning": "to become tasteless, insipid.; to become thin, diluted.; to vanish, fade, evaporate.",
@@ -866588,6 +870081,63 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10974",
     "source_query": "ปก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เป็นปฐม",
+    "alalc": "pen pathom",
+    "meaning": "in the first place.; originally, first.",
+    "ipa": "pen pa-tʰǒm",
+    "pron_display": "pen paˈtʰǒm",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "in the first place."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "originally, first."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10995",
+    "source_query": "ปฐ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เป็นปม",
+    "alalc": "pen pom",
+    "meaning": "to be knotted, knotty.",
+    "ipa": "pen pom",
+    "pron_display": "pen ˈpom",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be knotted, knotty."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11012",
+    "source_query": "ปม.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -887685,6 +891235,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "แปดปน",
+    "alalc": "pǣt pon",
+    "meaning": "to mix.",
+    "ipa": "pɛ̀ɛt pon",
+    "pron_display": "pɛ̀ɛt ˈpon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to mix."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12046",
+    "source_query": "ปน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แปรขบวน",
     "alalc": "prǣ kha buan",
     "meaning": "deploy, variate the row",
@@ -901348,7 +904925,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11004",
-    "source_query": "กั.*",
+    "source_query": "ปน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
