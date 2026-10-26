@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 32522,
+    "unique_lexical_records": 33520,
     "sample_size": 150,
     "counts": {
-      "neither": 83,
-      "pronunciation_only": 64,
+      "neither": 84,
+      "pronunciation_only": 63,
       "disagreement": 1,
       "agreement": 2
     },
@@ -439,6 +439,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "6",
+      "pos": ""
+    },
+    {
+      "thai": "นักปรสิตวิทยา",
+      "source_id": "RI:16582",
+      "pronunciation": "",
+      "meaning": "parasitologist",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
       "pos": ""
     },
     {
@@ -902,6 +913,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": ""
+    },
+    {
+      "thai": "อมพะนำ",
+      "source_id": "TDP:19112",
+      "pronunciation": "om pʰa nam",
+      "meaning": "to keep quiet, keep something to oneself, hold one's tongue.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "om pha nam",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
     },
     {
       "thai": "ตัวเบียนบังเอิญ",
@@ -1377,6 +1399,17 @@
       "pos": "CONJ"
     },
     {
+      "thai": "นิยายซากา",
+      "source_id": "RI:16775",
+      "pronunciation": "",
+      "meaning": "saga",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "กระเตาะกระแตะ",
       "source_id": "LEX2.0:24047",
       "pronunciation": "krà tɔ̀ krà tɛ̀",
@@ -1386,6 +1419,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "ADV"
+    },
+    {
+      "thai": "นาฬิวิทยา",
+      "source_id": "RI:16726",
+      "pronunciation": "",
+      "meaning": "angiology",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
     },
     {
       "thai": "ชื่อกฎหมาย",
@@ -1614,50 +1658,6 @@
       "meaning": "giant, ogre; colossus",
       "spelling_candidate": null,
       "pronunciation_candidate": "yak",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ลมไม่ดี",
-      "source_id": "TDP:6720",
-      "pronunciation": "lom mây dii",
-      "meaning": "to be in a bad mood.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "lom may dī",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "วัฒนธรรมพลเมือง",
-      "source_id": "RI:25016",
-      "pronunciation": "",
-      "meaning": "civic culture",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "จุดแยกสามราก",
-      "source_id": "RI:12901",
-      "pronunciation": "",
-      "meaning": "trifurcation",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "จุดหมายปลายทาง",
-      "source_id": "TDP:11437",
-      "pronunciation": "jùt mǎay plaay tʰaaŋ",
-      "meaning": "destination, final goal, aim.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yut māy plāy thāng",
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "N"
