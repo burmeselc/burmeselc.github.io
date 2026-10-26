@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 33520,
+    "unique_lexical_records": 34053,
     "sample_size": 150,
     "counts": {
-      "neither": 84,
-      "pronunciation_only": 63,
+      "neither": 85,
+      "pronunciation_only": 62,
       "disagreement": 1,
       "agreement": 2
     },
@@ -739,6 +739,17 @@
       "pos": "V"
     },
     {
+      "thai": "น้องเลี้ยง",
+      "source_id": "TDP:16431",
+      "pronunciation": "nɔ́ɔŋ líaŋ",
+      "meaning": "younger sibling related through one parent, through a stepparent, or by adoption; hence a younger half-brother, stepbrother, foster brother, half-sister, etc.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "nǭng liang",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "ผ้าขาวบาง",
       "source_id": "TDP:2458",
       "pronunciation": "pʰâa kʰǎaw baaŋ",
@@ -957,6 +968,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "น้ำมันเบนซินพิเศษ",
+      "source_id": "LEX2.0:2013",
+      "pronunciation": "",
+      "meaning": "gasoline, super grade petrol",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "N"
     },
     {
       "thai": "คนขี้เมา",
@@ -1564,6 +1586,17 @@
       "pos": "V"
     },
     {
+      "thai": "อาบน้ำศพ",
+      "source_id": "LEX2.0:5927",
+      "pronunciation": "",
+      "meaning": "bath a dead body before putting it in a coffin; bathing rites for the corpse, bathing ceremony consisting of sprinkling water on the hand of the dead",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "V; N"
+    },
+    {
       "thai": "กระดูกทะลุ",
       "source_id": "RI:415",
       "pronunciation": "",
@@ -1627,39 +1660,6 @@
       "pronunciation_candidate": "wanna",
       "comparison": "pronunciation_only",
       "web_rank": "",
-      "pos": "N"
-    },
-    {
-      "thai": "กลับใจ",
-      "source_id": "TDP:666",
-      "pronunciation": "klàp jay",
-      "meaning": "to change one's mind, to turn over a new leaf, have a change of heart.; to be converted (to a religion).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "klap yay",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "V"
-    },
-    {
-      "thai": "คล้ายแปรง",
-      "source_id": "RI:10311",
-      "pronunciation": "",
-      "meaning": "penicillate",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "ยักข์",
-      "source_id": "LEX2.0:21816",
-      "pronunciation": "yák",
-      "meaning": "giant, ogre; colossus",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "yak",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
       "pos": "N"
     }
   ]
