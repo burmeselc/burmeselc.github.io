@@ -24,6 +24,7 @@ jobs:
       - run: node --check dopa-quest/bootstrap.js
       - run: node --check dopa-quest/cloud-sync.js
       - run: node --test dopa-quest/tests/quality.test.mjs
+      - run: node --test dopa-quest/tests/thai-lessons.test.mjs
       - run: node --test dopa-quest/tests/pwa.test.mjs
       - run: node --check dopa-quest/service-worker.js
       - name: Check incoming Shan CSV audit is read-only and lossless
