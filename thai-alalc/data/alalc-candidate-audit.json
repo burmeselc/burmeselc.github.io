@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 34181,
+    "unique_lexical_records": 36202,
     "sample_size": 150,
     "counts": {
-      "neither": 85,
-      "pronunciation_only": 62,
+      "neither": 83,
+      "pronunciation_only": 64,
       "disagreement": 1,
       "agreement": 2
     },
@@ -200,6 +200,17 @@
       "pos": "N"
     },
     {
+      "thai": "อีกประการหนึ่ง",
+      "source_id": "TDP:11061",
+      "pronunciation": "ìik pra-kaan nʉŋ",
+      "meaning": "furthermore, also, (and for) another thing.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "īk prakān nưng",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": ""
+    },
+    {
       "thai": "ลูกทรงกลม",
       "source_id": "TDP:8508",
       "pronunciation": "lûuk soŋ klom",
@@ -351,6 +362,17 @@
       "pronunciation_candidate": "yep yay",
       "comparison": "pronunciation_only",
       "web_rank": "3",
+      "pos": "V"
+    },
+    {
+      "thai": "ประหัต",
+      "source_id": "TDP:11278",
+      "pronunciation": "pra-hàt",
+      "meaning": "to kill, destroy.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "prahat",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
       "pos": "V"
     },
     {
@@ -662,6 +684,17 @@
       "pos": ""
     },
     {
+      "thai": "ประสาทหู",
+      "source_id": "RI:17960",
+      "pronunciation": "",
+      "meaning": "acoustic nerve; auditory nerve; vestibulocochlear nerve",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "วิชาอนามัยครอบครัว",
       "source_id": "RI:25209",
       "pronunciation": "",
@@ -758,6 +791,17 @@
       "pronunciation_candidate": "phā khāw bāng",
       "comparison": "pronunciation_only",
       "web_rank": "5",
+      "pos": "N"
+    },
+    {
+      "thai": "ประลัย",
+      "source_id": "TDP:11227",
+      "pronunciation": "pra-lay",
+      "meaning": "death, destruction.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "pralay",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
       "pos": "N"
     },
     {
@@ -926,6 +970,17 @@
       "pos": ""
     },
     {
+      "thai": "ประสาทอักเสบเหตุสูงอายุ",
+      "source_id": "RI:17975",
+      "pronunciation": "",
+      "meaning": "senile neuritis",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "อมพะนำ",
       "source_id": "TDP:19112",
       "pronunciation": "om pʰa nam",
@@ -935,6 +990,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "V"
+    },
+    {
+      "thai": "ปูนแต่ง",
+      "source_id": "RI:18509",
+      "pronunciation": "",
+      "meaning": "stucco",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
     },
     {
       "thai": "ตัวเบียนบังเอิญ",
@@ -1190,6 +1256,17 @@
       "pos": ""
     },
     {
+      "thai": "ประเทศเอกราช",
+      "source_id": "TDP:19826",
+      "pronunciation": "pra-tʰêet èek-ka râat",
+      "meaning": "independent country.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "prathēt ēkka rāt",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "คนอื่น",
       "source_id": "LEX2.0:25179",
       "pronunciation": "",
@@ -1253,6 +1330,17 @@
       "pronunciation_candidate": "khop chū",
       "comparison": "pronunciation_only",
       "web_rank": "5",
+      "pos": "V"
+    },
+    {
+      "thai": "หมิ่นประมาท",
+      "source_id": "TDP:11207",
+      "pronunciation": "mìn pra-màat",
+      "meaning": "to be contemptuous of.; to insult.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "min pramāt",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
       "pos": "V"
     },
     {
@@ -1572,94 +1660,6 @@
       "pronunciation_candidate": "kalāsī",
       "comparison": "pronunciation_only",
       "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "วกเวียน",
-      "source_id": "TDP:16589",
-      "pronunciation": "wók wian",
-      "meaning": "to go back and forth or round and round (between two or more places or subjects).; to be winding (as of a road).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "wok wian",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "V"
-    },
-    {
-      "thai": "อาบน้ำศพ",
-      "source_id": "LEX2.0:5927",
-      "pronunciation": "",
-      "meaning": "bath a dead body before putting it in a coffin; bathing rites for the corpse, bathing ceremony consisting of sprinkling water on the hand of the dead",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": "V; N"
-    },
-    {
-      "thai": "กระดูกทะลุ",
-      "source_id": "RI:415",
-      "pronunciation": "",
-      "meaning": "perforating fracture",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "เครื่องทรง",
-      "source_id": "TDP:8506",
-      "pronunciation": "kʰrʉ̂aŋ soŋ",
-      "meaning": "garment, apparel, attire.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khrưang song",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "วิถีการใส่",
-      "source_id": "RI:25223",
-      "pronunciation": "",
-      "meaning": "path of insertion",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "กึ่งเรื้อรัง",
-      "source_id": "RI:8710",
-      "pronunciation": "",
-      "meaning": "subchronic",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ความสูญเปล่า",
-      "source_id": "LEX2.0:9765",
-      "pronunciation": "",
-      "meaning": "waste",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "วัณ-",
-      "source_id": "TDP:16635",
-      "pronunciation": "wan-na",
-      "meaning": "a wound, an abcess.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "wanna",
-      "comparison": "pronunciation_only",
-      "web_rank": "",
       "pos": "N"
     }
   ]
