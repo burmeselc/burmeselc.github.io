@@ -98,7 +98,7 @@
   // Thai textbook pilot: additive deck, never replacing Shan/Burmese IDs or progress.
   // Two independently validated Thai lessons; preserve stable IDs and older progress.
   window.DOPA_DATA.thai=[];
-  for(const [lesson,file,count] of [['01','thai-lesson01-pilot.json',55],['02','thai-lesson02-reviewed.json',80]]){
+  for(const [lesson,file,count] of [['01','thai-lesson01-pilot.json',55],['02','thai-lesson02-reviewed.json',80],['03','thai-lesson03-reviewed.json',184]]){
     try{
       const res=await fetch('./data/'+file,{cache:'no-cache'});
       if(!res.ok)throw Error(file+' HTTP '+res.status);
@@ -106,8 +106,9 @@
       if(pilot.schema!=='dopa-thai-pilot-v1'||pilot.cards?.length!==count||
         new Set(pilot.cards.map(c=>c.id)).size!==count||
         pilot.cards.some(c=>!new RegExp('^TH-L'+lesson+'-\\d{3}$').test(c.id)||
-          c.lesson!==lesson||!c.thai||!c.japanese||!c.romanization_draft||
-          c.visual_review!=='user_confirmed_2026-10-20'))
+          c.lesson!==lesson||!c.thai||!c.japanese||
+          (!c.romanization_draft&&!(c.card_type==='pattern'&&c.reading_status==='not_in_textbook_as_unit'))||
+          !/^user_confirmed_\d{4}-\d{2}-\d{2}$/.test(c.visual_review||'')))
         throw Error(file+' integrity failed');
       const offset=window.DOPA_DATA.thai.length;
       window.DOPA_DATA.thai.push(...pilot.cards.map((c,i)=>({
