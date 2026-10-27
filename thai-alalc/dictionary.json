@@ -76269,6 +76269,33 @@
     "status": "tentative"
   },
   {
+    "thai": "การป้องกัน",
+    "alalc": "",
+    "meaning": "prevention, precaution; safeguard; avoidance",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "prevention, precaution; safeguard; avoidance"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7617",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "การฝังเข็ม",
     "alalc": "",
     "meaning": "acupuncture",
@@ -459065,7 +459092,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:18186",
-    "source_query": "ติ.*",
+    "source_query": "ป้.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -694481,7 +694508,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11505",
-    "source_query": "ปิ.*",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -699865,7 +699892,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:13224",
-    "source_query": "ปุ.*",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -702072,6 +702099,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ป่น",
+    "alalc": "pon",
+    "meaning": "to grind, pulverize.",
+    "ipa": "pòn",
+    "pron_display": "ˈpòn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to grind, pulverize."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11007",
+    "source_query": "ป่.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "ป่นปี้",
     "alalc": "pon pī",
     "meaning": "to be utterly ruined.",
@@ -702092,6 +702146,69 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11008",
     "source_query": "ปี.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วง",
+    "alalc": "puang",
+    "meaning": "diarrhea, sprue; a deficiency disease; food poisoning",
+    "ipa": "pùaŋ",
+    "pron_display": "pùaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "diarrhea, sprue; a deficiency disease; food poisoning"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10978",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วน",
+    "alalc": "puan",
+    "meaning": "to be chaotic, tumultuous.; to cause chaos, cause trouble.",
+    "ipa": "pùan",
+    "pron_display": "ˈpùan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be chaotic, tumultuous."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to cause chaos, cause trouble."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11483",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -702121,6 +702238,254 @@
     "source_query": "ปั.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วย",
+    "alalc": "puay",
+    "meaning": "to be sick, ill.",
+    "ipa": "pùay",
+    "pron_display": "ˈpùay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be sick, ill."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11486",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วยหนัก",
+    "alalc": "",
+    "meaning": "be severely ill, be seriously sick",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be severely ill, be seriously sick"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2132",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่วยเจ็บ",
+    "alalc": "puay yep",
+    "meaning": "to be sick, ill.",
+    "ipa": "pùay jèp",
+    "pron_display": "pùay ˈjèp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be sick, ill."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11487",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วยเป็นโรค",
+    "alalc": "puay pen rōk",
+    "meaning": "to have a disease, be afflicted with a disease.",
+    "ipa": "pùay pen rôok",
+    "pron_display": "ˈpùay pen ˈrôok",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to have a disease, be afflicted with a disease."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11489",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วยเป็นไข้",
+    "alalc": "puay pen khay",
+    "meaning": "to have a disease, be afflicted with a decease.",
+    "ipa": "pùay pen kʰây",
+    "pron_display": "ˈpùay pen ˈkʰây",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to have a disease, be afflicted with a decease."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11488",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่วยไข้",
+    "alalc": "puay khay",
+    "meaning": "to be sick, ill.",
+    "ipa": "pùay kʰây",
+    "pron_display": "ˌpùay ˈkʰây",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be sick, ill."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2984",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่อง",
+    "alalc": "pǫng",
+    "meaning": "to bulge, protrude.; to be protuberant, protruding, bulging out.",
+    "ipa": "pɔ̀ŋ",
+    "pron_display": "ˈpɔ̀ŋ*",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to bulge, protrude."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be protuberant, protruding, bulging out."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11500",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่า",
+    "alalc": "pā",
+    "meaning": "forest, woods.; thicket.; meadow.; forest; wild, savage.",
+    "ipa": "pàa",
+    "pron_display": "ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest, woods."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "thicket."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "meadow."
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest; wild, savage."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11602",
+    "source_query": "ป่.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -702178,6 +702543,110 @@
     "status": "tentative"
   },
   {
+    "thai": "ป่าชายหาด",
+    "alalc": "",
+    "meaning": "beach forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "beach forest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18514",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าชายเลน",
+    "alalc": "",
+    "meaning": "mangrove forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mangrove forest"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18515",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าชายเลน",
+    "alalc": "",
+    "meaning": "mangrove forest, forest at the estuary of a river",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mangrove forest, forest at the estuary of a river"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11329",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าชุมชน",
+    "alalc": "",
+    "meaning": "community forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "community forest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3455",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ป่าช้า",
     "alalc": "pā chā",
     "meaning": "cemetery.",
@@ -702203,6 +702672,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ป่าดง",
+    "alalc": "",
+    "meaning": "forest, jungle; wild",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest, jungle; wild"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11353",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ป่าดงดิบ",
@@ -702232,6 +702728,60 @@
     "status": "tentative"
   },
   {
+    "thai": "ป่าดงพงพี",
+    "alalc": "",
+    "meaning": "forest, jungle; wood",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest, jungle; wood"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11351",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าดงใหญ่",
+    "alalc": "",
+    "meaning": "(tropical) forest, jungle; the woods",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(tropical) forest, jungle; the woods"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30162",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ป่าดิบ",
     "alalc": "pā dip",
     "meaning": "tropical evergreen forest.",
@@ -702257,6 +702807,156 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ป่าดิบชื้น",
+    "alalc": "",
+    "meaning": "evergreen rain forest; rain forest;seasonal evergreen rain forest; tropical rain forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "evergreen rain forest; rain forest;seasonal evergreen rain forest; tropical rain forest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18517",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าดิบเขตร้อน",
+    "alalc": "",
+    "meaning": "tropical evergreen forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tropical evergreen forest"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18518",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าดิบเขา",
+    "alalc": "",
+    "meaning": "hill evergreen forest; montane forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hill evergreen forest; montane forest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18519",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าดิบเขาต่ำ",
+    "alalc": "",
+    "meaning": "lower montane forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lower montane forest"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18520",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าดิบเขาสูง",
+    "alalc": "",
+    "meaning": "upper montane forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "upper montane forest"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18521",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าดิบแล้ง",
+    "alalc": "",
+    "meaning": "dry evergreen forest; semi-evergreen forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dry evergreen forest; semi-evergreen forest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18522",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ป่าทึบ",
@@ -702286,6 +702986,130 @@
     "status": "tentative"
   },
   {
+    "thai": "ป่าน",
+    "alalc": "pān",
+    "meaning": "by this time, by now.",
+    "ipa": "pàan",
+    "pron_display": "ˈpàan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "by this time, by now."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11664",
+    "source_query": "ป่.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าน",
+    "alalc": "pān",
+    "meaning": "ramie.; hemp.; flax.",
+    "ipa": "pàan",
+    "pron_display": "ˈpàan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ramie."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hemp."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "flax."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11662",
+    "source_query": "ป่.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่านคม",
+    "alalc": "pān khom",
+    "meaning": "kite string coated with glass dust",
+    "ipa": "pàan kʰom",
+    "pron_display": "pàan kʰom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kite string coated with glass dust"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11201",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่านฉะนี้",
+    "alalc": "",
+    "meaning": "up to now, until now; to this day; so far",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "up to now, until now; to this day; so far"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28735",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ป่านนี้",
     "alalc": "pān nī",
     "meaning": "by this time, by now.",
@@ -702309,6 +703133,158 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ป่าบึง",
+    "alalc": "",
+    "meaning": "swamp forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "swamp forest"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18523",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าบึงน้ำจืด",
+    "alalc": "",
+    "meaning": "freshwater swamp forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "freshwater swamp forest"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18524",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าผลัดใบ",
+    "alalc": "pā phlat bay",
+    "meaning": "deciduous forest",
+    "ipa": "pàa pʰlàt bay",
+    "pron_display": "pàa pʰlàt bay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "deciduous forest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11216",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าผสมผลัดใบ",
+    "alalc": "",
+    "meaning": "mixed deciduous forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mixed deciduous forest"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18526",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าผสมผลัดใบชื้น",
+    "alalc": "",
+    "meaning": "moist deciduous forest / moist deciduous fores",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "moist deciduous forest / moist deciduous fores"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18527",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าผสมผลัดใบแล้ง",
+    "alalc": "",
+    "meaning": "dry deciduous forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dry deciduous forest"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18528",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ป่าฝน",
@@ -702338,6 +703314,173 @@
     "status": "unresolved"
   },
   {
+    "thai": "ป่าพรุ",
+    "alalc": "",
+    "meaning": "peat swamp forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "peat swamp forest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18529",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าพรุเสม็ด",
+    "alalc": "",
+    "meaning": "swamp tea forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "swamp tea forest"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18530",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าย",
+    "alalc": "pāy",
+    "meaning": "to climb.; to cast or swing (the legs) onto.",
+    "ipa": "pàay",
+    "pron_display": "ˈpàay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to climb."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to cast or swing (the legs) onto."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11666",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่ายปีน",
+    "alalc": "",
+    "meaning": "climb, clamber",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "climb, clamber"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11179",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าละเมาะ",
+    "alalc": "pā la mǫ",
+    "meaning": "grove wood, brake; grove",
+    "ipa": "pàa lá mɔ́",
+    "pron_display": "pàa lá mɔ́",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "grove wood, brake; grove"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11174",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าว",
+    "alalc": "pāw",
+    "meaning": "to spread widely, broadcast (e.g. news).",
+    "ipa": "pàaw",
+    "pron_display": "ˈpàaw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to spread widely, broadcast (e.g. news)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11672",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ป่าวประกาศ",
     "alalc": "pāw pra kāt",
     "meaning": "announce, publicize; broadcast; proclaim",
@@ -702360,6 +703503,626 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:11177",
     "source_query": "ปร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าวร้อง",
+    "alalc": "pāw rǭng",
+    "meaning": "to announce, declare, proclaim.; to circulate, spread (e.g. information) around.",
+    "ipa": "pàaw rɔ́ɔŋ",
+    "pron_display": "pàaw ˈrɔ́ɔŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to announce, declare, proclaim."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to circulate, spread (e.g. information) around."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11673",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าสงวน",
+    "alalc": "",
+    "meaning": "conserved forest, forestry preservation; preserved forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "conserved forest, forestry preservation; preserved forest"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11186",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าสน",
+    "alalc": "",
+    "meaning": "pine forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pine forest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30164",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าสนเขา",
+    "alalc": "",
+    "meaning": "coniferous forest; pine forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "coniferous forest; pine forest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18532",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าสัก",
+    "alalc": "pā sak",
+    "meaning": "the Pasak River.",
+    "ipa": "pàa sàk",
+    "pron_display": "pàa ˈsàk",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "the Pasak River."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11611",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าสูง",
+    "alalc": "pā sūng",
+    "meaning": "tall forest, especially of tall trees as found in the highlands.",
+    "ipa": "pàa sǔuŋ",
+    "pron_display": "pàa ˈsǔuŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tall forest, especially of tall trees as found in the highlands."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11612",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าเต็งรัง",
+    "alalc": "",
+    "meaning": "deciduous dipterocarp forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "deciduous dipterocarp forest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18533",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าเต็งรังผสมสนเขา",
+    "alalc": "",
+    "meaning": "pine-dipterocarp forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pine-dipterocarp forest"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18534",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าเถื่อน",
+    "alalc": "pā thưan",
+    "meaning": "to be barbaric, barbarous, savage, primitive, uncivilized.",
+    "ipa": "pàa tʰʉ̀an",
+    "pron_display": "ˈpàa ˈtʰʉ̀an",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be barbaric, barbarous, savage, primitive, uncivilized."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8436",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าเบญจพรรณ",
+    "alalc": "pā bēn ya phan",
+    "meaning": "mixed forest, forest with many varieties of trees",
+    "ipa": "pàa been jà pʰan",
+    "pron_display": "pàa been jà pʰan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mixed forest, forest with many varieties of trees"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11193",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าเบญจพรรณชื้น",
+    "alalc": "",
+    "meaning": "moist deciduous forest / moist deciduous fores",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "moist deciduous forest / moist deciduous fores"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18536",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าเบญจพรรณแล้ง",
+    "alalc": "",
+    "meaning": "dry deciduous forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dry deciduous forest"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18537",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าแคระ",
+    "alalc": "pā khræ",
+    "meaning": "scrub forest",
+    "ipa": "pàa kʰrɛ́",
+    "pron_display": "pàa kʰrɛ́",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "scrub forest"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11339",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าแดง",
+    "alalc": "pā dǣng",
+    "meaning": "deciduous forest.",
+    "ipa": "pàa dɛɛŋ",
+    "pron_display": "pàa ˈdɛɛŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "deciduous forest."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6950",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าแพะ",
+    "alalc": "pā phæ",
+    "meaning": "grove forest, brake; grove of brushwood",
+    "ipa": "pàa pʰɛ́",
+    "pron_display": "pàa pʰɛ́",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "grove forest, brake; grove of brushwood"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11214",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าโปร่ง",
+    "alalc": "pā prōng",
+    "meaning": "sparse forest, forest of tall trees; sparse wood",
+    "ipa": "pàa pròoŋ",
+    "pron_display": "pàa pròoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sparse forest, forest of tall trees; sparse wood"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11217",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าใหญ่",
+    "alalc": "",
+    "meaning": "jungle, extensive forest (where the foliage is so thick that the sun does not shine through); thick forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "jungle, extensive forest (where the foliage is so thick that the sun does not shine through); thick forest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10015",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าไผ่",
+    "alalc": "",
+    "meaning": "bamboo forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bamboo forest"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11215",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป่าไม้",
+    "alalc": "pā māy",
+    "meaning": "timber forest.",
+    "ipa": "pàa máay",
+    "pron_display": "pàa ˈmáay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "timber forest."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11610",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป่าไม้พุ่ม",
+    "alalc": "pā may phum",
+    "meaning": "shrub forest, forest of shrub",
+    "ipa": "pàa máy pʰûm",
+    "pron_display": "pàa máy pʰûm",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "shrub forest, forest of shrub"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11206",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้วน",
+    "alalc": "",
+    "meaning": "hang around, hang about; hover",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "hang around, hang about; hover"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30139",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้วนเปี้ยน",
+    "alalc": "puanpian",
+    "meaning": "to stay close to, hang around.",
+    "ipa": "pûan-pîan",
+    "pron_display": "pûanˈpîan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to stay close to, hang around."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11485",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้อง",
+    "alalc": "pǫng",
+    "meaning": "to protect, guard, cover up.",
+    "ipa": "pɔ̂ŋ",
+    "pron_display": "ˈpɔ̂ŋ*",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to protect, guard, cover up."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11502",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -702395,10 +704158,62 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1039",
-    "source_query": "กั.*",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ป้องกันการตั้งครรภ์",
+    "alalc": "",
+    "meaning": "contraceptive",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "contraceptive"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18541",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้องกันตัว",
+    "alalc": "",
+    "meaning": "protect oneself, defend oneself; safeguard",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "protect oneself, defend oneself; safeguard"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10956",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ป้องปัด",
@@ -702428,6 +704243,69 @@
     "status": "tentative"
   },
   {
+    "thai": "ป้องหู",
+    "alalc": "pǫng hū",
+    "meaning": "to put one's hand to one's ear in order to hear better.",
+    "ipa": "pɔ̂ŋ hǔu",
+    "pron_display": "ˌpɔ̂ŋ ˈhǔu",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to put one's hand to one's ear in order to hear better."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11504",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้อน",
+    "alalc": "pǭn",
+    "meaning": "to feed (to the mouth).; to supply.",
+    "ipa": "pɔ̂ɔn",
+    "pron_display": "ˈpɔ̂ɔn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to feed (to the mouth)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to supply."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11514",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ป้อนข้อมูล",
     "alalc": "",
     "meaning": "key, enter",
@@ -702449,10 +704327,89 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:3439",
-    "source_query": "ข้.*",
+    "source_query": "ป้.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ป้อนบรรทัด",
+    "alalc": "",
+    "meaning": "line feed",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "line feed"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18545",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้อม",
+    "alalc": "pǫm",
+    "meaning": "fortification.",
+    "ipa": "pɔ̂m",
+    "pron_display": "ˈpɔ̂m*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fortification."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11516",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้อม",
+    "alalc": "pǫm",
+    "meaning": "to be spherical, rounded.",
+    "ipa": "pɔ̂m",
+    "pron_display": "ˈpɔ̂m*",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be spherical, rounded."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11520",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ป้อมตำรวจ",
@@ -702476,7 +704433,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11517",
-    "source_query": "ตำ.*",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -702503,7 +704460,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10966",
-    "source_query": "บ.*",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -702530,10 +704487,37 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10683",
-    "source_query": "บ.*",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ป้อมปราการ",
+    "alalc": "",
+    "meaning": "fortress, bastion; bulwark; citadel; fortification",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fortress, bastion; bulwark; citadel; fortification"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10965",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ป้อมปืนกล",
@@ -702590,6 +704574,396 @@
     "status": "unresolved"
   },
   {
+    "thai": "ป้อยอ",
+    "alalc": "pǭ yǭ",
+    "meaning": "flatter, fawn upon; lavish praise on",
+    "ipa": "pɔ̂ɔ yɔɔ",
+    "pron_display": "pɔ̂ɔ yɔɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "flatter, fawn upon; lavish praise on"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10949",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้อแป้",
+    "alalc": "pǭ pǣ",
+    "meaning": "be weak, be sluggish; be feeble; be flabby; weakly, feebly",
+    "ipa": "pɔ̂ɔ pɛ̂ɛ",
+    "pron_display": "pɔ̂ɔ pɛ̂ɛ",
+    "pos": "V; ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be weak, be sluggish; be feeble; be flabby"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "weakly, feebly"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30141",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้า",
+    "alalc": "pā",
+    "meaning": "elder aunt (older sister of father or mother).; you, Auntie (speaking to elder aunt or other older woman); she, her, Auntie (speaking of elder aunt); I, me, Auntie (elder aunt or older woman speaking to nephew, niece, or other younger person).; Aunt- (reference to elder aunt or other older woman).",
+    "ipa": "pâa",
+    "pron_display": "ˈpâa",
+    "pos": "N; P; T",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "elder aunt (older sister of father or mother)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "P"
+        ],
+        "definitions": [
+          "you, Auntie (speaking to elder aunt or other older woman); she, her, Auntie (speaking of elder aunt); I, me, Auntie (elder aunt or older woman speaking to nephew, niece, or other younger person)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "T"
+        ],
+        "definitions": [
+          "Aunt- (reference to elder aunt or other older woman)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11620",
+    "source_query": "ป้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้าน",
+    "alalc": "pān",
+    "meaning": "obtuse; teapot",
+    "ipa": "pâan",
+    "pron_display": "pâan",
+    "pos": "ADJ; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "obtuse"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "teapot"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11198",
+    "source_query": "ป้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้านลม",
+    "alalc": "pān lom",
+    "meaning": "gable, shaped board; ornamental gable-end of Thai houses",
+    "ipa": "pâan lom",
+    "pron_display": "pâan lom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gable, shaped board; ornamental gable-end of Thai houses"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11212",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้าย",
+    "alalc": "pāy",
+    "meaning": "poster, sign, placard, bill.; label, tag.",
+    "ipa": "pâay",
+    "pron_display": "ˈpâay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "poster, sign, placard, bill."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "label, tag."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11668",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้าย",
+    "alalc": "pāy",
+    "meaning": "to brush or wipe with a sweeping motion; to paint (in a haphazard way), smear; to daub.",
+    "ipa": "pâay",
+    "pron_display": "ˈpâay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to brush or wipe with a sweeping motion; to paint (in a haphazard way), smear; to daub."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11670",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้ายกวาด",
+    "alalc": "",
+    "meaning": "swab",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "swab"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18548",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายชื่อ",
+    "alalc": "",
+    "meaning": "label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "label"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11208",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายชื่อถนน",
+    "alalc": "",
+    "meaning": "street sign showing the name of the street",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "street sign showing the name of the street"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1919",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายชื่อท้ายแฟ้ม",
+    "alalc": "",
+    "meaning": "trailer label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "trailer label"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18549",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายทะเบียนรถ",
+    "alalc": "",
+    "meaning": "number plate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "number plate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18550",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายทะเบียนรถยนต์",
+    "alalc": "",
+    "meaning": "license plate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "license plate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11207",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ป้ายบอกทาง",
     "alalc": "",
     "meaning": "guide post",
@@ -702611,10 +704985,806 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:1921",
-    "source_query": "บ.*",
+    "source_query": "ป้.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายประกาศ",
+    "alalc": "",
+    "meaning": "sign board, notice board",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sign board, notice board"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11192",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายประจำเครื่อง",
+    "alalc": "",
+    "meaning": "nameplate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nameplate"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18551",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายรถประจำทาง",
+    "alalc": "",
+    "meaning": "bus stop",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus stop"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11205",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายรถเมล์",
+    "alalc": "",
+    "meaning": "bus stop",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus stop"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11167",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายระบุ",
+    "alalc": "",
+    "meaning": "tag",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tag"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18552",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายราคา",
+    "alalc": "",
+    "meaning": "price card",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "price card"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1922",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายสี",
+    "alalc": "pāy sī",
+    "meaning": "slander, defame; malign; traduce; incriminate",
+    "ipa": "pâay sǐi",
+    "pron_display": "pâay sǐi",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "slander, defame; malign; traduce; incriminate"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11168",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้ายหมวด",
+    "alalc": "",
+    "meaning": "volume label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "volume label"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18553",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายหยุดรถ",
+    "alalc": "pāy yut rot",
+    "meaning": "bus stop sign.; traffic stop sign.",
+    "ipa": "pâay yùt rót",
+    "pron_display": "ˈpâay yùt ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus stop sign."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "traffic stop sign."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11669",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้ายหัวเรื่อง",
+    "alalc": "",
+    "meaning": "header label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "header label"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18554",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายหาเสียง",
+    "alalc": "",
+    "meaning": "(political) campaign poster, (political) campaign banner",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(political) campaign poster, (political) campaign banner"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:392",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายห้ามจอด",
+    "alalc": "",
+    "meaning": "no-parking sign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "no-parking sign"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11169",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายเตือนภัย",
+    "alalc": "",
+    "meaning": "warning sign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "warning sign"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1920",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายเริ่มส่วนแฟ้ม",
+    "alalc": "",
+    "meaning": "beginning of file section label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "beginning of file section label"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18555",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายเริ่มแฟ้ม",
+    "alalc": "",
+    "meaning": "beginning of file label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "beginning of file label"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18556",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายแสดงชื่อแฟ้ม",
+    "alalc": "",
+    "meaning": "file label",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "file label"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:18557",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้ายโฆษณาสินค้า",
+    "alalc": "",
+    "meaning": "advertisement",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "advertisement"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1918",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป้าสะใภ้",
+    "alalc": "pā saphay",
+    "meaning": "wife of elder uncle, elder aunt-in-law.",
+    "ipa": "pâa sa-pʰáy",
+    "pron_display": "ˈpâa saˈpʰáy",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wife of elder uncle, elder aunt-in-law."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11621",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้ำ",
+    "alalc": "pam",
+    "meaning": "to be generous, stouthearted, willing to take a risk.; to be resolute, determined.",
+    "ipa": "pâm",
+    "pron_display": "ˈpâm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be generous, stouthearted, willing to take a risk."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be resolute, determined."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11674",
+    "source_query": "ป้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้ำเป๋อ",
+    "alalc": "pampœ̄",
+    "meaning": "to be forgetful, mixed up.",
+    "ipa": "pâm-pə̌ə",
+    "pron_display": "pâmˈpə̌ə",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be forgetful, mixed up."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11675",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป้ำๆ เป๋อๆ",
+    "alalc": "",
+    "meaning": "be clumsy and stupid, be foolish; be muddle-headed",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be clumsy and stupid, be foolish; be muddle-headed"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10016",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ป๋อ",
+    "alalc": "pǭ",
+    "meaning": "strut, be swaggering; walk proudly",
+    "ipa": "pɔ̌ɔ",
+    "pron_display": "pɔ̌ɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "strut, be swaggering; walk proudly"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10987",
+    "source_query": "ป๋.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป๋อม",
+    "alalc": "pǭm",
+    "meaning": "splashingly, plop; fall into water with splash",
+    "ipa": "pɔ̌ɔm",
+    "pron_display": "pɔ̌ɔm",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "splashingly, plop; fall into water with splash"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10967",
+    "source_query": "ป๋.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ป๋า",
+    "alalc": "pā",
+    "meaning": "father, daddy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "father, daddy"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11290",
+    "source_query": "ป๋.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผก",
+    "alalc": "phok",
+    "meaning": "turn round, change; turn over; turn up-side down",
+    "ipa": "pʰòk",
+    "pron_display": "pʰòk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "turn round, change; turn over; turn up-side down"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13882",
+    "source_query": "ผก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผกก.",
+    "alalc": "",
+    "meaning": "chief",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chief"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1394",
+    "source_query": "ผก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ผกผงก",
+    "alalc": "phok pha ngok",
+    "meaning": "raise the head and look a round",
+    "ipa": "pʰòk pʰà ŋòk",
+    "pron_display": "pʰòk pʰà ŋòk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "raise the head and look a round"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13883",
+    "source_query": "ผก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผกผัน",
+    "alalc": "phok phan",
+    "meaning": "turned around, turned over; veer around, shift; change; turn around; turn over",
+    "ipa": "pʰòk pʰǎn",
+    "pron_display": "pʰòk pʰǎn",
+    "pos": "ADJ; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "turned around, turned over"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "veer around, shift; change; turn around; turn over"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4594",
+    "source_query": "ผก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ผกา",
+    "alalc": "pha kā",
+    "meaning": "flower, bloom; blossom",
+    "ipa": "pʰà kaa",
+    "pron_display": "pʰà kaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "flower, bloom; blossom"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13884",
+    "source_query": "ผก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ผงกศีรษะ",
@@ -704413,6 +707583,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ผีป่า",
+    "alalc": "phī pā",
+    "meaning": "forest demon.",
+    "ipa": "pʰǐi pàa",
+    "pron_display": "pʰǐi ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest demon."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11613",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ผีพุ่งใต้",
@@ -706384,6 +709581,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:344",
     "source_query": "ปร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ผู้ป่วย",
+    "alalc": "",
+    "meaning": "patient, sufferer; sick person",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "patient, sufferer; sick person"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11470",
+    "source_query": "ป่.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -774563,6 +777787,33 @@
     "status": "tentative"
   },
   {
+    "thai": "มุมป้าน",
+    "alalc": "mum pān",
+    "meaning": "obtuse angle, angle between 90 and 180 part of circle",
+    "ipa": "mum pâan",
+    "pron_display": "mum pâan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "obtuse angle, angle between 90 and 180 part of circle"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:13285",
+    "source_query": "ป้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "มุสาวาท",
     "alalc": "mu sā wāt",
     "meaning": "lie, falsehood; fib; untrue words; untruth",
@@ -806264,6 +809515,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ราวป่า",
+    "alalc": "rāw pā",
+    "meaning": "edge of a forest, strip of woods; strip of forest; forest line; boundary of the jungle",
+    "ipa": "raaw pàa",
+    "pron_display": "raaw pàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "edge of a forest, strip of woods; strip of forest; forest line; boundary of the jungle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21411",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ราศีกรกฎ",
     "alalc": "",
     "meaning": "Cancer",
@@ -813539,6 +816817,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ลาป่วย",
+    "alalc": "lā puay",
+    "meaning": "to request or take sick leave.",
+    "ipa": "laa pùay",
+    "pron_display": "laa ˈpùay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to request or take sick leave."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11490",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลามปาม",
     "alalc": "lām pām",
     "meaning": "concern, touch upon; have something to do with",
@@ -813975,6 +817280,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8495",
     "source_query": "ทโ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลิงป่า",
+    "alalc": "ling pā",
+    "meaning": "orang-utan.",
+    "ipa": "liŋ pàa",
+    "pron_display": "liŋ ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "orang-utan."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16191",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -816458,6 +819790,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4454",
     "source_query": "จ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล่มป่า",
+    "alalc": "lom pā",
+    "meaning": "to deforest.",
+    "ipa": "lôm pàa",
+    "pron_display": "lôm ˈpàa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to deforest."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11615",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -869607,6 +872964,42 @@
     "status": "unresolved"
   },
   {
+    "thai": "สวนป่า",
+    "alalc": "",
+    "meaning": "wood lot; forestry plantations, wood lot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wood lot"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forestry plantations, wood lot"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1710",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "สวมกอด",
     "alalc": "suam kǭt",
     "meaning": "to embrace.",
@@ -871702,6 +875095,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สัตว์ป่า",
+    "alalc": "sat pā",
+    "meaning": "wild animal, forest animal; wildlife.",
+    "ipa": "sàt pàa",
+    "pron_display": "sàt ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wild animal, forest animal; wildlife."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11616",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สัตว์เลี้ยงลูกด้วยนม",
     "alalc": "sat liang lūk duay nom",
     "meaning": "mammal.",
@@ -873197,6 +876617,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "สายป่าน",
+    "alalc": "",
+    "meaning": "string, cord; thread",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "string, cord; thread"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3050",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "สายฝน",
@@ -876723,6 +880170,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10535",
     "source_query": "บ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สุนัขป่า",
+    "alalc": "sunak pā",
+    "meaning": "wolf.",
+    "ipa": "su-nák pàa",
+    "pron_display": "suˈnák ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wolf."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11617",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -882005,6 +885479,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หมาป่า",
+    "alalc": "mā pā",
+    "meaning": "wolf.",
+    "ipa": "mǎa pàa",
+    "pron_display": "mǎa ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wolf."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11618",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หมายกำหนดการ",
     "alalc": "māy kam not kān",
     "meaning": "program, schedule; timetable",
@@ -882394,6 +885895,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18239",
     "source_query": "ติ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หมูป่า",
+    "alalc": "mū pā",
+    "meaning": "wild boar, boar",
+    "ipa": "mǔu pàa",
+    "pron_display": "mǔu pàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wild boar, boar"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:17143",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -887351,6 +890879,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หัวป่า",
+    "alalc": "hua pā",
+    "meaning": "cook",
+    "ipa": "hǔa pàa",
+    "pron_display": "hǔa pàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cook"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29487",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หัวสมัยใหม่",
     "alalc": "hua samay may",
     "meaning": "to be modern-minded.",
@@ -888331,6 +891886,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7633",
     "source_query": "ตั.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หายป่วย",
+    "alalc": "hāy puay",
+    "meaning": "to recover, get well.",
+    "ipa": "hǎay pùay",
+    "pron_display": "hǎay ˈpùay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to recover, get well."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11491",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -911398,6 +914980,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เจ็บป่วย",
+    "alalc": "yep puay",
+    "meaning": "to be sick, ill.",
+    "ipa": "jèp pùay",
+    "pron_display": "jèp ˈpùay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be sick, ill."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4936",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เจ็บใจ",
     "alalc": "yep yay",
     "meaning": "to feel hurt, have one's feelings hurt.",
@@ -911420,6 +915029,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4931",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เจ็บไข้ได้ป่วย",
+    "alalc": "yep khay day puay",
+    "meaning": "to get sick, be sick.",
+    "ipa": "jèp kʰây dây pùay",
+    "pron_display": "jèp ˈkʰây dây ˈpùay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to get sick, be sick."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7024",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -912420,6 +916056,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "เจ้าป่า",
+    "alalc": "yāw pā",
+    "meaning": "spirit guardian of a forest.",
+    "ipa": "jâaw pàa",
+    "pron_display": "jâaw ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "spirit guardian of a forest."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4967",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "เจ้าพระยา",
@@ -914991,6 +918654,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "เดินป่า",
+    "alalc": "",
+    "meaning": "roam about the forest, travel through a forest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "roam about the forest, travel through a forest"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:17243",
+    "source_query": "ป่.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "เดินย่ำเท้า",
@@ -920548,6 +924238,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "เปิดป้าย",
+    "alalc": "",
+    "meaning": "unveil, inaugurate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "unveil, inaugurate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28740",
+    "source_query": "ป้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "เปิดหูเปิดตา",
@@ -927394,6 +931111,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9584",
     "source_query": "นา.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เมืองป้อม",
+    "alalc": "mưang pǫm",
+    "meaning": "fortress.",
+    "ipa": "mʉaŋ pɔ̂m",
+    "pron_display": "mʉaŋ ˈpɔ̂m",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fortress."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11519",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -947324,6 +951068,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แมงป่อง",
+    "alalc": "mæng pǫng",
+    "meaning": "scorpion.",
+    "ipa": "mɛŋ pɔ̀ŋ",
+    "pron_display": "mɛŋ ˈpɔ̀ŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "scorpion."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14382",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แมงวัน",
     "alalc": "mæng wan",
     "meaning": "fly, housefly.",
@@ -947373,6 +951144,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11494",
     "source_query": "ปอ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แมลงป่อง",
+    "alalc": "malǣng pǫng",
+    "meaning": "scorpion.",
+    "ipa": "ma-lɛɛŋ pɔ̀ŋ",
+    "pron_display": "ma.lɛɛŋ ˈpɔ̀ŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "scorpion."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11501",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -947481,6 +951279,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14402",
     "source_query": "บ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แมวป่า",
+    "alalc": "mǣw pā",
+    "meaning": "wildcat, leopard cat.",
+    "ipa": "mɛɛw pàa",
+    "pron_display": "mɛɛw ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wildcat, leopard cat."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11614",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -958235,7 +962060,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5082",
-    "source_query": "ใ.*",
+    "source_query": "ป้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -977269,6 +981094,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ไก่ป่า",
+    "alalc": "kay pā",
+    "meaning": "wild fowl.",
+    "ipa": "kày pàa",
+    "pron_display": "kày ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wild fowl."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1920",
+    "source_query": "ป่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ไก่ฟ้า",
     "alalc": "kay fā",
     "meaning": "pheasant.",
@@ -977930,6 +981782,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2974",
     "source_query": "ทร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไข้ป่า",
+    "alalc": "khay pā",
+    "meaning": "malaria.",
+    "ipa": "kʰây pàa",
+    "pron_display": "kʰây ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "malaria."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2975",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -979751,6 +983630,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ไพ่ป๊อก",
+    "alalc": "phay pǭk",
+    "meaning": "poker",
+    "ipa": "pʰây pɔ́ɔk",
+    "pron_display": "pʰây pɔ́ɔk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "poker"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:12745",
+    "source_query": "ป๊.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ไฟฉาย",
     "alalc": "fay chāy",
     "meaning": "flashlight, searchlight, spotlight.",
@@ -979827,6 +983733,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:12948",
     "source_query": "ธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไฟป่า",
+    "alalc": "fay pā",
+    "meaning": "forest fire.",
+    "ipa": "fay pàa",
+    "pron_display": "fay ˈpàa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest fire."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13655",
+    "source_query": "ป่.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
