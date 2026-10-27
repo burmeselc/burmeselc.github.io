@@ -106,7 +106,7 @@
  }
  function renderCard(){
   if(!current||!session)return;
-  const front=session.direction==='recognition'?(session.lang==='thai'&&$('thaiReading')?.value==='roman'?current.romanization_draft:original(current,session.lang)):japanese(current);
+  const front=session.direction==='recognition'?(session.lang==='thai'&&$('thaiReading')?.value==='roman'&&current.romanization_draft?current.romanization_draft:original(current,session.lang)):japanese(current);
   const back=session.direction==='recognition'?japanese(current):original(current,session.lang);
   $('flashFaceHint').textContent=flipped?'解答':'問題';
   $('flashFaceWord').textContent=flipped?back:front;
