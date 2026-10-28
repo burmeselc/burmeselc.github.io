@@ -654836,7 +654836,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:21983",
-    "source_query": "ปร.*",
+    "source_query": "พง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -760500,6 +760500,69 @@
     "status": "unresolved"
   },
   {
+    "thai": "พ.ญ.",
+    "alalc": "",
+    "meaning": "woman doctor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "woman doctor"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1405",
+    "source_query": "พญ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พก",
+    "alalc": "phok",
+    "meaning": "to carry on one's person.; pouch or pocket formed by the tucked or knotted part at the waist of a sarong or phanung.",
+    "ipa": "pʰók",
+    "pron_display": "ˈpʰók",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to carry on one's person."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pouch or pocket formed by the tucked or knotted part at the waist of a sarong or phanung."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12705",
+    "source_query": "พก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "พกปืน",
     "alalc": "phok pư̄n",
     "meaning": "to carry a gun on one's person.",
@@ -760525,6 +760588,852 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "พกพา",
+    "alalc": "",
+    "meaning": "bear, carry; take; bring",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "bear, carry; take; bring"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1152",
+    "source_query": "พก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พกลม",
+    "alalc": "phok lom",
+    "meaning": "lie",
+    "ipa": "pʰók lom",
+    "pron_display": "pʰók lom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lie"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11686",
+    "source_query": "พก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พกส.",
+    "alalc": "",
+    "meaning": "conductor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "conductor"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31352",
+    "source_query": "พก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พกอาวุธ",
+    "alalc": "",
+    "meaning": "carry a weapon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "carry a weapon"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3716",
+    "source_query": "พก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พกอาวุธ",
+    "alalc": "",
+    "meaning": "carry arms or weapon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "carry arms or weapon"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19661",
+    "source_query": "พก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พขร.",
+    "alalc": "",
+    "meaning": "chauffeur, driver",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chauffeur, driver"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31353",
+    "source_query": "พข.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พง",
+    "alalc": "phong",
+    "meaning": "brush, thicket.; a kind of tall grass.",
+    "ipa": "pʰoŋ",
+    "pron_display": "ˈpʰoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "brush, thicket."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a kind of tall grass."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12708",
+    "source_query": "พง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "พงพี",
+    "alalc": "phong phī",
+    "meaning": "jungle, forest; woods",
+    "ipa": "pʰoŋ pʰii",
+    "pron_display": "pʰoŋ pʰii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "jungle, forest; woods"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11688",
+    "source_query": "พง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พงศาวดาร",
+    "alalc": "phongsāwadān",
+    "meaning": "historical annals, chronicle.",
+    "ipa": "pʰoŋ-sǎa-wa-daan",
+    "pron_display": "pʰoŋ.sǎa.waˈdaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "historical annals, chronicle."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12709",
+    "source_query": "พง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พงศาวลี",
+    "alalc": "phong sā wa lī",
+    "meaning": "dendrogram",
+    "ipa": "pʰoŋ sǎa wá lii",
+    "pron_display": "pʰoŋ sǎa wá lii",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dendrogram"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19662",
+    "source_query": "พง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พงศาวลี",
+    "alalc": "phong sā wa lī",
+    "meaning": "genealogical diagram, family tree",
+    "ipa": "pʰoŋ sǎa wá lii",
+    "pron_display": "pʰoŋ sǎa wá lii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "genealogical diagram, family tree"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11692",
+    "source_query": "พง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พงศาวลีวิทยา",
+    "alalc": "",
+    "meaning": "genealogy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "genealogy"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19663",
+    "source_query": "พง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พงศ์",
+    "alalc": "",
+    "meaning": "lineage, family; race; kinship; pedigree race",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lineage, family; race; kinship; pedigree race"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11689",
+    "source_query": "พง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พงศ์พันธุ์",
+    "alalc": "phong phan",
+    "meaning": "lineage, family; extraction; consanguinity",
+    "ipa": "pʰoŋ pʰan",
+    "pron_display": "pʰoŋ pʰan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lineage, family; extraction; consanguinity"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11690",
+    "source_query": "พง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พงหญ้า",
+    "alalc": "",
+    "meaning": "dense grasses, thick growth of grass/weeds; a mass of reeds/grasses",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dense grasses, thick growth of grass/weeds; a mass of reeds/grasses"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11693",
+    "source_query": "พง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พงไพร",
+    "alalc": "",
+    "meaning": "forest, jungle; woods",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "forest, jungle; woods"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7929",
+    "source_query": "พง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจนานุกรม",
+    "alalc": "photyanānukrom",
+    "meaning": "dictionary.",
+    "ipa": "pʰót-ja-naa-nú-krom",
+    "pron_display": "pʰót.jaˈnaa.núˈkrom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dictionary."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12712",
+    "source_query": "พจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พจนานุกรมข้อมูล",
+    "alalc": "",
+    "meaning": "data dictionary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "data dictionary"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19664",
+    "source_query": "พจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจนานุกรมคำยกเว้น",
+    "alalc": "",
+    "meaning": "exception dictionary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "exception dictionary"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19665",
+    "source_query": "พจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจนานุกรมอัตโนมัติ",
+    "alalc": "",
+    "meaning": "automatic dictionary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "automatic dictionary"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19666",
+    "source_query": "พจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจน์",
+    "alalc": "phot",
+    "meaning": "word, speech.; number.",
+    "ipa": "pʰót",
+    "pron_display": "ˈpʰót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "word, speech."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "number."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12710",
+    "source_query": "พจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พจน์กลาง",
+    "alalc": "",
+    "meaning": "middle term",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "middle term"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19668",
+    "source_query": "พจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจน์รอง",
+    "alalc": "",
+    "meaning": "minor term",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "minor term"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19669",
+    "source_query": "พจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจน์หลัก",
+    "alalc": "",
+    "meaning": "major term",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "major term"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:19670",
+    "source_query": "พจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พจี",
+    "alalc": "pha yī",
+    "meaning": "word, saying; utterance; remark; advice; order",
+    "ipa": "pʰá jii",
+    "pron_display": "pʰá jii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "word, saying; utterance; remark; advice; order"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11696",
+    "source_query": "พจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พช.",
+    "alalc": "",
+    "meaning": "The Community Development Department",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Community Development Department"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1420",
+    "source_query": "พช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พญา",
+    "alalc": "phayā",
+    "meaning": "king, chief.; title preceding name of a king, chief.",
+    "ipa": "pʰa-yaa",
+    "pron_display": "pʰaˈyaa",
+    "pos": "N; T",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, chief."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "T"
+        ],
+        "definitions": [
+          "title preceding name of a king, chief."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12714",
+    "source_query": "พญ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พญานาค",
+    "alalc": "",
+    "meaning": "King of Nagas, serpent; great Naga",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "King of Nagas, serpent; great Naga"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11697",
+    "source_query": "พญ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "พญาไร้ใบ",
+    "alalc": "pha yā ray bay",
+    "meaning": "Sarcostemma acidum Voigt, leafless medicinal tree",
+    "ipa": "pʰá yaa ráy bay",
+    "pron_display": "pʰá yaa ráy bay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Sarcostemma acidum Voigt, leafless medicinal tree"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11698",
+    "source_query": "พญ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พณ",
+    "alalc": "phon",
+    "meaning": "Ministry of Commerce",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Ministry of Commerce"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1421",
+    "source_query": "พณ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พณ.บ.",
+    "alalc": "",
+    "meaning": "Bachelor of Commerce",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Bachelor of Commerce"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1422",
+    "source_query": "พณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "พณฯท่าน",
@@ -760558,6 +761467,60 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8956",
     "source_query": "ท่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พณิช",
+    "alalc": "pha nit",
+    "meaning": "merchant, trader; tradesman; dealer; businessman",
+    "ipa": "pʰá nít",
+    "pron_display": "pʰá nít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "merchant, trader; tradesman; dealer; businessman"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11699",
+    "source_query": "พณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "พณิชย์",
+    "alalc": "pha nit",
+    "meaning": "trade, commerce; business",
+    "ipa": "pʰá nít",
+    "pron_display": "pʰá nít",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "trade, commerce; business"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:11700",
+    "source_query": "พณ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -913563,6 +914526,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สมุดพก",
+    "alalc": "samut phok",
+    "meaning": "student's report book, report card.",
+    "ipa": "sa-mùt pʰók",
+    "pron_display": "saˈmùt ˈpʰók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "student's report book, report card."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12707",
+    "source_query": "พก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สมุดภาพ",
     "alalc": "",
     "meaning": "picture album, photograph album",
@@ -916487,6 +917477,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "สัจพจน์",
+    "alalc": "sat ya phot",
+    "meaning": "postulate, axiom",
+    "ipa": "sàt jà pʰót",
+    "pron_display": "sàt jà pʰót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "postulate, axiom"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16452",
+    "source_query": "พจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "สัญชาติ",
@@ -932350,7 +933367,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8279",
-    "source_query": "ถ.*",
+    "source_query": "พง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -949125,6 +950142,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เกร็ดพงศาวดาร",
+    "alalc": "",
+    "meaning": "historical anecdote, historical frills; anecdote; unofficial histories and records",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "historical anecdote, historical frills; anecdote; unofficial histories and records"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8387",
+    "source_query": "พง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "เกลียดชัง",
     "alalc": "kliat chang",
     "meaning": "to hate, detest, despise.",
@@ -952884,6 +953928,42 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:9302",
     "source_query": "ฝ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เข้าพกเข้าห่อ",
+    "alalc": "khaw phok khaw hǭ",
+    "meaning": "save, keep; put by; store; collect; gather; hoard; be put by, be saved; be economical",
+    "ipa": "kʰâw pʰók kʰâw hɔ̀ɔ",
+    "pron_display": "kʰâw pʰók kʰâw hɔ̀ɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "save, keep; put by; store; collect; gather; hoard"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be put by, be saved; be economical"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8471",
+    "source_query": "พก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -986745,6 +987825,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "เอกพจน์",
+    "alalc": "ēkka phot",
+    "meaning": "singular number.",
+    "ipa": "èek-ka pʰót",
+    "pron_display": "ˈèek.ka ˈpʰót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "singular number."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19824",
+    "source_query": "พจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เอกภพ",
     "alalc": "ēk ka phop",
     "meaning": "universe",
@@ -991556,6 +992663,42 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "แถมพก",
+    "alalc": "thǣm phok",
+    "meaning": "to give a bonus, give something free to a customer with the purchase of something else.; to give a premium.",
+    "ipa": "tʰɛ̌ɛm pʰók",
+    "pron_display": "tʰɛ̌ɛm ˈpʰók",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to give a bonus, give something free to a customer with the purchase of something else."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to give a premium."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8445",
+    "source_query": "พก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "แถลงข่าว",
@@ -998981,6 +1000124,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13603",
     "source_query": "ฟ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกหกพกลม",
+    "alalc": "kōhok phok lom",
+    "meaning": "to tell a lie.",
+    "ipa": "koo-hòk pʰók lom",
+    "pron_display": "kooˈhòk pʰók ˈlom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tell a lie."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1895",
+    "source_query": "พก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
