@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 36786,
+    "unique_lexical_records": 38028,
     "sample_size": 150,
     "counts": {
-      "neither": 83,
-      "pronunciation_only": 64,
+      "neither": 84,
+      "pronunciation_only": 63,
       "disagreement": 1,
       "agreement": 2
     },
@@ -915,6 +915,17 @@
       "pos": "N"
     },
     {
+      "thai": "ผู้สัมภาษณ์",
+      "source_id": "RI:19307",
+      "pronunciation": "",
+      "meaning": "interviewer",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "ช่างพูดคุย",
       "source_id": "LEX2.0:22647",
       "pronunciation": "",
@@ -1399,6 +1410,17 @@
       "pos": "N"
     },
     {
+      "thai": "ผ้าแถบ",
+      "source_id": "TDP:8443",
+      "pronunciation": "pʰâa tʰɛ̀ɛp",
+      "meaning": "a strip of cloth used by women to wrap around the bosom (in place of all other upper garments).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "phā thǣp",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "ความรู้หลังประสบการณ์",
       "source_id": "RI:10960",
       "pronunciation": "",
@@ -1639,28 +1661,6 @@
       "comparison": "neither",
       "web_rank": "3",
       "pos": ""
-    },
-    {
-      "thai": "เห็นแก่ตัว",
-      "source_id": "TDP:1778",
-      "pronunciation": "hěn kɛ̀ tua",
-      "meaning": "to think only of oneself, be selfish.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "hen kæ tua",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": ""
-    },
-    {
-      "thai": "กะลาสี",
-      "source_id": "TDP:969",
-      "pronunciation": "ka-laa-sǐi",
-      "meaning": "sailor, seaman.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kalāsī",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
     }
   ]
 }
