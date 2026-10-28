@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 38070,
+    "unique_lexical_records": 38868,
     "sample_size": 150,
     "counts": {
-      "neither": 84,
-      "pronunciation_only": 63,
+      "neither": 83,
+      "pronunciation_only": 64,
       "disagreement": 1,
       "agreement": 2
     },
@@ -803,6 +803,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "N"
+    },
+    {
+      "thai": "โดยเสด็จพระราชกุศล",
+      "source_id": "LEX2.0:17384",
+      "pronunciation": "",
+      "meaning": "contribute to a charity fund started by the king",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "ADV"
     },
     {
       "thai": "ภาษาเครื่อง",
@@ -1608,6 +1619,17 @@
       "pos": ""
     },
     {
+      "thai": "รี้พล",
+      "source_id": "TDP:12954",
+      "pronunciation": "ríi pʰon",
+      "meaning": "troops, fighting forces.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "rī phon",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "ตรุษจีน",
       "source_id": "LEX2.0:18263",
       "pronunciation": "trùt jiin",
@@ -1639,28 +1661,6 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "N"
-    },
-    {
-      "thai": "ทรัพย์ที่มีรูปร่าง",
-      "source_id": "RI:15506",
-      "pronunciation": "",
-      "meaning": "corporeal property",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "ทนได้",
-      "source_id": "RI:15478",
-      "pronunciation": "",
-      "meaning": "tolerant",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": ""
     }
   ]
 }
