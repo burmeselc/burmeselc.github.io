@@ -1940,7 +1940,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:55",
-    "source_query": "กฎ.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -64606,7 +64606,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:766",
-    "source_query": "กอ.*",
+    "source_query": "มด.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -126225,7 +126225,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2564",
-    "source_query": "ปด.*",
+    "source_query": "มด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -156450,7 +156450,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3010",
-    "source_query": "คณ.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -157392,7 +157392,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3021",
-    "source_query": "คณ.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -447182,7 +447182,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:17626",
-    "source_query": "ตา.*",
+    "source_query": "มด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -604934,7 +604934,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9978",
-    "source_query": "น้.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -654830,6 +654830,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ประชามติ",
+    "alalc": "prachā mati",
+    "meaning": "public resolution, opinion.",
+    "ipa": "pra-cʰaa má-tì",
+    "pron_display": "praˈcʰaa máˈtìʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "public resolution, opinion."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13816",
+    "source_query": "มต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ประชาราษฎร์",
@@ -768943,7 +768970,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12781",
-    "source_query": "พร.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -854109,7 +854136,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25057",
-    "source_query": "ภ.*",
+    "source_query": "มน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -860634,6 +860661,42 @@
     "status": "unresolved"
   },
   {
+    "thai": "ม.ร.ว.",
+    "alalc": "",
+    "meaning": "great-grandchild of a king; M.R., Mom Rachawong",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "great-grandchild of a king"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "M.R., Mom Rachawong"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1447",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "มก.",
     "alalc": "mok",
     "meaning": "milligramme, mg; miligram",
@@ -861251,6 +861314,382 @@
     "status": "tentative"
   },
   {
+    "thai": "มณฑก",
+    "alalc": "mon thok",
+    "meaning": "frog; rifle",
+    "ipa": "mon tʰók",
+    "pron_display": "mon tʰók",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "frog"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rifle"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22500",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณฑนะ",
+    "alalc": "mon tha na",
+    "meaning": "decoration, ornamentation; ornament, decoration; adornment",
+    "ipa": "mon tʰá ná",
+    "pron_display": "mon tʰá ná",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "decoration, ornamentation"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ornament, decoration; adornment"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22501",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณฑป",
+    "alalc": "mondop",
+    "meaning": "a structure with a pyramidal spire.",
+    "ipa": "mon-dòp",
+    "pron_display": "monˈdòp*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a structure with a pyramidal spire."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13806",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณฑล",
+    "alalc": "monthon",
+    "meaning": "province, monthon (monthol).; circle.",
+    "ipa": "mon-tʰon",
+    "pron_display": "monˈtʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "province, monthon (monthol)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "circle."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13807",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณี",
+    "alalc": "manī",
+    "meaning": "precious stones, gems.",
+    "ipa": "ma-nii",
+    "pron_display": "maˈnii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "precious stones, gems."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13809",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณีการ",
+    "alalc": "ma nī kān",
+    "meaning": "lapidary, gem expert",
+    "ipa": "má nii kaan",
+    "pron_display": "má nii kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lapidary, gem expert"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22503",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณีพืช",
+    "alalc": "ma nī phư̄t",
+    "meaning": "pomegranate",
+    "ipa": "má nii pʰʉ̂ʉt",
+    "pron_display": "má nii pʰʉ̂ʉt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pomegranate"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22504",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณีรัตน์",
+    "alalc": "ma nī rat",
+    "meaning": "gem, jewel; diamond; precious stone",
+    "ipa": "má nii rát",
+    "pron_display": "má nii rát",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gem, jewel; diamond; precious stone"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22505",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณีศิลา",
+    "alalc": "ma nī si lā",
+    "meaning": "quartz, jeweled stone",
+    "ipa": "má nii sì laa",
+    "pron_display": "má nii sì laa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "quartz, jeweled stone"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22506",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณเฑียร",
+    "alalc": "monthian",
+    "meaning": "มนเทียร.",
+    "ipa": "mon-tʰian",
+    "pron_display": "monˈtʰian",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "มนเทียร."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13808",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มณเฑียรบาล",
+    "alalc": "mon thian bān",
+    "meaning": "administration of the royal household, administration of the royal residence",
+    "ipa": "mon tʰian baan",
+    "pron_display": "mon tʰian baan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "administration of the royal household, administration of the royal residence"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28793",
+    "source_query": "มณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มด",
+    "alalc": "mot",
+    "meaning": "ant.",
+    "ipa": "mót",
+    "pron_display": "ˈmót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ant."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13810",
+    "source_query": "มด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "มด",
+    "alalc": "mot",
+    "meaning": "sorcerer(ess).",
+    "ipa": "mót",
+    "pron_display": "ˈmót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sorcerer(ess)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13811",
+    "source_query": "มด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "มดดำ",
     "alalc": "mot dam",
     "meaning": "black ant",
@@ -861276,6 +861715,821 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "มดลูกกระด้าง",
+    "alalc": "",
+    "meaning": "uterosclerosis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "uterosclerosis"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21600",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกขณะตั้งครรภ์",
+    "alalc": "",
+    "meaning": "gravid uterus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gravid uterus"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21601",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกคั่งน้ำคาวปลา",
+    "alalc": "",
+    "meaning": "lochiometra",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lochiometra"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21602",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกคู่",
+    "alalc": "",
+    "meaning": "uterus duplex",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "uterus duplex"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21603",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกตกเลือด",
+    "alalc": "",
+    "meaning": "metrorrhagia",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "metrorrhagia"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21604",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกตีบ",
+    "alalc": "",
+    "meaning": "metrostenosis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "metrostenosis"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21605",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกฝ่อลีบ",
+    "alalc": "",
+    "meaning": "metratrophia",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "metratrophia"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21606",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกมานน้ำ",
+    "alalc": "",
+    "meaning": "hydrometra",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hydrometra"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21607",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกมีเลือดขัง",
+    "alalc": "",
+    "meaning": "haematometra*; haemometra*",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "haematometra*; haemometra*"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21608",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกยอดหวำ",
+    "alalc": "",
+    "meaning": "uterus arcuatus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "uterus arcuatus"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21609",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกยื่นย้อย",
+    "alalc": "",
+    "meaning": "prolapse of the uterus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "prolapse of the uterus"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21610",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกย้อย",
+    "alalc": "",
+    "meaning": "procidentia / hysteroptosis; procidentia uteri",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "procidentia / hysteroptosis; procidentia uteri"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21611",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกสองห้อง",
+    "alalc": "",
+    "meaning": "uterus bilocularis; uterus bipartitus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "uterus bilocularis; uterus bipartitus"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21612",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกสองเขา",
+    "alalc": "",
+    "meaning": "uterus bicornis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "uterus bicornis"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21613",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกอักเสบ",
+    "alalc": "",
+    "meaning": "hysteritis; metritis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hysteritis; metritis"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21614",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกอักเสบติดเชื้อรุนแรง",
+    "alalc": "",
+    "meaning": "septimetritis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "septimetritis"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21615",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกอักเสบหลังคลอด",
+    "alalc": "",
+    "meaning": "lochiometritis; lochometritis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lochiometritis; lochometritis"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21616",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกอักเสบเป็นหนอง",
+    "alalc": "",
+    "meaning": "pyometritis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pyometritis"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21617",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกอ่อนกำลัง",
+    "alalc": "",
+    "meaning": "metratonia",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "metratonia"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21618",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกเคลื่อน",
+    "alalc": "",
+    "meaning": "metrectopia",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "metrectopia"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21619",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกเป็นหนอง",
+    "alalc": "",
+    "meaning": "pyometra; pyometrium",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pyometra; pyometrium"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21620",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกแตก",
+    "alalc": "",
+    "meaning": "hysterorrhexis; metrorrhexis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hysterorrhexis; metrorrhexis"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21621",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดลูกโผล่",
+    "alalc": "",
+    "meaning": "prolapse of the uterus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "prolapse of the uterus"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21622",
+    "source_query": "มด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มดหมอ",
+    "alalc": "mot mǭ",
+    "meaning": "doctor, physician.",
+    "ipa": "mót mɔ̌ɔ",
+    "pron_display": "ˈmót ˈmɔ̌ɔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "doctor, physician."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13813",
+    "source_query": "มด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มดเท็จ",
+    "alalc": "mot thet",
+    "meaning": "lie, tell a lie",
+    "ipa": "mót tʰet",
+    "pron_display": "mót tʰet",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lie, tell a lie"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22510",
+    "source_query": "มด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มดแดง",
+    "alalc": "mot dǣng",
+    "meaning": "red ant.",
+    "ipa": "mót dɛɛŋ",
+    "pron_display": "mót ˈdɛɛŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "red ant."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6951",
+    "source_query": "มด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มติ",
+    "alalc": "mati",
+    "meaning": "resolution, decision; opinion, idea, view.",
+    "ipa": "má-tì",
+    "pron_display": "máˈtìʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "resolution, decision; opinion, idea, view."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13815",
+    "source_query": "มต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มติกลุ่ม",
+    "alalc": "",
+    "meaning": "group opinion",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "group opinion"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21624",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มติธรรมดา",
+    "alalc": "",
+    "meaning": "simple resolution (ของสภา)  (อเมริกัน); ordinary resolution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "simple resolution (ของสภา)  (อเมริกัน)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "ordinary resolution"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21625",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มติฝูงชน",
+    "alalc": "",
+    "meaning": "crowd opinion",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "crowd opinion"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21627",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มติพิเศษ",
+    "alalc": "",
+    "meaning": "special resolution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "special resolution"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21628",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มติพ้อง",
+    "alalc": "",
+    "meaning": "concurrent resolution (อเมริกัน)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "concurrent resolution (อเมริกัน)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21629",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "มติมหาชน",
@@ -861305,6 +862559,963 @@
     "status": "tentative"
   },
   {
+    "thai": "มติร่วม",
+    "alalc": "",
+    "meaning": "joint resolution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "joint resolution"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21631",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มติสามัญ",
+    "alalc": "",
+    "meaning": "ordinary resolution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ordinary resolution"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21632",
+    "source_query": "มต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มท",
+    "alalc": "mot",
+    "meaning": "Ministry of Interior",
+    "ipa": "má tʰá",
+    "pron_display": "má tʰá",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Ministry of Interior"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1449",
+    "source_query": "มท.*",
+    "roman_method": "spelling",
+    "roman_evidence": "conflict",
+    "status": "tentative"
+  },
+  {
+    "thai": "มทนะ",
+    "alalc": "ma tha na",
+    "meaning": "cupid, god of Love; lust, sexual desire; love; infatuation",
+    "ipa": "má tʰá ná",
+    "pron_display": "má tʰá ná",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cupid, god of Love"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lust, sexual desire; love; infatuation"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22513",
+    "source_query": "มท.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุ",
+    "alalc": "ma thu",
+    "meaning": "honey, nectar; pleasant, satisfactory; delightful",
+    "ipa": "má tʰú",
+    "pron_display": "má tʰú",
+    "pos": "N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "honey, nectar"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "pleasant, satisfactory; delightful"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22514",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุกร",
+    "alalc": "ma thu kǭn",
+    "meaning": "bee",
+    "ipa": "má tʰú kɔɔn",
+    "pron_display": "má tʰú kɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22515",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุการี",
+    "alalc": "ma thu kā rī",
+    "meaning": "bee",
+    "ipa": "má tʰú kaa rii",
+    "pron_display": "má tʰú kaa rii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22516",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุตฤณ",
+    "alalc": "ma thu trin",
+    "meaning": "sugarcane",
+    "ipa": "má tʰú trin",
+    "pron_display": "má tʰú trin",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sugarcane"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22517",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุปายาส",
+    "alalc": "ma thu pā yāt",
+    "meaning": "rice porridge, porridge made of boiled rice, sugar and honey",
+    "ipa": "má tʰú paa yâat",
+    "pron_display": "má tʰú paa yâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rice porridge, porridge made of boiled rice, sugar and honey"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22518",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุพรต",
+    "alalc": "ma thu phrot",
+    "meaning": "large black bee",
+    "ipa": "má tʰú pʰrót",
+    "pron_display": "má tʰú pʰrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "large black bee"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22727",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุร",
+    "alalc": "",
+    "meaning": "mellifluence, melodiousness; sweetness; be melodious, be sweet; be mellifluous; melodious, sweet-sounding; sweet; mellifluous; red sugarcane",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N; V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mellifluence, melodiousness; sweetness"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be melodious, be sweet; be mellifluous"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "melodious, sweet-sounding; sweet; mellifluous"
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "red sugarcane"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22728",
+    "source_query": "มธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มธุรพจน์",
+    "alalc": "ma thu ra phot",
+    "meaning": "honeyed words, sweet language; sweet words",
+    "ipa": "má tʰú rá pʰót",
+    "pron_display": "má tʰú rá pʰót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "honeyed words, sweet language; sweet words"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22729",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุรส",
+    "alalc": "ma thu rot",
+    "meaning": "sugarcane; melodious, sweet-sounding; sweet; mellifluous; honey, nectar; sweetness, sweet taste",
+    "ipa": "má tʰú rót",
+    "pron_display": "má tʰú rót",
+    "pos": "N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sugarcane"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "melodious, sweet-sounding; sweet; mellifluous"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "honey, nectar"
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sweetness, sweet taste"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22730",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุระ",
+    "alalc": "",
+    "meaning": "be melodious, be sweet; be mellifluous; sweetness, melodiousness; mellifluence; melodious, sweet-sounding; sweet; mellifluous; red sugarcane",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V; N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be melodious, be sweet; be mellifluous"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sweetness, melodiousness; mellifluence"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "melodious, sweet-sounding; sweet; mellifluous"
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "red sugarcane"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22731",
+    "source_query": "มธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มธุลีห์",
+    "alalc": "ma thu lī",
+    "meaning": "bee",
+    "ipa": "má tʰú lii",
+    "pron_display": "má tʰú lii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bee"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22732",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มธุสร",
+    "alalc": "ma thu sǭn",
+    "meaning": "melodious sound, sweet sound/voice",
+    "ipa": "má tʰú sɔ̌ɔn",
+    "pron_display": "má tʰú sɔ̌ɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "melodious sound, sweet sound/voice"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22733",
+    "source_query": "มธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มน",
+    "alalc": "mon",
+    "meaning": "Unknown. (rhyme? found in มืด--.)",
+    "ipa": "mon",
+    "pron_display": "ˈmon",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Unknown. (rhyme? found in มืด--.)"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13823",
+    "source_query": "มน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "มน",
+    "alalc": "mon",
+    "meaning": "to be fixed, unmoving, as a fixed celestial body.",
+    "ipa": "mon",
+    "pron_display": "ˈmon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be fixed, unmoving, as a fixed celestial body."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13822",
+    "source_query": "มน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "มน",
+    "alalc": "mon",
+    "meaning": "to be roundish, somewhat round (not sharply pointed).",
+    "ipa": "mon",
+    "pron_display": "ˈmon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be roundish, somewhat round (not sharply pointed)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13821",
+    "source_query": "มน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนตรี",
+    "alalc": "montrī",
+    "meaning": "councilor, councilman.",
+    "ipa": "mon-trii",
+    "pron_display": "monˈtrii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "councilor, councilman."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13827",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนตร์",
+    "alalc": "",
+    "meaning": "sacred words",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sacred words"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3882",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนต์",
+    "alalc": "mon",
+    "meaning": "sacred words, prayer, sacrificial formula, incantation, magic spell.",
+    "ipa": "mon",
+    "pron_display": "ˈmon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sacred words, prayer, sacrificial formula, incantation, magic spell."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13824",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนทกานติ",
+    "alalc": "mon tha kān ti",
+    "meaning": "moon",
+    "ipa": "mon tʰá kaan tì",
+    "pron_display": "mon tʰá kaan tì",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "moon"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22735",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนสิการ",
+    "alalc": "ma na si kān",
+    "meaning": "attention, intention; determination",
+    "ipa": "má ná sì kaan",
+    "pron_display": "má ná sì kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "attention, intention; determination"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22738",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนังคศิลา",
+    "alalc": "manangkhasilā",
+    "meaning": "Serimanangkasila Party, a political party formerly headed by Phibun (Phibul) Songkhram.",
+    "ipa": "ma-naŋ-kʰá-si-laa",
+    "pron_display": "maˈnaŋ.kʰá.siˈlaa",
+    "pos": "nN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "nN"
+        ],
+        "definitions": [
+          "Serimanangkasila Party, a political party formerly headed by Phibun (Phibul) Songkhram."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13831",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนัส",
+    "alalc": "manat",
+    "meaning": "mind, heart.",
+    "ipa": "ma-nát",
+    "pron_display": "maˈnát",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mind, heart."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13832",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนัสดาป",
+    "alalc": "ma nat sa dāp",
+    "meaning": "mental pain, anxiety; worry; anguish",
+    "ipa": "má nát sà dàap",
+    "pron_display": "má nát sà dàap",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mental pain, anxiety; worry; anguish"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22740",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนัสวี",
+    "alalc": "ma nat sa wī",
+    "meaning": "sage, wise person; scholar; intellectual; astute person; learned person",
+    "ipa": "má nát sà wii",
+    "pron_display": "má nát sà wii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sage, wise person; scholar; intellectual; astute person; learned person"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22741",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนิลา",
+    "alalc": "manilā",
+    "meaning": "Manila.",
+    "ipa": "ma-ni-laa",
+    "pron_display": "ma.niˈlaa",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Manila."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13833",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุ",
+    "alalc": "ma nu",
+    "meaning": "Manu, creator and ruler of human race",
+    "ipa": "má nú",
+    "pron_display": "má nú",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Manu, creator and ruler of human race"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22742",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุช",
+    "alalc": "ma nut",
+    "meaning": "human being, human; man",
+    "ipa": "má nút",
+    "pron_display": "má nút",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "human being, human; man"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22743",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษยชาติ",
+    "alalc": "",
+    "meaning": "mankind.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mankind."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13835",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "มนุษยชาติ",
     "alalc": "manutsaya chāt",
     "meaning": "mankind.",
@@ -861326,7 +863537,506 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5763",
-    "source_query": "ชา.*",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษยชีวเคมี",
+    "alalc": "",
+    "meaning": "human biochemistry",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "human biochemistry"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21636",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยธรรม",
+    "alalc": "manutsaya tham",
+    "meaning": "humanity, humaneness.",
+    "ipa": "ma-nút-sa-ya tʰam",
+    "pron_display": "maˈnút.sa.ya ˈtʰam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "humanity, humaneness."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9454",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษยธรรมนิยม",
+    "alalc": "",
+    "meaning": "humanitarianism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "humanitarianism"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21638",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยนิยม",
+    "alalc": "",
+    "meaning": "humanism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "humanism"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22747",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยนิยม",
+    "alalc": "",
+    "meaning": "humanism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "humanism"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21639",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยนิยมแนวใหม่",
+    "alalc": "",
+    "meaning": "new humanism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "new humanism"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21640",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยปัจจัย",
+    "alalc": "",
+    "meaning": "human factor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "human factor"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21641",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยวิทยา",
+    "alalc": "",
+    "meaning": "anthropology",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "anthropology"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3883",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยศาสตร์",
+    "alalc": "",
+    "meaning": "humanities",
+    "ipa": "má nút sà yá sàat, má nút sàat",
+    "pron_display": "má nút sà yá sàat, má nút sàat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "humanities"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3884",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยสรีรวิทยา",
+    "alalc": "",
+    "meaning": "hominal physiology; human physiology",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hominal physiology; human physiology"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21642",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยสัมพันธ์",
+    "alalc": "",
+    "meaning": "human relations",
+    "ipa": "má nút sà yá sǎm pʰan, má nút sǎm pʰan",
+    "pron_display": "má nút sà yá sǎm pʰan, má nút sǎm pʰan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "human relations"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3667",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยสัมพันธ์",
+    "alalc": "",
+    "meaning": "human relations",
+    "ipa": "má nút sà yá sǎm pʰan, má nút sǎm pʰan",
+    "pron_display": "má nút sà yá sǎm pʰan, má nút sǎm pʰan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "human relations"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21643",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษยเทพ",
+    "alalc": "ma nut sa ya thēp",
+    "meaning": "king, monarch",
+    "ipa": "má nút sà yá tʰêep",
+    "pron_display": "má nút sà yá tʰêep",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22746",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษยโลก",
+    "alalc": "manutsaya lōk",
+    "meaning": "the world, the earth, i.e. the world of human beings.",
+    "ipa": "ma-nút-sa-ya lôok",
+    "pron_display": "maˈnút.sa.ya ˈlôok",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the world, the earth, i.e. the world of human beings."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13836",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษย์",
+    "alalc": "manut",
+    "meaning": "man, human being.",
+    "ipa": "ma-nút",
+    "pron_display": "maˈnút",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "man, human being."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13834",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษย์กบ",
+    "alalc": "ma nut kop",
+    "meaning": "frogman",
+    "ipa": "má nút kòp",
+    "pron_display": "má nút kòp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "frogman"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22744",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุษย์ต่างดาว",
+    "alalc": "",
+    "meaning": "extraterrestrial being",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "extraterrestrial being"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22745",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษย์ล่องหน",
+    "alalc": "",
+    "meaning": "invisible man",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "invisible man"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22748",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนุษย์อวกาศ",
+    "alalc": "ma nut a wa kāt",
+    "meaning": "astronaut, spaceman; spacewoman",
+    "ipa": "má nút à wá kàat",
+    "pron_display": "má nút à wá kàat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "astronaut, spaceman; spacewoman"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22750",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -861353,7 +864063,70 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:6686",
-    "source_query": "ด.*",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มนุสาร",
+    "alalc": "",
+    "meaning": "Code of Manu; Code of law",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Code of Manu"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Code of law"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22751",
+    "source_query": "มน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มนเทียร",
+    "alalc": "monthian",
+    "meaning": "royal household, establishment; palace.",
+    "ipa": "mon-tʰian",
+    "pron_display": "monˈtʰian",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "royal household, establishment; palace."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13830",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -861389,7 +864162,1085 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:22737",
-    "source_query": "บ.*",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มม.",
+    "alalc": "mǭmǭ",
+    "meaning": "มิลลิเมตร millimeter.",
+    "ipa": "mɔɔ-mɔɔ",
+    "pron_display": "mɔɔˈmɔɔ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "มิลลิเมตร millimeter."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13841",
+    "source_query": "มม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มมังการ",
+    "alalc": "ma mang kān",
+    "meaning": "egoism, assumption of ownership",
+    "ipa": "má maŋ kaan",
+    "pron_display": "má maŋ kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "egoism, assumption of ownership"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22766",
+    "source_query": "มม.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มยุร",
+    "alalc": "",
+    "meaning": "peacock",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "peacock"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22767",
+    "source_query": "มย.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มยุรคติ",
+    "alalc": "ma yu ra kha ti",
+    "meaning": "peacock's posture",
+    "ipa": "má yú rá kʰá tì",
+    "pron_display": "má yú rá kʰá tì",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "peacock's posture"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22768",
+    "source_query": "มย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มยุรฉัตร",
+    "alalc": "ma yu ra chat",
+    "meaning": "sheaf of peacock's tail feather",
+    "ipa": "má yú rá cʰàt",
+    "pron_display": "má yú rá cʰàt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sheaf of peacock's tail feather"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22769",
+    "source_query": "มย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มยุรา",
+    "alalc": "",
+    "meaning": "peacock",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "peacock"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22770",
+    "source_query": "มย.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มยุรี",
+    "alalc": "ma yu rī",
+    "meaning": "female peacock",
+    "ipa": "má yú rii",
+    "pron_display": "má yú rii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "female peacock"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22771",
+    "source_query": "มย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มยูข",
+    "alalc": "ma yū kha",
+    "meaning": "rays, rays of light; beam",
+    "ipa": "má yuu kʰà",
+    "pron_display": "má yuu kʰà",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rays, rays of light; beam"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22772",
+    "source_query": "มย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มยูร",
+    "alalc": "ma yūn",
+    "meaning": "peacock",
+    "ipa": "má yuun",
+    "pron_display": "má yuun",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "peacock"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22773",
+    "source_query": "มย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มร.",
+    "alalc": "ma ra",
+    "meaning": "Mister, Mr.",
+    "ipa": "má rá",
+    "pron_display": "má rá",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Mister, Mr."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1450",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรกต",
+    "alalc": "mǭrakot",
+    "meaning": "emerald.",
+    "ipa": "mɔɔ-ra-kòt",
+    "pron_display": "mɔɔ.raˈkòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "emerald."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13842",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรณกรรม",
+    "alalc": "mǭ ra na kam",
+    "meaning": "death",
+    "ipa": "mɔɔ rá ná kam",
+    "pron_display": "mɔɔ rá ná kam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "death"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22774",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรณบัตร",
+    "alalc": "mǭ ra na bat",
+    "meaning": "death certificate",
+    "ipa": "mɔɔ rá ná bàt",
+    "pron_display": "mɔɔ rá ná bàt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "death certificate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22775",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรณบัตร",
+    "alalc": "mǭ ra na bat",
+    "meaning": "death certificate",
+    "ipa": "mɔɔ rá ná bàt",
+    "pron_display": "mɔɔ rá ná bàt",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "death certificate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21644",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรณภัย",
+    "alalc": "",
+    "meaning": "fear of death; danger of death, danger; fatal risk; mortal danger; accident/calamity of death",
+    "ipa": "má rá ná pʰay, mɔɔ rá ná pʰay",
+    "pron_display": "má rá ná pʰay, mɔɔ rá ná pʰay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fear of death"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "danger of death, danger; fatal risk; mortal danger; accident/calamity of death"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22776",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรณภาพ",
+    "alalc": "mǭrana phāp",
+    "meaning": "death.",
+    "ipa": "mɔɔ-ra-na pʰâap",
+    "pron_display": "ˈmɔɔ.ra.na ˈpʰâap",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "death."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13844",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรณวิทยา",
+    "alalc": "",
+    "meaning": "thanatology",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "thanatology"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21645",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรณะ",
+    "alalc": "mǭrana",
+    "meaning": "death.; to die.",
+    "ipa": "mɔɔ-ra-ná",
+    "pron_display": "mɔɔ.raˈnáʔ",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "death."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to die."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13843",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรดก",
+    "alalc": "mǭradok",
+    "meaning": "(one's) inheritance.",
+    "ipa": "mɔɔ-ra-dòk",
+    "pron_display": "mɔɔ.raˈdòk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(one's) inheritance."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13846",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรดกทางวัฒนธรรม",
+    "alalc": "",
+    "meaning": "cultural heritage",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cultural heritage"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3885",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรดกที่ตกทอดเป็นส่วนๆ",
+    "alalc": "",
+    "meaning": "several inheritance",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "several inheritance"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21646",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรดกที่ยังมิได้บ่งตัวทรัพย์",
+    "alalc": "",
+    "meaning": "general legacy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "general legacy"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21647",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรดกที่เป็นทรัพย์สินมีรูปร่าง",
+    "alalc": "",
+    "meaning": "corporeal hereditament",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "corporeal hereditament"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21648",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรดกที่เป็นทรัพย์สินไม่มีรูปร่าง",
+    "alalc": "",
+    "meaning": "incorporeal hereditament",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "incorporeal hereditament"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21649",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรดกมีพินัยกรรม",
+    "alalc": "",
+    "meaning": "testate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "testate"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21650",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรดกแห่งสังคม",
+    "alalc": "",
+    "meaning": "social heritage, society's inheritance",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "social heritage, society's inheritance"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32088",
+    "source_query": "มร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มรรยาท",
+    "alalc": "manyāt",
+    "meaning": "manners, etiquette.",
+    "ipa": "man-yâat",
+    "pron_display": "manˈyâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "manners, etiquette."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13848",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรสุม",
+    "alalc": "mǭrasum",
+    "meaning": "monsoon.",
+    "ipa": "mɔɔ-ra-sǔm",
+    "pron_display": "mɔɔ.raˈsǔm",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "monsoon."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13851",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มรุต",
+    "alalc": "ma rut",
+    "meaning": "God of Storm, God of Wind; group of deity",
+    "ipa": "má rút",
+    "pron_display": "má rút",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "God of Storm, God of Wind"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "group of deity"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22779",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มฤค",
+    "alalc": "",
+    "meaning": "wild animal",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wild animal"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22780",
+    "source_query": "มฤ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มฤคราช",
+    "alalc": "ma rư kha rāt",
+    "meaning": "lion",
+    "ipa": "má rʉ́ kʰá râat",
+    "pron_display": "má rʉ́ kʰá râat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lion"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22781",
+    "source_query": "มฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มฤคศิร",
+    "alalc": "",
+    "meaning": "fifth constellation containing 3 stars",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fifth constellation containing 3 stars"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22782",
+    "source_query": "มฤ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มฤคเศียร",
+    "alalc": "",
+    "meaning": "fifth constellation containing 3 stars",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fifth constellation containing 3 stars"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22783",
+    "source_query": "มฤ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มฤจฉาชีพ",
+    "alalc": "ma rit chā chīp",
+    "meaning": "unlawful occupation; criminals, gangsters; desperadoes; underworld",
+    "ipa": "má rít cʰǎa cʰîip",
+    "pron_display": "má rít cʰǎa cʰîip",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "unlawful occupation"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "criminals, gangsters; desperadoes; underworld"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22784",
+    "source_query": "มฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มฤดก",
+    "alalc": "marưdok",
+    "meaning": "มรดก.",
+    "ipa": "má-rʉ́-dòk",
+    "pron_display": "má.rʉ́ˈdòk",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "มรดก."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13854",
+    "source_query": "มฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มฤต",
+    "alalc": "",
+    "meaning": "dead",
+    "ipa": "má rít, má rʉ́t",
+    "pron_display": "má rít, má rʉ́t",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "dead"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22785",
+    "source_query": "มฤ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มฤตภาพ",
+    "alalc": "",
+    "meaning": "mortality",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mortality"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:21651",
+    "source_query": "มฤ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "มฤตยู",
+    "alalc": "marưttayū",
+    "meaning": "death.; Uranus.",
+    "ipa": "ma-rʉ́t-ta-yuu",
+    "pron_display": "ma.rʉ́t.taˈyuu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "death."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Uranus."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13855",
+    "source_query": "มฤ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มฤตยูราช",
+    "alalc": "ma rưt ta yū rāt",
+    "meaning": "God of Death",
+    "ipa": "má rʉ́t tà yuu râat",
+    "pron_display": "má rʉ́t tà yuu râat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "God of Death"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:22787",
+    "source_query": "มฤ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -866435,6 +870286,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14180",
     "source_query": "ตื.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "มืดมน",
+    "alalc": "mư̄t mon",
+    "meaning": "to be dark, obscure.",
+    "ipa": "mʉ̂ʉt mon",
+    "pron_display": "mʉ̂ʉt ˈmon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dark, obscure."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14181",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -896573,6 +900451,33 @@
     "status": "tentative"
   },
   {
+    "thai": "รังมด",
+    "alalc": "rang mot",
+    "meaning": "ant's nest",
+    "ipa": "raŋ mót",
+    "pron_display": "raŋ mót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ant's nest"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21550",
+    "source_query": "มด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รังสีวิทยา",
     "alalc": "rang sī wit tha yā",
     "meaning": "radiology",
@@ -897477,6 +901382,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12643",
     "source_query": "ฝ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รับมรดก",
+    "alalc": "rap mǭradok",
+    "meaning": "to inherit.",
+    "ipa": "ráp mɔɔ-ra-dòk",
+    "pron_display": "ˈráp mɔɔ.raˈdòk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to inherit."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13847",
+    "source_query": "มร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -904119,6 +908051,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงมติ",
+    "alalc": "long mati",
+    "meaning": "to resolve, pass a resolution, come to a decision.",
+    "ipa": "loŋ má-tì",
+    "pron_display": "ˈloŋ máˈtìʔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to resolve, pass a resolution, come to a decision."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13819",
+    "source_query": "มต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงยา",
     "alalc": "long yā",
     "meaning": "to apply niello or some type of enameling compound; to inlay (something) with niello or an enameling compound.",
@@ -904819,6 +908778,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13574",
     "source_query": "ฟ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลมมรสุม",
+    "alalc": "lom mǭrasum",
+    "meaning": "monsoon wind.",
+    "ipa": "lom mɔɔ-ra-sǔm",
+    "pron_display": "ˈlom mɔɔ.raˈsǔm",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "monsoon wind."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13852",
+    "source_query": "มร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -906225,7 +910211,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11099",
-    "source_query": "ปร.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -963693,6 +967679,42 @@
     "status": "unresolved"
   },
   {
+    "thai": "สวดมนต์",
+    "alalc": "suat mon",
+    "meaning": "to pray by reciting prayers.; to chant sacred words, utter an incantation.",
+    "ipa": "sùat mon",
+    "pron_display": "sùat ˈmon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pray by reciting prayers."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to chant sacred words, utter an incantation."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13826",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สวนกระแส",
     "alalc": "",
     "meaning": "reverse trend; go against, be opposed to; be averse to; adverse, hostile",
@@ -965516,6 +969538,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "สังคมมนุษย์",
+    "alalc": "sangkhom manut",
+    "meaning": "human society.",
+    "ipa": "sǎŋ-kʰom ma-nút",
+    "pron_display": "sǎŋˈkʰom maˈnút",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "human society."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13838",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "สังคมวิทยา",
@@ -968992,6 +973041,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:3091",
     "source_query": "ปร.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สิทธิมนุษยชน",
+    "alalc": "",
+    "meaning": "human rights",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "human rights"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3566",
+    "source_query": "มน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -975967,6 +980043,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12582",
     "source_query": "ฝ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หน้ามรสุม",
+    "alalc": "nā mǭrasum",
+    "meaning": "monsoon season.",
+    "ipa": "nâa mɔɔ-ra-sǔm",
+    "pron_display": "ˈnâa mɔɔ.raˈsǔm",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "monsoon season."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13853",
+    "source_query": "มร.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1008018,7 +1012121,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4946",
-    "source_query": "พุ.*",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1015601,6 +1019704,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เทศมนตรี",
+    "alalc": "thēsa montrī",
+    "meaning": "councilor (of a city or municipality).",
+    "ipa": "tʰêe-sa mon-trii",
+    "pron_display": "tʰêe.sa monˈtrii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "councilor (of a city or municipality)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9280",
+    "source_query": "มน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เทิดทูน",
     "alalc": "thœ̄t thūn",
     "meaning": "admire, esteem; respect; worship",
@@ -1016775,6 +1020905,31 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:4881",
     "source_query": "ใ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "เนื้อเยื่อข้าง ๆ มดลูก",
+    "alalc": "",
+    "meaning": "parametrium",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "parametrium"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:32902",
+    "source_query": "มด.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1025086,6 +1029241,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12685",
     "source_query": "ฝ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เพื่อนมนุษย์",
+    "alalc": "phưan manut",
+    "meaning": "fellow man.",
+    "ipa": "pʰʉ̂an ma-nút",
+    "pron_display": "pʰʉ̂an maˈnút",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fellow man."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13446",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1041238,6 +1045420,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แก้วมรกต",
+    "alalc": "kǣw mǭ ra kot",
+    "meaning": "kind of a disease",
+    "ipa": "kɛ̂ɛw mɔɔ rá kòt",
+    "pron_display": "kɛ̂ɛw mɔɔ rá kòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of a disease"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26080",
+    "source_query": "มร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แก้ไม่ตก",
     "alalc": "kǣ may tok",
     "meaning": "can't solve (it), can't figure (it) out; can't be solved, is unsolvable.",
@@ -1048645,6 +1052854,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:2664",
     "source_query": "พิ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แม่มด",
+    "alalc": "mǣ mot",
+    "meaning": "witch, sorceress.",
+    "ipa": "mɛ̂ɛ mót",
+    "pron_display": "mɛ̂ɛ ˈmót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "witch, sorceress."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13814",
+    "source_query": "มด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1056770,6 +1061006,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12865",
     "source_query": "พร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โลกมนุษย์",
+    "alalc": "lōk manut",
+    "meaning": "the world, the earth.",
+    "ipa": "lôok ma-nút",
+    "pron_display": "ˈlôok maˈnút",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the world, the earth."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13837",
+    "source_query": "มน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
