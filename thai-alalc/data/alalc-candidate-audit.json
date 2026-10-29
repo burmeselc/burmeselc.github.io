@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 38868,
+    "unique_lexical_records": 39886,
     "sample_size": 150,
     "counts": {
       "neither": 83,
@@ -220,6 +220,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
+    },
+    {
+      "thai": "พอลิเมอร์ชีวภาพ",
+      "source_id": "RI:19969",
+      "pronunciation": "",
+      "meaning": "biopolymer",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
     },
     {
       "thai": "ฉีดพ่น",
@@ -992,6 +1003,17 @@
       "pos": ""
     },
     {
+      "thai": "พับไป",
+      "source_id": "LEX2.0:12236",
+      "pronunciation": "",
+      "meaning": "cancel",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "V"
+    },
+    {
       "thai": "ประสาทอักเสบเหตุสูงอายุ",
       "source_id": "RI:17975",
       "pronunciation": "",
@@ -1088,6 +1110,17 @@
       "pronunciation_candidate": "khǭng khlang",
       "comparison": "pronunciation_only",
       "web_rank": "3",
+      "pos": "N"
+    },
+    {
+      "thai": "พินทุ",
+      "source_id": "LEX2.0:12359",
+      "pronunciation": "pʰin tʰú",
+      "meaning": "drop of water; vowel mark; tiny circle; dot; forehead mark",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "phin thu",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
       "pos": "N"
     },
     {
@@ -1410,6 +1443,17 @@
       "pos": "N"
     },
     {
+      "thai": "พิฆเนศ",
+      "source_id": "LEX2.0:12317",
+      "pronunciation": "",
+      "meaning": "elephant - headed god, son of Siva",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "ที่ลุ่ม",
       "source_id": "TDP:9117",
       "pronunciation": "tʰîi lûm",
@@ -1597,6 +1641,17 @@
       "pos": "N"
     },
     {
+      "thai": "พิกัดอัตราศุลกากร",
+      "source_id": "RI:20078",
+      "pronunciation": "pʰí kàt àt traa sǔn lá kaa kɔɔn",
+      "meaning": "customs tariff",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "phi kat at trā sun la kā kǭn",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "ได้ซิ",
       "source_id": "TDP:7031",
       "pronunciation": "dâay si",
@@ -1606,61 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": ""
-    },
-    {
-      "thai": "งานฝังไม้",
-      "source_id": "RI:12449",
-      "pronunciation": "",
-      "meaning": "marquetry",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "รี้พล",
-      "source_id": "TDP:12954",
-      "pronunciation": "ríi pʰon",
-      "meaning": "troops, fighting forces.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "rī phon",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ตรุษจีน",
-      "source_id": "LEX2.0:18263",
-      "pronunciation": "trùt jiin",
-      "meaning": "Chinese New Year; Bougainvillea glabra Choisy",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "trut yīn",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ชีพจรอ่อน",
-      "source_id": "RI:13175",
-      "pronunciation": "",
-      "meaning": "low-tension pulse; soft pulse; pulsus mollis",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "เด็กวัด",
-      "source_id": "LEX2.0:27660",
-      "pronunciation": "",
-      "meaning": "temple boy",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": "N"
     }
   ]
 }
