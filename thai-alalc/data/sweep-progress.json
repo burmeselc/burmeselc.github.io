@@ -1,19 +1,19 @@
 {
-  "as_of_utc": "2026-10-29T05:44:30+00:00",
+  "as_of_utc": "2026-10-29T12:58:55+00:00",
   "automatic_discovery": true,
   "complete_coverage_verified": false,
   "all_queue_processed": false,
-  "query_count": 830,
+  "query_count": 854,
   "query_statuses": {
-    "fetched": 338,
+    "fetched": 346,
     "overflow": 21,
-    "empty": 469,
+    "empty": 485,
     "cached": 2
   },
-  "pending_queries": 881,
-  "distinct_dictionary_records": 39911,
-  "distinct_sealang_source_records": 39886,
-  "csv_shards": 809,
+  "pending_queries": 857,
+  "distinct_dictionary_records": 40002,
+  "distinct_sealang_source_records": 39977,
+  "csv_shards": 833,
   "blocked_queries": [],
   "overflow_depth_limit": [],
   "notes": [
