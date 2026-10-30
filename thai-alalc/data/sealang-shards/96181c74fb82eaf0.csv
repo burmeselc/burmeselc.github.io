@@ -1,0 +1,142 @@
+thai,meaning,ipa,pron_display,pos,senses_json,web_rank,lexical_level,source,source_id,query
+รถตู้,van,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""van""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:21225,รถ.*
+รถติด,"jam (the traffic), (traffic) be heavy",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""jam (the traffic), (traffic) be heavy""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:31059,รถ.*
+รถทัวร์,"coach bus, coach; motor coach",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""coach bus, coach; motor coach""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:21224,รถ.*
+รถรับจ้าง,"taxi, taxicab",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""taxi, taxicab""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:1976,รถ.*
+รถแท็กซี่,"taxi, cab; taxicab",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""taxi, cab; taxicab""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:21248,รถ.*
+รถสองแถว,minibus,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""minibus""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:4325,รถ.*
+รถร่วม,affiliated bus,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""affiliated bus""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:4324,รถ.*
+รถเครื่อง,motorcycle,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""motorcycle""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:1197,รถ.*
+รถไถ,"pushcart, tractor",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pushcart, tractor""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:5227,รถ.*
+รถสิบล้อ,"ten - wheeled truck, ten wheeler; truck",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ten - wheeled truck, ten wheeler; truck""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:21253,รถ.*
+ต่อรถ,"build a car, assemble; construct; transfer to another bus, change bus",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""build a car, assemble; construct""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""transfer to another bus, change bus""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:17792,รถ.*
+กระจกรถ,"windshield, windscreen",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""windshield, windscreen""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:23884,รถ.*
+คนรถ,"driver, chauffeur",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""driver, chauffeur""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:25144,รถ.*
+คิวรถ,"bus station, ิbus terminal; bus stop",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus station, ิbus terminal; bus stop""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:9507,รถ.*
+รถ,"vehicle.; ""vehicle, conveyance.""",rót,ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""vehicle.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""\""vehicle, conveyance.\""""]}]",2,entry,SEAlang Thai / TDP,TDP:15044,รถ.*
+รถยนต์,automobile.,rót yon,rót ˈyon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""automobile.""]}]",2,subentry,SEAlang Thai / TDP,TDP:14599,รถ.*
+รถไฟ,train.,rót fay,rót ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""train.""]}]",2,subentry,SEAlang Thai / TDP,TDP:13672,รถ.*
+รถเข็น,"pushcart, buggy (especially a baby buggy).",rót kʰěn,rót ˈkʰěn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pushcart, buggy (especially a baby buggy).""]}]",2,subentry,SEAlang Thai / TDP,TDP:2705,รถ.*
+รถเมล์,bus.,rót mee,rót ˈmee,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus.""]}]",3,subentry,SEAlang Thai / TDP,TDP:14281,รถ.*
+รถกระบะ,"hand truck, handcart.",rót kra-bà,ˈrót kraˈbàʔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""hand truck, handcart.""]}]",3,subentry,SEAlang Thai / TDP,TDP:430,รถ.*
+รถเก๋ง,sedan (car).,rót kěŋ,rót ˈkěŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""sedan (car).""]}]",3,subentry,SEAlang Thai / TDP,TDP:1549,รถ.*
+รถเช่า,taxi.; rented car.,rót cʰâw,rót ˈcʰâw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""taxi.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""rented car.""]}]",3,subentry,SEAlang Thai / TDP,TDP:6016,รถ.*
+รถบรรทุก,truck.; freight car.,rót ban-tʰúk,ˈrót banˈtʰúk,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""truck.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""freight car.""]}]",3,subentry,SEAlang Thai / TDP,TDP:10367,รถ.*
+รถโดยสาร,passenger car (as opposed to freight car).; bus.,rót dooy-sǎan,ˈrót dooyˈsǎan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""passenger car (as opposed to freight car).""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""bus.""]}]",3,subentry,SEAlang Thai / TDP,TDP:7002,รถ.*
+รถแข่ง,racing car.,rót kʰɛ̀ŋ,rót ˈkʰɛ̀ŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""racing car.""]}]",3,subentry,SEAlang Thai / TDP,TDP:15046,รถ.*
+รถจักร,locomotive.,rót jàk,rót ˈjàk,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""locomotive.""]}]",3,subentry,SEAlang Thai / TDP,TDP:4590,รถ.*
+รถประจำทาง,"bus, coach.",rót pra-jam tʰaaŋ,ˈrót praˈjam ˈtʰaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus, coach.""]}]",3,subentry,SEAlang Thai / TDP,TDP:15050,รถ.*
+รถถัง,tank.,rót tʰǎŋ,rót ˈtʰǎŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tank.""]}]",3,subentry,SEAlang Thai / TDP,TDP:8252,รถ.*
+รถจักรยาน,bicycle.,rót jàk-kra-yaan,ˈrót jàk.kraˈyaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bicycle.""]}]",3,subentry,SEAlang Thai / TDP,TDP:15047,รถ.*
+รถดับเพลิง,fire engine.,rót dàp pʰləəŋ,ˈrót dàp ˈpʰləəŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fire engine.""]}]",4,subentry,SEAlang Thai / TDP,TDP:6547,รถ.*
+รถพยาบาล,ambulance.,rót pʰa-yaa-baan,ˈrót pʰa.yaaˈbaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ambulance.""]}]",4,subentry,SEAlang Thai / TDP,TDP:12763,รถ.*
+รถพ่วง,trailer.; a vehicle drawn by another.; a train of vehicles coupled to one another.,rót pʰûaŋ,rót ˈpʰûaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trailer.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""a vehicle drawn by another.""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""a train of vehicles coupled to one another.""]}]",4,subentry,SEAlang Thai / TDP,TDP:13032,รถ.*
+รถด่วน,express train (ขบวน); express bus (คัน).,rót dùan,rót ˈdùan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""express train (ขบวน); express bus (คัน).""]}]",4,subentry,SEAlang Thai / TDP,TDP:6448,รถ.*
+รถราง,"streetcar, trolley car, tram.",rót raaŋ,rót ˈraaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""streetcar, trolley car, tram.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15059,รถ.*
+รถหุ้มเกราะ,armored car.,rót hûm krɔ̀,ˈrót hûm ˈkrɔ̀ʔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""armored car.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15064,รถ.*
+รถสามล้อ,"samlor, pedicab.",rót sǎam lɔ́ɔ,ˈrót sǎam ˈlɔ́ɔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""samlor, pedicab.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15062,รถ.*
+รถม้า,"horse-drawn carriage, vehicle.",rót máa,rót ˈmáa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""horse-drawn carriage, vehicle.""]}]",4,subentry,SEAlang Thai / TDP,TDP:14057,รถ.*
+รถยนต์โดยสาร,bus.,rót yon dooy-sǎan,rót ˈyon dooyˈsǎan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus.""]}]",4,subentry,SEAlang Thai / TDP,TDP:7003,รถ.*
+รถถีบ,bicycle.,rót tʰìip,rót ˈtʰìip,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bicycle.""]}]",5,subentry,SEAlang Thai / TDP,TDP:8331,รถ.*
+รถรา,vehicles (collectively).,rót raa,ˈrót ˈraa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""vehicles (collectively).""]}]",5,subentry,SEAlang Thai / TDP,TDP:15058,รถ.*
+รถลาก,rickshaw.,rót lâak,rót ˈlâak,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rickshaw.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15060,รถ.*
+รถเกราะ,tank.; armored car.,rót krɔ̀,rót ˈkrɔ̀ʔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tank.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""armored car.""]}]",5,subentry,SEAlang Thai / TDP,TDP:1596,รถ.*
+รถบดถนน,steamroller.,rót bòt tʰa-nǒn,ˌrót bòt tʰaˈnǒn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""steamroller.""]}]",5,subentry,SEAlang Thai / TDP,TDP:10314,รถ.*
+รถไฟสายเหนือ,"the northern railways, the northern line.",rót fay sǎay nʉ̌a,rót ˈfay sǎay ˈnʉ̌a,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the northern railways, the northern line.""]}]",5,subentry,SEAlang Thai / TDP,TDP:17606,รถ.*
+รถรบ,(military) tank.; military vehicle.,rót róp,rót ˈróp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""(military) tank.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""military vehicle.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15057,รถ.*
+รถหวอ,"ambulance, fire engine, police car (i.e. any vehicle with a siren).",rót wɔ̌ɔ,rót ˈwɔ̌ɔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ambulance, fire engine, police car (i.e. any vehicle with a siren).""]}]",5,subentry,SEAlang Thai / TDP,TDP:15063,รถ.*
+รถเสบียง,"dining car, restaurant car, diner.",rót sa-biaŋ,ˈrót saˈbiaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""dining car, restaurant car, diner.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15061,รถ.*
+รถไฟหลวง,Royal State Railways.,rót fay lǔaŋ,rót ˈfay ˈlǔaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Royal State Railways.""]}]",6,subentry,SEAlang Thai / TDP,TDP:15053,รถ.*
+รถโกดัง,(motor) truck.,rót koo-daŋ,ˈrót kooˈdaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""(motor) truck.""]}]",6,subentry,SEAlang Thai / TDP,TDP:1873,รถ.*
+รถตีนตะขาบ,caterpillar tractor.,rót tiin ta-kʰàap,ˈrót tiin taˈkʰàap,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""caterpillar tractor.""]}]",6,subentry,SEAlang Thai / TDP,TDP:7465,รถ.*
+รถยนต์ประจำทาง,"a regularly scheduled bus, motor coach.",rót yon pra-jam tʰaaŋ,rót ˈyon praˈjam ˈtʰaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a regularly scheduled bus, motor coach.""]}]",6,subentry,SEAlang Thai / TDP,TDP:11096,รถ.*
+รถจักรยานสามล้อ,"samlor, pedicab.; tricycle.",rót jàk-kra-yaan sǎam lɔ́ɔ,ˈrót jàk.kraˈyaan sǎam ˈlɔ́ɔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""samlor, pedicab.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""tricycle.""]}]",6,subentry,SEAlang Thai / TDP,TDP:15048,รถ.*
+รถเจ๊ก,rickshaw.,rót jék,rót ˈjék,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rickshaw.""]}]",6,subentry,SEAlang Thai / TDP,TDP:4916,รถ.*
+รถตอนเดียว,"coupe, roadster.",rót tɔɔn diaw,ˈrót tɔɔn ˈdiaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""coupe, roadster.""]}]",6,subentry,SEAlang Thai / TDP,TDP:7421,รถ.*
+รถแท้กซี่,taxi.,rót tʰɛ́k-sîi,ˈrót tʰɛ́kˈsîi,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""taxi.""]}]",6,subentry,SEAlang Thai / TDP,TDP:15049,รถ.*
+รถกุดัง,(motor) truck.,rót ku-daŋ,ˈrót kuˈdaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""(motor) truck.""]}]",7,subentry,SEAlang Thai / TDP,TDP:1512,รถ.*
+ขับรถ,to drive a car.,kʰàp rót,kʰàp ˈrót,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to drive a car.""]}]",2,subentry,SEAlang Thai / TDP,TDP:2314,รถ.*
+เดินรถ,"to operate a line, manage a fleet of motor vehicles (e.g. a bus line).; to drive, operate a motor vehicle.",dəən rót,dəən ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to operate a line, manage a fleet of motor vehicles (e.g. a bus line).""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to drive, operate a motor vehicle.""]}]",3,subentry,SEAlang Thai / TDP,TDP:6868,รถ.*
+ที่จอดรถ,parking space.; parking lot.,tʰîi jɔ̀ɔt rót,ˈtʰîi jɔ̀ɔt ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""parking space.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""parking lot.""]}]",3,subentry,SEAlang Thai / TDP,TDP:4542,รถ.*
+ขึ้นรถ,"to take, board, get on a train or bus; to take, get in a car.",kʰʉ̂n rót,kʰʉ̂n ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to take, board, get on a train or bus; to take, get in a car.""]}]",3,subentry,SEAlang Thai / TDP,TDP:2615,รถ.*
+ทะเบียนรถ,car registration.,tʰa-bian rót,tʰa.bian ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""car registration.""]}]",3,subentry,SEAlang Thai / TDP,TDP:8726,รถ.*
+ค่ารถ,"fare, carfare.",kʰâa rót,kʰâa ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fare, carfare.""]}]",3,subentry,SEAlang Thai / TDP,TDP:3585,รถ.*
+ขบวนรถ,railroad train.; procession of vehicles.,kʰa-buan rót,kʰa.buan ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railroad train.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""procession of vehicles.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15045,รถ.*
+ล้อรถ,wheel of a vehicle.,lɔ́ɔ rót,lɔ́ɔ ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""wheel of a vehicle.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15949,รถ.*
+ลงรถ,"to get out of a car, get off a vehicle (e.g. a bus, streetcar).",loŋ rót,loŋ ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to get out of a car, get off a vehicle (e.g. a bus, streetcar).""]}]",4,subentry,SEAlang Thai / TDP,TDP:15869,รถ.*
+โรงรถ,garage.,rooŋ rót,rooŋ ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""garage.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15801,รถ.*
+ยางรถ,automobile tire.,yaaŋ rót,yaaŋ ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""automobile tire.""]}]",4,subentry,SEAlang Thai / TDP,TDP:14745,รถ.*
+ตกรถ,"to miss one's train, bus, etc.",tòk rót,tòk ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to miss one's train, bus, etc.""]}]",4,subentry,SEAlang Thai / TDP,TDP:7100,รถ.*
+อู่รถ,garage (for sheltering or repairing cars).,ùu rót,ùu ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""garage (for sheltering or repairing cars).""]}]",4,subentry,SEAlang Thai / TDP,TDP:15066,รถ.*
+ฟิตรถ,"to fix a car, repair a car.",fít rót,fít ˈrót,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to fix a car, repair a car.""]}]",4,subentry,SEAlang Thai / TDP,TDP:13593,รถ.*
+เมารถ,to be carsick.,maw rót,maw ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be carsick.""]}]",5,subentry,SEAlang Thai / TDP,TDP:14288,รถ.*
+จับรถ,to catch a bus or any other kind of vehicle.,jàp rót,jàp ˈrót,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to catch a bus or any other kind of vehicle.""]}]",5,subentry,SEAlang Thai / TDP,TDP:4669,รถ.*
+รางรถ,"railroad tracks, streetcar tracks.",raaŋ rót,raaŋ ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railroad tracks, streetcar tracks.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15065,รถ.*
+ป้ายหยุดรถ,bus stop sign.; traffic stop sign.,pâay yùt rót,ˈpâay yùt ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus stop sign.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""traffic stop sign.""]}]",5,subentry,SEAlang Thai / TDP,TDP:11669,รถ.*
+โรงเก็บรถ,garage.,rooŋ kèp rót,ˈrooŋ kèp ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""garage.""]}]",6,subentry,SEAlang Thai / TDP,TDP:1581,รถ.*
+บันไดรถ,running board (of a car),ban-day rót,banˈday ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""running board (of a car)""]}]",6,subentry,SEAlang Thai / TDP,TDP:10511,รถ.*
+ยางล้อรถ,"tire (made of rubber, for any kind of wheel or vehicle).",yaaŋ lɔ́ɔ rót,ˈyaaŋ lɔ́ɔ ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tire (made of rubber, for any kind of wheel or vehicle).""]}]",6,subentry,SEAlang Thai / TDP,TDP:14748,รถ.*
+เปลี่ยนยางรถ,to change a tire.,plìan yaaŋ rót,ˈplìan yaaŋ ˈrót,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to change a tire.""]}]",6,subentry,SEAlang Thai / TDP,TDP:11974,รถ.*
+เบารถ,"to slow down a car, stop a car.",baw rót,baw ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to slow down a car, stop a car.""]}]",6,subentry,SEAlang Thai / TDP,TDP:10802,รถ.*
+ไปไม่ทันรถ,"to miss the car, train, etc.",pay mây tʰan rót,ˈpay mây ˈtʰan ˈrót,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to miss the car, train, etc.""]}]",6,subentry,SEAlang Thai / TDP,TDP:8823,รถ.*
+กระจกหลังรถ,rear window (of a car).,kra-jòk lǎŋ rót,kraˈjòk ˈlǎŋ ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rear window (of a car).""]}]",6,subentry,SEAlang Thai / TDP,TDP:199,รถ.*
+โอนทะเบียนรถ,to transfer the registered ownership of a car.,oon tʰa-bian rót,ˈoon tʰa.bian ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to transfer the registered ownership of a car.""]}]",6,subentry,SEAlang Thai / TDP,TDP:19983,รถ.*
+กระบวนรถ,procession of vehicles.; railroad train.,kra-buan rót,kra.buan ˈrót,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""procession of vehicles.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""railroad train.""]}]",6,subentry,SEAlang Thai / TDP,TDP:413,รถ.*
+ตีทะเบียนรถ,to register a car.,tii tʰa-bian rót,ˌtii tʰaˈbian ˈrót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to register a car.""]}]",7,subentry,SEAlang Thai / TDP,TDP:7896,รถ.*
+สถานีรถไฟ,railroad station.,sa-tʰǎa-nii rót fay,sa.tʰǎaˈnii rót ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railroad station.""]}]",3,subentry,SEAlang Thai / TDP,TDP:17095,รถ.*
+ทางรถไฟ,"railway, railroad.; by rail.",tʰaaŋ rót fay,ˈtʰaaŋ rót ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railway, railroad.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""by rail.""]}]",3,subentry,SEAlang Thai / TDP,TDP:8908,รถ.*
+เดินรถไฟ,to operate a railway.,dəən rót fay,dəən rót ˈfay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to operate a railway.""]}]",3,subentry,SEAlang Thai / TDP,TDP:6870,รถ.*
+ถูกรถชน,to be hit by a car.,tʰùuk rót cʰon,tʰùuk ˈrót ˈcʰon,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be hit by a car.""]}]",4,subentry,SEAlang Thai / TDP,TDP:8408,รถ.*
+ลงรถไฟ,to get off a train.,loŋ rót fay,ˈloŋ rót ˈfay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to get off a train.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15870,รถ.*
+ชุมทางรถไฟ,railroad junction.,cʰum tʰaaŋ rót fay,cʰum ˈtʰaaŋ rót ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railroad junction.""]}]",5,subentry,SEAlang Thai / TDP,TDP:5968,รถ.*
+โดยทางรถไฟ,"by railway, by rail.",dooy tʰaaŋ rót fay,dooy ˈtʰaaŋ rót ˈfay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""by railway, by rail.""]}]",5,subentry,SEAlang Thai / TDP,TDP:6989,รถ.*
+ถูกรถยนต์ชน,to get hit by a car.,tʰùuk rót yon cʰon,tʰùuk rót ˈyon ˈcʰon,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to get hit by a car.""]}]",6,subentry,SEAlang Thai / TDP,TDP:5391,รถ.*
+กองรถรบ,armored unit.,kɔɔŋ rót róp,ˌkɔɔŋ rót ˈróp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""armored unit.""]}]",7,subentry,SEAlang Thai / TDP,TDP:868,รถ.*
+ปล่องรถไฟ,smokestack of a locomotive.,plɔ̀ŋ rót fay,ˈplɔ̀ŋ rót ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""smokestack of a locomotive.""]}]",8,subentry,SEAlang Thai / TDP,TDP:11382,รถ.*
+รถยา,"path, way; passage; trail; footpath",rót tʰà yaa,rót tʰà yaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""path, way; passage; trail; footpath""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:21255,รถ.*
+รถไฟฟ้า,"railcar, railroad car; electric train",rót fay fáa,rót fay fáa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railcar, railroad car; electric train""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:21257,รถ.*
+รถจักรยานยนต์,motorcycle,rót jàk krà yaan yon,rót jàk krà yaan yon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""motorcycle""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:37,รถ.*
+รถชน,car accident,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""car accident""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:28981,รถ.*
+รถบัส,bus,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:3916,รถ.*
+รถไฟใต้ดิน,"metro, underground  railways, subway; tube",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""metro, underground  railways, subway; tube""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:21232,รถ.*
+ขบวนรถไฟ,train,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""train""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:3247,รถ.*
+รถโดยสารประจำทาง,"bus, passenger car; omnibus",rót dooy sǎan prà jam tʰaaŋ,rót dooy sǎan prà jam tʰaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bus, passenger car; omnibus""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:21226,รถ.*
+ทางรถยนต์,highway.; by automobile.,tʰaaŋ rót yon,ˈtʰaaŋ rót ˈyon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""highway.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""by automobile.""]}]",4,subentry,SEAlang Thai / TDP,TDP:8909,รถ.*
+รถมอเตอร์ไซค์,"motorcycle, motorbike",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""motorcycle, motorbike""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:7840,รถ.*
+รถจิ๊ป,jeep,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""jeep""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:21229,รถ.*
+รถยนต์นั่ง,passenger car,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""passenger car""]}]",4,subentry,SEAlang Thai / RI,RI:22787,รถ.*
+รางรถไฟ,"railway, track; rail; railroad tracks",ˈraaŋ rót ˈfay,ˈraaŋ rót ˈfay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""railway, track; rail; railroad tracks""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:21606,รถ.*
+รถแทรกเตอร์,tractor,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tractor""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:1974,รถ.*
+รถแทรกเตอร์,tractor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tractor""]}]",4,subentry,SEAlang Thai / RI,RI:22796,รถ.*
+ตั๋วรถไฟ,ticket,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ticket""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:1890,รถ.*
+กระเป๋ารถเมล์,"conductor, ticket boy; ticket girl; ticket taker",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""conductor, ticket boy; ticket girl; ticket taker""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:24152,รถ.*
+รถยนต์ส่วนบุคคล,"private car, private vehicle; private automobile",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""private car, private vehicle; private automobile""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31058,รถ.*
+รถยนต์พระที่นั่ง,royal limousine.,rót yon pʰrá tʰîi nâŋ,rót ˈyon pʰrá tʰîi ˈnâŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""royal limousine.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15056,รถ.*
+รถไฟลอยฟ้า,"skytrain, air train",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""skytrain, air train""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1198,รถ.*
+รถไฟด่วน,express train.,rót fay dùan,rót ˈfay ˈdùan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""express train.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15052,รถ.*
+รถลีมูซีน,limousine,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""limousine""]}]",5,subentry,SEAlang Thai / RI,RI:22788,รถ.*
+รถกระเช้า,cabin,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""cabin""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1970,รถ.*
+รถขนของ,transport vehicle,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""transport vehicle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1972,รถ.*
+รถมินิบัส,minibus,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""minibus""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1975,รถ.*
+รถเทรลเลอร์,"trailer, drawbar trailer",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""trailer, drawbar trailer""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:1973,รถ.*
+รถสามล้อเครื่อง,motor tricycle,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""motor tricycle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:21254,รถ.*
+รถรางไฟฟ้า,"streetcar, tram.",rót raaŋ fay fáa,rót ˈraaŋ fay ˈfáa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""streetcar, tram.""]}]",5,subentry,SEAlang Thai / TDP,TDP:13659,รถ.*
+รถเปิดประทุน,convertible,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""convertible""]}]",5,subentry,SEAlang Thai / RI,RI:22795,รถ.*
+รถสามล้อถีบ,"tricycle, pedicab; trishaw",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tricycle, pedicab; trishaw""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:530,รถ.*
+รถขนขยะ,"refuse collection vehicle, garbage truck",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""refuse collection vehicle, garbage truck""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:1971,รถ.*
+รถยนต์เช่า,rented automobile.,rót yon cʰâw,rót ˈyon ˈcʰâw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rented automobile.""]}]",6,subentry,SEAlang Thai / TDP,TDP:15055,รถ.*
+รถพิกอัป,pickup truck,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pickup truck""]}]",6,subentry,SEAlang Thai / RI,RI:22785,รถ.*
+แตรรถยนต์,"horn, hooter; klaxon",trɛɛ rót yon,trɛɛ rót yon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""horn, hooter; klaxon""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:27831,รถ.*
+รถกึ่งพ่วง,semi trailer,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""semi trailer""]}]",6,subentry,SEAlang Thai / RI,RI:22780,รถ.*
+รถไฟดีเซลราง,diesel train,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""diesel train""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:529,รถ.*
+รถตรวจการ,estate car; station wagon,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""estate car; station wagon""]}]",6,subentry,SEAlang Thai / RI,RI:22784,รถ.*
+รถยนต์เกียร์อัตโนมัติ,automatic transmission car,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""automatic transmission car""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:12,รถ.*
+รถผมยางแตก,My car has a flat.,rót pʰǒm yaaŋ tɛ̀ɛk,rót ˈpʰǒm yaaŋ ˈtɛ̀ɛk↓,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""My car has a flat.""]}]",7,subentry,SEAlang Thai / TDP,TDP:14744,รถ.*
+รถคูเป,coup�,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""coup�""]}]",8,subentry,SEAlang Thai / RI,RI:22782,รถ.*
+รถเก๋งท้ายลาด,fastback,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fastback""]}]",9,subentry,SEAlang Thai / RI,RI:22791,รถ.*
+รถเก๋งท้ายหยัก,notchback,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""notchback""]}]",9,subentry,SEAlang Thai / RI,RI:22792,รถ.*
+รถกึ่งพ่วงปรับความยาวได้,pole trailer,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pole trailer""]}]",1,subentry,SEAlang Thai / RI,RI:22781,รถ.*
+รถชุดควบคุมคู่,dual control car,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dual control car""]}]",1,subentry,SEAlang Thai / RI,RI:22783,รถ.*
+รถเก๋งท้ายยก,liftback,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""liftback""]}]",1,subentry,SEAlang Thai / RI,RI:22790,รถ.*
+รถเก๋งมีประตูท้าย,hatchback,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""hatchback""]}]",1,subentry,SEAlang Thai / RI,RI:22793,รถ.*
+รถเก๋งหรูสมรรถนะสูง,Grand Touring; Gran Turismo (GT) (จีที),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Grand Touring; Gran Turismo (GT) (จีที)""]}]",1,subentry,SEAlang Thai / RI,RI:22794,รถ.*

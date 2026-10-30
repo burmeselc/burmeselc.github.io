@@ -65530,7 +65530,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:868",
-    "source_query": "กอ.*",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -65825,7 +65825,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:870",
-    "source_query": "กอ.*",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -80084,7 +80084,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1362",
-    "source_query": "กำ.*",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -117509,7 +117509,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2314",
-    "source_query": "ขั.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -129884,7 +129884,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2615",
-    "source_query": "ขึ.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -165752,7 +165752,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25144",
-    "source_query": "คน.*",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -262871,7 +262871,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:9507",
-    "source_query": "คิ.*",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -275995,7 +275995,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3585",
-    "source_query": "ค่.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -378335,7 +378335,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:6198",
-    "source_query": "ซ.*",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -407001,7 +407001,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7100",
-    "source_query": "ตก.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -443453,7 +443453,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:1890",
-    "source_query": "ตั.*",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -576461,6 +576461,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "นักรบ",
+    "alalc": "nak rop",
+    "meaning": "warrior, fighting man.",
+    "ipa": "nák róp",
+    "pron_display": "nák ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "warrior, fighting man."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9710",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "นักรัก",
     "alalc": "",
     "meaning": "lover, paramour; beau; Casanova",
@@ -626420,7 +626447,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10511",
-    "source_query": "บ.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -788107,7 +788134,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13078",
-    "source_query": "พั.*",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -935280,6 +935307,231 @@
     "status": "unresolved"
   },
   {
+    "thai": "ร.ง.",
+    "alalc": "rong",
+    "meaning": "factory",
+    "ipa": "ˈroŋ",
+    "pron_display": "ˈroŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "factory"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1463",
+    "source_query": "รง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ร.ด.",
+    "alalc": "rot",
+    "meaning": "Territorial Defense Department; defending the territory",
+    "ipa": "ˈrót",
+    "pron_display": "ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Territorial Defense Department"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "defending the territory"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1464",
+    "source_query": "รด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ร.ต.",
+    "alalc": "",
+    "meaning": "sub-lieutenant, Sub-Lt.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sub-lieutenant, Sub-Lt."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1465",
+    "source_query": "รต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ร.ต.ต.",
+    "alalc": "",
+    "meaning": "police sub- lieutenant, Pol.Sub-Lt.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "police sub- lieutenant, Pol.Sub-Lt."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1466",
+    "source_query": "รต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ร.ต.ท.",
+    "alalc": "",
+    "meaning": "police lieutenant, Pol.Lt.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "police lieutenant, Pol.Lt."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1467",
+    "source_query": "รต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ร.ต.อ.",
+    "alalc": "",
+    "meaning": "police captain, Pol.Capt.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "police captain, Pol.Capt."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1468",
+    "source_query": "รต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ร.ท.",
+    "alalc": "",
+    "meaning": "lieutenant, Lt.; Lieut.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lieutenant, Lt.; Lieut."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1469",
+    "source_query": "รท.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ร.บ.",
+    "alalc": "rop",
+    "meaning": "bachelor of public administration",
+    "ipa": "ˈróp",
+    "pron_display": "ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bachelor of public administration"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1470",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รก",
     "alalc": "rok",
     "meaning": "placenta.",
@@ -936081,6 +936333,547 @@
     "status": "unresolved"
   },
   {
+    "thai": "รง",
+    "alalc": "rong",
+    "meaning": "gamboge, a kind of gum resin.",
+    "ipa": "roŋ",
+    "pron_display": "ˈroŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gamboge, a kind of gum resin."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15039",
+    "source_query": "รง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "รงกุ์",
+    "alalc": "rong",
+    "meaning": "species of deer",
+    "ipa": "roŋ",
+    "pron_display": "roŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "species of deer"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21279",
+    "source_query": "รง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รงคดุริยางค์",
+    "alalc": "",
+    "meaning": "synchromism; synchronism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "synchromism; synchronism"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22775",
+    "source_query": "รง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รงคพาหะ",
+    "alalc": "",
+    "meaning": "chromatophore",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chromatophore"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22776",
+    "source_query": "รง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รงควัตถุ",
+    "alalc": "rong kha wat thu",
+    "meaning": "any colouring substance, different colours; pigment",
+    "ipa": "roŋ kʰá wát tʰù",
+    "pron_display": "roŋ kʰá wát tʰù",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "any colouring substance, different colours; pigment"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21278",
+    "source_query": "รง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รงควิปลาส",
+    "alalc": "",
+    "meaning": "chromatic aberration",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chromatic aberration"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22777",
+    "source_query": "รง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รงคะ",
+    "alalc": "",
+    "meaning": "chroma",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chroma"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22778",
+    "source_query": "รง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รงรอง",
+    "alalc": "rong rǭng",
+    "meaning": "beautiful, pretty; splendid; prosperous",
+    "ipa": "roŋ rɔɔŋ",
+    "pron_display": "roŋ rɔɔŋ",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "beautiful, pretty; splendid"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "prosperous"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21277",
+    "source_query": "รง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รจนา",
+    "alalc": "rot ya nā",
+    "meaning": "compose, write; author; beautiful, pretty",
+    "ipa": "rót jà naa",
+    "pron_display": "rót jà naa",
+    "pos": "V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "compose, write; author"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "beautiful, pretty"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21276",
+    "source_query": "รจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รจิต",
+    "alalc": "ra yit",
+    "meaning": "beautifully, prettily; decorate, adorn; ornament; arrange, compile",
+    "ipa": "rá jìt",
+    "pron_display": "rá jìt",
+    "pos": "ADV; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "beautifully, prettily"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "decorate, adorn; ornament"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "arrange, compile"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21274",
+    "source_query": "รจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รจเรข",
+    "alalc": "",
+    "meaning": "writing, composition; compose, author; write; beautiful, pretty",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N; V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "writing, composition"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "compose, author; write"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "beautiful, pretty"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21270",
+    "source_query": "รจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รณ",
+    "alalc": "ron",
+    "meaning": "to fight, battle, wage war.",
+    "ipa": "ron",
+    "pron_display": "ˈron",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fight, battle, wage war."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15040",
+    "source_query": "รณ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "รณภู",
+    "alalc": "",
+    "meaning": "battlefield, battleground",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "battlefield, battleground"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21258",
+    "source_query": "รณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รณภูมิ",
+    "alalc": "",
+    "meaning": "battlefield, battleground",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "battlefield, battleground"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21275",
+    "source_query": "รณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รณรงค์หาเสียง",
+    "alalc": "",
+    "meaning": "campaign, seek votes; campaign for votes;  look for votes",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "campaign, seek votes; campaign for votes;  look for votes"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21261",
+    "source_query": "รณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รณสถาน",
+    "alalc": "",
+    "meaning": "battlefield, battleground",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "battlefield, battleground"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21239",
+    "source_query": "รณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รณเกษตร",
+    "alalc": "",
+    "meaning": "battlefield, battleground",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "battlefield, battleground"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21272",
+    "source_query": "รณ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รด",
+    "alalc": "rot",
+    "meaning": "to water (e.g. plants).; to sprinkle (as in certain ceremonies).",
+    "ipa": "rót",
+    "pron_display": "ˈrót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to water (e.g. plants)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to sprinkle (as in certain ceremonies)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15042",
+    "source_query": "รด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "รดน้ำ",
     "alalc": "rot nām",
     "meaning": "to pour water on; to water.; to sprinkle holy water over.",
@@ -936171,6 +936964,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "รดน้ำมนต์",
+    "alalc": "",
+    "meaning": "sprinkle holy water, pour sacred water on somebody; bless someone with holy water",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "sprinkle holy water, pour sacred water on somebody; bless someone with holy water"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21235",
+    "source_query": "รด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "รดน้ำศพ",
     "alalc": "",
     "meaning": "perform the funeral bathing ceremony, perform the bathing ceremony for the dead",
@@ -936198,6 +937018,139 @@
     "status": "unresolved"
   },
   {
+    "thai": "รดี",
+    "alalc": "ra dī",
+    "meaning": "pleasure, amusement; satisfaction; contentment; love, sexual passion; affection",
+    "ipa": "rá dii",
+    "pron_display": "rá dii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pleasure, amusement; satisfaction; contentment"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "love, sexual passion; affection"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21233",
+    "source_query": "รด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รติ",
+    "alalc": "ra ti",
+    "meaning": "love, sexual passion; affection; pleasure, amusement",
+    "ipa": "rá tì",
+    "pron_display": "rá tì",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "love, sexual passion; affection"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pleasure, amusement"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21223",
+    "source_query": "รต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รตินิยม",
+    "alalc": "",
+    "meaning": "hedonism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hedonism"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22779",
+    "source_query": "รต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถ",
+    "alalc": "rot",
+    "meaning": "vehicle.; \"vehicle, conveyance.\"",
+    "ipa": "rót",
+    "pron_display": "ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "vehicle."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "\"vehicle, conveyance.\""
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15044",
+    "source_query": "รถ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "รถกระบะ",
     "alalc": "rot kraba",
     "meaning": "hand truck, handcart.",
@@ -936223,6 +937176,83 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "รถกระเช้า",
+    "alalc": "",
+    "meaning": "cabin",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cabin"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1970",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถกึ่งพ่วง",
+    "alalc": "",
+    "meaning": "semi trailer",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "semi trailer"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22780",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถกึ่งพ่วงปรับความยาวได้",
+    "alalc": "",
+    "meaning": "pole trailer",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pole trailer"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22781",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "รถกุดัง",
@@ -936274,6 +937304,58 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:1971",
     "source_query": "ขย.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถขนของ",
+    "alalc": "",
+    "meaning": "transport vehicle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "transport vehicle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1972",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถคูเป",
+    "alalc": "",
+    "meaning": "coup�",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "coup�"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22782",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -936396,6 +937478,85 @@
     "status": "tentative"
   },
   {
+    "thai": "รถจิ๊ป",
+    "alalc": "",
+    "meaning": "jeep",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "jeep"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21229",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถชน",
+    "alalc": "",
+    "meaning": "car accident",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "car accident"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:28981",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถชุดควบคุมคู่",
+    "alalc": "",
+    "meaning": "dual control car",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dual control car"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22783",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "รถดับเพลิง",
     "alalc": "rot dap phlœ̄ng",
     "meaning": "fire engine.",
@@ -936450,6 +937611,31 @@
     "status": "tentative"
   },
   {
+    "thai": "รถตรวจการ",
+    "alalc": "",
+    "meaning": "estate car; station wagon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "estate car; station wagon"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22784",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "รถตอนเดียว",
     "alalc": "rot tǭn diaw",
     "meaning": "coupe, roadster.",
@@ -936498,7 +937684,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:31059",
-    "source_query": "ติ.*",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -936552,7 +937738,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:21225",
-    "source_query": "ตู.*",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -936696,10 +937882,37 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10367",
-    "source_query": "บ.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "รถบัส",
+    "alalc": "",
+    "meaning": "bus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3916",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "รถประจำทาง",
@@ -936729,6 +937942,31 @@
     "status": "tentative"
   },
   {
+    "thai": "รถผมยางแตก",
+    "alalc": "rot phom yāng tǣk",
+    "meaning": "My car has a flat.",
+    "ipa": "rót pʰǒm yaaŋ tɛ̀ɛk",
+    "pron_display": "rót ˈpʰǒm yaaŋ ˈtɛ̀ɛk↓",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "My car has a flat."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14744",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รถพยาบาล",
     "alalc": "rot phayābān",
     "meaning": "ambulance.",
@@ -936750,10 +937988,35 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12763",
-    "source_query": "พย.*",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "รถพิกอัป",
+    "alalc": "",
+    "meaning": "pickup truck",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pickup truck"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22785",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "รถพ่วง",
@@ -936799,6 +938062,60 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "รถมอเตอร์ไซค์",
+    "alalc": "",
+    "meaning": "motorcycle, motorbike",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "motorcycle, motorbike"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7840",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถมินิบัส",
+    "alalc": "",
+    "meaning": "minibus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "minibus"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1975",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "รถม้า",
@@ -936855,6 +938172,31 @@
     "status": "tentative"
   },
   {
+    "thai": "รถยนต์นั่ง",
+    "alalc": "",
+    "meaning": "passenger car",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "passenger car"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22787",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "รถยนต์ประจำทาง",
     "alalc": "rot yon prayam thāng",
     "meaning": "a regularly scheduled bus, motor coach.",
@@ -936877,6 +938219,114 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11096",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถยนต์พระที่นั่ง",
+    "alalc": "rot yon phra thī nang",
+    "meaning": "royal limousine.",
+    "ipa": "rót yon pʰrá tʰîi nâŋ",
+    "pron_display": "rót ˈyon pʰrá tʰîi ˈnâŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "royal limousine."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15056",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถยนต์ส่วนบุคคล",
+    "alalc": "",
+    "meaning": "private car, private vehicle; private automobile",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "private car, private vehicle; private automobile"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31058",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถยนต์เกียร์อัตโนมัติ",
+    "alalc": "",
+    "meaning": "automatic transmission car",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "automatic transmission car"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:12",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถยนต์เช่า",
+    "alalc": "rot yon chaw",
+    "meaning": "rented automobile.",
+    "ipa": "rót yon cʰâw",
+    "pron_display": "rót ˈyon ˈcʰâw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rented automobile."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15055",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -936909,12 +938359,1299 @@
     "status": "tentative"
   },
   {
+    "thai": "รถยา",
+    "alalc": "rot tha yā",
+    "meaning": "path, way; passage; trail; footpath",
+    "ipa": "rót tʰà yaa",
+    "pron_display": "rót tʰà yaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "path, way; passage; trail; footpath"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21255",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถรบ",
+    "alalc": "rot rop",
+    "meaning": "(military) tank.; military vehicle.",
+    "ipa": "rót róp",
+    "pron_display": "rót ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(military) tank."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "military vehicle."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15057",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถรับจ้าง",
+    "alalc": "",
+    "meaning": "taxi, taxicab",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "taxi, taxicab"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1976",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถรา",
+    "alalc": "rot rā",
+    "meaning": "vehicles (collectively).",
+    "ipa": "rót raa",
+    "pron_display": "ˈrót ˈraa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "vehicles (collectively)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15058",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถราง",
+    "alalc": "rot rāng",
+    "meaning": "streetcar, trolley car, tram.",
+    "ipa": "rót raaŋ",
+    "pron_display": "rót ˈraaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "streetcar, trolley car, tram."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15059",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถรางไฟฟ้า",
+    "alalc": "rot rāng fay fā",
+    "meaning": "streetcar, tram.",
+    "ipa": "rót raaŋ fay fáa",
+    "pron_display": "rót ˈraaŋ fay ˈfáa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "streetcar, tram."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13659",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถร่วม",
+    "alalc": "",
+    "meaning": "affiliated bus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "affiliated bus"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4324",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถลาก",
+    "alalc": "rot lāk",
+    "meaning": "rickshaw.",
+    "ipa": "rót lâak",
+    "pron_display": "rót ˈlâak",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rickshaw."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15060",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถลีมูซีน",
+    "alalc": "",
+    "meaning": "limousine",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "limousine"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22788",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถสองแถว",
+    "alalc": "",
+    "meaning": "minibus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "minibus"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4325",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถสามล้อ",
+    "alalc": "rot sām lǭ",
+    "meaning": "samlor, pedicab.",
+    "ipa": "rót sǎam lɔ́ɔ",
+    "pron_display": "ˈrót sǎam ˈlɔ́ɔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "samlor, pedicab."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15062",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถสามล้อถีบ",
+    "alalc": "",
+    "meaning": "tricycle, pedicab; trishaw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tricycle, pedicab; trishaw"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:530",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถสามล้อเครื่อง",
+    "alalc": "",
+    "meaning": "motor tricycle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "motor tricycle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21254",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถสิบล้อ",
+    "alalc": "",
+    "meaning": "ten - wheeled truck, ten wheeler; truck",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ten - wheeled truck, ten wheeler; truck"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21253",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถหวอ",
+    "alalc": "rot wǭ",
+    "meaning": "ambulance, fire engine, police car (i.e. any vehicle with a siren).",
+    "ipa": "rót wɔ̌ɔ",
+    "pron_display": "rót ˈwɔ̌ɔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ambulance, fire engine, police car (i.e. any vehicle with a siren)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15063",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถหุ้มเกราะ",
+    "alalc": "rot hum krǫ",
+    "meaning": "armored car.",
+    "ipa": "rót hûm krɔ̀",
+    "pron_display": "ˈrót hûm ˈkrɔ̀ʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "armored car."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15064",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเกราะ",
+    "alalc": "rot krǫ",
+    "meaning": "tank.; armored car.",
+    "ipa": "rót krɔ̀",
+    "pron_display": "rót ˈkrɔ̀ʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tank."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "armored car."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1596",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเก๋ง",
+    "alalc": "rot keng",
+    "meaning": "sedan (car).",
+    "ipa": "rót kěŋ",
+    "pron_display": "rót ˈkěŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sedan (car)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1549",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเก๋งท้ายยก",
+    "alalc": "",
+    "meaning": "liftback",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "liftback"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22790",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเก๋งท้ายลาด",
+    "alalc": "",
+    "meaning": "fastback",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fastback"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22791",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเก๋งท้ายหยัก",
+    "alalc": "",
+    "meaning": "notchback",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "notchback"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22792",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเก๋งมีประตูท้าย",
+    "alalc": "",
+    "meaning": "hatchback",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hatchback"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22793",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเก๋งหรูสมรรถนะสูง",
+    "alalc": "",
+    "meaning": "Grand Touring; Gran Turismo (GT) (จีที)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Grand Touring; Gran Turismo (GT) (จีที)"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22794",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเข็น",
+    "alalc": "rot khen",
+    "meaning": "pushcart, buggy (especially a baby buggy).",
+    "ipa": "rót kʰěn",
+    "pron_display": "rót ˈkʰěn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pushcart, buggy (especially a baby buggy)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2705",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเครื่อง",
+    "alalc": "",
+    "meaning": "motorcycle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "motorcycle"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1197",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเจ๊ก",
+    "alalc": "rot yek",
+    "meaning": "rickshaw.",
+    "ipa": "rót jék",
+    "pron_display": "rót ˈjék",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rickshaw."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4916",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเช่า",
+    "alalc": "rot chaw",
+    "meaning": "taxi.; rented car.",
+    "ipa": "rót cʰâw",
+    "pron_display": "rót ˈcʰâw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "taxi."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rented car."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6016",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเทรลเลอร์",
+    "alalc": "",
+    "meaning": "trailer, drawbar trailer",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "trailer, drawbar trailer"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1973",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเปิดประทุน",
+    "alalc": "",
+    "meaning": "convertible",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "convertible"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22795",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถเมล์",
+    "alalc": "rot mē",
+    "meaning": "bus.",
+    "ipa": "rót mee",
+    "pron_display": "rót ˈmee",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14281",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถเสบียง",
+    "alalc": "rot sabiang",
+    "meaning": "dining car, restaurant car, diner.",
+    "ipa": "rót sa-biaŋ",
+    "pron_display": "ˈrót saˈbiaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dining car, restaurant car, diner."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15061",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถแข่ง",
+    "alalc": "rot khæng",
+    "meaning": "racing car.",
+    "ipa": "rót kʰɛ̀ŋ",
+    "pron_display": "rót ˈkʰɛ̀ŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "racing car."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15046",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถแทรกเตอร์",
+    "alalc": "",
+    "meaning": "tractor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tractor"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1974",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถแทรกเตอร์",
+    "alalc": "",
+    "meaning": "tractor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tractor"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22796",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถแท็กซี่",
+    "alalc": "",
+    "meaning": "taxi, cab; taxicab",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "taxi, cab; taxicab"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21248",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถแท้กซี่",
+    "alalc": "rot thæksī",
+    "meaning": "taxi.",
+    "ipa": "rót tʰɛ́k-sîi",
+    "pron_display": "ˈrót tʰɛ́kˈsîi",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "taxi."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15049",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถโกดัง",
+    "alalc": "rot kōdang",
+    "meaning": "(motor) truck.",
+    "ipa": "rót koo-daŋ",
+    "pron_display": "ˈrót kooˈdaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "(motor) truck."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1873",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถโดยสาร",
+    "alalc": "rot dōysān",
+    "meaning": "passenger car (as opposed to freight car).; bus.",
+    "ipa": "rót dooy-sǎan",
+    "pron_display": "ˈrót dooyˈsǎan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "passenger car (as opposed to freight car)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7002",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถโดยสารประจำทาง",
+    "alalc": "rot dōy sān pra yam thāng",
+    "meaning": "bus, passenger car; omnibus",
+    "ipa": "rót dooy sǎan prà jam tʰaaŋ",
+    "pron_display": "rót dooy sǎan prà jam tʰaaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bus, passenger car; omnibus"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21226",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถไถ",
+    "alalc": "",
+    "meaning": "pushcart, tractor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pushcart, tractor"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5227",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถไฟ",
+    "alalc": "rot fay",
+    "meaning": "train.",
+    "ipa": "rót fay",
+    "pron_display": "rót ˈfay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "train."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13672",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รถไฟ",
     "alalc": "rotfai",
     "meaning": "train",
     "ipa": "",
     "source": "ALA-LC 2011 sample",
     "status": "reviewed"
+  },
+  {
+    "thai": "รถไฟดีเซลราง",
+    "alalc": "",
+    "meaning": "diesel train",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "diesel train"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:529",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถไฟด่วน",
+    "alalc": "rot fay duan",
+    "meaning": "express train.",
+    "ipa": "rót fay dùan",
+    "pron_display": "rót ˈfay ˈdùan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "express train."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15052",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถไฟฟ้า",
+    "alalc": "rot fay fā",
+    "meaning": "railcar, railroad car; electric train",
+    "ipa": "rót fay fáa",
+    "pron_display": "rót fay fáa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "railcar, railroad car; electric train"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21257",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถไฟลอยฟ้า",
+    "alalc": "",
+    "meaning": "skytrain, air train",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "skytrain, air train"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1198",
+    "source_query": "รถ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รถไฟสายเหนือ",
+    "alalc": "rot fay sāy nưa",
+    "meaning": "the northern railways, the northern line.",
+    "ipa": "rót fay sǎay nʉ̌a",
+    "pron_display": "rót ˈfay sǎay ˈnʉ̌a",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the northern railways, the northern line."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17606",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รถไฟหลวง",
+    "alalc": "rot fay luang",
+    "meaning": "Royal State Railways.",
+    "ipa": "rót fay lǔaŋ",
+    "pron_display": "rót ˈfay ˈlǔaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Royal State Railways."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15053",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "รถไฟใต้ดิน",
@@ -936938,10 +939675,145 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:21232",
-    "source_query": "ใ.*",
+    "source_query": "รถ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "รธน.",
+    "alalc": "",
+    "meaning": "constitution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "constitution"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1481",
+    "source_query": "รธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รน",
+    "alalc": "ron",
+    "meaning": "to be restless, unable to stay still.",
+    "ipa": "ron",
+    "pron_display": "ˈron",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be restless, unable to stay still."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15068",
+    "source_query": "รน.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "รนหา",
+    "alalc": "ron hā",
+    "meaning": "to look for, go out of one's way to look for, place oneself in the way of (e.g. danger, trouble).",
+    "ipa": "ron hǎa",
+    "pron_display": "ron ˈhǎa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to look for, go out of one's way to look for, place oneself in the way of (e.g. danger, trouble)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15069",
+    "source_query": "รน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รบ",
+    "alalc": "rop",
+    "meaning": "to fight, battle.",
+    "ipa": "róp",
+    "pron_display": "ˈróp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fight, battle."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15073",
+    "source_query": "รบ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "รบ.",
+    "alalc": "rop",
+    "meaning": "The Royal Institute",
+    "ipa": "ˈróp",
+    "pron_display": "ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Royal Institute"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1482",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "รบกวน",
@@ -936971,6 +939843,58 @@
     "status": "tentative"
   },
   {
+    "thai": "รบกวนประสาท",
+    "alalc": "",
+    "meaning": "be nerve-racking",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be nerve-racking"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5237",
+    "source_query": "รบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "รบกวนสิทธิ",
+    "alalc": "",
+    "meaning": "interfere",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "interfere"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:22797",
+    "source_query": "รบ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "รบพุ่ง",
     "alalc": "rop phung",
     "meaning": "to fight, wage war, engage in a battle.",
@@ -936993,6 +939917,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13295",
     "source_query": "พุ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รบรา",
+    "alalc": "rop rā",
+    "meaning": "fight, battle; wage war; fight a battle",
+    "ipa": "róp raa",
+    "pron_display": "róp raa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "fight, battle; wage war; fight a battle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21240",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -937023,6 +939974,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "รบเร้า",
+    "alalc": "rop raw",
+    "meaning": "to beg, beseech repeatedly.",
+    "ipa": "róp ráw",
+    "pron_display": "róp ˈráw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to beg, beseech repeatedly."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15074",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "รมควัน",
@@ -941396,6 +944374,60 @@
     "status": "unresolved"
   },
   {
+    "thai": "รางรถ",
+    "alalc": "rāng rot",
+    "meaning": "railroad tracks, streetcar tracks.",
+    "ipa": "raaŋ rót",
+    "pron_display": "raaŋ ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "railroad tracks, streetcar tracks."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15065",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "รางรถไฟ",
+    "alalc": "rāng rot fay",
+    "meaning": "railway, track; rail; railroad tracks",
+    "ipa": "ˈraaŋ rót ˈfay",
+    "pron_display": "ˈraaŋ rót ˈfay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "railway, track; rail; railroad tracks"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21606",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "รางวัลชมเชย",
     "alalc": "rāngwan chom chœ̄y",
     "meaning": "honorable mention.",
@@ -945532,6 +948564,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ร้อนรน",
+    "alalc": "rǭn ron",
+    "meaning": "to be anxious (e.g. for news, for help).",
+    "ipa": "rɔ́ɔn ron",
+    "pron_display": "rɔ́ɔn ˈron",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be anxious (e.g. for news, for help)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15070",
+    "source_query": "รน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ร้อนอกร้อนใจ",
     "alalc": "rǭn ok rǭn yay",
     "meaning": "to be worried and unhappy; be anxious.",
@@ -947705,6 +950764,60 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14730",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงรถ",
+    "alalc": "long rot",
+    "meaning": "to get out of a car, get off a vehicle (e.g. a bus, streetcar).",
+    "ipa": "loŋ rót",
+    "pron_display": "loŋ ˈrót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to get out of a car, get off a vehicle (e.g. a bus, streetcar)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15869",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงรถไฟ",
+    "alalc": "long rot fay",
+    "meaning": "to get off a train.",
+    "ipa": "loŋ rót fay",
+    "pron_display": "ˈloŋ rót ˈfay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to get off a train."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15870",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -954867,6 +957980,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29056",
     "source_query": "ว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อรถ",
+    "alalc": "lǭ rot",
+    "meaning": "wheel of a vehicle.",
+    "ipa": "lɔ́ɔ rót",
+    "pron_display": "lɔ́ɔ ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wheel of a vehicle."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15949",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1004293,6 +1007433,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "สถานีรถไฟ",
+    "alalc": "sathānī rot fay",
+    "meaning": "railroad station.",
+    "ipa": "sa-tʰǎa-nii rót fay",
+    "pron_display": "sa.tʰǎaˈnii rót ˈfay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "railroad station."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17095",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สถานีวิทยุ",
     "alalc": "sathānī witthayu",
     "meaning": "radio station.",
@@ -1004736,6 +1007903,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11996",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สนามรบ",
+    "alalc": "sanām rop",
+    "meaning": "battlefield.",
+    "ipa": "sa-nǎam róp",
+    "pron_display": "sa.nǎam ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "battlefield."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15076",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1009955,6 +1013149,42 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:16455",
     "source_query": "ภ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สัญญาณรบกวน",
+    "alalc": "",
+    "meaning": "noise; annoying sound",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "noise"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "annoying sound"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2439",
+    "source_query": "รบ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1016817,6 +1020047,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สู้รบ",
+    "alalc": "sū rop",
+    "meaning": "to fight, battle.",
+    "ipa": "sûu róp",
+    "pron_display": "sûu ˈróp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fight, battle."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15077",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ส่ง (...) ให้",
     "alalc": "songparen hay",
     "meaning": "to hand (something) to, send (something) to.",
@@ -1018158,6 +1021415,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หกรด",
+    "alalc": "hok rot",
+    "meaning": "to spill, be spilled (over something).",
+    "ipa": "hòk rót",
+    "pron_display": "hòk ˈrót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to spill, be spilled (over something)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15043",
+    "source_query": "รด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หงายท้อง",
     "alalc": "",
     "meaning": "be defeated, lose; overturn, turn over; tip over",
@@ -1019408,6 +1022692,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "หน่วยรบ",
+    "alalc": "nuay rop",
+    "meaning": "fighting unit.",
+    "ipa": "nùay róp",
+    "pron_display": "nùay ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fighting unit."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18076",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "หน้ากระดาน",
@@ -1040980,6 +1044291,33 @@
     "status": "tentative"
   },
   {
+    "thai": "อู่รถ",
+    "alalc": "ū rot",
+    "meaning": "garage (for sheltering or repairing cars).",
+    "ipa": "ùu rót",
+    "pron_display": "ùu ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "garage (for sheltering or repairing cars)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15066",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "อู้ฮู",
     "alalc": "",
     "meaning": "uhu",
@@ -1058551,6 +1061889,69 @@
     "status": "tentative"
   },
   {
+    "thai": "เดินรถ",
+    "alalc": "dœ̄n rot",
+    "meaning": "to operate a line, manage a fleet of motor vehicles (e.g. a bus line).; to drive, operate a motor vehicle.",
+    "ipa": "dəən rót",
+    "pron_display": "dəən ˈrót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to operate a line, manage a fleet of motor vehicles (e.g. a bus line)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to drive, operate a motor vehicle."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6868",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เดินรถไฟ",
+    "alalc": "dœ̄n rot fay",
+    "meaning": "to operate a railway.",
+    "ipa": "dəən rót fay",
+    "pron_display": "dəən rót ˈfay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to operate a railway."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6870",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เดินเข้ามา",
     "alalc": "dœ̄n khaw mā",
     "meaning": "to walk in (to), come in (to), enter.",
@@ -1063136,6 +1066537,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10801",
     "source_query": "มื.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เบารถ",
+    "alalc": "baw rot",
+    "meaning": "to slow down a car, stop a car.",
+    "ipa": "baw rót",
+    "pron_display": "baw ˈrót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to slow down a car, stop a car."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10802",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1072416,6 +1075844,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เมารถ",
+    "alalc": "maw rot",
+    "meaning": "to be carsick.",
+    "ipa": "maw rót",
+    "pron_display": "maw ˈrót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be carsick."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14288",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เมาเรือบิน",
     "alalc": "maw rưa bin",
     "meaning": "to be airsick.",
@@ -1075446,6 +1078901,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14600",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เรือรบ",
+    "alalc": "rưa rop",
+    "meaning": "warship.",
+    "ipa": "rʉa róp",
+    "pron_display": "rʉa ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "warship."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15075",
+    "source_query": "รบ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1090381,6 +1093863,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แตรรถยนต์",
+    "alalc": "trǣ rot yon",
+    "meaning": "horn, hooter; klaxon",
+    "ipa": "trɛɛ rót yon",
+    "pron_display": "trɛɛ rót yon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "horn, hooter; klaxon"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:27831",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แตรวง",
     "alalc": "trǣ wong",
     "meaning": "brass band.",
@@ -1091763,6 +1095272,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "แนวรบ",
+    "alalc": "nǣw rop",
+    "meaning": "battle line, fighting front.",
+    "ipa": "nɛɛw róp",
+    "pron_display": "nɛɛw ˈróp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "battle line, fighting front."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10242",
+    "source_query": "รบ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "แนะนำ",
@@ -1104046,6 +1107582,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "โรงรถ",
+    "alalc": "rōng rot",
+    "meaning": "garage.",
+    "ipa": "rooŋ rót",
+    "pron_display": "rooŋ ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "garage."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15801",
+    "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "โรงรับจำนำ",
     "alalc": "rōng rap yamnam",
     "meaning": "pawnshop.",
@@ -1104185,6 +1107748,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19085",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โรงเก็บรถ",
+    "alalc": "rōng kep rot",
+    "meaning": "garage.",
+    "ipa": "rooŋ kèp rót",
+    "pron_display": "ˈrooŋ kèp ˈrót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "garage."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1581",
+    "source_query": "รถ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1128146,6 +1131736,33 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:18715",
     "source_query": "ย.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไตรรงค์",
+    "alalc": "tray rong",
+    "meaning": "three colours flag, tricolour",
+    "ipa": "tray roŋ",
+    "pron_display": "tray roŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "three colours flag, tricolour"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:18716",
+    "source_query": "รง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
