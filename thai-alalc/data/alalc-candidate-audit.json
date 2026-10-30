@@ -1,12 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 40131,
+    "unique_lexical_records": 41609,
     "sample_size": 150,
     "counts": {
-      "neither": 83,
-      "pronunciation_only": 64,
-      "disagreement": 1,
-      "agreement": 2
+      "neither": 84,
+      "pronunciation_only": 62,
+      "agreement": 3,
+      "disagreement": 1
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
     "complete_dictionary": false
@@ -321,6 +321,17 @@
       "pos": ""
     },
     {
+      "thai": "มหากฎบัตร",
+      "source_id": "RI:21663",
+      "pronunciation": "",
+      "meaning": "Magna Carta (อังกฤษ); Charta; Magna Carta",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
+    },
+    {
       "thai": "ปกคลุม",
       "source_id": "TDP:3348",
       "pronunciation": "pòk kʰlum",
@@ -351,6 +362,17 @@
       "pronunciation_candidate": "song yam",
       "comparison": "pronunciation_only",
       "web_rank": "4",
+      "pos": "V"
+    },
+    {
+      "thai": "มุด",
+      "source_id": "TDP:14238",
+      "pronunciation": "mút",
+      "meaning": "to crawl under, go underneath, pass through (a low opening), burrow into; to duck under.",
+      "spelling_candidate": "mut",
+      "pronunciation_candidate": "mut",
+      "comparison": "agreement",
+      "web_rank": "3",
       "pos": "V"
     },
     {
@@ -479,6 +501,17 @@
       "source_id": "RI:16582",
       "pronunciation": "",
       "meaning": "parasitologist",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
+    },
+    {
+      "thai": "มีหนามทู่",
+      "source_id": "RI:22126",
+      "pronunciation": "",
+      "meaning": "echinate",
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",
@@ -838,6 +871,17 @@
       "pos": ""
     },
     {
+      "thai": "เดินเข้ามา",
+      "source_id": "TDP:6849",
+      "pronunciation": "dəən kʰâw maa",
+      "meaning": "to walk in (to), come in (to), enter.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "dœ̄n khaw mā",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": ""
+    },
+    {
       "thai": "ผ่าตัด",
       "source_id": "TDP:7563",
       "pronunciation": "pʰàa tàt",
@@ -847,6 +891,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "มหาหิงคุ์",
+      "source_id": "LEX2.0:6861",
+      "pronunciation": "má hǎa hǐŋ",
+      "meaning": "asafetida",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "ma hā hing",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "ตั้งสติไม่อยู่",
@@ -959,6 +1014,17 @@
       "pos": "V"
     },
     {
+      "thai": "มิสซา",
+      "source_id": "LEX2.0:13412",
+      "pronunciation": "mít saa, mi saa",
+      "meaning": "mass",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "กอบ",
       "source_id": "TDP:927",
       "pronunciation": "kɔ̀ɔp",
@@ -1044,6 +1110,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "7",
+      "pos": ""
+    },
+    {
+      "thai": "มาตรช่วงคลื่น",
+      "source_id": "RI:21790",
+      "pronunciation": "",
+      "meaning": "wavemeter",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
       "pos": ""
     },
     {
@@ -1366,6 +1443,17 @@
       "pos": "N"
     },
     {
+      "thai": "มาตราสองคณะ",
+      "source_id": "RI:21831",
+      "pronunciation": "",
+      "meaning": "dimeter",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
+      "pos": ""
+    },
+    {
       "thai": "คำคุณศัพท์",
       "source_id": "TDP:3666",
       "pronunciation": "kʰam kʰun-na-sàp",
@@ -1572,94 +1660,6 @@
       "pronunciation_candidate": "nǭk yākparen lǣw yangparen duay",
       "comparison": "pronunciation_only",
       "web_rank": "",
-      "pos": ""
-    },
-    {
-      "thai": "ถึงขั้น",
-      "source_id": "LEX2.0:18937",
-      "pronunciation": "",
-      "meaning": "too…to",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": "CONJ"
-    },
-    {
-      "thai": "นิยายซากา",
-      "source_id": "RI:16775",
-      "pronunciation": "",
-      "meaning": "saga",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "กระเตาะกระแตะ",
-      "source_id": "LEX2.0:24047",
-      "pronunciation": "krà tɔ̀ krà tɛ̀",
-      "meaning": "totteringly, stumblingly",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kra tǫ kra tæ",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "ADV"
-    },
-    {
-      "thai": "นาฬิวิทยา",
-      "source_id": "RI:16726",
-      "pronunciation": "",
-      "meaning": "angiology",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ชื่อกฎหมาย",
-      "source_id": "RI:13246",
-      "pronunciation": "",
-      "meaning": "title",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "คาวปลา",
-      "source_id": "LEX2.0:9381",
-      "pronunciation": "kʰaaw plaa",
-      "meaning": "mucus of fish, raw and fishy smell; raw and fishy odour",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khāw plā",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "พิกัดอัตราศุลกากร",
-      "source_id": "RI:20078",
-      "pronunciation": "pʰí kàt àt traa sǔn lá kaa kɔɔn",
-      "meaning": "customs tariff",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "phi kat at trā sun la kā kǭn",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "ได้ซิ",
-      "source_id": "TDP:7031",
-      "pronunciation": "dâay si",
-      "meaning": "Sure! Certainly!",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "dāy si",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
       "pos": ""
     }
   ]
