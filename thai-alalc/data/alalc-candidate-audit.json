@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 43784,
+    "unique_lexical_records": 44360,
     "sample_size": 150,
     "counts": {
-      "neither": 87,
-      "pronunciation_only": 59,
+      "neither": 85,
+      "pronunciation_only": 61,
       "agreement": 3,
       "disagreement": 1
     },
@@ -66,6 +66,17 @@
       "comparison": "neither",
       "web_rank": "9",
       "pos": ""
+    },
+    {
+      "thai": "ร่วงรุ้ง",
+      "source_id": "LEX2.0:21318",
+      "pronunciation": "rûaŋ rúŋ",
+      "meaning": "glittering, sparkling; brilliant",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "ruang rung",
+      "comparison": "pronunciation_only",
+      "web_rank": "7",
+      "pos": "ADJ"
     },
     {
       "thai": "ชุดส่งกำลังอัตโนมัติ",
@@ -1575,6 +1586,17 @@
       "pos": "N"
     },
     {
+      "thai": "รู้สึกตัวว่า",
+      "source_id": "TDP:15606",
+      "pronunciation": "rúu sʉ̀k tua wâa",
+      "meaning": "to have come to feel that, realize that.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "rū sưk tua wā",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": ""
+    },
+    {
       "thai": "รหัสอักขระต้องห้าม",
       "source_id": "RI:22856",
       "pronunciation": "",
@@ -1639,28 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "2",
       "pos": "N"
-    },
-    {
-      "thai": "วัตถุที่มีรูปร่าง",
-      "source_id": "RI:25032",
-      "pronunciation": "",
-      "meaning": "corporeal object",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ชุดข้อมูล",
-      "source_id": "RI:13282",
-      "pronunciation": "",
-      "meaning": "data set",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": ""
     }
   ]
 }
