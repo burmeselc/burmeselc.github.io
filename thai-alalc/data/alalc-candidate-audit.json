@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 41885,
+    "unique_lexical_records": 43784,
     "sample_size": 150,
     "counts": {
-      "neither": 84,
-      "pronunciation_only": 62,
+      "neither": 87,
+      "pronunciation_only": 59,
       "agreement": 3,
       "disagreement": 1
     },
@@ -352,6 +352,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "N"
+    },
+    {
+      "thai": "ระบบรัฐสภาและคณะรัฐมนตรี",
+      "source_id": "RI:23317",
+      "pronunciation": "",
+      "meaning": "parliamentary-cabinet system",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
+      "pos": ""
     },
     {
       "thai": "ทรงจำ",
@@ -770,6 +781,17 @@
       "comparison": "neither",
       "web_rank": "9",
       "pos": ""
+    },
+    {
+      "thai": "รับบท",
+      "source_id": "LEX2.0:29009",
+      "pronunciation": "",
+      "meaning": "act as, take the part of; play the part of",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": "V"
     },
     {
       "thai": "ทรัพย์สินสำหรับเลี้ยงดูครอบครัว",
@@ -1487,6 +1509,17 @@
       "pos": "V"
     },
     {
+      "thai": "ราชบุรุษ",
+      "source_id": "LEX2.0:21556",
+      "pronunciation": "râat cʰá bù rùt",
+      "meaning": "king's man",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "rāt cha bu rut",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
+    },
+    {
       "thai": "วิศวกรรมศาสตรบัณฑิต",
       "source_id": "LEX2.0:5584",
       "pronunciation": "",
@@ -1540,6 +1573,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "N"
+    },
+    {
+      "thai": "รหัสอักขระต้องห้าม",
+      "source_id": "RI:22856",
+      "pronunciation": "",
+      "meaning": "forbidden character code",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "ที่ลุ่ม",
@@ -1616,50 +1660,6 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "พูดน้ำไหลไฟดับ",
-      "source_id": "TDP:6552",
-      "pronunciation": "pʰûut náam lǎy fay dàp",
-      "meaning": "to chatter away, talk a blue streak, talk rapidly and profusely.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "phūt nām lay fay dap",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "เข้าผู้เข้าคน",
-      "source_id": "LEX2.0:9278",
-      "pronunciation": "kʰâw pʰûu kʰâw kʰon",
-      "meaning": "communicate, associate; get along with people",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khaw phū khaw khon",
-      "comparison": "pronunciation_only",
-      "web_rank": "7",
-      "pos": "V"
-    },
-    {
-      "thai": "มองกราด",
-      "source_id": "TDP:532",
-      "pronunciation": "mɔɔŋ kràat",
-      "meaning": "to look around.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "mǭng krāt",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "V"
-    },
-    {
-      "thai": "นอกจาก (...) แล้ว ยัง (...) ด้วย",
-      "source_id": "TDP:16522",
-      "pronunciation": "nɔ̂ɔk jàakparen lɛ́ɛw yaŋparen dûay",
-      "meaning": "not only ... but also ... .",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "nǭk yākparen lǣw yangparen duay",
-      "comparison": "pronunciation_only",
-      "web_rank": "",
       "pos": ""
     }
   ]

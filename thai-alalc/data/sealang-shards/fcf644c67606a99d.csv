@@ -1,0 +1,60 @@
+thai,meaning,ipa,pron_display,pos,senses_json,web_rank,lexical_level,source,source_id,query
+รหัส,"code, secret; cypher; cipher",rá hàt,rá hàt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""code, secret; cypher; cipher""]}]",1,entry,SEAlang Thai / LEX2.0,LEX2.0:5247,รห.*
+รหัสผ่าน,"password, pass code; watchword",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""password, pass code; watchword""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:21341,รห.*
+รหัสไปรษณีย์,"postal code, postcode; ZIP code",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""postal code, postcode; ZIP code""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:21342,รห.*
+ถอดรหัส,"decrypt, decipher; decode",tʰɔ̀ɔt rá hàt,tʰɔ̀ɔt rá hàt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""decrypt, decipher; decode""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:18809,รห.*
+เข้ารหัส,enter the code; encoded,kʰâw rá hàt,kʰâw rá hàt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""enter the code""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""encoded""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:3702,รห.*
+กุญแจรหัส,"combination lock; key code, code for access; password",kun jɛɛ rá hàt,kun jɛɛ rá hàt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""combination lock""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""key code, code for access; password""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:8279,รห.*
+รหัสลับ,secret code,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""secret code""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:501,รห.*
+รหัสประจำตัว,personal identification number (PIN) (พิน),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""personal identification number (PIN) (พิน)""]}]",4,subentry,SEAlang Thai / RI,RI:22837,รห.*
+รหัสตัวเลข,numeric code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""numeric code""]}]",5,subentry,SEAlang Thai / RI,RI:22831,รห.*
+รหัสเครื่อง,machine code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""machine code""]}]",5,subentry,SEAlang Thai / RI,RI:22859,รห.*
+รหัสทางไกล,area code,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""area code""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:5248,รห.*
+รหัสแท่ง,bar code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bar code""]}]",5,subentry,SEAlang Thai / RI,RI:22862,รห.*
+รหัสตัวอักษร,alphabetic code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""alphabetic code""]}]",5,subentry,SEAlang Thai / RI,RI:22830,รห.*
+รหัสต้นฉบับ,source code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""source code""]}]",6,subentry,SEAlang Thai / RI,RI:22832,รห.*
+รหัสคำสั่ง,code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""code""]}]",6,subentry,SEAlang Thai / RI,RI:22816,รห.*
+รหัสอักขระ,character code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""character code""]}]",6,subentry,SEAlang Thai / RI,RI:22855,รห.*
+รหัสคอมพิวเตอร์,computer code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""computer code""]}]",6,subentry,SEAlang Thai / RI,RI:22815,รห.*
+รหัสยิก,mystic,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mystic""]}]",6,subentry,SEAlang Thai / RI,RI:22844,รห.*
+รหัสบริการ,service code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""service code""]}]",6,subentry,SEAlang Thai / RI,RI:22835,รห.*
+รหัสจริง,actual code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""actual code""]}]",6,subentry,SEAlang Thai / RI,RI:22820,รห.*
+รหัสเทียม,pseudo code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pseudo code""]}]",6,subentry,SEAlang Thai / RI,RI:22860,รห.*
+รหัสการเข้าถึง,access code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""access code""]}]",7,subentry,SEAlang Thai / RI,RI:22814,รห.*
+รหัสฐานสอง,binary code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""binary code""]}]",7,subentry,SEAlang Thai / RI,RI:22825,รห.*
+รหัสสัญลักษณ์,symbolic code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""symbolic code""]}]",7,subentry,SEAlang Thai / RI,RI:22850,รห.*
+รหัสยลัทธิ,mysticism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mysticism""]}]",7,subentry,SEAlang Thai / RI,RI:22843,รห.*
+รหัสภาษี,tax code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tax code""]}]",7,subentry,SEAlang Thai / RI,RI:22841,รห.*
+รหัสเกรย์,gray code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gray code""]}]",7,subentry,SEAlang Thai / RI,RI:22858,รห.*
+รหัสช่วยจำ,mnemonic code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mnemonic code""]}]",7,subentry,SEAlang Thai / RI,RI:22822,รห.*
+รหัสดำเนินการ,op code; operation code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""op code; operation code""]}]",7,subentry,SEAlang Thai / RI,RI:22826,รห.*
+รหัสไบต์,byte code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""byte code""]}]",7,subentry,SEAlang Thai / RI,RI:22864,รห.*
+รหัสต้นทาง,source code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""source code""]}]",7,subentry,SEAlang Thai / RI,RI:22833,รห.*
+รหัสปลายทาง,destination code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""destination code""]}]",7,subentry,SEAlang Thai / RI,RI:22838,รห.*
+รหัสวน,cyclic code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cyclic code""]}]",7,subentry,SEAlang Thai / RI,RI:22848,รห.*
+รหัสลูกโซ่,chain code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""chain code""]}]",7,subentry,SEAlang Thai / RI,RI:22847,รห.*
+รหัสจุดหมาย,object code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""object code""]}]",7,subentry,SEAlang Thai / RI,RI:22821,รห.*
+รหัสมาตรฐานของสหรัฐอเมริกาเพื่อการสับเปลี่ยนสารสนเทศ,American Standard Code for Information Interchange (ASCII) (แอสกี),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""American Standard Code for Information Interchange (ASCII) (แอสกี)""]}]",8,subentry,SEAlang Thai / RI,RI:22842,รห.*
+รหัสลำลอง,pseudo code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pseudo code""]}]",8,subentry,SEAlang Thai / RI,RI:22846,รห.*
+รหัสแฮมมิง,Hamming code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Hamming code""]}]",8,subentry,SEAlang Thai / RI,RI:22863,รห.*
+รหัสฮอลเลอริท,Hollerith code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Hollerith code""]}]",8,subentry,SEAlang Thai / RI,RI:22857,รห.*
+รหัสคำสั่งเครื่อง,machine instruction code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""machine instruction code""]}]",8,subentry,SEAlang Thai / RI,RI:22817,รห.*
+รหัสตรวจสอบความผิดพลาด,error checking code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""error checking code""]}]",8,subentry,SEAlang Thai / RI,RI:22827,รห.*
+รหัสผลิตภัณฑ์สากล,universal product code (UPC) (ยูพีซี),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""universal product code (UPC) (ยูพีซี)""]}]",8,subentry,SEAlang Thai / RI,RI:22839,รห.*
+รหัสสะท้อน,reflected code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""reflected code""]}]",8,subentry,SEAlang Thai / RI,RI:22849,รห.*
+รหัสแก้ความผิดพลาด,error correcting code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""error correcting code""]}]",8,subentry,SEAlang Thai / RI,RI:22861,รห.*
+รหัสสับเปลี่ยนเลขฐานสิบเข้ารหัสฐานสองแบบขยาย,Extended Binary Coded Decimal Interchange Code (EBCDIC) (เอบซีดิก),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Extended Binary Coded Decimal Interchange Code (EBCDIC) (เอบซีดิก)""]}]",8,subentry,SEAlang Thai / RI,RI:22851,รห.*
+รหัสสัมบูรณ์,absolute code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""absolute code""]}]",8,subentry,SEAlang Thai / RI,RI:22852,รห.*
+รหัสคำสั่งแมโคร,macro code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""macro code""]}]",1,subentry,SEAlang Thai / RI,RI:22818,รห.*
+รหัสคำสั่งไมโคร,micro code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""micro code""]}]",1,subentry,SEAlang Thai / RI,RI:22819,รห.*
+รหัสซีอาร์ซี,CRC code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""CRC code""]}]",1,subentry,SEAlang Thai / RI,RI:22823,รห.*
+รหัสซ้ำซ้อนแบบวน,cyclic redundant code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cyclic redundant code""]}]",1,subentry,SEAlang Thai / RI,RI:22824,รห.*
+รหัสตรวจสอบตัวเอง,self-checking code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""self-checking code""]}]",1,subentry,SEAlang Thai / RI,RI:22828,รห.*
+รหัสตรวจหาความผิดพลาด,error detecting code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""error detecting code""]}]",1,subentry,SEAlang Thai / RI,RI:22829,รห.*
+รหัสทิศทางเรียก,call direction code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""call direction code""]}]",1,subentry,SEAlang Thai / RI,RI:22834,รห.*
+รหัสบอโดต์,Baudot code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Baudot code""]}]",1,subentry,SEAlang Thai / RI,RI:22836,รห.*
+รหัสระบุความผิดพลาด,error code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""error code""]}]",1,subentry,SEAlang Thai / RI,RI:22845,รห.*
+รหัสหลายเลขที่อยู่,multiaddress code; multiple-address code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""multiaddress code; multiple-address code""]}]",1,subentry,SEAlang Thai / RI,RI:22853,รห.*
+รหัสหลีก,escape code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""escape code""]}]",1,subentry,SEAlang Thai / RI,RI:22854,รห.*
+รหัสอักขระต้องห้าม,forbidden character code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""forbidden character code""]}]",1,subentry,SEAlang Thai / RI,RI:22856,รห.*
+รหัสไร้กระบวนคำสั่ง,nonprocedural code,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""nonprocedural code""]}]",1,subentry,SEAlang Thai / RI,RI:22866,รห.*
