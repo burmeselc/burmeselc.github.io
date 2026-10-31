@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 44360,
+    "unique_lexical_records": 44474,
     "sample_size": 150,
     "counts": {
       "neither": 85,
@@ -253,6 +253,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "V"
+    },
+    {
+      "thai": "ลงวันที่ ๕",
+      "source_id": "TDP:9172",
+      "pronunciation": "loŋ wan tʰîi hâa",
+      "meaning": "dated the fifth.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "long wan thī hā",
+      "comparison": "pronunciation_only",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "ส่งกระแสจิต",
@@ -1650,17 +1661,6 @@
       "comparison": "neither",
       "web_rank": "6",
       "pos": ""
-    },
-    {
-      "thai": "มหาชน",
-      "source_id": "TDP:13885",
-      "pronunciation": "ma-hǎa cʰon",
-      "meaning": "the public, the majority of people.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "mahā chon",
-      "comparison": "pronunciation_only",
-      "web_rank": "2",
-      "pos": "N"
     }
   ]
 }

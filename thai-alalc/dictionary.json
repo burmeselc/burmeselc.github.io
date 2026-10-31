@@ -74863,6 +74863,31 @@
     "status": "unresolved"
   },
   {
+    "thai": "การขึ้น ๆ ลง ๆ",
+    "alalc": "",
+    "meaning": "fluctuation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fluctuation"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1794",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "การขุดแต่ง",
     "alalc": "",
     "meaning": "digging out",
@@ -117236,7 +117261,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:8849",
-    "source_query": "ขั.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -130276,7 +130301,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2618",
-    "source_query": "ขึ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -131169,7 +131194,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:2317",
-    "source_query": "ขึ.*",
+    "source_query": "ลง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -141406,7 +141431,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2177",
-    "source_query": "ตก.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -279465,7 +279490,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3730",
-    "source_query": "ค่.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -371458,7 +371483,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15864",
-    "source_query": "ซ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -407540,7 +407565,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7104",
-    "source_query": "ใ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -617033,7 +617058,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10372",
-    "source_query": "บ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -625231,7 +625256,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:1909",
-    "source_query": "บ.*",
+    "source_query": "ลง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -633516,7 +633541,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10680",
-    "source_query": "บ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010025,6 +1010050,69 @@
     "status": "tentative"
   },
   {
+    "thai": "ลง",
+    "alalc": "long",
+    "meaning": "to descend.; to get out of, get off (a car, train, etc.).; to put (something) down.; to release, drop.; down.",
+    "ipa": "loŋ",
+    "pron_display": "ˈloŋ",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to descend."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to get out of, get off (a car, train, etc.)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to put (something) down."
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to release, drop."
+        ]
+      },
+      {
+        "n": "5",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "down."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15857",
+    "source_query": "ลง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงกลอน",
     "alalc": "long klǭn",
     "meaning": "to bolt, latch (a door, window).",
@@ -1010073,7 +1010161,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:14285",
-    "source_query": "ขั.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010100,7 +1010188,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2478",
-    "source_query": "ข่.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010219,6 +1010307,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงคะแนนเสียง",
+    "alalc": "",
+    "meaning": "vote for, elect; cast one's vote; ballot; opt",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "vote for, elect; cast one's vote; ballot; opt"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6033",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ลงชื่อ",
     "alalc": "long chư̄",
     "meaning": "to sign, sign one's name.",
@@ -1010240,10 +1010355,35 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5946",
-    "source_query": "ชื.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงชื่อเป็นพยาน",
+    "alalc": "",
+    "meaning": "attest",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "attest"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24243",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลงตัว",
@@ -1010267,7 +1010407,61 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:14293",
-    "source_query": "ตั.*",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงตีพิมพ์",
+    "alalc": "long tī phim",
+    "meaning": "to publish.",
+    "ipa": "loŋ tii pʰim",
+    "pron_display": "loŋ ˈtii ˈpʰim",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to publish."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7900",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงทอง",
+    "alalc": "long thǭng",
+    "meaning": "plate, apply gold leaf; cover with gold leaf",
+    "ipa": "loŋ tʰɔɔŋ",
+    "pron_display": "loŋ tʰɔɔŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "plate, apply gold leaf; cover with gold leaf"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14294",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010298,6 +1010492,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงทะเบียนเรียน",
+    "alalc": "",
+    "meaning": "enroll in",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "enroll in"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2417",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลงทัณฑ์",
@@ -1010354,6 +1010575,60 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงทุนลงแรง",
+    "alalc": "long thun long rǣng",
+    "meaning": "to put money and effort into (a project).",
+    "ipa": "loŋ tʰun loŋ rɛɛŋ",
+    "pron_display": "loŋ ˈtʰun loŋ ˈrɛɛŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to put money and effort into (a project)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9222",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงท่า",
+    "alalc": "long thā",
+    "meaning": "royal ceremony of giving the king's son a bath in a river (or giving the king's elephant a bath in a river)",
+    "ipa": "loŋ tʰâa",
+    "pron_display": "loŋ tʰâa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "royal ceremony of giving the king's son a bath in a river (or giving the king's elephant a bath in a river)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14298",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงท้อง",
     "alalc": "long thǭng",
     "meaning": "to suffer from diarrhea.",
@@ -1010375,7 +1010650,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8688",
-    "source_query": "ท้.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010420,10 +1010695,37 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8968",
-    "source_query": "ท้.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงนรก",
+    "alalc": "",
+    "meaning": "go to hell, die",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "go to hell, die"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14303",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลงนอน",
@@ -1010453,6 +1010755,60 @@
     "status": "unresolved"
   },
   {
+    "thai": "ลงนั่ง",
+    "alalc": "",
+    "meaning": "sit down",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "sit down"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14305",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงนา",
+    "alalc": "long nā",
+    "meaning": "start planting rice, begin ploughing and planting rice",
+    "ipa": "loŋ naa",
+    "pron_display": "loŋ naa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "start planting rice, begin ploughing and planting rice"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14306",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงนาม",
     "alalc": "long nām",
     "meaning": "to sign, sign one's name.",
@@ -1010480,6 +1010836,131 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงนามกำกับ",
+    "alalc": "",
+    "meaning": "countersign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "countersign"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24244",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงนามรับสนองพระบรมราชโองการ",
+    "alalc": "",
+    "meaning": "countersign the Royal Command",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "countersign the Royal Command"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24245",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงบทฉันชอบขึ้นมาละก็",
+    "alalc": "long bot chan chǭp khưn mā la kǭ",
+    "meaning": "whenever I happen to like (something).",
+    "ipa": "loŋ bòt cʰán cʰɔ̂ɔp kʰʉ̂n maa la kɔ̂ɔ",
+    "pron_display": "loŋ ˈbòt cʰán ˈcʰɔ̂ɔp kʰʉ̂n ˈmaa la kɔ̂ɔ→",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "whenever I happen to like (something)."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15860",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงบทชอบขึ้นมา",
+    "alalc": "long bot chǭp khưn mā",
+    "meaning": "whenever a liking arises; whenever love arises.",
+    "ipa": "loŋ bòt cʰɔ̂ɔp kʰʉ̂n maa",
+    "pron_display": "ˈloŋ bòt ˈcʰɔ̂ɔp kʰʉ̂n ˈmaa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "whenever a liking arises; whenever love arises."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10319",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงบทชอบขึ้นมาละก็",
+    "alalc": "long bot chǭp khưn mā la kǭ",
+    "meaning": "whenever one happens to like (someone or something); whenever a liking arises; whenever love arises.",
+    "ipa": "loŋ bòt cʰɔ̂ɔp kʰʉ̂n maa la kɔ̂ɔ",
+    "pron_display": "ˈloŋ bòt ˈcʰɔ̂ɔp kʰʉ̂n ˈmaa la kɔ̂ɔ→",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "whenever one happens to like (someone or something); whenever a liking arises; whenever love arises."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15859",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงบัญชี",
     "alalc": "",
     "meaning": "charge it to one's account, put it to one's account; keep the accounts",
@@ -1010501,7 +1010982,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:6034",
-    "source_query": "บ.*",
+    "source_query": "ลง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1010528,7 +1011009,186 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10495",
-    "source_query": "บ.*",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงบันทึก",
+    "alalc": "",
+    "meaning": "log",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "log"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24246",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงบันทึก",
+    "alalc": "",
+    "meaning": "record, write down; document; take down; log; minute; note; register; set down",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "record, write down; document; take down; log; minute; note; register; set down"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6035",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงบันทึกปิด",
+    "alalc": "",
+    "meaning": "logoff",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "logoff"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24247",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงบันทึกออก",
+    "alalc": "",
+    "meaning": "logout",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "logout"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24248",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงบันทึกเข้า",
+    "alalc": "",
+    "meaning": "login",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "login"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24249",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงบันทึกเปิด",
+    "alalc": "",
+    "meaning": "logon",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "logon"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24250",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงฝัก",
+    "alalc": "long fak",
+    "meaning": "hernia, rupture",
+    "ipa": "loŋ fàk",
+    "pron_display": "loŋ fàk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hernia, rupture"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14311",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010609,10 +1011269,35 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13819",
-    "source_query": "มต.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงมติผ่านร่างกฎหมาย",
+    "alalc": "",
+    "meaning": "pass the bill",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pass the bill"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24251",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลงมา",
@@ -1010651,6 +1011336,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงมีด",
+    "alalc": "long mīt",
+    "meaning": "begin to slash, down with the knife; begin to chop or cut",
+    "ipa": "loŋ mîit",
+    "pron_display": "loŋ mîit",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "begin to slash, down with the knife; begin to chop or cut"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14316",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงมือ",
     "alalc": "long mư̄",
     "meaning": "to start, begin, undertake, set one's hand to.",
@@ -1010676,6 +1011388,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงมือทำ",
+    "alalc": "",
+    "meaning": "start to do, set about",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "start to do, set about"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31609",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลงมือลงไม้",
@@ -1010784,6 +1011523,31 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงรหัส",
+    "alalc": "",
+    "meaning": "code",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "code"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24252",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ลงรอย",
     "alalc": "long rǭy",
     "meaning": "to be in good harmony, in agreement, to get along well (with someone).",
@@ -1010805,7 +1011569,34 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15203",
-    "source_query": "รอ.*",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงรอยกัน",
+    "alalc": "long rǭy kan",
+    "meaning": "get along with, get on well together; be on good terms with someone; be compatible",
+    "ipa": "loŋ rɔɔy kan",
+    "pron_display": "loŋ rɔɔy kan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "get along with, get on well together; be on good terms with someone; be compatible"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14321",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010832,7 +1011623,43 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:14322",
-    "source_query": "รั.*",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงราก",
+    "alalc": "long rāk",
+    "meaning": "lay the foundation (of a building); vomit, be sick",
+    "ipa": "loŋ râak",
+    "pron_display": "loŋ râak",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lay the foundation (of a building)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "vomit, be sick"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14323",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1010890,6 +1011717,162 @@
     "status": "unresolved"
   },
   {
+    "thai": "ลงลอยกัน",
+    "alalc": "",
+    "meaning": "get along well with, be in step with; get deal with; agree with",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "get along well with, be in step with; get deal with; agree with"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6036",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงลายมือชื่อ",
+    "alalc": "",
+    "meaning": "sign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "sign"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:9992",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงลายมือชื่อ",
+    "alalc": "",
+    "meaning": "sign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sign"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24253",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงล่าง",
+    "alalc": "",
+    "meaning": "caudal / inferior / descending",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "caudal / inferior / descending"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24254",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงวันที่",
+    "alalc": "",
+    "meaning": "date, put a date on; assign a date to",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "date, put a date on; assign a date to"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14327",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงวันที่ ๕",
+    "alalc": "long wan thī hā",
+    "meaning": "dated the fifth.",
+    "ipa": "loŋ wan tʰîi hâa",
+    "pron_display": "ˈloŋ wan tʰîi ˈhâa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dated the fifth."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9172",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงวันที่ ๖",
     "alalc": "long wan thī hok",
     "meaning": "dated the sixth.",
@@ -1010913,6 +1011896,189 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงวันที่ภายหลัง",
+    "alalc": "",
+    "meaning": "post-date",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "post-date"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24255",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงวันที่ย้อนหลัง",
+    "alalc": "",
+    "meaning": "ante-date",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ante-date"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24256",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงสนาม",
+    "alalc": "",
+    "meaning": "enter the field, enter the ground",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "enter the field, enter the ground"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14328",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงสมัคร",
+    "alalc": "",
+    "meaning": "apply for a candidate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "apply for a candidate"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:570",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงสมัครรับเลือกตั้ง",
+    "alalc": "",
+    "meaning": "be a candidate for",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be a candidate for"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3947",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงสรง",
+    "alalc": "long song",
+    "meaning": "bathe, take a bath (royal word)",
+    "ipa": "loŋ sǒŋ",
+    "pron_display": "loŋ sǒŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "bathe, take a bath (royal word)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14329",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงสารบบคำพิพากษา",
+    "alalc": "",
+    "meaning": "entering judgment",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "entering judgment"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24257",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลงหลักปักราก",
@@ -1010942,6 +1012108,141 @@
     "status": "tentative"
   },
   {
+    "thai": "ลงหิน",
+    "alalc": "long hin",
+    "meaning": "stone-polished metal bowl",
+    "ipa": "loŋ hǐn",
+    "pron_display": "loŋ hǐn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "stone-polished metal bowl"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14330",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงหุ้น",
+    "alalc": "",
+    "meaning": "take shares of a company, form a partnership",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "take shares of a company, form a partnership"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6038",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงอาชญา",
+    "alalc": "",
+    "meaning": "punish, penalize; chastise",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "punish, penalize; chastise"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14331",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงอาญา",
+    "alalc": "",
+    "meaning": "punish, penalize; chastise",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "punish, penalize; chastise"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14332",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงอุโบสถ",
+    "alalc": "long u bō sot",
+    "meaning": "hold a religions service in the Buddhist chapel",
+    "ipa": "loŋ ù boo sòt",
+    "pron_display": "loŋ ù boo sòt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "hold a religions service in the Buddhist chapel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14333",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ลงเกลียวกัน",
     "alalc": "long kliaw kan",
     "meaning": "to get along together.",
@@ -1010963,10 +1012264,655 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1634",
-    "source_query": "กั.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลงเงิน",
+    "alalc": "long ngœ̄n",
+    "meaning": "lay down (money), take shares in a business concern; invest; put money into; finance",
+    "ipa": "loŋ ŋəən",
+    "pron_display": "loŋ ŋəən",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lay down (money), take shares in a business concern; invest; put money into; finance"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14290",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงเม็ด",
+    "alalc": "",
+    "meaning": "fall",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "fall"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14318",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงเรือ",
+    "alalc": "long rưa",
+    "meaning": "to board a boat.",
+    "ipa": "loŋ rʉa",
+    "pron_display": "loŋ ˈrʉa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to board a boat."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15703",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงเอย",
+    "alalc": "long œ̄y",
+    "meaning": "to end up, conclude, be settled.",
+    "ipa": "loŋ əəy",
+    "pron_display": "loŋ ˈəəy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to end up, conclude, be settled."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15872",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงแขก",
+    "alalc": "long khǣk",
+    "meaning": "to hold a bee, get the help of one's neighbors on a given day (especially for transplanting or harvesting rice).",
+    "ipa": "loŋ kʰɛ̀ɛk",
+    "pron_display": "loŋ ˈkʰɛ̀ɛk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to hold a bee, get the help of one's neighbors on a given day (especially for transplanting or harvesting rice)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2886",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงแดง",
+    "alalc": "long dǣng",
+    "meaning": "suffer from excessive bloody flux, suffer from severe dysentery",
+    "ipa": "loŋ dɛɛŋ",
+    "pron_display": "loŋ dɛɛŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "suffer from excessive bloody flux, suffer from severe dysentery"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14292",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงแป้ง",
+    "alalc": "long pǣng",
+    "meaning": "starch",
+    "ipa": "loŋ pɛ̂ɛŋ",
+    "pron_display": "loŋ pɛ̂ɛŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "starch"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14310",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงแรง",
+    "alalc": "long rǣng",
+    "meaning": "to expend energy.",
+    "ipa": "loŋ rɛɛŋ",
+    "pron_display": "loŋ ˈrɛɛŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to expend energy."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15745",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงแส้",
+    "alalc": "",
+    "meaning": "enforce, compel; whip, beat; flog; scourge; lash; thrash",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "enforce, compel"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "whip, beat; flog; scourge; lash; thrash"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1214",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลงโทษ",
+    "alalc": "long thōt",
+    "meaning": "to punish.; to take disciplinary action.",
+    "ipa": "loŋ tʰôot",
+    "pron_display": "loŋ ˈtʰôot",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to punish."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to take disciplinary action."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:9418",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงโบสถ์",
+    "alalc": "long bōt",
+    "meaning": "get along with, be on good terms with someone; be compatible with; hold a religions service in the Buddhist chapel",
+    "ipa": "loŋ bòot",
+    "pron_display": "loŋ bòot",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "get along with, be on good terms with someone; be compatible with"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "hold a religions service in the Buddhist chapel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14309",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงโรง",
+    "alalc": "long rōng",
+    "meaning": "begin a play, start playing; is opened",
+    "ipa": "loŋ rooŋ",
+    "pron_display": "loŋ rooŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "begin a play, start playing; is opened"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14326",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงได้กินเหล้าละก็ เป็นเมาทุกที",
+    "alalc": "long day kin law la kǭ pen maw thuk thī",
+    "meaning": "Whenever he drinks, he gets drunk.",
+    "ipa": "loŋ dây kin lâw la kɔ̂ɔ pen maw tʰúk tʰii",
+    "pron_display": "ˈloŋ dây kin ˈlâw la kɔ̂ɔ→pen ˈmaw tʰúk ˈtʰii↓",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Whenever he drinks, he gets drunk."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15858",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลงไป",
+    "alalc": "long pay",
+    "meaning": "to go down.; down, downward.",
+    "ipa": "loŋ pay",
+    "pron_display": "loŋ ˈpay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to go down."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "down, downward."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12147",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลด",
+    "alalc": "lot",
+    "meaning": "to lower, reduce, decrease, discount.",
+    "ipa": "lót",
+    "pron_display": "ˈlót",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to lower, reduce, decrease, discount."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15884",
+    "source_query": "ลด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลด (...) ลง",
+    "alalc": "lotparen long",
+    "meaning": "to decrease, lower, reduce.",
+    "ipa": "lótparen loŋ",
+    "pron_display": "ˈlót  (...)  ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to decrease, lower, reduce."
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15874",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดขนาดลง",
+    "alalc": "",
+    "meaning": "decrescent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "decrescent"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24259",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดขั้น",
+    "alalc": "",
+    "meaning": "demote, be downgraded",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "demote, be downgraded"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14336",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดความตึง",
+    "alalc": "",
+    "meaning": "relax",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "relax"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24260",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดความรู้สึก  (กลัว",
+    "alalc": "",
+    "meaning": "desensitise; desensitize",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "desensitise; desensitize"
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24261",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดความอ้วน",
+    "alalc": "",
+    "meaning": "diet, lose weight",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "diet, lose weight"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14338",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดความเสียว",
+    "alalc": "",
+    "meaning": "desensitise",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "desensitise"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24262",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดค่าใช้จ่าย",
+    "alalc": "",
+    "meaning": "reduce the expenses, diminish the expenses",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "reduce the expenses, diminish the expenses"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2188",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลดตัว",
@@ -1010996,6 +1012942,135 @@
     "status": "unresolved"
   },
   {
+    "thai": "ลดตัวลงมา",
+    "alalc": "",
+    "meaning": "lower oneself, stoop to hanging around with",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lower oneself, stoop to hanging around with"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2189",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดต่ำลงมา",
+    "alalc": "lot tam long mā",
+    "meaning": "to get lower down.",
+    "ipa": "lót tàm loŋ maa",
+    "pron_display": "lót ˈtàm loŋ ˈmaa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to get lower down."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15868",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดทอน",
+    "alalc": "",
+    "meaning": "reduce, diminish; lessen",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "reduce, diminish; lessen"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14340",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดทอนได้",
+    "alalc": "",
+    "meaning": "reducible",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "reducible"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24263",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดทอนไม่ได้",
+    "alalc": "",
+    "meaning": "irreducible",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "irreducible"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24264",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ลดน้อยลง",
     "alalc": "",
     "meaning": "decrease, reduce; lower; subside; recede; cut down; diminish; bring down; lessen",
@@ -1011018,6 +1013093,83 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:6039",
     "source_query": "น้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดน้อยลงไป",
+    "alalc": "lot nǭy long pay",
+    "meaning": "to decrease, reduce.",
+    "ipa": "lót nɔ́ɔy loŋ pay",
+    "pron_display": "lót ˈnɔ́ɔy loŋ ˈpay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to decrease, reduce."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12148",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดน้ำหนัก",
+    "alalc": "",
+    "meaning": "lose weight, diet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "lose weight, diet"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14342",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดระดับ",
+    "alalc": "",
+    "meaning": "downgrade",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "downgrade"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24265",
+    "source_query": "ลด.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1011075,6 +1013227,466 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ลดรูป",
+    "alalc": "",
+    "meaning": "reduced; suppressed",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "reduced; suppressed"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24266",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดฤทธิ์",
+    "alalc": "",
+    "meaning": "inactivate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "inactivate"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24267",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดลง",
+    "alalc": "lot long",
+    "meaning": "to subside, become lower.",
+    "ipa": "lót loŋ",
+    "pron_display": "ˈlót ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to subside, become lower."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15873",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดละ",
+    "alalc": "lot la",
+    "meaning": "to give in, yield, let up.",
+    "ipa": "lót lá",
+    "pron_display": "lót ˈláʔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to give in, yield, let up."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15885",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดลาวาศอก",
+    "alalc": "",
+    "meaning": "decrease adamant, give quarter; give remission; give let up",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "decrease adamant, give quarter; give remission; give let up"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:571",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดสัญญาณทีละน้อย",
+    "alalc": "",
+    "meaning": "fade out",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fade out"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24268",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดหย่อน",
+    "alalc": "lot yǭn",
+    "meaning": "to decrease, reduce, lower.",
+    "ipa": "lót yɔ̀ɔn",
+    "pron_display": "lót ˈyɔ̀ɔn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to decrease, reduce, lower."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15887",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดหย่อนผ่อนโทษ",
+    "alalc": "",
+    "meaning": "reduce a punishment, decrease penalty",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "reduce a punishment, decrease penalty"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:572",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดหลั่น",
+    "alalc": "lot lan",
+    "meaning": "to be descending in regular order, to cascade.",
+    "ipa": "lót làn",
+    "pron_display": "lót ˈlàn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be descending in regular order, to cascade."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15888",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดา",
+    "alalc": "la dā",
+    "meaning": "vine, creeper",
+    "ipa": "lá daa",
+    "pron_display": "lá daa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "vine, creeper"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14352",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดเกียรติ",
+    "alalc": "",
+    "meaning": "abase",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "abase"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2505",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดเขื่อน",
+    "alalc": "lot khưan",
+    "meaning": "make a dam",
+    "ipa": "lót kʰʉ̀an",
+    "pron_display": "lót kʰʉ̀an",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "make a dam"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14337",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดเลี้ยว",
+    "alalc": "lot liaw",
+    "meaning": "(a path) to wind, be winding.; to follow a winding path.",
+    "ipa": "lót líaw",
+    "pron_display": "lót ˈlíaw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "(a path) to wind, be winding."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to follow a winding path."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15886",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดเลี้ยวเกี้ยวพา",
+    "alalc": "lot liaw kiaw phā",
+    "meaning": "court, woo",
+    "ipa": "lót líaw kîaw pʰaa",
+    "pron_display": "lót líaw kîaw pʰaa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "court, woo"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14348",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ลดเหลือ",
+    "alalc": "",
+    "meaning": "reduce to, lessen",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "reduce to, lessen"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14351",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดแหลก",
+    "alalc": "",
+    "meaning": "reduce the price, discount; lower; reduce; decrease; cut down or bring down the price",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "reduce the price, discount; lower; reduce; decrease; cut down or bring down the price"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1215",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลดโทษ",
+    "alalc": "",
+    "meaning": "mitigate, be commuted",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "mitigate, be commuted"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14341",
+    "source_query": "ลด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ลบศักราช",
@@ -1012641,6 +1015253,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3319",
     "source_query": "คล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ละลด",
+    "alalc": "la lot",
+    "meaning": "refrain, abstain; endlessly, ceaselessly; closely",
+    "ipa": "lá lót",
+    "pron_display": "lá lót",
+    "pos": "V; ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "refrain, abstain"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "endlessly, ceaselessly; closely"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14491",
+    "source_query": "ลด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1018026,6 +1020674,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13134",
     "source_query": "พั.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มลง",
+    "alalc": "lom long",
+    "meaning": "to fall down, to collapse.",
+    "ipa": "lóm loŋ",
+    "pron_display": "ˈlóm ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to fall down, to collapse."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15875",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1067261,6 +1069934,31 @@
     "status": "unresolved"
   },
   {
+    "thai": "สงบลง",
+    "alalc": "sangop long",
+    "meaning": "to die down, subside.",
+    "ipa": "sa-ŋòp loŋ",
+    "pron_display": "saˈŋòp ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to die down, subside."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15878",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สงบศึก",
     "alalc": "sangop sưk",
     "meaning": "to cease fighting.; truce.",
@@ -1082201,6 +1084899,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ส่วนลด",
+    "alalc": "suan lot",
+    "meaning": "discount, deduction.",
+    "ipa": "sùan lót",
+    "pron_display": "sùan ˈlót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "discount, deduction."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17306",
+    "source_query": "ลด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ส่วนโค้ง  (ของลำไส้ใหญ่)  ใต้ตับ",
     "alalc": "",
     "meaning": "hepatic flexure  (of colon)",
@@ -1086414,6 +1089139,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หมอบลง",
+    "alalc": "",
+    "meaning": "crouch, lie prone; lie on one's stomach",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "crouch, lie prone; lie on one's stomach"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2216",
+    "source_query": "ลง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "หมอประกาศนียบัตร",
     "alalc": "mǭ prakātsanīyabat",
     "meaning": "certified doctor, physician.",
@@ -1088680,6 +1091432,52 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "หย่อนลง",
+    "alalc": "yǭn long",
+    "meaning": "to put down, lower.; to slow down.; to slacken (e.g. a rope).; to decrease, diminish.",
+    "ipa": "yɔ̀ɔn loŋ",
+    "pron_display": "ˈyɔ̀ɔn ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to put down, lower."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "to slow down."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [],
+        "definitions": [
+          "to slacken (e.g. a rope)."
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [],
+        "definitions": [
+          "to decrease, diminish."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15879",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "หย่อนใจ",
@@ -1091108,7 +1093906,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18486",
-    "source_query": "คอ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1094766,7 +1097564,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7634",
-    "source_query": "ตั.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1100119,6 +1102917,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14168",
     "source_query": "ขล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อย่างไม่ลดละ",
+    "alalc": "yāng may lot la",
+    "meaning": "unrelentingly, without slackening, unceasingly, without letup, without giving in.",
+    "ipa": "yàaŋ mây lót lá",
+    "pron_display": "ˈyàaŋ mây lót ˈláʔ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "unrelentingly, without slackening, unceasingly, without letup, without giving in."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14525",
+    "source_query": "ลด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1106845,7 +1109668,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15880",
-    "source_query": "กำ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1107103,6 +1109926,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "อ่อนลง",
+    "alalc": "ǭn long",
+    "meaning": "to become weak; to become milder, less intense, softer; to become less rigid.",
+    "ipa": "ɔ̀ɔn loŋ",
+    "pron_display": "ˈɔ̀ɔn ˈloŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to become weak; to become milder, less intense, softer; to become less rigid."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15882",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "อ่อนอกอ่อนใจ",
     "alalc": "ǭn ok ǭn yay",
     "meaning": "to become weary and discouraged; to get tired (of), lose patience (with).",
@@ -1107125,6 +1109975,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19267",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อ่อนเพลียลง",
+    "alalc": "ǭn phlia long",
+    "meaning": "to get weak, get weaker.",
+    "ipa": "ɔ̀ɔn pʰlia loŋ",
+    "pron_display": "ɔ̀ɔn ˈpʰlia ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to get weak, get weaker."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15881",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1119469,6 +1122344,31 @@
     "status": "unresolved"
   },
   {
+    "thai": "เงียบลง",
+    "alalc": "ngiap long",
+    "meaning": "to quiet down.",
+    "ipa": "ŋîap loŋ",
+    "pron_display": "ˈŋîap ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to quiet down."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4358",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เงี่ยหูฟัง",
     "alalc": "ngia hū fang",
     "meaning": "to cock the ears, i.e. try hard to listen.",
@@ -1129119,6 +1132019,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เนือยลง",
+    "alalc": "nưay long",
+    "meaning": "to slow down, become apathetic.",
+    "ipa": "nʉay loŋ",
+    "pron_display": "ˈnʉay ˈloŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to slow down, become apathetic."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10224",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เนื่องจาก",
     "alalc": "nưang yāk",
     "meaning": "owing to, on account of, due to; owing to the fact that, because of the fact that, since.",
@@ -1129663,7 +1132590,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10548",
-    "source_query": "บ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1129763,6 +1132690,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10802",
     "source_query": "รถ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เบาลง",
+    "alalc": "baw long",
+    "meaning": "to become lighter.; to slow down.",
+    "ipa": "baw loŋ",
+    "pron_display": "ˈbaw ˈloŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to become lighter."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to slow down."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:10804",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1136298,7 +1139261,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11906",
-    "source_query": "ตก.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1137223,6 +1140186,31 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12518",
     "source_query": "ศ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เผือดลง",
+    "alalc": "phưat long",
+    "meaning": "to turn pale.",
+    "ipa": "pʰʉ̀at loŋ",
+    "pron_display": "ˈpʰʉ̀at ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to turn pale."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12530",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1141372,6 +1144360,31 @@
     "status": "tentative"
   },
   {
+    "thai": "เย็นลง",
+    "alalc": "yen long",
+    "meaning": "to get cool, get cooler, cool off.",
+    "ipa": "yen loŋ",
+    "pron_display": "ˈyen ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to get cool, get cooler, cool off."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14928",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เย็นวันนี้",
     "alalc": "yen wan nī",
     "meaning": "this evening.",
@@ -1144150,6 +1147163,31 @@
     "status": "unresolved"
   },
   {
+    "thai": "เลวลง",
+    "alalc": "lēw long",
+    "meaning": "to become worse, get worse.",
+    "ipa": "leew loŋ",
+    "pron_display": "ˈleew ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to become worse, get worse."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15877",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เลอศักดิ์",
     "alalc": "lœ̄ sak",
     "meaning": "to be of the highest rank.",
@@ -1144860,6 +1147898,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:6241",
     "source_query": "ซ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เลี้ยวลด",
+    "alalc": "liaw lot",
+    "meaning": "winding, zigzag; sinuous; meandering; tortuous; meander, wind; snake through",
+    "ipa": "líaw lót",
+    "pron_display": "líaw lót",
+    "pos": "ADJ; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "winding, zigzag; sinuous; meandering; tortuous"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "meander, wind; snake through"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14749",
+    "source_query": "ลด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1156147,6 +1159221,31 @@
     "source_query": "พู.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แก่ลง",
+    "alalc": "klǣng",
+    "meaning": "to grow older.",
+    "ipa": "kɛ̀ɛ loŋ",
+    "pron_display": "ˈkɛ̀ɛ ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to grow older."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15862",
+    "source_query": "ลง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "conflict",
     "status": "tentative"
   },
   {
@@ -1197386,7 +1200485,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3439",
-    "source_query": "คอ.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1201399,6 +1204498,31 @@
     "status": "tentative"
   },
   {
+    "thai": "ไม่ลง",
+    "alalc": "may long",
+    "meaning": "cannot, unable to, does not have the heart (to). Follows certain verbs to indicate that the action was not completed, or that the logical outcome isn't or can't be achieved:  ทำ-- \"just can't do it;\" นั่ง-- \"can't sit down;\" วาง-- \"just can't put it down.\"",
+    "ipa": "mây loŋ",
+    "pron_display": "mây ˈloŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "cannot, unable to, does not have the heart (to). Follows certain verbs to indicate that the action was not completed, or that the logical outcome isn't or can't be achieved:  ทำ-- \"just can't do it;\" นั่ง-- \"can't sit down;\" วาง-- \"just can't put it down.\""
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14478",
+    "source_query": "ลง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ไม่ลงรอยกัน",
     "alalc": "may long rǭy kan",
     "meaning": "to be at odds with each other; to be inharmonious, not on good terms, not to see eye to eye with each other.",
@@ -1201418,7 +1204542,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14479",
-    "source_query": "กั.*",
+    "source_query": "ลง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
