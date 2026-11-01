@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 44661,
+    "unique_lexical_records": 45606,
     "sample_size": 150,
     "counts": {
       "neither": 85,
@@ -629,6 +629,17 @@
       "pos": "N"
     },
     {
+      "thai": "ลาเพศ",
+      "source_id": "LEX2.0:14560",
+      "pronunciation": "",
+      "meaning": "leave the monkhood",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "V"
+    },
+    {
       "thai": "ความเสียหายจากการสั่นสะเทือนเพราะแผ่นดินไหว",
       "source_id": "RI:11333",
       "pronunciation": "",
@@ -1067,6 +1078,17 @@
       "comparison": "neither",
       "web_rank": "5",
       "pos": "N"
+    },
+    {
+      "thai": "ละครปฏิลักษณ์",
+      "source_id": "RI:24356",
+      "pronunciation": "",
+      "meaning": "anti-play",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "กอบ",
@@ -1639,28 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
-    },
-    {
-      "thai": "ความรู้หลังประสบการณ์",
-      "source_id": "RI:10960",
-      "pronunciation": "",
-      "meaning": "a posteriori knowledge",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "ทำให้มีชีวิตชีวา",
-      "source_id": "RI:15918",
-      "pronunciation": "",
-      "meaning": "vitalise; vitalize",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
     }
   ]
 }
