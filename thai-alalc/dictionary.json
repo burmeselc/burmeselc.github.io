@@ -127674,6 +127674,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ขี้สงสัย",
+    "alalc": "khī songsay",
+    "meaning": "to be skeptical, given to skepticism.",
+    "ipa": "kʰîi sǒŋ-sǎy",
+    "pron_display": "kʰîi sǒŋˈsǎy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be skeptical, given to skepticism."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2570",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ขี้สงสาร",
     "alalc": "khī songsān",
     "meaning": "to be overly sympathetic, readily sympathetic, compassionate.",
@@ -127695,7 +127722,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2571",
-    "source_query": "ขี.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -146775,7 +146802,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2195",
-    "source_query": "ข้.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -382444,14 +382471,24 @@
     "alalc": "na songkhlā",
     "meaning": "Na-Songkhla, surname of persons descended from the local prince who served as governor of Songkhla in earlier times. Based on สงขลา, a township in S Thailand.",
     "ipa": "ná sǒŋ-kʰlǎa",
-    "pron_display": "",
-    "pos": "",
-    "senses": [],
-    "web_rank": "",
-    "lexical_level": "entry",
+    "pron_display": "ná sǒŋˈkʰlǎa",
+    "pos": "nN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "nN"
+        ],
+        "definitions": [
+          "Na-Songkhla, surname of persons descended from the local prince who served as governor of Songkhla in earlier times. Based on สงขลา, a township in S Thailand."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:6412",
-    "source_query": "ณ.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -477971,6 +478008,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ต้องสงสัย",
+    "alalc": "tǫng songsay",
+    "meaning": "to be suspected, to be doubted.",
+    "ipa": "tɔ̂ŋ sǒŋ-sǎy",
+    "pron_display": "ˈtɔ̂ŋ sǒŋˈsǎy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be suspected, to be doubted."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:7394",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ต้องหา",
     "alalc": "tǫng hā",
     "meaning": "to be accused, be charged.; to have to seek, must seek.",
@@ -529558,7 +529622,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9007",
-    "source_query": "ทำ.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -704875,7 +704939,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:11186",
-    "source_query": "ป่.*",
+    "source_query": "สง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -772823,7 +772887,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:17054",
-    "source_query": "พร.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -774334,7 +774398,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12856",
-    "source_query": "พร.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -797114,7 +797178,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:12326",
-    "source_query": "พิ.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -800981,7 +801045,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13244",
-    "source_query": "พิ.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -869597,7 +869661,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:6858",
-    "source_query": "มห.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -869624,7 +869688,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13897",
-    "source_query": "มห.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -894103,7 +894167,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14147",
-    "source_query": "มี.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -993737,7 +993801,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15571",
-    "source_query": "รุ.*",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -994059,7 +994123,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15592",
-    "source_query": "รุ.*",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1047696,6 +1047760,69 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้งเล้ง",
+    "alalc": "longleng",
+    "meaning": "loud noise (e.g. of quarreling, debating).",
+    "ipa": "lóŋ-léŋ",
+    "pron_display": "lóŋˈléŋ*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "loud noise (e.g. of quarreling, debating)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15883",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้น",
+    "alalc": "lon",
+    "meaning": "to be filled to overflowing.; to overflow, spill over.",
+    "ipa": "lón",
+    "pron_display": "ˈlón",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be filled to overflowing."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to overflow, spill over."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15894",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "ล้นค่า",
     "alalc": "lon khā",
     "meaning": "to be invaluable, priceless.",
@@ -1047804,6 +1047931,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้นหลาม",
+    "alalc": "lon lām",
+    "meaning": "to be overloaded, overflowing, overcrowded.",
+    "ipa": "lón lǎam",
+    "pron_display": "lón ˈlǎam",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be overloaded, overflowing, overcrowded."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15895",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ล้นเกล้าล้นกระหม่อม",
     "alalc": "lon klaw lon kra mǭm",
     "meaning": "His/Her Majesty; extremely, excessively; immensely",
@@ -1047838,6 +1047992,123 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ล้นเหลือ",
+    "alalc": "",
+    "meaning": "surplus, excess; superabundant",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "surplus, excess; superabundant"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14355",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้ม",
+    "alalc": "lom",
+    "meaning": "to fall (from an upright position), keel (over), topple.; to die (especially of an elephant).; to fell.; to kill.; to cancel, abandon (plans, intentions).",
+    "ipa": "lóm",
+    "pron_display": "ˈlóm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fall (from an upright position), keel (over), topple."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to die (especially of an elephant)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fell."
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to kill."
+        ]
+      },
+      {
+        "n": "5",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to cancel, abandon (plans, intentions)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15910",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มกระดาน",
+    "alalc": "",
+    "meaning": "turn over a board, destroy; eliminate; eradicate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "turn over a board, destroy; eliminate; eradicate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:574",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ล้มกลิ้ง",
@@ -1048009,6 +1048280,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้มระเนระนาด",
+    "alalc": "",
+    "meaning": "fall disorderly",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "fall disorderly"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14383",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ล้มลง",
     "alalc": "lom long",
     "meaning": "to fall down, to collapse.",
@@ -1048140,6 +1048438,60 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้มล้าง",
+    "alalc": "lom lāng",
+    "meaning": "to overthrow, abolish.",
+    "ipa": "lóm láaŋ",
+    "pron_display": "lóm ˈláaŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to overthrow, abolish."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15913",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มหงาย",
+    "alalc": "lom ngāy",
+    "meaning": "to fall on one's back.",
+    "ipa": "lóm ŋǎay",
+    "pron_display": "lóm ˈŋǎay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fall on one's back."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15916",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ล้มหมอนนอนเสื่อ",
     "alalc": "lom mǭn nǭn sưa",
     "meaning": "to fall sick, be brought to bed because of illness.",
@@ -1048162,6 +1048514,204 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:9622",
     "source_query": "นอ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มหัวซุกหัวซุน",
+    "alalc": "lom hua suk hua sun",
+    "meaning": "to tumble head over heels, tumble headlong.",
+    "ipa": "lóm hǔa súk hǔa sun",
+    "pron_display": "ˈlóm hǔa ˈsúk hǔa ˈsun",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tumble head over heels, tumble headlong."
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:6300",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มหายตายจาก",
+    "alalc": "",
+    "meaning": "pass away, die",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "pass away, die"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14391",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้มเจ็บ",
+    "alalc": "lom yep",
+    "meaning": "to fall sick.",
+    "ipa": "lóm jèp",
+    "pron_display": "lóm ˈjèp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fall sick."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4938",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มเลิก",
+    "alalc": "lom lœ̄k",
+    "meaning": "to abandon, quit, give up, abolish.",
+    "ipa": "lóm lə̂ək",
+    "pron_display": "lóm ˈlə̂ək",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to abandon, quit, give up, abolish."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15915",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มเหลว",
+    "alalc": "lom lēw",
+    "meaning": "to fail.",
+    "ipa": "lóm lěew",
+    "pron_display": "lóm ˈlěew",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fail."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15917",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้มแผละ",
+    "alalc": "",
+    "meaning": "fall down",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "fall down"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14377",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้วง",
+    "alalc": "luang",
+    "meaning": "to reach into (e.g. a pocket, deep drawer, hole).; to reach in for (something) (out of a pocket, deep drawer, etc.).",
+    "ipa": "lúaŋ",
+    "pron_display": "ˈlúaŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to reach into (e.g. a pocket, deep drawer, hole)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to reach in for (something) (out of a pocket, deep drawer, etc.)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15931",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1048239,6 +1048789,110 @@
     "status": "unresolved"
   },
   {
+    "thai": "ล้วน",
+    "alalc": "luan",
+    "meaning": "entire, pure; entirely, purely, completely.",
+    "ipa": "lúan",
+    "pron_display": "ˈlúan",
+    "pos": "sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "entire, pure; entirely, purely, completely."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15939",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้วน ๆ",
+    "alalc": "",
+    "meaning": "absolute",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "absolute"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24835",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้วนแต่",
+    "alalc": "luan tæ",
+    "meaning": "nothing but, all, entirely, completely.",
+    "ipa": "lúan tɛ",
+    "pron_display": "ˈlúan tɛ ⁐",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nothing but, all, entirely, completely."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8056",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้วนแล้วแต่",
+    "alalc": "",
+    "meaning": "all",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "PRON",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "PRON"
+        ],
+        "definitions": [
+          "all"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3961",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ล้วนแล้วไปด้วย",
     "alalc": "luan lǣw pay duay",
     "meaning": "to be full of.",
@@ -1048259,6 +1048913,341 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:16526",
     "source_query": "ด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้วนๆ",
+    "alalc": "luan luan",
+    "meaning": "entirely, completely.",
+    "ipa": "lúan lúan",
+    "pron_display": "lúan ˈlúan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "entirely, completely."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15940",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อ",
+    "alalc": "lǭ",
+    "meaning": "to tease, mock.",
+    "ipa": "lɔ́ɔ",
+    "pron_display": "ˈlɔ́ɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tease, mock."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15955",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อ",
+    "alalc": "lǭ",
+    "meaning": "wheel (ล้อ).; a crudely made cart drawn by two oxen, used for hauling rice sheaves (เล่ม).; to roll (a wheel or wheel-shaped object).",
+    "ipa": "lɔ́ɔ",
+    "pron_display": "ˈlɔ́ɔ",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wheel (ล้อ)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a crudely made cart drawn by two oxen, used for hauling rice sheaves (เล่ม)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to roll (a wheel or wheel-shaped object)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15948",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อตาย",
+    "alalc": "",
+    "meaning": "locking; locking of wheels",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "locking; locking of wheels"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24836",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อตุนกำลัง",
+    "alalc": "",
+    "meaning": "flywheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "flywheel"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24837",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อตุนกำลังแบบของไหล",
+    "alalc": "",
+    "meaning": "fluid flywheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fluid flywheel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24838",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อนำหัวตัด",
+    "alalc": "",
+    "meaning": "roller guide; wheel guide",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "roller guide; wheel guide"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24839",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อน็อตเดียว",
+    "alalc": "",
+    "meaning": "knock-on wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "knock-on wheel"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24840",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อปรับสายพาน",
+    "alalc": "",
+    "meaning": "jockey wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "jockey wheel"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24841",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อพัดลม",
+    "alalc": "",
+    "meaning": "fan wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fan wheel"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24842",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อฟันเฟือง",
+    "alalc": "",
+    "meaning": "gearwheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gearwheel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14432",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อม",
+    "alalc": "lǭm",
+    "meaning": "to surround, encircle.; to besiege.",
+    "ipa": "lɔ́ɔm",
+    "pron_display": "ˈlɔ́ɔm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to surround, encircle."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to besiege."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15981",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1048444,6 +1049433,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้อมหน้าล้อมหลัง",
+    "alalc": "lǭm nā lǭm lang",
+    "meaning": "to surround, crowd around.",
+    "ipa": "lɔ́ɔm nâa lɔ́ɔm lǎŋ",
+    "pron_display": "lɔ́ɔm ˈnâa lɔ́ɔm ˈlǎŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to surround, crowd around."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15982",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ล้อรถ",
     "alalc": "lǭ rot",
     "meaning": "wheel of a vehicle.",
@@ -1048471,6 +1049487,367 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้อส่าย",
+    "alalc": "",
+    "meaning": "wheel wobble",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "wheel wobble"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24844",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อหน้า",
+    "alalc": "",
+    "meaning": "front wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "front wheel"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5429",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อหมุน",
+    "alalc": "",
+    "meaning": "set off, begin",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "set off, begin"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14474",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อหมุนฟรี",
+    "alalc": "",
+    "meaning": "wheel-slip; wheel-spin",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "wheel-slip; wheel-spin"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24845",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อหลัง",
+    "alalc": "",
+    "meaning": "rear  wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "rear  wheel"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5431",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อเครื่องเป่าลม",
+    "alalc": "",
+    "meaning": "blower wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "blower wheel"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24846",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้อเลียน",
+    "alalc": "lǭ lian",
+    "meaning": "to mock, ridicule by mimicry.",
+    "ipa": "lɔ́ɔ lian",
+    "pron_display": "lɔ́ɔ ˈlian",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to mock, ridicule by mimicry."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15957",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อเลื่อน",
+    "alalc": "lǭ lưan",
+    "meaning": "vehicles (collective term).",
+    "ipa": "lɔ́ɔ lʉ̂an",
+    "pron_display": "lɔ́ɔ ˈlʉ̂an",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "vehicles (collective term)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15950",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อเล่น",
+    "alalc": "lǭ len",
+    "meaning": "to tease, kid, joke.",
+    "ipa": "lɔ́ɔ lên",
+    "pron_display": "lɔ́ɔ ˈlên",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tease, kid, joke."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15956",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้อแม็ก",
+    "alalc": "",
+    "meaning": "mag wheel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "mag wheel"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24847",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้า",
+    "alalc": "lā",
+    "meaning": "to lag.; to be tired.",
+    "ipa": "láa",
+    "pron_display": "ˈláa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to lag."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be tired."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16107",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้าง",
+    "alalc": "lāng",
+    "meaning": "to wash, wash off (of things other than hair or clothes).; to wipe out (especially in certain expressions).",
+    "ipa": "láaŋ",
+    "pron_display": "ˈláaŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to wash, wash off (of things other than hair or clothes)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to wipe out (especially in certain expressions)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16118",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้างจาน",
+    "alalc": "",
+    "meaning": "wash dishes",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "wash dishes"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:584",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ล้างชีวิต",
     "alalc": "lāng chīwit",
     "meaning": "to kill, destroy.",
@@ -1048496,6 +1049873,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ล้างน้ำ",
+    "alalc": "",
+    "meaning": "wash, clean; rinse; cleanse",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "wash, clean; rinse; cleanse"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6061",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ล้างบาง",
@@ -1048559,6 +1049963,42 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "ล้างปาก",
+    "alalc": "lāng pāk",
+    "meaning": "eat dessert or fruit after eating raw food; gargle, wash the mouth",
+    "ipa": "láaŋ pàak",
+    "pron_display": "láaŋ pàak",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "eat dessert or fruit after eating raw food"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "gargle, wash the mouth"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14543",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "ล้างผลาญ",
@@ -1048651,6 +1050091,33 @@
     "status": "tentative"
   },
   {
+    "thai": "ล้างรถ",
+    "alalc": "",
+    "meaning": "wash a car",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "wash a car"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:587",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "ล้างรูป",
     "alalc": "lāng rūp",
     "meaning": "to develop a photographic film or print.",
@@ -1048676,6 +1050143,578 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "ล้างสมอง",
+    "alalc": "lāng sa mǭng",
+    "meaning": "brainwash",
+    "ipa": "láaŋ sà mɔ̌ɔŋ",
+    "pron_display": "láaŋ sà mɔ̌ɔŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "brainwash"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2591",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้างหน้า",
+    "alalc": "lāng nā",
+    "meaning": "to wash the face.",
+    "ipa": "láaŋ nâa",
+    "pron_display": "láaŋ ˈnâa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to wash the face."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16121",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้างหน้าล้างตา",
+    "alalc": "",
+    "meaning": "wash one's face",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "wash one's face"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14548",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้างออก",
+    "alalc": "lāng ǭk",
+    "meaning": "to wash off; to be washed off.",
+    "ipa": "láaŋ ɔ̀ɔk",
+    "pron_display": "láaŋ ˈɔ̀ɔk",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to wash off; to be washed off."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16123",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้างแค้น",
+    "alalc": "lāng khǣn",
+    "meaning": "to get rid of one's resentment (usually by taking revenge).",
+    "ipa": "láaŋ kʰɛ́ɛn",
+    "pron_display": "ˌláaŋ ˈkʰɛ́ɛn",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to get rid of one's resentment (usually by taking revenge)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4049",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้างแผล",
+    "alalc": "",
+    "meaning": "bathe the wound",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "bathe the wound"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14544",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้างไพ่",
+    "alalc": "lāng phay",
+    "meaning": "shuffle",
+    "ipa": "láaŋ pʰây",
+    "pron_display": "láaŋ pʰây",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "shuffle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6062",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้าน",
+    "alalc": "lān",
+    "meaning": "million.",
+    "ipa": "láan",
+    "pron_display": "ˈláan",
+    "pos": "Nm; C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "Nm"
+        ],
+        "definitions": [
+          "million."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "million."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16138",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้าน",
+    "alalc": "lān",
+    "meaning": "to be bald.",
+    "ipa": "láan",
+    "pron_display": "ˈláan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be bald."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16136",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้านคำสั่งต่อวินาที",
+    "alalc": "",
+    "meaning": "million instructions per second (MIPS) (มิปส์)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "million instructions per second (MIPS) (มิปส์)"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:24848",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้าสมัย",
+    "alalc": "lā samay",
+    "meaning": "to be out-of-date, behind the times.",
+    "ipa": "láa sa-mǎy",
+    "pron_display": "ˈláa saˈmǎy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be out-of-date, behind the times."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16108",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้าหลัง",
+    "alalc": "lā lang",
+    "meaning": "to lag behind, be behind (in time or space), be backward.",
+    "ipa": "láa lǎŋ",
+    "pron_display": "láa ˈlǎŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to lag behind, be behind (in time or space), be backward."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16109",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้ำ",
+    "alalc": "lam",
+    "meaning": "to go beyond, exceed, pass.; exceedingly, extremely.",
+    "ipa": "lám",
+    "pron_display": "ˈlám",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to go beyond, exceed, pass."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "exceedingly, extremely."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16157",
+    "source_query": "ล้.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้ำยุค",
+    "alalc": "",
+    "meaning": "ultramodern, modern; up-to-date; novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "ultramodern, modern; up-to-date; novel"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14583",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้ำลึก",
+    "alalc": "",
+    "meaning": "deep",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "deep"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:588",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้ำสมัย",
+    "alalc": "",
+    "meaning": "ultramodern, modern; up-to-date; novel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "ultramodern, modern; up-to-date; novel"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14585",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ล้ำหน้า",
+    "alalc": "lam nā",
+    "meaning": "be offside; ahead of, in front of; get ahead of, outstrip; overtake; catch up with and surpass",
+    "ipa": "lám nâa",
+    "pron_display": "lám nâa",
+    "pos": "V; ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be offside"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "ahead of, in front of"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "get ahead of, outstrip; overtake; catch up with and surpass"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6129",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้ำเลิศ",
+    "alalc": "lam lœ̄t",
+    "meaning": "to be excellent, superb.",
+    "ipa": "lám lə̂ət",
+    "pron_display": "lám ˈlə̂ət",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be excellent, superb."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16159",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ล้ำเส้น",
+    "alalc": "",
+    "meaning": "overstep, cross the line",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "overstep, cross the line"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:14586",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ลํ้าค่า",
+    "alalc": "",
+    "meaning": "precious, priceless; invaluable",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "precious, priceless; invaluable"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32135",
+    "source_query": "ลํ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "ฦ",
@@ -1097149,6 +1099188,379 @@
     "status": "tentative"
   },
   {
+    "thai": "สกท.",
+    "alalc": "",
+    "meaning": "Office of the Board of Investment, BOI; Board of Investment, BOI",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Board of Investment, BOI"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Board of Investment, BOI"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1530",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกปรก",
+    "alalc": "sokkaprok",
+    "meaning": "to be dirty.",
+    "ipa": "sòk-ka-pròk",
+    "pron_display": "sòk.kaˈpròk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dirty."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17032",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกรรมกริยา",
+    "alalc": "",
+    "meaning": "transitive verb",
+    "ipa": "sà kam krì yaa, sà kam kà rí yaa",
+    "pron_display": "sà kam krì yaa, sà kam kà rí yaa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "transitive verb"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15172",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกรู",
+    "alalc": "",
+    "meaning": "screw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N; CLAS",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "screw"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "CLAS"
+        ],
+        "definitions": [
+          "screw"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15173",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกรูตัดเกลียวเอง",
+    "alalc": "",
+    "meaning": "self-tapping screw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "self-tapping screw"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25826",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกรูปรับเดินเบา",
+    "alalc": "",
+    "meaning": "slow-running screw; throttle-stop screw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "slow-running screw; throttle-stop screw"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25827",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกรูปรับไฟหน้า",
+    "alalc": "",
+    "meaning": "aiming screw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "aiming screw"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25828",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกรูปรับไอดีเดินเบา",
+    "alalc": "",
+    "meaning": "idle-mixture screw; idling-mixture screw; volume-control screw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "idle-mixture screw; idling-mixture screw; volume-control screw"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25829",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกรูไล่อากาศ",
+    "alalc": "",
+    "meaning": "air-bleed nipple; air-bleed screw",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "air-bleed nipple; air-bleed screw"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25830",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกศ.",
+    "alalc": "",
+    "meaning": "Office of the National Education Commission, ONEC",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the National Education Commission, ONEC"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1531",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกัด",
+    "alalc": "sakat",
+    "meaning": "to chisel out.; to extract.; to intercept, obstruct, block, hinder.",
+    "ipa": "sa-kàt",
+    "pron_display": "saˈkàt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to chisel out."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to extract."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to intercept, obstruct, block, hinder."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17035",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกัด (...) ไว้",
+    "alalc": "sakatparen way",
+    "meaning": "to cut off, intercept, block, halt, hold (something which is in motion).",
+    "ipa": "sa-kàtparen wáy",
+    "pron_display": "saˈkàt  (...)  ˈwáy",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to cut off, intercept, block, halt, hold (something which is in motion)."
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16916",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกัดกรอง",
+    "alalc": "",
+    "meaning": "percolate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "percolate"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25832",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "สกัดกั้น",
     "alalc": "sakat kan",
     "meaning": "to block the way, obstruct the advance of.",
@@ -1097171,6 +1099583,727 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1045",
     "source_query": "กั.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกัสซี",
+    "alalc": "",
+    "meaning": "SCSI (small computer system interface) (ส่วนต่อประสานระบบคอมพิวเตอร์ขนาดเล็ก); SCSI (small computer system interface)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "SCSI (small computer system interface) (ส่วนต่อประสานระบบคอมพิวเตอร์ขนาดเล็ก)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "SCSI (small computer system interface)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25833",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกี",
+    "alalc": "sa kī",
+    "meaning": "ski",
+    "ipa": "sà kii",
+    "pron_display": "sà kii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ski"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4148",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกุณ",
+    "alalc": "sa kun",
+    "meaning": "bird",
+    "ipa": "sà kun",
+    "pron_display": "sà kun",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bird"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15174",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกุณา",
+    "alalc": "",
+    "meaning": "bird",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bird"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15175",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุนต์",
+    "alalc": "sa kun",
+    "meaning": "bird",
+    "ipa": "sà kun",
+    "pron_display": "sà kun",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bird"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15176",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกุล",
+    "alalc": "sakun",
+    "meaning": "family, lineage.",
+    "ipa": "sa-kun",
+    "pron_display": "saˈkun",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "family, lineage."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17036",
+    "source_query": "สก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สกุลย่อย",
+    "alalc": "",
+    "meaning": "subgenus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "subgenus"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25837",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะ",
+    "alalc": "",
+    "meaning": "school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "school"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25838",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะดานูบ",
+    "alalc": "",
+    "meaning": "Danube school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Danube school"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25839",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะนอริช",
+    "alalc": "",
+    "meaning": "Norwich school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Norwich school"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25840",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะบาร์บิซง",
+    "alalc": "",
+    "meaning": "Barbizon school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Barbizon school"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25841",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะปารีส",
+    "alalc": "",
+    "meaning": "School of Paris",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "School of Paris"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25842",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะฟงแตนโบล",
+    "alalc": "",
+    "meaning": "Fontainebleau school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Fontainebleau school"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25843",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะภารหุต",
+    "alalc": "",
+    "meaning": "Bharahut school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Bharahut school"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25844",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะเวนิส",
+    "alalc": "",
+    "meaning": "Venetian school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Venetian school"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25845",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลศิลปะแอชแคน",
+    "alalc": "",
+    "meaning": "Ashcan school",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Ashcan school"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25846",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลเงิน",
+    "alalc": "",
+    "meaning": "monetary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "monetary"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2799",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สกุลเดียวกัน",
+    "alalc": "",
+    "meaning": "congeners",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "congeners"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25847",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สขช.",
+    "alalc": "",
+    "meaning": "National Intelligence Agency, NIA",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "National Intelligence Agency, NIA"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1532",
+    "source_query": "สข.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สคบ.",
+    "alalc": "",
+    "meaning": "Office of the Consumer Protection Board, OCPB",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Consumer Protection Board, OCPB"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1533",
+    "source_query": "สค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สคริปท์",
+    "alalc": "",
+    "meaning": "script",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "script"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15179",
+    "source_query": "สค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สง",
+    "alalc": "song",
+    "meaning": "power to harm, capacity to do harm, harmful effect.",
+    "ipa": "sǒŋ",
+    "pron_display": "ˈsǒŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "power to harm, capacity to do harm, harmful effect."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17039",
+    "source_query": "สง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "สง",
+    "alalc": "song",
+    "meaning": "to lift loosely (e.g. heaped grain stalks, straw, rice) (especially in order to allow grain, particles, water, etc. to sift or drop through).",
+    "ipa": "sǒŋ",
+    "pron_display": "ˈsǒŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to lift loosely (e.g. heaped grain stalks, straw, rice) (especially in order to allow grain, particles, water, etc. to sift or drop through)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17038",
+    "source_query": "สง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงกรานต์",
+    "alalc": "songkrān",
+    "meaning": "the old Thai New Year celebration, which falls between April 13 and April 15 each year.",
+    "ipa": "sǒŋ-kraan",
+    "pron_display": "sǒŋˈkraan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the old Thai New Year celebration, which falls between April 13 and April 15 each year."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17048",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงกา",
+    "alalc": "song kā",
+    "meaning": "doubt, suspicion; doubt, suspect",
+    "ipa": "sǒŋ kaa",
+    "pron_display": "sǒŋ kaa",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "doubt, suspicion"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "doubt, suspect"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15180",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงขลา",
+    "alalc": "songkhlā",
+    "meaning": "Songkhla, a township in S Thailand.",
+    "ipa": "sǒŋ-kʰlǎa",
+    "pron_display": "sǒŋˈkʰlǎa",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Songkhla, a township in S Thailand."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17049",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงคราม",
+    "alalc": "songkhrām",
+    "meaning": "war.",
+    "ipa": "sǒŋ-kʰraam",
+    "pron_display": "sǒŋˈkʰraam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "war."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17050",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1097201,6 +1100334,56 @@
     "status": "tentative"
   },
   {
+    "thai": "สงครามกู้ชาติ",
+    "alalc": "",
+    "meaning": "war of national liberation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "war of national liberation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25850",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามจำกัด",
+    "alalc": "",
+    "meaning": "limited war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "limited war"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25851",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "สงครามจิตวิทยา",
     "alalc": "",
     "meaning": "psychological warfare",
@@ -1097222,7 +1100405,141 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:3662",
-    "source_query": "จ.*",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามตัวแทน",
+    "alalc": "",
+    "meaning": "proxy war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "proxy war"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25853",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามที่ไม่ประกาศ",
+    "alalc": "",
+    "meaning": "undeclared war (เป็นทางการ); undeclared war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "undeclared war (เป็นทางการ)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "undeclared war"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25854",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามท้องถิ่น",
+    "alalc": "",
+    "meaning": "local war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "local war"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25856",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามนิวเคลียร์",
+    "alalc": "",
+    "meaning": "nuclear warfare",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nuclear warfare"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29120",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามนิวเคลียร์แบบจำกัด",
+    "alalc": "",
+    "meaning": "limited nuclear war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "limited nuclear war"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25857",
+    "source_query": "สง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1097303,7 +1100620,377 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:5623",
-    "source_query": "ปา.*",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามป้องกัน",
+    "alalc": "",
+    "meaning": "preventive war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "preventive war"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25859",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามศาสนา",
+    "alalc": "",
+    "meaning": "religious war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "religious war"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29122",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามเชื้อโรค",
+    "alalc": "",
+    "meaning": "bio-organic war, germ warfare; biological warfare",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bio-organic war, germ warfare; biological warfare"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32168",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามเบ็ดเสร็จ",
+    "alalc": "",
+    "meaning": "total war",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "total war"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25860",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามเย็น",
+    "alalc": "song khrām yen",
+    "meaning": "cold war",
+    "ipa": "sǒŋ kʰraam yen",
+    "pron_display": "sǒŋ kʰraam yen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cold war"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2803",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงครามเศรษฐกิจ",
+    "alalc": "",
+    "meaning": "economic warfare",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "economic warfare"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25862",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามโลก",
+    "alalc": "songkhrām lōk",
+    "meaning": "world war.",
+    "ipa": "sǒŋ-kʰraam lôok",
+    "pron_display": "sǒŋˈkʰraam ˈlôok",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "world war."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17051",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงครามโลกครั้งที่ 2",
+    "alalc": "",
+    "meaning": "World War II",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "World War II"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4147",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงครามโลกครั้งที่สอง",
+    "alalc": "songkhrām lōk khrang thī sǭng",
+    "meaning": "World War II.",
+    "ipa": "sǒŋ-kʰraam lôok kʰráŋ tʰîi sɔ̌ɔŋ",
+    "pron_display": "sǒŋˈkʰraam ˈlôok kʰráŋ tʰîi ˈsɔ̌ɔŋ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "World War II."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17052",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงครามโลกครั้งที่หนึ่ง",
+    "alalc": "",
+    "meaning": "World War I",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "World War I"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5625",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงฆ์",
+    "alalc": "song",
+    "meaning": "Buddhist priest, monk.",
+    "ipa": "sǒŋ",
+    "pron_display": "ˈsǒŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Buddhist priest, monk."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17053",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงบ",
+    "alalc": "sangop",
+    "meaning": "to become calm, quiet; to subside.",
+    "ipa": "sa-ŋòp",
+    "pron_display": "saˈŋòp",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to become calm, quiet; to subside."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17055",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงบจิตสงบใจ",
+    "alalc": "",
+    "meaning": "be calm-hearted, be peaceful inside; be emotionally tranquil; find peacefulness",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be calm-hearted, be peaceful inside; be emotionally tranquil; find peacefulness"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30273",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงบนิ่ง",
+    "alalc": "",
+    "meaning": "still, quietly; calmly",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "still, quietly; calmly"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:609",
+    "source_query": "สง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1097330,7 +1101017,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:6316",
-    "source_query": "คำ.*",
+    "source_query": "สง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1097391,7 +1101078,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15878",
-    "source_query": "ลง.*",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1097427,7 +1101114,212 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:17056",
-    "source_query": "ศ.*",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงบสงัด",
+    "alalc": "sangop sangat",
+    "meaning": "to be tranquil, quiet.",
+    "ipa": "sa-ŋòp sa-ŋàt",
+    "pron_display": "saˈŋòp saˈŋàt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be tranquil, quiet."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17057",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงบสติอารมณ์",
+    "alalc": "",
+    "meaning": "calm down, calm oneself; remain calm",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "calm down, calm oneself; remain calm"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15189",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงบสุข",
+    "alalc": "sangop suk",
+    "meaning": "to be peaceful, tranquil.",
+    "ipa": "sa-ŋòp sùk",
+    "pron_display": "saˈŋòp ˈsùk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be peaceful, tranquil."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17058",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงบอยู่",
+    "alalc": "",
+    "meaning": "dormant",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dormant"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25863",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงบอารมณ์",
+    "alalc": "sangop ārom",
+    "meaning": "to calm down, calm oneself.",
+    "ipa": "sa-ŋòp aa-rom",
+    "pron_display": "saˈŋòp aaˈrom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to calm down, calm oneself."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17060",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงบเงียบ",
+    "alalc": "",
+    "meaning": "calmly, tranquilly; peacefully; quietly; serenely; be calm, be tranquil; be peaceful; be quiet; be serene; calm, tranquil; peaceful; quiet; serene",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADV; V; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "calmly, tranquilly; peacefully; quietly; serenely"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be calm, be tranquil; be peaceful; be quiet; be serene"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "calm, tranquil; peaceful; quiet; serene"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15185",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงบเสงี่ยม",
+    "alalc": "sangop sangiam",
+    "meaning": "to be quiet, modest, polite, well-behaved.",
+    "ipa": "sa-ŋòp sa-ŋìam",
+    "pron_display": "saˈŋòp saˈŋìam",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be quiet, modest, polite, well-behaved."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17059",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1097454,7 +1101346,84 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:15186",
-    "source_query": "ใ.*",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สงบไป",
+    "alalc": "sangop pay",
+    "meaning": "to calm down, quiet down; (an unpleasant matter) to blow over.",
+    "ipa": "sa-ŋòp pay",
+    "pron_display": "saˈŋòp ˈpay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to calm down, quiet down; (an unpleasant matter) to blow over."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12153",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงวน",
+    "alalc": "sanguan",
+    "meaning": "to keep, save, reserve, preserve, conserve.",
+    "ipa": "sa-ŋǔan",
+    "pron_display": "saˈŋǔan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to keep, save, reserve, preserve, conserve."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17061",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงวนที่",
+    "alalc": "",
+    "meaning": "reserve, store; keep; set aside; save; retain; put by; hold",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "reserve, store; keep; set aside; save; retain; put by; hold"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10194",
+    "source_query": "สง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1097487,6 +1101456,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "สงวนพันธุ์",
+    "alalc": "",
+    "meaning": "conserve, preserve; reserve; save; sustain",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "conserve, preserve; reserve; save; sustain"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32171",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "สงวนลิขสิทธิ์",
     "alalc": "",
     "meaning": "reserve the copyright",
@@ -1097508,10 +1101504,154 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:15192",
-    "source_query": "ลิ.*",
+    "source_query": "สง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "สงสัย",
+    "alalc": "songsay",
+    "meaning": "to doubt, be doubtful.; to suspect, have a notion (that).",
+    "ipa": "sǒŋ-sǎy",
+    "pron_display": "sǒŋˈsǎy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to doubt, be doubtful."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to suspect, have a notion (that)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17062",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงสาร",
+    "alalc": "songsān",
+    "meaning": "to pity, take pity on, feel compassion for, sympathize with.",
+    "ipa": "sǒŋ-sǎan",
+    "pron_display": "sǒŋˈsǎan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pity, take pity on, feel compassion for, sympathize with."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17063",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงสารวัฏ",
+    "alalc": "song sā ra wat",
+    "meaning": "cycle of birth and death, cycle of life",
+    "ipa": "sǒŋ sǎa rá wát",
+    "pron_display": "sǒŋ sǎa rá wát",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cycle of birth and death, cycle of life"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15195",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สงัด",
+    "alalc": "sangat",
+    "meaning": "to be tranquil, peaceful, quiet.",
+    "ipa": "sa-ŋàt",
+    "pron_display": "saˈŋàt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be tranquil, peaceful, quiet."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17064",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สง่า",
+    "alalc": "sangā",
+    "meaning": "to be dignified, stately, majestic.",
+    "ipa": "sa-ŋàa",
+    "pron_display": "saˈŋàa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dignified, stately, majestic."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17065",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "สง่างาม",
@@ -1097539,6 +1101679,200 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "สง่าผ่าเผย",
+    "alalc": "sangā phā phœ̄y",
+    "meaning": "to be dignified, majestic, proud.; majestically, proudly.",
+    "ipa": "sa-ŋàa pʰàa pʰə̌əy",
+    "pron_display": "saˈŋàa pʰàa ˈpʰə̌əy",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dignified, majestic, proud."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "majestically, proudly."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:12311",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สจ.",
+    "alalc": "",
+    "meaning": "member of the Provincial Council",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "member of the Provincial Council"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1534",
+    "source_query": "สจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สจร.",
+    "alalc": "",
+    "meaning": "Office of the Commission for the Management of Land Traffic, OCMLT",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of the Commission for the Management of Land Traffic, OCMLT"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1535",
+    "source_query": "สจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สจ๊วต",
+    "alalc": "",
+    "meaning": "steward",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "steward"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15196",
+    "source_query": "สจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สช.",
+    "alalc": "",
+    "meaning": "Office of Private Education Commission",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Office of Private Education Commission"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1536",
+    "source_query": "สช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สชาติกมโนภาพ",
+    "alalc": "",
+    "meaning": "innate idea",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "innate idea"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25865",
+    "source_query": "สช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "สชาติกะ",
+    "alalc": "",
+    "meaning": "innate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "innate"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:25866",
+    "source_query": "สช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "สดชื่น",
@@ -1097804,6 +1102138,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:49",
     "source_query": "กง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สถานการณ์แวดล้อม",
+    "alalc": "sathānakān wǣt lǭm",
+    "meaning": "circumstance.",
+    "ipa": "sa-tʰǎa-ná-kaan wɛ̂ɛt lɔ́ɔm",
+    "pron_display": "saˈtʰǎa.náˈkaan wɛ̂ɛt ˈlɔ́ɔm",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "circumstance."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15985",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1100085,6 +1104446,31 @@
     "status": "tentative"
   },
   {
+    "thai": "สมัยหลังสงคราม",
+    "alalc": "samay lang songkhrām",
+    "meaning": "the postwar period.",
+    "ipa": "sa-mǎy lǎŋ sǒŋ-kʰraam",
+    "pron_display": "saˈmǎy ˈlǎŋ sǒŋˈkʰraam",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the postwar period."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17209",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สมัยเดียวกัน",
     "alalc": "samay diaw kan",
     "meaning": "contemporary; contemporaneous.",
@@ -1100526,6 +1104912,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:17229",
     "source_query": "ปร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สมุทรสงคราม",
+    "alalc": "samut songkhrām",
+    "meaning": "Samutsongkram, a township in Central Thailand.",
+    "ipa": "sa-mùt sǒŋ-kʰraam",
+    "pron_display": "saˈmùt sǒŋˈkʰraam",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Samutsongkram, a township in Central Thailand."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17230",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1105842,6 +1110255,60 @@
     "status": "tentative"
   },
   {
+    "thai": "สามล้อ",
+    "alalc": "sām lǭ",
+    "meaning": "samlor, pedicab.",
+    "ipa": "sǎam lɔ́ɔ",
+    "pron_display": "sǎam ˈlɔ́ɔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "samlor, pedicab."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15952",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "สามล้อเครื่อง",
+    "alalc": "",
+    "meaning": "motor-tricycle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "motor-tricycle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32239",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "สามวินาที",
     "alalc": "sām wināthī",
     "meaning": "three seconds.",
@@ -1108150,6 +1112617,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สิบล้าน",
+    "alalc": "sip lān",
+    "meaning": "ten million.",
+    "ipa": "sìp láan",
+    "pron_display": "sìp ˈláan",
+    "pos": "Nm",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "Nm"
+        ],
+        "definitions": [
+          "ten million."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16139",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สิริมงคล",
     "alalc": "",
     "meaning": "luck, fortune; fate",
@@ -1108639,6 +1113133,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "สิ่งแวดล้อม",
+    "alalc": "sing wǣt lǭm",
+    "meaning": "environment, surroundings.",
+    "ipa": "sìŋ wɛ̂ɛt lɔ́ɔm",
+    "pron_display": "ˈsìŋ wɛ̂ɛt ˈlɔ́ɔm",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "environment, surroundings."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15986",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "สิ้นคิด",
@@ -1111400,6 +1115921,33 @@
     "status": "tentative"
   },
   {
+    "thai": "สูงล้ำ",
+    "alalc": "sūng lam",
+    "meaning": "to be very high, exceedingly high.",
+    "ipa": "sǔuŋ lám",
+    "pron_display": "ˈsǔuŋ ˈlám",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be very high, exceedingly high."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16160",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "สูงศักดิ์",
     "alalc": "",
     "meaning": "noble, high rank; lofty",
@@ -1113331,6 +1117879,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15043",
     "source_query": "รด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หกล้ม",
+    "alalc": "hok lom",
+    "meaning": "to tumble over, fall over.",
+    "ipa": "hòk lóm",
+    "pron_display": "hòk ˈlóm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tumble over, fall over."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15918",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1118557,6 +1123132,33 @@
     "status": "tentative"
   },
   {
+    "thai": "หยอกล้อ",
+    "alalc": "yǭk lǭ",
+    "meaning": "to tease, kid, play with.",
+    "ipa": "yɔ̀ɔk lɔ́ɔ",
+    "pron_display": "yɔ̀ɔk ˈlɔ́ɔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tease, kid, play with."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15958",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หยอดน้ำมัน",
     "alalc": "yǭt nam man",
     "meaning": "to oil, lubricate.",
@@ -1122575,6 +1127177,42 @@
     "status": "tentative"
   },
   {
+    "thai": "หว่านล้อม",
+    "alalc": "wān lǭm",
+    "meaning": "persuade, cajole; coax; induce; influence; convince, persuade somebody to believe; sway; influence; induce",
+    "ipa": "wàan lɔ́ɔm",
+    "pron_display": "wàan lɔ́ɔm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "persuade, cajole; coax; induce; influence"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "convince, persuade somebody to believe; sway; influence; induce"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29387",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "หอกซัด",
     "alalc": "hǭk sat",
     "meaning": "short spear; javelin, short spear; throwing spear",
@@ -1123311,6 +1127949,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8279",
     "source_query": "พง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หักล้าง",
+    "alalc": "hak lāng",
+    "meaning": "confute, destroy; erase; obliterate; refute; disprove",
+    "ipa": "hàk láaŋ",
+    "pron_display": "hàk láaŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "confute, destroy; erase; obliterate; refute; disprove"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30349",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1124480,6 +1129145,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18584",
     "source_query": "ร่.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "หัวล้าน",
+    "alalc": "hua lān",
+    "meaning": "to be bald-headed.",
+    "ipa": "hǔa láan",
+    "pron_display": "hǔa ˈláan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be bald-headed."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16137",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1128022,6 +1132714,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ห้อมล้อม",
+    "alalc": "hǭm lǭm",
+    "meaning": "to surround, gather around.",
+    "ipa": "hɔ̂ɔm lɔ́ɔm",
+    "pron_display": "hɔ̂ɔm ˈlɔ́ɔm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to surround, gather around."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15987",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ห้อยท้าย",
     "alalc": "hǭy thāy",
     "meaning": "attach",
@@ -1128125,6 +1132844,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11317",
     "source_query": "ปร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ห้ามล้อ",
+    "alalc": "hām lǭ",
+    "meaning": "to brake, put on the brakes.; brake (of vehicle, machinery).",
+    "ipa": "hâam lɔ́ɔ",
+    "pron_display": "hâam ˈlɔ́ɔ",
+    "pos": "V; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to brake, put on the brakes."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "brake (of vehicle, machinery)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15953",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1134382,6 +1139137,33 @@
     "status": "tentative"
   },
   {
+    "thai": "อาคารสงเคราะห์",
+    "alalc": "",
+    "meaning": "housing, housing project",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "housing, housing project"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5916",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อาจจะ",
     "alalc": "āt ya",
     "meaning": "might, may.",
@@ -1134485,6 +1139267,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19452",
     "source_query": "กร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อาชญากรสงคราม",
+    "alalc": "ātyā kǭn songkhrām",
+    "meaning": "war criminal",
+    "ipa": "àat.yaa ˈkɔɔn sǒŋˈkʰraam",
+    "pron_display": "àat.yaa ˈkɔɔn sǒŋˈkʰraam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "war criminal"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3797",
+    "source_query": "สง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1138548,6 +1143357,33 @@
     "status": "tentative"
   },
   {
+    "thai": "อ่อนล้า",
+    "alalc": "",
+    "meaning": "be exhausted, be weary",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be exhausted, be weary"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6818",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อ่อนอกอ่อนใจ",
     "alalc": "ǭn ok ǭn yay",
     "meaning": "to become weary and discouraged; to get tired (of), lose patience (with).",
@@ -1138622,6 +1143458,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:5139",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อ่างล้างหน้า",
+    "alalc": "āng lāng nā",
+    "meaning": "washbasin, wash bowl, sink.",
+    "ipa": "àaŋ láaŋ nâa",
+    "pron_display": "ˌàaŋ láaŋ ˈnâa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "washbasin, wash bowl, sink."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16122",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1151133,6 +1155996,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เงียบสงบ",
+    "alalc": "",
+    "meaning": "peaceful, calm; quiet; silent",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "peaceful, calm; quiet; silent"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10876",
+    "source_query": "สง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "เงี่ยหูฟัง",
     "alalc": "ngia hū fang",
     "meaning": "to cock the ears, i.e. try hard to listen.",
@@ -1151569,6 +1156459,31 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:19132",
     "source_query": "ใ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เจรจาหว่านล้อม",
+    "alalc": "yērayā wān lǭm",
+    "meaning": "to talk someone into doing or accepting something in a roundabout way.",
+    "ipa": "jee-ra-jaa wàan lɔ́ɔm",
+    "pron_display": "jee.raˈjaa wàan ˈlɔ́ɔm",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to talk someone into doing or accepting something in a roundabout way."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4941",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1159335,6 +1164250,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "เต่าล้านปี",
+    "alalc": "",
+    "meaning": "dinosaur",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dinosaur"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1016",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "เต้นผาง",
@@ -1173030,6 +1177972,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เมื่อยล้า",
+    "alalc": "mưay lā",
+    "meaning": "to be tired, fatigued, stiff and sore.",
+    "ipa": "mʉ̂ay láa",
+    "pron_display": "mʉ̂ay ˈláa",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be tired, fatigued, stiff and sore."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14338",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เมื่อวันก่อน",
     "alalc": "mưa wan kǭn",
     "meaning": "the other day.",
@@ -1176943,6 +1181912,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15421",
     "source_query": "ร้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เลิกล้ม",
+    "alalc": "lœ̄k lom",
+    "meaning": "to give up, abandon, abolish, cancel.",
+    "ipa": "lə̂ək lóm",
+    "pron_display": "lə̂ək ˈlóm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to give up, abandon, abolish, cancel."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16414",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1181860,6 +1186856,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เสียงล้งเล้ง",
+    "alalc": "siang longleng",
+    "meaning": "loud noise (e.g. of quarreling, debating).",
+    "ipa": "sǐaŋ lóŋ-léŋ",
+    "pron_display": "ˈsǐaŋ lóŋˈléŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "loud noise (e.g. of quarreling, debating)."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16334",
+    "source_query": "ล้.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เสียงฮา",
     "alalc": "siang hā",
     "meaning": "laughter, the sound of laughter.",
@@ -1185675,6 +1190698,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เหลือล้น",
+    "alalc": "",
+    "meaning": "excessively, amply",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "excessively, amply"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30495",
+    "source_query": "ล้.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "เหลือล้นพ้นประมาณ",
     "alalc": "lưa lon phon pramān",
     "meaning": "extremely, exceedingly, immeasurably.",
@@ -1185894,6 +1190944,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "เหล็กสกัด",
+    "alalc": "",
+    "meaning": "cold chisel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cold chisel"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5847",
+    "source_query": "สก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "เหล็กใน",
@@ -1199526,6 +1204603,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:16528",
     "source_query": "ก็.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "แวดล้อม",
+    "alalc": "wǣt lǭm",
+    "meaning": "to surround.; to be surrounded.",
+    "ipa": "wɛ̂ɛt lɔ́ɔm",
+    "pron_display": "wɛ̂ɛt ˈlɔ́ɔm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to surround."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be surrounded."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15984",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1235265,6 +1240378,31 @@
     "status": "unresolved"
   },
   {
+    "thai": "ไม่สงบ",
+    "alalc": "may sangop",
+    "meaning": "to be unrestful.",
+    "ipa": "mây sa-ŋòp",
+    "pron_display": "mây saˈŋòp",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be unrestful."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:14486",
+    "source_query": "สง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ไม่สบายใจ",
     "alalc": "",
     "meaning": "be uneasy, be worried; feel ill at ease; feel uncomfortable (mentally)",
@@ -1236748,6 +1241886,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14546",
     "source_query": "รว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไม้ล้มลุก",
+    "alalc": "may lom luk",
+    "meaning": "annual, plant; seasonal plant; herbaceous plant; biennial plant",
+    "ipa": "máy lóm lúk",
+    "pron_display": "máy lóm lúk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "annual, plant; seasonal plant; herbaceous plant; biennial plant"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:21702",
+    "source_query": "ล้.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
