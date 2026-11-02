@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 46939,
+    "unique_lexical_records": 49532,
     "sample_size": 150,
     "counts": {
       "neither": 87,
@@ -200,6 +200,17 @@
       "pos": ""
     },
     {
+      "thai": "เหม็นสาบ",
+      "source_id": "TDP:17582",
+      "pronunciation": "měn sàap",
+      "meaning": "to smell, to stink (as of someone who needs a bath).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "men sāp",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
+    },
+    {
       "thai": "ทำขวัญ",
       "source_id": "TDP:2104",
       "pronunciation": "tʰam kʰwǎn",
@@ -220,6 +231,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "4",
       "pos": "N"
+    },
+    {
+      "thai": "สุดตัว",
+      "source_id": "LEX2.0:32269",
+      "pronunciation": "",
+      "meaning": "all money",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "ADV"
     },
     {
       "thai": "อีกประการหนึ่ง",
@@ -860,6 +882,17 @@
       "pos": ""
     },
     {
+      "thai": "โพธิสัตว์",
+      "source_id": "LEX2.0:12725",
+      "pronunciation": "pʰoo tʰí sàt",
+      "meaning": "Bodhisattva, Buddhist deity",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "phō thi sat",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "ใบขาย",
       "source_id": "RI:37272",
       "pronunciation": "",
@@ -946,6 +979,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "N"
+    },
+    {
+      "thai": "สารน้ำในลูกตา",
+      "source_id": "RI:27222",
+      "pronunciation": "",
+      "meaning": "aqueous humour*",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "ผ้าขาวบาง",
@@ -1410,6 +1454,17 @@
       "pos": "V"
     },
     {
+      "thai": "สัปโดกสัปดน",
+      "source_id": "TDP:17538",
+      "pronunciation": "sàp-pa-dòok sàp-pa-don",
+      "meaning": "to be obscene, indecent.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "sappadōk sappadon",
+      "comparison": "pronunciation_only",
+      "web_rank": "8",
+      "pos": "V"
+    },
+    {
       "thai": "ข้อตกลงไม่เรียกร้องต่อกัน",
       "source_id": "RI:9525",
       "pronunciation": "",
@@ -1465,6 +1520,17 @@
       "pos": ""
     },
     {
+      "thai": "สังฆาณัติ",
+      "source_id": "RI:26606",
+      "pronunciation": "sǎŋ kʰaa nát",
+      "meaning": "canon",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "sang khā nat",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "ภาวะพร่องโภชนาการ",
       "source_id": "RI:21012",
       "pronunciation": "",
@@ -1502,6 +1568,17 @@
       "source_id": "RI:15398",
       "pronunciation": "",
       "meaning": "mucocele",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "สัจนิยมแบบภาพถ่าย",
+      "source_id": "RI:26625",
+      "pronunciation": "",
+      "meaning": "photo realism",
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",
@@ -1584,83 +1661,6 @@
       "comparison": "neither",
       "web_rank": "7",
       "pos": ""
-    },
-    {
-      "thai": "วันหนึ่งวันใด",
-      "source_id": "LEX2.0:5510",
-      "pronunciation": "",
-      "meaning": "some day, one of these days",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "มาตราสองคณะ",
-      "source_id": "RI:21831",
-      "pronunciation": "",
-      "meaning": "dimeter",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "9",
-      "pos": ""
-    },
-    {
-      "thai": "คำคุณศัพท์",
-      "source_id": "TDP:3666",
-      "pronunciation": "kʰam kʰun-na-sàp",
-      "meaning": "adjective.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kham khunnasap",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "คบชู้",
-      "source_id": "LEX2.0:13409",
-      "pronunciation": "kʰóp cʰúu",
-      "meaning": "commit adultery with",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khop chū",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "หมิ่นประมาท",
-      "source_id": "TDP:11207",
-      "pronunciation": "mìn pra-màat",
-      "meaning": "to be contemptuous of.; to insult.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "min pramāt",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "V"
-    },
-    {
-      "thai": "ราชบุรุษ",
-      "source_id": "LEX2.0:21556",
-      "pronunciation": "râat cʰá bù rùt",
-      "meaning": "king's man",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "rāt cha bu rut",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "วิศวกรรมศาสตรบัณฑิต",
-      "source_id": "LEX2.0:5584",
-      "pronunciation": "",
-      "meaning": "Bachelor of Science in Engineering; Bachelor of Engineering, B.Eng.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": "N"
     }
   ]
 }
