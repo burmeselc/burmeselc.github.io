@@ -1,11 +1,11 @@
 {
   "summary": {
-    "unique_lexical_records": 45791,
+    "unique_lexical_records": 46939,
     "sample_size": 150,
     "counts": {
-      "neither": 85,
-      "pronunciation_only": 61,
-      "agreement": 3,
+      "neither": 87,
+      "pronunciation_only": 60,
+      "agreement": 2,
       "disagreement": 1
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
@@ -33,6 +33,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "สัมมาสติ",
+      "source_id": "LEX2.0:16481",
+      "pronunciation": "sǎm maa sà tì",
+      "meaning": "right mindfulness, right recollection",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "sam mā sa ti",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "ขยายวง",
@@ -321,6 +332,17 @@
       "pos": "V"
     },
     {
+      "thai": "ส.ต.อ.",
+      "source_id": "LEX2.0:1525",
+      "pronunciation": "",
+      "meaning": "police sergeant, Pol.Sgt.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": "N"
+    },
+    {
       "thai": "ดีซีทีเอส",
       "source_id": "RI:14070",
       "pronunciation": "",
@@ -336,6 +358,17 @@
       "source_id": "RI:9470",
       "pronunciation": "",
       "meaning": "claims sharing agreement",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "สภาพแข็งทื่อ",
+      "source_id": "RI:26191",
+      "pronunciation": "",
+      "meaning": "rigidity / rigor",
       "spelling_candidate": null,
       "pronunciation_candidate": null,
       "comparison": "neither",
@@ -486,6 +519,17 @@
       "pos": "N"
     },
     {
+      "thai": "เนติบัณฑิตสภา",
+      "source_id": "TDP:10175",
+      "pronunciation": "nee-tì-ban-dìt sa-pʰaa",
+      "meaning": "bar association.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "nētibandit saphā",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "จุลจิตรกรรม",
       "source_id": "RI:12909",
       "pronunciation": "",
@@ -552,6 +596,17 @@
       "pos": ""
     },
     {
+      "thai": "สถานที่ติดตั้ง",
+      "source_id": "RI:25899",
+      "pronunciation": "",
+      "meaning": "installation",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "ฟุดฟิด",
       "source_id": "LEX2.0:12902",
       "pronunciation": "",
@@ -605,6 +660,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "2",
       "pos": "N"
+    },
+    {
+      "thai": "สถานบริบาลทารก",
+      "source_id": "RI:25912",
+      "pronunciation": "",
+      "meaning": "nursery",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "ตัวประมวล(ผล)ก่อน",
@@ -1168,6 +1234,17 @@
       "pos": "V"
     },
     {
+      "thai": "สรุปคดี",
+      "source_id": "RI:26446",
+      "pronunciation": "",
+      "meaning": "summing up",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "ปูนแต่ง",
       "source_id": "RI:18509",
       "pronunciation": "",
@@ -1443,6 +1520,17 @@
       "pos": "V"
     },
     {
+      "thai": "สภาสามัญ",
+      "source_id": "TDP:17155",
+      "pronunciation": "sa-pʰaa sǎa-man",
+      "meaning": "the House of Commons.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "saphā sāman",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "คดีซึ่งอยู่ในระหว่างพิจารณา",
       "source_id": "RI:9876",
       "pronunciation": "",
@@ -1572,94 +1660,6 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ครั้งหนึ่งยังมี",
-      "source_id": "TDP:3153",
-      "pronunciation": "kʰráŋ nʉ̀ŋ yaŋ mii",
-      "meaning": "once there was ... (beginning a story).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khrang nưng yang mī",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "คัด",
-      "source_id": "TDP:3526",
-      "pronunciation": "kʰát",
-      "meaning": "to choose, select, pick out.; to be choice, select, picked.; to copy.; to excerpt.; to letter (as in penmanship).; to push apart, push away.",
-      "spelling_candidate": "khat",
-      "pronunciation_candidate": "khat",
-      "comparison": "agreement",
-      "web_rank": "2",
-      "pos": "V"
-    },
-    {
-      "thai": "ขนมทองม้วน",
-      "source_id": "LEX2.0:7511",
-      "pronunciation": "",
-      "meaning": "Thai sweetmeat made of flour, coconut milk and egg",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "พิฆเนศ",
-      "source_id": "LEX2.0:12317",
-      "pronunciation": "",
-      "meaning": "elephant - headed god, son of Siva",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "รู้สึกตัวว่า",
-      "source_id": "TDP:15606",
-      "pronunciation": "rúu sʉ̀k tua wâa",
-      "meaning": "to have come to feel that, realize that.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "rū sưk tua wā",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": ""
-    },
-    {
-      "thai": "รหัสอักขระต้องห้าม",
-      "source_id": "RI:22856",
-      "pronunciation": "",
-      "meaning": "forbidden character code",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ที่ลุ่ม",
-      "source_id": "TDP:9117",
-      "pronunciation": "tʰîi lûm",
-      "meaning": "lowland, basin.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thī lum",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "N"
-    },
-    {
-      "thai": "ผ้าแถบ",
-      "source_id": "TDP:8443",
-      "pronunciation": "pʰâa tʰɛ̀ɛp",
-      "meaning": "a strip of cloth used by women to wrap around the bosom (in place of all other upper garments).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "phā thǣp",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
       "pos": "N"
     }
   ]
