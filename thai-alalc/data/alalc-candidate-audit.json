@@ -1,11 +1,11 @@
 {
   "summary": {
-    "unique_lexical_records": 50615,
+    "unique_lexical_records": 52067,
     "sample_size": 150,
     "counts": {
-      "neither": 87,
+      "neither": 85,
       "pronunciation_only": 60,
-      "agreement": 2,
+      "agreement": 4,
       "disagreement": 1
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
@@ -519,6 +519,17 @@
       "pos": ""
     },
     {
+      "thai": "เคยหู",
+      "source_id": "TDP:3927",
+      "pronunciation": "kʰəəy hǔu",
+      "meaning": "to sound familiar, be familiar to the ear.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "khœ̄y hū",
+      "comparison": "pronunciation_only",
+      "web_rank": "7",
+      "pos": "V"
+    },
+    {
       "thai": "วิวาห์",
       "source_id": "TDP:16815",
       "pronunciation": "wí-waa",
@@ -813,6 +824,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "หลอดน้ำเหลืองอักเสบ",
+      "source_id": "RI:28886",
+      "pronunciation": "",
+      "meaning": "lymphangeitis; lymphangiitis; lymphangitis / angiitis",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
       "pos": ""
     },
     {
@@ -1190,6 +1212,17 @@
       "pos": "N"
     },
     {
+      "thai": "อกหัก",
+      "source_id": "TDP:18561",
+      "pronunciation": "òk hàk",
+      "meaning": "to be broken-hearted (over a love affair).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "ok hak",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "V"
+    },
+    {
       "thai": "ละครปฏิลักษณ์",
       "source_id": "RI:24356",
       "pronunciation": "",
@@ -1353,6 +1386,17 @@
       "comparison": "neither",
       "web_rank": "6",
       "pos": "N"
+    },
+    {
+      "thai": "หยิบ",
+      "source_id": "TDP:18293",
+      "pronunciation": "yìp",
+      "meaning": "to pick up, take (up) (in the hand).",
+      "spelling_candidate": "yip",
+      "pronunciation_candidate": "yip",
+      "comparison": "agreement",
+      "web_rank": "2",
+      "pos": "V"
     },
     {
       "thai": "คนขี้เมา",
@@ -1553,6 +1597,17 @@
       "pos": ""
     },
     {
+      "thai": "หาบ",
+      "source_id": "TDP:18628",
+      "pronunciation": "hàap",
+      "meaning": "to carry (something) at both ends of a pole placed on one's shoulder.",
+      "spelling_candidate": "hāp",
+      "pronunciation_candidate": "hāp",
+      "comparison": "agreement",
+      "web_rank": "4",
+      "pos": "V"
+    },
+    {
       "thai": "ความสัมพันธ์ในศูนย์",
       "source_id": "RI:11065",
       "pronunciation": "",
@@ -1606,61 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
-    },
-    {
-      "thai": "คดีซึ่งอยู่ในระหว่างพิจารณา",
-      "source_id": "RI:9876",
-      "pronunciation": "",
-      "meaning": "pendens lis; pending actions",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ประเทศเอกราช",
-      "source_id": "TDP:19826",
-      "pronunciation": "pra-tʰêet èek-ka râat",
-      "meaning": "independent country.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "prathēt ēkka rāt",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "คนอื่น",
-      "source_id": "LEX2.0:25179",
-      "pronunciation": "",
-      "meaning": "others, the others; other ones; other",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "2",
-      "pos": "PRON"
-    },
-    {
-      "thai": "หลังฉาก",
-      "source_id": "TDP:5229",
-      "pronunciation": "lǎŋ cʰàak",
-      "meaning": "backstage, behind the scenes.; the inside story or account, the real picture, the real underlying facts.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "lang chāk",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ยาแก้เกร็ง",
-      "source_id": "RI:22654",
-      "pronunciation": "",
-      "meaning": "antispasmodic",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
     }
   ]
 }
