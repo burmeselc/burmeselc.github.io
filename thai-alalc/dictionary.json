@@ -77693,6 +77693,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "การอนุรักษ์",
+    "alalc": "",
+    "meaning": "conservation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "conservation"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2300",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "การเข้าใจ",
     "alalc": "kān khaw yay",
     "meaning": "understanding, comprehension.",
@@ -114543,7 +114570,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2151",
-    "source_query": "ขอ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -114728,7 +114755,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2160",
-    "source_query": "ขอ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -114780,7 +114807,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2162",
-    "source_query": "ขอ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -153335,7 +153362,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19053",
-    "source_query": "ข้.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -160111,7 +160138,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:9014",
-    "source_query": "คด.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -307148,7 +307175,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:27005",
-    "source_query": "จ.*",
+    "source_query": "อต.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -483538,7 +483565,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8223",
-    "source_query": "ถ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -490623,7 +490650,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:18992",
-    "source_query": "ถ.*",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -601419,7 +601446,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:7116",
-    "source_query": "น่.*",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -772102,7 +772129,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19044",
-    "source_query": "นั.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -775218,7 +775245,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:12858",
-    "source_query": "พร.*",
+    "source_query": "อง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -775254,7 +775281,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4985",
-    "source_query": "พร.*",
+    "source_query": "อง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1107842,7 +1107869,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:6319",
-    "source_query": "สถ.*",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1130472,7 +1130499,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:32193",
-    "source_query": "สร.*",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1291279,6 +1291306,33 @@
     "status": "tentative"
   },
   {
+    "thai": "อ.จ.",
+    "alalc": "",
+    "meaning": "teacher; master; professor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "teacher; master; professor"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1568",
+    "source_query": "อจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อก",
     "alalc": "‘ok",
     "meaning": "chest, breast.; heart, feelings.",
@@ -1291884,6 +1291938,428 @@
     "status": "tentative"
   },
   {
+    "thai": "อคติ",
+    "alalc": "akhati",
+    "meaning": "prejudice.",
+    "ipa": "à-kʰa-tì",
+    "pron_display": "à.kʰaˈtìʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "prejudice."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19008",
+    "source_query": "อค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อคติของผู้สัมภาษณ์",
+    "alalc": "",
+    "meaning": "interviewer bias",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "interviewer bias"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29407",
+    "source_query": "อค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อคติในการรายงานอายุ",
+    "alalc": "",
+    "meaning": "age reporting bias",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "age reporting bias"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29408",
+    "source_query": "อค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อคส.",
+    "alalc": "",
+    "meaning": "Public Warehouse Organization, PWO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Public Warehouse Organization, PWO"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1575",
+    "source_query": "อค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อง",
+    "alalc": "‘ong",
+    "meaning": "title of royalty, equivalent to \"prince.\"",
+    "ipa": "oŋ",
+    "pron_display": "ˈoŋ",
+    "pos": "T",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "T"
+        ],
+        "definitions": [
+          "title of royalty, equivalent to \"prince.\""
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19009",
+    "source_query": "อง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "conflict",
+    "status": "tentative"
+  },
+  {
+    "thai": "องก์",
+    "alalc": "ong",
+    "meaning": "act",
+    "ipa": "oŋ",
+    "pron_display": "oŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "act"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29865",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องก์ตามหาพระเยซู",
+    "alalc": "",
+    "meaning": "quem quaeritis trope",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "quem quaeritis trope"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29410",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องคชาต",
+    "alalc": "ong kha chāt",
+    "meaning": "penis, genitals",
+    "ipa": "oŋ kʰá cʰâat",
+    "pron_display": "oŋ kʰá cʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "penis, genitals"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29888",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องคชาตอักเสบ",
+    "alalc": "",
+    "meaning": "penitis; phallitis; priapitis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "penitis; phallitis; priapitis"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29412",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องคภาวะตามกฎหมาย",
+    "alalc": "",
+    "meaning": "legal entity",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "legal entity"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29413",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องคมนตรี",
+    "alalc": "ongkha montrī",
+    "meaning": "Privy Councilor.",
+    "ipa": "oŋ-kʰa mon-trii",
+    "pron_display": "ˈoŋ.kʰa monˈtrii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Privy Councilor."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13829",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องครักษ์",
+    "alalc": "ongkharak",
+    "meaning": "aide-de-camp; body-guard.; boy friend.",
+    "ipa": "oŋ-kʰa-rák",
+    "pron_display": "oŋ.kʰaˈrák",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "aide-de-camp; body-guard."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "boy friend."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19014",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องคาพยพ",
+    "alalc": "",
+    "meaning": "organs of the body, body organs; all the parts of the body",
+    "ipa": "oŋ kʰâap pʰá yóp, oŋ kʰaa pʰá yóp",
+    "pron_display": "oŋ kʰâap pʰá yóp, oŋ kʰaa pʰá yóp",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "organs of the body, body organs; all the parts of the body"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29893",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องคุลี",
+    "alalc": "ong khu lī",
+    "meaning": "unit of length equal to the width of a knuckle, unit of measurement equal to the length of the phalanx of the middle finger; finger",
+    "ipa": "oŋ kʰú lii",
+    "pron_display": "oŋ kʰú lii",
+    "pos": "CLAS; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "CLAS"
+        ],
+        "definitions": [
+          "unit of length equal to the width of a knuckle, unit of measurement equal to the length of the phalanx of the middle finger"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "finger"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29894",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องค์",
+    "alalc": "ong",
+    "meaning": "body (especially of royalty, supernatural beings, etc.); classifier for royal personages, e.g. kings, queens, princes, princesses; for supernatural beings, e.g. fairies, angels; for sacred objects, e.g. Buddha images.",
+    "ipa": "oŋ",
+    "pron_display": "ˈoŋ",
+    "pos": "N; C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "body (especially of royalty, supernatural beings, etc.)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "classifier for royal personages, e.g. kings, queens, princes, princesses; for supernatural beings, e.g. fairies, angels; for sacred objects, e.g. Buddha images."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19010",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "องค์กฐิน",
     "alalc": "ong ka thin",
     "meaning": "set of new robes offered to Buddhist  monks",
@@ -1291905,7 +1292381,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29866",
-    "source_query": "กฐ.*",
+    "source_query": "อง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1291938,6 +1292414,114 @@
     "status": "tentative"
   },
   {
+    "thai": "องค์กรอิสระ",
+    "alalc": "",
+    "meaning": "independent entity",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "independent entity"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3640",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์กรเอกชน",
+    "alalc": "",
+    "meaning": "private organization, private institution",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "private organization, private institution"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4133",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การ",
+    "alalc": "ong kān",
+    "meaning": "organization.",
+    "ipa": "oŋ kaan",
+    "pron_display": "oŋ ˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "organization."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1262",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องค์การกติกาแปซิฟิก",
+    "alalc": "ong kān katikā pǣsifik",
+    "meaning": "the Pacific Treaty Organization.",
+    "ipa": "oŋ kaan kà-ti-kaa pɛɛ-sí-fìk",
+    "pron_display": "oŋ ˈkaan kà.tiˈkaa pɛɛ.síˈfìk",
+    "pos": "nN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "nN"
+        ],
+        "definitions": [
+          "the Pacific Treaty Organization."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19011",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "องค์การกติกาแอตแลนติกเหนือ",
     "alalc": "ong kān katikā ætlǣntik nưa",
     "meaning": "North Atlantic Treaty Organization.",
@@ -1291957,10 +1292541,674 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:78",
-    "source_query": "กต.*",
+    "source_query": "อง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "องค์การกลุ่มประเทศผู้ส่งน้ำมันออก",
+    "alalc": "",
+    "meaning": "Organization of Petroleum Exporting Countries",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Organization of Petroleum Exporting Countries"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29418",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การกึ่งราชการ",
+    "alalc": "",
+    "meaning": "quasi-public corporation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "quasi-public corporation"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29419",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การขนส่งมวลชนกรุงเทพฯ",
+    "alalc": "",
+    "meaning": "Bangkok Mass Transit Authority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Bangkok Mass Transit Authority"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29869",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การคลังสินค้า",
+    "alalc": "",
+    "meaning": "Public Warehouse Organization, PWO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Public Warehouse Organization, PWO"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29870",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การความร่วมมือทางเศรษฐกิจแห่งยุโรป",
+    "alalc": "",
+    "meaning": "Organization for European Economic Cooperation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Organization for European Economic Cooperation"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29420",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การคอมมิวนิสต์สากล",
+    "alalc": "",
+    "meaning": "Comintern",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Comintern"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29421",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การคอมมิวนิสต์สากลที่ ๑",
+    "alalc": "",
+    "meaning": "First International",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "First International"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29422",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การคอมมิวนิสต์สากลที่ ๒",
+    "alalc": "",
+    "meaning": "Second International",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Second International"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29423",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การคอมมิวนิสต์สากลที่ ๓",
+    "alalc": "",
+    "meaning": "Third International",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Third International"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29424",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การตลาด",
+    "alalc": "",
+    "meaning": "Marketing Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Marketing Organization"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29871",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การตลาดเพื่อเกษตรกร",
+    "alalc": "",
+    "meaning": "Marketing Organization for Farmers",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Marketing Organization for Farmers"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29872",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การทอผ้า",
+    "alalc": "",
+    "meaning": "The Textile Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Textile Organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2623",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การทางการเมือง",
+    "alalc": "",
+    "meaning": "polity",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "polity"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29425",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การทางศาสนา",
+    "alalc": "",
+    "meaning": "religious corporation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "religious corporation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29426",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การที่ต้องห้าม",
+    "alalc": "",
+    "meaning": "proscribed organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "proscribed organization"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29427",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การที่เป็นทางการ",
+    "alalc": "",
+    "meaning": "formal organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "formal organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29428",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การที่ไม่เป็นทางการ",
+    "alalc": "",
+    "meaning": "informal organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "informal organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29429",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การธุรกิจ",
+    "alalc": "",
+    "meaning": "business organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "business organization"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29874",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การนอกภาครัฐ",
+    "alalc": "",
+    "meaning": "Non-Governmental Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Non-Governmental Organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29430",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การนอกภาครัฐระหว่างประเทศ",
+    "alalc": "",
+    "meaning": "International Non-Govern-mental Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "International Non-Govern-mental Organization"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29431",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การบริหารส่วนจังหวัด",
+    "alalc": "",
+    "meaning": "Provincial Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Provincial Organization"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29432",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การฝ่ายตุลาการ",
+    "alalc": "",
+    "meaning": "judicature",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "judicature"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29433",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การพรรค",
+    "alalc": "",
+    "meaning": "party organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "party organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29434",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การรถไฟฟ้ามหานคร",
+    "alalc": "",
+    "meaning": "Metropolitan Rapid Transit Authority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Metropolitan Rapid Transit Authority"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29876",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การระหว่างประเทศ",
+    "alalc": "",
+    "meaning": "international organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "international organization"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29435",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การระหว่างประเทศว่าด้วยการมาตรฐาน",
+    "alalc": "",
+    "meaning": "International Organization for Standardization (ISO) (ไอโซ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "International Organization for Standardization (ISO) (ไอโซ)"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29436",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "องค์การรัฐบาล",
@@ -1291984,10 +1293232,87 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15352",
-    "source_query": "รั.*",
+    "source_query": "อง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "องค์การรัฐวิสาหกิจ",
+    "alalc": "",
+    "meaning": "authority",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "authority"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29437",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การรับส่งสินค้าและพัสดุภัณฑ์",
+    "alalc": "",
+    "meaning": "Express Transportation Organization of Thailand, ETO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Express Transportation Organization of Thailand, ETO"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29878",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การรูปนัย",
+    "alalc": "",
+    "meaning": "formal organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "formal organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29438",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "องค์การศึกษาวิทยาศาสตร์และวัฒนธรรมแห่งสหประชาชาติ",
@@ -1292017,6 +1293342,87 @@
     "status": "tentative"
   },
   {
+    "thai": "องค์การสงเคราะห์ทหารผ่านศึก",
+    "alalc": "",
+    "meaning": "War Veterans Organization of Thailand, WVO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "War Veterans Organization of Thailand, WVO"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29880",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การสวนยาง",
+    "alalc": "",
+    "meaning": "Rubber Estate Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Rubber Estate Organization"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29881",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การสวนสัตว์",
+    "alalc": "",
+    "meaning": "Zoological Park Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Zoological Park Organization"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29882",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "องค์การสหประชาชาติ",
     "alalc": "ong kān saha prachāchāt",
     "meaning": "the United Nations Organization (UN, UNO).",
@@ -1292042,6 +1293448,562 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "องค์การสะพานปลา",
+    "alalc": "",
+    "meaning": "Fish Marketing Organization, FMO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Fish Marketing Organization, FMO"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29883",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การสังคม",
+    "alalc": "",
+    "meaning": "social organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "social organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29440",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การสื่อสารมวลชนแห่งประเทศไทย",
+    "alalc": "",
+    "meaning": "Mass Communication Organization of Thailand, MCOT",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Mass Communication Organization of Thailand, MCOT"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29884",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การอนามัยแห่งโลก",
+    "alalc": "ong kān anāmay hæng lōk",
+    "meaning": "World Health Organization.",
+    "ipa": "oŋ kaan a-naa-may hɛ̀ŋ lôok",
+    "pron_display": "oŋ ˈkaan a.naaˈmay hɛ̀ŋ ˈlôok",
+    "pos": "nN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "nN"
+        ],
+        "definitions": [
+          "World Health Organization."
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16545",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องค์การอนามัยโลก",
+    "alalc": "",
+    "meaning": "World Health Organization, WHO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "World Health Organization, WHO"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4119",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การอรูปนัย",
+    "alalc": "",
+    "meaning": "informal organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "informal organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29441",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การอิสระกึ่งราชการ",
+    "alalc": "",
+    "meaning": "quasi non-governmental organization (quango) (ควอนโก)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "quasi non-governmental organization (quango) (ควอนโก)"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29442",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การอุตสาหกรรมป่าไม้",
+    "alalc": "",
+    "meaning": "Forest Industry Organization, FIO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Forest Industry Organization, FIO"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29885",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การอุตสาหกรรมห้องเย็น",
+    "alalc": "",
+    "meaning": "Government Cold Storage Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Government Cold Storage Organization"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29886",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การเทศบาล",
+    "alalc": "",
+    "meaning": "municipal corporation",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "municipal corporation"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29443",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การเภสัชกรรม",
+    "alalc": "",
+    "meaning": "Government Pharmaceutical Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Government Pharmaceutical Organization"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29875",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การเอกชน",
+    "alalc": "ong kān ēkka chon",
+    "meaning": "a private organization.",
+    "ipa": "oŋ kaan èek-ka cʰon",
+    "pron_display": "oŋ ˈkaan èek.ka ˈcʰon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a private organization."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19012",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องค์การแก้ว",
+    "alalc": "",
+    "meaning": "The Glass Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Glass Organization"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1576",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การแรงงาน",
+    "alalc": "",
+    "meaning": "labour organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "labour organization"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29444",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การแรงงานระหว่างประเทศ",
+    "alalc": "",
+    "meaning": "International Labour Organization, ILO",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "International Labour Organization, ILO"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29879",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การโทรศัพท์",
+    "alalc": "",
+    "meaning": "The Telephone Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Telephone Organization"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4130",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์การโทรศัพท์แห่งประเทศไทย",
+    "alalc": "",
+    "meaning": "Telephone Organization of Thailand",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Telephone Organization of Thailand"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29873",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์คณะ",
+    "alalc": "",
+    "meaning": "panel (ผู้พิพากษาหรือลูกขุน); panel",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "panel (ผู้พิพากษาหรือลูกขุน)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "panel"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29445",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์คณะผู้พิพากษา",
+    "alalc": "",
+    "meaning": "bar",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "bar"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29447",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์คุณ",
+    "alalc": "",
+    "meaning": "qualification",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "qualification"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29448",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์ปฐมกร",
+    "alalc": "",
+    "meaning": "First Mover",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "First Mover"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29449",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "องค์ประกอบ",
@@ -1292071,6 +1294033,133 @@
     "status": "tentative"
   },
   {
+    "thai": "องค์ประกอบทางชีวภาพ",
+    "alalc": "",
+    "meaning": "biotic component",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "biotic component"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29451",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์ประกอบทางเคมี",
+    "alalc": "",
+    "meaning": "principle",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "principle"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29452",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์ประกอบที่เป็นสาระสำคัญ",
+    "alalc": "",
+    "meaning": "essential element",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "essential element"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29453",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์ประกอบพื้นฐาน",
+    "alalc": "",
+    "meaning": "basic element",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "basic element"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29889",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์ประกอบแห่งความผิดอาญา",
+    "alalc": "",
+    "meaning": "elements of crime",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "elements of crime"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29454",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "องค์ประชุม",
     "alalc": "ong prachum",
     "meaning": "quorum.",
@@ -1292093,6 +1294182,562 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19013",
     "source_query": "ปร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องค์ฟอกหนัง",
+    "alalc": "",
+    "meaning": "The Tanning Organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Tanning Organization"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:2624",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์สัมบูรณ์",
+    "alalc": "",
+    "meaning": "the Absolute",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the Absolute"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29456",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์อธิปัตย์",
+    "alalc": "",
+    "meaning": "sovereign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sovereign"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29457",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องค์อำนาจอย่างเดียวกัน",
+    "alalc": "",
+    "meaning": "concurrent jurisdiction (ที่แต่ละฝ่ายต่างมี)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "concurrent jurisdiction (ที่แต่ละฝ่ายต่างมี)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29458",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องศา",
+    "alalc": "ongsā",
+    "meaning": "degree (of temperature; of angular measure).",
+    "ipa": "oŋ-sǎa",
+    "pron_display": "oŋˈsǎa",
+    "pos": "C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "degree (of temperature; of angular measure)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19015",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องศา-วันปรกติ",
+    "alalc": "",
+    "meaning": "normal degree-days",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "normal degree-days"
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29459",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องศาร้อนยวดยิ่ง",
+    "alalc": "",
+    "meaning": "degree of superheat",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "degree of superheat"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29460",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องศาลิ้นซ้อนเหลื่อม",
+    "alalc": "",
+    "meaning": "valve overlap",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "valve overlap"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29461",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องศาเซลเซียส",
+    "alalc": "",
+    "meaning": "degree Celsius",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "degree Celsius"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4142",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องศาเย็นยิ่ง",
+    "alalc": "",
+    "meaning": "degree of subcool",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "degree of subcool"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29462",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "องอาจ",
+    "alalc": "ong āt",
+    "meaning": "to be brave, valiant.; to be dignified, stately.",
+    "ipa": "oŋ àat",
+    "pron_display": "oŋ ˈàat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be brave, valiant."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dignified, stately."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19440",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "องุ่น",
+    "alalc": "angun",
+    "meaning": "grape (ลูก for individual fruits; พวง, ช่อ for clusters, bunches).",
+    "ipa": "a-ŋùn",
+    "pron_display": "aˈŋùn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "grape (ลูก for individual fruits; พวง, ช่อ for clusters, bunches)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19016",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อจ.",
+    "alalc": "",
+    "meaning": "teacher; master; professor",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "teacher; master; professor"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1577",
+    "source_query": "อจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อจญ.",
+    "alalc": "",
+    "meaning": "head-master; principal",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "head-master; principal"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1578",
+    "source_query": "อจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อจักรวาลนิยม",
+    "alalc": "",
+    "meaning": "acosmism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "acosmism"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29463",
+    "source_query": "อจ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อชก.",
+    "alalc": "",
+    "meaning": "Asian Games",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Asian Games"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1579",
+    "source_query": "อช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อชีวนะ",
+    "alalc": "",
+    "meaning": "abiotic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "abiotic"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29464",
+    "source_query": "อช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อณู",
+    "alalc": "anū",
+    "meaning": "molecule.; molecular.",
+    "ipa": "à-nuu",
+    "pron_display": "àˈnuu",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "molecule."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "molecular."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19017",
+    "source_query": "อณ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อด",
+    "alalc": "‘ot",
+    "meaning": "to starve, be starved.; to refrain from.; not get (to do something), lose out on, miss (getting something one expected).",
+    "ipa": "òt",
+    "pron_display": "ˈòt",
+    "pos": "V; AA",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to starve, be starved."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to refrain from."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "AA"
+        ],
+        "definitions": [
+          "not get (to do something), lose out on, miss (getting something one expected)."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19018",
+    "source_query": "อด.*",
+    "roman_method": "spelling",
+    "roman_evidence": "conflict",
+    "status": "tentative"
+  },
+  {
+    "thai": "อด (...) ไม่ได้",
+    "alalc": "otparen may dāy",
+    "meaning": "cannot refrain (from).",
+    "ipa": "òtparen mây dâay",
+    "pron_display": "ˈòt  (...)  mây ˈdâay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "cannot refrain (from)."
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19020",
+    "source_query": "อด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292146,7 +1294791,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:721",
-    "source_query": "ตา.*",
+    "source_query": "อด.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1292200,10 +1294845,64 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:8481",
-    "source_query": "ทน.*",
+    "source_query": "อด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "อดนม",
+    "alalc": "ot nom",
+    "meaning": "wean",
+    "ipa": "òt nom",
+    "pron_display": "òt nom",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "wean"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29899",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดนอน",
+    "alalc": "",
+    "meaning": "not get/have a wink of sleep, not sleep a wink",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "not get/have a wink of sleep, not sleep a wink"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6742",
+    "source_query": "อด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "อดมื้อกินมื้อ",
@@ -1292260,6 +1294959,60 @@
     "status": "tentative"
   },
   {
+    "thai": "อดหลับอดนอน",
+    "alalc": "",
+    "meaning": "not sleep at all, not have a wink of sleep; not sleep a wink",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "not sleep at all, not have a wink of sleep; not sleep a wink"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:722",
+    "source_query": "อด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อดอยาก",
+    "alalc": "ot yāk",
+    "meaning": "to be starved, to be famished.",
+    "ipa": "òt yàak",
+    "pron_display": "òt ˈyàak",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be starved, to be famished."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19021",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "อดอยากปากแห้ง",
     "alalc": "",
     "meaning": "starve, be famished; be short of food",
@@ -1292281,10 +1295034,136 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29902",
-    "source_query": "ปา.*",
+    "source_query": "อด.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "อดออม",
+    "alalc": "ot ǭm",
+    "meaning": "to be economical, frugal.",
+    "ipa": "òt ɔɔm",
+    "pron_display": "òt ˈɔɔm",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be economical, frugal."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19023",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดออมถนอมน้ำใจ",
+    "alalc": "ot ǭm thanǭm nam yay",
+    "meaning": "to deny oneself in order to defer to, humor, placate another.",
+    "ipa": "òt ɔɔm tʰa-nɔ̌ɔm nám jay",
+    "pron_display": "òt ˈɔɔm tʰaˈnɔ̌ɔm nám ˈjay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to deny oneself in order to defer to, humor, placate another."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19024",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดอาหาร",
+    "alalc": "ot āhān",
+    "meaning": "to starve, be starved.; to diet.; to fast.",
+    "ipa": "òt aa-hǎan",
+    "pron_display": "ˈòt aaˈhǎan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to starve, be starved."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to diet."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fast."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19025",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดิเรก",
+    "alalc": "adirēk",
+    "meaning": "hobby, amateur pursuit.",
+    "ipa": "à-di-rèek",
+    "pron_display": "à.diˈrèek*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hobby, amateur pursuit."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19026",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "อดิเรกลาภ",
@@ -1292309,6 +1295188,78 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29904",
     "source_query": "ลา.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดีต",
+    "alalc": "adīt",
+    "meaning": "the past.; former, past.",
+    "ipa": "a-dìit",
+    "pron_display": "aˈdìit",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the past."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "former, past."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19027",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดีตกาล",
+    "alalc": "adītta kān",
+    "meaning": "the past.; past tense.",
+    "ipa": "a-dìit-ta kaan",
+    "pron_display": "aˈdìit.ta ˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the past."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "past tense."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19028",
+    "source_query": "อด.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292341,6 +1295292,114 @@
     "status": "unresolved"
   },
   {
+    "thai": "อดีตภพ",
+    "alalc": "",
+    "meaning": "past life, previous life",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "past life, previous life"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6745",
+    "source_query": "อด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อดุล",
+    "alalc": "",
+    "meaning": "peerless, incomparable",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "peerless, incomparable"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29906",
+    "source_query": "อด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อดเหล้า",
+    "alalc": "ot law",
+    "meaning": "to abstain from liquor.",
+    "ipa": "òt lâw",
+    "pron_display": "òt ˈlâw",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to abstain from liquor."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18800",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดโซ",
+    "alalc": "",
+    "meaning": "be hungry",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be hungry"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10131",
+    "source_query": "อด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อดใจ",
     "alalc": "ot yay",
     "meaning": "to restrain oneself.",
@@ -1292362,7 +1295421,440 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19019",
-    "source_query": "ใ.*",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อดๆ อยากๆ",
+    "alalc": "",
+    "meaning": "starve, wither; waste away",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "starve, wither; waste away"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:6746",
+    "source_query": "อด.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อต.",
+    "alalc": "",
+    "meaning": "The Marketing Organization, MO; The Meteorological Department, MET.",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Marketing Organization, MO"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Meteorological Department, MET."
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1580",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อตก.",
+    "alalc": "",
+    "meaning": "The Marketing Organization for Farmers, MOF",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "The Marketing Organization for Farmers, MOF"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1581",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อติชน",
+    "alalc": "",
+    "meaning": "elite",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "elite"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29465",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อติชนนิยม",
+    "alalc": "",
+    "meaning": "elitism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "elitism"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29466",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อติชาต",
+    "alalc": "",
+    "meaning": "born superior to one's family",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "born superior to one's family"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29907",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อติพจน์",
+    "alalc": "",
+    "meaning": "hyperbole",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hyperbole"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29908",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อติมานะ",
+    "alalc": "a ti mā na",
+    "meaning": "egotism",
+    "ipa": "à tì maa ná",
+    "pron_display": "à tì maa ná",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "egotism"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29468",
+    "source_query": "อต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อติราช",
+    "alalc": "a ti rāt",
+    "meaning": "great king",
+    "ipa": "à tì râat",
+    "pron_display": "à tì râat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "great king"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29909",
+    "source_query": "อต.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อติสีตศาสตร์",
+    "alalc": "",
+    "meaning": "cryogenics",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "cryogenics"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29469",
+    "source_query": "อต.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธรรม",
+    "alalc": "atham",
+    "meaning": "to be evil, unrighteous.",
+    "ipa": "à-tʰam",
+    "pron_display": "àˈtʰam",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be evil, unrighteous."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19029",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิ",
+    "alalc": "athi",
+    "meaning": "to be great; extremely.",
+    "ipa": "à-tʰí",
+    "pron_display": "àˈtʰíʔ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be great; extremely."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19030",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิกมาส",
+    "alalc": "",
+    "meaning": "leap month, intercalated month; additional month; intercalary month in the lunar calendar",
+    "ipa": "à tʰí kà mâat, à tʰík kà mâat",
+    "pron_display": "à tʰí kà mâat, à tʰík kà mâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "leap month, intercalated month; additional month; intercalary month in the lunar calendar"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29910",
+    "source_query": "อธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธิกรณ์",
+    "alalc": "a thi kǭn",
+    "meaning": "charge, allegation; case; matter; affair; cause",
+    "ipa": "à tʰí kɔɔn",
+    "pron_display": "à tʰí kɔɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "charge, allegation; case; matter; affair; cause"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29911",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิกวาร",
+    "alalc": "",
+    "meaning": "leap day added in certain lunar years, intercalary day",
+    "ipa": "à tʰí kà waan, à tʰík kà waan",
+    "pron_display": "à tʰí kà waan, à tʰík kà waan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "leap day added in certain lunar years, intercalary day"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29912",
+    "source_query": "อธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธิการ",
+    "alalc": "athikān",
+    "meaning": "superior, Dean, person with authority.",
+    "ipa": "à-tʰí-kaan",
+    "pron_display": "à.tʰíˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "superior, Dean, person with authority."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19032",
+    "source_query": "อธ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292389,7 +1295881,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19034",
-    "source_query": "บ.*",
+    "source_query": "อธ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292417,6 +1295909,548 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19035",
     "source_query": "ว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิคม",
+    "alalc": "a thi khom",
+    "meaning": "achievement, success; attainment",
+    "ipa": "à tʰí kʰom",
+    "pron_display": "à tʰí kʰom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "achievement, success; attainment"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29914",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิบดี",
+    "alalc": "athibǫdī",
+    "meaning": "director-general, head of a department.",
+    "ipa": "à-tʰí-bɔ-dii",
+    "pron_display": "à.tʰí.bɔˈdii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "director-general, head of a department."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19036",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิบดีกรมบัญชีกลาง",
+    "alalc": "",
+    "meaning": "Comptroller General (ไทย)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Comptroller General (ไทย)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29472",
+    "source_query": "อธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธิบดีกรมอัยการ",
+    "alalc": "",
+    "meaning": "Attorney-General (อังกฤษ)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Attorney-General (อังกฤษ)"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29473",
+    "source_query": "อธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธิบดีผู้พิพากษา",
+    "alalc": "",
+    "meaning": "chief judge",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chief judge"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29915",
+    "source_query": "อธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธิบาย",
+    "alalc": "athibāy",
+    "meaning": "to explain.",
+    "ipa": "à-tʰí-baay",
+    "pron_display": "à.tʰíˈbaay",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to explain."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19037",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิป",
+    "alalc": "",
+    "meaning": "chief, boss; leader; master; lord; king, monarch; sovereign",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chief, boss; leader; master; lord"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "king, monarch; sovereign"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29916",
+    "source_query": "อธ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อธิปไตย",
+    "alalc": "athipatay",
+    "meaning": "sovereignty.",
+    "ipa": "à-tʰí-pa-tay",
+    "pron_display": "à.tʰí.paˈtay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sovereignty."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19038",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อธิษฐาน",
+    "alalc": "athitthān",
+    "meaning": "to pray; to make a wish.",
+    "ipa": "à-tʰít-tʰǎan",
+    "pron_display": "à.tʰítˈtʰǎan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pray; to make a wish."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19040",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนงค์",
+    "alalc": "anong",
+    "meaning": "a beautiful girl.",
+    "ipa": "a-noŋ",
+    "pron_display": "aˈnoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a beautiful girl."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19042",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนัตตา",
+    "alalc": "a nat tā",
+    "meaning": "soulless, non-self",
+    "ipa": "à nát taa",
+    "pron_display": "à nát taa",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "soulless, non-self"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29917",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนันตภาพ",
+    "alalc": "",
+    "meaning": "infinity",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "infinity"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29475",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนันตริยกรรม",
+    "alalc": "a nan ta ri ya kam",
+    "meaning": "sins with five heaviest punishment, five forms of Bad Karma which bring immediate results",
+    "ipa": "à nan tà rí yá kam",
+    "pron_display": "à nan tà rí yá kam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sins with five heaviest punishment, five forms of Bad Karma which bring immediate results"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29918",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนันต์",
+    "alalc": "anan",
+    "meaning": "endless, infinite, vast.; numerous, countless.; infinity.",
+    "ipa": "a-nan",
+    "pron_display": "aˈnan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "endless, infinite, vast."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "numerous, countless."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [],
+        "definitions": [
+          "infinity."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19043",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนันย์",
+    "alalc": "anan",
+    "meaning": "absolute.",
+    "ipa": "a-nan",
+    "pron_display": "aˈnan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "absolute."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19045",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนาคต",
+    "alalc": "anākhot",
+    "meaning": "the future.",
+    "ipa": "a-naa-kʰót",
+    "pron_display": "aˈnaaˈkʰót",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the future."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19046",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนาคตกาล",
+    "alalc": "anākhotta kān",
+    "meaning": "the future.; future tense.",
+    "ipa": "a-naa-kʰót-ta kaan",
+    "pron_display": "aˈnaa.kʰót.ta ˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the future."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "future tense."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19047",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนาคตนิยม",
+    "alalc": "",
+    "meaning": "futurism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "futurism"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29477",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนาจาร",
+    "alalc": "anāyān",
+    "meaning": "immorality, immoral conduct.; lewd, obscene, immoral.",
+    "ipa": "a-naa-jaan",
+    "pron_display": "aˈnaaˈjaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "immorality, immoral conduct."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lewd, obscene, immoral."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19048",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292452,7 +1296486,32 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19049",
-    "source_query": "น่.*",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนาถา",
+    "alalc": "anāthā",
+    "meaning": "poor, without means.",
+    "ipa": "a-naa-tʰǎa",
+    "pron_display": "a.naaˈtʰǎa",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "poor, without means."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19050",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292488,7 +1296547,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29921",
-    "source_query": "ใ.*",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1292515,7 +1296574,572 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19051",
-    "source_query": "ร้.*",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนาธิปไตย",
+    "alalc": "",
+    "meaning": "anarchy",
+    "ipa": "à naa tʰí pà tay, à naa tʰíp pà tay",
+    "pron_display": "à naa tʰí pà tay, à naa tʰíp pà tay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "anarchy"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29924",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนามัย",
+    "alalc": "anāmay",
+    "meaning": "health.; sanitation.",
+    "ipa": "a-naa-may",
+    "pron_display": "a.naaˈmay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "health."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sanitation."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19052",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนามัยครอบครัว",
+    "alalc": "",
+    "meaning": "family health",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "family health"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29480",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนามัยชุมชนและเวชบริการ",
+    "alalc": "",
+    "meaning": "community health and medical service",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "community health and medical service"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29481",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนามัยช่องปาก",
+    "alalc": "",
+    "meaning": "oral hygiene",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "oral hygiene"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29482",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนามัยฟัน",
+    "alalc": "",
+    "meaning": "dental hygiene",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dental hygiene"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29483",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนามัยสิ่งแวดล้อม",
+    "alalc": "",
+    "meaning": "environmental health",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "environmental health"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29484",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนารมณ์",
+    "alalc": "",
+    "meaning": "dissociation of sensibility",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dissociation of sensibility"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29485",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนารยธรรม",
+    "alalc": "a nā ra ya tham",
+    "meaning": "barbarism, savagery; baseness",
+    "ipa": "à naa rá yá tʰam",
+    "pron_display": "à naa rá yá tʰam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "barbarism, savagery; baseness"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30570",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนารยะ",
+    "alalc": "",
+    "meaning": "uncivilized, savage; barbarous; despicable; base",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "uncivilized, savage; barbarous; despicable; base"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31230",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนาล็อก",
+    "alalc": "",
+    "meaning": "analogue, analog",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "analogue, analog"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30853",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนิจกรรม",
+    "alalc": "a nit ya kam",
+    "meaning": "death, demise",
+    "ipa": "à nít jà kam",
+    "pron_display": "à nít jà kam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "death, demise"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4126",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนิจจัง",
+    "alalc": "anityang",
+    "meaning": "transitoriness, evanescence, uncertainty.; transient, transitory, ephemeral, evanescent, uncertain.",
+    "ipa": "à-nít-jaŋ",
+    "pron_display": "à.nítˈjaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "transitoriness, evanescence, uncertainty."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "transient, transitory, ephemeral, evanescent, uncertain."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19056",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนิจจา",
+    "alalc": "anityā",
+    "meaning": "Alas! (exclamation of sorrow, pity, concern).",
+    "ipa": "à-nít-jaa",
+    "pron_display": "à.nítˈjaa↓",
+    "pos": "E",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "E"
+        ],
+        "definitions": [
+          "Alas! (exclamation of sorrow, pity, concern)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19057",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนินทรีย์",
+    "alalc": "aninsī",
+    "meaning": "inorganic.",
+    "ipa": "à-nin-sii",
+    "pron_display": "àˈninˈsii",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "inorganic."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19058",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนินทรีย์เคมี",
+    "alalc": "aninsī khēmī",
+    "meaning": "inorganic chemistry.",
+    "ipa": "à-nin-sii kʰee-mii",
+    "pron_display": "àˈninˈsii kʰeeˈmii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "inorganic chemistry."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19059",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนิยัตินิยม",
+    "alalc": "",
+    "meaning": "indeterminism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "indeterminism"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29486",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนึ่ง",
+    "alalc": "anưng",
+    "meaning": "furthermore, for another thing.",
+    "ipa": "a-nʉ̀ŋ",
+    "pron_display": "aˈnʉ̀ŋ",
+    "pos": "Cj",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "Cj"
+        ],
+        "definitions": [
+          "furthermore, for another thing."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19060",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนึ่งเล่า",
+    "alalc": "anưng law",
+    "meaning": "and, also, beside.",
+    "ipa": "a-nʉ̀ŋ lâw",
+    "pron_display": "aˈnʉ̀ŋ ˈlâw",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "and, also, beside."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16403",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุ",
+    "alalc": "a nu",
+    "meaning": "small, minor; junior; sub",
+    "ipa": "à nú",
+    "pron_display": "à nú",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "small, minor; junior; sub"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29926",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุ-",
+    "alalc": "anu",
+    "meaning": "\"lesser, minor.\"",
+    "ipa": "à-nú",
+    "pron_display": "àˈnúʔ",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "\"lesser, minor.\""
+        ]
+      }
+    ],
+    "web_rank": "",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19061",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292546,6 +1297170,106 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "อนุกรมวิธาน",
+    "alalc": "",
+    "meaning": "taxonomy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "taxonomy"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29488",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุกรมวิธานพืช",
+    "alalc": "",
+    "meaning": "plant taxonomy; systematic botany",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "plant taxonomy; systematic botany"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29489",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุกรมวิธานระดับเซลล์",
+    "alalc": "",
+    "meaning": "cytotaxonomy",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "cytotaxonomy"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29490",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุกรมเวลา",
+    "alalc": "",
+    "meaning": "time series",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "time series"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29491",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "อนุกรรมการ",
@@ -1292629,6 +1297353,58 @@
     "status": "tentative"
   },
   {
+    "thai": "อนุกูล",
+    "alalc": "a nu kūn",
+    "meaning": "help, support; aid; back up; assist; succor; relieve; befriend",
+    "ipa": "à nú kuun",
+    "pron_display": "à nú kuun",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "help, support; aid; back up; assist; succor; relieve; befriend"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29929",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุจลน์",
+    "alalc": "",
+    "meaning": "wake",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "wake"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29492",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อนุชน",
     "alalc": "anu chon",
     "meaning": "young people, the youth (in a collective sense).",
@@ -1292677,7 +1297453,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15590",
-    "source_query": "ชน.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292710,6 +1297486,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "อนุญาต",
+    "alalc": "anuyāt",
+    "meaning": "to permit, allow.",
+    "ipa": "à-nú-yâat",
+    "pron_display": "à.núˈyâat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to permit, allow."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19071",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "อนุญาโตตุลาการ",
     "alalc": "a nu yā tō tu lā kān",
     "meaning": "arbitrator, umpire",
@@ -1292731,10 +1297534,60 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29931",
-    "source_query": "ญ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "อนุตรจิต",
+    "alalc": "",
+    "meaning": "nous (Gk.)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "nous (Gk.)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29495",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุตรนิยม",
+    "alalc": "",
+    "meaning": "suprematism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "suprematism"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29496",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "อนุทิน",
@@ -1292758,10 +1297611,89 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29933",
-    "source_query": "ทิ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "อนุบท",
+    "alalc": "a nu bot",
+    "meaning": "chorus, minor chorus",
+    "ipa": "à nú bòt",
+    "pron_display": "à nú bòt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chorus, minor chorus"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29934",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุบาล",
+    "alalc": "anubān",
+    "meaning": "to rear, take care of, look after.",
+    "ipa": "à-nú-baan",
+    "pron_display": "à.núˈbaan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to rear, take care of, look after."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19072",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุบาลศึกษา",
+    "alalc": "",
+    "meaning": "pre-school education",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pre-school education"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29499",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "อนุประโยค",
@@ -1292785,7 +1297717,32 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29935",
-    "source_query": "ปร.*",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุปรากฏการณ์นิยม",
+    "alalc": "",
+    "meaning": "epiphenomenalism",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "epiphenomenalism"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29500",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1292816,6 +1297773,31 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "อนุพันธ์โปรตีนไม่ละลาย",
+    "alalc": "",
+    "meaning": "protean",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "protean"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29501",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "อนุภรรยา",
@@ -1292872,6 +1297854,117 @@
     "status": "tentative"
   },
   {
+    "thai": "อนุภาวะ",
+    "alalc": "",
+    "meaning": "submodality",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "submodality"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29503",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุมัติ",
+    "alalc": "anumat",
+    "meaning": "approval.; permission.; to approve.; to grant permission.",
+    "ipa": "à-nú-mát",
+    "pron_display": "à.núˈmát",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "approval."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "permission."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to approve."
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to grant permission."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19073",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุมัติบัตร",
+    "alalc": "",
+    "meaning": "exequatur (รับรองเป็นกงสุล); exequatur (ให้ปฏิบัติหน้าที่กงสุล)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "exequatur (รับรองเป็นกงสุล)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "exequatur (ให้ปฏิบัติหน้าที่กงสุล)"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29505",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อนุมัติให้",
     "alalc": "anumat hay",
     "meaning": "to grant (someone) permission to (do something).",
@@ -1292891,7 +1297984,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18952",
-    "source_query": "ใ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292924,6 +1298017,198 @@
     "status": "tentative"
   },
   {
+    "thai": "อนุมาน",
+    "alalc": "anumān",
+    "meaning": "to guess, estimate, conclude.",
+    "ipa": "à-nu-maan",
+    "pron_display": "à.nuˈmaan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to guess, estimate, conclude."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19074",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุมูล",
+    "alalc": "a nu mūn",
+    "meaning": "radical",
+    "ipa": "à nú muun",
+    "pron_display": "à nú muun",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "radical"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29508",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุมูลกรด",
+    "alalc": "a nu mūn krot",
+    "meaning": "acid radical",
+    "ipa": "à nú muun kròt",
+    "pron_display": "à nú muun kròt",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "acid radical"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29938",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุมูลอิสระ",
+    "alalc": "",
+    "meaning": "free radical",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "free radical"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29509",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุรักษนิยม",
+    "alalc": "",
+    "meaning": "conservatism",
+    "ipa": "à nú rák sà ní yom, à nú rák ní yom",
+    "pron_display": "à nú rák sà ní yom, à nú rák ní yom",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "conservatism"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29510",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุรักษนิยม",
+    "alalc": "",
+    "meaning": "conservative; conservatism",
+    "ipa": "à nú rák sà ní yom, à nú rák ní yom",
+    "pron_display": "à nú rák sà ní yom, à nú rák ní yom",
+    "pos": "ADJ; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "conservative"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "conservatism"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29939",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุรักษ์",
+    "alalc": "",
+    "meaning": "conserve, preserve; protect; take care of; guard",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "conserve, preserve; protect; take care of; guard"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:5877",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อนุวงศ์",
     "alalc": "a nu wong",
     "meaning": "collateral branch of a family, line or lineage that follows; subfamily",
@@ -1292945,7 +1298230,95 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29940",
-    "source_query": "ว.*",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุศาสก",
+    "alalc": "a nu sā sok",
+    "meaning": "warden",
+    "ipa": "à nú sǎa sòk",
+    "pron_display": "à nú sǎa sòk",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "warden"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29511",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุศาสน์",
+    "alalc": "a nu sāt",
+    "meaning": "instruction, teaching; direction; precept; explanation",
+    "ipa": "à nú sàat",
+    "pron_display": "à nú sàat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "instruction, teaching; direction; precept"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "explanation"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29941",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุสรณ์",
+    "alalc": "anusǭn",
+    "meaning": "reminder, remembrance, memorial.",
+    "ipa": "à-nú-sɔ̌ɔn",
+    "pron_display": "à.núˈsɔ̌ɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "reminder, remembrance, memorial."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19077",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1292972,7 +1298345,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29942",
-    "source_query": "สถ.*",
+    "source_query": "อน.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1293005,6 +1298378,56 @@
     "status": "tentative"
   },
   {
+    "thai": "อนุสัญญากรุงเฮก",
+    "alalc": "",
+    "meaning": "Hague Conventions",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Hague Conventions"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29514",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุสาร",
+    "alalc": "",
+    "meaning": "booklet",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "booklet"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29515",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "อนุสาวรีย์ชัยสมรภูมิ",
     "alalc": "anusāwarī chay samǭraphūm",
     "meaning": "Monument of Victory (in Bangkok).",
@@ -1293026,7 +1298449,140 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19079",
-    "source_query": "ชั.*",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุเคราะห์",
+    "alalc": "anukhrǫ",
+    "meaning": "aid, assistance.; to help, assist.",
+    "ipa": "à-nú-kʰrɔ́",
+    "pron_display": "à.núˈkʰrɔ́ʔ",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "aid, assistance."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to help, assist."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19069",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุเฉท",
+    "alalc": "",
+    "meaning": "paragraph",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "paragraph"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:29517",
+    "source_query": "อน.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "อนุเถระ",
+    "alalc": "a nu thē ra",
+    "meaning": "junior monk, novice of inferior rank",
+    "ipa": "à nú tʰěe rá",
+    "pron_display": "à nú tʰěe rá",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "junior monk, novice of inferior rank"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29932",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อนุโลม",
+    "alalc": "anulōm",
+    "meaning": "to compromise, yield to expediency.; to follow suit.; in order, in sequence.",
+    "ipa": "à-nú-loom",
+    "pron_display": "à.núˈloom",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to compromise, yield to expediency."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to follow suit."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "in order, in sequence."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19076",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1298694,6 +1304250,42 @@
     "status": "tentative"
   },
   {
+    "thai": "อาจอง",
+    "alalc": "āt ong",
+    "meaning": "bravely, boldly; courageously; brave, bold; courageous",
+    "ipa": "àat oŋ",
+    "pron_display": "àat oŋ",
+    "pos": "ADV; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "bravely, boldly; courageously"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "brave, bold; courageous"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:15796",
+    "source_query": "อง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "อาจารย์ใหญ่",
     "alalc": "āyān yay",
     "meaning": "principal (of a school).",
@@ -1300682,6 +1306274,33 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "อำนาจอธิปไตย",
+    "alalc": "amnāt athipatay",
+    "meaning": "sovereign power.",
+    "ipa": "am-nâat à-tʰí-pa-tay",
+    "pron_display": "amˈnâat à.tʰí.paˈtay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "sovereign power."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19039",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "อำพราง",
@@ -1303188,6 +1308807,31 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:723",
     "source_query": "ปร.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "อเนกอนันต์",
+    "alalc": "anēk anan",
+    "meaning": "numerous, innumerable.",
+    "ipa": "a-nèek a-nan",
+    "pron_display": "a.nèek aˈnan",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "numerous, innumerable."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19083",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1313051,6 +1318695,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เคมีอนินทรีย์",
+    "alalc": "khē mī a nin sī",
+    "meaning": "inorganic chemistry",
+    "ipa": "kʰee mii à nin sii",
+    "pron_display": "kʰee mii à nin sii",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "inorganic chemistry"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10247",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เคยจมูก",
     "alalc": "khœ̄y yamūk",
     "meaning": "to smell familiar.",
@@ -1317426,6 +1323097,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เงินอนุเคราะห์",
+    "alalc": "ngœn anukhrǫ",
+    "meaning": "subsidy.",
+    "ipa": "ŋən à-nú-kʰrɔ́",
+    "pron_display": "ˈŋən à.núˈkʰrɔ́ʔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "subsidy."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19070",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เงินอุดหนุน",
     "alalc": "ngœn ut nun",
     "meaning": "subsidy.",
@@ -1320734,7 +1326432,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19054",
-    "source_query": "ที.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1320789,6 +1326487,33 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4981",
     "source_query": "หล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เจ้าอธิการ",
+    "alalc": "yaw a thi kān",
+    "meaning": "abbot, chief monk",
+    "ipa": "jâw à tʰí kaan",
+    "pron_display": "jâw à tʰí kaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "abbot, chief monk"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:19247",
+    "source_query": "อธ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1337370,6 +1343095,38 @@
     "status": "tentative"
   },
   {
+    "thai": "เป็นอนุสรณ์",
+    "alalc": "pen anusǭn",
+    "meaning": "to be a token (of), a reminder (of).; in memory (of), as a memorial (to).",
+    "ipa": "pen à-nú-sɔ̌ɔn",
+    "pron_display": "ˈpen à.núˈsɔ̌ɔn",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "to be a token (of), a reminder (of)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "in memory (of), as a memorial (to)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:11897",
+    "source_query": "อน.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เป็นอย่างดี",
     "alalc": "pen yāng dī",
     "meaning": "quite well.; willingly, gladly.",
@@ -1340913,6 +1346670,38 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:13441",
     "source_query": "ว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "เพื่อเป็นอนุสรณ์",
+    "alalc": "phưa pen anusǭn",
+    "meaning": "as a token (of), a reminder (of).; in memory (of), as a memorial (to).",
+    "ipa": "pʰʉ̂a pen à-nú-sɔ̌ɔn",
+    "pron_display": "ˈpʰʉ̂a pen à.núˈsɔ̌ɔn",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "as a token (of), a reminder (of)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "in memory (of), as a memorial (to)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13440",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1357937,6 +1363726,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เหลืออด",
+    "alalc": "lưa ot",
+    "meaning": "to be unable or scarcely able to control oneself (usually referring to anger); to lose control of one's temper.",
+    "ipa": "lʉ̌a òt",
+    "pron_display": "lʉ̌a ˈòt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be unable or scarcely able to control oneself (usually referring to anger); to lose control of one's temper."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:18819",
+    "source_query": "อด.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เหลือใจ",
     "alalc": "lưa yay",
     "meaning": "exceedingly, extremely, very.",
@@ -1358478,6 +1364294,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "เหล้าองุ่น",
+    "alalc": "",
+    "meaning": "wine",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wine"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:29745",
+    "source_query": "อง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "เหวี่ยงหมัด",
@@ -1372390,6 +1378233,33 @@
     "status": "tentative"
   },
   {
+    "thai": "แม่อธิการ",
+    "alalc": "mǣ athikān",
+    "meaning": "Mother Superior (among Catholic nuns).",
+    "ipa": "mɛ̂ɛ à-tʰí-kaan",
+    "pron_display": "ˈmɛ̂ɛ à.tʰíˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Mother Superior (among Catholic nuns)."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:19033",
+    "source_query": "อธ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "แม่ฮ่องสอน",
     "alalc": "mǣ hǫng sǭn",
     "meaning": "Maehongson, a township in Northern Thailand.",
@@ -1383008,6 +1388878,42 @@
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18361",
     "source_query": "หล.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โรงเรียนอนุบาล",
+    "alalc": "rōng rian anubān",
+    "meaning": "kindergarten.; nursery school.",
+    "ipa": "rooŋ rian à-nú-baan",
+    "pron_display": "rooŋ ˈrian à.núˈbaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kindergarten."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nursery school."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:15807",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1398397,7 +1404303,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:10953",
-    "source_query": "ใ.*",
+    "source_query": "อน.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"

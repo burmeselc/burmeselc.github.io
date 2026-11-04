@@ -1,10 +1,10 @@
 {
   "summary": {
-    "unique_lexical_records": 52217,
+    "unique_lexical_records": 52432,
     "sample_size": 150,
     "counts": {
-      "neither": 85,
-      "pronunciation_only": 60,
+      "neither": 86,
+      "pronunciation_only": 59,
       "agreement": 4,
       "disagreement": 1
     },
@@ -43,6 +43,17 @@
       "pronunciation_candidate": "sam mā sa ti",
       "comparison": "pronunciation_only",
       "web_rank": "5",
+      "pos": "N"
+    },
+    {
+      "thai": "องค์การรถไฟฟ้ามหานคร",
+      "source_id": "LEX2.0:29876",
+      "pronunciation": "",
+      "meaning": "Metropolitan Rapid Transit Authority",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
       "pos": "N"
     },
     {
@@ -1650,17 +1661,6 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
-    },
-    {
-      "thai": "วับวาบ",
-      "source_id": "TDP:16663",
-      "pronunciation": "wáp wâap",
-      "meaning": "to be flashing, dazzling, glaring.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "wap wāp",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
     }
   ]
 }
