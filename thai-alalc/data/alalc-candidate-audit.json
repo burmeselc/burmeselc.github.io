@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 52067,
+    "unique_lexical_records": 52217,
     "sample_size": 150,
     "counts": {
       "neither": 85,
@@ -66,6 +66,17 @@
       "comparison": "neither",
       "web_rank": "6",
       "pos": ""
+    },
+    {
+      "thai": "ห้องเรียน",
+      "source_id": "TDP:15678",
+      "pronunciation": "hɔ̂ŋ rian",
+      "meaning": "classroom.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "hǫng rian",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
     },
     {
       "thai": "บาทฮิโรอิก",
@@ -1650,17 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "V"
-    },
-    {
-      "thai": "สภาสามัญ",
-      "source_id": "TDP:17155",
-      "pronunciation": "sa-pʰaa sǎa-man",
-      "meaning": "the House of Commons.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "saphā sāman",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "N"
     }
   ]
 }
