@@ -1,0 +1,737 @@
+thai,meaning,ipa,pron_display,pos,senses_json,web_rank,lexical_level,source,source_id,query
+อักกะ,sun; Calotropis gigantea,àk kà,àk kà,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""sun""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""Calotropis gigantea""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15694,อั.*
+อักขระ,"character, letter; alphabet",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""character, letter; alphabet""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15698,อั.*
+อักขรานุกรม,alphabetic index,àk kʰà raa nú krom,àk kʰà raa nú krom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""alphabetic index""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15699,อั.*
+อักขรานุกรมภูมิศาสตร์,gazetteer,àk kʰà raa nú krom pʰuu mí sàat,àk kʰà raa nú krom pʰuu mí sàat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""gazetteer""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15700,อั.*
+อักษรย่อ,"abbreviation, acronym",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""abbreviation, acronym""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15677,อั.*
+อักษรไขว้,crossword puzzle,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""crossword puzzle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31669,อั.*
+อักษรเลข,numerical code; secretary of the provincial governor,"àk sɔ̌ɔ rá lêek, àk sɔ̌ɔn lêek","àk sɔ̌ɔ rá lêek, àk sɔ̌ɔn lêek",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""numerical code""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""secretary of the provincial governor""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15695,อั.*
+อักษรกล้ำ,diphthong,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""diphthong""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:5903,อั.*
+พิสูจน์อักษร,"proofread, proof",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""proofread, proof""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:12441,อั.*
+แปรอักษร,transform a cheering team into letters or pictures,prɛɛ àk sɔ̌ɔn,prɛɛ àk sɔ̌ɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""transform a cheering team into letters or pictures""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:13795,อั.*
+สัมผัสอักษร,"alliteration, initial rhyme; beginning rhyme; head rhyme",sǎm pʰàt àk sɔ̌ɔn,sǎm pʰàt àk sɔ̌ɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""alliteration, initial rhyme; beginning rhyme; head rhyme""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:16443,อั.*
+แป้นอักษร,"key, keyboard",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""key, keyboard""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:10019,อั.*
+กลอักษร,Thai jingle,"kon àk sɔ̌ɔn, kon lá àk sɔ̌ɔn","kon àk sɔ̌ɔn, kon lá àk sɔ̌ɔn",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Thai jingle""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:18085,อั.*
+อักษร,"character, letter (of the alphabet).",àk-sɔ̌ɔn,àkˈsɔ̌ɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""character, letter (of the alphabet).""]}]",2,entry,SEAlang Thai / TDP,TDP:19313,อั.*
+อักษรศาสตร์,liberal arts.,àk-sɔ̌ɔn sàat,àk.sɔ̌ɔn ˈsàat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""liberal arts.""]}]",3,subentry,SEAlang Thai / TDP,TDP:16962,อั.*
+อักษรสูง,a high consonant (the set ข ฉ ฐ ถ ผ ฝ ศ ษ ส ห).,àk-sɔ̌ɔn sǔuŋ,àk.sɔ̌ɔn ˈsǔuŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a high consonant (the set ข ฉ ฐ ถ ผ ฝ ศ ษ ส ห).""]}]",6,subentry,SEAlang Thai / TDP,TDP:17831,อั.*
+อักษรต่ำ,a low consonant (ค ฆ ช ซ ฌ ญ ฑ ฒ ณ ท ธ น พ ฟ ภ ม ย ร ล ว ฬ ฮ).,àk-sɔ̌ɔn tàm,àk.sɔ̌ɔn ˈtàm,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a low consonant (ค ฆ ช ซ ฌ ญ ฑ ฒ ณ ท ธ น พ ฟ ภ ม ย ร ล ว ฬ ฮ).""]}]",6,subentry,SEAlang Thai / TDP,TDP:7839,อั.*
+อักษรกลาง,a middle consonant (ก จ ฎ ฏ ด ต บ ป อ).,àk-sɔ̌ɔn klaaŋ,àk.sɔ̌ɔn ˈklaaŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a middle consonant (ก จ ฎ ฏ ด ต บ ป อ).""]}]",6,subentry,SEAlang Thai / TDP,TDP:724,อั.*
+อักษรเดี่ยว,"""unpaired consonants,"" i.e. any consonant symbol which has no counterpart in another tonal class; namely, any middle consonant (ก จ ฎ ฏ ด ต บ ป อ) or any low consonant which represents a sonorant (ง ญ ณ น ม ย ล ว). The sonorants are converted from low to high by means of a preposed ห, and rarely to middle by means of a preposed อ.; the whole set of unpaired consonants.",àk-sɔ̌ɔn dìaw,àk.sɔ̌ɔn ˈdìaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""\""unpaired consonants,\"" i.e. any consonant symbol which has no counterpart in another tonal class; namely, any middle consonant (ก จ ฎ ฏ ด ต บ ป อ) or any low consonant which represents a sonorant (ง ญ ณ น ม ย ล ว). The sonorants are converted from low to high by means of a preposed ห, and rarely to middle by means of a preposed อ.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""the whole set of unpaired consonants.""]}]",6,subentry,SEAlang Thai / TDP,TDP:6908,อั.*
+อักษรคู่,"""paired consonants,"" i.e. any paired group of consonant symbols consisting of one or more corresponding low consonants. There are seven such groups: ข paired with ค ฆ, จ ฉ with ช ฌ, ฐ ถ with ท ฒ ท ธ, ผ with ฟ, ศ ษ ส with ซ, and ห with ฮ.; the whole set of high consonants paired with the whole set of corresponding low consonants.; any of the paired consonants.",àk-sɔ̌ɔn kʰûu,àk.sɔ̌ɔn ˈkʰûu,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""\""paired consonants,\"" i.e. any paired group of consonant symbols consisting of one or more corresponding low consonants. There are seven such groups: ข paired with ค ฆ, จ ฉ with ช ฌ, ฐ ถ with ท ฒ ท ธ, ผ with ฟ, ศ ษ ส with ซ, and ห with ฮ.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""the whole set of high consonants paired with the whole set of corresponding low consonants.""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""any of the paired consonants.""]}]",6,subentry,SEAlang Thai / TDP,TDP:3900,อั.*
+ตัวอักษร,"character, letter (of the alphabet).",tua àk-sɔ̌ɔn,tua àkˈsɔ̌ɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""character, letter (of the alphabet).""]}]",2,subentry,SEAlang Thai / TDP,TDP:7607,อั.*
+ลายลักษณ์อักษร,"writing, script.",laay lák àk-sɔ̌ɔn,laay ˈlák àkˈsɔ̌ɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""writing, script.""]}]",3,subentry,SEAlang Thai / TDP,TDP:16064,อั.*
+เป็นลายลักษณ์อักษร,"in writing, in written form.",pen laay lák àk-sɔ̌ɔn,ˈpen laay ˈlák àkˈsɔ̌ɔn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in writing, in written form.""]}]",3,subentry,SEAlang Thai / TDP,TDP:11856,อั.*
+ทรงพระอักษร,to write.,soŋ pʰrá àk-sɔ̌ɔn,ˈsoŋ pʰráʔ àkˈsɔ̌ɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to write.""]}]",5,subentry,SEAlang Thai / TDP,TDP:8513,อั.*
+ผันอักษร,to recite the tonal paradigm of a consonant.,pʰǎn àk-sɔ̌ɔn,ˈpʰǎn àkˈsɔ̌ɔn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to recite the tonal paradigm of a consonant.""]}]",6,subentry,SEAlang Thai / TDP,TDP:12295,อั.*
+อักษะ,"axis, core; Axis, Axis powers",àk sà,àk sà,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""axis, core""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""Axis, Axis powers""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15687,อั.*
+อักอ่วน,"be awkward, be embarrassed; awkward, embarrassed",àk ùan,àk ùan,V; ADJ,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be awkward, be embarrassed""]}, {""n"": ""2"", ""pos"": [""ADJ""], ""definitions"": [""awkward, embarrassed""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15678,อั.*
+ตับอักเสบ,hepatitis,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""hepatitis""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:17460,อั.*
+หลอดลมอักเสบ,bronchitis,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bronchitis""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:29315,อั.*
+อักเสบ,"(a wound) to be infected, inflamed.; inflammation.",àk-sèep,àkˈsèep,V; N,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""(a wound) to be infected, inflamed.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""inflammation.""]}]",3,entry,SEAlang Thai / TDP,TDP:19315,อั.*
+โรคหลอดลมอักเสบ,bronchitis.,rôok lɔ̀ɔt lom àk-sèep,ˈrôok lɔ̀ɔt ˈlom àkˈsèep,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bronchitis.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15781,อั.*
+อักโข,"plentiful, many; considerable",àk kʰǒo,àk kʰǒo,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""plentiful, many; considerable""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15701,อั.*
+อักโขภิณี,"high numeral, a number followed by 42 ciphers",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""high numeral, a number followed by 42 ciphers""]}]",7,entry,SEAlang Thai / LEX2.0,LEX2.0:15702,อั.*
+อัคคี,fire.,ak-kʰii,akˈkʰii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fire.""]}]",3,entry,SEAlang Thai / TDP,TDP:19316,อั.*
+อัคนิ,fire,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fire""]}]",1,entry,SEAlang Thai / LEX2.0,LEX2.0:15681,อั.*
+อัคนี,fire,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""fire""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15683,อั.*
+อัคร-,"""preeminent.""",àk-kʰa,àk.kʰa ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""\""preeminent.\""""]}]",,entry,SEAlang Thai / TDP,TDP:19318,อั.*
+อังกฤษ,"England.; English, Englishman, English person.",aŋ-krìt,aŋˈkrìt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""England.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""English, Englishman, English person.""]}]",2,entry,SEAlang Thai / TDP,TDP:19321,อั.*
+ภาษาอังกฤษ,"English, the English language.",pʰaa-sǎa aŋ-krìt,pʰaaˈsǎa aŋˈkrìt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""English, the English language.""]}]",2,subentry,SEAlang Thai / TDP,TDP:13760,อั.*
+ประเทศอังกฤษ,England.,pra-tʰêet aŋ-krìt,praˈtʰêet aŋˈkrìt,pN,"[{""n"": ""1"", ""pos"": [""pN""], ""definitions"": [""England.""]}]",3,subentry,SEAlang Thai / TDP,TDP:19323,อั.*
+จักรภพอังกฤษ,the British Empire.,jàk-kra-pʰóp aŋ-krìt,jàk.kraˈpʰóp aŋˈkrìt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the British Empire.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19322,อั.*
+เครือจักรภพอังกฤษ,the British Commonwealth.,kʰrʉa jàk-kra-pʰóp aŋ-krìt,ˈkʰrʉa jàk.kraˈpʰóp aŋˈkrìt,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the British Commonwealth.""]}]",5,subentry,SEAlang Thai / TDP,TDP:3955,อั.*
+ฝรั่งอังกฤษ,Englishman.,fa-ràŋ aŋ-krìt,faˈràŋ aŋˈkrìt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Englishman.""]}]",6,subentry,SEAlang Thai / TDP,TDP:12589,อั.*
+ส่งภาษาอังกฤษ,to be talking in English.,sòŋ pʰaa-sǎa aŋ-krìt,ˈsòŋ pʰaaˈsǎa aŋˈkrìt,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be talking in English.""]}]",6,subentry,SEAlang Thai / TDP,TDP:17044,อั.*
+ชนชาวอังกฤษ,"the British people, Englishmen.",cʰon cʰaaw aŋ-krìt,cʰon ˈcʰaaw aŋˈkrìt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the British people, Englishmen.""]}]",7,subentry,SEAlang Thai / TDP,TDP:5397,อั.*
+อังกะลุง,"ankalung, angklung; Javanese musical instrument made from bamboo tubes",aŋ kà luŋ,aŋ kà luŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ankalung, angklung; Javanese musical instrument made from bamboo tubes""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15722,อั.*
+อังคณา,woman,aŋ kʰá naa,aŋ kʰá naa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""woman""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15723,อั.*
+อังคาธ,"to swallow, to eat.",aŋ-kʰâat,aŋˈkʰâat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""to swallow, to eat.""]}]",7,entry,SEAlang Thai / TDP,TDP:19324,อั.*
+ดาวอังคาร,Mars,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Mars""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:27503,อั.*
+อังคาร,Tuesday.; Mars (the planet).,aŋ-kʰaan,aŋˈkʰaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Tuesday.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""Mars (the planet).""]}]",2,entry,SEAlang Thai / TDP,TDP:19326,อั.*
+วันอังคาร,Tuesday.,wan aŋ-kʰaan,ˈwan aŋˈkʰaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Tuesday.""]}]",2,subentry,SEAlang Thai / TDP,TDP:19328,อั.*
+ดาวพระอังคาร,Mars (the planet).,daaw pʰrá aŋ-kʰaan,ˈdaaw pʰráʔ aŋˈkʰaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Mars (the planet).""]}]",6,subentry,SEAlang Thai / TDP,TDP:19327,อั.*
+โลกพระอังคาร,Mars (the planet).,lôok pʰrá aŋ-kʰaan,ˈlôok pʰráʔ aŋˈkʰaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Mars (the planet).""]}]",6,subentry,SEAlang Thai / TDP,TDP:12865,อั.*
+อังคาร,ashes.,aŋ-kʰaan,aŋˈkʰaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ashes.""]}]",2,entry,SEAlang Thai / TDP,TDP:19329,อั.*
+อังฆาต,"touch, hit; strike",aŋ kʰâat,aŋ kʰâat,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""touch, hit; strike""]}]",7,entry,SEAlang Thai / LEX2.0,LEX2.0:15725,อั.*
+อังสตรอม,angstrom,aŋ sà trɔɔm,aŋ sà trɔɔm,CLAS,"[{""n"": ""1"", ""pos"": [""CLAS""], ""definitions"": [""angstrom""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:15728,อั.*
+อังสา,shoulder,aŋ sǎa,aŋ sǎa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""shoulder""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15721,อั.*
+อัจกลับ,brass lantern,àt jà klàp,àt jà klàp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""brass lantern""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15730,อั.*
+อัจฉรา,angel; finger; flash,àt cʰà raa,àt cʰà raa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""angel""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""finger""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""flash""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15731,อั.*
+อัจฉริยะ,"unusual or marvelous quality, extraordinary ability.",àt-cʰa-ri-yá,ˈàt.cʰa.riˈyá,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""unusual or marvelous quality, extraordinary ability.""]}]",3,entry,SEAlang Thai / TDP,TDP:19332,อั.*
+อัจนา,"worship, sacrifice",àt jà naa,àt jà naa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""worship, sacrifice""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15734,อั.*
+อัชฌา,"compromise; courteousness, politeness",àt cʰaa,àt cʰaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""compromise""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""courteousness, politeness""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15712,อั.*
+อัชฌาจาร,"impoliteness, misbehavior; discourtesy; transgression (of custom)",àt cʰaa jaan,àt cʰaa jaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""impoliteness, misbehavior; discourtesy; transgression (of custom)""]}]",7,entry,SEAlang Thai / LEX2.0,LEX2.0:15727,อั.*
+อัชฌาศัย,character; disposition; wish; taste.,àt-cʰaa-sǎy,àtˈcʰaaˈsǎy,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""character; disposition; wish; taste.""]}]",5,entry,SEAlang Thai / TDP,TDP:19334,อั.*
+อัชฌาสัย,"politeness, courteousness; character",àt cʰaa sǎy,àt cʰaa sǎy,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""politeness, courteousness""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""character""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15708,อั.*
+อัญขยม,I,an kʰà yǒm,an kʰà yǒm,PRON,"[{""n"": ""1"", ""pos"": [""PRON""], ""definitions"": [""I""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:15709,อั.*
+อัญชนะ,eye drops,an cʰá ná,an cʰá ná,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""eye drops""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15710,อั.*
+อัญชลี,saluting by raising one's hand press together on the face or chest,an cʰá lii,an cʰá lii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""saluting by raising one's hand press together on the face or chest""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15711,อั.*
+อัญประกาศ,"quotation marks, double quotation marks; quotation mark",an yá prà kàat,an yá prà kàat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""quotation marks, double quotation marks""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""quotation mark""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:1780,อั.*
+อัญมณี,"jewel, gem",an yá má nii,an yá má nii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""jewel, gem""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:6822,อั.*
+อัญรูป,"allotropy, allotropism",an yá rûup,an yá rûup,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""allotropy, allotropism""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15713,อั.*
+อัญเชิญ,"to invite respectfully or reverently, invoke the presence of (e.g. the sacred virtues, a divine being, a Buddha image when moving it from one place to another).",an-cʰəən,anˈcʰəən,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to invite respectfully or reverently, invoke the presence of (e.g. the sacred virtues, a divine being, a Buddha image when moving it from one place to another).""]}]",3,entry,SEAlang Thai / TDP,TDP:19335,อั.*
+อัฏฐ,eight,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""eight""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15706,อั.*
+อัฐ,money.; an obsolete unit of Thai currency.,àt,ˈàt,N; C,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""money.""]}, {""n"": ""2"", ""pos"": [""C""], ""definitions"": [""an obsolete unit of Thai currency.""]}]",4,entry,SEAlang Thai / TDP,TDP:19336,อั.*
+อัฐิ,bones.; bone fragments (after cremation).,àt-tʰì,àtˈtʰìʔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bones.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""bone fragments (after cremation).""]}]",4,entry,SEAlang Thai / TDP,TDP:19337,อั.*
+อัฒจันทร์,"semicircular grandstand, amphitheater.",àt-tʰa-jan,àt.tʰaˈjan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""semicircular grandstand, amphitheater.""]}]",5,entry,SEAlang Thai / TDP,TDP:19338,อั.*
+อัฒภาค,semicolon,àt tʰá pʰâak,àt tʰá pʰâak,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""semicolon""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:1776,อั.*
+ลูกอัณฑะ,testicle,lûuk anˈtʰáʔ,lûuk anˈtʰáʔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""testicle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:14661,อั.*
+อัณฑะ,testicles.,an-tʰá,anˈtʰáʔ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""testicles.""]}]",4,entry,SEAlang Thai / TDP,TDP:19339,อั.*
+อัดฉีด,"lubricate, grease; encourage someone by giving them money",àt cʰìit,àt cʰìit,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""lubricate, grease""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""encourage someone by giving them money""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:15718,อั.*
+อัดเสียง,record; dub,àt sǐaŋ,àt sǐaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""record""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""dub""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:15878,อั.*
+อัดอั้น,smoulder,,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""smoulder""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15879,อั.*
+อัดลม,"carbonated water, soda water; soda",àt lom,àt lom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""carbonated water, soda water; soda""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:16106,อั.*
+อัดสำเนา,"photocopy, run off; Xerox",àt sǎm naw,àt sǎm naw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""photocopy, run off; Xerox""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15877,อั.*
+อัดแอ,"be crowded, be congested; be packed; be overcrowded; crowded, congested; packed; overcrowded",àt ɛɛ,àt ɛɛ,V; ADJ,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be crowded, be congested; be packed; be overcrowded""]}, {""n"": ""2"", ""pos"": [""ADJ""], ""definitions"": [""crowded, congested; packed; overcrowded""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:16214,อั.*
+หน้าอัด,"full face, front (face)",nâa àt,nâa àt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""full face, front (face)""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:29275,อั.*
+อัด,"to press, condense, compress.",àt,ˈàt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to press, condense, compress.""]}]",2,entry,SEAlang Thai / TDP,TDP:19340,อั.*
+อัดใจ,to be depressed (in spirit).; to hold one's breath.,àt jay,àt ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be depressed (in spirit).""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to hold one's breath.""]}]",4,subentry,SEAlang Thai / TDP,TDP:5140,อั.*
+อัดรูป,to print (a photograph).,àt rûup,àt ˈrûup,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to print (a photograph).""]}]",4,subentry,SEAlang Thai / TDP,TDP:15626,อั.*
+อัดอั้นตันใจ,"to feel stifled, utterly helpless, depressed and heavy at heart.",àt ân tan jay,àt ˈân tan ˈjay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to feel stifled, utterly helpless, depressed and heavy at heart.""]}]",5,subentry,SEAlang Thai / TDP,TDP:7571,อั.*
+อัดบุหรี่,"to inhale (when smoking), draw deeply on one's cigarette (cigar, etc.).",àt bu-rìi,ˈàt buˈrìi,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to inhale (when smoking), draw deeply on one's cigarette (cigar, etc.).""]}]",6,subentry,SEAlang Thai / TDP,TDP:19342,อั.*
+อัดแผ่นเสียง,to make a recording (on a phonograph record).,àt pʰɛ̀n sǐaŋ,ˈàt pʰɛ̀n ˈsǐaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to make a recording (on a phonograph record).""]}]",6,subentry,SEAlang Thai / TDP,TDP:19344,อั.*
+อัดแบตเตอรี่,to charge a battery.,àt bɛ́t-təə-rîi,ˈàt bɛ́t.təəˈrîi,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to charge a battery.""]}]",7,subentry,SEAlang Thai / TDP,TDP:19343,อั.*
+อัดโรเนียว,to duplicate by means of a Roneo machine (a process similar to mimeographing).,àt roo-niaw,ˈàt rooˈniaw,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to duplicate by means of a Roneo machine (a process similar to mimeographing).""]}]",7,subentry,SEAlang Thai / TDP,TDP:19345,อั.*
+อึดอัด,"to feel constricted, hemmed in, stifled, oppressed, harassed, uncomfortable, ill at ease (e.g. because of tight clothes, overeating, insufficient space, a stuffy room, an awkward situation, trying circumstances, etc.).",ʉ̀t àt,ʉ̀t ˈàt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to feel constricted, hemmed in, stifled, oppressed, harassed, uncomfortable, ill at ease (e.g. because of tight clothes, overeating, insufficient space, a stuffy room, an awkward situation, trying circumstances, etc.).""]}]",3,subentry,SEAlang Thai / TDP,TDP:19346,อั.*
+แออัด,"to be congested, crowded (with people).",ɛɛ àt,ɛɛ ˈàt,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be congested, crowded (with people).""]}]",3,subentry,SEAlang Thai / TDP,TDP:19347,อั.*
+ไม้อัด,"plywood, laminated wood.",máy àt,máy ˈàt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""plywood, laminated wood.""]}]",4,subentry,SEAlang Thai / TDP,TDP:14555,อั.*
+น้ำอัดลม,carbonated drink.,náam àt lom,ˈnáam àt ˈlom,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""carbonated drink.""]}]",3,subentry,SEAlang Thai / TDP,TDP:19341,อั.*
+แออัดยัดเยียด,"to be overcrowded, congested.",ɛɛ àt yát yîat,ɛɛ ˈàt yát ˈyîat,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be overcrowded, congested.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19937,อั.*
+เครื่องอัดสำเนา,"duplicator, mimeograph.",kʰrʉ̂aŋ àt sǎm-naw,kʰrʉ̂aŋ ˈàt sǎmˈnaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""duplicator, mimeograph.""]}]",6,subentry,SEAlang Thai / TDP,TDP:17666,อั.*
+กระดาษอัดสำเนา,"carbon paper.; (mimeograph) stencil paper, any duplicating paper.",kra-dàat àt sǎm-naw,kraˈdàat ˈàt sǎmˈnaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""carbon paper.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""(mimeograph) stencil paper, any duplicating paper.""]}]",6,subentry,SEAlang Thai / TDP,TDP:276,อั.*
+อัดแจ,name of Javanese city,àt jɛɛ,àt jɛɛ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""name of Javanese city""]}]",7,entry,SEAlang Thai / LEX2.0,LEX2.0:15717,อั.*
+อัตคัด,"to be poor, needy, in want.",àt-ta-kʰát,àt.taˈkʰát,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be poor, needy, in want.""]}]",5,entry,SEAlang Thai / TDP,TDP:19348,อั.*
+อัตคัดขัดสน,"to be hard up (for), short (of), hard-pressed for.",àt-ta-kʰát kʰàt sǒn,àt.taˈkʰát kʰàt ˈsǒn,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be hard up (for), short (of), hard-pressed for.""]}]",6,subentry,SEAlang Thai / TDP,TDP:19349,อั.*
+อัตชีวประวัติ,autobiography,àt tà cʰii wá prà wàt,àt tà cʰii wá prà wàt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""autobiography""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:4193,อั.*
+อัตตภาพ,the self.,àt-ta-pʰâap,àt.taˈpʰâap,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the self.""]}]",5,entry,SEAlang Thai / TDP,TDP:19350,อั.*
+อัตตา,ego,àt taa,àt taa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ego""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:2469,อั.*
+อัตตาธิปไตย,autocracy,"àt taa tʰí pà tay, àt taa tʰíp pà tay","àt taa tʰí pà tay, àt taa tʰíp pà tay",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""autocracy""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15881,อั.*
+อัตถ์,"content, gist; usefulness, advantage; need, want",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""content, gist""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""usefulness, advantage""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""need, want""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15883,อั.*
+อัตนัย,subjective,àt tà nay,àt tà nay,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""subjective""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15875,อั.*
+อัตภาพ,"(personal) circumstances, individuality; condition in life; personal condition",àt tà pʰâap,àt tà pʰâap,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""(personal) circumstances, individuality; condition in life; personal condition""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:5908,อั.*
+อัตราดอกเบี้ย,interest rate,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""interest rate""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:2612,อั.*
+เต็มอัตรา,"at full speed; (job) be full, be at full quota/strength",tem àt traa,tem àt traa,ADV; V,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""at full speed""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""(job) be full, be at full quota/strength""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:18519,อั.*
+อัตรา,rate.,àt-traa,àtˈtraa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rate.""]}]",2,entry,SEAlang Thai / TDP,TDP:19352,อั.*
+อัตราแลกเปลี่ยน,rate of exchange.,àt-traa lɛ̂ɛk plìan,àtˈtraa lɛ̂ɛk ˈplìan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rate of exchange.""]}]",3,subentry,SEAlang Thai / TDP,TDP:16505,อั.*
+อัตราส่วน,ratio.,àt-traa sùan,àtˈtraa ˈsùan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ratio.""]}]",3,subentry,SEAlang Thai / TDP,TDP:19356,อั.*
+อัตราภาษี,tax rate.,àt-traa pʰaa-sǐi,àtˈtraa pʰaaˈsǐi,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tax rate.""]}]",4,subentry,SEAlang Thai / TDP,TDP:13772,อั.*
+อัตราเร่ง,acceleration.,àt-traa rêŋ,àtˈtraa ˈrêŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""acceleration.""]}]",4,subentry,SEAlang Thai / TDP,TDP:19354,อั.*
+อัตราเร็ว,"velocity, speed.",àt-traa rew,àtˈtraa ˈrew,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""velocity, speed.""]}]",4,subentry,SEAlang Thai / TDP,TDP:15644,อั.*
+อัตราค่าบำรุง,subscription rate.; membership fees.,àt-traa kʰâa bam-ruŋ,àtˈtraa kʰâa bamˈruŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""subscription rate.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""membership fees.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19353,อั.*
+อัตราแลกเงิน,rate of (monetary) exchange.,àt-traa lɛ̂ɛk ŋən,àtˈtraa lɛ̂ɛk ˈŋən,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rate of (monetary) exchange.""]}]",6,subentry,SEAlang Thai / TDP,TDP:19355,อั.*
+อัตวินิบาตกรรม,"suicide, self-annihilation",àt tà wí ní bàat tà kam,àt tà wí ní bàat tà kam,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""suicide, self-annihilation""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15867,อั.*
+อัตวิสัย,subject,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""subject""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:3639,อั.*
+โดยอัตโนมัติ,automatically,,,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""automatically""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:17387,อั.*
+อัตโนมัติ,automatic.,àt-ta-noo-mát,àt.taˈnooˈmát,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""automatic.""]}]",2,entry,SEAlang Thai / TDP,TDP:19351,อั.*
+อัธยาศัย,disposition; character.,àt-tʰa-yaa-sǎy,àt.tʰa.yaaˈsǎy,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""disposition; character.""]}]",3,entry,SEAlang Thai / TDP,TDP:19357,อั.*
+อันนั้น,"that (one), that (thing)",,,PRON,"[{""n"": ""1"", ""pos"": [""PRON""], ""definitions"": [""that (one), that (thing)""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:30060,อั.*
+อัน,"a classifier: (a) for small, long objects, e.g. toothpicks (ไม้จิ้มฟัน), erasers (ยางลบ), hooks (ขอ), even when alternate classifiers exist; (b) loosely, as a substitute for most classifiers (e.g. ไม้กวาด, กรอบ, หิ้ง).; which, that.; ""thing, piece""; ""extent, degree.""",an,ˈan,C; rP; N,"[{""n"": ""1"", ""pos"": [""C""], ""definitions"": [""a classifier: (a) for small, long objects, e.g. toothpicks (ไม้จิ้มฟัน), erasers (ยางลบ), hooks (ขอ), even when alternate classifiers exist; (b) loosely, as a substitute for most classifiers (e.g. ไม้กวาด, กรอบ, หิ้ง).""]}, {""n"": ""2"", ""pos"": [""rP""], ""definitions"": [""which, that.""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""\""thing, piece\""; \""extent, degree.\""""]}]",2,entry,SEAlang Thai / TDP,TDP:19358,อั.*
+อันนี้,"this, this one.",an níi,an ˈníi,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""this, this one.""]}]",2,subentry,SEAlang Thai / TDP,TDP:19363,อั.*
+อันที่จริง,"in fact, as a matter of fact (followed by a clause).",an tʰîi jiŋ,ˌan tʰîi ˈjiŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in fact, as a matter of fact (followed by a clause).""]}]",3,subentry,SEAlang Thai / TDP,TDP:4493,อั.*
+อันควร,"suitable, proper.",an kʰuan,an ˈkʰuan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""suitable, proper.""]}]",3,subentry,SEAlang Thai / TDP,TDP:3372,อั.*
+อันใด,"what, whatever.",an day,an ˈday,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""what, whatever.""]}]",3,subentry,SEAlang Thai / TDP,TDP:19362,อั.*
+อันหนึ่งอันเดียว,"one and the same.; single, united, inseparable.",an nʉ̀ŋ an diaw,an ˈnʉ̀ŋ an ˈdiaw,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""one and the same.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""single, united, inseparable.""]}]",5,subentry,SEAlang Thai / TDP,TDP:6894,อั.*
+เป็นชิ้นเป็นอัน,"to be a good, solid piece; to be well organized, well constructed.",pen cʰín pen an,pen ˈcʰín pen ˈan,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be a good, solid piece; to be well organized, well constructed.""]}]",4,subentry,SEAlang Thai / TDP,TDP:5875,อั.*
+เป็นอันขาด,"definitely, decidedly, positively, absolutely, under no circumstances.",pen an kʰàat,pen an ˈkʰàat,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""definitely, decidedly, positively, absolutely, under no circumstances.""]}]",3,subentry,SEAlang Thai / TDP,TDP:2409,อั.*
+เป็นอันมาก,"very much; in great quantity, in great numbers.",pen an mâak,pen an ˈmâak,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""very much; in great quantity, in great numbers.""]}]",3,subentry,SEAlang Thai / TDP,TDP:11907,อั.*
+เป็นอันว่า,"this means that (such and such a result ensues, such and such a course of action is settled on).",pen an wâa,pen an ˈwâa,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""this means that (such and such a result ensues, such and such a course of action is settled on).""]}]",4,subentry,SEAlang Thai / TDP,TDP:11908,อั.*
+ในอันที่จะ,in order to.,nay an tʰîi ja,nay ˈan tʰîi ja ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in order to.""]}]",4,subentry,SEAlang Thai / TDP,TDP:9151,อั.*
+เป็นอันหนึ่งอันเดียวกัน,"to be one and the same; to be united, unified; to concur.",pen an nʉ̀ŋ an diaw kan,pen an ˈnʉ̀ŋ an ˈdiaw ˈkan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be one and the same; to be united, unified; to concur.""]}]",4,subentry,SEAlang Thai / TDP,TDP:11909,อั.*
+ในเวลาอันรวดเร็ว,"a very short time, very quickly (of time).",nay wee-laa an rûat rew,nay weeˈlaa an ˈrûat ˈrew,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a very short time, very quickly (of time).""]}]",4,subentry,SEAlang Thai / TDP,TDP:10288,อั.*
+มีอันจะกิน,"to be well-off, well-to-do.",mii an ja kin,mii ˌan ja ˈkin,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be well-off, well-to-do.""]}]",5,subentry,SEAlang Thai / TDP,TDP:1440,อั.*
+เป็นอันดี,"well, very well.; willingly, gladly.",pen an dii,pen an ˈdii,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""well, very well.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""willingly, gladly.""]}]",5,subentry,SEAlang Thai / TDP,TDP:6714,อั.*
+ผู้มีอันจะกิน,"a well-off, well-to-do person.",pʰûu mii an ja kin,ˈpʰûu mii ˈan ja ˈkin,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a well-off, well-to-do person.""]}]",5,subentry,SEAlang Thai / TDP,TDP:12453,อั.*
+ไม่เป็นอันกินอันนอน,"to be restless, unable to eat or sleep.",mây pen an kin an nɔɔn,mây pen an ˈkin an ˈnɔɔn,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be restless, unable to eat or sleep.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19360,อั.*
+ในอันจะ,"in order to, in order that.",nay an ja,nay ˈan ja ⁐,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in order to, in order that.""]}]",5,subentry,SEAlang Thai / TDP,TDP:10291,อั.*
+เป็นอันตกลง,it's agreed!,pen an tòk loŋ,pen ˈan tòk ˈloŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""it's agreed!""]}]",6,subentry,SEAlang Thai / TDP,TDP:11906,อั.*
+วาจาอันเขื่องโข,"big talk, boasting.",waa-jaa an kʰʉ̀aŋ kʰǒo,ˈwaaˈjaa an ˈkʰʉ̀aŋ ˈkʰǒo,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""big talk, boasting.""]}]",1,subentry,SEAlang Thai / TDP,TDP:2874,อั.*
+ตกอันดับ,"be degraded, decline",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be degraded, decline""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:27707,อั.*
+อันดับ,"series, order.; rank, grade, level.",an-dàp,anˈdàp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""series, order.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""rank, grade, level.""]}]",2,entry,SEAlang Thai / TDP,TDP:19366,อั.*
+อันตรธาน,"to disappear, vanish.",an-ta-ra-tʰaan,ˈan.ta.raˈtʰaan,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to disappear, vanish.""]}]",5,entry,SEAlang Thai / TDP,TDP:19368,อั.*
+อันตรภาค,interval,an tà rá pʰâak,an tà rá pʰâak,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""interval""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:15863,อั.*
+พ้นอันตราย,"be out of danger, escape danger",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be out of danger, escape danger""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:7931,อั.*
+ขั้นอันตราย,dangerous stage,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""dangerous stage""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:8844,อั.*
+อันตราย,"danger, harm, injury.; to be dangerous, harmful.",an-ta-raay,an.taˈraay,N; V,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""danger, harm, injury.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be dangerous, harmful.""]}]",2,entry,SEAlang Thai / TDP,TDP:19369,อั.*
+เป็นอันตราย,"to be harmful, dangerous.; to be harmed, endangered.",pen an-ta-raay,pen an.taˈraay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""to be harmful, dangerous.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""to be harmed, endangered.""]}]",3,subentry,SEAlang Thai / TDP,TDP:11910,อั.*
+ได้รับอันตราย,"to be harmed, endangered.",dâay ráp an-ta-raay,dâay ˈráp an.taˈraay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be harmed, endangered.""]}]",4,subentry,SEAlang Thai / TDP,TDP:19370,อั.*
+ทำอันตราย,"to hurt, harm, injure; to do harm.",tʰam an-ta-raay,ˈtʰam an.taˈraay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to hurt, harm, injure; to do harm.""]}]",4,subentry,SEAlang Thai / TDP,TDP:9019,อั.*
+ภัยอันตราย,"danger, peril.",pʰay an-ta-raay,ˈpʰay an.taˈraay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""danger, peril.""]}]",4,subentry,SEAlang Thai / TDP,TDP:13707,อั.*
+เสี่ยงอันตราย,to risk danger.,sìaŋ an-ta-raay,ˈsìaŋ an.taˈraay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to risk danger.""]}]",4,subentry,SEAlang Thai / TDP,TDP:17939,อั.*
+น่าอันตราย,"to be dangerous, harmful.",nâa an-ta-raay,ˈnâa an.taˈraay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be dangerous, harmful.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19371,อั.*
+ฝ่าอันตราย,"to brave danger, take risks.",fàa an-ta-raay,ˈfàa an.taˈraay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to brave danger, take risks.""]}]",5,subentry,SEAlang Thai / TDP,TDP:12637,อั.*
+อันทุ,"chain, shackle; fetter; manacles",an tʰú,an tʰú,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""chain, shackle; fetter; manacles""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15865,อั.*
+อับจน,"be at the end of one's rope, be driven to the wall; have no way out; be in an impasse; be impoverished, be poor; be at a loss (for a solution), be at one's wit's end; have no way out; be at an impasse; be in a helpless situation; be in dire straits; be hard up",àp jon,àp jon,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be at the end of one's rope, be driven to the wall; have no way out; be in an impasse""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""be impoverished, be poor""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""be at a loss (for a solution), be at one's wit's end; have no way out; be at an impasse; be in a helpless situation; be in dire straits; be hard up""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:5911,อั.*
+อับโชค,"be unlucky, be luckless; be unfortunate",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be unlucky, be luckless; be unfortunate""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15873,อั.*
+อับ,"a small flat container with a cover, e.g. for face powder, medicated wax, dentifrice in cake or powdered form, etc.; classifier for specific kinds of such containers.; classifier for things in such containers; hence, container of (powder, etc.).",àp,ˈàp,N; C,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a small flat container with a cover, e.g. for face powder, medicated wax, dentifrice in cake or powdered form, etc.""]}, {""n"": ""2"", ""pos"": [""C""], ""definitions"": [""classifier for specific kinds of such containers.""]}, {""n"": ""3"", ""pos"": [""C""], ""definitions"": [""classifier for things in such containers; hence, container of (powder, etc.).""]}]",2,entry,SEAlang Thai / TDP,TDP:19372,อั.*
+อับ,"to be stuffy, unventilated.",àp,ˈàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be stuffy, unventilated.""]}]",2,entry,SEAlang Thai / TDP,TDP:19376,อั.*
+ที่อับ,"a stuffy place, an unventilated place.",tʰîi àp,tʰîi ˈàp,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a stuffy place, an unventilated place.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19377,อั.*
+เหม็นอับ,"to smell stuffy, musty, have a stuffy odor (as a closed room).",měn àp,měn ˈàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to smell stuffy, musty, have a stuffy odor (as a closed room).""]}]",5,subentry,SEAlang Thai / TDP,TDP:18734,อั.*
+อับ,in the following entries.,àp,ˈàp,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""in the following entries.""]}]",2,entry,SEAlang Thai / TDP,TDP:19378,อั.*
+อับอาย,to be ashamed.,àp aay,àp ˈaay,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be ashamed.""]}]",3,subentry,SEAlang Thai / TDP,TDP:19380,อั.*
+อับแสง,"to become less bright; to lack brightness.; to be opaque.; to be in one's downfall, in one's decline; to lose one's glory.",àp sɛ̌ɛŋ,àp ˈsɛ̌ɛŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to become less bright; to lack brightness.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be opaque.""]}, {""n"": ""3"", ""pos"": [""V""], ""definitions"": [""to be in one's downfall, in one's decline; to lose one's glory.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19379,อั.*
+ตกอับ,"(of a person) to fall, sink into poverty, reach the depths of (his) downfall.; to be fallen.",tòk àp,tòk ˈàp,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""(of a person) to fall, sink into poverty, reach the depths of (his) downfall.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be fallen.""]}]",4,subentry,SEAlang Thai / TDP,TDP:7112,อั.*
+อับปาง,"capsize, sink; go bankrupt, become insolvent",àp paaŋ,àp paaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""capsize, sink""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""go bankrupt, become insolvent""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15874,อั.*
+อับเฉา,"ballast, weight; gloomy, sad; gloomily, sadly; be gloomy, be depressed",àp cʰǎw,àp cʰǎw,V; ADJ; ADV,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""ballast, weight""]}, {""n"": ""2"", ""pos"": [""ADJ""], ""definitions"": [""gloomy, sad""]}, {""n"": ""3"", ""pos"": [""ADV""], ""definitions"": [""gloomily, sadly""]}, {""n"": ""4"", ""pos"": [""V""], ""definitions"": [""be gloomy, be depressed""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15872,อั.*
+อัปปาง,"(boat, ship) to be wrecked.",àp-paaŋ,àpˈpaaŋ,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""(boat, ship) to be wrecked.""]}]",5,entry,SEAlang Thai / TDP,TDP:19382,อั.*
+อัปยศ,to be disgraceful.; to be disgraced.,àp-pa-yót,àp.paˈyót,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to be disgraceful.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be disgraced.""]}]",4,entry,SEAlang Thai / TDP,TDP:19383,อั.*
+อัปราชัย,"victory, conquest; triumph; win",àp pà raa cʰay,àp pà raa cʰay,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""victory, conquest; triumph; win""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15911,อั.*
+อัปรีย์,"unpropitious, inauspicious; wicked; despicable",àp prii,àp prii,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""unpropitious, inauspicious; wicked; despicable""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15912,อั.*
+อัปลักษณ์,"ugly, hideous; ill-favored; unsightly",àp pà lák,àp pà lák,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""ugly, hideous; ill-favored; unsightly""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15913,อั.*
+อัปสร,angel,àp sɔ̌ɔn,àp sɔ̌ɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""angel""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15914,อั.*
+อัฟริกัน,African.,áf-fri-kan,áf.friˈkan*,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""African.""]}]",3,entry,SEAlang Thai / TDP,TDP:19384,อั.*
+อัฟริกา,Africa.; African.,áf-fri-kaa,áf.friˈkaa*,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Africa.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""African.""]}]",4,entry,SEAlang Thai / TDP,TDP:19385,อั.*
+อัมพฤกษ์,"paralysis, palsy; middle line of the body",am má pʰrʉ́k,am má pʰrʉ́k,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""paralysis, palsy""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""middle line of the body""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15915,อั.*
+อัมพา,"mother, good woman",am pʰaa,am pʰaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mother, good woman""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15926,อั.*
+อัมพาต,paralysis.,am-ma-pʰâat,am.maˈpʰâat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""paralysis.""]}]",3,entry,SEAlang Thai / TDP,TDP:19386,อั.*
+โรคอัมพาต,paralysis.,rôok am-ma-pʰâat,ˈrôok am.maˈpʰâat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""paralysis.""]}]",5,subentry,SEAlang Thai / TDP,TDP:15788,อั.*
+อัมพุ,water,am pʰú,am pʰú,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""water""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15909,อั.*
+อัยกี,"grandmother, grandma",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""grandmother, grandma""]}]",2,entry,SEAlang Thai / LEX2.0,LEX2.0:15924,อั.*
+อัยยะ,"master, overlord; lord",ay yá,ay yá,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""master, overlord; lord""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15900,อั.*
+อัยยิกา,"grandmother, grandma",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""grandmother, grandma""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15919,อั.*
+อัลตราไวโอเลต,"ultraviolet, UV","an trâa way oo let, a trâa way oo let","an trâa way oo let, a trâa way oo let",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ultraviolet, UV""]}]",5,entry,SEAlang Thai / LEX2.0,LEX2.0:15917,อั.*
+น่าอัศจรรย์,"astonishing, surprising; marvelous; be astonishing, be surprising; be marvelous",,,ADJ; V,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""astonishing, surprising; marvelous""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""be astonishing, be surprising; be marvelous""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:20368,อั.*
+อัศจรรย์,"to marvel at.; marvelous, wonderful, miraculous.",àt-sa-jan,ˈàt.saˈjan,V; sV,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to marvel at.""]}, {""n"": ""2"", ""pos"": [""sV""], ""definitions"": [""marvelous, wonderful, miraculous.""]}]",3,entry,SEAlang Thai / TDP,TDP:19388,อั.*
+อัศวมุข,horse-faced,,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""horse-faced""]}]",7,entry,SEAlang Thai / LEX2.0,LEX2.0:15894,อั.*
+อัศวิน,knight.; courageous police officer.,àt-sa-win,ˈàt.saˈwin*,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""knight.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""courageous police officer.""]}]",3,entry,SEAlang Thai / TDP,TDP:19390,อั.*
+อัศวเมธ,ceremony of horse sacrifice,àt sà wá mêet,àt sà wá mêet,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ceremony of horse sacrifice""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:15895,อั.*
+อัศวโกวิท,skilled in horsemanship,àt sà wá koo wít,àt sà wá koo wít,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""skilled in horsemanship""]}]",6,entry,SEAlang Thai / LEX2.0,LEX2.0:15893,อั.*
+อัศเจรีย์,the exclamation point. Used with exclamatives and exclamatory sentences.,àt-sa-jee-rii,àt.saˈjeeˈrii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the exclamation point. Used with exclamatives and exclamatory sentences.""]}]",5,entry,SEAlang Thai / TDP,TDP:19389,อั.*
+อัสดง,"set, go down",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""set, go down""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15892,อั.*
+อัสดงคต,(the sun) to set.; the West.,àt-sa-doŋ-kʰót,ˈàt.sa.doŋˈkʰót,V; N,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""(the sun) to set.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""the West.""]}]",6,entry,SEAlang Thai / TDP,TDP:19391,อั.*
+อัสนี,"thunderbolt, bolt",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""thunderbolt, bolt""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15903,อั.*
+อัสสนี,constellations containing 7 stars,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""constellations containing 7 stars""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15904,อั.*
+อัสสุ,"tear, teardrop",àt sù,àt sù,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tear, teardrop""]}]",4,entry,SEAlang Thai / LEX2.0,LEX2.0:15905,อั.*
+อั้งยี่,Chinese secret society (an underworld organization).,âŋ-yîi,âŋˈyîi,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Chinese secret society (an underworld organization).""]}]",5,entry,SEAlang Thai / TDP,TDP:19330,อั.*
+อั้งโล่,a portable earthware brazier for cooking.,âŋ-lôo,âŋˈlôo,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""a portable earthware brazier for cooking.""]}]",5,entry,SEAlang Thai / TDP,TDP:19331,อั.*
+อั้น,"to hold (e.g. one's breath), suppress (one's emotions), keep (something) to oneself.; to be dumbfounded.",ân,ˈân,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to hold (e.g. one's breath), suppress (one's emotions), keep (something) to oneself.""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""to be dumbfounded.""]}]",3,entry,SEAlang Thai / TDP,TDP:19364,อั.*
+ไม่อั้น,"not to hold back, not to stint.; without holding back, without stint, without hesitation.",mây ân,mây ˈân,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""not to hold back, not to stint.""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""without holding back, without stint, without hesitation.""]}]",4,subentry,SEAlang Thai / TDP,TDP:14508,อั.*
+นิ่งอั้น,to remain silent (as when suppressing one's anger).,nîŋ ân,nîŋ ˈân,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""to remain silent (as when suppressing one's anger).""]}]",6,subentry,SEAlang Thai / TDP,TDP:19365,อั.*
+อั๊ว,"I, me.",úa,ˈúa,P,"[{""n"": ""1"", ""pos"": [""P""], ""definitions"": [""I, me.""]}]",5,entry,SEAlang Thai / TDP,TDP:19387,อั.*
+อั๋น,"plump, buxom; chubby; embonpoint; corpulent; zaftig",ǎn,ǎn,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""plump, buxom; chubby; embonpoint; corpulent; zaftig""]}]",3,entry,SEAlang Thai / LEX2.0,LEX2.0:15882,อั.*
+อวบอั๋น,"fleshy, chubby",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""fleshy, chubby""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:6791,อั.*
+อัคนิคณะ,"flame, fire","àk ní kʰá ná, àk kʰá ní kʰá ná","àk ní kʰá ná, àk kʰá ní kʰá ná",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""flame, fire""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:15682,อั.*
+อัลบั้ม,album,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""album""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:31680,อั.*
+อันเป็น,"accident, mishap",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""accident, mishap""]}]",2,subentry,SEAlang Thai / LEX2.0,LEX2.0:15870,อั.*
+อังก์,ankh,aŋ,aŋ,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ankh""]}]",3,subentry,SEAlang Thai / RI,RI:29732,อั.*
+อันเนื่องมาจาก,"as the result of, because of",,,CONJ,"[{""n"": ""1"", ""pos"": [""CONJ""], ""definitions"": [""as the result of, because of""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:4191,อั.*
+เอกอัครราชทูต,ambassador (from a monarchy).,èek àk-kʰa râat-cʰa tʰûut,ˈèek àk.kʰa râat.cʰa ˈtʰûut,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ambassador (from a monarchy).""]}]",3,subentry,SEAlang Thai / TDP,TDP:9255,อั.*
+อัศวินี,the first of the twenty-eight constellations containing 7 stars,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the first of the twenty-eight constellations containing 7 stars""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:15899,อั.*
+สถานเอกอัครราชทูต,embassy.,sa-tʰǎan èek àk-kʰa râat-cʰa tʰûut,"saˈtʰǎan, ˈèek àk.kʰa râat.cʰa ˈtʰûut",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""embassy.""]}]",3,subentry,SEAlang Thai / TDP,TDP:17092,อั.*
+อันว่า,for,an wâa,an wâa,CONJ,"[{""n"": ""1"", ""pos"": [""CONJ""], ""definitions"": [""for""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:15871,อั.*
+อัยการสูงสุด,Attorney-General,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Attorney-General""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:15923,อั.*
+อัตราเงินเดือน,rate of salary,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""rate of salary""]}]",3,subentry,SEAlang Thai / LEX2.0,LEX2.0:31677,อั.*
+อัจฉริยภาพ,genius; person who has extraordinary ability.,àt-cʰa-ri-ya pʰâap,ˈàt.cʰa.ri.ya ˈpʰâap,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""genius; person who has extraordinary ability.""]}]",3,subentry,SEAlang Thai / TDP,TDP:19333,อั.*
+อัตราค่าจ้าง,"wage rate, wage",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""wage rate, wage""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15887,อั.*
+อัดแน่น,pack,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pack""]}]",4,subentry,SEAlang Thai / RI,RI:29752,อั.*
+อัตราร้อยละ,"percentage, percent",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""percentage, percent""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15890,อั.*
+อัตราร้อยละ,percentage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""percentage""]}]",4,subentry,SEAlang Thai / RI,RI:29875,อั.*
+อันธพาล,"delinquent, rascally; wayward; rough; unruly; refractory; recalcitrant; social evil doer",an tʰá pʰaan,an tʰá pʰaan,ADJ; N,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""delinquent, rascally; wayward; rough; unruly; refractory; recalcitrant""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""social evil doer""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:10117,อั.*
+อันธพาล,psychopath,an tʰá pʰaan,an tʰá pʰaan,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""psychopath""]}]",4,subentry,SEAlang Thai / RI,RI:30077,อั.*
+อัครปุระ,acropolis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""acropolis""]}]",4,subentry,SEAlang Thai / RI,RI:29726,อั.*
+อัมพวัน,mango orchard,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""mango orchard""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15916,อั.*
+อันน้อย,"minor, little; small",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""minor, little; small""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15869,อั.*
+อันหนึ่งอันเดียวกัน,"harmoniously, congruously; agreeably",,,ADV,"[{""n"": ""1"", ""pos"": [""ADV""], ""definitions"": [""harmoniously, congruously; agreeably""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:30062,อั.*
+อัตราการเกิด,birth rate,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""birth rate""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31674,อั.*
+อัตราเสี่ยง,risk level,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""risk level""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:4192,อั.*
+มีอันเป็นไป,"fail, fall; lose; be unsuccessful; go down; flop; suffer misfortune, suffer disaster; be destined to misfortune; die; expire",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""fail, fall; lose; be unsuccessful; go down; flop""]}, {""n"": ""2"", ""pos"": [""V""], ""definitions"": [""suffer misfortune, suffer disaster; be destined to misfortune; die; expire""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:13253,อั.*
+อัตราการตาย,death rate,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""death rate""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31675,อั.*
+อัตราเติบโต,growth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""growth rate""]}]",4,subentry,SEAlang Thai / RI,RI:30009,อั.*
+อัตราเพิ่ม,growth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""growth rate""]}]",4,subentry,SEAlang Thai / RI,RI:30022,อั.*
+อัตพันธุ์,autogenous,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""autogenous""]}]",4,subentry,SEAlang Thai / RI,RI:29766,อั.*
+อัปมงคล,"bad omen, ill omen.; inauspiciousness.; inauspicious; defamatory, injurious (to someone's reputation).",àb pa-moŋ-kʰon,ˈàb pa.moŋˈkʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bad omen, ill omen.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""inauspiciousness.""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""inauspicious; defamatory, injurious (to someone's reputation).""]}]",4,subentry,SEAlang Thai / TDP,TDP:13804,อั.*
+อันตะ,finite,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""finite""]}]",4,subentry,SEAlang Thai / RI,RI:30073,อั.*
+อัตราความเร็ว,speed,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""speed""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:31676,อั.*
+อัมพุช,lotus; fish,am pʰút,am pʰút,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""lotus""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""fish""]}]",4,subentry,SEAlang Thai / LEX2.0,LEX2.0:15920,อั.*
+มีอัธยาศัย,"have a disposition, give someone a warm reception",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""have a disposition, give someone a warm reception""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:7817,อั.*
+อัตราเฉลี่ย,average rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""average rate""]}]",5,subentry,SEAlang Thai / RI,RI:30005,อั.*
+อัดเทป,"tape-record, record",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""tape-record, record""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15719,อั.*
+อัมพิล,"sour, tangy",am pʰí lá,am pʰí lá,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""sour, tangy""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15918,อั.*
+อันตรายร้ายแรง,grave danger,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""grave danger""]}]",5,subentry,SEAlang Thai / RI,RI:30070,อั.*
+อัตราป่วย,attack rate; case rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""attack rate; case rate""]}]",5,subentry,SEAlang Thai / RI,RI:29854,อั.*
+อัตราตาย,death mortality / rate; mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""death mortality / rate; mortality rate""]}]",5,subentry,SEAlang Thai / RI,RI:29822,อั.*
+อัครราชทูต,minister (especially one who is the head of a legation).,àk-kʰa râat-cʰa tʰûut,àk.kʰa râat.cʰa ˈtʰûut,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""minister (especially one who is the head of a legation).""]}]",5,subentry,SEAlang Thai / TDP,TDP:9254,อั.*
+อัครมเหสี,"supreme queen, queen of the highest rank.",àk-kʰa ma-hěe-sǐi,àk.kʰa maˈhěeˈsǐi,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""supreme queen, queen of the highest rank.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19319,อั.*
+อัตราสิ้นเปลือง,burn-off rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""burn-off rate""]}]",5,subentry,SEAlang Thai / RI,RI:29883,อั.*
+อับอายขายหน้า,"be disgraceful, be shameful; be ashamed",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be disgraceful, be shameful; be ashamed""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15898,อั.*
+อัตราโทษ,rate of penalty,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rate of penalty""]}]",5,subentry,SEAlang Thai / RI,RI:30045,อั.*
+อัตราการเกิดโรค,morbidity,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""morbidity""]}]",5,subentry,SEAlang Thai / RI,RI:29793,อั.*
+อัธยาศัยไมตรี,courtesy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""courtesy""]}]",5,subentry,SEAlang Thai / RI,RI:30053,อั.*
+อักขรวิธี,orthography,àk kʰà rà wí tʰii,àk kʰà rà wí tʰii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""orthography""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15696,อั.*
+อัฐบริขาร,eight necessities of a Buddhist monk,àt tʰà bɔɔ rí kʰǎan,àt tʰà bɔɔ rí kʰǎan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""eight necessities of a Buddhist monk""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15714,อั.*
+อัตราขยาย,"expansion ratio, expansion rate; increasing rate",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""expansion ratio, expansion rate; increasing rate""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15886,อั.*
+อัตราสูงสุด,peak rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""peak rate""]}]",5,subentry,SEAlang Thai / RI,RI:29897,อั.*
+อัสดร,excellent horse,àt sà dɔɔn,àt sà dɔɔn,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""excellent horse""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15902,อั.*
+อักขระพิเศษ,special character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""special character""]}]",5,subentry,SEAlang Thai / RI,RI:29710,อั.*
+อันตรกิริยา,interaction,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""interaction""]}]",5,subentry,SEAlang Thai / RI,RI:30063,อั.*
+อัครราชทูตที่ปรึกษา,minister counsellor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""minister counsellor""]}]",5,subentry,SEAlang Thai / RI,RI:29729,อั.*
+อัตราเบี้ยประกันภัย,premium rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""premium rate""]}]",5,subentry,SEAlang Thai / RI,RI:30013,อั.*
+อัปยศอดสู,"disgrace, lose fame; lose face; humiliate; embarrass; dishonour",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""disgrace, lose fame; lose face; humiliate; embarrass; dishonour""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:6826,อั.*
+อัปรีย์จัญไร,"unpropitious, inauspicious; wicked",,,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""unpropitious, inauspicious; wicked""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:16215,อั.*
+อันดับห้า,the fifth in order; the fifth in rank.,an-dàp hâa,anˈdàp ˈhâa,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""the fifth in order; the fifth in rank.""]}]",5,subentry,SEAlang Thai / TDP,TDP:19367,อั.*
+อัตราการขยาย,gain,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gain""]}]",5,subentry,SEAlang Thai / RI,RI:29776,อั.*
+อัตรารอด,survival rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""survival rate""]}]",5,subentry,SEAlang Thai / RI,RI:29872,อั.*
+อัตนิยม,egoism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""egoism""]}]",5,subentry,SEAlang Thai / RI,RI:29764,อั.*
+เครื่องอัดเสียง,"tape recorder, tape-recorder; cassette recorder; recorder",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tape recorder, tape-recorder; cassette recorder; recorder""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:10505,อั.*
+ปริศนาอักษรไขว้,crossword puzzle,prìt sà nǎa àk sɔ̌ɔn kʰwây,prìt sà nǎa àk sɔ̌ɔn kʰwây,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""crossword puzzle""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:22255,อั.*
+อักษรตัวใหญ่,capital letter,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""capital letter""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31672,อั.*
+อัตราป่วยตาย,case fatality rate; fatality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""case fatality rate; fatality rate""]}]",5,subentry,SEAlang Thai / RI,RI:29855,อั.*
+อัตราขั้นต่ำ,minimum rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""minimum rate""]}]",5,subentry,SEAlang Thai / RI,RI:29801,อั.*
+อัตราทดเฟือง,gear ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gear ratio""]}]",5,subentry,SEAlang Thai / RI,RI:29843,อั.*
+อัตราทดเกียร์,gear ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gear ratio""]}]",5,subentry,SEAlang Thai / RI,RI:29841,อั.*
+อัจฉริยบุคคล,genius,àt cʰà rí yá bùk kʰon,àt cʰà rí yá bùk kʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""genius""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15732,อั.*
+อัณฑะอักเสบ,orchiditis; orchitis; testitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orchiditis; orchitis; testitis""]}]",5,subentry,SEAlang Thai / RI,RI:29750,อั.*
+อัดอั้นใจ,"feel utterly repressed, be frustrated; smoulder; feel utterly repressed",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""feel utterly repressed, be frustrated; smoulder; feel utterly repressed""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:10139,อั.*
+อับเรณู,anther,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""anther""]}]",5,subentry,SEAlang Thai / RI,RI:30090,อั.*
+อักษรตัวเล็ก,small letter,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""small letter""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:31671,อั.*
+อัมพาตครึ่งซีก,hemiplegia; semisideratio; semisideration,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""hemiplegia; semisideratio; semisideration""]}]",5,subentry,SEAlang Thai / RI,RI:30113,อั.*
+อัมพุชินี,lotus pond,am pʰú cʰí nii,am pʰú cʰí nii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""lotus pond""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15921,อั.*
+อัตราเกิด,natality,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""natality""]}]",5,subentry,SEAlang Thai / RI,RI:29966,อั.*
+อัตราดอกเบี้ยของธนาคารกลาง,bank rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bank rate""]}]",5,subentry,SEAlang Thai / RI,RI:29813,อั.*
+อัครมหาเสนาบดี,"prime minister, chief of the minister",àk kʰrá má hǎa sěe naa bɔɔ dii,àk kʰrá má hǎa sěe naa bɔɔ dii,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""prime minister, chief of the minister""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:15685,อั.*
+อัตประวัติ,autobiography,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""autobiography""]}]",5,subentry,SEAlang Thai / LEX2.0,LEX2.0:5907,อั.*
+อันธิกา,"evening, eve; dusk; eventide",an tʰí kaa,an tʰí kaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""evening, eve; dusk; eventide""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15860,อั.*
+อันธการ,"darkness, dark; ignorance, stupidity; foolishness; evening, eve; dusk; eventide",an tʰá kaan,an tʰá kaan,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""darkness, dark""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""ignorance, stupidity; foolishness""]}, {""n"": ""3"", ""pos"": [""N""], ""definitions"": [""evening, eve; dusk; eventide""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15866,อั.*
+อักษรศาสตรบัณฑิต,"bachelor of arts, B.A.",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""bachelor of arts, B.A.""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:1587,อั.*
+อัครชายา,"queen, royal consort",àk kʰrá cʰaa yaa,àk kʰrá cʰaa yaa,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""queen, royal consort""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15684,อั.*
+อักษรศาสตรมหาบัณฑิต,"master of arts, A.M.",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""master of arts, A.M.""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:1586,อั.*
+อับปัญญา,"be at the end of one's wit, have no wit; be at a loss for; be at loss to know what to do",,,V,"[{""n"": ""1"", ""pos"": [""V""], ""definitions"": [""be at the end of one's wit, have no wit; be at a loss for; be at loss to know what to do""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:5912,อั.*
+อัสสุชล,"tear, teardrop",àt sù cʰon,àt sù cʰon,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""tear, teardrop""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15906,อั.*
+อับสปอร์,capsule [ไบรโอไฟต์]; sporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""capsule [ไบรโอไฟต์]""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""sporangium""]}]",6,subentry,SEAlang Thai / RI,RI:30081,อั.*
+อักษรศาสตร์บัณฑิต,holder of a Bachelor of Arts degree.; the Bachelor of Arts degree.,àk-sɔ̌ɔn sàat ban-dìt,àk.sɔ̌ɔn ˈsàat banˈdìt,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""holder of a Bachelor of Arts degree.""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""the Bachelor of Arts degree.""]}]",6,subentry,SEAlang Thai / TDP,TDP:19314,อั.*
+อัยการทหาร,judge advocate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""judge advocate""]}]",6,subentry,SEAlang Thai / RI,RI:30156,อั.*
+อัตราส่วนค่าใช้จ่าย,expense ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""expense ratio""]}]",6,subentry,SEAlang Thai / RI,RI:29923,อั.*
+อันดับย่อย,suborder,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""suborder""]}]",6,subentry,SEAlang Thai / RI,RI:30060,อั.*
+อัตราส่วนเพศ,sex ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sex ratio""]}]",6,subentry,SEAlang Thai / RI,RI:29944,อั.*
+อักษรสมัย,method of reading and writing,àk sɔ̌ɔn sà mǎy,àk sɔ̌ɔn sà mǎy,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""method of reading and writing""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15674,อั.*
+อัตถิภาวนิยม,existentialism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""existentialism""]}]",6,subentry,SEAlang Thai / RI,RI:29762,อั.*
+อัตประโยชน์,self-interest,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""self-interest""]}]",6,subentry,SEAlang Thai / RI,RI:29765,อั.*
+อัตราส่วนการอัด,compression ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""compression ratio""]}]",6,subentry,SEAlang Thai / RI,RI:29908,อั.*
+อัมพาตชั่วคราว,temporary paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""temporary paralysis""]}]",6,subentry,SEAlang Thai / RI,RI:30116,อั.*
+อักษรควบ,cluster consonant,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""cluster consonant""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:31670,อั.*
+อัตราสุดท้าย,final rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""final rate""]}]",6,subentry,SEAlang Thai / RI,RI:29896,อั.*
+อัตราบิต,bit rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bit rate""]}]",6,subentry,SEAlang Thai / RI,RI:29851,อั.*
+อัตรากลาง,central rate (ช่วงเวลา),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""central rate (ช่วงเวลา)""]}]",6,subentry,SEAlang Thai / RI,RI:29774,อั.*
+อัจฉริยลักษณ์,"excellent manner, remarkable talent",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""excellent manner, remarkable talent""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15733,อั.*
+อักษรกล,acrostic,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""acrostic""]}]",6,subentry,SEAlang Thai / RI,RI:29720,อั.*
+อัมพาตทั้งตัว,pamplegia; panplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pamplegia; panplegia""]}]",6,subentry,SEAlang Thai / RI,RI:30117,อั.*
+อัตราต่อปี,annual rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""annual rate""]}]",6,subentry,SEAlang Thai / RI,RI:29837,อั.*
+อัตราชีพจร,"pulse rate, pulse",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""pulse rate, pulse""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15888,อั.*
+อัตราชีพจร,pulse rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pulse rate""]}]",6,subentry,SEAlang Thai / RI,RI:29812,อั.*
+อัตราเจริญพันธุ์,fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fertility rate""]}]",6,subentry,SEAlang Thai / RI,RI:29988,อั.*
+อัลลีล,allele (สิ่งที่เป็นคู่กับสิ่งอื่น),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""allele (สิ่งที่เป็นคู่กับสิ่งอื่น)""]}]",6,subentry,SEAlang Thai / RI,RI:30159,อั.*
+อักษรปริศนา,crossword puzzle,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""crossword puzzle""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:31673,อั.*
+อัตราความผิดพลาด,error rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""error rate""]}]",6,subentry,SEAlang Thai / RI,RI:29804,อั.*
+อัมพาตกล้ามเนื้อ,myoparalysis; myoparesis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myoparalysis; myoparesis""]}]",6,subentry,SEAlang Thai / RI,RI:30104,อั.*
+อัตราการออกกลางคัน,dropout rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""dropout rate""]}]",6,subentry,SEAlang Thai / RI,RI:29791,อั.*
+อัตราการเติม,deposition rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""deposition rate""]}]",6,subentry,SEAlang Thai / RI,RI:29796,อั.*
+อันติมะ,ultimate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ultimate""]}]",6,subentry,SEAlang Thai / RI,RI:30075,อั.*
+อัตราการคงอยู่,retention rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""retention rate""]}]",6,subentry,SEAlang Thai / RI,RI:29777,อั.*
+อักขรสมัย,orthography rule,àk kʰà rà sà mǎy,àk kʰà rà sà mǎy,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""orthography rule""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15688,อั.*
+อักษรศาสตร์มหาบัณฑิต,"Master of Arts, M.A",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Master of Arts, M.A""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15673,อั.*
+อัตราทั่วไป,general rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""general rate""]}]",6,subentry,SEAlang Thai / RI,RI:29844,อั.*
+อัตราความชุกของโรค,prevalence rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""prevalence rate""]}]",6,subentry,SEAlang Thai / RI,RI:29803,อั.*
+อักษรศาสตร์ดุษฎีบัณฑิต,"Doctor of Arts, D.A",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Doctor of Arts, D.A""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15672,อั.*
+อัตราภาษีสูงสุด,tax limit,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tax limit""]}]",6,subentry,SEAlang Thai / RI,RI:29870,อั.*
+อัญประกาศเดี่ยว,single quotation marks; single quotation mark,an yá prà kàat dìaw,an yá prà kàat dìaw,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""single quotation marks""]}, {""n"": ""2"", ""pos"": [""N""], ""definitions"": [""single quotation mark""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:2030,อั.*
+อัตราอุบัติการณ์,incidence rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""incidence rate""]}]",6,subentry,SEAlang Thai / RI,RI:29965,อั.*
+อัครราชทูตประจำ,minister resident,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""minister resident""]}]",6,subentry,SEAlang Thai / RI,RI:29730,อั.*
+อัตราหย่า,divorce rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""divorce rate""]}]",6,subentry,SEAlang Thai / RI,RI:29949,อั.*
+อัตราตายของมารดา,maternal death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""maternal death rate""]}]",6,subentry,SEAlang Thai / RI,RI:29826,อั.*
+อัญญาณัติ,heteronomy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""heteronomy""]}]",6,subentry,SEAlang Thai / RI,RI:29737,อั.*
+อักษรสาสน์,diplomatic letter,"àk sɔ̌ɔn rá sàat, àk sɔ̌ɔn sàat","àk sɔ̌ɔn rá sàat, àk sɔ̌ɔn sàat",N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""diplomatic letter""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15675,อั.*
+อัตราตามช่วงเวลา,period rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""period rate""]}]",6,subentry,SEAlang Thai / RI,RI:29816,อั.*
+สถานอัครราชทูต,legation.,sa-tʰǎan àk-kʰa râat-cʰa tʰûut,sa.tʰǎan ˈàk.kʰa râat.cʰa ˈtʰûut,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""legation.""]}]",6,subentry,SEAlang Thai / TDP,TDP:17091,อั.*
+อัตตาธิปัตย์,autocrat,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""autocrat""]}]",6,subentry,SEAlang Thai / RI,RI:29759,อั.*
+อัตตานิยม,egoism,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""egoism""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:2470,อั.*
+อัตตานิยม,egoism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""egoism""]}]",6,subentry,SEAlang Thai / RI,RI:29761,อั.*
+อั้นตั้น,"stocky, chubby; plump",ân tân,ân tân,ADJ,"[{""n"": ""1"", ""pos"": [""ADJ""], ""definitions"": [""stocky, chubby; plump""]}]",6,subentry,SEAlang Thai / LEX2.0,LEX2.0:15864,อั.*
+อัตราเจริญพันธุ์รวม,total fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""total fertility rate""]}]",6,subentry,SEAlang Thai / RI,RI:30001,อั.*
+อัตราการรั่ว,leakage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""leakage rate""]}]",7,subentry,SEAlang Thai / RI,RI:29789,อั.*
+อัครราชทูตผู้มีอำนาจเต็ม,minister plenipotentiary,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""minister plenipotentiary""]}]",7,subentry,SEAlang Thai / RI,RI:29731,อั.*
+อัตราถ่ายโอน,transfer rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""transfer rate""]}]",7,subentry,SEAlang Thai / RI,RI:29838,อั.*
+อัมพาตครึ่งล่าง,paraplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""paraplegia""]}]",7,subentry,SEAlang Thai / RI,RI:30114,อั.*
+อัมพุท,cloud,am pʰút,am pʰút,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""cloud""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:15922,อั.*
+อัตราความพิการ,disability rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""disability rate""]}]",7,subentry,SEAlang Thai / RI,RI:29806,อั.*
+อัตราการเข้ารับ,acceptance rate (บริการคุมกำเนิด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""acceptance rate (บริการคุมกำเนิด)""]}]",7,subentry,SEAlang Thai / RI,RI:29794,อั.*
+อัตราชั่วคราว,provisional rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""provisional rate""]}]",7,subentry,SEAlang Thai / RI,RI:29811,อั.*
+อัตราส่วนสัญญาณต่อสัญญาณรบกวน,signal-to-noise ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""signal-to-noise ratio""]}]",7,subentry,SEAlang Thai / RI,RI:29938,อั.*
+อัตราพื้นฐาน,basis rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""basis rate""]}]",7,subentry,SEAlang Thai / RI,RI:29856,อั.*
+อัตราถ่ายโอนข้อมูล,data transfer rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""data transfer rate""]}]",7,subentry,SEAlang Thai / RI,RI:29839,อั.*
+อักษรวิจิตร,calligraphy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""calligraphy""]}]",7,subentry,SEAlang Thai / RI,RI:29723,อั.*
+อักขระควบคุม,control character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""control character""]}]",7,subentry,SEAlang Thai / RI,RI:29700,อั.*
+อักขระตัวแทน,wildcard character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""wildcard character""]}]",7,subentry,SEAlang Thai / RI,RI:29706,อั.*
+อัศวยุช,the first of the twenty-eight constellations containing 7 stars,àt sà wá yút,àt sà wá yút,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""the first of the twenty-eight constellations containing 7 stars""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:15896,อั.*
+อัมพฤกษ์ครึ่งซีก,hemiparesis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""hemiparesis""]}]",7,subentry,SEAlang Thai / RI,RI:30097,อั.*
+อัชฌัตติกญาณ,intuition,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intuition""]}]",7,subentry,SEAlang Thai / RI,RI:29734,อั.*
+อัตราบอด,baud rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""baud rate""]}]",7,subentry,SEAlang Thai / RI,RI:29850,อั.*
+อัตราทดพวงมาลัย,steering ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""steering ratio""]}]",7,subentry,SEAlang Thai / RI,RI:29840,อั.*
+อัตราตามสภาพ,specific rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""specific rate""]}]",7,subentry,SEAlang Thai / RI,RI:29820,อั.*
+อัตราส่วนร้อย,percentage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""percentage""]}]",7,subentry,SEAlang Thai / RI,RI:29934,อั.*
+อัมพาตไขสันหลัง,myeloparalysis; myeloplegia; spinal paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""myeloparalysis; myeloplegia; spinal paralysis""]}]",7,subentry,SEAlang Thai / RI,RI:30153,อั.*
+อัตราเกิดอย่างหยาบ,crude birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crude birth rate""]}]",7,subentry,SEAlang Thai / RI,RI:29985,อั.*
+อัตตาณัติ,autonomy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""autonomy""]}]",7,subentry,SEAlang Thai / RI,RI:29757,อั.*
+อัตราการย้ายถิ่น,migration rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""migration rate""]}]",7,subentry,SEAlang Thai / RI,RI:29784,อั.*
+อัตราตั้งครรภ์,conception rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""conception rate""]}]",7,subentry,SEAlang Thai / RI,RI:29815,อั.*
+สิ่งละอันพรรณละน้อย,"a few things of each kind; a little of every kind, a little of everything.",sìŋ la an pʰan la nɔ́ɔy,sìŋ laʔ ˈan ˈpʰan la ˈnɔ́ɔy,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""a few things of each kind; a little of every kind, a little of everything.""]}]",7,subentry,SEAlang Thai / TDP,TDP:19361,อั.*
+อันตรายใกล้ความตาย,imminent danger of death,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""imminent danger of death""]}]",7,subentry,SEAlang Thai / RI,RI:30071,อั.*
+เอกอัครรัฐทูต,ambassador (from a country which is not a monarchy).,èek àk-kʰa rát-tʰa tʰûut,ˈèek àk.kʰa ˈrát.tʰa ˈtʰûut,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""ambassador (from a country which is not a monarchy).""]}]",7,subentry,SEAlang Thai / TDP,TDP:19829,อั.*
+อักขรวิทยา,paleography,,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""paleography""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:15705,อั.*
+อัยการแผ่นดิน,public prosecutor,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""public prosecutor""]}]",7,subentry,SEAlang Thai / RI,RI:30158,อั.*
+อัตราส่วนความชื้น,humidity ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""humidity ratio""]}]",7,subentry,SEAlang Thai / RI,RI:29919,อั.*
+อัตราหายใจ,respiration rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""respiration rate""]}]",7,subentry,SEAlang Thai / RI,RI:29962,อั.*
+อัตราโทษขั้นต่ำ,minimum rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""minimum rate""]}]",7,subentry,SEAlang Thai / RI,RI:30046,อั.*
+อัมพาตไต,nephroparalysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""nephroparalysis""]}]",7,subentry,SEAlang Thai / RI,RI:30154,อั.*
+อัตราส่วนสะท้อน,albedo,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""albedo""]}]",7,subentry,SEAlang Thai / RI,RI:29937,อั.*
+อักษรศาตรบัณฑิต,"Bachelor of Arts, B.A.",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Bachelor of Arts, B.A.""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:30058,อั.*
+อัตพิชาน,self-consciousness,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""self-consciousness""]}]",7,subentry,SEAlang Thai / RI,RI:29767,อั.*
+อัตราเป็นโรค,morbidity rate; sickness rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""morbidity rate; sickness rate""]}]",7,subentry,SEAlang Thai / RI,RI:30020,อั.*
+อัตราส่วนอากาศต่อเชื้อเพลิง,air-fuel ratio; A/F ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""air-fuel ratio; A/F ratio""]}]",7,subentry,SEAlang Thai / RI,RI:29942,อั.*
+อันตรายทางร่างกาย,bodily harm,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bodily harm""]}]",7,subentry,SEAlang Thai / RI,RI:30068,อั.*
+อัศวานึก,cavalry,àt sà waa nʉ́k,àt sà waa nʉ́k,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""cavalry""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:15897,อั.*
+อัมพาตสายเสียง,laryngeal paralysis; vocal cord paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""laryngeal paralysis; vocal cord paralysis""]}]",7,subentry,SEAlang Thai / RI,RI:30129,อั.*
+อัครสมณทูต,internuncio,àk kʰrá sà má ná tʰûut,àk kʰrá sà má ná tʰûut,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""internuncio""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:15697,อั.*
+อัตราเบี้ยประกันภัยขั้นต่ำ,minimum rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""minimum rate""]}]",7,subentry,SEAlang Thai / RI,RI:30014,อั.*
+อัตราเบี้ยประกันภัยรวม,gross rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gross rate""]}]",7,subentry,SEAlang Thai / RI,RI:30016,อั.*
+อังไฟให้แห้ง,torrefy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""torrefy""]}]",7,subentry,SEAlang Thai / RI,RI:29733,อั.*
+อัตราส่วนค่าสินไหมทดแทน,loss ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""loss ratio""]}]",7,subentry,SEAlang Thai / RI,RI:29921,อั.*
+อัตราการชักตัวอย่าง,sampling rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sampling rate""]}]",7,subentry,SEAlang Thai / RI,RI:29780,อั.*
+อัตราเพิ่มเฉลี่ยต่อปี,mean annual rate of growth,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mean annual rate of growth""]}]",7,subentry,SEAlang Thai / RI,RI:30026,อั.*
+อัตตัตถนิยม,egoism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""egoism""]}]",7,subentry,SEAlang Thai / RI,RI:29755,อั.*
+อัญภาวะ,alienation,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""alienation""]}]",7,subentry,SEAlang Thai / RI,RI:29738,อั.*
+อักขระข้อมูล,data character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""data character""]}]",7,subentry,SEAlang Thai / RI,RI:29699,อั.*
+อัตราการเลิกใช้,termination rate (บริการคุมกำเนิด); dropout rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""termination rate (บริการคุมกำเนิด)""]}, {""n"": ""2"", ""pos"": [], ""definitions"": [""dropout rate""]}]",7,subentry,SEAlang Thai / RI,RI:29797,อั.*
+อันติมสัจ,ultimate truth,an tì má sàt,an tì má sàt,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ultimate truth""]}]",7,subentry,SEAlang Thai / RI,RI:30074,อั.*
+อัตราการเข้าสู่กำลังแรงงาน,rate of accession to the labour force,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rate of accession to the labour force""]}]",7,subentry,SEAlang Thai / RI,RI:29795,อั.*
+อัตราการประจุ,charging rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""charging rate""]}]",7,subentry,SEAlang Thai / RI,RI:29781,อั.*
+อัตราการแทนที่,replacement rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""replacement rate""]}]",7,subentry,SEAlang Thai / RI,RI:29799,อั.*
+อัตราเฉลี่ยต่อปี,average annual rate; mean annual rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""average annual rate; mean annual rate""]}]",7,subentry,SEAlang Thai / RI,RI:30006,อั.*
+อักขระเพิ่มเติม,additional character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""additional character""]}]",7,subentry,SEAlang Thai / RI,RI:29717,อั.*
+อัตราเติบโตเฉลี่ยต่อปี,mean annual rate of growth,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mean annual rate of growth""]}]",7,subentry,SEAlang Thai / RI,RI:30011,อั.*
+อักขระว่าง,space character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""space character""]}]",7,subentry,SEAlang Thai / RI,RI:29712,อั.*
+อัตราตายอย่างหยาบ,crude death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crude death rate""]}]",7,subentry,SEAlang Thai / RI,RI:29835,อั.*
+อัตราความผิดพลาดบิต,bit error rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bit error rate""]}]",7,subentry,SEAlang Thai / RI,RI:29805,อั.*
+อัครภาคีผู้ทำสัญญา,high contracting party,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""high contracting party""]}]",7,subentry,SEAlang Thai / RI,RI:29727,อั.*
+อัตราทุพพลภาพ,disability rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""disability rate""]}]",7,subentry,SEAlang Thai / RI,RI:29849,อั.*
+อัตราสัญญาณนาฬิกา,clock rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""clock rate""]}]",7,subentry,SEAlang Thai / RI,RI:29882,อั.*
+อัตราหัวใจเต้น,heart rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""heart rate""]}]",7,subentry,SEAlang Thai / RI,RI:29956,อั.*
+อักขระหลีก,escape character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""escape character""]}]",7,subentry,SEAlang Thai / RI,RI:29713,อั.*
+อักขระเกิน,redundant character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""redundant character""]}]",7,subentry,SEAlang Thai / RI,RI:29714,อั.*
+อัตราการคงใช้,continuation rate (บริการคุมกำเนิด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""continuation rate (บริการคุมกำเนิด)""]}]",7,subentry,SEAlang Thai / RI,RI:29778,อั.*
+อัตรารายปี,annual rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""annual rate""]}]",7,subentry,SEAlang Thai / RI,RI:29874,อั.*
+อักขระคั่น,delimiter,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""delimiter""]}]",7,subentry,SEAlang Thai / RI,RI:29702,อั.*
+อักขระต่อวินาที,characters per second (CPS) (ซีพีเอส),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""characters per second (CPS) (ซีพีเอส)""]}]",7,subentry,SEAlang Thai / RI,RI:29708,อั.*
+อัตราส่วนการทำงาน,activity ratio; labour force participation ratio (ของประชากร),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""activity ratio; labour force participation ratio (ของประชากร)""]}]",7,subentry,SEAlang Thai / RI,RI:29901,อั.*
+อัตราเจริญพันธุ์ทั้งมวล,overall fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""overall fertility rate""]}]",7,subentry,SEAlang Thai / RI,RI:30000,อั.*
+อับไมโครสปอร์,microsporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""microsporangium""]}]",7,subentry,SEAlang Thai / RI,RI:30094,อั.*
+อันดับการเกิด,birth order,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""birth order""]}]",7,subentry,SEAlang Thai / RI,RI:30059,อั.*
+อักษรศาตรมหาบัณฑิต,"Master of Arts, M.A.",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Master of Arts, M.A.""]}]",7,subentry,SEAlang Thai / LEX2.0,LEX2.0:30059,อั.*
+อักษรสาสน์ตราตั้ง,credentials,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""credentials""]}]",7,subentry,SEAlang Thai / RI,RI:29724,อั.*
+อัตราเบี้ยประกันภัยแบบรวม,blanket rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""blanket rate""]}]",7,subentry,SEAlang Thai / RI,RI:30019,อั.*
+อัชฌัตติกญาณนิยม,intuitionism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intuitionism""]}]",8,subentry,SEAlang Thai / RI,RI:29735,อั.*
+อันตวิทยา,teleology,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""teleology""]}]",8,subentry,SEAlang Thai / RI,RI:30072,อั.*
+อัพภันตรภาพ,immanence,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""immanence""]}]",8,subentry,SEAlang Thai / RI,RI:30095,อั.*
+อัตราความล้มเหลวของการคุมกำเนิด,contraceptive failure rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""contraceptive failure rate""]}]",8,subentry,SEAlang Thai / RI,RI:29807,อั.*
+อัยการมลรัฐ,State's attorney (อเมริกัน),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""State's attorney (อเมริกัน)""]}]",8,subentry,SEAlang Thai / RI,RI:30157,อั.*
+อัตราหายใจเร็ว,tachypnea; tachypnoea,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tachypnea; tachypnoea""]}]",8,subentry,SEAlang Thai / RI,RI:29963,อั.*
+อัตราทำแท้ง,abortion rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""abortion rate""]}]",8,subentry,SEAlang Thai / RI,RI:29845,อั.*
+อัตราเจริญพันธุ์ทั่วไป,general fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""general fertility rate""]}]",8,subentry,SEAlang Thai / RI,RI:29999,อั.*
+อัตราส่วนลักษณะ,aspect ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aspect ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29935,อั.*
+อัมพาตสมองใหญ่,cerebral palsy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cerebral palsy""]}]",8,subentry,SEAlang Thai / RI,RI:30127,อั.*
+อักษรศาตรดุษฎีบัณฑิต,"Doctor of Philosophy, Ph.D.",,,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""Doctor of Philosophy, Ph.D.""]}]",8,subentry,SEAlang Thai / LEX2.0,LEX2.0:30057,อั.*
+อัตราระยะสั้น,short period rate; short rate; short term rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""short period rate; short rate; short term rate""]}]",8,subentry,SEAlang Thai / RI,RI:29873,อั.*
+อัมพาตกระเพาะ,gastroparalysis; gastroparesis; gastroplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gastroparalysis; gastroparesis; gastroplegia""]}]",8,subentry,SEAlang Thai / RI,RI:30103,อั.*
+อัฐนิยม,octal,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""octal""]}]",8,subentry,SEAlang Thai / RI,RI:29742,อั.*
+อัตราเฉลี่ยรายปี,average annual rate; mean annual rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""average annual rate; mean annual rate""]}]",8,subentry,SEAlang Thai / RI,RI:30007,อั.*
+อัมพฤกษ์ครึ่งล่าง,paraparesis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""paraparesis""]}]",8,subentry,SEAlang Thai / RI,RI:30098,อั.*
+อัมพาตเบลล์,Bell's palsy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Bell's palsy""]}]",8,subentry,SEAlang Thai / RI,RI:30139,อั.*
+อัมพาตใบหน้าครึ่งซีก,facioplegia; facial palsy; facial paralysis; prosopoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""facioplegia; facial palsy; facial paralysis; prosopoplegia""]}]",8,subentry,SEAlang Thai / RI,RI:30152,อั.*
+อัสสมาจารย์นิยม,scholasticism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""scholasticism""]}]",8,subentry,SEAlang Thai / RI,RI:30161,อั.*
+อัณฑะค้าง,cryptorchidism; cryptorchism; retained testis; undescended (ในท้อง) testis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cryptorchidism; cryptorchism; retained testis; undescended (ในท้อง) testis""]}]",8,subentry,SEAlang Thai / RI,RI:29747,อั.*
+อัตราการป้อนลวด,wire feed rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""wire feed rate""]}]",8,subentry,SEAlang Thai / RI,RI:29782,อั.*
+อัตราตายคลอด,fetal rate; foetal death rate; stillbirth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""fetal rate; foetal death rate; stillbirth rate""]}]",8,subentry,SEAlang Thai / RI,RI:29829,อั.*
+อัตราส่วนกิจกรรม,activity ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""activity ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29915,อั.*
+อัตราอย่างหยาบ,crude rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crude rate""]}]",8,subentry,SEAlang Thai / RI,RI:29964,อั.*
+อับเมกะสปอร์,megasporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""megasporangium""]}]",8,subentry,SEAlang Thai / RI,RI:30088,อั.*
+จันทร์อังคาธ,lunar eclipse.,jan aŋ-kʰâat,jan aŋˈkʰâat,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""lunar eclipse.""]}]",8,subentry,SEAlang Thai / TDP,TDP:19325,อั.*
+อัตราการพอกพูน,deposition rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""deposition rate""]}]",8,subentry,SEAlang Thai / RI,RI:29783,อั.*
+อัตราตามพิกัดอัตรา,tariff rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tariff rate""]}]",8,subentry,SEAlang Thai / RI,RI:29817,อั.*
+อัตราตายจำเพาะอายุ,age-specific death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific death rate""]}]",8,subentry,SEAlang Thai / RI,RI:29831,อั.*
+อัตราส่วนภาวะการตายปรับเข้ามาตรฐาน,standardized mortality ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""standardized mortality ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29929,อั.*
+อัตราเกิดทดแทน,reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""reproduction rate""]}]",8,subentry,SEAlang Thai / RI,RI:29971,อั.*
+อัตราเบี้ยประกันภัยเดิม,original rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""original rate""]}]",8,subentry,SEAlang Thai / RI,RI:30018,อั.*
+อัตวินิบาตกรรมทางการเมือง,political suicide,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""political suicide""]}]",8,subentry,SEAlang Thai / RI,RI:30048,อั.*
+อับสปอร์ติดกัน,synangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""synangium""]}]",8,subentry,SEAlang Thai / RI,RI:30085,อั.*
+อับแป้ง,powder box (cosmetic); compact.,àp pɛ̂ɛŋ,àp ˈpɛ̂ɛŋ,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""powder box (cosmetic); compact.""]}]",8,subentry,SEAlang Thai / TDP,TDP:19374,อั.*
+อัมพาตเต็มที่,complete paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""complete paralysis""]}]",8,subentry,SEAlang Thai / RI,RI:30137,อั.*
+อัณฑะย้อย,orchidoptosis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orchidoptosis""]}]",8,subentry,SEAlang Thai / RI,RI:29749,อั.*
+อัตกายบริหาร,active exercise,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""active exercise""]}]",8,subentry,SEAlang Thai / RI,RI:29753,อั.*
+อัตราจำเพาะ,specific rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""specific rate""]}]",8,subentry,SEAlang Thai / RI,RI:29808,อั.*
+อัตราสมรส,marriage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""marriage rate""]}]",8,subentry,SEAlang Thai / RI,RI:29876,อั.*
+อัตราส่วนความเสียหายที่เกิดขึ้นแล้ว,incurred loss ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""incurred loss ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29920,อั.*
+อัตราส่วนค่าเสียหายพื้นฐาน,burning ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""burning ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29922,อั.*
+อัตราเกิดทดแทนรวม,gross reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gross reproduction rate""]}]",8,subentry,SEAlang Thai / RI,RI:29975,อั.*
+อักขระตั้งระยะ,tab character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tab character""]}]",8,subentry,SEAlang Thai / RI,RI:29707,อั.*
+อัครรัฐทูต,an envoy of ministerial rank.,àk-kʰa rát-tʰa tʰûut,àk.kʰa ˈrát.tʰa ˈtʰûut,N,"[{""n"": ""1"", ""pos"": [""N""], ""definitions"": [""an envoy of ministerial rank.""]}]",8,subentry,SEAlang Thai / TDP,TDP:19320,อั.*
+อัญมณีทรงหลังเบี้ย,cabochon,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cabochon""]}]",8,subentry,SEAlang Thai / RI,RI:29740,อั.*
+อัตตาณัติของศาล,judicial autonomy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""judicial autonomy""]}]",8,subentry,SEAlang Thai / RI,RI:29758,อั.*
+อัตราภาวะการเจ็บป่วย,morbidity rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""morbidity rate""]}]",8,subentry,SEAlang Thai / RI,RI:29868,อั.*
+อัตราส่วนการไม่รู้หนังสือ,illiteracy ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""illiteracy ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29914,อั.*
+อัตราส่วนรอดชีพ,survival ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""survival ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29933,อั.*
+อัตราเกิดทดแทนสุทธิ,net reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""net reproduction rate""]}]",8,subentry,SEAlang Thai / RI,RI:29978,อั.*
+อัตราเบี้ยประกันภัยทรัพย์สินในอาคาร,contents rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""contents rate""]}]",8,subentry,SEAlang Thai / RI,RI:30015,อั.*
+อัตราเบี้ยประกันภัยสิ่งปลูกสร้าง,building rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""building rate""]}]",8,subentry,SEAlang Thai / RI,RI:30017,อั.*
+อัตราเร็วเครื่องยนต์,engine speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""engine speed""]}]",8,subentry,SEAlang Thai / RI,RI:30039,อั.*
+อัตโนมัติกรรม,automation,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""automation""]}]",8,subentry,SEAlang Thai / RI,RI:30052,อั.*
+อับเรณูชิดกัน,synandrium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""synandrium""]}]",8,subentry,SEAlang Thai / RI,RI:30091,อั.*
+อัมพาตลำไส้,enteroplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""enteroplegia""]}]",8,subentry,SEAlang Thai / RI,RI:30125,อั.*
+อัมพาตเฉพาะส่วน,local paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""local paralysis""]}]",8,subentry,SEAlang Thai / RI,RI:30136,อั.*
+อัลลีโลมอร์ฟ,allelomorph (สิ่งที่เป็นคู่กับสิ่งอื่น),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""allelomorph (สิ่งที่เป็นคู่กับสิ่งอื่น)""]}]",8,subentry,SEAlang Thai / RI,RI:30160,อั.*
+อัตราทดเพลา,axle ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""axle ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29842,อั.*
+อัตราที่แก้ไข,corrected rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""corrected rate""]}]",8,subentry,SEAlang Thai / RI,RI:29848,อั.*
+อัตราภาวะการตาย,mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""mortality rate""]}]",8,subentry,SEAlang Thai / RI,RI:29857,อั.*
+อัตราส่วนการรวมรังสี,concentration ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""concentration ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29906,อั.*
+อัตราส่วนเด็กต่อสตรี,child-woman ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""child-woman ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29943,อั.*
+อัตราส่วนแรงยกต่อแรงต้าน,lift drag ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lift drag ratio""]}]",8,subentry,SEAlang Thai / RI,RI:29947,อั.*
+อัตราหัวใจเต้นเร็ว,tachycardia; tachyrhythmia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tachycardia; tachyrhythmia""]}]",8,subentry,SEAlang Thai / RI,RI:29957,อั.*
+อัตราเร็วเดินเบา,idle speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""idle speed""]}]",8,subentry,SEAlang Thai / RI,RI:30040,อั.*
+อันตรวินิจ,introspection,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""introspection""]}]",8,subentry,SEAlang Thai / RI,RI:30065,อั.*
+อันตเหตุ,final cause,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""final cause""]}]",8,subentry,SEAlang Thai / RI,RI:30076,อั.*
+อัมพาตกล้ามเนื้อกลอกตา,external ophthalmoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""external ophthalmoplegia""]}]",8,subentry,SEAlang Thai / RI,RI:30105,อั.*
+อักขระตรวจสอบ,check character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""check character""]}]",9,subentry,SEAlang Thai / RI,RI:29704,อั.*
+อักขระเติมหน้า,prefix character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""prefix character""]}]",9,subentry,SEAlang Thai / RI,RI:29716,อั.*
+อักษรทดสอบสายตา,test type,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""test type""]}]",9,subentry,SEAlang Thai / RI,RI:29722,อั.*
+อัตรากระแสลด,slope-down,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""slope-down""]}]",9,subentry,SEAlang Thai / RI,RI:29772,อั.*
+อัตรากระแสเพิ่ม,slope-up,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""slope-up""]}]",9,subentry,SEAlang Thai / RI,RI:29773,อั.*
+อัตราการย้ายถิ่นรวมทุกอันดับ,all orders migration rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""all orders migration rate""]}]",9,subentry,SEAlang Thai / RI,RI:29785,อั.*
+อัตราการย้ายถิ่นรวมรายปี,annual rate of total migration,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""annual rate of total migration""]}]",9,subentry,SEAlang Thai / RI,RI:29786,อั.*
+อัตราการย้ายถิ่นรายปี,annual migration rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""annual migration rate""]}]",9,subentry,SEAlang Thai / RI,RI:29787,อั.*
+อัตราการย้ายถิ่นสุทธิรายปี,annual rate of net migration,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""annual rate of net migration""]}]",9,subentry,SEAlang Thai / RI,RI:29788,อั.*
+อัตราการออกจากกำลังแรงงาน,rate of separation from the labour force,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rate of separation from the labour force""]}]",9,subentry,SEAlang Thai / RI,RI:29792,อั.*
+อัตราความชันกระแส,rate of slope,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rate of slope""]}]",9,subentry,SEAlang Thai / RI,RI:29802,อั.*
+อัตราจำเพาะช่วงเวลา,duration-specific rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""duration-specific rate""]}]",9,subentry,SEAlang Thai / RI,RI:29809,อั.*
+อัตราจำเพาะอายุ,age-specific rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific rate""]}]",9,subentry,SEAlang Thai / RI,RI:29810,อั.*
+อัตราตรวจชำระใหม่,revised rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""revised rate""]}]",9,subentry,SEAlang Thai / RI,RI:29814,อั.*
+อัตราตามรุ่น,cohort rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cohort rate""]}]",9,subentry,SEAlang Thai / RI,RI:29818,อั.*
+อัตราตามรุ่นวัย,generation rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""generation rate""]}]",9,subentry,SEAlang Thai / RI,RI:29819,อั.*
+อัตราตายกลางช่วง,central death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""central death rate""]}]",9,subentry,SEAlang Thai / RI,RI:29823,อั.*
+อัตราตายของประชากรคงที่,death rate of the stationary population,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""death rate of the stationary population""]}]",9,subentry,SEAlang Thai / RI,RI:29824,อั.*
+อัตราตายของผู้ป่วยรายโรค,case fatality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""case fatality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29825,อั.*
+อัตราตายของเด็กหลังวัยทารก,post-infantile child death rate (ระหว่าง ๑-๔ ปี),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""post-infantile child death rate (ระหว่าง ๑-๔ ปี)""]}]",9,subentry,SEAlang Thai / RI,RI:29827,อั.*
+อัตราตายคงตัว,stable death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stable death rate""]}]",9,subentry,SEAlang Thai / RI,RI:29828,อั.*
+อัตราตายจำเพาะสาเหตุ,cause-specific death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cause-specific death rate""]}]",9,subentry,SEAlang Thai / RI,RI:29830,อั.*
+อัตราตายจำเพาะเพศและอายุ,sex-age-specific death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sex-age-specific death rate""]}]",9,subentry,SEAlang Thai / RI,RI:29832,อั.*
+อัตราตายตามตารางชีพ,life table death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""life table death rate""]}]",9,subentry,SEAlang Thai / RI,RI:29833,อั.*
+อัตราตายปรับเข้ามาตรฐานโดยอ้อม,indirectly standardized death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""indirectly standardized death rate""]}]",9,subentry,SEAlang Thai / RI,RI:29834,อั.*
+อัตราตายในตัว,intrinsic death rate (ประชากรปิด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intrinsic death rate (ประชากรปิด)""]}]",9,subentry,SEAlang Thai / RI,RI:29836,อั.*
+อัตราทำแท้งชั่วชีวิต,lifetime abortion rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lifetime abortion rate""]}]",9,subentry,SEAlang Thai / RI,RI:29846,อั.*
+อัตราที่ปรับแล้ว,adjusted rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""adjusted rate""]}]",9,subentry,SEAlang Thai / RI,RI:29847,อั.*
+อัตราปรับเข้ามาตรฐาน,standardized rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""standardized rate""]}]",9,subentry,SEAlang Thai / RI,RI:29853,อั.*
+อัตราภาวะการตายของทารก,infant mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""infant mortality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29858,อั.*
+อัตราภาวะการตายของทารกที่ปรับแล้ว,adjusted infant mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""adjusted infant mortality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29859,อั.*
+อัตราภาวะการตายของทารกแรกเกิด,neo-natal mortality rate (๔ สัปดาห์หลังคลอด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""neo-natal mortality rate (๔ สัปดาห์หลังคลอด)""]}]",9,subentry,SEAlang Thai / RI,RI:29860,อั.*
+อัตราภาวะการตายของทารกแรกเกิดระยะต้น,early neo-natal mortality rate (๑ สัปดาห์หลังคลอด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""early neo-natal mortality rate (๑ สัปดาห์หลังคลอด)""]}]",9,subentry,SEAlang Thai / RI,RI:29861,อั.*
+อัตราภาวะการตายของทารกในครรภ์,foetal mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""foetal mortality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29862,อั.*
+อัตราภาวะการตายของทารกในครรภ์ระยะหลัง,late foetal mortality rate (ภายหลังสัปดาห์ที่ ๒๘),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""late foetal mortality rate (ภายหลังสัปดาห์ที่ ๒๘)""]}]",9,subentry,SEAlang Thai / RI,RI:29863,อั.*
+อัตราภาวะการตายที่ปรับแล้ว,adjusted mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""adjusted mortality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29864,อั.*
+อัตราภาวะการตายปรับเข้ามาตรฐาน,standardized mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""standardized mortality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29865,อั.*
+อัตราภาวะการตายปริชาตะ,perinatal mortality rate (อัตราภาวะการตายของทารกก่อนคลอดหรือแรกเกิด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""perinatal mortality rate (อัตราภาวะการตายของทารกก่อนคลอดหรือแรกเกิด)""]}]",9,subentry,SEAlang Thai / RI,RI:29866,อั.*
+อัตราภาวะการตายมาตรฐาน,standard mortality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""standard mortality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29867,อั.*
+อัตราภาวะสมรส,nuptiality rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""nuptiality rate""]}]",9,subentry,SEAlang Thai / RI,RI:29869,อั.*
+อัตรายู่เสียดทาน,burn-off rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""burn-off rate""]}]",9,subentry,SEAlang Thai / RI,RI:29871,อั.*
+อัตราสมรสครั้งแรก,first marriage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""first marriage rate""]}]",9,subentry,SEAlang Thai / RI,RI:29877,อั.*
+อัตราสมรสครั้งใหม่,remarriage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""remarriage rate""]}]",9,subentry,SEAlang Thai / RI,RI:29878,อั.*
+อัตราสมรสจำเพาะอายุ,age-specific marriage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific marriage rate""]}]",9,subentry,SEAlang Thai / RI,RI:29879,อั.*
+อัตราสมรสจำเพาะเพศ,sex-specific marriage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sex-specific marriage rate""]}]",9,subentry,SEAlang Thai / RI,RI:29880,อั.*
+อัตราสมรสอย่างหยาบ,crude marriage rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crude marriage rate""]}]",9,subentry,SEAlang Thai / RI,RI:29881,อั.*
+อัตราสืบแทนพันธุ์,reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29884,อั.*
+อัตราสืบแทนพันธุ์จากการสมรส,nuptial reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""nuptial reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29885,อั.*
+อัตราสืบแทนพันธุ์ตามรุ่น,cohort reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cohort reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29886,อั.*
+อัตราสืบแทนพันธุ์รวม,gross reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gross reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29887,อั.*
+อัตราสืบแทนพันธุ์รวมตามช่วงเวลา,period gross reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""period gross reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29888,อั.*
+อัตราสืบแทนพันธุ์ร่วม,joint reproduction rate (ทั้งสองเพศ),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""joint reproduction rate (ทั้งสองเพศ)""]}]",9,subentry,SEAlang Thai / RI,RI:29889,อั.*
+อัตราสืบแทนพันธุ์สุทธิ,net reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""net reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29890,อั.*
+อัตราสืบแทนพันธุ์เพศชาย,male reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""male reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29891,อั.*
+อัตราสืบแทนพันธุ์เพศพ่อ,paternal reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""paternal reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29892,อั.*
+อัตราสืบแทนพันธุ์เพศหญิง,female reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""female reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29893,อั.*
+อัตราสืบแทนพันธุ์เพศแม่,maternal reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""maternal reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29894,อั.*
+อัตราส่วนการตายคลอด,stillbirth ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stillbirth ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29899,อั.*
+อัตราส่วนการตายจำเพาะสาเหตุ,cause-specific death ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cause-specific death ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29900,อั.*
+อัตราส่วนการพึ่งพิงตามวัย,age dependency ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age dependency ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29903,อั.*
+อัตราส่วนการพึ่งพิงทางเศรษฐกิจ,economic dependency ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""economic dependency ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29904,อั.*
+อัตราส่วนการมาเรียน,attendance ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""attendance ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29905,อั.*
+อัตราส่วนการรู้หนังสือ,literacy ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""literacy ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29907,อั.*
+อัตราส่วนการอิ่มตัว,saturation ration,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""saturation ration""]}]",9,subentry,SEAlang Thai / RI,RI:29909,อั.*
+อัตราส่วนการเกิดต่อการสมรส,ratio of births to marriages,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ratio of births to marriages""]}]",9,subentry,SEAlang Thai / RI,RI:29910,อั.*
+อัตราส่วนการเกิดไม่ชอบด้วยกฎหมาย,illegitimacy ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""illegitimacy ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29911,อั.*
+อัตราส่วนก้าวหน้าของภาวะเคยคลอด,parity progression ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""parity progression ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29916,อั.*
+อัตราส่วนขนาดท่อลม,aspect ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aspect ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29917,อั.*
+อัตราส่วนของอัตราเร็วเฉพาะที่,local speed ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""local speed ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29918,อั.*
+อัตราส่วนปฏิบัติการ,operating ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""operating ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29924,อั.*
+อัตราส่วนปริมาณสัมพันธ์,stoichiometric ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stoichiometric ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29925,อั.*
+อัตราส่วนผู้ลงทะเบียนเรียน,enrollment ratio (ต่อประชากรในวัยเรียน),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""enrollment ratio (ต่อประชากรในวัยเรียน)""]}]",9,subentry,SEAlang Thai / RI,RI:29926,อั.*
+อัตราส่วนภาวะการตายของทารกในครรภ์,foetal mortality ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""foetal mortality ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29927,อั.*
+อัตราส่วนภาวะการตายของทารกในครรภ์ระยะหลัง,late foetal mortality ratio (ภายหลังสัปดาห์ที่ ๒๘),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""late foetal mortality ratio (ภายหลังสัปดาห์ที่ ๒๘)""]}]",9,subentry,SEAlang Thai / RI,RI:29928,อั.*
+อัตราส่วนภาวะการตายปริชาตะ,perinatal mortality ratio (อัตราส่วนภาวะการตายของทารกก่อนคลอดหรือแรกเกิด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""perinatal mortality ratio (อัตราส่วนภาวะการตายของทารกก่อนคลอดหรือแรกเกิด)""]}]",9,subentry,SEAlang Thai / RI,RI:29930,อั.*
+อัตราส่วนภาวะการเจ็บป่วย,morbidity ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""morbidity ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29931,อั.*
+อัตราส่วนยาวต่อกว้าง,aspect ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aspect ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29932,อั.*
+อัตราส่วนลักษณะยาง,aspect ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""aspect ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29936,อั.*
+อัตราส่วนหัวหน้าครัวเรือน,headship ratio (จำแนกตามลักษณะ),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""headship ratio (จำแนกตามลักษณะ)""]}]",9,subentry,SEAlang Thai / RI,RI:29940,อั.*
+อัตราส่วนอัตราเร็วปลายใบพัด,tip speed ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tip speed ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29941,อั.*
+อัตราส่วนแรงต้านต่อแรงยก,drag lift ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""drag lift ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29946,อั.*
+อัตราส่วนโซลิดิตี,solidity ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""solidity ratio""]}]",9,subentry,SEAlang Thai / RI,RI:29948,อั.*
+อัตราหย่าของคู่สมรส,divorce rate for married persons,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""divorce rate for married persons""]}]",9,subentry,SEAlang Thai / RI,RI:29950,อั.*
+อัตราหย่าจำเพาะช่วงเวลา,duration-specific divorce rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""duration-specific divorce rate""]}]",9,subentry,SEAlang Thai / RI,RI:29951,อั.*
+อัตราหย่าจำเพาะอายุ,age-specific divorce rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific divorce rate""]}]",9,subentry,SEAlang Thai / RI,RI:29952,อั.*
+อัตราหย่าอย่างหยาบ,crude divorce rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crude divorce rate""]}]",9,subentry,SEAlang Thai / RI,RI:29953,อั.*
+อัตราเกิดคงตัว,stable birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""stable birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29967,อั.*
+อัตราเกิดจำเพาะอันดับการคลอด,parity-specific birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""parity-specific birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29968,อั.*
+อัตราเกิดจำเพาะอายุ,age-specific birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29969,อั.*
+อัตราเกิดชอบด้วยกฎหมาย,legitimate birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""legitimate birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29970,อั.*
+อัตราเกิดทดแทนจากการสมรส,nuptial reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""nuptial reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29972,อั.*
+อัตราเกิดทดแทนตามรุ่น,cohort reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cohort reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29973,อั.*
+อัตราเกิดทดแทนตามรุ่นวัย,generation reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""generation reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29974,อั.*
+อัตราเกิดทดแทนรวมตามช่วงเวลา,period gross reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""period gross reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29976,อั.*
+อัตราเกิดทดแทนร่วม,joint reproduction rate (ทั้งสองเพศ),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""joint reproduction rate (ทั้งสองเพศ)""]}]",9,subentry,SEAlang Thai / RI,RI:29977,อั.*
+อัตราเกิดทดแทนเพศชาย,male reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""male reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29979,อั.*
+อัตราเกิดทดแทนเพศพ่อ,paternal reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""paternal reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29980,อั.*
+อัตราเกิดทดแทนเพศหญิง,female reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""female reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29981,อั.*
+อัตราเกิดทดแทนเพศแม่,maternal reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""maternal reproduction rate""]}]",9,subentry,SEAlang Thai / RI,RI:29982,อั.*
+อัตราเกิดปรับตามมาตรฐาน,standardized birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""standardized birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29983,อั.*
+อัตราเกิดรวม,total birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""total birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29984,อั.*
+อัตราเกิดในตัว,intrinsic birth rate (ประชากรปิด),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intrinsic birth rate (ประชากรปิด)""]}]",9,subentry,SEAlang Thai / RI,RI:29986,อั.*
+อัตราเกิดไม่ชอบด้วยกฎหมาย,illegitimate birth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""illegitimate birth rate""]}]",9,subentry,SEAlang Thai / RI,RI:29987,อั.*
+อัตราเจริญพันธุ์ของชาย,male fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""male fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29989,อั.*
+อัตราเจริญพันธุ์ของผู้สมรส,marital fertility rate (ตามกฎหมาย),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""marital fertility rate (ตามกฎหมาย)""]}]",9,subentry,SEAlang Thai / RI,RI:29990,อั.*
+อัตราเจริญพันธุ์ของผู้สมรสจำเพาะอายุ,age-specific marital fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific marital fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29991,อั.*
+อัตราเจริญพันธุ์ของผู้ไม่สมรส,non-marital fertility rate (ตามกฎหมาย),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""non-marital fertility rate (ตามกฎหมาย)""]}]",9,subentry,SEAlang Thai / RI,RI:29992,อั.*
+อัตราเจริญพันธุ์ของหญิง,female fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""female fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29993,อั.*
+อัตราเจริญพันธุ์จำเพาะช่วงเวลาสมรส,marriage duration specific fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""marriage duration specific fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29994,อั.*
+อัตราเจริญพันธุ์จำเพาะอันดับ,order-specific fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""order-specific fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29995,อั.*
+อัตราเจริญพันธุ์จำเพาะอันดับการคลอด,parity-specific fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""parity-specific fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29996,อั.*
+อัตราเจริญพันธุ์จำเพาะอายุ,age-specific fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""age-specific fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29997,อั.*
+อัตราเจริญพันธุ์ชอบด้วยกฎหมาย,legitimate fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""legitimate fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:29998,อั.*
+อัตราเจริญพันธุ์รวมจำเพาะอันดับการเกิด,order-specific total fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""order-specific total fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:30002,อั.*
+อัตราเจริญพันธุ์รวมที่ชอบด้วยกฎหมาย,total legitimate fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""total legitimate fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:30003,อั.*
+อัตราเจริญพันธุ์ไม่ชอบด้วยกฎหมาย,illegitimate fertility rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""illegitimate fertility rate""]}]",9,subentry,SEAlang Thai / RI,RI:30004,อั.*
+อัตราเติบโตที่เหมาะที่สุด,optimum rate of growth,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""optimum rate of growth""]}]",9,subentry,SEAlang Thai / RI,RI:30010,อั.*
+อัตราเติบโตแบบชี้กำลัง,exponential growth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""exponential growth rate""]}]",9,subentry,SEAlang Thai / RI,RI:30012,อั.*
+อัตราเพิ่มตามธรรมชาติที่แท้จริง,true rate of natural increase,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""true rate of natural increase""]}]",9,subentry,SEAlang Thai / RI,RI:30023,อั.*
+อัตราเพิ่มตามธรรมชาติอย่างหยาบ,crude rate of natural increase,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crude rate of natural increase""]}]",9,subentry,SEAlang Thai / RI,RI:30024,อั.*
+อัตราเพิ่มตามธรรมชาติในตัว,intrinsic rate of natural increase,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intrinsic rate of natural increase""]}]",9,subentry,SEAlang Thai / RI,RI:30025,อั.*
+อัตราเพิ่มแบบชี้กำลัง,exponential growth rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""exponential growth rate""]}]",9,subentry,SEAlang Thai / RI,RI:30027,อั.*
+อัตราเร็วลมที่จุดออกแบบ,design wind speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""design wind speed""]}]",9,subentry,SEAlang Thai / RI,RI:30031,อั.*
+อัตราเร็วลมพิกัด,rated wind speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""rated wind speed""]}]",9,subentry,SEAlang Thai / RI,RI:30032,อั.*
+อัตราเร็วลมหยุดงาน,cut-out wind speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cut-out wind speed""]}]",9,subentry,SEAlang Thai / RI,RI:30033,อั.*
+อัตราเร็วลมเฉลี่ย,average wind speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""average wind speed""]}]",9,subentry,SEAlang Thai / RI,RI:30034,อั.*
+อัตราเร็วลมเริ่มงาน,cut-in wind speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cut-in wind speed""]}]",9,subentry,SEAlang Thai / RI,RI:30035,อั.*
+อัตราเร็วลมเริ่มต้น,starting wind speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""starting wind speed""]}]",9,subentry,SEAlang Thai / RI,RI:30036,อั.*
+อัตราเร็วสมวาร,synchronous speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""synchronous speed""]}]",9,subentry,SEAlang Thai / RI,RI:30038,อั.*
+อัตราเสียดทาน,friction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""friction rate""]}]",9,subentry,SEAlang Thai / RI,RI:30043,อั.*
+อันดับการคลอด,confinement order,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""confinement order""]}]",9,subentry,SEAlang Thai / RI,RI:30056,อั.*
+อันดับการตั้งครรภ์,pregnancy order,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pregnancy order""]}]",9,subentry,SEAlang Thai / RI,RI:30057,อั.*
+อันดับการย้ายถิ่น,order of migration,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""order of migration""]}]",9,subentry,SEAlang Thai / RI,RI:30058,อั.*
+อันดับเรียงตามสดมภ์,column-major order,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""column-major order""]}]",9,subentry,SEAlang Thai / RI,RI:30061,อั.*
+อันตปัจจัย,final cause,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""final cause""]}]",9,subentry,SEAlang Thai / RI,RI:30062,อั.*
+อันตรกิริยานิยม,interactionism,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""interactionism""]}]",9,subentry,SEAlang Thai / RI,RI:30064,อั.*
+อับเซลล์สืบพันธุ์,gametangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""gametangium""]}]",9,subentry,SEAlang Thai / RI,RI:30087,อั.*
+อัมพาตกล้ามเนื้อกลอกตาบางมัด,partial ophthalmoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""partial ophthalmoplegia""]}]",9,subentry,SEAlang Thai / RI,RI:30106,อั.*
+อัมพาตกล้ามเนื้อม่านตา,internal ophthalmoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""internal ophthalmoplegia""]}]",9,subentry,SEAlang Thai / RI,RI:30108,อั.*
+อัมพาตม่านตา,iridoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""iridoplegia""]}]",9,subentry,SEAlang Thai / RI,RI:30123,อั.*
+อัมพาตรูม่านตา,tonic pupil; pupillatonia; pupilloplegia; pupillotonia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""tonic pupil; pupillatonia; pupilloplegia; pupillotonia""]}]",9,subentry,SEAlang Thai / RI,RI:30124,อั.*
+อัมพาตลิ้น,glossoplegia; lingual paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""glossoplegia; lingual paralysis""]}]",9,subentry,SEAlang Thai / RI,RI:30126,อั.*
+อัมพาตสองข้าง,diplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""diplegia""]}]",9,subentry,SEAlang Thai / RI,RI:30128,อั.*
+อัมพาตอ่อนเปียก,flaccid paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""flaccid paralysis""]}]",9,subentry,SEAlang Thai / RI,RI:30135,อั.*
+ขอให้ดูตัวอย่างอันนั้น,Let's look at that example.,kʰɔ̌ɔ hây duu tua yàaŋ an nán,kʰɔ̌ɔ hây ˈduu tua ˈyàaŋ an ˈnán↓,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Let's look at that example.""]}]",1,subentry,SEAlang Thai / TDP,TDP:2157,อั.*
+ลิ้น  (เปิดปิด)  อักเสบ,valvulitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""valvulitis""]}]",,subentry,SEAlang Thai / RI,RI:24651,อั.*
+"หลอดเลือดดำ, หลอดน้ำเหลือง)  อักเสบ",plexitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""plexitis""]}]",,subentry,SEAlang Thai / RI,RI:28919,อั.*
+อักขระขึ้นต้นบรรทัดใหม่,carriage-return line feed (CRLF) (ซีอาร์แอลเอฟ),,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""carriage-return line feed (CRLF) (ซีอาร์แอลเอฟ)""]}]",1,subentry,SEAlang Thai / RI,RI:29698,อั.*
+อักขระควบคุมอุปกรณ์,device control character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""device control character""]}]",1,subentry,SEAlang Thai / RI,RI:29701,อั.*
+อักขระคั่นข้อมูล,data delimiter,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""data delimiter""]}]",1,subentry,SEAlang Thai / RI,RI:29703,อั.*
+อักขระตรวจสอบมอดูล,modular check character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""modular check character""]}]",1,subentry,SEAlang Thai / RI,RI:29705,อั.*
+อักขระประสานเวลา,sync character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sync character""]}]",1,subentry,SEAlang Thai / RI,RI:29709,อั.*
+อักขระลบทิ้ง,erase character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""erase character""]}]",1,subentry,SEAlang Thai / RI,RI:29711,อั.*
+อักขระเข้ารหัสฐานสอง,binary coded character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""binary coded character""]}]",1,subentry,SEAlang Thai / RI,RI:29715,อั.*
+อักขระเมิน,ignore character,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ignore character""]}]",1,subentry,SEAlang Thai / RI,RI:29718,อั.*
+อักษรตัวต้นประดิษฐ์,historiated initial,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""historiated initial""]}]",1,subentry,SEAlang Thai / RI,RI:29721,อั.*
+อัญกายบริหาร,passive exercise,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""passive exercise""]}]",1,subentry,SEAlang Thai / RI,RI:29736,อั.*
+อัณฑะกระด้าง,orchioscirrhus,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orchioscirrhus""]}]",1,subentry,SEAlang Thai / RI,RI:29744,อั.*
+อัณฑะกระตุก,orchichorea,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orchichorea""]}]",1,subentry,SEAlang Thai / RI,RI:29745,อั.*
+อัณฑะกลับหัว,inverted testis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""inverted testis""]}]",1,subentry,SEAlang Thai / RI,RI:29746,อั.*
+อัณฑะผิดที่,ectopic testis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ectopic testis""]}]",1,subentry,SEAlang Thai / RI,RI:29748,อั.*
+อัตรา ณ ขณะหนึ่ง,instantaneous rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""instantaneous rate""]}]",1,subentry,SEAlang Thai / RI,RI:29768,อั.*
+อัตรา(เลือด)นอนก้น,sedimentation rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sedimentation rate""]}]",,subentry,SEAlang Thai / RI,RI:29769,อั.*
+อัตรากดยู่,forge rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""forge rate""]}]",1,subentry,SEAlang Thai / RI,RI:29771,อั.*
+อัตราการกราดตรวจ,scanning rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""scanning rate""]}]",1,subentry,SEAlang Thai / RI,RI:29775,อั.*
+อัตราการครองธาตุพื้นฐาน,basal metabolic rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""basal metabolic rate""]}]",1,subentry,SEAlang Thai / RI,RI:29779,อั.*
+อัตราการสร้างและสลายพื้นฐาน,basal metabolic rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""basal metabolic rate""]}]",1,subentry,SEAlang Thai / RI,RI:29790,อั.*
+อัตราการแปลงผัน,conversion rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""conversion rate""]}]",1,subentry,SEAlang Thai / RI,RI:29800,อั.*
+อัตราตาย ณ ขณะอายุหนึ่ง,instantaneous death rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""instantaneous death rate""]}]",1,subentry,SEAlang Thai / RI,RI:29821,อั.*
+อัตราปรสิต,parasite rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""parasite rate""]}]",1,subentry,SEAlang Thai / RI,RI:29852,อั.*
+อัตราสืบแทนพันธ์ตามรุ่นวัย,generation reproduction rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""generation reproduction rate""]}]",1,subentry,SEAlang Thai / RI,RI:29895,อั.*
+อัตราส่วนการทำแท้ง,abortion ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""abortion ratio""]}]",1,subentry,SEAlang Thai / RI,RI:29902,อั.*
+อัตราส่วนการเข้าร่วมในกำลังแรงงาน,labour force participation ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""labour force participation ratio""]}]",1,subentry,SEAlang Thai / RI,RI:29912,อั.*
+"อัตราส่วนการเลือก (ชัก, หา) ตัวอย่าง",sampling ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sampling ratio""]}]",,subentry,SEAlang Thai / RI,RI:29913,อั.*
+อัตราส่วนสัญญาณต่อสัญญาณแทรกสอด,signal-to-interference ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""signal-to-interference ratio""]}]",1,subentry,SEAlang Thai / RI,RI:29939,อั.*
+อัตราส่วนเอ/เอฟ,air-fuel ratio; A/F ratio,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""air-fuel ratio; A/F ratio""]}]",1,subentry,SEAlang Thai / RI,RI:29945,อั.*
+อัตราหัวใจห้องบนเต้นเร็ว,atrial tachycardia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""atrial tachycardia""]}]",1,subentry,SEAlang Thai / RI,RI:29954,อั.*
+อัตราหัวใจห้องล่างเต้นเร็ว,ventricular tachycardia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ventricular tachycardia""]}]",1,subentry,SEAlang Thai / RI,RI:29955,อั.*
+อัตราหัวใจเต้นเร็วชั่วขณะ,paroxysmal tachycardia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""paroxysmal tachycardia""]}]",1,subentry,SEAlang Thai / RI,RI:29958,อั.*
+อัตราหัวใจเต้นเร็วธรรมดา,sinus (เหตุปุ่มไซนัส) tachycardia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sinus (เหตุปุ่มไซนัส) tachycardia""]}]",1,subentry,SEAlang Thai / RI,RI:29959,อั.*
+อัตราหัวใจเต้นเร็วเวลาลุก,orthostatic tachycardia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""orthostatic tachycardia""]}]",1,subentry,SEAlang Thai / RI,RI:29960,อั.*
+อัตราหัวใจเต้นเร็วเหตุรีเฟล็กซ์,reflex tachycardia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""reflex tachycardia""]}]",1,subentry,SEAlang Thai / RI,RI:29961,อั.*
+อัตราเติบโต ณ ขณะหนึ่ง,instantaneous rate of growth,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""instantaneous rate of growth""]}]",1,subentry,SEAlang Thai / RI,RI:30008,อั.*
+อัตราเพิ่ม ณ ขณะหนึ่ง,instantaneous rate of growth,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""instantaneous rate of growth""]}]",1,subentry,SEAlang Thai / RI,RI:30021,อั.*
+อัตราเร็วกดยู่,forge speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""forge speed""]}]",1,subentry,SEAlang Thai / RI,RI:30028,อั.*
+อัตราเร็วการเชื่อม,welding speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""welding speed""]}]",1,subentry,SEAlang Thai / RI,RI:30029,อั.*
+อัตราเร็วยู่,upset speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""upset speed""]}]",1,subentry,SEAlang Thai / RI,RI:30030,อั.*
+อัตราเร็ววาบ,flashing speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""flashing speed""]}]",1,subentry,SEAlang Thai / RI,RI:30037,อั.*
+อัตราเร็วเสียดทาน,friction speed,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""friction speed""]}]",1,subentry,SEAlang Thai / RI,RI:30041,อั.*
+อัตราเลือดไหลเวียน,circulation rate,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""circulation rate""]}]",1,subentry,SEAlang Thai / RI,RI:30042,อั.*
+อัตเลขน์,autograph,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""autograph""]}]",1,subentry,SEAlang Thai / RI,RI:30050,อั.*
+อันจะปรับเป็นความผิดได้,imputable,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""imputable""]}]",1,subentry,SEAlang Thai / RI,RI:30054,อั.*
+อันตรสมรส,intermarriage,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""intermarriage""]}]",1,subentry,SEAlang Thai / RI,RI:30066,อั.*
+อันตรายที่จำเป็นต้องเสี่ยง,alternative danger,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""alternative danger""]}]",1,subentry,SEAlang Thai / RI,RI:30069,อั.*
+อับคาร์โพสปอร์,carposporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""carposporangium""]}]",1,subentry,SEAlang Thai / RI,RI:30078,อั.*
+อับซูโอสปอร์,zoosporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""zoosporangium""]}]",1,subentry,SEAlang Thai / RI,RI:30079,อั.*
+อับสตรักซียง-เกรอาซียง,Abstraction-Cr�ation,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""Abstraction-Cr�ation""]}]",,subentry,SEAlang Thai / RI,RI:30080,อั.*
+อับสปอร์จากหลายเซลล์,eusporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""eusporangium""]}]",1,subentry,SEAlang Thai / RI,RI:30083,อั.*
+อับสปอร์จากเซลล์เดียว,leptosporangium [เฟิร์น],,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""leptosporangium [เฟิร์น]""]}]",1,subentry,SEAlang Thai / RI,RI:30084,อั.*
+อับสปอร์มีสปอร์น้อย,sporangiolum,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sporangiolum""]}]",1,subentry,SEAlang Thai / RI,RI:30086,อั.*
+อับสองใบ,two containers.,àp sɔ̌ɔŋ bay,ˈàp sɔ̌ɔŋ ˈbay,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""two containers.""]}]",1,subentry,SEAlang Thai / TDP,TDP:19373,อั.*
+อับแมโครสปอร์,macrosporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""macrosporangium""]}]",1,subentry,SEAlang Thai / RI,RI:30092,อั.*
+อับไซโกสปอร์,zygosporangium,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""zygosporangium""]}]",1,subentry,SEAlang Thai / RI,RI:30093,อั.*
+อัมพฤกษ์ประสาทหลอดเลือด,vasoparesis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""vasoparesis""]}]",1,subentry,SEAlang Thai / RI,RI:30099,อั.*
+อัมพฤกษ์สี่ขา,quadriparesis; tetraparesis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""quadriparesis; tetraparesis""]}]",1,subentry,SEAlang Thai / RI,RI:30100,อั.*
+อัมพฤกษ์แขนขาสองข้าง,quadriparesis; tetraparesis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""quadriparesis; tetraparesis""]}]",1,subentry,SEAlang Thai / RI,RI:30101,อั.*
+อัมพาตกล้ามเนื้อตาทั้งหมด,total ophthalmoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""total ophthalmoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30107,อั.*
+อัมพาตกล้ามเนื้อเดียว,monomyoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""monomyoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30109,อั.*
+อัมพาตกะบังลม,phrenoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""phrenoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30110,อั.*
+อัมพาตก้านสมองส่วนท้าย,bulbar palsy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""bulbar palsy""]}]",1,subentry,SEAlang Thai / RI,RI:30111,อั.*
+อัมพาตขาเหยียดเกร็ง,scelotyrbe,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""scelotyrbe""]}]",1,subentry,SEAlang Thai / RI,RI:30112,อั.*
+อัมพาตคอหอย,pharyngoparalysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pharyngoparalysis""]}]",1,subentry,SEAlang Thai / RI,RI:30115,อั.*
+อัมพาตทแยงซีก,alternate hemiplegia; crossed paralysis; cruciate paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""alternate hemiplegia; crossed paralysis; cruciate paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30118,อั.*
+อัมพาตท่อไต,ureterolysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ureterolysis""]}]",1,subentry,SEAlang Thai / RI,RI:30119,อั.*
+อัมพาตพิษตะกั่ว,lead paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""lead paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30120,อั.*
+อัมพาตพิษสารหนู,arsenical paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""arsenical paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30121,อั.*
+อัมพาตพิษสุรา,alcoholic paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""alcoholic paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30122,อั.*
+อัมพาตสี่ขา,quadriplegia; tetraplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""quadriplegia; tetraplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30130,อั.*
+อัมพาตส่วนความรู้สึก,sensory paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""sensory paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30131,อั.*
+อัมพาตหดเกร็ง,spastic paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""spastic paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30132,อั.*
+อัมพาตหลายส่วน,polyplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""polyplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30133,อั.*
+อัมพาตอวัยวะใช้พูด,logoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""logoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30134,อั.*
+อัมพาตเทียม,pseudoparalysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pseudoparalysis""]}]",1,subentry,SEAlang Thai / RI,RI:30138,อั.*
+อัมพาตเพดาน,palatoplegia; uranoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""palatoplegia; uranoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30140,อั.*
+อัมพาตเหตุกดทับ,pressure paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""pressure paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30141,อั.*
+อัมพาตเหตุกดอัด,compression paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""compression paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30142,อั.*
+อัมพาตเหตุขาดเลือด,ischaemic paralysis; ischemic paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ischaemic paralysis; ischemic paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30143,อั.*
+อัมพาตเหตุบาดเจ็บขณะคลอด,birth paralysis; obstetric paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""birth paralysis; obstetric paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30144,อั.*
+อัมพาตเหตุประสาท,neuroparalysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""neuroparalysis""]}]",1,subentry,SEAlang Thai / RI,RI:30145,อั.*
+อัมพาตเหตุประสาทส่วนกลาง,central paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""central paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30146,อั.*
+อัมพาตเหตุประสาทส่วนปลาย,peripheral paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""peripheral paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30147,อั.*
+อัมพาตเหตุสมอง,cerebral paralysis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""cerebral paralysis""]}]",1,subentry,SEAlang Thai / RI,RI:30148,อั.*
+อัมพาตเหตุไขว่ห้าง,crossed leg palsy; peroneal palsy,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""crossed leg palsy; peroneal palsy""]}]",1,subentry,SEAlang Thai / RI,RI:30149,อั.*
+อัมพาตแขนขาสองข้าง,quadriplegia; tetraplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""quadriplegia; tetraplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30150,อั.*
+อัมพาตแขนหรือขาเดียว,monoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""monoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30151,อั.*
+อัมพาตไส้ตรงและทวารหนัก,proctoparalysis; proctoplegia,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""proctoparalysis; proctoplegia""]}]",1,subentry,SEAlang Thai / RI,RI:30155,อั.*
+"แขนง  (ประสาท, หลอดเลือด)  อักเสบ",ramitis,,,,"[{""n"": ""1"", ""pos"": [], ""definitions"": [""ramitis""]}]",,subentry,SEAlang Thai / RI,RI:34915,อั.*

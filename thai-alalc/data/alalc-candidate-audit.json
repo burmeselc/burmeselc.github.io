@@ -1,11 +1,11 @@
 {
   "summary": {
-    "unique_lexical_records": 52432,
+    "unique_lexical_records": 54583,
     "sample_size": 150,
     "counts": {
-      "neither": 86,
-      "pronunciation_only": 59,
-      "agreement": 4,
+      "neither": 85,
+      "pronunciation_only": 61,
+      "agreement": 3,
       "disagreement": 1
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
@@ -164,6 +164,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "อัครภาคีผู้ทำสัญญา",
+      "source_id": "RI:29727",
+      "pronunciation": "",
+      "meaning": "high contracting party",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
       "pos": ""
     },
     {
@@ -363,6 +374,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
+    },
+    {
+      "thai": "อาการตัวเกร็งเหยียด",
+      "source_id": "RI:30326",
+      "pronunciation": "",
+      "meaning": "orthotonos; orthotonus",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "จำรัส",
@@ -695,6 +717,17 @@
       "pos": "V"
     },
     {
+      "thai": "อาการล่วงหน้า",
+      "source_id": "RI:30539",
+      "pronunciation": "",
+      "meaning": "precursory symptom; premonitory symptom; signal symptom",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "อาหารจานด่วน",
       "source_id": "LEX2.0:2614",
       "pronunciation": "",
@@ -871,6 +904,17 @@
       "pos": ""
     },
     {
+      "thai": "อัดแจ",
+      "source_id": "LEX2.0:15717",
+      "pronunciation": "àt jɛɛ",
+      "meaning": "name of Javanese city",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "at yǣ",
+      "comparison": "pronunciation_only",
+      "web_rank": "7",
+      "pos": "N"
+    },
+    {
       "thai": "ใคร",
       "source_id": "TDP:4100",
       "pronunciation": "kʰray",
@@ -891,6 +935,17 @@
       "comparison": "neither",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "อย่างสนใจ",
+      "source_id": "LEX2.0:4255",
+      "pronunciation": "",
+      "meaning": "interestedly, attentively",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "ADV"
     },
     {
       "thai": "โดยทั่วไป",
@@ -1344,6 +1399,17 @@
       "pos": ""
     },
     {
+      "thai": "อรูป",
+      "source_id": "LEX2.0:29986",
+      "pronunciation": "à rûup",
+      "meaning": "immaterial, formless; incorporeal; intangible, immaterial",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "a rūp",
+      "comparison": "pronunciation_only",
+      "web_rank": "2",
+      "pos": "ADJ"
+    },
+    {
       "thai": "ปูนแต่ง",
       "source_id": "RI:18509",
       "pronunciation": "",
@@ -1498,6 +1564,17 @@
       "pos": "N"
     },
     {
+      "thai": "อานิสงส์",
+      "source_id": "LEX2.0:15486",
+      "pronunciation": "aa ní sǒŋ",
+      "meaning": "result of merit, virtue; advantage, use",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "ā ni song",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "N"
+    },
+    {
       "thai": "บัญชีเงินสำรอง",
       "source_id": "RI:17360",
       "pronunciation": "",
@@ -1583,83 +1660,6 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "สังฆาณัติ",
-      "source_id": "RI:26606",
-      "pronunciation": "sǎŋ kʰaa nát",
-      "meaning": "canon",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "sang khā nat",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "ภาวะพร่องโภชนาการ",
-      "source_id": "RI:21012",
-      "pronunciation": "",
-      "meaning": "undernutrition",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ทำให้เบาบาง",
-      "source_id": "RI:15943",
-      "pronunciation": "",
-      "meaning": "attenuate",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "หาบ",
-      "source_id": "TDP:18628",
-      "pronunciation": "hàap",
-      "meaning": "to carry (something) at both ends of a pole placed on one's shoulder.",
-      "spelling_candidate": "hāp",
-      "pronunciation_candidate": "hāp",
-      "comparison": "agreement",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "ความสัมพันธ์ในศูนย์",
-      "source_id": "RI:11065",
-      "pronunciation": "",
-      "meaning": "centric relation",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ถุงน้ำเมือก",
-      "source_id": "RI:15398",
-      "pronunciation": "",
-      "meaning": "mucocele",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "สัจนิยมแบบภาพถ่าย",
-      "source_id": "RI:26625",
-      "pronunciation": "",
-      "meaning": "photo realism",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
       "pos": ""
     }
   ]
