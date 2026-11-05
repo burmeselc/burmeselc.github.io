@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 54583,
+    "unique_lexical_records": 55377,
     "sample_size": 150,
     "counts": {
       "neither": 85,
@@ -673,6 +673,17 @@
       "pos": ""
     },
     {
+      "thai": "อีดีไอ",
+      "source_id": "RI:31007",
+      "pronunciation": "",
+      "meaning": "EDI (electronic data interchange) (การสับเปลี่ยนข้อมูลอิเล็กทรอนิกส์)",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "สถานที่ติดตั้ง",
       "source_id": "RI:25899",
       "pronunciation": "",
@@ -978,6 +989,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "7",
+      "pos": ""
+    },
+    {
+      "thai": "อุบัติเหตุที่ไม่อาจหลีกเลี่ยงได้",
+      "source_id": "RI:31122",
+      "pronunciation": "",
+      "meaning": "unavoidable accident",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
       "pos": ""
     },
     {
@@ -1388,6 +1410,17 @@
       "pos": "V"
     },
     {
+      "thai": "อุดมการณ์เรียกร้องดินแดนของชนชาติเดียวกัน",
+      "source_id": "RI:31099",
+      "pronunciation": "",
+      "meaning": "irredentism",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "สรุปคดี",
       "source_id": "RI:26446",
       "pronunciation": "",
@@ -1628,39 +1661,6 @@
       "comparison": "neither",
       "web_rank": "3",
       "pos": "CONJ"
-    },
-    {
-      "thai": "บทแปดบาทสัมผัส",
-      "source_id": "RI:17126",
-      "pronunciation": "",
-      "meaning": "ottava rima",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "9",
-      "pos": ""
-    },
-    {
-      "thai": "ตารางสถิติ",
-      "source_id": "RI:15004",
-      "pronunciation": "",
-      "meaning": "statistical table",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "ซึ่งได้ทำหน้าที่สมบูรณ์แล้ว",
-      "source_id": "RI:13825",
-      "pronunciation": "",
-      "meaning": "functus officio",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
     }
   ]
 }
