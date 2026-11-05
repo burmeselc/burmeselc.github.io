@@ -1,12 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 55377,
+    "unique_lexical_records": 57808,
     "sample_size": 150,
     "counts": {
       "neither": 85,
-      "pronunciation_only": 61,
-      "agreement": 3,
-      "disagreement": 1
+      "pronunciation_only": 60,
+      "disagreement": 2,
+      "agreement": 3
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
     "complete_dictionary": false
@@ -266,6 +266,17 @@
       "pos": "N"
     },
     {
+      "thai": "เกณฑ์วิธีอินเทอร์เน็ตแบบสายอนุกรม",
+      "source_id": "RI:31309",
+      "pronunciation": "",
+      "meaning": "Serial Line Internet Protocol (SLIP) (สลิป)",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "สุดตัว",
       "source_id": "LEX2.0:32269",
       "pronunciation": "",
@@ -310,6 +321,17 @@
       "pos": ""
     },
     {
+      "thai": "เกี้ยวพาน",
+      "source_id": "LEX2.0:8328",
+      "pronunciation": "",
+      "meaning": "court, woo; entice; encircle; assail; flirt",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "V"
+    },
+    {
       "thai": "ฉีดพ่น",
       "source_id": "TDP:12719",
       "pronunciation": "cʰìit pʰôn",
@@ -341,6 +363,17 @@
       "comparison": "neither",
       "web_rank": "5",
       "pos": "V"
+    },
+    {
+      "thai": "เข้าผิดออกผิด",
+      "source_id": "RI:31607",
+      "pronunciation": "",
+      "meaning": "garbage out (GIGO) (กิโก) garbage in",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "ปวดกะโหลก",
@@ -407,6 +440,17 @@
       "comparison": "neither",
       "web_rank": "1",
       "pos": "N"
+    },
+    {
+      "thai": "เกา",
+      "source_id": "TDP:1659",
+      "pronunciation": "kaw",
+      "meaning": "to scratch (oneself) (with one's fingers).",
+      "spelling_candidate": "kao",
+      "pronunciation_candidate": "kaw",
+      "comparison": "disagreement",
+      "web_rank": "3",
+      "pos": "V"
     },
     {
       "thai": "ดีซีทีเอส",
@@ -550,6 +594,17 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
+    },
+    {
+      "thai": "เกลียว",
+      "source_id": "TDP:1630",
+      "pronunciation": "kliaw",
+      "meaning": "to be twisted.; twisted string.; spiral thread (of a screw), helical groove.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kliaw",
+      "comparison": "pronunciation_only",
+      "web_rank": "3",
+      "pos": "V; N"
     },
     {
       "thai": "ชั่วขณะ",
@@ -739,6 +794,17 @@
       "pos": ""
     },
     {
+      "thai": "เกกมะเหรกเกเร",
+      "source_id": "TDP:1541",
+      "pronunciation": "kèek-ma-rèek kee-ree",
+      "meaning": "to be knavish, roguish, wayward.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "kēkmarēk kērē",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "V"
+    },
+    {
       "thai": "อาหารจานด่วน",
       "source_id": "LEX2.0:2614",
       "pronunciation": "",
@@ -813,6 +879,17 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "8",
+      "pos": ""
+    },
+    {
+      "thai": "เครื่องเฟซโบว์ปรับแกนได้",
+      "source_id": "RI:32106",
+      "pronunciation": "",
+      "meaning": "adjustable axis face-bow",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
       "pos": ""
     },
     {
@@ -924,6 +1001,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "7",
       "pos": "N"
+    },
+    {
+      "thai": "เกี่ยวกับท้องถิ่น",
+      "source_id": "RI:31432",
+      "pronunciation": "",
+      "meaning": "municipal",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
     },
     {
       "thai": "ใคร",
@@ -1069,6 +1157,17 @@
       "pos": "N"
     },
     {
+      "thai": "เกินขีด",
+      "source_id": "RI:31398",
+      "pronunciation": "",
+      "meaning": "excessive",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
+    },
+    {
       "thai": "จริยศาสตร์",
       "source_id": "RI:12520",
       "pronunciation": "jà rí yá sàat",
@@ -1177,6 +1276,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
+    },
+    {
+      "thai": "เจ็บแสบ",
+      "source_id": "LEX2.0:19148",
+      "pronunciation": "jep sɛ̀ɛp",
+      "meaning": "bitter, painful; sore; bitterly, caustically; tartly",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "yep sǣp",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "ADJ; ADV"
     },
     {
       "thai": "มหาหิงคุ์",
@@ -1551,116 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "N"
-    },
-    {
-      "thai": "ท่อลมแนวตั้ง",
-      "source_id": "RI:16290",
-      "pronunciation": "",
-      "meaning": "duct riser",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ขี้กลากลำตัว",
-      "source_id": "RI:9144",
-      "pronunciation": "",
-      "meaning": "tinea circinata; tinea corporis; tinea glabrosa",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ข้อกำหนดให้มีทางปฏิบัติอย่างอื่นแทน",
-      "source_id": "RI:9396",
-      "pronunciation": "",
-      "meaning": "escape clause",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ตรีประดับ",
-      "source_id": "LEX2.0:18248",
-      "pronunciation": "trii prà dàp",
-      "meaning": "name of a Thai verse, kind of Thai jingle",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "trī pra dap",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
-      "pos": "N"
-    },
-    {
-      "thai": "อานิสงส์",
-      "source_id": "LEX2.0:15486",
-      "pronunciation": "aa ní sǒŋ",
-      "meaning": "result of merit, virtue; advantage, use",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ā ni song",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "บัญชีเงินสำรอง",
-      "source_id": "RI:17360",
-      "pronunciation": "",
-      "meaning": "reserve account",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": ""
-    },
-    {
-      "thai": "สะกดอกสะกดใจ",
-      "source_id": "TDP:17389",
-      "pronunciation": "sa-kòt òk sa-kòt jay",
-      "meaning": "to control oneself, restrain oneself, suppress one's emotions.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "sakot ok sakot yay",
-      "comparison": "pronunciation_only",
-      "web_rank": "8",
-      "pos": "V"
-    },
-    {
-      "thai": "สัปโดกสัปดน",
-      "source_id": "TDP:17538",
-      "pronunciation": "sàp-pa-dòok sàp-pa-don",
-      "meaning": "to be obscene, indecent.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "sappadōk sappadon",
-      "comparison": "pronunciation_only",
-      "web_rank": "8",
-      "pos": "V"
-    },
-    {
-      "thai": "ข้อตกลงไม่เรียกร้องต่อกัน",
-      "source_id": "RI:9525",
-      "pronunciation": "",
-      "meaning": "knock-for-knock agreement",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ดังที่",
-      "source_id": "LEX2.0:27417",
-      "pronunciation": "",
-      "meaning": "as, according to; as if",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "3",
-      "pos": "CONJ"
     }
   ]
 }
