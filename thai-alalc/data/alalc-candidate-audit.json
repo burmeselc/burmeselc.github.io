@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 61367,
+    "unique_lexical_records": 62122,
     "sample_size": 150,
     "counts": {
       "neither": 87,
@@ -959,6 +959,17 @@
       "pos": ""
     },
     {
+      "thai": "เอกานุภาพ",
+      "source_id": "RI:34650",
+      "pronunciation": "",
+      "meaning": "monolithic system",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "ยาต้ม",
       "source_id": "RI:22525",
       "pronunciation": "",
@@ -1366,6 +1377,17 @@
       "pos": ""
     },
     {
+      "thai": "เหรัญญิก",
+      "source_id": "TDP:18772",
+      "pronunciation": "hěe-ran-yík",
+      "meaning": "treasurer.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "hēranyik",
+      "comparison": "pronunciation_only",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "ผ่าตัด",
       "source_id": "TDP:7563",
       "pronunciation": "pʰàa tàt",
@@ -1639,28 +1661,6 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
-    },
-    {
-      "thai": "สรุปคดี",
-      "source_id": "RI:26446",
-      "pronunciation": "",
-      "meaning": "summing up",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": ""
-    },
-    {
-      "thai": "อรูป",
-      "source_id": "LEX2.0:29986",
-      "pronunciation": "à rûup",
-      "meaning": "immaterial, formless; incorporeal; intangible, immaterial",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "a rūp",
-      "comparison": "pronunciation_only",
-      "web_rank": "2",
-      "pos": "ADJ"
     }
   ]
 }
