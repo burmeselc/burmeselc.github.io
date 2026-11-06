@@ -1,12 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 57808,
+    "unique_lexical_records": 61367,
     "sample_size": 150,
     "counts": {
-      "neither": 85,
-      "pronunciation_only": 60,
+      "neither": 87,
+      "pronunciation_only": 59,
       "disagreement": 2,
-      "agreement": 3
+      "agreement": 2
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
     "complete_dictionary": false
@@ -167,6 +167,17 @@
       "pos": ""
     },
     {
+      "thai": "เวสน์",
+      "source_id": "LEX2.0:15037",
+      "pronunciation": "",
+      "meaning": "house, abode; residence; dwelling place; home",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "4",
+      "pos": "N"
+    },
+    {
       "thai": "อัครภาคีผู้ทำสัญญา",
       "source_id": "RI:29727",
       "pronunciation": "",
@@ -308,6 +319,28 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
+    },
+    {
+      "thai": "เพลงพื้นเมืองคาลิปโซ",
+      "source_id": "RI:33361",
+      "pronunciation": "",
+      "meaning": "calypso",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "9",
+      "pos": ""
+    },
+    {
+      "thai": "เนื้อเยื่อลุกชันได้",
+      "source_id": "RI:32965",
+      "pronunciation": "",
+      "meaning": "erectile tissue",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "พอลิเมอร์ชีวภาพ",
@@ -473,6 +506,17 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
+    },
+    {
+      "thai": "เลนส์สัมผัส",
+      "source_id": "LEX2.0:14703",
+      "pronunciation": "len sǎm pʰàt",
+      "meaning": "contact lens",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "len sam phat",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "N"
     },
     {
       "thai": "สภาพแข็งทื่อ",
@@ -926,6 +970,17 @@
       "pos": ""
     },
     {
+      "thai": "เสธ.",
+      "source_id": "LEX2.0:1564",
+      "pronunciation": "",
+      "meaning": "chief of military staff, C. of S.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": "N"
+    },
+    {
       "thai": "นวนิยาย",
       "source_id": "TDP:9557",
       "pronunciation": "ná-wá-ní-yaay",
@@ -935,6 +990,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "N"
+    },
+    {
+      "thai": "เวลากดค้าง",
+      "source_id": "RI:34049",
+      "pronunciation": "",
+      "meaning": "dwell time; hold time",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
     },
     {
       "thai": "น้ำบำรุงผม",
@@ -1003,6 +1069,17 @@
       "pos": "N"
     },
     {
+      "thai": "เศษกระดูกผุ",
+      "source_id": "RI:34150",
+      "pronunciation": "",
+      "meaning": "sequester; sequestrum",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "7",
+      "pos": ""
+    },
+    {
       "thai": "เกี่ยวกับท้องถิ่น",
       "source_id": "RI:31432",
       "pronunciation": "",
@@ -1023,6 +1100,17 @@
       "comparison": "disagreement",
       "web_rank": "1",
       "pos": "iP"
+    },
+    {
+      "thai": "ไม่ค่อย (...) เท่าไร",
+      "source_id": "TDP:9312",
+      "pronunciation": "mây kʰɔ̂yparen tʰâw rày",
+      "meaning": "not very, not so very, not too; not very much, many; not so very much, many; not too much, many.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "may khǫyparen thaw ray",
+      "comparison": "pronunciation_only",
+      "web_rank": "",
+      "pos": ""
     },
     {
       "thai": "วินิจฉัยโรค",
@@ -1188,6 +1276,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "5",
       "pos": "V"
+    },
+    {
+      "thai": "เสียงรบกวนทางแอมพลิจูด",
+      "source_id": "RI:34267",
+      "pronunciation": "",
+      "meaning": "amplitude noise",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
     },
     {
       "thai": "น้องเลี้ยง",
@@ -1421,6 +1520,17 @@
       "pos": "N"
     },
     {
+      "thai": "เบาไม้",
+      "source_id": "LEX2.0:20965",
+      "pronunciation": "baw máy",
+      "meaning": "obedient; obey",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "baw may",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": "ADJ; V"
+    },
+    {
       "thai": "อกหัก",
       "source_id": "TDP:18561",
       "pronunciation": "òk hàk",
@@ -1551,116 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "2",
       "pos": "ADJ"
-    },
-    {
-      "thai": "ปูนแต่ง",
-      "source_id": "RI:18509",
-      "pronunciation": "",
-      "meaning": "stucco",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": ""
-    },
-    {
-      "thai": "มาตรช่วงคลื่น",
-      "source_id": "RI:21790",
-      "pronunciation": "",
-      "meaning": "wavemeter",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "ตัวเบียนบังเอิญ",
-      "source_id": "RI:14719",
-      "pronunciation": "",
-      "meaning": "accidental parasite",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "ค่าถัวเฉลี่ย",
-      "source_id": "LEX2.0:9425",
-      "pronunciation": "",
-      "meaning": "mean, average; medium; median; ordinary; moderate",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "7",
-      "pos": "N"
-    },
-    {
-      "thai": "ล้มตาย",
-      "source_id": "TDP:15911",
-      "pronunciation": "lóm taay",
-      "meaning": "to die, be killed.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "lom tāy",
-      "comparison": "pronunciation_only",
-      "web_rank": "4",
-      "pos": "V"
-    },
-    {
-      "thai": "น้ำมันเบนซินพิเศษ",
-      "source_id": "LEX2.0:2013",
-      "pronunciation": "",
-      "meaning": "gasoline, super grade petrol",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "6",
-      "pos": "N"
-    },
-    {
-      "thai": "หยิบ",
-      "source_id": "TDP:18293",
-      "pronunciation": "yìp",
-      "meaning": "to pick up, take (up) (in the hand).",
-      "spelling_candidate": "yip",
-      "pronunciation_candidate": "yip",
-      "comparison": "agreement",
-      "web_rank": "2",
-      "pos": "V"
-    },
-    {
-      "thai": "คนขี้เมา",
-      "source_id": "TDP:3052",
-      "pronunciation": "kʰon kʰîi maw",
-      "meaning": "drunkard. Contrast คนเมา one who is drunk (at the moment).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khon khī maw",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ของขลัง",
-      "source_id": "LEX2.0:26287",
-      "pronunciation": "kʰɔ̌ɔŋ kʰlǎŋ",
-      "meaning": "amulet, charm",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khǭng khlang",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "พินทุ",
-      "source_id": "LEX2.0:12359",
-      "pronunciation": "pʰin tʰú",
-      "meaning": "drop of water; vowel mark; tiny circle; dot; forehead mark",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "phin thu",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
     }
   ]
 }
