@@ -1,12 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 63819,
+    "unique_lexical_records": 64219,
     "sample_size": 150,
     "counts": {
-      "neither": 87,
-      "pronunciation_only": 59,
-      "disagreement": 2,
-      "agreement": 2
+      "neither": 89,
+      "pronunciation_only": 56,
+      "agreement": 3,
+      "disagreement": 2
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
     "complete_dictionary": false
@@ -99,6 +99,17 @@
       "comparison": "neither",
       "web_rank": "9",
       "pos": ""
+    },
+    {
+      "thai": "แหง่",
+      "source_id": "TDP:18857",
+      "pronunciation": "ŋɛ̀ɛ",
+      "meaning": "a water buffalo calf.",
+      "spelling_candidate": "ngǣ",
+      "pronunciation_candidate": "ngǣ",
+      "comparison": "agreement",
+      "web_rank": "3",
+      "pos": "N"
     },
     {
       "thai": "ร่วงรุ้ง",
@@ -319,6 +330,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "N"
+    },
+    {
+      "thai": "แอ็กทิฟเอกซ์",
+      "source_id": "RI:36035",
+      "pronunciation": "",
+      "meaning": "ActiveX",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
     },
     {
       "thai": "เพลงพื้นเมืองคาลิปโซ",
@@ -572,6 +594,17 @@
       "comparison": "neither",
       "web_rank": "4",
       "pos": "N"
+    },
+    {
+      "thai": "แล้วจึง",
+      "source_id": "LEX2.0:30248",
+      "pronunciation": "",
+      "meaning": "then, and then; consequently; therefore; thus; so",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "3",
+      "pos": "CONJ"
     },
     {
       "thai": "ระบบรัฐสภาและคณะรัฐมนตรี",
@@ -1627,39 +1660,6 @@
       "pronunciation_candidate": null,
       "comparison": "neither",
       "web_rank": "8",
-      "pos": ""
-    },
-    {
-      "thai": "กอบ",
-      "source_id": "TDP:927",
-      "pronunciation": "kɔ̀ɔp",
-      "meaning": "กอปร.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "kǭp",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": ""
-    },
-    {
-      "thai": "คลื่นวิทยุ",
-      "source_id": "LEX2.0:26458",
-      "pronunciation": "kʰlʉ̂ʉn wít tʰá yú",
-      "meaning": "radio wave",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "khlư̄n wit tha yu",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "N"
-    },
-    {
-      "thai": "ชั่วเจ็ดทีดีเจ็ดหน",
-      "source_id": "TDP:4920",
-      "pronunciation": "cʰûa jèt tʰii dii jèt hǒn",
-      "meaning": "good luck is intermingled with bad: \"bad for seven times, good for seven times.\"",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "chua yet thī dī yet hon",
-      "comparison": "pronunciation_only",
-      "web_rank": "6",
       "pos": ""
     }
   ]
