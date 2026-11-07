@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 62504,
+    "unique_lexical_records": 63819,
     "sample_size": 150,
     "counts": {
       "neither": 87,
@@ -596,6 +596,17 @@
       "pos": "V"
     },
     {
+      "thai": "แถบความถี่เคยู",
+      "source_id": "RI:35070",
+      "pronunciation": "",
+      "meaning": "K u -band",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "มุด",
       "source_id": "TDP:14238",
       "pronunciation": "mút",
@@ -1045,6 +1056,17 @@
       "comparison": "neither",
       "web_rank": "1",
       "pos": ""
+    },
+    {
+      "thai": "แป้งข้าวโพด",
+      "source_id": "LEX2.0:13112",
+      "pronunciation": "",
+      "meaning": "maize flour, corn flour; corn flour, maize flour",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": "N"
     },
     {
       "thai": "ดัชนีอนามัยช่องปาก",
@@ -1639,28 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": ""
-    },
-    {
-      "thai": "กฎหมายแรงงาน",
-      "source_id": "RI:160",
-      "pronunciation": "",
-      "meaning": "labour legislation",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "4",
-      "pos": ""
-    },
-    {
-      "thai": "พับไป",
-      "source_id": "LEX2.0:12236",
-      "pronunciation": "",
-      "meaning": "cancel",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": "V"
     }
   ]
 }
