@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 62122,
+    "unique_lexical_records": 62504,
     "sample_size": 150,
     "counts": {
       "neither": 87,
@@ -506,6 +506,17 @@
       "comparison": "neither",
       "web_rank": "8",
       "pos": ""
+    },
+    {
+      "thai": "แก่วิชา",
+      "source_id": "LEX2.0:4654",
+      "pronunciation": "",
+      "meaning": "knowledgeable",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "ADJ"
     },
     {
       "thai": "เลนส์สัมผัส",
@@ -1344,6 +1355,17 @@
       "pos": "N"
     },
     {
+      "thai": "ถึงแก่มรณภาพ",
+      "source_id": "LEX2.0:18933",
+      "pronunciation": "tʰʉ̌ŋ kɛ̀ɛ ˈmɔɔ.ra.na ˈpʰâap",
+      "meaning": "pass away, die (of a monk or novice)",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "thưng kǣ mǭrana phāp",
+      "comparison": "pronunciation_only",
+      "web_rank": "5",
+      "pos": "V"
+    },
+    {
       "thai": "โดยเสด็จพระราชกุศล",
       "source_id": "LEX2.0:17384",
       "pronunciation": "",
@@ -1520,6 +1542,17 @@
       "pos": ""
     },
     {
+      "thai": "แกลเลียม",
+      "source_id": "LEX2.0:26074",
+      "pronunciation": "kɛɛn liam, kɛɛn lîam",
+      "meaning": "gallium",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": "N"
+    },
+    {
       "thai": "ช่างพูดคุย",
       "source_id": "LEX2.0:22647",
       "pronunciation": "",
@@ -1628,39 +1661,6 @@
       "comparison": "neither",
       "web_rank": "5",
       "pos": "V"
-    },
-    {
-      "thai": "ประสาทอักเสบเหตุสูงอายุ",
-      "source_id": "RI:17975",
-      "pronunciation": "",
-      "meaning": "senile neuritis",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "1",
-      "pos": ""
-    },
-    {
-      "thai": "อมพะนำ",
-      "source_id": "TDP:19112",
-      "pronunciation": "om pʰa nam",
-      "meaning": "to keep quiet, keep something to oneself, hold one's tongue.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "om pha nam",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "V"
-    },
-    {
-      "thai": "อุดมการณ์เรียกร้องดินแดนของชนชาติเดียวกัน",
-      "source_id": "RI:31099",
-      "pronunciation": "",
-      "meaning": "irredentism",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
     }
   ]
 }
