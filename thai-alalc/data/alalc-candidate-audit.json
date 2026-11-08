@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 64419,
+    "unique_lexical_records": 64968,
     "sample_size": 150,
     "counts": {
       "neither": 89,
@@ -1223,6 +1223,17 @@
       "pos": "ADV"
     },
     {
+      "thai": "โดนกักบริเวณ",
+      "source_id": "TDP:6980",
+      "pronunciation": "doon kàk bɔɔ-ri-ween",
+      "meaning": "to be quarantined, confined to a specified area (by someone).",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "dōn kak bǭriwēn",
+      "comparison": "pronunciation_only",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "โดยทั่วไป",
       "source_id": "TDP:6986",
       "pronunciation": "dooy tʰûa pay",
@@ -1650,17 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "6",
       "pos": "ADJ; V"
-    },
-    {
-      "thai": "อกหัก",
-      "source_id": "TDP:18561",
-      "pronunciation": "òk hàk",
-      "meaning": "to be broken-hearted (over a love affair).",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "ok hak",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "V"
     }
   ]
 }
