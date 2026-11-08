@@ -130707,6 +130707,33 @@
     "status": "unresolved"
   },
   {
+    "thai": "ขี้โกง",
+    "alalc": "khī kōng",
+    "meaning": "to be given to cheating, taking advantage of others, trying to get out of obligations.",
+    "ipa": "kʰîi kooŋ",
+    "pron_display": "kʰîi ˈkooŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be given to cheating, taking advantage of others, trying to get out of obligations."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2556",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "ขี้โกหก",
     "alalc": "khī kōhok",
     "meaning": "to be given to lying, prevarication.",
@@ -130755,7 +130782,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2525",
-    "source_query": "ขี.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -137074,7 +137101,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:15989",
-    "source_query": "ลอ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -170933,7 +170960,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:9000",
-    "source_query": "คน.*",
+    "source_query": "โก.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -176650,6 +176677,31 @@
     "status": "tentative"
   },
   {
+    "thai": "คราม",
+    "alalc": "khrām",
+    "meaning": "undefined.",
+    "ipa": "kʰraam",
+    "pron_display": "ˈkʰraam",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "undefined."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3199",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "ครามครัน",
     "alalc": "khrāmkhran",
     "meaning": "much, very.",
@@ -177794,7 +177846,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:3232",
-    "source_query": "คร.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -335192,7 +335244,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4085",
-    "source_query": "ชั.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -337497,7 +337549,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:7388",
-    "source_query": "ชั.*",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -377035,7 +377087,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4090",
-    "source_query": "ซ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -452543,7 +452595,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:7805",
-    "source_query": "ตา.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -479416,7 +479468,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:27761",
-    "source_query": "ต้.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -484809,7 +484861,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4080",
-    "source_query": "รา.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -496163,7 +496215,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:18876",
-    "source_query": "ถ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -525322,7 +525374,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:20007",
-    "source_query": "ทา.*",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -582332,7 +582384,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4076",
-    "source_query": "เร.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -612834,7 +612886,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4097",
-    "source_query": "น้.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -626352,7 +626404,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4098",
-    "source_query": "บ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -893698,7 +893750,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1876",
-    "source_query": "มี.*",
+    "source_query": "โก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -910992,7 +911044,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:13227",
-    "source_query": "มู.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -980321,7 +980373,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1893",
-    "source_query": "รั.*",
+    "source_query": "โก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1019501,7 +1019553,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:6044",
-    "source_query": "ลม.*",
+    "source_query": "โก.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1043362,7 +1043414,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:16247",
-    "source_query": "ลุ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1069889,7 +1069941,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4087",
-    "source_query": "ว.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1161846,7 +1161898,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:3029",
-    "source_query": "สา.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1249943,7 +1249995,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18243",
-    "source_query": "หม.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1280079,7 +1280131,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4078",
-    "source_query": "หั.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1439213,7 +1439265,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10553",
-    "source_query": "เค.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1449779,7 +1449831,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:19117",
-    "source_query": "เจ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1522070,7 +1522122,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4099",
-    "source_query": "เป.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1590480,6 +1590532,33 @@
     "status": "tentative"
   },
   {
+    "thai": "เสือโคร่ง",
+    "alalc": "sưa khrōng",
+    "meaning": "tiger.",
+    "ipa": "sʉ̌a kʰrôoŋ",
+    "pron_display": "sʉ̌a ˈkʰrôoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "tiger."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:17956",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "เสื่อ",
     "alalc": "sư̄a",
     "meaning": "mat.",
@@ -1594006,7 +1594085,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:16735",
-    "source_query": "เส.*",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1638694,7 +1638773,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:18613",
-    "source_query": "แต.*",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1674916,7 +1674995,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:14342",
-    "source_query": "แม.*",
+    "source_query": "โข.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1694215,6 +1694294,276 @@
     "status": "tentative"
   },
   {
+    "thai": "โก",
+    "alalc": "kō",
+    "meaning": "elder brother",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "elder brother"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26093",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกกเกก",
+    "alalc": "kōk kēk",
+    "meaning": "misbehave, be unruly; be delinquent",
+    "ipa": "kòok kèek",
+    "pron_display": "kòok kèek",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "misbehave, be unruly; be delinquent"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26096",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกง",
+    "alalc": "kōng",
+    "meaning": "to be bent, crooked.; to cheat, chisel, deceive, take unfair advantage of others; to defraud, swindle.; to try to get out of a commitment, avoid one's duties or obligations.",
+    "ipa": "kooŋ",
+    "pron_display": "ˈkooŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be bent, crooked."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to cheat, chisel, deceive, take unfair advantage of others; to defraud, swindle."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to try to get out of a commitment, avoid one's duties or obligations."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1864",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกงกาง",
+    "alalc": "kōng kāng",
+    "meaning": "mangrove, genus Rhizophora",
+    "ipa": "kooŋ kaaŋ",
+    "pron_display": "kooŋ kaaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mangrove, genus Rhizophora"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26099",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกงเงิน",
+    "alalc": "",
+    "meaning": "swindle, embezzle; defraud; deceive",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "swindle, embezzle; defraud; deceive"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26101",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกงโก้",
+    "alalc": "kōng kō",
+    "meaning": "bent, curved",
+    "ipa": "kooŋ kôo",
+    "pron_display": "kooŋ kôo",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "bent, curved"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31788",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกฏิ",
+    "alalc": "kōt",
+    "meaning": "ten million.",
+    "ipa": "kòot",
+    "pron_display": "ˈkòot",
+    "pos": "Nm; C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "Nm"
+        ],
+        "definitions": [
+          "ten million."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "ten million."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1871",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกดัง",
+    "alalc": "kōdang",
+    "meaning": "warehouse, godown.",
+    "ipa": "koo-daŋ",
+    "pron_display": "kooˈdaŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "warehouse, godown."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1872",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกน",
+    "alalc": "kōn",
+    "meaning": "to shave (beard, hair).",
+    "ipa": "koon",
+    "pron_display": "ˈkoon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to shave (beard, hair)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1874",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "โกนหนวด",
     "alalc": "kōn nuat",
     "meaning": "to shave (literally, shave the beard).",
@@ -1694236,7 +1694585,120 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1875",
-    "source_query": "หน.*",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกนิเดียม",
+    "alalc": "",
+    "meaning": "gonidium",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gonidium"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36076",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกนิโมบลาสต์",
+    "alalc": "",
+    "meaning": "gonimoblast",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gonimoblast"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36077",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกย",
+    "alalc": "kōy",
+    "meaning": "to scoop together.; to scamper, run quickly.",
+    "ipa": "kooy",
+    "pron_display": "ˈkooy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to scoop together."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to scamper, run quickly."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1879",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกยท้อง",
+    "alalc": "kōy thǭng",
+    "meaning": "move the belly up and down by using hands, massage the belly",
+    "ipa": "kooy tʰɔ́ɔŋ",
+    "pron_display": "kooy tʰɔ́ɔŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "move the belly up and down by using hands, massage the belly"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31789",
+    "source_query": "โก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1694261,9 +1694723,180 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:19538",
-    "source_query": "อ้.*",
+    "source_query": "โก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรก",
+    "alalc": "krōk",
+    "meaning": "to blow gently (of the wind).; to be breezy, windy; to be open, airy, exposed to the breeze.",
+    "ipa": "kròok",
+    "pron_display": "ˈkròok",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to blow gently (of the wind)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be breezy, windy; to be open, airy, exposed to the breeze."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1880",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรกธาร",
+    "alalc": "krōk thān",
+    "meaning": "canyon, gorge; ravine",
+    "ipa": "kròok tʰaan",
+    "pron_display": "kròok tʰaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "canyon, gorge; ravine"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26112",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรกหวัด",
+    "alalc": "krōk wat",
+    "meaning": "pour water which boiled with tamarind leaves and onion",
+    "ipa": "kròok wàt",
+    "pron_display": "kròok wàt",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "pour water which boiled with tamarind leaves and onion"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26113",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรกไกร",
+    "alalc": "krōk kray",
+    "meaning": "crevice, breach",
+    "ipa": "kròok kray",
+    "pron_display": "kròok kray",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "crevice, breach"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26111",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรง",
+    "alalc": "krōng",
+    "meaning": "onomatopoeia from the sound of being crushed",
+    "ipa": "krooŋ",
+    "pron_display": "krooŋ",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "onomatopoeia from the sound of being crushed"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26114",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกรธ",
+    "alalc": "krōt",
+    "meaning": "to be angry.",
+    "ipa": "kròot",
+    "pron_display": "ˈkròot",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be angry."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1882",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -1694294,6 +1694927,33 @@
     "status": "tentative"
   },
   {
+    "thai": "โกรธจัด",
+    "alalc": "",
+    "meaning": "rage, be furious; go ballistic; go up to the wall; blow up; fly off the handle; seethe; storm",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "rage, be furious; go ballistic; go up to the wall; blow up; fly off the handle; seethe; storm"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7531",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "โกรธตงิดๆ",
     "alalc": "krōt tangit tangit",
     "meaning": "somewhat angered, a little angry.",
@@ -1694317,6 +1694977,33 @@
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "โกรธเคือง",
+    "alalc": "",
+    "meaning": "be angry, be annoyed; be indignant; be offended; be irate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be angry, be annoyed; be indignant; be offended; be irate"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26117",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "โกรธเป็นฟืนเป็นไฟ",
@@ -1694344,6 +1695031,87 @@
     "status": "tentative"
   },
   {
+    "thai": "โกรธแค้น",
+    "alalc": "",
+    "meaning": "be angry, be annoyed; be indignant; be offended; be irate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be angry, be annoyed; be indignant; be offended; be irate"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26118",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกร่ง",
+    "alalc": "krōng",
+    "meaning": "apothecary's mortar.",
+    "ipa": "kròoŋ",
+    "pron_display": "ˈkròoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "apothecary's mortar."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1881",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกร๋น",
+    "alalc": "krōn",
+    "meaning": "to be sparse, thin (of hair on the head).",
+    "ipa": "krǒon",
+    "pron_display": "ˈkrǒon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be sparse, thin (of hair on the head)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1886",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
     "thai": "โกลก",
     "alalc": "klōk",
     "meaning": "the Kolok River.",
@@ -1694365,9 +1695133,205 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1888",
-    "source_query": "แม.*",
+    "source_query": "โก.*",
     "roman_method": "spelling",
     "roman_evidence": "conflict",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกลน",
+    "alalc": "klōn",
+    "meaning": "stirrup; dugout boat, roughhewn boat; round pole; hew roughly into shape, shape roughly",
+    "ipa": "kloon",
+    "pron_display": "kloon",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "stirrup"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "dugout boat, roughhewn boat"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "round pole"
+        ]
+      },
+      {
+        "n": "4",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "hew roughly into shape, shape roughly"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26121",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกลบูล",
+    "alalc": "",
+    "meaning": "globule",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "globule"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36079",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกลาหล",
+    "alalc": "kōlāhon",
+    "meaning": "disturbance, tumult, confusion, melee.; to be tumultuous, turbulent.",
+    "ipa": "koo-laa-hǒn",
+    "pron_display": "koo.laaˈhǒn",
+    "pos": "N; V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "disturbance, tumult, confusion, melee."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be tumultuous, turbulent."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1889",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกศ",
+    "alalc": "kōt",
+    "meaning": "urn.",
+    "ipa": "kòot",
+    "pron_display": "ˈkòot",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "urn."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1890",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกสินทร์",
+    "alalc": "kōsin",
+    "meaning": "the god Indra.",
+    "ipa": "koo-sǐn",
+    "pron_display": "kooˈsǐn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the god Indra."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1891",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกหก",
+    "alalc": "kōhok",
+    "meaning": "to tell a lie.",
+    "ipa": "koo-hòk",
+    "pron_display": "kooˈhòk",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to tell a lie."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1894",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
     "status": "tentative"
   },
   {
@@ -1694395,6 +1695359,256 @@
     "source_query": "พก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกหวา",
+    "alalc": "kō wā",
+    "meaning": "kind of silk cloth",
+    "ipa": "koo wǎa",
+    "pron_display": "koo wǎa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of silk cloth"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26123",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกเบ",
+    "alalc": "kōbē",
+    "meaning": "Kobe.",
+    "ipa": "koo-bee",
+    "pron_display": "kooˈbee",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Kobe."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1878",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกเฟอร์",
+    "alalc": "",
+    "meaning": "Gopher",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Gopher"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36080",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกเมน",
+    "alalc": "kō mēn",
+    "meaning": "garnet, almandine garnet",
+    "ipa": "koo meen",
+    "pron_display": "koo meen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "garnet, almandine garnet"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26108",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกโก้",
+    "alalc": "kōkō",
+    "meaning": "cocoa, chocolate.",
+    "ipa": "koo-kôo",
+    "pron_display": "kooˈkôo",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cocoa, chocolate."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1863",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โกโรโกโรค",
+    "alalc": "",
+    "meaning": "sickly, diseased; emaciated; weedy; thin and feeble; lean and weak",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "sickly, diseased; emaciated; weedy; thin and feeble; lean and weak"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26119",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โกโรโกโส",
+    "alalc": "kōrōkōsō",
+    "meaning": "to be dilapidated.",
+    "ipa": "koo-roo-koo-sǒo",
+    "pron_display": "kooˈroo.kooˈsǒo",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be dilapidated."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1887",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก่",
+    "alalc": "kō",
+    "meaning": "call",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "call"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26094",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก่ง",
+    "alalc": "kōng",
+    "meaning": "to bend upward, to arch.; to arch (the neck).",
+    "ipa": "kòoŋ",
+    "pron_display": "ˈkòoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to bend upward, to arch."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to arch (the neck)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1867",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -1694444,9 +1695658,288 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1869",
-    "source_query": "ศ.*",
+    "source_query": "โก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก่น",
+    "alalc": "kōn",
+    "meaning": "fell, bulldoze; clear",
+    "ipa": "kòon",
+    "pron_display": "kòon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "fell, bulldoze; clear"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26106",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก้",
+    "alalc": "kō",
+    "meaning": "to be grand, elegant, beautiful, smart, all dressed up.",
+    "ipa": "kôo",
+    "pron_display": "ˈkôo",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be grand, elegant, beautiful, smart, all dressed up."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1860",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก้งโค้ง",
+    "alalc": "kōng khōng",
+    "meaning": "stoop, bend down",
+    "ipa": "kôoŋ kʰóoŋ",
+    "pron_display": "kôoŋ kʰóoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "stoop, bend down"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26100",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก้หรู",
+    "alalc": "",
+    "meaning": "luxurious, elegant; comfortable",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "luxurious, elegant; comfortable"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31790",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โก้เก๋",
+    "alalc": "",
+    "meaning": "be smart, spruce; be beautiful; be elegant; be gaudily dressed; look chic",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "be smart, spruce; be beautiful; be elegant; be gaudily dressed; look chic"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:30840",
+    "source_query": "โก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โก้ๆ",
+    "alalc": "kō kō",
+    "meaning": "grandly, elegantly, smartly, in a chic manner.",
+    "ipa": "kôo kôo",
+    "pron_display": "kôo ˈkôo",
+    "pos": "sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "grandly, elegantly, smartly, in a chic manner."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1861",
+    "source_query": "โก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก๋",
+    "alalc": "kō",
+    "meaning": "kind of Chinese pancake made of rice-flour",
+    "ipa": "kǒo",
+    "pron_display": "kǒo",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of Chinese pancake made of rice-flour"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26095",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โก๋น",
+    "alalc": "kōn",
+    "meaning": "beehive, honeycomb",
+    "ipa": "kǒon",
+    "pron_display": "kǒon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beehive, honeycomb"
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:26107",
+    "source_query": "โก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โข",
+    "alalc": "khō",
+    "meaning": "to be plenty, much, many.; quite, very.",
+    "ipa": "kʰǒo",
+    "pron_display": "ˈkʰǒo",
+    "pos": "V; sV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be plenty, much, many."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "sV"
+        ],
+        "definitions": [
+          "quite, very."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2926",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขก",
+    "alalc": "khōk",
+    "meaning": "to knock, rap, knock against, poke at.",
+    "ipa": "kʰòok",
+    "pron_display": "ˈkʰòok",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to knock, rap, knock against, poke at."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2927",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -1694472,6 +1695965,96 @@
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:8989",
     "source_query": "สั.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขง",
+    "alalc": "khōng",
+    "meaning": "the Maekhong (Mekong) River, which forms a part of the border between Thailand and nations to the East.; the brand name of a liquor made in Bangkok.",
+    "ipa": "kʰǒoŋ",
+    "pron_display": "ˈkʰǒoŋ",
+    "pos": "pN; N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "the Maekhong (Mekong) River, which forms a part of the border between Thailand and nations to the East."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the brand name of a liquor made in Bangkok."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2928",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขด",
+    "alalc": "khōt",
+    "meaning": "knoll, mound.",
+    "ipa": "kʰòot",
+    "pron_display": "ˈkʰòot",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "knoll, mound."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2931",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขดง",
+    "alalc": "kha dōng",
+    "meaning": "mast",
+    "ipa": "kʰà dooŋ",
+    "pron_display": "kʰà dooŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mast"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8987",
+    "source_query": "โข.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1694525,9 +1696108,513 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:2838",
-    "source_query": "เข.*",
+    "source_query": "โข.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขน",
+    "alalc": "khōn",
+    "meaning": "a type of Thai drama.; the theater in which this type of drama is played (โรง).; actors or actresses of this type of drama (ตัว).",
+    "ipa": "kʰǒon",
+    "pron_display": "ˈkʰǒon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a type of Thai drama."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the theater in which this type of drama is played (โรง)."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "actors or actresses of this type of drama (ตัว)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2932",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขนง",
+    "alalc": "kha nōng",
+    "meaning": "eye-brow",
+    "ipa": "kʰà nǒoŋ",
+    "pron_display": "kʰà nǒoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "eye-brow"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8984",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขมง",
+    "alalc": "khamōng",
+    "meaning": "used with ควัน \"smoke,\" คุย \"talk,\" to mean \"in large amounts, profusely.\"",
+    "ipa": "kʰa-mǒoŋ",
+    "pron_display": "kʰaˈmǒoŋ",
+    "pos": "rM",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "rM"
+        ],
+        "definitions": [
+          "used with ควัน \"smoke,\" คุย \"talk,\" to mean \"in large amounts, profusely.\""
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2933",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขมด",
+    "alalc": "kha mōt",
+    "meaning": "ghost, jack-o'-lantern; will-o'-the-wisp; phantom",
+    "ipa": "kʰà mòot",
+    "pron_display": "kʰà mòot",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "ghost, jack-o'-lantern; will-o'-the-wisp; phantom"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8982",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขยก",
+    "alalc": "khayōk",
+    "meaning": "to limp, hobble (in walking).; to wobble (as a table).",
+    "ipa": "kʰa-yòok",
+    "pron_display": "kʰaˈyòok",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to limp, hobble (in walking)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to wobble (as a table)."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2934",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขยกเขยก",
+    "alalc": "kha yōk kha yēk",
+    "meaning": "hobble, limp; stumble; stagger",
+    "ipa": "kʰà yòok kʰà yèek",
+    "pron_display": "kʰà yòok kʰà yèek",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "hobble, limp; stumble; stagger"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7707",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขยง",
+    "alalc": "khayōng",
+    "meaning": "group (of people), party, company.; kin.",
+    "ipa": "kʰa-yǒoŋ",
+    "pron_display": "kʰaˈyǒoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "group (of people), party, company."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kin."
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2935",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขย่ง",
+    "alalc": "khayōng",
+    "meaning": "to stand on tiptoe.",
+    "ipa": "kʰa-yòoŋ",
+    "pron_display": "kʰaˈyòoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to stand on tiptoe."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2936",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขลก",
+    "alalc": "khlōk",
+    "meaning": "to pound, crush to a pulp.",
+    "ipa": "kʰlòok",
+    "pron_display": "ˈkʰlòok",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to pound, crush to a pulp."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2938",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขลกๆ",
+    "alalc": "",
+    "meaning": "sound of coughing",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "ADV",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "ADV"
+        ],
+        "definitions": [
+          "sound of coughing"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8992",
+    "source_query": "โข.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โขลง",
+    "alalc": "khlōng",
+    "meaning": "herd (of elephants).",
+    "ipa": "kʰlǒoŋ",
+    "pron_display": "ˈkʰlǒoŋ",
+    "pos": "C",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "C"
+        ],
+        "definitions": [
+          "herd (of elephants)."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2939",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขลน",
+    "alalc": "khlōn",
+    "meaning": "palace gate woman, door-keepers for the royal palace; female palace guard",
+    "ipa": "kʰlǒon",
+    "pron_display": "kʰlǒon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "palace gate woman, door-keepers for the royal palace; female palace guard"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8976",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โขลนทวาร",
+    "alalc": "khlōn tha wān",
+    "meaning": "archway of victory, opening or way of entrance into a forest or jungle",
+    "ipa": "kʰlǒon tʰá waan",
+    "pron_display": "kʰlǒon tʰá waan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "archway of victory, opening or way of entrance into a forest or jungle"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:8975",
+    "source_query": "โข.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โข่ง",
+    "alalc": "khōng",
+    "meaning": "a kind of snail (Pila ampullacea).",
+    "ipa": "kʰòoŋ",
+    "pron_display": "ˈkʰòoŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a kind of snail (Pila ampullacea)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2930",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โข่ง",
+    "alalc": "khōng",
+    "meaning": "to be stupid, ignorant, silly.; to be big and awkward.",
+    "ipa": "kʰòoŋ",
+    "pron_display": "ˈkʰòoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be stupid, ignorant, silly."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be big and awkward."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:2929",
+    "source_query": "โข.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค",
+    "alalc": "khō",
+    "meaning": "cow, bull, ox; cattle.",
+    "ipa": "kʰoo",
+    "pron_display": "ˈkʰoo",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cow, bull, ox; cattle."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4070",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคก",
+    "alalc": "khōk",
+    "meaning": "mound, knoll.",
+    "ipa": "kʰôok",
+    "pron_display": "ˈkʰôok",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mound, knoll."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4074",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -1694558,6 +1696645,275 @@
     "status": "tentative"
   },
   {
+    "thai": "โคตร",
+    "alalc": "",
+    "meaning": "lineage, descent; stock; family; ancestry; line; pedigree; clan; generation, contemporaries; coevals",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lineage, descent; stock; family; ancestry; line; pedigree; clan"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "generation, contemporaries; coevals"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10619",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคตรตระกูล",
+    "alalc": "",
+    "meaning": "clan, descent; stock; family; ancestry; line; pedigree; lineage",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "clan, descent; stock; family; ancestry; line; pedigree; lineage"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10620",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคตรเพชร",
+    "alalc": "",
+    "meaning": "grand diamond, great diamond",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "grand diamond, great diamond"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:4274",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคน",
+    "alalc": "khōn",
+    "meaning": "base (as a tree).",
+    "ipa": "kʰoon",
+    "pron_display": "ˈkʰoon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "base (as a tree)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4079",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคนกาบใบ",
+    "alalc": "",
+    "meaning": "sheathing base",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sheathing base"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36082",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนก้านใบป่อง",
+    "alalc": "",
+    "meaning": "pulvinus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "pulvinus"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36083",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนขา",
+    "alalc": "",
+    "meaning": "top of the thigh, ham",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "top of the thigh, ham"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7684",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนขา",
+    "alalc": "",
+    "meaning": "upper thigh",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "upper thigh"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36084",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนขาด้านใน",
+    "alalc": "",
+    "meaning": "interfemus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "interfemus"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36085",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนตัด",
+    "alalc": "",
+    "meaning": "stump",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "stump"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36086",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "โคนม",
     "alalc": "khō nom",
     "meaning": "milk cow, dairy cattle; dairy cow; milch cow; milker",
@@ -1694579,10 +1696935,187 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10624",
-    "source_query": "นม.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "โคนลวดเชื่อม",
+    "alalc": "",
+    "meaning": "stub end",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "stub end"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36087",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนลิ้น",
+    "alalc": "",
+    "meaning": "root of the tongue",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "root of the tongue"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36088",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนิดิโอสปอร์",
+    "alalc": "",
+    "meaning": "conidiospore",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "conidiospore"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36089",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนิเดียม",
+    "alalc": "",
+    "meaning": "conidium",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "conidium"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36090",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนิเดียมเกิดจากไฟอะลายด์",
+    "alalc": "",
+    "meaning": "phialoconidium",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "phialoconidium"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36091",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคนใบ",
+    "alalc": "",
+    "meaning": "leaf base",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "leaf base"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36092",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคบอลต์",
+    "alalc": "",
+    "meaning": "cobalt",
+    "ipa": "kʰoo bɔ̂ɔn, kʰoo bɔ̂ɔ",
+    "pron_display": "kʰoo bɔ̂ɔn, kʰoo bɔ̂ɔ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cobalt"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10626",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "โคบาล",
@@ -1694606,9 +1697139,36 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4073",
-    "source_query": "บ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคม",
+    "alalc": "khōm",
+    "meaning": "lantern, lamp.",
+    "ipa": "kʰoom",
+    "pron_display": "ˈkʰoom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lantern, lamp."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4082",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -1694633,7 +1697193,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:1852",
-    "source_query": "ระ.*",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1694660,10 +1697220,258 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4083",
-    "source_query": "ลอ.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "โคมเวียน",
+    "alalc": "khōm wian",
+    "meaning": "revolving light",
+    "ipa": "kʰoom wian",
+    "pron_display": "kʰoom wian",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "revolving light"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10631",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคมไฟ",
+    "alalc": "khōm fay",
+    "meaning": "lamp, lantern.",
+    "ipa": "kʰoom fay",
+    "pron_display": "kʰoom ˈfay",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "lamp, lantern."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:13652",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคมไฟตั้งโต๊ะ",
+    "alalc": "",
+    "meaning": "desk lamp",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "desk lamp"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1849",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคมไฟติดผนัง",
+    "alalc": "",
+    "meaning": "wall lamp",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wall lamp"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1850",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคมไฟถนน",
+    "alalc": "",
+    "meaning": "street lamp, street light",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "street lamp, street light"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1851",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคม่า",
+    "alalc": "khō mā",
+    "meaning": "coma, comatoseness",
+    "ipa": "kʰoo mâa",
+    "pron_display": "kʰoo mâa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "coma, comatoseness"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10632",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครก",
+    "alalc": "khrōk",
+    "meaning": "the sound of snoring, of heavy breathing, of gas in the stomach or intestines.",
+    "ipa": "kʰrôok",
+    "pron_display": "ˈkʰrôok",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the sound of snoring, of heavy breathing, of gas in the stomach or intestines."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4084",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครง",
+    "alalc": "khrōng",
+    "meaning": "frame (as of a window, kite).; skeleton.",
+    "ipa": "kʰrooŋ",
+    "pron_display": "ˈkʰrooŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "frame (as of a window, kite)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "skeleton."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4086",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครงกระจังหน้ารถ",
+    "alalc": "",
+    "meaning": "cowl",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "cowl"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36096",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "โครงกระดูก",
@@ -1694687,7 +1697495,84 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:295",
-    "source_query": "กร.*",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครงกระดูกแกน",
+    "alalc": "",
+    "meaning": "axial skeleton",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "axial skeleton"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36098",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงกระดูกแขนขา",
+    "alalc": "",
+    "meaning": "appendicular skeleton",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "appendicular skeleton"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36099",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงการ",
+    "alalc": "khrōng kān",
+    "meaning": "plan, project, program.",
+    "ipa": "kʰrooŋ kaan",
+    "pron_display": "kʰrooŋ ˈkaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "plan, project, program."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1218",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1694712,7 +1697597,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:11314",
-    "source_query": "ย.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1694739,7 +1697624,422 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10638",
-    "source_query": "ว.*",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงขดลวดสนามแม่เหล็ก",
+    "alalc": "",
+    "meaning": "field-frame assembly",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "field-frame assembly"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36101",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่าย",
+    "alalc": "",
+    "meaning": "network",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "network"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36102",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่าย",
+    "alalc": "",
+    "meaning": "network, system",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "network, system"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10639",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่ายซ้อนทับ",
+    "alalc": "",
+    "meaning": "overlay network",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "overlay network"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36103",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่ายบริการสื่อสารร่วมระบบดิจิทัล",
+    "alalc": "",
+    "meaning": "integrated services digital network (ISDN) (ไอเอสดีเอ็น)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "integrated services digital network (ISDN) (ไอเอสดีเอ็น)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36104",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่ายแบบสลับกลุ่มข้อมูล",
+    "alalc": "",
+    "meaning": "packet switching network (PSN) (พีเอสเอ็น); packet switching network (PSN)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "packet switching network (PSN) (พีเอสเอ็น)"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [],
+        "definitions": [
+          "packet switching network (PSN)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36105",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่ายโทรศัพท์ติดตามตัว",
+    "alalc": "",
+    "meaning": "paging network",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "paging network"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36107",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงข่ายโทรศัพท์สาธารณะ",
+    "alalc": "",
+    "meaning": "public switched telephone network (PSTN) (พีเอสทีเอ็น)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "public switched telephone network (PSTN) (พีเอสทีเอ็น)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36108",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงคุ้มกัน",
+    "alalc": "",
+    "meaning": "rool bar",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "rool bar"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36109",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงงาน",
+    "alalc": "",
+    "meaning": "project",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "project"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3330",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงจมูก",
+    "alalc": "khrōng ya mūk",
+    "meaning": "bridge, top of a nose; ridge of a nose; bone of a nose",
+    "ipa": "kʰrooŋ jà mùuk",
+    "pron_display": "kʰrooŋ jà mùuk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "bridge, top of a nose; ridge of a nose; bone of a nose"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10640",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครงยาง",
+    "alalc": "",
+    "meaning": "carcass; tire carcass; tire casing; tyre carcass; tyre casing",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "carcass; tire carcass; tire casing; tyre carcass; tyre casing"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36110",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงย่อย",
+    "alalc": "",
+    "meaning": "sub-frame",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sub-frame"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36111",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงรถ",
+    "alalc": "",
+    "meaning": "frame",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "frame"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36112",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงร่าง",
+    "alalc": "",
+    "meaning": "framework, frame; structure; plan",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "framework, frame; structure; plan"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10641",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงร่าง",
+    "alalc": "",
+    "meaning": "skeleton",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "skeleton"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36113",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1694766,10 +1698066,185 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4089",
-    "source_query": "สร.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "โครงสร้างกำเนิดกลุ่มอับสปอร์",
+    "alalc": "",
+    "meaning": "prosorus",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "prosorus"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36115",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างข้อมูล",
+    "alalc": "",
+    "meaning": "data structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "data structure"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36116",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างข้อมูลแบบพลวัต",
+    "alalc": "",
+    "meaning": "dynamic data structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "dynamic data structure"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36117",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างควบคุม",
+    "alalc": "",
+    "meaning": "control structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "control structure"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36118",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างจีโนไทป์",
+    "alalc": "",
+    "meaning": "genotype structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "genotype structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36119",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างดูจากกล้องจุลทรรศน์อิเล็กตรอน",
+    "alalc": "",
+    "meaning": "ultrastructure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "ultrastructure"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36120",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างตามเพศ",
+    "alalc": "",
+    "meaning": "sex structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sex structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36121",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "โครงสร้างพื้นฐาน",
@@ -1694793,7 +1698268,511 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10644",
-    "source_query": "สร.*",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างพื้นฐานสารสนเทศ",
+    "alalc": "",
+    "meaning": "information infrastructure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "information infrastructure"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36122",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างยีน",
+    "alalc": "",
+    "meaning": "gene structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gene structure"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36123",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างระบบ",
+    "alalc": "",
+    "meaning": "system structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "system structure"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36124",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างรูปต้นไม้",
+    "alalc": "",
+    "meaning": "tree structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "tree structure"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36125",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างลักษณะตามพันธุกรรม",
+    "alalc": "",
+    "meaning": "genotype structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "genotype structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36126",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างสังคม",
+    "alalc": "",
+    "meaning": "social structure, social organization",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "social structure, social organization"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10646",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างสิ่งสืบต่อพันธุกรรม",
+    "alalc": "",
+    "meaning": "gene structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "gene structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36127",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างส่วนบน",
+    "alalc": "",
+    "meaning": "superstructure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "superstructure"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36128",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างอายุ",
+    "alalc": "",
+    "meaning": "age structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "age structure"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36129",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างเชิงรายการ",
+    "alalc": "",
+    "meaning": "list structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "list structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36130",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างแบบครัวเรือนเดี่ยว",
+    "alalc": "",
+    "meaning": "one-household structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "one-household structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36131",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างแบบครานซ์",
+    "alalc": "",
+    "meaning": "Kranz structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "Kranz structure"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36132",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างแบบหลายครัวเรือน",
+    "alalc": "",
+    "meaning": "multiple household structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "multiple household structure"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36133",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างแฟ้ม",
+    "alalc": "",
+    "meaning": "file structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "file structure"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36134",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างแลตทิซ",
+    "alalc": "",
+    "meaning": "lattice structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "lattice structure"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36135",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างแห่งอำนาจ",
+    "alalc": "",
+    "meaning": "power structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "power structure"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36136",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างไม่ต่อเนื่อง",
+    "alalc": "",
+    "meaning": "discrete structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "discrete structure"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36137",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงสร้างไวยากรณ์",
+    "alalc": "",
+    "meaning": "grammatical structure",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "grammatical structure"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10645",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงหัวใจ",
+    "alalc": "",
+    "meaning": "fibrous skeleton of heart; cardiac skeleton",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "fibrous skeleton of heart; cardiac skeleton"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36138",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงหุ่นปั้น",
+    "alalc": "",
+    "meaning": "armature",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "armature"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36139",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1694820,9 +1698799,109 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:4088",
-    "source_query": "เร.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครงเรื่องรอง",
+    "alalc": "",
+    "meaning": "sub-plot",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sub-plot"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36141",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงแบบ",
+    "alalc": "",
+    "meaning": "configuration",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "configuration"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36142",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครงโลหะ",
+    "alalc": "",
+    "meaning": "framework; metal framework; metal skeleton",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "framework; metal framework; metal skeleton"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36143",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครม",
+    "alalc": "khrōm",
+    "meaning": "the sound of heavy objects crashing to the ground; clamor.",
+    "ipa": "kʰroom",
+    "pron_display": "ˈkʰroom",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "the sound of heavy objects crashing to the ground; clamor."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4092",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
     "status": "tentative"
   },
   {
@@ -1694847,10 +1698926,374 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10648",
-    "source_query": "คร.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "โครมาทิน",
+    "alalc": "",
+    "meaning": "chromatin",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chromatin"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36144",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครมาโทกราฟี",
+    "alalc": "",
+    "meaning": "chromatography",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chromatography"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36145",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคราช",
+    "alalc": "khōrāt",
+    "meaning": "Khorat, colloquial name for นครราชสีมา Nakhon Ratsima, a township in NE Thailand.",
+    "ipa": "kʰoo-râat",
+    "pron_display": "kʰooˈrâat",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Khorat, colloquial name for นครราชสีมา Nakhon Ratsima, a township in NE Thailand."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4093",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครูทีน",
+    "alalc": "",
+    "meaning": "coroutine",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "coroutine"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36146",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครเมียม",
+    "alalc": "",
+    "meaning": "chromium",
+    "ipa": "kʰroo miam, kʰroo mîam",
+    "pron_display": "kʰroo miam, kʰroo mîam",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chromium"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10649",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครโมพลาสต์",
+    "alalc": "",
+    "meaning": "chromoplast",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chromoplast"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36147",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครโมเมียร์",
+    "alalc": "",
+    "meaning": "chromomere",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "chromomere"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36148",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โครโมโซม",
+    "alalc": "khrō mō sōm",
+    "meaning": "chromosome",
+    "ipa": "kʰroo moo soom",
+    "pron_display": "kʰroo moo soom",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "chromosome"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10650",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โครโมโซมเพศ",
+    "alalc": "",
+    "meaning": "allosome; heterochromosome; sex chromosome",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "allosome; heterochromosome; sex chromosome"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36150",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคร่ง",
+    "alalc": "khrōng",
+    "meaning": "to be huge.",
+    "ipa": "kʰrôoŋ",
+    "pron_display": "ˈkʰrôoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be huge."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4091",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคล",
+    "alalc": "khlō",
+    "meaning": "col",
+    "ipa": "kʰoon",
+    "pron_display": "kʰoon",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "col"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36151",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "conflict",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคลง",
+    "alalc": "khlōng",
+    "meaning": "a kind of Thai verse form.",
+    "ipa": "kʰlooŋ",
+    "pron_display": "ˈkʰlooŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "a kind of Thai verse form."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4094",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคลง",
+    "alalc": "khlōng",
+    "meaning": "to rock, shake; to be unsteady; (a boat) to roll, toss about.",
+    "ipa": "kʰlooŋ",
+    "pron_display": "ˈkʰlooŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to rock, shake; to be unsteady; (a boat) to roll, toss about."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4095",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคลงกลอน",
+    "alalc": "",
+    "meaning": "poetry, poem; verse",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "poetry, poem; verse"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10428",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "โคลงเคลง",
@@ -1694874,10 +1699317,829 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:10652",
-    "source_query": "เค.*",
+    "source_query": "โค.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "โคลน",
+    "alalc": "khlōn",
+    "meaning": "mud.",
+    "ipa": "kʰloon",
+    "pron_display": "ˈkʰloon",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mud."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4096",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคลนตม",
+    "alalc": "",
+    "meaning": "mire, mud; slime; muck; dirt; ooze",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "mire, mud; slime; muck; dirt; ooze"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:7678",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคลนน้ำมันเครื่อง",
+    "alalc": "",
+    "meaning": "sludge",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sludge"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36154",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โควตา",
+    "alalc": "khwō tā",
+    "meaning": "quota, amount; number; quantity",
+    "ipa": "kʰwoo tâa",
+    "pron_display": "kʰwoo tâa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "quota, amount; number; quantity"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10654",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โควต้า",
+    "alalc": "",
+    "meaning": "quota",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "quota"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3331",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคเคน",
+    "alalc": "khō khēn",
+    "meaning": "cocaine",
+    "ipa": "kʰoo kʰeen",
+    "pron_display": "kʰoo kʰeen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cocaine"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10613",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคเซแคนต์",
+    "alalc": "khō sē khǣn",
+    "meaning": "cosecant",
+    "ipa": "kʰoo see kʰɛ́ɛn",
+    "pron_display": "kʰoo see kʰɛ́ɛn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cosecant"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10617",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคเดก",
+    "alalc": "",
+    "meaning": "CODEC (coder/decoder) (ตัวเข้ารหัส/ถอดรหัส)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "CODEC (coder/decoder) (ตัวเข้ารหัส/ถอดรหัส)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36156",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคเนื้อ",
+    "alalc": "",
+    "meaning": "beef cattle, beef; cattle; cow",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beef cattle, beef; cattle; cow"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10625",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคเร",
+    "alalc": "",
+    "meaning": "kore",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "kore"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36157",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคเอนไซม์",
+    "alalc": "",
+    "meaning": "coenzyme",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "coenzyme"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36158",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โคแทนเจนต์",
+    "alalc": "khō thǣn yēn",
+    "meaning": "cotangent",
+    "ipa": "kʰoo tʰɛɛn jêen",
+    "pron_display": "kʰoo tʰɛɛn jêen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cotangent"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10621",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โคไซน์",
+    "alalc": "khō say",
+    "meaning": "cosine",
+    "ipa": "kʰoo say",
+    "pron_display": "kʰoo say",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cosine"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:10618",
+    "source_query": "โค.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค่ง",
+    "alalc": "khōng",
+    "meaning": "to be oversized.",
+    "ipa": "kʰôoŋ",
+    "pron_display": "ˈkʰôoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be oversized."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4075",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค่น",
+    "alalc": "khōn",
+    "meaning": "to cut down; to fell.; to overthrow.; to fall down.",
+    "ipa": "kʰôon",
+    "pron_display": "ˈkʰôon",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to cut down; to fell."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to overthrow."
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to fall down."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4081",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค่นล้ม",
+    "alalc": "",
+    "meaning": "eliminate, remove; oust; get rid of",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "eliminate, remove; oust; get rid of"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3329",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้ง",
+    "alalc": "khōng",
+    "meaning": "to be bent, curved (as a line).",
+    "ipa": "kʰóoŋ",
+    "pron_display": "ˈkʰóoŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be bent, curved (as a line)."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:4077",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค้งกระดูกสันหลัง",
+    "alalc": "",
+    "meaning": "rachiocampsis",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "rachiocampsis"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36159",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งกระดูกโหนกแก้ม",
+    "alalc": "",
+    "meaning": "zygomatic zygoma / arch",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "zygomatic zygoma / arch"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36160",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งขึ้น",
+    "alalc": "",
+    "meaning": "incurved",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "incurved"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36161",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งคันศร",
+    "alalc": "",
+    "meaning": "arcuate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "arcuate"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36162",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งจรดกัน",
+    "alalc": "",
+    "meaning": "anastomosing",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "anastomosing"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36163",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งชดเชย",
+    "alalc": "",
+    "meaning": "compensating curve",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "compensating curve"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36164",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งตามขวาง",
+    "alalc": "",
+    "meaning": "transverse curve",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "transverse curve"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36165",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งปลายเบ้าฟันขากรรไกรบน",
+    "alalc": "",
+    "meaning": "alveolar arch of maxilla; alveolar border of maxilla; inferior free border of alveolar process of maxilla",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "alveolar arch of maxilla; alveolar border of maxilla; inferior free border of alveolar process of maxilla"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36166",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งปลายเบ้าฟันขากรรไกรล่าง",
+    "alalc": "",
+    "meaning": "alveolar arch of mandible; alveolar border of mandible; superior free border of alveolar process of mandible",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "alveolar arch of mandible; alveolar border of mandible; superior free border of alveolar process of mandible"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36167",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งพับลง",
+    "alalc": "",
+    "meaning": "deflexed; reflexed",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "deflexed; reflexed"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36168",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งลง",
+    "alalc": "",
+    "meaning": "decurved; reclinate; recurved",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "decurved; reclinate; recurved"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36169",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งลงมาก",
+    "alalc": "",
+    "meaning": "declinate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "declinate"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36170",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งวิลสัน",
+    "alalc": "",
+    "meaning": "curve of Wilson; Wlison curve",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "curve of Wilson; Wlison curve"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36171",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งสปี",
+    "alalc": "",
+    "meaning": "curve of Spee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "curve of Spee"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36172",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "โค้งสุดท้าย",
@@ -1694901,7 +1700163,163 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:889",
-    "source_query": "สุ.*",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งเล็กน้อย",
+    "alalc": "",
+    "meaning": "subarcuate",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "subarcuate"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36173",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งแนวสบ",
+    "alalc": "",
+    "meaning": "curve of occlusion (ฟัน)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "curve of occlusion (ฟัน)"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36174",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้งแอนติมอนสัน",
+    "alalc": "",
+    "meaning": "antimonson curve",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "antimonson curve"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:36175",
+    "source_query": "โค.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "โค้ช",
+    "alalc": "khōt",
+    "meaning": "coach",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "coach"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:890",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค้ด",
+    "alalc": "khōt",
+    "meaning": "code",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "code"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:891",
+    "source_query": "โค.*",
+    "roman_method": "spelling",
+    "roman_evidence": "spelling_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "โค้ดลับ",
+    "alalc": "",
+    "meaning": "secret code",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "secret code"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:892",
+    "source_query": "โค.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1716907,7 +1722325,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1877",
-    "source_query": "มี.*",
+    "source_query": "โก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"

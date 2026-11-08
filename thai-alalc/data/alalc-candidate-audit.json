@@ -1,6 +1,6 @@
 {
   "summary": {
-    "unique_lexical_records": 64219,
+    "unique_lexical_records": 64419,
     "sample_size": 150,
     "counts": {
       "neither": 89,
@@ -1003,6 +1003,17 @@
       "pos": ""
     },
     {
+      "thai": "โคนก้านใบป่อง",
+      "source_id": "RI:36083",
+      "pronunciation": "",
+      "meaning": "pulvinus",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "8",
+      "pos": ""
+    },
+    {
       "thai": "ท่อหัวกระจายของเหลว",
       "source_id": "RI:16308",
       "pronunciation": "",
@@ -1650,17 +1661,6 @@
       "comparison": "pronunciation_only",
       "web_rank": "3",
       "pos": "V"
-    },
-    {
-      "thai": "ละครปฏิลักษณ์",
-      "source_id": "RI:24356",
-      "pronunciation": "",
-      "meaning": "anti-play",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "8",
-      "pos": ""
     }
   ]
 }
