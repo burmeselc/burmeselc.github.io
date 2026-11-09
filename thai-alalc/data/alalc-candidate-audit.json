@@ -1,12 +1,12 @@
 {
   "summary": {
-    "unique_lexical_records": 65886,
+    "unique_lexical_records": 66151,
     "sample_size": 150,
     "counts": {
-      "neither": 89,
+      "neither": 88,
       "pronunciation_only": 55,
       "agreement": 3,
-      "disagreement": 2,
+      "disagreement": 3,
       "spelling_only": 1
     },
     "scope": "agreement audit only; not ALA-LC exact-match accuracy",
@@ -737,6 +737,17 @@
       "pronunciation_candidate": "khœ̄y hū",
       "comparison": "pronunciation_only",
       "web_rank": "7",
+      "pos": "V"
+    },
+    {
+      "thai": "ไก๋",
+      "source_id": "TDP:1933",
+      "pronunciation": "kǎy",
+      "meaning": "to feign ignorance or innocence; to play dumb.",
+      "spelling_candidate": "kai",
+      "pronunciation_candidate": "kay",
+      "comparison": "disagreement",
+      "web_rank": "3",
       "pos": "V"
     },
     {
@@ -1651,17 +1662,6 @@
       "comparison": "agreement",
       "web_rank": "3",
       "pos": "N"
-    },
-    {
-      "thai": "ผู้สัมภาษณ์",
-      "source_id": "RI:19307",
-      "pronunciation": "",
-      "meaning": "interviewer",
-      "spelling_candidate": null,
-      "pronunciation_candidate": null,
-      "comparison": "neither",
-      "web_rank": "5",
-      "pos": ""
     }
   ]
 }
