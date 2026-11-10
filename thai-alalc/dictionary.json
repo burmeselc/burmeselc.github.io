@@ -73846,7 +73846,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25609",
-    "source_query": "กั.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -74014,6 +74014,87 @@
     "status": "tentative"
   },
   {
+    "thai": "กาก",
+    "alalc": "kāk",
+    "meaning": "refuse, leavings, residue, dregs, dross, roughage.",
+    "ipa": "kàak",
+    "pron_display": "ˈkàak",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "refuse, leavings, residue, dregs, dross, roughage."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1101",
+    "source_query": "กาก.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กากกะรุน",
+    "alalc": "",
+    "meaning": "emery, corundum",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "emery, corundum"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25659",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กากขยาก",
+    "alalc": "kāk kha yāk",
+    "meaning": "scraps, waste matter; dregs; dross; residue",
+    "ipa": "kàak kʰà yàak",
+    "pron_display": "kàak kʰà yàak",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "scraps, waste matter; dregs; dross; residue"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25660",
+    "source_query": "กาก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กากข้าว",
     "alalc": "kāk khāw",
     "meaning": "paddy mixed with milled rice",
@@ -74035,10 +74116,114 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25661",
-    "source_query": "ข้.*",
+    "source_query": "กาก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "กากคติ",
+    "alalc": "kā ka kha ti",
+    "meaning": "kind of Thai verse",
+    "ipa": "kaa kà kʰá tì",
+    "pron_display": "kaa kà kʰá tì",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of Thai verse"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25662",
+    "source_query": "กาก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กากคั้น",
+    "alalc": "",
+    "meaning": "marc",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "marc"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1227",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กากตะกอน",
+    "alalc": "",
+    "meaning": "sludge",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "sludge"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1228",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กากนิวเคลียร์",
+    "alalc": "",
+    "meaning": "nuclear waste, radioactive waste",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "nuclear waste, radioactive waste"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25665",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "กากน้ำตาล",
@@ -74068,6 +74253,33 @@
     "status": "tentative"
   },
   {
+    "thai": "กากบาท",
+    "alalc": "kākabāt",
+    "meaning": "the plus sign (+); the multiplication sign (x); any \"x\" mark.",
+    "ipa": "kaa-ka-bàat",
+    "pron_display": "kaa.kaˈbàat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "the plus sign (+); the multiplication sign (x); any \"x\" mark."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1105",
+    "source_query": "กาก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กากมะพร้าว",
     "alalc": "kāk maphrāw",
     "meaning": "coconut meat residue, i.e. the unusable residue left after the grated meat has been pressed.",
@@ -74089,10 +74301,62 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1103",
-    "source_query": "มะ.*",
+    "source_query": "กาก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
+  },
+  {
+    "thai": "กากยา",
+    "alalc": "",
+    "meaning": "drug residue",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "drug residue"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1230",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กากรุน",
+    "alalc": "",
+    "meaning": "Carborundum, emery",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Carborundum, emery"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25668",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
   },
   {
     "thai": "กากหมู",
@@ -74116,7 +74380,61 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25669",
-    "source_query": "หม.*",
+    "source_query": "กาก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กากะทิง",
+    "alalc": "kā ka thing",
+    "meaning": "Alexandria laurel, Calophyllum inophyllum",
+    "ipa": "kaa kà tʰiŋ",
+    "pron_display": "kaa kà tʰiŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Alexandria laurel, Calophyllum inophyllum"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25670",
+    "source_query": "กาก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กากะเยีย",
+    "alalc": "kā ka yia",
+    "meaning": "stand for palm-leaf books, folding wooden bookrest",
+    "ipa": "kaa kà yia",
+    "pron_display": "kaa kà yia",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "stand for palm-leaf books, folding wooden bookrest"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25671",
+    "source_query": "กาก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -74149,6 +74467,60 @@
     "status": "tentative"
   },
   {
+    "thai": "กากีแกมเขียว",
+    "alalc": "kā kī kǣm khiaw",
+    "meaning": "olive-green",
+    "ipa": "kaa kii kɛɛm kʰǐaw",
+    "pron_display": "kaa kii kɛɛm kʰǐaw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "olive-green"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25674",
+    "source_query": "กาก.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กากี่นั้ง",
+    "alalc": "",
+    "meaning": "one of us, intimate friends",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "one of us, intimate friends"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:769",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "กากเดน",
     "alalc": "",
     "meaning": "remnant, remains",
@@ -74170,7 +74542,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25663",
-    "source_query": "เด.*",
+    "source_query": "กาก.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -74203,6 +74575,85 @@
     "status": "tentative"
   },
   {
+    "thai": "กากใย",
+    "alalc": "",
+    "meaning": "crude fibre*",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "crude fibre*"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1231",
+    "source_query": "กาก.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาง",
+    "alalc": "kāng",
+    "meaning": "to spread out, stretch out, hang out.",
+    "ipa": "kaaŋ",
+    "pron_display": "ˈkaaŋ",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to spread out, stretch out, hang out."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1109",
+    "source_query": "กาง.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กางของ",
+    "alalc": "kāng khǭng",
+    "meaning": "Millingtonia hortensis Linn., cork tree; species of plants",
+    "ipa": "kaaŋ kʰɔ̌ɔŋ",
+    "pron_display": "kaaŋ kʰɔ̌ɔŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Millingtonia hortensis Linn., cork tree; species of plants"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25686",
+    "source_query": "กาง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กางปีก",
     "alalc": "",
     "meaning": "spread the wings, expand the wings",
@@ -74224,7 +74675,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25690",
-    "source_query": "ปี.*",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -74251,7 +74702,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1110",
-    "source_query": "มุ.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -74278,10 +74729,62 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:31199",
-    "source_query": "ร่.*",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "กางออก",
+    "alalc": "",
+    "meaning": "squarrose",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "squarrose"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1233",
+    "source_query": "กาง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กางเกง",
+    "alalc": "kāngkēng",
+    "meaning": "pants, trousers.",
+    "ipa": "kaaŋ-keeŋ",
+    "pron_display": "kaaŋˈkeeŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "pants, trousers."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1116",
+    "source_query": "กาง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "กางเกงขายาว",
@@ -74305,7 +74808,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25678",
-    "source_query": "ขา.*",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -74332,7 +74835,61 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25679",
-    "source_query": "ขา.*",
+    "source_query": "กาง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กางเกงชายหาด",
+    "alalc": "",
+    "meaning": "beach trousers",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "beach trousers"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:1800",
+    "source_query": "กาง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กางเกงยีน",
+    "alalc": "",
+    "meaning": "jeans",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "jeans"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25682",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -74359,7 +74916,61 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25683",
-    "source_query": "ลิ.*",
+    "source_query": "กาง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กางเกงว่ายน้ำ",
+    "alalc": "",
+    "meaning": "swimming trunks",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "swimming trunks"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25684",
+    "source_query": "กาง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กางเกงแพร",
+    "alalc": "",
+    "meaning": "silk pants, Chinese silk trousers",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "silk pants, Chinese silk trousers"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25681",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -74386,10 +74997,37 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25680",
-    "source_query": "ใ.*",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "กางเขน",
+    "alalc": "kāngkhēn",
+    "meaning": "cross.",
+    "ipa": "kaaŋ-kʰěen",
+    "pron_display": "kaaŋˈkʰěen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "cross."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1119",
+    "source_query": "กาง.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "กางแขน",
@@ -74413,7 +75051,212 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:25688",
-    "source_query": "แข.*",
+    "source_query": "กาง.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาจ",
+    "alalc": "kāt",
+    "meaning": "to be wicked, brave, bold.",
+    "ipa": "kàat",
+    "pron_display": "ˈkàat",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be wicked, brave, bold."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1122",
+    "source_query": "กาจ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาจับหลัก",
+    "alalc": "kā yap lak",
+    "meaning": "wood supporter of the dead's chin in urn-shaped casket; act of holding mahout's hook; kind of trap in ancient time used only for human",
+    "ipa": "kaa jàp làk",
+    "pron_display": "kaa jàp làk",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "wood supporter of the dead's chin in urn-shaped casket"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "act of holding mahout's hook"
+        ]
+      },
+      {
+        "n": "3",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of trap in ancient time used only for human"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25692",
+    "source_query": "กาจ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาชาด",
+    "alalc": "kā chāt",
+    "meaning": "red cross",
+    "ipa": "kaa cʰâat",
+    "pron_display": "kaa cʰâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "red cross"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25693",
+    "source_query": "กาช.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาชาดสากล",
+    "alalc": "",
+    "meaning": "International Red Cross",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "International Red Cross"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:1234",
+    "source_query": "กาช.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาซ",
+    "alalc": "kāt",
+    "meaning": "gas, i.e. gaseous substance.",
+    "ipa": "káat",
+    "pron_display": "ˈkáat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gas, i.e. gaseous substance."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1125",
+    "source_query": "กาซ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาญจนบุรี",
+    "alalc": "kānyanaburī",
+    "meaning": "Kanchanaburi, a township in central Thailand west of Bangkok.",
+    "ipa": "kaan-ja-ná-bu-rii",
+    "pron_display": "kaan.ja.ná.buˈrii",
+    "pos": "pN",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "pN"
+        ],
+        "definitions": [
+          "Kanchanaburi, a township in central Thailand west of Bangkok."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1126",
+    "source_query": "กาญ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาญจนา",
+    "alalc": "",
+    "meaning": "gold",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "gold"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25701",
+    "source_query": "กาญ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -137997,7 +138840,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1111",
-    "source_query": "ข้.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -560117,7 +560960,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1112",
-    "source_query": "ท้.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -568589,7 +569432,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1120",
-    "source_query": "นก.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -813319,7 +814162,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:12517",
-    "source_query": "พุ.*",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1403025,7 +1403868,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1123",
-    "source_query": "เก.*",
+    "source_query": "กาจ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1432730,7 +1433573,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1106",
-    "source_query": "เค.*",
+    "source_query": "กาก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1524287,7 +1525130,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:13769",
-    "source_query": "เป.*",
+    "source_query": "กาง.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1592114,7 +1592957,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1118",
-    "source_query": "เส.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1800716,7 +1801559,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1107",
-    "source_query": "ไม.*",
+    "source_query": "กาก.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1800743,7 +1801586,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1121",
-    "source_query": "ไม.*",
+    "source_query": "กาง.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
