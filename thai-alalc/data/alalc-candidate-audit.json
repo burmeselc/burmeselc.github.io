@@ -1,11 +1,11 @@
 {
   "summary": {
-    "unique_lexical_records": 66151,
+    "unique_lexical_records": 66983,
     "sample_size": 150,
     "counts": {
-      "neither": 88,
-      "pronunciation_only": 55,
-      "agreement": 3,
+      "neither": 90,
+      "pronunciation_only": 54,
+      "agreement": 2,
       "disagreement": 3,
       "spelling_only": 1
     },
@@ -210,6 +210,17 @@
       "comparison": "pronunciation_only",
       "web_rank": "7",
       "pos": "N"
+    },
+    {
+      "thai": "ไร้ชีวิตชีวา",
+      "source_id": "RI:37956",
+      "pronunciation": "",
+      "meaning": "devitalise; devitalize",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "5",
+      "pos": ""
     },
     {
       "thai": "จุดรับเย็น",
@@ -1246,6 +1257,17 @@
       "pos": "V"
     },
     {
+      "thai": "ไม่สามารถรู้ผิดชอบ",
+      "source_id": "RI:37848",
+      "pronunciation": "",
+      "meaning": "doli incapax (ในการกระทำผิดอาญา)",
+      "spelling_candidate": null,
+      "pronunciation_candidate": null,
+      "comparison": "neither",
+      "web_rank": "6",
+      "pos": ""
+    },
+    {
       "thai": "อย่างสนใจ",
       "source_id": "LEX2.0:4255",
       "pronunciation": "",
@@ -1598,6 +1620,17 @@
       "pos": "V"
     },
     {
+      "thai": "ไฟบอดไปข้างหนึ่ง",
+      "source_id": "TDP:10427",
+      "pronunciation": "fay bɔ̀ɔt pay kʰâaŋ nʉŋ",
+      "meaning": "One headlight (of a car) is out.",
+      "spelling_candidate": null,
+      "pronunciation_candidate": "fay bǭt pay khāng nưng",
+      "comparison": "pronunciation_only",
+      "web_rank": "1",
+      "pos": ""
+    },
+    {
       "thai": "วิทยาเชื้อรา",
       "source_id": "RI:25303",
       "pronunciation": "",
@@ -1629,39 +1662,6 @@
       "comparison": "neither",
       "web_rank": "9",
       "pos": ""
-    },
-    {
-      "thai": "สุดขีด",
-      "source_id": "LEX2.0:6459",
-      "pronunciation": "sùt kʰìit",
-      "meaning": "extremely, exceedingly; awfully",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "sut khīt",
-      "comparison": "pronunciation_only",
-      "web_rank": "3",
-      "pos": "ADV"
-    },
-    {
-      "thai": "ท่วงที",
-      "source_id": "TDP:8573",
-      "pronunciation": "tʰûaŋ tʰii",
-      "meaning": "presence, attitude, deportment, bearing, manner.",
-      "spelling_candidate": null,
-      "pronunciation_candidate": "thuang thī",
-      "comparison": "pronunciation_only",
-      "web_rank": "5",
-      "pos": "N"
-    },
-    {
-      "thai": "ชาน",
-      "source_id": "TDP:5777",
-      "pronunciation": "cʰaan",
-      "meaning": "platform, porch (without roof).; environs.",
-      "spelling_candidate": "chān",
-      "pronunciation_candidate": "chān",
-      "comparison": "agreement",
-      "web_rank": "3",
-      "pos": "N"
     }
   ]
 }
