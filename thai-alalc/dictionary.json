@@ -1813205,6 +1813205,379 @@
     "status": "tentative"
   },
   {
+    "thai": "ไฮดรา",
+    "alalc": "",
+    "meaning": "hydra",
+    "ipa": "hay draa, hay drâa",
+    "pron_display": "hay draa, hay drâa",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hydra"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16086",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮยาโลพลาซึม",
+    "alalc": "",
+    "meaning": "hyaloplasm",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hyaloplasm"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38125",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮเทค",
+    "alalc": "",
+    "meaning": "high-tech, high-technology; high-technology, high-tech; hi-tech",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N; ADJ",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "high-tech, high-technology"
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "ADJ"
+        ],
+        "definitions": [
+          "high-technology, high-tech; hi-tech"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:3219",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮเวย์",
+    "alalc": "",
+    "meaning": "highway",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "highway"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:32363",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโกรมิเตอร์",
+    "alalc": "hay krō mi tœ̄",
+    "meaning": "hygrometer",
+    "ipa": "hay kroo mí tə̂ə",
+    "pron_display": "hay kroo mí tə̂ə",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hygrometer"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16077",
+    "source_query": "ไฮ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไฮโดรคลอโรฟลูออโรคาร์บอน",
+    "alalc": "",
+    "meaning": "hydrochlorofluorocarbon (HCFC) (เอชซีเอฟซี)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hydrochlorofluorocarbon (HCFC) (เอชซีเอฟซี)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38126",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโดรคอลลอยด์",
+    "alalc": "",
+    "meaning": "hydrocolloid",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hydrocolloid"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38127",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโดรคอลลอยด์ผันกลับได้",
+    "alalc": "",
+    "meaning": "reversible hydrocolloid",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "reversible hydrocolloid"
+        ]
+      }
+    ],
+    "web_rank": "9",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38128",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโดรคอลลอยด์ผันกลับไม่ได้",
+    "alalc": "",
+    "meaning": "irreversible hydrocolloid",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "irreversible hydrocolloid"
+        ]
+      }
+    ],
+    "web_rank": "8",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38129",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโดรคาร์บอน",
+    "alalc": "",
+    "meaning": "hydrocarbon",
+    "ipa": "hay droo kʰaa bɔɔn, hay droo kʰaa bɔ̂ɔn",
+    "pron_display": "hay droo kʰaa bɔɔn, hay droo kʰaa bɔ̂ɔn",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hydrocarbon"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16087",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโดรฟลูออโรคาร์บอน",
+    "alalc": "",
+    "meaning": "hydrofluorocarbon (HFC) (เอชเอฟซี)",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hydrofluorocarbon (HFC) (เอชเอฟซี)"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38131",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮโดรเจน",
+    "alalc": "haydrōyen",
+    "meaning": "hydrogen.",
+    "ipa": "hay-droo-jên",
+    "pron_display": "hay.drooˈjên*",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hydrogen."
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:20068",
+    "source_query": "ไฮ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "ไฮโพทีเซียม",
+    "alalc": "",
+    "meaning": "hypothecium",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "hypothecium"
+        ]
+      }
+    ],
+    "web_rank": "1",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:38132",
+    "source_query": "ไฮ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "ไฮ้",
+    "alalc": "hai",
+    "meaning": "no! no!",
+    "ipa": "háy",
+    "pron_display": "háy",
+    "pos": "INT",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "INT"
+        ],
+        "definitions": [
+          "no! no!"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:16084",
+    "source_query": "ไฮ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "conflict",
+    "status": "tentative"
+  },
+  {
     "thai": "๓ ต่อ ๑",
     "alalc": "",
     "meaning": "(the odds are) three to one.",
