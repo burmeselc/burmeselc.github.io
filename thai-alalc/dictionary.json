@@ -82008,6 +82008,33 @@
     "status": "tentative"
   },
   {
+    "thai": "กาว",
+    "alalc": "kāw",
+    "meaning": "glue.",
+    "ipa": "kaaw",
+    "pron_display": "ˈkaaw",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "glue."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1294",
+    "source_query": "กาว.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กาวใจ",
     "alalc": "",
     "meaning": "glue, gum; cement; adhesive; mucilage",
@@ -82033,6 +82060,96 @@
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "กาษา",
+    "alalc": "",
+    "meaning": "kind of cloth, handwoven cloth; homespun cloth; handloomed cloth",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of cloth, handwoven cloth; homespun cloth; handloomed cloth"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24489",
+    "source_query": "กาษ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาสิโน",
+    "alalc": "kā si nō",
+    "meaning": "casino",
+    "ipa": "kaa sì noo",
+    "pron_display": "kaa sì noo",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "casino"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24490",
+    "source_query": "กาส.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาฬ",
+    "alalc": "kān",
+    "meaning": "to be black.; to be deathly, death-like.",
+    "ipa": "kaan",
+    "pron_display": "ˈkaan",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be black."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be deathly, death-like."
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1305",
+    "source_query": "กาฬ.*",
+    "roman_method": "spelling",
+    "roman_evidence": "agreement",
+    "status": "tentative"
   },
   {
     "thai": "กาฬปักษี",
@@ -82062,6 +82179,110 @@
     "status": "tentative"
   },
   {
+    "thai": "กาฬวาต",
+    "alalc": "kān la wāt",
+    "meaning": "hurricane, tropical storm",
+    "ipa": "kaan lá wâat",
+    "pron_display": "kaan lá wâat",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "hurricane, tropical storm"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24495",
+    "source_query": "กาฬ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาฬสินธุ์",
+    "alalc": "",
+    "meaning": "Kalasin",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Kalasin"
+        ]
+      }
+    ],
+    "web_rank": "3",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24496",
+    "source_query": "กาฬ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาฬเลือด",
+    "alalc": "",
+    "meaning": "petechia",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "petechia"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:8574",
+    "source_query": "กาฬ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาฬแดง",
+    "alalc": "",
+    "meaning": "petechia",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "petechia"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:8575",
+    "source_query": "กาฬ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
     "thai": "กาฬโรค",
     "alalc": "kāla rōk",
     "meaning": "plague.",
@@ -82083,7 +82304,59 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1306",
-    "source_query": "โร.*",
+    "source_query": "กาฬ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาฬโรคสัตว์ปีก",
+    "alalc": "",
+    "meaning": "avian plague",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "avian plague"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / RI",
+    "source_id": "RI:8577",
+    "source_query": "กาฬ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาฮัง",
+    "alalc": "kā hang",
+    "meaning": "Buceros bicornis, great pied hornbill",
+    "ipa": "kaa haŋ",
+    "pron_display": "kaa haŋ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "Buceros bicornis, great pied hornbill"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24497",
+    "source_query": "กาฮ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
