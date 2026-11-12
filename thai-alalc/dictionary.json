@@ -82362,6 +82362,220 @@
     "status": "tentative"
   },
   {
+    "thai": "กาเฟอีน",
+    "alalc": "kā fē īn",
+    "meaning": "caffeine",
+    "ipa": "kaa fee iin",
+    "pron_display": "kaa fee iin",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "caffeine"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25729",
+    "source_query": "กาเ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาเมสุมิจฉาจาร",
+    "alalc": "kā mē su mit chā yān",
+    "meaning": "adultery",
+    "ipa": "kaa mee sù mít cʰǎa jaan",
+    "pron_display": "kaa mee sù mít cʰǎa jaan",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "adultery"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25754",
+    "source_query": "กาเ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาเยน",
+    "alalc": "kā yēn",
+    "meaning": "amber",
+    "ipa": "kaa yeen",
+    "pron_display": "kaa yeen",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "amber"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25768",
+    "source_query": "กาเ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาเยนทรีย์",
+    "alalc": "",
+    "meaning": "body, physique",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "body, physique"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:25769",
+    "source_query": "กาเ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาเวียน",
+    "alalc": "kā wian",
+    "meaning": "kind of kettle",
+    "ipa": "kaa wian",
+    "pron_display": "kaa wian",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "kind of kettle"
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24488",
+    "source_query": "กาเ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาเอาไว้",
+    "alalc": "kā aw way",
+    "meaning": "to mark, mark off (as with an x, check mark, etc.).",
+    "ipa": "kaa aw wáy",
+    "pron_display": "ˈkaa aw ˈwáy",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to mark, mark off (as with an x, check mark, etc.)."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:16918",
+    "source_query": "กาเ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาแฟ",
+    "alalc": "kāfǣ",
+    "meaning": "coffee.",
+    "ipa": "kaa-fɛɛ",
+    "pron_display": "kaaˈfɛɛ",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "coffee."
+        ]
+      }
+    ],
+    "web_rank": "2",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1145",
+    "source_query": "กาแ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาแฟครึ่งถ้วย",
+    "alalc": "kāfǣ khrưng thuay",
+    "meaning": "half a cup of coffee.",
+    "ipa": "kaa-fɛɛ kʰrʉ̂ŋ tʰûay",
+    "pron_display": "kaaˈfɛɛ kʰrʉ̂ŋ ˈtʰûay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "half a cup of coffee."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:3234",
+    "source_query": "กาแ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
     "thai": "กาแฟผง",
     "alalc": "kāfǣ phong",
     "meaning": "powdered coffee, instant coffee.",
@@ -82383,7 +82597,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1146",
-    "source_query": "ผง.*",
+    "source_query": "กาแ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -82410,10 +82624,62 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:4645",
-    "source_query": "ร้.*",
+    "source_query": "กาแ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
+  },
+  {
+    "thai": "กาแฟสด",
+    "alalc": "",
+    "meaning": "fresh coffee, fresh roasted coffee",
+    "ipa": "",
+    "pron_display": "",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "fresh coffee, fresh roasted coffee"
+        ]
+      }
+    ],
+    "web_rank": "4",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:31739",
+    "source_query": "กาแ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาแฟสองถ้วย",
+    "alalc": "kāfǣ sǭng thuay",
+    "meaning": "two cups of coffee.",
+    "ipa": "kaa-fɛɛ sɔ̌ɔŋ tʰûay",
+    "pron_display": "kaaˈfɛɛ sɔ̌ɔŋ ˈtʰûay",
+    "pos": "",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [],
+        "definitions": [
+          "two cups of coffee."
+        ]
+      }
+    ],
+    "web_rank": "7",
+    "lexical_level": "subentry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:8200",
+    "source_query": "กาแ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
   },
   {
     "thai": "กาแฟเย็น",
@@ -82437,7 +82703,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1147",
-    "source_query": "เย.*",
+    "source_query": "กาแ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -82464,7 +82730,97 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:18014",
-    "source_query": "นม.*",
+    "source_query": "กาแ.*",
+    "roman_method": "ipa",
+    "roman_evidence": "pronunciation_only",
+    "status": "tentative"
+  },
+  {
+    "thai": "กาแล็กซี",
+    "alalc": "",
+    "meaning": "galaxy",
+    "ipa": "kaa lɛk sii, kaa lɛk sîi",
+    "pron_display": "kaa lɛk sii, kaa lɛk sîi",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "galaxy"
+        ]
+      }
+    ],
+    "web_rank": "5",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24480",
+    "source_query": "กาแ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาแล็กโทส",
+    "alalc": "",
+    "meaning": "galactose",
+    "ipa": "kaa lɛk tʰóot, kaa lɛk tʰóo",
+    "pron_display": "kaa lɛk tʰóot, kaa lɛk tʰóo",
+    "pos": "N",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "N"
+        ],
+        "definitions": [
+          "galactose"
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / LEX2.0",
+    "source_id": "LEX2.0:24481",
+    "source_query": "กาแ.*",
+    "roman_method": "",
+    "roman_evidence": "missing",
+    "status": "unresolved"
+  },
+  {
+    "thai": "กาไหล่",
+    "alalc": "kālay",
+    "meaning": "to plate (with metal).; to be plated.",
+    "ipa": "kaa-lày",
+    "pron_display": "kaaˈlày",
+    "pos": "V",
+    "senses": [
+      {
+        "n": "1",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to plate (with metal)."
+        ]
+      },
+      {
+        "n": "2",
+        "pos": [
+          "V"
+        ],
+        "definitions": [
+          "to be plated."
+        ]
+      }
+    ],
+    "web_rank": "6",
+    "lexical_level": "entry",
+    "source": "SEAlang Thai / TDP",
+    "source_id": "TDP:1304",
+    "source_query": "กาไ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1015345,7 +1015701,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / TDP",
     "source_id": "TDP:1148",
-    "source_query": "ร้.*",
+    "source_query": "กาแ.*",
     "roman_method": "ipa",
     "roman_evidence": "pronunciation_only",
     "status": "tentative"
@@ -1119990,7 +1120346,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:5637",
-    "source_query": "สภ.*",
+    "source_query": "กาแ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
@@ -1262160,7 +1262516,7 @@
     "lexical_level": "subentry",
     "source": "SEAlang Thai / LEX2.0",
     "source_id": "LEX2.0:29310",
-    "source_query": "หล.*",
+    "source_query": "กาแ.*",
     "roman_method": "",
     "roman_evidence": "missing",
     "status": "unresolved"
