@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="あなたの趣味がどこに根を張っているか。48の文化圏から、好きなものとまだ知らないものを探す診断。">
+<title>サブカル文化圏診断 | 文化圏地図</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@700;900&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+:root{color-scheme:light;--bg:#f6f6f3;--surface:#fff;--fg:#23252b;--muted:#646872;--line:#e2e2dc;--accent:#3e5bd8;--agree:#3f9a6b;--disagree:#8a6fc9;--display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;--body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;--code:"Space Grotesk",Arial,sans-serif}
+@media(prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#17181c;--surface:#202227;--fg:#ececea;--muted:#a3a6ae;--line:#33353c;--accent:#8ea2ff;--agree:#62c290;--disagree:#a68ef0}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 var(--body);padding-bottom:env(safe-area-inset-bottom)}a{color:var(--accent)}button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible+.dot{outline:3px solid var(--accent);outline-offset:3px}.wrap{max-width:1040px;margin:auto;padding-inline:max(16px,env(safe-area-inset-left))}.narrow{max-width:760px}
+header{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;padding-block:12px}.logo{font:900 1.15rem var(--display);color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:9px}.mark{display:grid;grid-template-columns:repeat(2,10px);gap:3px}.mark i{height:10px;border-radius:3px}.mark i:nth-child(1){background:#7a5fc4}.mark i:nth-child(2){background:#d9a21f}.mark i:nth-child(3){background:#3f9a6b}.mark i:nth-child(4){background:#2f8fb3}nav{display:flex;gap:4px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:999px;font-size:.9rem}nav a[aria-current]{color:var(--fg);background:var(--bg)}
+h1,h2,h3{font-family:var(--display);font-weight:900;line-height:1.35}h1{font-size:clamp(2rem,6vw,3.1rem);margin:0 0 16px}h2{font-size:1.4rem;margin:0 0 12px}h3{font-size:1.08rem;margin:0 0 6px}p{margin:0 0 14px}.hero{padding:55px 0 32px;text-align:center}.lead{color:var(--muted);max-width:36em;margin:0 auto 24px}.note,.meta{color:var(--muted);font-size:.85rem}.meta{margin-top:14px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:6px;border:0;border-radius:999px;background:var(--accent);color:#fff;padding:12px 26px;font-weight:700;text-decoration:none}.btn.ghost{background:transparent;color:var(--fg);border:1.5px solid var(--line)}.btn:disabled{opacity:.4;cursor:not-allowed}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 40px}.hero .actions{justify-content:center;margin-bottom:8px}
+.band{padding:28px 0 42px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.tile{border-radius:15px;border:1px solid var(--line);background:var(--surface);padding:15px;min-width:0;border-top:4px solid var(--gc)}.tile p{color:var(--muted);font-size:.85rem;line-height:1.55;margin:4px 0}.tile strong{font-family:var(--display);font-weight:900}.group{margin:24px 0}.group h3{color:var(--gc)}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{background:var(--bg);border:1px solid var(--line);padding:3px 9px;border-radius:999px;font-size:.78rem}.panel{padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:16px;margin:0 0 18px}.panel p:last-child{margin-bottom:0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.steps .tile{border-top-width:1px}.stepnum{font:700 .85rem var(--code);color:var(--accent)}
+.testhead{padding:28px 0 8px}.testhead h1{font-size:1.65rem;margin-bottom:8px}.progress{height:8px;background:var(--line);border-radius:999px;overflow:hidden;margin:15px 0 5px}.progress i{display:block;height:100%;background:var(--agree);transition:width .2s}.q{margin:0;border:0;border-bottom:1px solid var(--line);padding:24px 0;text-align:center;min-width:0}.q legend{float:left;width:100%;padding:0;font-weight:700;font-size:1.08rem;margin:0 0 8px}.q legend+*{clear:both}.q.missing legend{color:#c0392b}.hint{font-size:.86rem;color:var(--muted);margin:0 0 12px}.scale{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;max-width:590px;margin:auto}.opt{display:flex;align-items:center;flex-direction:column;justify-content:flex-start;gap:7px;cursor:pointer;min-width:0;line-height:1.3;font-size:.78rem;color:var(--muted);position:relative}.opt input{position:absolute;opacity:0;width:1px;height:1px}.dotwrap{height:48px;display:grid;place-items:center}.dot{display:grid;place-items:center;width:var(--s);height:var(--s);border:2.5px solid var(--c);border-radius:50%;transition:background .12s;flex-shrink:0;color:var(--muted);font-size:14px;font-weight:700}.opt input:checked+.dot{background:var(--c);color:var(--surface)}.opt:has(input:checked){color:var(--fg);font-weight:700}.testnav{display:flex;justify-content:space-between;gap:12px;padding:26px 0 50px;flex-wrap:wrap}.warn{color:#c0392b;font-size:.9rem}
+.resulthead{padding:38px 0 22px;display:grid;grid-template-columns:1fr 210px;align-items:center;gap:24px}.resulthead h1{font-size:clamp(1.8rem,5vw,2.8rem);margin:5px 0 10px}.resulthead .art{border-radius:24px;aspect-ratio:1;background:var(--surface);border:1px solid var(--line);padding:16px;display:grid;place-items:center}.art svg{width:100%;height:auto}.bars{display:grid;gap:15px}.barlabels{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:.9rem}.barlabels b{font:700 1.05rem var(--code)}.bar{background:var(--line);border-radius:999px;height:10px;overflow:hidden;margin:5px 0}.bar i{display:block;height:100%;border-radius:999px;background:var(--gc)}.recs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rec{padding:15px;border:1px solid var(--line);border-radius:12px;border-left:4px solid var(--gc);min-width:0}.rec h3{margin:5px 0 8px;overflow-wrap:anywhere}.rec p{font-size:.9rem;margin:0 0 7px}.rec .reason{color:var(--muted);font-size:.8rem}.rec a{font-size:.83rem}.network{display:block;width:100%;max-width:610px;margin:auto;height:auto}.network text{font-family:var(--body);fill:var(--fg)}.legend{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;font-size:.8rem;color:var(--muted)}.legend span:before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:5px}details{border-top:1px solid var(--line);padding:12px 0}summary{cursor:pointer;font-weight:700}footer{padding:24px 0;border-top:1px solid var(--line);font-size:.8rem;color:var(--muted)}[hidden]{display:none!important}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.resulthead{grid-template-columns:1fr;text-align:center}.resulthead .art{width:145px;margin:auto;grid-row:1}.steps{grid-template-columns:1fr}.recs{grid-template-columns:1fr}}@media(max-width:480px){.panel{padding:16px}.opt{font-size:.72rem}.dotwrap{height:43px}.dot{max-width:39px;max-height:39px}.hero{padding-top:34px}header nav{width:100%}header .wrap{padding-block:9px}.q{padding:20px 0}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>サブカル文化圏診断 <small style="color:var(--accent)">試作版</small></a><nav aria-label="メイン"><a href="#test">診断する</a><a href="#cultures">文化圏一覧</a><a href="#about">この診断について</a></nav></div></header>
+<main id="app"></main>
+<footer><div class="wrap">サブカル文化圏診断 v0.1 — 16タイプ診断の発想から派生した実験的な文化マップ。性格・能力を測るものではありません。</div></footer>
+<script src="data.js"></script>
+<script>
+'use strict';
+const C=CULTURES, ITEMS=C.flatMap(c=>c.items.map(x=>({...x,cid:c.id}))), BY=Object.fromEntries(ITEMS.map(x=>[x.id,x]));
+const GROUPS=[...new Set(C.map(c=>c.group))], COLORS=['#7a5fc4','#d9a21f','#3f9a6b','#2f8fb3','#be745b','#8277ab','#5a9a96','#a58d53'];
+const color=c=>COLORS[GROUPS.indexOf(c.group)]||COLORS[0];
+const app=document.getElementById('app'), KEY='culture-map-v01';
+const esc=x=>String(x).replace(/[&<>"']/g,v=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[v]));
+const value=x=>x==='?'||x===undefined?null:Number(x);
+const broad=c=>'b'+c.id, detail=x=>'i'+x.id, qid=q=>q.kind==='b'?broad(C[q.id]):detail(BY[q.id]);
+const split=(a,n)=>Array.from({length:Math.ceil(a.length/n)},(_,i)=>a.slice(i*n,i*n+n));
+const startPages=()=>split(C.map(c=>({kind:'b',id:c.id})),8).map(qs=>({stage:0,qs}));
+let state={version:1,answers:{},pages:startPages(),page:0,done:false,sample:false};
+try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&s.version===1&&Array.isArray(s.pages)&&s.pages.length>=6&&s.answers&&Number.isInteger(s.page)&&s.page>=0&&s.page<s.pages.length)state=s}catch(e){}
+const save=()=>{if(!state.sample)try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}};
+const restart=()=>{state={version:1,answers:{},pages:startPages(),page:0,done:false,sample:false};save();go('test')};
+function go(s){if(location.hash==='#'+s)render();else location.hash=s}
+function nav(s){document.querySelectorAll('nav a').forEach(a=>a.getAttribute('href')==='#'+s?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'))}
+function scrollTop(){window.scrollTo(0,0)}
+function tagSet(x){return [...new Set([...C[x.cid].tags,...x.tags])]}
+const overlap=(a,b)=>a.filter(t=>b.includes(t));
+function profile(a){
+ return C.map(c=>{
+  const b=value(a[broad(c)]), d=c.items.map(x=>value(a[detail(x)])).filter(x=>x!==null);
+  const n=(b===null?0:2)+d.length, s=n?((b===null?0:2*b)+d.reduce((t,x)=>t+x,0))/n:null;
+  return {...c,score:s,count:(b===null?0:1)+d.length,b};
+ }).sort((a,b)=>(b.score??-99)-(a.score??-99)||b.count-a.count||a.id-b.id);
+}
+function tagsFor(a){
+ const weights={};
+ function add(ts,v){if(v===null||v===0)return;ts.forEach(t=>weights[t]=(weights[t]||0)+v/Math.sqrt(ts.length))}
+ C.forEach(c=>add(c.tags,value(a[broad(c)])));
+ ITEMS.forEach(x=>add(tagSet(x),value(a[detail(x)])===null?null:value(a[detail(x)])*1.3));
+ return weights;
+}
+function affinity(x,w){const ts=tagSet(x);return ts.reduce((s,t)=>s+(w[t]||0),0)/Math.sqrt(ts.length)}
+function rankTags(ts,w){return ts.filter(t=>(w[t]||0)>0).sort((a,b)=>w[b]-w[a])}
+function topDomains(a){return profile(a).filter(c=>c.score!==null&&c.score>0)}
+function makeDetail(a){
+ const p=profile(a), chosen=p.filter(c=>c.score>0).slice(0,6), groups=new Set(chosen.map(c=>c.group));
+ const pool=p.filter(c=>!chosen.some(z=>z.id===c.id)&&c.b!==-2);
+ while(chosen.length<6&&pool.length){pool.sort((x,y)=>(groups.has(x.group)?1:0)-(groups.has(y.group)?1:0)||(y.score??-1)-(x.score??-1)||x.id-y.id);const c=pool.shift();chosen.push(c);groups.add(c.group)}
+ const w=tagsFor(a);
+ return chosen.flatMap(c=>c.items.map(x=>BY[x.id]).sort((x,y)=>affinity(y,w)-affinity(x,w)||x.id.localeCompare(y.id)).slice(0,2)).map(x=>({kind:'i',id:x.id}));
+}
+function makeBoundary(a){
+ const w=tagsFor(a), tested=new Set(ITEMS.filter(x=>Object.hasOwn(a,detail(x))).map(x=>x.cid)), hot=new Set(topDomains(a).slice(0,6).map(c=>c.id));
+ let pool=ITEMS.filter(x=>!Object.hasOwn(a,detail(x))&&!tested.has(x.cid)&&!hot.has(x.cid)&&value(a[broad(C[x.cid])])!==-2);
+ const chosen=[], used=new Set(), groupCount={};
+ for(let i=0;i<8&&pool.length;i++){
+  pool=pool.filter(x=>!used.has(x.cid));if(!pool.length)break;
+  pool.sort((x,y)=>{const diversity=(groupCount[C[x.cid].group]||0)-(groupCount[C[y.cid].group]||0);return (i<6?affinity(y,w)-affinity(x,w):diversity*3+Math.abs(affinity(x,w))-Math.abs(affinity(y,w)))||x.cid-y.cid});
+  const x=pool.shift();chosen.push(x);used.add(x.cid);const g=C[x.cid].group;groupCount[g]=(groupCount[g]||0)+1;
+ }
+ return chosen.map(x=>({kind:'i',id:x.id}));
+}
+function recommendations(a){
+ const p=topDomains(a), w=tagsFor(a), hot=new Set(p.slice(0,6).map(c=>c.id)), positives=p.length>0;
+ if(!positives)return {direct:[],bridge:[],adventure:[]};
+ const candidates=ITEMS.filter(x=>{const v=a[detail(x)];return (v===undefined||v==='?'||v==='2')&&value(a[broad(C[x.cid])])!==-2});
+ const ps=Object.fromEntries(profile(a).map(c=>[c.id,c.score??0]));
+ const score=x=>affinity(x,w)+Math.max(0,ps[x.cid])*2+(a[detail(x)]==='2'?5:0);
+ const picked=new Set(), counts={};
+ function take(pool,n,cmp){const out=[];while(out.length<n){const eligible=pool.filter(x=>!picked.has(x.id)&&(counts[x.cid]||0)<3);if(!eligible.length)break;eligible.sort(cmp);const x=eligible[0];out.push(x);picked.add(x.id);counts[x.cid]=(counts[x.cid]||0)+1;}return out}
+ const desc=(x,y)=>score(y)-score(x)||x.id.localeCompare(y.id);
+ const direct=take(candidates.filter(x=>hot.has(x.cid)),8,desc);
+ const bridge=take(candidates.filter(x=>!hot.has(x.cid)&&affinity(x,w)>0),8,desc);
+ const adventure=take(candidates.filter(x=>!hot.has(x.cid)&&affinity(x,w)>0),4,(x,y)=>Math.abs(affinity(x,w)-1)-Math.abs(affinity(y,w)-1)||desc(x,y));
+ return {direct,bridge,adventure};
+}
+function home(){
+ const tiles=GROUPS.map((g,i)=>'<div class="tile" style="--gc:'+COLORS[i]+'"><strong>'+esc(g)+'</strong><p>'+C.filter(c=>c.group===g).map(c=>esc(c.name)).slice(0,3).join('・')+' ほか</p></div>').join('');
+ app.innerHTML='<section class="hero"><div class="wrap narrow"><h1>あなたの趣味は、<br>どこに根を張っている？</h1><p class="lead">映画、音楽、漫画、ネット、歴史、技術。好きなものはジャンルを越えてつながっている。48の文化圏をたどって、あなたの趣味の地図と、まだ知らない隣の世界を見つけます。</p><div class="actions"><button class="btn" id="begin">'+(state.done?'もう一度診断する':Object.keys(state.answers).length?'診断を続ける':'診断する')+'</button>'+(state.done?'<a class="btn ghost" href="#result">前回の結果</a>':'')+'</div><div class="meta">最大68問・目安7〜10分 ／ 回答によって後半の質問が変わります</div></div></section><section class="wrap"><div class="steps"><div class="tile"><span class="stepnum">01 / 探索</span><h3>好きな文化圏を探す</h3><p>幅広い趣味について関心を尋ねます。</p></div><div class="tile"><span class="stepnum">02 / 深化</span><h3>具体的な作品を選ぶ</h3><p>興味のある領域を作品名で確認します。</p></div><div class="tile"><span class="stepnum">03 / 越境</span><h3>隣の世界をのぞく</h3><p>まだ触れていない領域とのつながりを探ります。</p></div></div></section><section class="band wrap"><h2>8つの入口、48の文化圏</h2><div class="grid">'+tiles+'</div><div class="actions"><a class="btn ghost" href="#cultures">文化圏をすべて見る</a><button class="btn ghost" id="demo">サンプルの結果を見る</button></div></section>';
+ document.getElementById('begin').onclick=()=>state.done?restart():go('test');document.getElementById('demo').onclick=demo;
+}
+function cultures(){
+ app.innerHTML='<section class="band wrap"><h1>文化圏一覧</h1><p class="lead" style="margin:0 0 20px">分類は相互に排他的ではありません。同じ作品や趣味が複数の文化圏をつなぐこともあります。</p>'+GROUPS.map((g,i)=>'<div class="group" style="--gc:'+COLORS[i]+'"><h3>'+esc(g)+'</h3><div class="grid">'+C.filter(c=>c.group===g).map(c=>'<div class="tile"><strong>'+esc(c.name)+'</strong><p>'+esc(c.prompt)+'</p><details><summary>登録対象を見る</summary><p>'+c.items.map(x=>esc(x.title)).join('<br>')+'</p></details></div>').join('')+'</div></div>').join('')+'</section>';
+}
+function about(){
+ app.innerHTML='<section class="band wrap narrow"><h1>この診断について</h1><div class="panel"><h2>好きなものを、性格から推定しない。</h2><p>元のサブカル16タイプ診断は、趣味への態度を4軸で測るものでした。この派生版では「何に関心を持つか」だけを調べます。趣味の優劣や、マイナーさによる序列はありません。</p></div><div class="panel"><h2>設問と採点</h2><p>48の文化圏を一度ずつ尋ねます。その回答から最大12問の具体的な対象、最大8問の隣接領域を選びます。興味なし=-2、中立=0、興味あり=2、好き=3、判断不能は欠測として扱います。文化圏の指標は、初回の領域回答を2倍、個別回答を1倍とした平均の正の部分を100点換算したものです。百分率は人口比や好きになる確率ではありません。</p><p>推薦では、作品ごとの文化圏とタグに回答を重み付けして照合します。既に好き、普通、興味なしと回答した対象は除外します。「知らないが興味あり」は候補に残します。関連する別領域も推薦します。</p></div><div class="panel"><h2>試作版の限界</h2><p>48文化圏・192対象・関連タグは編集上の仮説です。利用者の共起データに基づく協調フィルタリングではなく、心理測定としても検証されていません。収録範囲には偏りがあります。文化圏の境界と推薦の関連は、見直す余地があります。</p><p>回答はブラウザのローカルストレージにのみ保存し、サーバーへ送信しません。外部フォントと検索リンクを利用する場合を除き、外部サービスへの通信はありません。</p><button class="btn ghost" id="clear">保存した回答を削除する</button></div></section>';
+ document.getElementById('clear').onclick=()=>{if(confirm('この端末に保存された回答を削除しますか？')){try{localStorage.removeItem(KEY)}catch(e){}state={version:1,answers:{},pages:startPages(),page:0,done:false,sample:false};go('home')}};
+}
+const STAGES=['文化圏を探す','具体的な作品を選ぶ','隣接する領域を探る'];
+function question(q,i){
+ const isb=q.kind==='b', x=isb?C[q.id]:BY[q.id], id=qid(q), chosen=state.answers[id], labels=isb?['興味なし','どちらでもない','興味がある','好き・よく触れる','判断できない']:['興味なし','知っているが普通','知らないが興味あり','知っていて好き','判断できない'];
+ return '<fieldset class="q" id="q-'+id+'"><legend>'+esc(isb?x.name:x.title)+'</legend><p class="hint">'+esc(isb?x.prompt:x.desc+' ／ '+C[x.cid].name)+'</p><div class="scale">'+['-2','0','2','3','?'].map((v,j)=>'<label class="opt" style="--c:'+['var(--disagree)','var(--muted)','var(--agree)','var(--agree)','var(--muted)'][j]+';--s:'+['38px','26px','34px','44px','28px'][j]+'"><span class="dotwrap"><input type="radio" name="'+id+'" value="'+v+'" '+(chosen===v?'checked':'')+' aria-label="'+esc(labels[j])+'"><span class="dot">'+(v==='?'?'?':'')+'</span></span><span>'+esc(labels[j])+'</span></label>').join('')+'</div></fieldset>';
+}
+function renderTest(){
+ if(state.done){result();return}
+ const pg=state.pages[state.page], done=Object.keys(state.answers).length, total=68, part=state.pages.slice(0,state.page+1).filter(p=>p.stage===pg.stage).length;
+ app.innerHTML='<div class="wrap narrow"><div class="testhead"><div class="note">STEP '+(pg.stage+1)+' / 3　・　'+part+'ページ目</div><h1>'+STAGES[pg.stage]+'</h1><p class="note">'+(pg.stage===0?'知識の量ではなく、対象への関心で選んでください。詳しくなくても構いません。':'知らない対象でも説明を読んで、興味があれば選んでください。')+'</p><div class="progress" aria-hidden="true"><i style="width:'+Math.min(100,done/total*100)+'%"></i></div><div class="note" id="count">'+done+'問回答済み / 最大68問</div></div><form id="qform">'+pg.qs.map(question).join('')+'</form><div class="warn" id="warn" role="status"></div><div class="testnav"><button class="btn ghost" id="prev">'+(state.page?'戻る':'ホーム')+'</button><button class="btn" id="next">'+(pg.stage===2&&state.page===state.pages.length-1?'結果を見る':'次へ')+'</button></div></div>';
+ document.getElementById('qform').onchange=e=>{
+  const id=e.target.name;if(!id)return;const v=e.target.value;
+  if(state.answers[id]!==v){
+   const later=state.pages.filter(p=>p.stage>pg.stage);later.flatMap(p=>p.qs).forEach(q=>delete state.answers[qid(q)]);
+   state.pages=state.pages.filter(p=>p.stage<=pg.stage);state.answers[id]=v;state.done=false;save();
+  }
+  document.getElementById('q-'+id).classList.remove('missing');const n=Object.keys(state.answers).length;document.getElementById('count').textContent=n+'問回答済み / 最大68問';document.querySelector('.progress i').style.width=Math.min(100,n/68*100)+'%';
+ };
+ document.getElementById('prev').onclick=()=>{if(state.page){state.page--;save();renderTest();scrollTop()}else go('home')};
+ document.getElementById('next').onclick=()=>{
+  const missing=pg.qs.filter(q=>!Object.hasOwn(state.answers,qid(q)));
+  if(missing.length){missing.forEach(q=>document.getElementById('q-'+qid(q)).classList.add('missing'));document.getElementById('warn').textContent='未回答の項目があります。分からない場合は「判断できない」を選んでください。';document.getElementById('q-'+qid(missing[0])).scrollIntoView({block:'center'});return}
+  if(state.page+1<state.pages.length){state.page++;save();renderTest();scrollTop();return}
+  let qs=pg.stage===0?makeDetail(state.answers):pg.stage===1?makeBoundary(state.answers):[];
+  if(pg.stage<2&&qs.length){state.pages.push(...split(qs,pg.stage===1?8:6).map(qs=>({stage:pg.stage+1,qs})));state.page++;save();renderTest();scrollTop()}
+  else{state.done=true;save();go('result')}
+ };
+}
+function demo(){
+ state={version:1,answers:{},pages:startPages(),page:0,done:false,sample:true};
+ C.forEach(c=>state.answers[broad(c)]=[18,24,25,29,38].includes(c.id)?'3':[26,23,28,47].includes(c.id)?'2':'0');
+ const q1=makeDetail(state.answers);q1.forEach((q,i)=>state.answers[qid(q)]=i%3===0?'3':i%3===1?'2':'?');state.pages.push(...split(q1,6).map(qs=>({stage:1,qs})));
+ const q2=makeBoundary(state.answers);q2.forEach((q,i)=>state.answers[qid(q)]=i%3===0?'2':'?');if(q2.length)state.pages.push({stage:2,qs:q2});state.page=state.pages.length-1;state.done=true;go('result');
+}
+function art(p){
+ const top=p.slice(0,6), pts=top.map((c,i)=>({x:100+70*Math.cos(i*2*Math.PI/Math.max(1,top.length)-Math.PI/2),y:100+70*Math.sin(i*2*Math.PI/Math.max(1,top.length)-Math.PI/2),c}));
+ return '<svg viewBox="0 0 200 200" role="img" aria-label="関心領域の星座"><circle cx="100" cy="100" r="74" fill="none" stroke="var(--line)" stroke-dasharray="4 5"/>'+pts.map((a,i)=>pts.slice(i+1).filter(b=>overlap(a.c.tags,b.c.tags).length).map(b=>'<path d="M'+a.x+' '+a.y+' L'+b.x+' '+b.y+'" stroke="var(--muted)" opacity=".45"/>').join('')).join('')+pts.map(a=>'<circle cx="'+a.x+'" cy="'+a.y+'" r="'+(8+a.c.score*3)+'" fill="'+color(a.c)+'"/>').join('')+'<circle cx="100" cy="100" r="7" fill="var(--fg)"/><text x="100" y="118" text-anchor="middle" font-size="11" fill="var(--muted)">YOU</text></svg>';
+}
+function map(p,recs){
+ const own=p.slice(0,5), other=[...new Set(recs.bridge.concat(recs.adventure).map(x=>x.cid))].filter(id=>!own.some(c=>c.id===id)).slice(0,5).map(id=>C[id]);
+ if(!own.length)return '<p class="note">地図を作るだけの肯定的な回答がありません。</p>';
+ const nodes=own.map((c,i)=>({c,x:88,y:40+i*64,own:true})).concat(other.map((c,i)=>({c,x:312,y:40+i*64,own:false})));
+ const lines=nodes.filter(n=>n.own).flatMap(a=>nodes.filter(b=>!b.own).map(b=>({a,b,t:overlap(a.c.tags,b.c.tags)})).filter(e=>e.t.length));
+ return '<svg class="network" viewBox="0 0 400 356" role="img" aria-label="関心領域と隣接領域の関連図"><text x="88" y="14" font-size="11" text-anchor="middle">現在の関心</text><text x="312" y="14" font-size="11" text-anchor="middle">隣接候補</text>'+lines.map(e=>'<path d="M'+e.a.x+' '+e.a.y+' C180 '+e.a.y+' 220 '+e.b.y+' '+e.b.x+' '+e.b.y+'" fill="none" stroke="var(--muted)" stroke-opacity=".35" stroke-width="'+Math.min(4,e.t.length)+'"><title>'+esc(e.t.join('・'))+'</title></path>').join('')+nodes.map(n=>'<circle cx="'+n.x+'" cy="'+n.y+'" r="8" fill="'+(n.own?color(n.c):'var(--surface)')+'" stroke="'+color(n.c)+'" stroke-width="2"/><text x="'+n.x+'" y="'+(n.y+21)+'" font-size="11" text-anchor="middle">'+esc(n.c.name)+'</text>').join('')+'</svg><div class="legend"><span style="--c:var(--agree)">回答から推定した関心</span><span style="--c:var(--muted)">推薦から抽出した隣接領域</span></div><p class="note">線は文化圏の共通タグを表します。位置や距離に統計的な意味はありません。線のない候補は個別作品のタグから選ばれています。</p>';
+}
+function recommendationCard(x,w,p){
+ const c=C[x.cid], tags=rankTags(tagSet(x),w).slice(0,3), src=p.filter(t=>t.id!==c.id&&overlap(t.tags,tags).length).slice(0,2).map(t=>t.name);
+ const why=tags.length?'共通する関心：'+tags.join('・')+(src.length?'（'+src.join('、')+'など）':''):'文化圏：'+c.name;
+ return '<article class="rec" style="--gc:'+color(c)+'"><div class="note">'+esc(c.name)+(state.answers[detail(x)]==='2'?' ／ 回答で興味あり':'')+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.desc)+'</p><p class="reason">'+esc(why)+'</p><a href="https://www.google.com/search?q='+encodeURIComponent(x.title)+'" target="_blank" rel="noopener noreferrer">詳しく調べる ↗</a></article>';
+}
+function result(){
+ if(!state.done){go('test');return}
+ const a=state.answers,p=topDomains(a), r=recommendations(a), w=tagsFor(a), title=p.length?p.slice(0,2).map(c=>c.name).join(' × '):'まだ地図を描く途中';
+ const motifs=Object.entries(w).filter(([k,v])=>v>0).sort((a,b)=>b[1]-a[1]).slice(0,6).map(x=>x[0]);
+ const all=profile(a), bars=p.slice(0,10).map(c=>'<div><div class="barlabels"><span>'+esc(c.name)+'</span><b>'+Math.round(c.score/3*100)+'<small> / 100</small></b></div><div class="bar" style="--gc:'+color(c)+'"><i style="width:'+Math.round(c.score/3*100)+'%"></i></div><div class="note">有効回答 '+c.count+'件</div></div>').join('');
+ const section=(name,desc,items)=>'<div class="panel"><h2>'+name+'</h2><p class="note">'+desc+'</p>'+(items.length?'<div class="recs">'+items.map(x=>recommendationCard(x,w,p)).join('')+'</div>':'<p class="note">条件に合う候補がありません。</p>')+'</div>';
+ app.innerHTML='<div class="wrap narrow"><section class="resulthead"><div><div class="note">'+(state.sample?'サンプル結果（架空の回答）':'あなたの文化圏')+'</div><h1>'+esc(title)+'</h1><p>'+(p.length?'あなたの回答では、この文化圏の組み合わせに強い関心が見られました。単一のタイプに固定せず、複数の関心を地図にします。':'肯定的な回答が少ないため、特定の文化圏や作品を無理に推薦しません。')+'</p><div class="chips">'+motifs.map(t=>'<span class="chip">'+esc(t)+'</span>').join('')+'</div></div><div class="art">'+art(p)+'</div></section><section class="panel"><h2>あなたの文化圏プロフィール</h2><div class="bars">'+(bars||'<p>肯定的な関心はまだ確認できていません。</p>')+'</div><p class="note">関心指標は回答の平均から計算した参考値です。好きになる確率ではありません。</p><details><summary>全48文化圏の結果を見る</summary><div class="bars">'+all.map(c=>'<div class="barlabels"><span>'+esc(c.name)+'</span><span class="note">'+(c.score===null?'判断材料なし':c.score<=0?'肯定的関心なし':Math.round(c.score/3*100)+' / 100')+'（'+c.count+'件）</span></div>').join('')+'</div></details></section><section class="panel"><h2>あなたの文化圏地図</h2>'+map(p,r)+'</section>'+section('今の趣味をもっと掘る','既に関心を示した文化圏の中から、未評価または未知の候補を選びました。',r.direct)+section('隣の文化圏へ越境する','現在の関心と共通するタグを持つ別の文化圏の候補です。',r.bridge)+section('少し離れた世界をのぞく','関連が比較的弱い領域から、意外な入口を選びました。',r.adventure)+'<div class="panel"><h2>回答で好きと答えたもの</h2><div class="chips">'+(ITEMS.filter(x=>a[detail(x)]==='3').map(x=>'<span class="chip">'+esc(x.title)+'</span>').join('')||'<span class="note">個別作品への該当回答なし</span>')+'</div></div><p class="note">推薦は登録対象の範囲内での編集的な提案であり、利用者間の実測された共起関係ではありません。</p><div class="actions"><button class="btn" id="share">結果をコピーする</button><button class="btn ghost" id="again">最初から診断する</button><button class="btn ghost" id="edit">最後の回答に戻る</button></div><p class="note" id="copied" role="status"></p></div>';
+ document.getElementById('again').onclick=restart;document.getElementById('edit').onclick=()=>{state.done=false;save();go('test')};
+ document.getElementById('share').onclick=async()=>{const str='サブカル文化圏診断'+(state.sample?'（サンプル）':'')+'\n'+title+'\n'+p.slice(0,5).map(c=>c.name+' '+Math.round(c.score/3*100)+'/100').join('\n')+'\n'+location.href.split('#')[0];try{await navigator.clipboard.writeText(str);document.getElementById('copied').textContent='コピーしました。'}catch(e){window.prompt('以下の結果をコピーしてください',str)}};
+}
+function render(){let s=location.hash.slice(1)||'home';nav(s);if(s==='test')renderTest();else if(s==='result')result();else if(s==='cultures')cultures();else if(s==='about')about();else home();scrollTop()}
+window.addEventListener('hashchange',render);render();
+</script>
+</body>
+</html>
