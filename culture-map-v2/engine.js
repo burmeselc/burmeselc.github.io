@@ -27,6 +27,8 @@ const CM=(()=>{
  const v=x=>x===undefined||x==='?'?null:Number(x), b=c=>'b'+c.id,s=x=>'s'+x.id,i=x=>'i'+x.id;
  const uniq=x=>[...new Set(x)], common=(a,b)=>a.filter(x=>b.includes(x));
  const titleKey=x=>x.title.normalize('NFKC').replace(/[　\s]/g,'').toLowerCase();
+ const orderKey=x=>{let k=2166136261;for(const ch of x.id){k=Math.imul(k^ch.charCodeAt(0),16777619)}return k>>>0};
+ const tie=(x,y)=>orderKey(x)-orderKey(y)||x.id.localeCompare(y.id);
  const generic=new Set(['資料','体系','生活','歴史','音楽','文学','映画','漫画','ゲーム','ネット','社会','技術','異文化','キャラ','デザイン','前衛','物語']);
  const strength=t=>generic.has(t)?0.22:1;
  const similarity=(a,b)=>{const u=uniq([...a,...b]);return u.length?common(a,b).reduce((n,t)=>n+strength(t),0)/u.reduce((n,t)=>n+strength(t),0):0};
@@ -69,7 +71,7 @@ const CM=(()=>{
   const r=representatives(C,S,a,8),out=[],seen=new Set(),w=tags(C,S,I,a);
   for(const c of r){
    const ranked=S.filter(x=>x.cid===c.id&&v(a[s(x)])!==-2).sort((x,y)=>(v(a[s(y)])??0)-(v(a[s(x)])??0));
-   const choose=(pool)=>{const x=pool.filter(x=>!seen.has(titleKey(x))).sort((x,y)=>affinity(y,w)-affinity(x,w)||x.id.localeCompare(y.id))[0];if(x){seen.add(titleKey(x));out.push({kind:'i',id:x.id})}};
+   const choose=(pool)=>{const x=pool.filter(x=>!seen.has(titleKey(x))).sort((x,y)=>affinity(y,w)-affinity(x,w)||tie(x,y))[0];if(x){seen.add(titleKey(x));out.push({kind:'i',id:x.id})}};
    if(ranked.length){choose(ranked[0].items);choose(ranked[1]?.items||c.baseItems)}else if(c.b!==-2){choose(c.baseItems);choose(c.baseItems)}
   }
   return out;
@@ -78,7 +80,7 @@ const CM=(()=>{
   const w=tags(C,S,I,a),tested=new Set(I.filter(x=>Object.hasOwn(a,i(x))).map(x=>x.cid)),hot=new Set(profile(C,S,a).filter(x=>x.score>0).map(x=>x.id)),used=new Set(),seen=new Set(I.filter(x=>Object.hasOwn(a,i(x))).map(titleKey));
   const pool=I.filter(x=>!tested.has(x.cid)&&!hot.has(x.cid)&&v(a[b(C[x.cid])])!==-2&&(x.sid===null||v(a[s(S[x.sid])])!==-2));
   const out=[];
-  for(let k=0;k<8;k++){const choices=pool.filter(x=>!used.has(x.cid)&&!seen.has(titleKey(x)));if(!choices.length)break;choices.sort((x,y)=>(k<6?affinity(y,w)-affinity(x,w):Math.abs(affinity(x,w)-.5)-Math.abs(affinity(y,w)-.5))||x.id.localeCompare(y.id));const x=choices[0];used.add(x.cid);seen.add(titleKey(x));out.push({kind:'i',id:x.id})}
+  for(let k=0;k<8;k++){const choices=pool.filter(x=>!used.has(x.cid)&&!seen.has(titleKey(x)));if(!choices.length)break;choices.sort((x,y)=>(k<6?affinity(y,w)-affinity(x,w):Math.abs(affinity(x,w)-.5)-Math.abs(affinity(y,w)-.5))||tie(x,y));const x=choices[0];used.add(x.cid);seen.add(titleKey(x));out.push({kind:'i',id:x.id})}
   return out;
  }
  function recommend(C,S,I,a,feedback={}){
@@ -96,7 +98,7 @@ const CM=(()=>{
    const local=groupTags(g),out=[],counts={};
    const pool=candidates.filter(x=>g.some(c=>c.id===x.cid));
    for(let k=0;k<6;k++){
-    const x=choose(pool,(x,y)=>(counts[x.cid]||0)-(counts[y.cid]||0)||rank(y,local)-rank(x,local)||(x.id.localeCompare(y.id)));
+    const x=choose(pool,(x,y)=>(counts[x.cid]||0)-(counts[y.cid]||0)||rank(y,local)-rank(x,local)||tie(x,y));
     if(!x)break;out.push(x);counts[x.cid]=(counts[x.cid]||0)+1;
    }
    return out;
@@ -104,9 +106,9 @@ const CM=(()=>{
   const remote=candidates.filter(x=>!hot.has(x.cid)),bridge=[],adventure=[],domainSeen=new Set();
   // Each root contributes at most one adjacent suggestion per round.
   for(let round=0;round<2&&bridge.length<8;round++){
-   for(const g of groups){if(bridge.length===8)break;const local=groupTags(g);const x=choose(remote.filter(x=>!domainSeen.has(x.cid)&&common(x.tags,local).some(t=>!generic.has(t))&&affinity(x,w)>0),(x,y)=>rank(y,local)-rank(x,local)||x.id.localeCompare(y.id));if(x){bridge.push(x);domainSeen.add(x.cid)}}
+   for(const g of groups){if(bridge.length===8)break;const local=groupTags(g);const x=choose(remote.filter(x=>!domainSeen.has(x.cid)&&common(x.tags,local).some(t=>!generic.has(t))&&affinity(x,w)>0),(x,y)=>rank(y,local)-rank(x,local)||tie(x,y));if(x){bridge.push(x);domainSeen.add(x.cid)}}
   }
-  for(let k=0;k<4;k++){const x=choose(remote.filter(x=>!domainSeen.has(x.cid)&&affinity(x,w)>0),(x,y)=>Math.abs(affinity(x,w)-.4)-Math.abs(affinity(y,w)-.4)||x.id.localeCompare(y.id));if(!x)break;adventure.push(x);domainSeen.add(x.cid)}
+  for(let k=0;k<4;k++){const x=choose(remote.filter(x=>!domainSeen.has(x.cid)&&affinity(x,w)>0),(x,y)=>Math.abs(affinity(x,w)-.4)-Math.abs(affinity(y,w)-.4)||tie(x,y));if(!x)break;adventure.push(x);domainSeen.add(x.cid)}
   return {direct:byRoot.flat(),bridge,adventure,byRoot};
  }
  return {profile,roots,tags,affinity,makeSub,makeDetail,makeBoundary,recommend};
