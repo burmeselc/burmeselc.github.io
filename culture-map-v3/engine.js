@@ -87,6 +87,8 @@ const CM=(()=>{
   const e=ctx.evidence(x);
   if(e.links.length){const l=e.links[0];return {kind:'link',label:l.type,text:l.reason,source:l.source.title,sourceId:l.source.id,interested:l.value===2}}
   if(e.matches.length){const m=e.matches[0];return {kind:'specific',label:'作品の特徴が共通',text:m.tags.slice(0,4).join('・'),source:m.source.title,sourceId:m.source.id,interested:m.value===2}}
+  const near=ctx.positives.filter(p=>x.cid===p.x.cid).sort((a,b)=>Number(x.sid!==null&&b.x.sid===x.sid)-Number(x.sid!==null&&a.x.sid===x.sid)||b.value-a.value)[0];
+  if(near)return {kind:'domain',label:x.sid!==null&&near.x.sid===x.sid?'同じ下位文化圏':'同じ基本文化圏',text:'文化圏の分類に基づく候補。個別作品間の関連は未登録です。',source:near.x.title,sourceId:near.x.id,interested:near.value===2};
   const t=x.tags.filter(k=>(ctx.w[k]||0)>0).sort((a,b)=>ctx.w[b]-ctx.w[a]).slice(0,4);
   return {kind:'domain',label:'文化圏・タグからの提案',text:t.length?t.join('・'):(x.sid===null?C[x.cid].name:S[x.sid].name)}
  }
@@ -116,7 +118,7 @@ const CM=(()=>{
  function recommend(C,S,I,a,feedback={}){
   const groups=roots(C,S,a),p=profile(C,S,a),hot=new Set(p.filter(x=>x.score>0).map(x=>x.id));
   const ctx=context(C,S,I,a,feedback),w=ctx.w;
-  if(!groups.length&&!ctx.positives.length)return {direct:[],bridge:[],adventure:[],byRoot:[],related:[],ctx};
+  if(!groups.length&&!ctx.positives.length)return {direct:[],bridge:[],adventure:[],byRoot:[],related:[],seedFallback:[],ctx};
   const scores=Object.fromEntries(p.map(c=>[c.id,c.score??0]));
   const seen=new Set(I.filter(x=>Object.hasOwn(feedback,x.id)||['3','0','-2'].includes(a[i(x)])).map(titleKey));
   const candidates=I.filter(x=>!seen.has(titleKey(x))&&!Object.hasOwn(feedback,x.id)&&v(a[b(C[x.cid])])!==-2&&(x.sid===null||v(a[s(S[x.sid])])!==-2));
@@ -140,6 +142,15 @@ const CM=(()=>{
    const similar=candidates.filter(x=>ctx.evidence(x).matches.some(m=>m.tags.length>=2));
    while(related.length<12){const x=choose(similar,(x,y)=>ctx.evidence(y).score-ctx.evidence(x).score||rank(y,null)-rank(x,null)||tie(x,y));if(!x)break;related.push(x)}
   }
+  // Fallback for the many works whose specific metadata has not yet been curated.
+  const seedFallback=[];
+  for(let round=0;round<3&&seedFallback.length<12;round++){
+   for(const {x:source} of sources){
+    if(seedFallback.length===12)break;
+    const x=choose(candidates.filter(x=>x.cid===source.cid&&(!groups.length||!hot.has(x.cid))),(x,y)=>Number(source.sid!==null&&y.sid===source.sid)-Number(source.sid!==null&&x.sid===source.sid)||rank(y,null)-rank(x,null)||tie(x,y));
+    if(x)seedFallback.push(x)
+   }
+  }
   const byRoot=groups.map(g=>{
    const local=groupTags(g),out=[],counts={};
    const pool=candidates.filter(x=>g.some(c=>c.id===x.cid));
@@ -155,7 +166,7 @@ const CM=(()=>{
    for(const g of groups){if(bridge.length===8)break;const local=groupTags(g);const x=choose(remote.filter(x=>!domainSeen.has(x.cid)&&common(x.tags,local).some(t=>!generic.has(t))&&affinity(x,w)>0),(x,y)=>rank(y,local)-rank(x,local)||tie(x,y));if(x){bridge.push(x);domainSeen.add(x.cid)}}
   }
   for(let k=0;k<4;k++){const x=choose(remote.filter(x=>!domainSeen.has(x.cid)&&affinity(x,w)>0),(x,y)=>Math.abs(affinity(x,w)-.4)-Math.abs(affinity(y,w)-.4)||tie(x,y));if(!x)break;adventure.push(x);domainSeen.add(x.cid)}
-  return {direct:byRoot.flat(),bridge,adventure,byRoot,related,ctx};
+  return {direct:byRoot.flat(),bridge,adventure,byRoot,related,seedFallback,ctx};
  }
  return {profile,roots,tags,affinity,makeSub,makeDetail,makeBoundary,recommend,context,explain};
 })();
