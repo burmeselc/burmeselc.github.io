@@ -1,11 +1,24 @@
 /* 文化圏の関係は編集上の仮説。実測された共起確率ではない。 */
-function buildCatalog(base,lines){
+function buildCatalog(base,lines,expansion=[]){
  const C=base.map(c=>({...c,baseItems:c.items.map(x=>({...x,cid:c.id,sid:null})),items:c.items.map(x=>({...x,cid:c.id,sid:null}))}));
  const SUBS=lines.map((line,id)=>{
   const [pid,name,tagText,titleText]=line.split('|'),cid=Number(pid),tags=tagText.split(',');
   const items=titleText.split(';').map((title,j)=>({id:'s'+id+'-'+j,cid,sid:id,title,desc:name+'の関連資料・作品。',tags:[...tags]}));
   C[cid].items.push(...items);
   return {id,cid,name,tags,items,prompt:C[cid].name+'のうち、'+name+'にどのくらい関心がありますか？ 例：'+items.slice(0,3).map(x=>x.title).join('、')};
+ });
+ // Append only: existing IDs, saved answers and feedback are preserved.
+ const known=new Set(C.flatMap(c=>c.items).map(x=>x.title.normalize('NFKC').replace(/[　\s]/g,'').toLowerCase()));
+ expansion.forEach(line=>{
+  const [rawSid,titles]=line.split('|'),sid=Number(rawSid),s=SUBS[sid];
+  if(!s||!titles)return;
+  titles.split(';').forEach((title,j)=>{
+   const key=title.normalize('NFKC').replace(/[　\s]/g,'').toLowerCase();
+   if(!title||known.has(key))return;
+   known.add(key);
+   const x={id:'x'+sid+'-'+j,cid:s.cid,sid,title,desc:s.name+'の関連資料・作品。',tags:[...s.tags]};
+   s.items.push(x);C[s.cid].items.push(x);
+  });
  });
  const ITEMS=C.flatMap(c=>c.items),BY=Object.fromEntries(ITEMS.map(x=>[x.id,x]));
  return {C,SUBS,ITEMS,BY};
