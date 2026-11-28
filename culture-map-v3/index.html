@@ -23,9 +23,9 @@ h1,h2,h3{font-family:var(--display);font-weight:900;line-height:1.35}h1{font-siz
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="logo" href="#home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>サブカル文化圏診断 <small style="color:var(--accent)">v0.3</small></a><nav aria-label="メイン"><a href="#test">診断する</a><a href="#works">作品から探す</a><a href="#cultures">文化圏一覧</a><a href="#about">この診断について</a></nav></div></header>
+<header><div class="wrap"><a class="logo" href="#home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>サブカル文化圏診断 <small style="color:var(--accent)">v0.3.1</small></a><nav aria-label="メイン"><a href="#test">診断する</a><a href="#works">作品から探す</a><a href="#cultures">文化圏一覧</a><a href="#about">この診断について</a></nav></div></header>
 <main id="app"></main>
-<footer><div class="wrap">サブカル文化圏診断 v0.3 — 16タイプ診断の発想から派生した実験的な文化マップ。性格・能力を測るものではありません。</div></footer>
+<footer><div class="wrap">サブカル文化圏診断 v0.3.1 — 16タイプ診断の発想から派生した実験的な文化マップ。性格・能力を測るものではありません。</div></footer>
 <script src="../culture-map-v2/base.js"></script>
 <script src="../culture-map-v2/catalog-a.js"></script>
 <script src="../culture-map-v2/catalog-b.js"></script>
@@ -33,10 +33,11 @@ h1,h2,h3{font-family:var(--display);font-weight:900;line-height:1.35}h1{font-siz
 <script src="../culture-map-v2/expansion-b.js"></script>
 <script src="metadata.js"></script>
 <script src="relations.js"></script>
+<script src="curation-031.js"></script>
 <script src="engine.js"></script>
 <script>
 'use strict';
-const {C,SUBS,ITEMS,BY}=buildCatalog(CULTURES,[...CATALOG_A,...CATALOG_B],[...EXPANSION_A,...EXPANSION_B],[...ITEM_METADATA,...EXTRA_METADATA],ITEM_RELATIONS);
+const {C,SUBS,ITEMS,BY}=buildCatalog(CULTURES,[...CATALOG_A,...CATALOG_B],[...EXPANSION_A,...EXPANSION_B],[...ITEM_METADATA,...EXTRA_METADATA,...METADATA_031],[...ITEM_RELATIONS,...RELATIONS_031]);
 const GROUPS=[...new Set(C.map(c=>c.group))], COLORS=['#7a5fc4','#d9a21f','#3f9a6b','#2f8fb3','#be745b','#8277ab','#5a9a96','#a58d53'];
 const color=c=>COLORS[GROUPS.indexOf(c.group)]||COLORS[0];
 const app=document.getElementById('app'), KEY='culture-map-v03', OLD_KEY='culture-map-v02';
@@ -65,7 +66,7 @@ const makeBoundary=a=>CM.makeBoundary(C,SUBS,ITEMS,a);
 const recommendations=a=>CM.recommend(C,SUBS,ITEMS,a,state.feedback||{});
 function home(){
  const tiles=GROUPS.map((g,i)=>'<div class="tile" style="--gc:'+COLORS[i]+'"><strong>'+esc(g)+'</strong><p>'+C.filter(c=>c.group===g).map(c=>esc(c.name)).slice(0,3).join('・')+' ほか</p></div>').join('');
- app.innerHTML='<section class="hero"><div class="wrap narrow"><h1>あなたの趣味は、<br>どこに根を張っている？</h1><p class="lead">映画、音楽、漫画、ネット、歴史、技術。好きなものはジャンルを越えてつながっている。48の基本文化圏と96の下位文化圏をたどって、あなたの趣味の地図と、まだ知らない隣の世界を見つけます。</p><div class="actions"><button class="btn" id="begin">'+(state.done?'もう一度診断する':Object.keys(state.answers).length?'診断を続ける':'診断する')+'</button>'+(state.done?'<a class="btn ghost" href="#result">前回の結果</a>':'')+'</div><div class="meta">最大88問・目安10〜15分 ／ 2,208件の推薦データ・106組の作品間関連 ／ 回答によって後半の質問が変わります</div></div></section><section class="wrap"><div class="steps"><div class="tile"><span class="stepnum">01 / 探索</span><h3>好きな文化圏を探す</h3><p>幅広い趣味について関心を尋ねます。</p></div><div class="tile"><span class="stepnum">02 / 細分化</span><h3>趣味の内訳を探る</h3><p>関心領域の下位文化圏を確認します。</p></div><div class="tile"><span class="stepnum">03–04 / 深化と越境</span><h3>作品と隣の世界を探す</h3><p>具体的な作品と未知の領域を確認します。</p></div></div></section><section class="band wrap"><h2>8つの入口、144の文化圏</h2><div class="grid">'+tiles+'</div><div class="actions"><a class="btn ghost" href="#works">診断せず、好きな作品から探す</a><a class="btn ghost" href="#cultures">文化圏をすべて見る</a><button class="btn ghost" id="demo">サンプルの結果を見る</button></div></section>';
+ app.innerHTML='<section class="hero"><div class="wrap narrow"><h1>あなたの趣味は、<br>どこに根を張っている？</h1><p class="lead">映画、音楽、漫画、ネット、歴史、技術。好きなものはジャンルを越えてつながっている。48の基本文化圏と96の下位文化圏をたどって、あなたの趣味の地図と、まだ知らない隣の世界を見つけます。</p><div class="actions"><button class="btn" id="begin">'+(state.done?'もう一度診断する':Object.keys(state.answers).length?'診断を続ける':'診断する')+'</button>'+(state.done?'<a class="btn ghost" href="#result">前回の結果</a>':'')+'</div><div class="meta">最大88問・目安10〜15分 ／ 2,208件の推薦データ・200組の作品間関連 ／ 回答によって後半の質問が変わります</div></div></section><section class="wrap"><div class="steps"><div class="tile"><span class="stepnum">01 / 探索</span><h3>好きな文化圏を探す</h3><p>幅広い趣味について関心を尋ねます。</p></div><div class="tile"><span class="stepnum">02 / 細分化</span><h3>趣味の内訳を探る</h3><p>関心領域の下位文化圏を確認します。</p></div><div class="tile"><span class="stepnum">03–04 / 深化と越境</span><h3>作品と隣の世界を探す</h3><p>具体的な作品と未知の領域を確認します。</p></div></div></section><section class="band wrap"><h2>8つの入口、144の文化圏</h2><div class="grid">'+tiles+'</div><div class="actions"><a class="btn ghost" href="#works">診断せず、好きな作品から探す</a><a class="btn ghost" href="#cultures">文化圏をすべて見る</a><button class="btn ghost" id="demo">サンプルの結果を見る</button></div></section>';
  document.getElementById('begin').onclick=()=>state.done?restart():go('test');document.getElementById('demo').onclick=demo;
 }
 function cultures(){
@@ -82,7 +83,7 @@ function cultures(){
 
 }
 function about(){
- app.innerHTML='<section class="band wrap narrow"><h1>この診断について</h1><div class="panel"><h2>好きなものを、性格から推定しない。</h2><p>元のサブカル16タイプ診断は、趣味への態度を4軸で測るものでした。この派生版では「何に関心を持つか」だけを調べます。趣味の優劣や、マイナーさによる序列はありません。</p></div><div class="panel"><h2>設問と採点</h2><p>48の基本文化圏を一度ずつ尋ねます。その回答から最大16問の下位文化圏、最大16問の具体的な対象、最大8問の隣接領域を選びます。興味なし=-2、中立=0、興味あり=2、好き=3、判断不能は欠測として扱います。文化圏の指標は、初回の領域回答を4倍、下位文化圏と個別回答を各1倍とした平均の正の部分を100点換算したものです。百分率は人口比や好きになる確率ではありません。</p><p>推薦では、作品ごとの文化圏とタグに回答を重み付けして照合します。既に好き、普通、興味なしと回答した対象は除外します。「知らないが興味あり」は候補に残します。関連する別領域も推薦します。複数の関心領域に順番に推薦枠を割り当てます。結果画面での評価や「作品から探す」で登録した好きな作品は別に保存します。登録した作品との具体的な関連や個別特徴の一致を推薦に反映し、文化圏だけから選んだ提案と区別します。</p></div><div class="panel"><h2>試作版の限界</h2><p>48基本文化圏・96下位文化圏・2,208対象・関連タグは編集上の仮説です。v0.3では251件に個別の特徴と解説を付け、106組の作品間の関連を登録しました。その他の候補には以前の説明・文化圏共通タグを用います。書誌や個別の関連は全件を外部資料で確認したものではありません。利用者の共起データに基づく協調フィルタリングではなく、心理測定としても検証されていません。収録範囲には偏りがあります。文化圏の境界と推薦の関連は、見直す余地があります。</p><p>回答はブラウザのローカルストレージにのみ保存し、サーバーへ送信しません。v0.2.1の回答が同じ端末にあれば初回のみコピーして引き継ぎます。以後の保存は旧版とは独立しています。外部フォントと検索リンクを利用する場合を除き、外部サービスへの通信はありません。</p><button class="btn ghost" id="clear">保存した回答を削除する</button></div></section>';
+ app.innerHTML='<section class="band wrap narrow"><h1>この診断について</h1><div class="panel"><h2>好きなものを、性格から推定しない。</h2><p>元のサブカル16タイプ診断は、趣味への態度を4軸で測るものでした。この派生版では「何に関心を持つか」だけを調べます。趣味の優劣や、マイナーさによる序列はありません。</p></div><div class="panel"><h2>設問と採点</h2><p>48の基本文化圏を一度ずつ尋ねます。その回答から最大16問の下位文化圏、最大16問の具体的な対象、最大8問の隣接領域を選びます。興味なし=-2、中立=0、興味あり=2、好き=3、判断不能は欠測として扱います。文化圏の指標は、初回の領域回答を4倍、下位文化圏と個別回答を各1倍とした平均の正の部分を100点換算したものです。百分率は人口比や好きになる確率ではありません。</p><p>推薦では、作品ごとの文化圏とタグに回答を重み付けして照合します。既に好き、普通、興味なしと回答した対象は除外します。「知らないが興味あり」は候補に残します。関連する別領域も推薦します。複数の関心領域に順番に推薦枠を割り当てます。結果画面での評価や「作品から探す」で登録した好きな作品は別に保存します。登録した作品との具体的な関連や個別特徴の一致を推薦に反映し、文化圏だけから選んだ提案と区別します。</p></div><div class="panel"><h2>試作版の限界</h2><p>48基本文化圏・96下位文化圏・2,208対象・関連タグは編集上の仮説です。v0.3.1では362件に個別の特徴と解説を付け、200組の作品間の関連を登録しました。その他の候補には以前の説明・文化圏共通タグを用います。書誌や個別の関連は全件を外部資料で確認したものではありません。利用者の共起データに基づく協調フィルタリングではなく、心理測定としても検証されていません。収録範囲には偏りがあります。文化圏の境界と推薦の関連は、見直す余地があります。</p><p>回答はブラウザのローカルストレージにのみ保存し、サーバーへ送信しません。v0.2.1の回答が同じ端末にあれば初回のみコピーして引き継ぎます。以後の保存は旧版とは独立しています。外部フォントと検索リンクを利用する場合を除き、外部サービスへの通信はありません。</p><button class="btn ghost" id="clear">保存した回答を削除する</button></div></section>';
  document.getElementById('clear').onclick=()=>{if(confirm('この端末に保存された回答を削除しますか？')){try{localStorage.setItem(KEY,JSON.stringify({version:2,feedback:{},answers:{},pages:startPages(),page:0,done:false,sample:false}))}catch(e){}state={version:2,feedback:{},answers:{},pages:startPages(),page:0,done:false,sample:false};go('home')}};
 }
 const STAGES=['文化圏を探す','下位文化圏を探る','具体的な作品を選ぶ','隣接する領域を探る'];
